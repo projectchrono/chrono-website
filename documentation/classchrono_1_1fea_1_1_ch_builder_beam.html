@@ -1,0 +1,400 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::fea::ChBuilderBeam Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1fea.html">fea</a></li><li class="navelem"><a class="el" href="classchrono_1_1fea_1_1_ch_builder_beam.html">ChBuilderBeam</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1fea_1_1_ch_builder_beam-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::fea::ChBuilderBeam Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for an helper object that provides easy functions to create complex beams, for example subdivides a segment in multiple finite elements. </p>
+</div>
+<p><code>#include &lt;ChBuilderBeam.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa43d9c5aae3cc00249cd4530f47cef94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_builder_beam.html#aa43d9c5aae3cc00249cd4530f47cef94">BuildBeam</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_mesh.html">ChMesh</a> &gt; mesh, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_advanced.html">ChBeamSectionAdvanced</a> &gt; sect, const int N, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; A, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; B, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; Ydir)</td></tr>
+<tr class="memdesc:aa43d9c5aae3cc00249cd4530f47cef94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function.  <a href="#aa43d9c5aae3cc00249cd4530f47cef94">More...</a><br /></td></tr>
+<tr class="separator:aa43d9c5aae3cc00249cd4530f47cef94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb501bd5ce84ff9d6d7c7e3a6754bc40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_builder_beam.html#acb501bd5ce84ff9d6d7c7e3a6754bc40">BuildBeam</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_mesh.html">ChMesh</a> &gt; mesh, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_advanced.html">ChBeamSectionAdvanced</a> &gt; sect, const int N, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a> &gt; nodeA, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a> &gt; nodeB, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; Ydir)</td></tr>
+<tr class="memdesc:acb501bd5ce84ff9d6d7c7e3a6754bc40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function.  <a href="#acb501bd5ce84ff9d6d7c7e3a6754bc40">More...</a><br /></td></tr>
+<tr class="separator:acb501bd5ce84ff9d6d7c7e3a6754bc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16e5cee2565739e5b5839b668552bb82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_builder_beam.html#a16e5cee2565739e5b5839b668552bb82">BuildBeam</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_mesh.html">ChMesh</a> &gt; mesh, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_advanced.html">ChBeamSectionAdvanced</a> &gt; sect, const int N, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a> &gt; nodeA, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; B, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; Ydir)</td></tr>
+<tr class="memdesc:a16e5cee2565739e5b5839b668552bb82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function.  <a href="#a16e5cee2565739e5b5839b668552bb82">More...</a><br /></td></tr>
+<tr class="separator:a16e5cee2565739e5b5839b668552bb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af15a549ae84b8717662d62bc70256d7f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html">ChElementBeamEuler</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_builder_beam.html#af15a549ae84b8717662d62bc70256d7f">GetLastBeamElements</a> ()</td></tr>
+<tr class="memdesc:af15a549ae84b8717662d62bc70256d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the list of elements used by the last built beam.  <a href="#af15a549ae84b8717662d62bc70256d7f">More...</a><br /></td></tr>
+<tr class="separator:af15a549ae84b8717662d62bc70256d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a250b379507103d5b6977548d3f6df656"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_builder_beam.html#a250b379507103d5b6977548d3f6df656">GetLastBeamNodes</a> ()</td></tr>
+<tr class="memdesc:a250b379507103d5b6977548d3f6df656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the list of nodes used by the last built beam.  <a href="#a250b379507103d5b6977548d3f6df656">More...</a><br /></td></tr>
+<tr class="separator:a250b379507103d5b6977548d3f6df656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:adcfaac7227efe72eb5e22f0ce980f799"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adcfaac7227efe72eb5e22f0ce980f799"></a>
+std::vector&lt; std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html">ChElementBeamEuler</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>beam_elems</b></td></tr>
+<tr class="separator:adcfaac7227efe72eb5e22f0ce980f799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a393cdac4762fdc1041ac0cb97eb07a6a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a393cdac4762fdc1041ac0cb97eb07a6a"></a>
+std::vector&lt; std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>beam_nodes</b></td></tr>
+<tr class="separator:a393cdac4762fdc1041ac0cb97eb07a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa43d9c5aae3cc00249cd4530f47cef94"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChBuilderBeam::BuildBeam </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_mesh.html">ChMesh</a> &gt;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_advanced.html">ChBeamSectionAdvanced</a> &gt;&#160;</td>
+          <td class="paramname"><em>sect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;&#160;</td>
+          <td class="paramname"><em>Ydir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Helper function. </p>
+<p>Adds beam FEM elements to the mesh to create a segment beam from point A to point B, using <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html" title="Simple beam element with two nodes and Euler-Bernoulli formulation. ">ChElementBeamEuler</a> type elements. Before running, each time resets lists of beam_elems and beam_nodes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mesh</td><td>mesh to store the resulting elements </td></tr>
+    <tr><td class="paramname">sect</td><td>section material for beam elements </td></tr>
+    <tr><td class="paramname">N</td><td>number of elements in the segment </td></tr>
+    <tr><td class="paramname">A</td><td>starting point </td></tr>
+    <tr><td class="paramname">B</td><td>ending point </td></tr>
+    <tr><td class="paramname">Ydir</td><td>the 'up' Y direction of the beam </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="acb501bd5ce84ff9d6d7c7e3a6754bc40"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChBuilderBeam::BuildBeam </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_mesh.html">ChMesh</a> &gt;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_advanced.html">ChBeamSectionAdvanced</a> &gt;&#160;</td>
+          <td class="paramname"><em>sect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a> &gt;&#160;</td>
+          <td class="paramname"><em>nodeA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a> &gt;&#160;</td>
+          <td class="paramname"><em>nodeB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;&#160;</td>
+          <td class="paramname"><em>Ydir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Helper function. </p>
+<p>Adds beam FEM elements to the mesh to create a segment beam from one existing node to another existing node, using <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html" title="Simple beam element with two nodes and Euler-Bernoulli formulation. ">ChElementBeamEuler</a> type elements. Before running, each time resets lists of beam_elems and beam_nodes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mesh</td><td>mesh to store the resulting elements </td></tr>
+    <tr><td class="paramname">sect</td><td>section material for beam elements </td></tr>
+    <tr><td class="paramname">N</td><td>number of elements in the segment </td></tr>
+    <tr><td class="paramname">nodeA</td><td>starting point </td></tr>
+    <tr><td class="paramname">nodeB</td><td>ending point </td></tr>
+    <tr><td class="paramname">Ydir</td><td>the 'up' Y direction of the beam </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a16e5cee2565739e5b5839b668552bb82"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChBuilderBeam::BuildBeam </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_mesh.html">ChMesh</a> &gt;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_advanced.html">ChBeamSectionAdvanced</a> &gt;&#160;</td>
+          <td class="paramname"><em>sect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a> &gt;&#160;</td>
+          <td class="paramname"><em>nodeA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;&#160;</td>
+          <td class="paramname"><em>Ydir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Helper function. </p>
+<p>Adds beam FEM elements to the mesh to create a segment beam from one existing node to a point B, using <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html" title="Simple beam element with two nodes and Euler-Bernoulli formulation. ">ChElementBeamEuler</a> type elements. Before running, each time resets lists of beam_elems and beam_nodes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mesh</td><td>mesh to store the resulting elements </td></tr>
+    <tr><td class="paramname">sect</td><td>section material for beam elements </td></tr>
+    <tr><td class="paramname">N</td><td>number of elements in the segment </td></tr>
+    <tr><td class="paramname">nodeA</td><td>starting point </td></tr>
+    <tr><td class="paramname">B</td><td>ending point </td></tr>
+    <tr><td class="paramname">Ydir</td><td>the 'up' Y direction of the beam </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af15a549ae84b8717662d62bc70256d7f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::shared_ptr&lt;<a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html">ChElementBeamEuler</a>&gt; &gt;&amp; chrono::fea::ChBuilderBeam::GetLastBeamElements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access the list of elements used by the last built beam. </p>
+<p>It can be useful for changing properties afterwards. This list is reset all times a 'Build...' function is called. </p>
+
+</div>
+</div>
+<a class="anchor" id="a250b379507103d5b6977548d3f6df656"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::shared_ptr&lt;<a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a>&gt; &gt;&amp; chrono::fea::ChBuilderBeam::GetLastBeamNodes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access the list of nodes used by the last built beam. </p>
+<p>It can be useful for adding constraints or changing properties afterwards. This list is reset all times a 'Build...' function is called. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:20 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

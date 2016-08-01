@@ -1,0 +1,613 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::RigidTerrain Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html">RigidTerrain</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_rigid_terrain-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::RigidTerrain Class Reference<div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__terrain.html">Terrain models</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Rigid terrain model. </p>
+<p>This class implements a terrain modeled as a rigid shape which can interact through contact and friction with any other bodies whose contact flag is enabled. In particular, this type of terrain can be used in conjunction with a <a class="el" href="classchrono_1_1vehicle_1_1_ch_rigid_tire.html" title="Rigid tire model. ">ChRigidTire</a>. </p>
+</div>
+<p><code>#include &lt;RigidTerrain.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::RigidTerrain:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_rigid_terrain__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_rigid_terrain_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_rigid_terrain_inherit__map" id="chrono_1_1vehicle_1_1_rigid_terrain_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_terrain.html" title="Base class for a terrain system. " alt="" coords="12,5,187,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::vehicle::RigidTerrain:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_rigid_terrain__coll__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_rigid_terrain_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1vehicle_1_1_rigid_terrain_coll__map" id="chrono_1_1vehicle_1_1_rigid_terrain_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_terrain.html" title="Base class for a terrain system. " alt="" coords="12,5,187,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a3d9b761fcca72ff64edc69695f0513a7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d9b761fcca72ff64edc69695f0513a7"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Type</b> { <b>FLAT</b>, 
+<b>MESH</b>, 
+<b>HEIGHT_MAP</b>
+ }</td></tr>
+<tr class="separator:a3d9b761fcca72ff64edc69695f0513a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad847c047f328c8b80b89eebef333e769"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html#ad847c047f328c8b80b89eebef333e769">RigidTerrain</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *system)</td></tr>
+<tr class="memdesc:ad847c047f328c8b80b89eebef333e769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a default <a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html" title="Rigid terrain model. ">RigidTerrain</a>.  <a href="#ad847c047f328c8b80b89eebef333e769">More...</a><br /></td></tr>
+<tr class="separator:ad847c047f328c8b80b89eebef333e769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4722f5522bfeb0b9f02f2980862e88b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html#a4722f5522bfeb0b9f02f2980862e88b0">RigidTerrain</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *system, const std::string &amp;filename)</td></tr>
+<tr class="memdesc:a4722f5522bfeb0b9f02f2980862e88b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html" title="Rigid terrain model. ">RigidTerrain</a> from a JSON specification file.  <a href="#a4722f5522bfeb0b9f02f2980862e88b0">More...</a><br /></td></tr>
+<tr class="separator:a4722f5522bfeb0b9f02f2980862e88b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a527fdc67cfc98d24550863d77fe2707e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html#a527fdc67cfc98d24550863d77fe2707e">SetContactMaterial</a> (float friction_coefficient=0.6f, float restitution_coefficient=0.1, float young_modulus=2e5f, float poisson_ratio=0.3f, float kn=2.0e5f, float gn=40.0f, float kt=2.0e5f, float gt=20.0f)</td></tr>
+<tr class="memdesc:a527fdc67cfc98d24550863d77fe2707e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set contact material properties.  <a href="#a527fdc67cfc98d24550863d77fe2707e">More...</a><br /></td></tr>
+<tr class="separator:a527fdc67cfc98d24550863d77fe2707e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65f060d3032e63191b7ac8cd34acb367"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html#a65f060d3032e63191b7ac8cd34acb367">SetColor</a> (<a class="el" href="classchrono_1_1_ch_color.html">ChColor</a> color)</td></tr>
+<tr class="memdesc:a65f060d3032e63191b7ac8cd34acb367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set visualization color.  <a href="#a65f060d3032e63191b7ac8cd34acb367">More...</a><br /></td></tr>
+<tr class="separator:a65f060d3032e63191b7ac8cd34acb367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57418a7b36ded379f33539a65b1251b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html#a57418a7b36ded379f33539a65b1251b3">SetTexture</a> (const std::string tex_file, float tex_scale_x=1, float tex_scale_y=1)</td></tr>
+<tr class="memdesc:a57418a7b36ded379f33539a65b1251b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set texture properties.  <a href="#a57418a7b36ded379f33539a65b1251b3">More...</a><br /></td></tr>
+<tr class="separator:a57418a7b36ded379f33539a65b1251b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07df9d6a940f39ee71bd43cf14ce0bb4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07df9d6a940f39ee71bd43cf14ce0bb4"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html#a07df9d6a940f39ee71bd43cf14ce0bb4">GetGroundBody</a> ()</td></tr>
+<tr class="memdesc:a07df9d6a940f39ee71bd43cf14ce0bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a handle to the ground body. <br /></td></tr>
+<tr class="separator:a07df9d6a940f39ee71bd43cf14ce0bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d808b40d0de877fb5a870fc50879cef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html#a7d808b40d0de877fb5a870fc50879cef">Initialize</a> (double height, double sizeX, double sizeY, bool tiled=false, double max_tile_size=1)</td></tr>
+<tr class="memdesc:a7d808b40d0de877fb5a870fc50879cef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the terrain system (flat).  <a href="#a7d808b40d0de877fb5a870fc50879cef">More...</a><br /></td></tr>
+<tr class="separator:a7d808b40d0de877fb5a870fc50879cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f29482f0d04b441c18a909ca6978b6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html#a4f29482f0d04b441c18a909ca6978b6c">Initialize</a> (const std::string &amp;mesh_file, const std::string &amp;mesh_name, double sweep_sphere_radius=0)</td></tr>
+<tr class="memdesc:a4f29482f0d04b441c18a909ca6978b6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the terrain system (mesh).  <a href="#a4f29482f0d04b441c18a909ca6978b6c">More...</a><br /></td></tr>
+<tr class="separator:a4f29482f0d04b441c18a909ca6978b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf688d0bac200731bcf233fd7c895d81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html#adf688d0bac200731bcf233fd7c895d81">Initialize</a> (const std::string &amp;heightmap_file, const std::string &amp;mesh_name, double sizeX, double sizeY, double hMin, double hMax)</td></tr>
+<tr class="memdesc:adf688d0bac200731bcf233fd7c895d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the terrain system (height map).  <a href="#adf688d0bac200731bcf233fd7c895d81">More...</a><br /></td></tr>
+<tr class="separator:adf688d0bac200731bcf233fd7c895d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a888acc7f3c919f0663b6bc12dea605d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html#a888acc7f3c919f0663b6bc12dea605d9">ExportMeshPovray</a> (const std::string &amp;out_dir)</td></tr>
+<tr class="memdesc:a888acc7f3c919f0663b6bc12dea605d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Export the terrain mesh (if any) as a macro in a PovRay include file.  <a href="#a888acc7f3c919f0663b6bc12dea605d9">More...</a><br /></td></tr>
+<tr class="separator:a888acc7f3c919f0663b6bc12dea605d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad832453da76e590897cbead7581540b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad832453da76e590897cbead7581540b8"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html#ad832453da76e590897cbead7581540b8">GetHeight</a> (double x, double y) const override</td></tr>
+<tr class="memdesc:ad832453da76e590897cbead7581540b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the terrain height at the specified (x,y) location. <br /></td></tr>
+<tr class="separator:ad832453da76e590897cbead7581540b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22fc47f15a5d2d6460c7885f4c45ea53"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22fc47f15a5d2d6460c7885f4c45ea53"></a>
+virtual <a class="el" href="classchrono_1_1_ch_vector.html">chrono::ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html#a22fc47f15a5d2d6460c7885f4c45ea53">GetNormal</a> (double x, double y) const override</td></tr>
+<tr class="memdesc:a22fc47f15a5d2d6460c7885f4c45ea53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the terrain normal at the specified (x,y) location. <br /></td></tr>
+<tr class="separator:a22fc47f15a5d2d6460c7885f4c45ea53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1vehicle_1_1_ch_terrain"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1vehicle_1_1_ch_terrain')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_terrain.html">chrono::vehicle::ChTerrain</a></td></tr>
+<tr class="memitem:a381a9326b1296e71b58a7082d8108db3 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_terrain"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a381a9326b1296e71b58a7082d8108db3"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_terrain.html#a381a9326b1296e71b58a7082d8108db3">Synchronize</a> (double time)</td></tr>
+<tr class="memdesc:a381a9326b1296e71b58a7082d8108db3 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_terrain"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the state of the terrain system at the specified time. <br /></td></tr>
+<tr class="separator:a381a9326b1296e71b58a7082d8108db3 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_terrain"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98c6db9a5044ec7bbdbeaae6eabfe48d inherit pub_methods_classchrono_1_1vehicle_1_1_ch_terrain"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a98c6db9a5044ec7bbdbeaae6eabfe48d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_terrain.html#a98c6db9a5044ec7bbdbeaae6eabfe48d">Advance</a> (double step)</td></tr>
+<tr class="memdesc:a98c6db9a5044ec7bbdbeaae6eabfe48d inherit pub_methods_classchrono_1_1vehicle_1_1_ch_terrain"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance the state of the terrain system by the specified duration. <br /></td></tr>
+<tr class="separator:a98c6db9a5044ec7bbdbeaae6eabfe48d inherit pub_methods_classchrono_1_1vehicle_1_1_ch_terrain"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ad847c047f328c8b80b89eebef333e769"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::vehicle::RigidTerrain::RigidTerrain </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *&#160;</td>
+          <td class="paramname"><em>system</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a default <a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html" title="Rigid terrain model. ">RigidTerrain</a>. </p>
+<p>The user is responsible for calling various Set methods before Initialize. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">system</td><td>pointer to the containing multibody system </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4722f5522bfeb0b9f02f2980862e88b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::vehicle::RigidTerrain::RigidTerrain </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *&#160;</td>
+          <td class="paramname"><em>system</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>filename</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a <a class="el" href="classchrono_1_1vehicle_1_1_rigid_terrain.html" title="Rigid terrain model. ">RigidTerrain</a> from a JSON specification file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">system</td><td>pointer to the containing multibody system </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">filename</td><td>name of the JSON specification file </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a888acc7f3c919f0663b6bc12dea605d9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::RigidTerrain::ExportMeshPovray </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>out_dir</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Export the terrain mesh (if any) as a macro in a PovRay include file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">out_dir</td><td>output directory </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7d808b40d0de877fb5a870fc50879cef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::RigidTerrain::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sizeX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sizeY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>tiled</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>max_tile_size</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the terrain system (flat). </p>
+<p>This version uses a rigid box of specified dimensions and with specified material properties. If tiled = true, multiple side-by-side boxes are used. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">height</td><td>terrain height </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sizeX</td><td>terrain dimension in the X direction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sizeY</td><td>terrain dimension in the Y direction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tiled</td><td>terrain created from multiple tiled boxes </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max_tile_size</td><td>maximum tile size </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4f29482f0d04b441c18a909ca6978b6c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::RigidTerrain::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>mesh_file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>mesh_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sweep_sphere_radius</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the terrain system (mesh). </p>
+<p>this version uses the specified mesh, for both visualization and contact. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh_file</td><td>filename of the input mesh (OBJ) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh_name</td><td>name of the mesh asset </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sweep_sphere_radius</td><td>radius of sweep sphere </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="adf688d0bac200731bcf233fd7c895d81"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::RigidTerrain::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>heightmap_file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>mesh_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sizeX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sizeY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>hMin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>hMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the terrain system (height map). </p>
+<p>This version uses the specified BMP file as a height map to create a mesh for both contact and visualization. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">heightmap_file</td><td>filename for the height map (BMP) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh_name</td><td>name of the mesh asset </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sizeX</td><td>terrain dimension in the X direction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sizeY</td><td>terrain dimension in the Y direction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hMin</td><td>minimum height (black level) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hMax</td><td>maximum height (white level) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a65f060d3032e63191b7ac8cd34acb367"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::RigidTerrain::SetColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_color.html">ChColor</a>&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set visualization color. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>color of the visualization material </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a527fdc67cfc98d24550863d77fe2707e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::RigidTerrain::SetContactMaterial </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>friction_coefficient</em> = <code>0.6f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>restitution_coefficient</em> = <code>0.1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>young_modulus</em> = <code>2e5f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>poisson_ratio</em> = <code>0.3f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>kn</em> = <code>2.0e5f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>gn</em> = <code>40.0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>kt</em> = <code>2.0e5f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>gt</em> = <code>20.0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set contact material properties. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">friction_coefficient</td><td>coefficient of friction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">restitution_coefficient</td><td>coefficient of restitution </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">young_modulus</td><td>Young's modulus of elasticity </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">poisson_ratio</td><td>Poisson ratio </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">kn</td><td>normal contact stiffness </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gn</td><td>normal contact damping </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">kt</td><td>tangential contact stiffness </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gt</td><td>tangential contact damping </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a57418a7b36ded379f33539a65b1251b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::RigidTerrain::SetTexture </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>tex_file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tex_scale_x</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tex_scale_y</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set texture properties. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tex_file</td><td>texture filename </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tex_scale_x</td><td>texture scale in X </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tex_scale_y</td><td>texture scale in Y </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:25 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

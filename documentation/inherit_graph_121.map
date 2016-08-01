@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classchrono_1_1collision_1_1_ch_collision_system.html" title="Base class for generic collision engine. " alt="" coords="5,104,140,145"/>
+<area shape="rect" id="node2" href="$classchrono_1_1collision_1_1_ch_collision_system_bullet.html" title="Class for collision engine based on the &#39;Bullet&#39; library. " alt="" coords="210,5,377,47"/>
+<area shape="rect" id="node3" href="$classchrono_1_1collision_1_1_ch_collision_system_bullet_parallel.html" title="Class for collision engine based on the spatial subdivision method. " alt="" coords="188,71,399,112"/>
+<area shape="rect" id="node4" href="$classchrono_1_1collision_1_1_ch_collision_system_parallel.html" title="Class for collision engine based on the spatial subdivision method. " alt="" coords="205,136,382,177"/>
+<area shape="rect" id="node5" href="$classchrono_1_1collision_1_1_ch_collision_system_spheres.html" title="Class for collision engine based on the &#39;Bullet&#39; library. " alt="" coords="202,201,385,243"/>
+</map>

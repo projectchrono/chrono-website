@@ -1,0 +1,370 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChPowertrain Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html">ChPowertrain</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_powertrain-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChPowertrain Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__powertrain.html">Powertrain models</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for a powertrain system. </p>
+</div>
+<p><code>#include &lt;ChPowertrain.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::ChPowertrain:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_powertrain__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_powertrain_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_powertrain_inherit__map" id="chrono_1_1vehicle_1_1_ch_powertrain_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_shafts_powertrain.html" title="Template for a powertrain model using shaft elements. " alt="" coords="5,80,179,121"/>
+<area shape="rect" id="node3" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html" title="Template for simplified powertrain model. " alt="" coords="203,80,378,121"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a9ace54d15d4209d976db03c5121eb56b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56b">DriveMode</a> { <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56babf084f87614031f162011794b61a59cd">FORWARD</a>, 
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56baf526c934af797c3f978eec8f358772f6">NEUTRAL</a>, 
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56ba6f8acee39ba5b756723578477fe33489">REVERSE</a>
+ }<tr class="memdesc:a9ace54d15d4209d976db03c5121eb56b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driving modes.  <a href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56b">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a9ace54d15d4209d976db03c5121eb56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a97a17678809e47b8255714316899e694"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a97a17678809e47b8255714316899e694"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a97a17678809e47b8255714316899e694">GetMotorSpeed</a> () const =0</td></tr>
+<tr class="memdesc:a97a17678809e47b8255714316899e694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current engine speed. <br /></td></tr>
+<tr class="separator:a97a17678809e47b8255714316899e694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0911056c5928f0a8bf58ff282fa1df0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0911056c5928f0a8bf58ff282fa1df0"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#ad0911056c5928f0a8bf58ff282fa1df0">GetMotorTorque</a> () const =0</td></tr>
+<tr class="memdesc:ad0911056c5928f0a8bf58ff282fa1df0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current engine torque. <br /></td></tr>
+<tr class="separator:ad0911056c5928f0a8bf58ff282fa1df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e70c37aefe0b1ba62587a7e83bc0e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a79e70c37aefe0b1ba62587a7e83bc0e2"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a79e70c37aefe0b1ba62587a7e83bc0e2">GetTorqueConverterSlippage</a> () const =0</td></tr>
+<tr class="memdesc:a79e70c37aefe0b1ba62587a7e83bc0e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the value of slippage in the torque converter. <br /></td></tr>
+<tr class="separator:a79e70c37aefe0b1ba62587a7e83bc0e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a643d8992dcf397cac21dea042cf8a7b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a643d8992dcf397cac21dea042cf8a7b5"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a643d8992dcf397cac21dea042cf8a7b5">GetTorqueConverterInputTorque</a> () const =0</td></tr>
+<tr class="memdesc:a643d8992dcf397cac21dea042cf8a7b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the input torque to the torque converter. <br /></td></tr>
+<tr class="separator:a643d8992dcf397cac21dea042cf8a7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae571daf2053f17b814cc23810e0387be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae571daf2053f17b814cc23810e0387be"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#ae571daf2053f17b814cc23810e0387be">GetTorqueConverterOutputTorque</a> () const =0</td></tr>
+<tr class="memdesc:ae571daf2053f17b814cc23810e0387be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the output torque from the torque converter. <br /></td></tr>
+<tr class="separator:ae571daf2053f17b814cc23810e0387be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5cf0fe65fbd668e8e3a7ce09b2416be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5cf0fe65fbd668e8e3a7ce09b2416be"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#ac5cf0fe65fbd668e8e3a7ce09b2416be">GetCurrentTransmissionGear</a> () const =0</td></tr>
+<tr class="memdesc:ac5cf0fe65fbd668e8e3a7ce09b2416be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current transmission gear. <br /></td></tr>
+<tr class="separator:ac5cf0fe65fbd668e8e3a7ce09b2416be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9735ab75d505eb9c1c0e5ab44d6d3e9"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#ad9735ab75d505eb9c1c0e5ab44d6d3e9">GetOutputTorque</a> () const =0</td></tr>
+<tr class="memdesc:ad9735ab75d505eb9c1c0e5ab44d6d3e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the ouput torque from the powertrain.  <a href="#ad9735ab75d505eb9c1c0e5ab44d6d3e9">More...</a><br /></td></tr>
+<tr class="separator:ad9735ab75d505eb9c1c0e5ab44d6d3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ef18d7f0471ecd7303891c0e3132574"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ef18d7f0471ecd7303891c0e3132574"></a>
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56b">DriveMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ef18d7f0471ecd7303891c0e3132574">GetDriveMode</a> ()</td></tr>
+<tr class="memdesc:a9ef18d7f0471ecd7303891c0e3132574"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current mode of the transmission. <br /></td></tr>
+<tr class="separator:a9ef18d7f0471ecd7303891c0e3132574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8beaadbecf8b6de186b4c69aabcd540f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8beaadbecf8b6de186b4c69aabcd540f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a8beaadbecf8b6de186b4c69aabcd540f">SetDriveMode</a> (<a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56b">DriveMode</a> mmode)=0</td></tr>
+<tr class="memdesc:a8beaadbecf8b6de186b4c69aabcd540f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the mode of the transmission. <br /></td></tr>
+<tr class="separator:a8beaadbecf8b6de186b4c69aabcd540f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69877769b283c33d2dcfa086b282749e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a69877769b283c33d2dcfa086b282749e">Initialize</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt; chassis, std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shaft.html">ChShaft</a> &gt; driveshaft)=0</td></tr>
+<tr class="memdesc:a69877769b283c33d2dcfa086b282749e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize this powertrain system.  <a href="#a69877769b283c33d2dcfa086b282749e">More...</a><br /></td></tr>
+<tr class="separator:a69877769b283c33d2dcfa086b282749e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa87a3d7374ad5fe8e4d1406f5da10e2f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#aa87a3d7374ad5fe8e4d1406f5da10e2f">Synchronize</a> (double time, double throttle, double shaft_speed)=0</td></tr>
+<tr class="memdesc:aa87a3d7374ad5fe8e4d1406f5da10e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synchronize the state of this powertrain system at the current time.  <a href="#aa87a3d7374ad5fe8e4d1406f5da10e2f">More...</a><br /></td></tr>
+<tr class="separator:aa87a3d7374ad5fe8e4d1406f5da10e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a522bea75870e5d53759678f4df6d2815"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a522bea75870e5d53759678f4df6d2815"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a522bea75870e5d53759678f4df6d2815">Advance</a> (double step)=0</td></tr>
+<tr class="memdesc:a522bea75870e5d53759678f4df6d2815"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance the state of this powertrain system by the specified time step. <br /></td></tr>
+<tr class="separator:a522bea75870e5d53759678f4df6d2815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:aea17d760c75c8d48806a9a10fca780d8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea17d760c75c8d48806a9a10fca780d8"></a>
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56b">DriveMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_drive_mode</b></td></tr>
+<tr class="separator:aea17d760c75c8d48806a9a10fca780d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a9ace54d15d4209d976db03c5121eb56b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56b">chrono::vehicle::ChPowertrain::DriveMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Driving modes. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a9ace54d15d4209d976db03c5121eb56babf084f87614031f162011794b61a59cd"></a>FORWARD&#160;</td><td class="fielddoc">
+<p>vehicle moving forward </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a9ace54d15d4209d976db03c5121eb56baf526c934af797c3f978eec8f358772f6"></a>NEUTRAL&#160;</td><td class="fielddoc">
+<p>vehicle in neutral </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a9ace54d15d4209d976db03c5121eb56ba6f8acee39ba5b756723578477fe33489"></a>REVERSE&#160;</td><td class="fielddoc">
+<p>vehicle moving backward </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ad9735ab75d505eb9c1c0e5ab44d6d3e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::vehicle::ChPowertrain::GetOutputTorque </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the ouput torque from the powertrain. </p>
+<p>This is the torque that is passed to a vehicle system, thus providing the interface between the powertrain and vehcicle cosimulation modules. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_shafts_powertrain.html#ad1da6a35cd196385a2b243c16021e8ef">chrono::vehicle::ChShaftsPowertrain</a>, and <a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#afe8e150f1cae5cf8f933d25ad4b0d6ec">chrono::vehicle::ChSimplePowertrain</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a69877769b283c33d2dcfa086b282749e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::vehicle::ChPowertrain::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td>
+          <td class="paramname"><em>chassis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shaft.html">ChShaft</a> &gt;&#160;</td>
+          <td class="paramname"><em>driveshaft</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize this powertrain system. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">chassis</td><td>chassis o the associated vehicle </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">driveshaft</td><td>shaft connection to the vehicle driveline </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_shafts_powertrain.html#ad277bd355d46a4222ad6feba80f8b24d">chrono::vehicle::ChShaftsPowertrain</a>, and <a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#a52518d048aabf1388e02d397128ee757">chrono::vehicle::ChSimplePowertrain</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa87a3d7374ad5fe8e4d1406f5da10e2f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::vehicle::ChPowertrain::Synchronize </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>throttle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>shaft_speed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Synchronize the state of this powertrain system at the current time. </p>
+<p>The powertrain system is provided the current driver throttle input, a value in the range [0,1], and the current angular speed of the transmission shaft (from the driveline). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">time</td><td>current time </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">throttle</td><td>current throttle input [0,1] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">shaft_speed</td><td>current angular speed of the transmission shaft </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_shafts_powertrain.html#ac1a947205b4bed5d2a08c425a4499320">chrono::vehicle::ChShaftsPowertrain</a>, and <a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#ae3dbe2951e91cfc64e2b41426b779528">chrono::vehicle::ChSimplePowertrain</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:24 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

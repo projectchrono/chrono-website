@@ -1,0 +1,4 @@
+<map id="chrono::ChSolverMatlab" name="chrono::ChSolverMatlab">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_solver.html" title="Base class for solvers aimed at solving complementarity problems arising from QP optimization problem..." alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_matlab_engine.html" title="Class for accessing the Matlab engine with a C++ wrapper. " alt="" coords="152,5,317,32"/>
+</map>

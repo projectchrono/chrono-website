@@ -1,0 +1,341 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChLogConsole Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_log_console.html">ChLogConsole</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1_ch_log_console-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChLogConsole Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Specialized class for logging errors in std::cout. </p>
+<p>Messages, warnings, etc. go always into the standard console. </p>
+</div>
+<p><code>#include &lt;ChLog.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChLogConsole:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_log_console__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_log_console_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_log_console_inherit__map" id="chrono_1_1_ch_log_console_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_log.html" title="Base class for output of errors, messages, warnings, etc. " alt="" coords="41,229,148,256"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_stream_out_ascii.html" title="This is a base class for all ASCII OUTPUT streams, in the sense that number are formatted into readab..." alt="" coords="5,155,184,181"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_stream_out.html" title="This is a base class for all OUTPUT streams. " alt="" coords="20,80,169,107"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_stream.html" title="This is a base class for input/output (streaming) " alt="" coords="31,5,159,32"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_stream_ostream_wrapper.html" title="This is a wrapper for already&#45;opened std::ostream output streams (like std::cout or similar) ..." alt="" coords="172,229,399,256"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::ChLogConsole:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_log_console__coll__graph.png" border="0" usemap="#chrono_1_1_ch_log_console_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1_ch_log_console_coll__map" id="chrono_1_1_ch_log_console_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_log.html" title="Base class for output of errors, messages, warnings, etc. " alt="" coords="41,229,148,256"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_stream_out_ascii.html" title="This is a base class for all ASCII OUTPUT streams, in the sense that number are formatted into readab..." alt="" coords="5,155,184,181"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_stream_out.html" title="This is a base class for all OUTPUT streams. " alt="" coords="20,80,169,107"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_stream.html" title="This is a base class for input/output (streaming) " alt="" coords="31,5,159,32"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_stream_ostream_wrapper.html" title="This is a wrapper for already&#45;opened std::ostream output streams (like std::cout or similar) ..." alt="" coords="172,229,399,256"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af582248854705bb18deccd2bbb594425"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af582248854705bb18deccd2bbb594425"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_log_console.html#af582248854705bb18deccd2bbb594425">ChLogConsole</a> ()</td></tr>
+<tr class="memdesc:af582248854705bb18deccd2bbb594425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create default logger: this will use the std::cout. <br /></td></tr>
+<tr class="separator:af582248854705bb18deccd2bbb594425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63aac6de33b67312911042446d2bfd16"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63aac6de33b67312911042446d2bfd16"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_log_console.html#a63aac6de33b67312911042446d2bfd16">Output</a> (const char *data, size_t n)</td></tr>
+<tr class="memdesc:a63aac6de33b67312911042446d2bfd16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Redirect output stream to file wrapper. <br /></td></tr>
+<tr class="separator:a63aac6de33b67312911042446d2bfd16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_log"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_log')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_log.html">chrono::ChLog</a></td></tr>
+<tr class="memitem:a705562f723d3e5116d22cd1550114ab9 inherit pub_methods_classchrono_1_1_ch_log"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_log.html#a705562f723d3e5116d22cd1550114ab9">Flush</a> ()</td></tr>
+<tr class="memdesc:a705562f723d3e5116d22cd1550114ab9 inherit pub_methods_classchrono_1_1_ch_log"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forces output of message buffers, if any.  <a href="#a705562f723d3e5116d22cd1550114ab9">More...</a><br /></td></tr>
+<tr class="separator:a705562f723d3e5116d22cd1550114ab9 inherit pub_methods_classchrono_1_1_ch_log"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71158e560594c75585c80eeb37cc95b1 inherit pub_methods_classchrono_1_1_ch_log"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71158e560594c75585c80eeb37cc95b1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_log.html#a71158e560594c75585c80eeb37cc95b1">SetDefaultLevel</a> (<a class="el" href="classchrono_1_1_ch_log.html#a6793af0ba4e3fdda40a6d6896e768adb">eChLogLevel</a> mlev)</td></tr>
+<tr class="memdesc:a71158e560594c75585c80eeb37cc95b1 inherit pub_methods_classchrono_1_1_ch_log"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the default level, to be used from now on. <br /></td></tr>
+<tr class="separator:a71158e560594c75585c80eeb37cc95b1 inherit pub_methods_classchrono_1_1_ch_log"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33fcaebd5ac803b12b66e9e475fe8e62 inherit pub_methods_classchrono_1_1_ch_log"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33fcaebd5ac803b12b66e9e475fe8e62"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_log.html#a33fcaebd5ac803b12b66e9e475fe8e62">SetCurrentLevel</a> (<a class="el" href="classchrono_1_1_ch_log.html#a6793af0ba4e3fdda40a6d6896e768adb">eChLogLevel</a> mlev)</td></tr>
+<tr class="memdesc:a33fcaebd5ac803b12b66e9e475fe8e62 inherit pub_methods_classchrono_1_1_ch_log"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current level, to be used until new flushing. <br /></td></tr>
+<tr class="separator:a33fcaebd5ac803b12b66e9e475fe8e62 inherit pub_methods_classchrono_1_1_ch_log"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8900bcb76a07605b430269cb813af5b inherit pub_methods_classchrono_1_1_ch_log"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8900bcb76a07605b430269cb813af5b"></a>
+<a class="el" href="classchrono_1_1_ch_log.html#a6793af0ba4e3fdda40a6d6896e768adb">eChLogLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_log.html#ae8900bcb76a07605b430269cb813af5b">GetCurrentLevel</a> ()</td></tr>
+<tr class="memdesc:ae8900bcb76a07605b430269cb813af5b inherit pub_methods_classchrono_1_1_ch_log"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current level. <br /></td></tr>
+<tr class="separator:ae8900bcb76a07605b430269cb813af5b inherit pub_methods_classchrono_1_1_ch_log"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14f1e5ce97c43c39f8457a5d85ec7bf2 inherit pub_methods_classchrono_1_1_ch_log"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14f1e5ce97c43c39f8457a5d85ec7bf2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_log.html#a14f1e5ce97c43c39f8457a5d85ec7bf2">RestoreDefaultLevel</a> ()</td></tr>
+<tr class="memdesc:a14f1e5ce97c43c39f8457a5d85ec7bf2 inherit pub_methods_classchrono_1_1_ch_log"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore the default level. <br /></td></tr>
+<tr class="separator:a14f1e5ce97c43c39f8457a5d85ec7bf2 inherit pub_methods_classchrono_1_1_ch_log"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2e76144fcaf3c232061a124bf37aab6 inherit pub_methods_classchrono_1_1_ch_log"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2e76144fcaf3c232061a124bf37aab6"></a>
+<a class="el" href="classchrono_1_1_ch_log.html">ChLog</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_log.html#ab2e76144fcaf3c232061a124bf37aab6">operator-</a> (<a class="el" href="classchrono_1_1_ch_log.html#a6793af0ba4e3fdda40a6d6896e768adb">eChLogLevel</a> mnewlev)</td></tr>
+<tr class="memdesc:ab2e76144fcaf3c232061a124bf37aab6 inherit pub_methods_classchrono_1_1_ch_log"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using the - operator is easy to set the status of the log, so in you code you can write, for example: <a class="el" href="namespacechrono.html#a4fba60cf9a29db628ad96a88b60b4e00" title="Global function to get the current ChLog object. ">GetLog()</a> - ChLog::CHERROR &lt;&lt; "a big error in " &lt;&lt; mynumber &lt;&lt; " items \n" ;. <br /></td></tr>
+<tr class="separator:ab2e76144fcaf3c232061a124bf37aab6 inherit pub_methods_classchrono_1_1_ch_log"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_stream_out_ascii"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_stream_out_ascii')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">chrono::ChStreamOutAscii</a></td></tr>
+<tr class="memitem:a028709d5a140ebde332bccacfc6639ec inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a028709d5a140ebde332bccacfc6639ec"></a>
+<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_out_ascii.html#a028709d5a140ebde332bccacfc6639ec">operator&lt;&lt;</a> (bool bVal)</td></tr>
+<tr class="memdesc:a028709d5a140ebde332bccacfc6639ec inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic &lt;&lt; operator for all classes which implement serialization by means of a method named 'void StreamOUT(ChStreamOutAscii&amp;)'. <br /></td></tr>
+<tr class="separator:a028709d5a140ebde332bccacfc6639ec inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c627bfdfd68c0a458548458cd5237ea inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4c627bfdfd68c0a458548458cd5237ea"></a>
+<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (char tch)</td></tr>
+<tr class="separator:a4c627bfdfd68c0a458548458cd5237ea inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9203195eb3730eca3a24792811ef739 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9203195eb3730eca3a24792811ef739"></a>
+<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (const int nVal)</td></tr>
+<tr class="separator:aa9203195eb3730eca3a24792811ef739 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd5265581920455798ccc81a54c79eb3 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd5265581920455798ccc81a54c79eb3"></a>
+<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (const double dVal)</td></tr>
+<tr class="separator:afd5265581920455798ccc81a54c79eb3 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c0ad37a0ed0a52bd366c1aba7e7c10 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80c0ad37a0ed0a52bd366c1aba7e7c10"></a>
+<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (const float dVal)</td></tr>
+<tr class="separator:a80c0ad37a0ed0a52bd366c1aba7e7c10 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02468ed0eedc35499a07e88fcb5165f inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad02468ed0eedc35499a07e88fcb5165f"></a>
+<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (unsigned int unVal)</td></tr>
+<tr class="separator:ad02468ed0eedc35499a07e88fcb5165f inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad583da60fb22ccc8646b359939cb4e59 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad583da60fb22ccc8646b359939cb4e59"></a>
+<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (char *str)</td></tr>
+<tr class="separator:ad583da60fb22ccc8646b359939cb4e59 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa000c946d51b1c6ef860fcc1dd288afe inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa000c946d51b1c6ef860fcc1dd288afe"></a>
+<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (const char *str)</td></tr>
+<tr class="separator:aa000c946d51b1c6ef860fcc1dd288afe inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab985a0ff1d6f61230e70a8a169bded inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adab985a0ff1d6f61230e70a8a169bded"></a>
+<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (std::string &amp;str)</td></tr>
+<tr class="separator:adab985a0ff1d6f61230e70a8a169bded inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4effcbf000ddb6770e47c11a5921fe2e inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4effcbf000ddb6770e47c11a5921fe2e"></a>
+<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (unsigned long unVal)</td></tr>
+<tr class="separator:a4effcbf000ddb6770e47c11a5921fe2e inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accd41152ebb58c7325d10f5b52c606b8 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="accd41152ebb58c7325d10f5b52c606b8"></a>
+<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (unsigned long long unVal)</td></tr>
+<tr class="separator:accd41152ebb58c7325d10f5b52c606b8 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa92930b2de6a79f015937ee3c5e21cd2 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memTemplParams" colspan="2"><a class="anchor" id="aa92930b2de6a79f015937ee3c5e21cd2"></a>
+template&lt;class T &gt; </td></tr>
+<tr class="memitem:aa92930b2de6a79f015937ee3c5e21cd2 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_out_ascii.html#aa92930b2de6a79f015937ee3c5e21cd2">operator&lt;</a> (T obj)</td></tr>
+<tr class="memdesc:aa92930b2de6a79f015937ee3c5e21cd2 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="mdescLeft">&#160;</td><td class="mdescRight">***OBSOLETE*** use <a class="el" href="classchrono_1_1_ch_archive.html" title="This is a base class for archives with pointers to shared objects. ">ChArchive</a> &lt;&lt; operator and ArchiveOUT() <br /></td></tr>
+<tr class="separator:aa92930b2de6a79f015937ee3c5e21cd2 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada19264874f46211a188a51843eef10b inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada19264874f46211a188a51843eef10b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_out_ascii.html#ada19264874f46211a188a51843eef10b">Format</a> (char *formatString,...)</td></tr>
+<tr class="memdesc:ada19264874f46211a188a51843eef10b inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output the log message in form of a formatted string, like in printf() <br /></td></tr>
+<tr class="separator:ada19264874f46211a188a51843eef10b inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e3bd7ac3769d9fb2dde8116ed1ab2ab inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e3bd7ac3769d9fb2dde8116ed1ab2ab"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_out_ascii.html#a5e3bd7ac3769d9fb2dde8116ed1ab2ab">SetNumFormat</a> (const char *mf)</td></tr>
+<tr class="memdesc:a5e3bd7ac3769d9fb2dde8116ed1ab2ab inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the formatting string (ex "%f" or "%g" etc.) for float-&gt;text conversion. <br /></td></tr>
+<tr class="separator:a5e3bd7ac3769d9fb2dde8116ed1ab2ab inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55f048913b7e456265b306dcc717c325 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55f048913b7e456265b306dcc717c325"></a>
+char *&#160;</td><td class="memItemRight" valign="bottom"><b>GetNumFormat</b> ()</td></tr>
+<tr class="separator:a55f048913b7e456265b306dcc717c325 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43c74dcf3c8dc1c59a84dd31cef3fb92 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43c74dcf3c8dc1c59a84dd31cef3fb92"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_out_ascii.html#a43c74dcf3c8dc1c59a84dd31cef3fb92">SetCommentTrailer</a> (char *mt)</td></tr>
+<tr class="memdesc:a43c74dcf3c8dc1c59a84dd31cef3fb92 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the trailer symbol before each comment (example: "#" , or "//" etc.) <br /></td></tr>
+<tr class="separator:a43c74dcf3c8dc1c59a84dd31cef3fb92 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b057429bde81069cf96de89f328684e inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b057429bde81069cf96de89f328684e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_out_ascii.html#a7b057429bde81069cf96de89f328684e">CR</a> ()</td></tr>
+<tr class="memdesc:a7b057429bde81069cf96de89f328684e inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs carriage return. <br /></td></tr>
+<tr class="separator:a7b057429bde81069cf96de89f328684e inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0166b33c20f1bc4a72c7df19d004f6a6 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0166b33c20f1bc4a72c7df19d004f6a6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_out_ascii.html#a0166b33c20f1bc4a72c7df19d004f6a6">TAB</a> ()</td></tr>
+<tr class="memdesc:a0166b33c20f1bc4a72c7df19d004f6a6 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output tab. <br /></td></tr>
+<tr class="separator:a0166b33c20f1bc4a72c7df19d004f6a6 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c15280dacff28f8ff30dcb639557644 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3c15280dacff28f8ff30dcb639557644"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_out_ascii.html#a3c15280dacff28f8ff30dcb639557644">Comment</a> (char m_string[])</td></tr>
+<tr class="memdesc:a3c15280dacff28f8ff30dcb639557644 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output comment with preceding trailer (ex #) <br /></td></tr>
+<tr class="separator:a3c15280dacff28f8ff30dcb639557644 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a6fb630fc85fd9cab7b84fe35882e37 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a6fb630fc85fd9cab7b84fe35882e37"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_out_ascii.html#a7a6fb630fc85fd9cab7b84fe35882e37">Bar</a> ()</td></tr>
+<tr class="memdesc:a7a6fb630fc85fd9cab7b84fe35882e37 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output a separation bar in Ascii file. <br /></td></tr>
+<tr class="separator:a7a6fb630fc85fd9cab7b84fe35882e37 inherit pub_methods_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_stream_ostream_wrapper')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_stream_ostream_wrapper.html">chrono::ChStreamOstreamWrapper</a></td></tr>
+<tr class="memitem:a7bfea13e19ed31432a7136cf113d23f1 inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_ostream_wrapper.html#a7bfea13e19ed31432a7136cf113d23f1">ChStreamOstreamWrapper</a> (std::ostream *mfile)</td></tr>
+<tr class="memdesc:a7bfea13e19ed31432a7136cf113d23f1 inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a wrapper for an already existing, already opened, ostream, given the pointer to that ostream.  <a href="#a7bfea13e19ed31432a7136cf113d23f1">More...</a><br /></td></tr>
+<tr class="separator:a7bfea13e19ed31432a7136cf113d23f1 inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a497d5c61d48639930014fccc98299a49 inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a497d5c61d48639930014fccc98299a49"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_ostream_wrapper.html#a497d5c61d48639930014fccc98299a49">~ChStreamOstreamWrapper</a> ()</td></tr>
+<tr class="memdesc:a497d5c61d48639930014fccc98299a49 inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deleting this stream wrapper does not delete nor closes the wrapped ostream! <br /></td></tr>
+<tr class="separator:a497d5c61d48639930014fccc98299a49 inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88454adec506e695554182928008c9d9 inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_ostream_wrapper.html#a88454adec506e695554182928008c9d9">Write</a> (const char *data, size_t n)</td></tr>
+<tr class="memdesc:a88454adec506e695554182928008c9d9 inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes raw data to file, up to n chars.  <a href="#a88454adec506e695554182928008c9d9">More...</a><br /></td></tr>
+<tr class="separator:a88454adec506e695554182928008c9d9 inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa95832ad6180acbe9fe052a0ce6799f9 inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa95832ad6180acbe9fe052a0ce6799f9"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_ostream_wrapper.html#aa95832ad6180acbe9fe052a0ce6799f9">End_of_stream</a> () const </td></tr>
+<tr class="memdesc:aa95832ad6180acbe9fe052a0ce6799f9 inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if end of stream reached. <br /></td></tr>
+<tr class="separator:aa95832ad6180acbe9fe052a0ce6799f9 inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbb785b34aeb6911f9cb1dc167bdc3ae inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbb785b34aeb6911f9cb1dc167bdc3ae"></a>
+std::ostream *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream_ostream_wrapper.html#afbb785b34aeb6911f9cb1dc167bdc3ae">GetOstream</a> () const </td></tr>
+<tr class="memdesc:afbb785b34aeb6911f9cb1dc167bdc3ae inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to ostream encapsulated here. <br /></td></tr>
+<tr class="separator:afbb785b34aeb6911f9cb1dc167bdc3ae inherit pub_methods_classchrono_1_1_ch_stream_ostream_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classchrono_1_1_ch_log"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classchrono_1_1_ch_log')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classchrono_1_1_ch_log.html">chrono::ChLog</a></td></tr>
+<tr class="memitem:a6793af0ba4e3fdda40a6d6896e768adb inherit pub_types_classchrono_1_1_ch_log"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_log.html#a6793af0ba4e3fdda40a6d6896e768adb">eChLogLevel</a> { <br />
+&#160;&#160;<b>CHERROR</b> = 0, 
+<b>CHWARNING</b>, 
+<b>CHMESSAGE</b>, 
+<b>CHSTATUS</b>, 
+<br />
+&#160;&#160;<b>CHQUIET</b>
+<br />
+ }<tr class="memdesc:a6793af0ba4e3fdda40a6d6896e768adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">There are different levels of log messages.  <a href="classchrono_1_1_ch_log.html#a6793af0ba4e3fdda40a6d6896e768adb">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a6793af0ba4e3fdda40a6d6896e768adb inherit pub_types_classchrono_1_1_ch_log"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classchrono_1_1_ch_stream"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classchrono_1_1_ch_stream')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classchrono_1_1_ch_stream.html">chrono::ChStream</a></td></tr>
+<tr class="memitem:a6f15d652d3be4d08e1777f529433d4ab inherit pub_types_classchrono_1_1_ch_stream"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream.html#a6f15d652d3be4d08e1777f529433d4ab">eChMode</a> { <a class="el" href="classchrono_1_1_ch_stream.html#a6f15d652d3be4d08e1777f529433d4aba3a0f2cdea30d3e46907225a118f54348">CHFILE_NORMAL</a> = 0, 
+<a class="el" href="classchrono_1_1_ch_stream.html#a6f15d652d3be4d08e1777f529433d4aba9c7ddf5861c5e83b451dadeceebd9dcc">CHFILE_NOWRITE</a>, 
+<a class="el" href="classchrono_1_1_ch_stream.html#a6f15d652d3be4d08e1777f529433d4abaa64a0c7de87eb6414ac0b010fc5cd517">CHFILE_SAFEWRITE</a>, 
+<a class="el" href="classchrono_1_1_ch_stream.html#a6f15d652d3be4d08e1777f529433d4aba6b0596636953ed82144983f4c8dad32b">CHFILE_OPENLATER</a>
+ }<tr class="memdesc:a6f15d652d3be4d08e1777f529433d4ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modes for chrono files (the ch-modes) - obsolete -.  <a href="classchrono_1_1_ch_stream.html#a6f15d652d3be4d08e1777f529433d4ab">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a6f15d652d3be4d08e1777f529433d4ab inherit pub_types_classchrono_1_1_ch_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06b9d8ce9c2d84756b89217913ce2870 inherit pub_types_classchrono_1_1_ch_stream"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_stream.html#a06b9d8ce9c2d84756b89217913ce2870">eChStreamError</a> { <a class="el" href="classchrono_1_1_ch_stream.html#a06b9d8ce9c2d84756b89217913ce2870a2be205b40e7ee9f35bebc0e627d47292">CHSTREAM_OK</a> = 0, 
+<a class="el" href="classchrono_1_1_ch_stream.html#a06b9d8ce9c2d84756b89217913ce2870a08c8fd452f2178fd1520c97e30b9fc9f">CHSTREAM_EOF</a>, 
+<a class="el" href="classchrono_1_1_ch_stream.html#a06b9d8ce9c2d84756b89217913ce2870a0ffa98ac1fe2bdf26d475dc733eed6ab">CHSTREAM_FAIL</a>
+ }<tr class="memdesc:a06b9d8ce9c2d84756b89217913ce2870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Errors for chrono files (the ch-modes)  <a href="classchrono_1_1_ch_stream.html#a06b9d8ce9c2d84756b89217913ce2870">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a06b9d8ce9c2d84756b89217913ce2870 inherit pub_types_classchrono_1_1_ch_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classchrono_1_1_ch_log"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classchrono_1_1_ch_log')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classchrono_1_1_ch_log.html">chrono::ChLog</a></td></tr>
+<tr class="memitem:aec4fe4c538dbd8fc6552c14a038ffbac inherit pro_methods_classchrono_1_1_ch_log"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec4fe4c538dbd8fc6552c14a038ffbac"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_log.html#aec4fe4c538dbd8fc6552c14a038ffbac">ChLog</a> ()</td></tr>
+<tr class="memdesc:aec4fe4c538dbd8fc6552c14a038ffbac inherit pro_methods_classchrono_1_1_ch_log"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the <a class="el" href="classchrono_1_1_ch_log.html" title="Base class for output of errors, messages, warnings, etc. ">ChLog</a>, and sets the level at MESSAGE. <br /></td></tr>
+<tr class="separator:aec4fe4c538dbd8fc6552c14a038ffbac inherit pro_methods_classchrono_1_1_ch_log"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_log"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_log')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_log.html">chrono::ChLog</a></td></tr>
+<tr class="memitem:a42dfe395f15e904f8e37bbe5008f6f3d inherit pro_attribs_classchrono_1_1_ch_log"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42dfe395f15e904f8e37bbe5008f6f3d"></a>
+<a class="el" href="classchrono_1_1_ch_log.html#a6793af0ba4e3fdda40a6d6896e768adb">eChLogLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><b>current_level</b></td></tr>
+<tr class="separator:a42dfe395f15e904f8e37bbe5008f6f3d inherit pro_attribs_classchrono_1_1_ch_log"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6c0416ac6f41327500af0faa55d7385 inherit pro_attribs_classchrono_1_1_ch_log"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab6c0416ac6f41327500af0faa55d7385"></a>
+<a class="el" href="classchrono_1_1_ch_log.html#a6793af0ba4e3fdda40a6d6896e768adb">eChLogLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><b>default_level</b></td></tr>
+<tr class="separator:ab6c0416ac6f41327500af0faa55d7385 inherit pro_attribs_classchrono_1_1_ch_log"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_stream_out_ascii"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_stream_out_ascii')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">chrono::ChStreamOutAscii</a></td></tr>
+<tr class="memitem:adf0d494ec1bde91a39f5c151433ff533 inherit pro_attribs_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf0d494ec1bde91a39f5c151433ff533"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>number_format</b> [10]</td></tr>
+<tr class="separator:adf0d494ec1bde91a39f5c151433ff533 inherit pro_attribs_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2e59ab21ba461748069f5941f71920 inherit pro_attribs_classchrono_1_1_ch_stream_out_ascii"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a2e59ab21ba461748069f5941f71920"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>comment_trailer</b> [10]</td></tr>
+<tr class="separator:a7a2e59ab21ba461748069f5941f71920 inherit pro_attribs_classchrono_1_1_ch_stream_out_ascii"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:17 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

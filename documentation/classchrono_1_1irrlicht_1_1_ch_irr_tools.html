@@ -1,0 +1,714 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::irrlicht::ChIrrTools Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1irrlicht.html">irrlicht</a></li><li class="navelem"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html">ChIrrTools</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classchrono_1_1irrlicht_1_1_ch_irr_tools-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::irrlicht::ChIrrTools Class Reference<div class="ingroups"><a class="el" href="group__irrlicht__module.html">IRRLICHT module</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class with static functions which help with the integration of Chrono::Engine and Irrlicht 3D rendering library. </p>
+</div>
+<p><code>#include &lt;ChIrrTools.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a25b39217b48d2cba1d7c421a2fd58300"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25b39217b48d2cba1d7c421a2fd58300"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>eCh_ContactsDrawMode</b> { <br />
+&#160;&#160;<b>CONTACT_NORMALS</b> = 0, 
+<b>CONTACT_DISTANCES</b>, 
+<b>CONTACT_FORCES_N</b>, 
+<b>CONTACT_FORCES</b>, 
+<br />
+&#160;&#160;<b>CONTACT_NONE</b>
+<br />
+ }</td></tr>
+<tr class="separator:a25b39217b48d2cba1d7c421a2fd58300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab37d92596d99196670f891141464ffd7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab37d92596d99196670f891141464ffd7"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>eCh_ContactsLabelMode</b> { <br />
+&#160;&#160;<b>CONTACT_DISTANCES_VAL</b>, 
+<b>CONTACT_FORCES_VAL</b>, 
+<b>CONTACT_FORCES_N_VAL</b>, 
+<b>CONTACT_FORCES_T_VAL</b>, 
+<br />
+&#160;&#160;<b>CONTACT_TORQUES_VAL</b>, 
+<b>CONTACT_TORQUES_S_VAL</b>, 
+<b>CONTACT_TORQUES_R_VAL</b>, 
+<b>CONTACT_NONE_VAL</b>
+<br />
+ }</td></tr>
+<tr class="separator:ab37d92596d99196670f891141464ffd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e74c40fc33f959133e20310d17d98d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e74c40fc33f959133e20310d17d98d1"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>eCh_LinkDrawMode</b> { <b>LINK_REACT_FORCE</b> = 0, 
+<b>LINK_REACT_TORQUE</b>, 
+<b>LINK_NONE</b>
+ }</td></tr>
+<tr class="separator:a8e74c40fc33f959133e20310d17d98d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a062ae5eab2f9c3ee59c7bc99fdbe7d69"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a062ae5eab2f9c3ee59c7bc99fdbe7d69"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>eCh_LinkLabelMode</b> { <br />
+&#160;&#160;<b>LINK_REACT_FORCE_VAL</b> = 0, 
+<b>LINK_REACT_FORCE_X</b>, 
+<b>LINK_REACT_FORCE_Y</b>, 
+<b>LINK_REACT_FORCE_Z</b>, 
+<br />
+&#160;&#160;<b>LINK_REACT_TORQUE_VAL</b>, 
+<b>LINK_REACT_TORQUE_X</b>, 
+<b>LINK_REACT_TORQUE_Y</b>, 
+<b>LINK_REACT_TORQUE_Z</b>, 
+<br />
+&#160;&#160;<b>LINK_NONE_VAL</b>
+<br />
+ }</td></tr>
+<tr class="separator:a062ae5eab2f9c3ee59c7bc99fdbe7d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a30840387516afe8ae2c3bfbe8505d649"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30840387516afe8ae2c3bfbe8505d649"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#a30840387516afe8ae2c3bfbe8505d649">alignIrrlichtNodeToChronoCsys</a> (irr::scene::ISceneNode *mnode, const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt;&gt; &amp;mcoords)</td></tr>
+<tr class="memdesc:a30840387516afe8ae2c3bfbe8505d649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to align an Irrlicht object to a Chrono::Engine coordsys. <br /></td></tr>
+<tr class="separator:a30840387516afe8ae2c3bfbe8505d649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f8ac145bc88a4e2f119ba56067e4a2f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#a6f8ac145bc88a4e2f119ba56067e4a2f">drawAllContactPoints</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;mphysicalSystem, irr::video::IVideoDriver *driver, double mlen=1.0, eCh_ContactsDrawMode drawtype=CONTACT_NORMALS)</td></tr>
+<tr class="memdesc:a6f8ac145bc88a4e2f119ba56067e4a2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function which draws contact points used by a <a class="el" href="classchrono_1_1_ch_system.html" title="Physical system. ">ChSystem</a> in the current Irrlicht viewer (the IVideoDriver).  <a href="#a6f8ac145bc88a4e2f119ba56067e4a2f">More...</a><br /></td></tr>
+<tr class="separator:a6f8ac145bc88a4e2f119ba56067e4a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff050bdf852742be95d37fc553e18c85"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff050bdf852742be95d37fc553e18c85"></a>
+static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#aff050bdf852742be95d37fc553e18c85">drawAllContactLabels</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;mphysicalSystem, irr::IrrlichtDevice *device, eCh_ContactsLabelMode labeltype=CONTACT_FORCES_N_VAL, irr::video::SColor mcol=irr::video::SColor(255, 255, 255, 255))</td></tr>
+<tr class="memdesc:aff050bdf852742be95d37fc553e18c85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function which draws contact informations as labels at the contact point. <br /></td></tr>
+<tr class="separator:aff050bdf852742be95d37fc553e18c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0345ac9d9bf421df5b410ef2e88a87a4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#a0345ac9d9bf421df5b410ef2e88a87a4">drawAllLinks</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;mphysicalSystem, irr::video::IVideoDriver *driver, double mlen=1.0, eCh_LinkDrawMode drawtype=LINK_REACT_FORCE)</td></tr>
+<tr class="memdesc:a0345ac9d9bf421df5b410ef2e88a87a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function which draws reaction forces in all contacts in current Irrlicht viewer (the IVideoDriver).  <a href="#a0345ac9d9bf421df5b410ef2e88a87a4">More...</a><br /></td></tr>
+<tr class="separator:a0345ac9d9bf421df5b410ef2e88a87a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e79053e5bc16434b8e9758dc383fbcc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e79053e5bc16434b8e9758dc383fbcc"></a>
+static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#a3e79053e5bc16434b8e9758dc383fbcc">drawAllLinkLabels</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;mphysicalSystem, irr::IrrlichtDevice *device, eCh_LinkLabelMode labeltype=LINK_REACT_FORCE_X, irr::video::SColor mcol=irr::video::SColor(255, 255, 255, 255))</td></tr>
+<tr class="memdesc:a3e79053e5bc16434b8e9758dc383fbcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function which draws contact informations as labels at the contact point. <br /></td></tr>
+<tr class="separator:a3e79053e5bc16434b8e9758dc383fbcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa19b35741bd195d7250c188fdc99d321"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#aa19b35741bd195d7250c188fdc99d321">drawAllBoundingBoxes</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;mphysicalSystem, irr::video::IVideoDriver *driver)</td></tr>
+<tr class="memdesc:aa19b35741bd195d7250c188fdc99d321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function which draws collision objects bounding boxes for rigid bodies - if they have a collision shape.  <a href="#aa19b35741bd195d7250c188fdc99d321">More...</a><br /></td></tr>
+<tr class="separator:aa19b35741bd195d7250c188fdc99d321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70f85f4e452c377d9243a760b20846ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70f85f4e452c377d9243a760b20846ea"></a>
+static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#a70f85f4e452c377d9243a760b20846ea">drawAllCOGs</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;mphysicalSystem, irr::video::IVideoDriver *driver, double scale=0.01)</td></tr>
+<tr class="memdesc:a70f85f4e452c377d9243a760b20846ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function which draws coordinate systems of <a class="el" href="classchrono_1_1_ch_body.html" title="Class for rigid bodies. ">ChBody</a> objects. <br /></td></tr>
+<tr class="separator:a70f85f4e452c377d9243a760b20846ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4019cf6c5b4fc9944b37ca2af35252b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4019cf6c5b4fc9944b37ca2af35252b3"></a>
+static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#a4019cf6c5b4fc9944b37ca2af35252b3">drawAllLinkframes</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;mphysicalSystem, irr::video::IVideoDriver *driver, double scale=0.01)</td></tr>
+<tr class="memdesc:a4019cf6c5b4fc9944b37ca2af35252b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function which draws coordinate systems of link frames. <br /></td></tr>
+<tr class="separator:a4019cf6c5b4fc9944b37ca2af35252b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f34e51d1ec2e6fbb0c2d7cfb1dc843"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15f34e51d1ec2e6fbb0c2d7cfb1dc843"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#a15f34e51d1ec2e6fbb0c2d7cfb1dc843">drawHUDviolation</a> (irr::video::IVideoDriver *driver, irr::IrrlichtDevice *mdevice, <a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;asystem, int mx=10, int my=290, int sx=300, int sy=100, double spfact=100.0, double posfact=500.0)</td></tr>
+<tr class="memdesc:a15f34e51d1ec2e6fbb0c2d7cfb1dc843"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash; <br /></td></tr>
+<tr class="separator:a15f34e51d1ec2e6fbb0c2d7cfb1dc843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcbfc4230a3ab33627a3dc391149f6f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adcbfc4230a3ab33627a3dc391149f6f4"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#adcbfc4230a3ab33627a3dc391149f6f4">drawChFunction</a> (irr::IrrlichtDevice *mdevice, <a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> *fx, double xmin=0, double xmax=1, double ymin=-1, double ymax=1, int mx=10, int my=290, int sx=300, int sy=100)</td></tr>
+<tr class="memdesc:adcbfc4230a3ab33627a3dc391149f6f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash; <br /></td></tr>
+<tr class="separator:adcbfc4230a3ab33627a3dc391149f6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0844abf707003b0490c37e78de36651"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0844abf707003b0490c37e78de36651"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#ac0844abf707003b0490c37e78de36651">drawSegment</a> (irr::video::IVideoDriver *driver, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; mstart, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; mend, irr::video::SColor mcol=irr::video::SColor(255, 0, 0, 0), bool use_Zbuffer=false)</td></tr>
+<tr class="memdesc:ac0844abf707003b0490c37e78de36651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function to draw segment lines in 3D space, with given color. <br /></td></tr>
+<tr class="separator:ac0844abf707003b0490c37e78de36651"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0fc8f409b704f4700229af804060dd1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#ad0fc8f409b704f4700229af804060dd1">drawPolyline</a> (irr::video::IVideoDriver *driver, std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &gt; &amp;mpoints, irr::video::SColor mcol=irr::video::SColor(255, 0, 0, 0), bool use_Zbuffer=false)</td></tr>
+<tr class="memdesc:ad0fc8f409b704f4700229af804060dd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function to draw a polyline in 3D space, given the array of points as a std::vector.  <a href="#ad0fc8f409b704f4700229af804060dd1">More...</a><br /></td></tr>
+<tr class="separator:ad0fc8f409b704f4700229af804060dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2e27797df2d4453d6ddcdc608180561"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#af2e27797df2d4453d6ddcdc608180561">drawCircle</a> (irr::video::IVideoDriver *driver, double radius, <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt;&gt; mpos=CSYSNORM, irr::video::SColor mcol=irr::video::SColor(255, 0, 0, 0), int mresolution=36, bool use_Zbuffer=false)</td></tr>
+<tr class="memdesc:af2e27797df2d4453d6ddcdc608180561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function to draw a circle line in 3D space, with given color.  <a href="#af2e27797df2d4453d6ddcdc608180561">More...</a><br /></td></tr>
+<tr class="separator:af2e27797df2d4453d6ddcdc608180561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a282bfbfec9dfce3c4027424300660987"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#a282bfbfec9dfce3c4027424300660987">drawSpring</a> (irr::video::IVideoDriver *driver, double radius, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; start, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; end, irr::video::SColor mcol=irr::video::SColor(255, 0, 0, 0), int mresolution=65, double turns=5, bool use_Zbuffer=false)</td></tr>
+<tr class="memdesc:a282bfbfec9dfce3c4027424300660987"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function to draw a spring in 3D space, with given color.  <a href="#a282bfbfec9dfce3c4027424300660987">More...</a><br /></td></tr>
+<tr class="separator:a282bfbfec9dfce3c4027424300660987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed2fa6dd02297539fa2bf0c08644d90e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#aed2fa6dd02297539fa2bf0c08644d90e">drawGrid</a> (irr::video::IVideoDriver *driver, double ustep=0.1, double vstep=0.1, int nu=20, int nv=20, <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt;&gt; mpos=CSYSNORM, irr::video::SColor mcol=irr::video::SColor(50, 80, 110, 110), bool use_Zbuffer=false)</td></tr>
+<tr class="memdesc:aed2fa6dd02297539fa2bf0c08644d90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function to draw grids in 3D space, with given orientation, color and spacing.  <a href="#aed2fa6dd02297539fa2bf0c08644d90e">More...</a><br /></td></tr>
+<tr class="separator:aed2fa6dd02297539fa2bf0c08644d90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a246a268bd20562ac09fab77382ca1402"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#a246a268bd20562ac09fab77382ca1402">drawColorbar</a> (double vmin, double vmax, const std::string &amp;label, irr::IrrlichtDevice *mdevice, int mx=740, int my=20, int sx=30, int sy=300)</td></tr>
+<tr class="memdesc:a246a268bd20562ac09fab77382ca1402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Easy-to-use function to draw color bar with a color map and 2D legend.  <a href="#a246a268bd20562ac09fab77382ca1402">More...</a><br /></td></tr>
+<tr class="separator:a246a268bd20562ac09fab77382ca1402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99221c643470311bc8006298763f913c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99221c643470311bc8006298763f913c"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#a99221c643470311bc8006298763f913c">drawPlot3D</a> (irr::video::IVideoDriver *driver, <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; X, <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; Y, <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; Z, <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt;&gt; mpos=CSYSNORM, irr::video::SColor mcol=irr::video::SColor(50, 80, 110, 110), bool use_Zbuffer=false)</td></tr>
+<tr class="memdesc:a99221c643470311bc8006298763f913c"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash; <br /></td></tr>
+<tr class="separator:a99221c643470311bc8006298763f913c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa19b35741bd195d7250c188fdc99d321"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int chrono::irrlicht::ChIrrTools::drawAllBoundingBoxes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;&#160;</td>
+          <td class="paramname"><em>mphysicalSystem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">irr::video::IVideoDriver *&#160;</td>
+          <td class="paramname"><em>driver</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Easy-to-use function which draws collision objects bounding boxes for rigid bodies - if they have a collision shape. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6f8ac145bc88a4e2f119ba56067e4a2f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int chrono::irrlicht::ChIrrTools::drawAllContactPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;&#160;</td>
+          <td class="paramname"><em>mphysicalSystem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">irr::video::IVideoDriver *&#160;</td>
+          <td class="paramname"><em>driver</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mlen</em> = <code>1.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">eCh_ContactsDrawMode&#160;</td>
+          <td class="paramname"><em>drawtype</em> = <code>CONTACT_NORMALS</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Easy-to-use function which draws contact points used by a <a class="el" href="classchrono_1_1_ch_system.html" title="Physical system. ">ChSystem</a> in the current Irrlicht viewer (the IVideoDriver). </p>
+<p>The contact points are visually represented with short lines, of length mlen, aligned to contact normals. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0345ac9d9bf421df5b410ef2e88a87a4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int chrono::irrlicht::ChIrrTools::drawAllLinks </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;&#160;</td>
+          <td class="paramname"><em>mphysicalSystem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">irr::video::IVideoDriver *&#160;</td>
+          <td class="paramname"><em>driver</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mlen</em> = <code>1.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">eCh_LinkDrawMode&#160;</td>
+          <td class="paramname"><em>drawtype</em> = <code>LINK_REACT_FORCE</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Easy-to-use function which draws reaction forces in all contacts in current Irrlicht viewer (the IVideoDriver). </p>
+
+</div>
+</div>
+<a class="anchor" id="af2e27797df2d4453d6ddcdc608180561"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::irrlicht::ChIrrTools::drawCircle </td>
+          <td>(</td>
+          <td class="paramtype">irr::video::IVideoDriver *&#160;</td>
+          <td class="paramname"><em>driver</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt;&gt;&#160;</td>
+          <td class="paramname"><em>mpos</em> = <code>CSYSNORM</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">irr::video::SColor&#160;</td>
+          <td class="paramname"><em>mcol</em> = <code>irr::video::SColor(255,&#160;0,&#160;0,&#160;0)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mresolution</em> = <code>36</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_Zbuffer</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Easy-to-use function to draw a circle line in 3D space, with given color. </p>
+<p>Specify the center as coordsys position. Orientation as coordsys quaternion (default in xy plane) </p>
+
+</div>
+</div>
+<a class="anchor" id="a246a268bd20562ac09fab77382ca1402"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::irrlicht::ChIrrTools::drawColorbar </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>vmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>vmax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>label</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">irr::IrrlichtDevice *&#160;</td>
+          <td class="paramname"><em>mdevice</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mx</em> = <code>740</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>my</em> = <code>20</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sx</em> = <code>30</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sy</em> = <code>300</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Easy-to-use function to draw color bar with a color map and 2D legend. </p>
+<p>Easy-to-use function to draw color map 2D legend. </p>
+
+</div>
+</div>
+<a class="anchor" id="aed2fa6dd02297539fa2bf0c08644d90e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::irrlicht::ChIrrTools::drawGrid </td>
+          <td>(</td>
+          <td class="paramtype">irr::video::IVideoDriver *&#160;</td>
+          <td class="paramname"><em>driver</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ustep</em> = <code>0.1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>vstep</em> = <code>0.1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nu</em> = <code>20</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nv</em> = <code>20</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt;&gt;&#160;</td>
+          <td class="paramname"><em>mpos</em> = <code>CSYSNORM</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">irr::video::SColor&#160;</td>
+          <td class="paramname"><em>mcol</em> = <code>irr::video::SColor(50,&#160;80,&#160;110,&#160;110)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_Zbuffer</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Easy-to-use function to draw grids in 3D space, with given orientation, color and spacing. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad0fc8f409b704f4700229af804060dd1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::irrlicht::ChIrrTools::drawPolyline </td>
+          <td>(</td>
+          <td class="paramtype">irr::video::IVideoDriver *&#160;</td>
+          <td class="paramname"><em>driver</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>mpoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">irr::video::SColor&#160;</td>
+          <td class="paramname"><em>mcol</em> = <code>irr::video::SColor(255,&#160;0,&#160;0,&#160;0)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_Zbuffer</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Easy-to-use function to draw a polyline in 3D space, given the array of points as a std::vector. </p>
+
+</div>
+</div>
+<a class="anchor" id="a282bfbfec9dfce3c4027424300660987"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::irrlicht::ChIrrTools::drawSpring </td>
+          <td>(</td>
+          <td class="paramtype">irr::video::IVideoDriver *&#160;</td>
+          <td class="paramname"><em>driver</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">irr::video::SColor&#160;</td>
+          <td class="paramname"><em>mcol</em> = <code>irr::video::SColor(255,&#160;0,&#160;0,&#160;0)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mresolution</em> = <code>65</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>turns</em> = <code>5</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_Zbuffer</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Easy-to-use function to draw a spring in 3D space, with given color. </p>
+<p>Specify the radius, the end points in absolute space, the resolution (i.e. the number of segments approximating the helix) and the number of turns. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:23 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

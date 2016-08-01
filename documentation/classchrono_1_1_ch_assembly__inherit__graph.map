@@ -1,0 +1,7 @@
+<map id="chrono::ChAssembly" name="chrono::ChAssembly">
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_system.html" title="Physical system. " alt="" coords="127,229,258,256"/>
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="113,80,272,107"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="139,5,246,32"/>
+<area shape="rect" id="node5" href="$classchrono_1_1_ch_suspension_test.html" title="Base class for suspension and steering tester This class provides the interface between the systems..." alt="" coords="5,304,185,331"/>
+<area shape="rect" id="node6" href="$classchrono_1_1_ch_system_d_e_m.html" title="Class for a physical system in which contact is modeled using a Penalty Method. " alt="" coords="209,304,371,331"/>
+</map>

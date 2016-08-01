@@ -1,0 +1,481 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::postprocess::ChGnuPlot Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1postprocess.html">postprocess</a></li><li class="navelem"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html">ChGnuPlot</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1postprocess_1_1_ch_gnu_plot-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::postprocess::ChGnuPlot Class Reference<div class="ingroups"><a class="el" href="group__postprocess__module.html">POSTPROCESS module</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for lotting data with GNUplot. </p>
+<p>This is a basic utility class, it just saves a temporary gpl file on disk and then calls the GNUplot utility from the system shell, so it does not require to link GNUplot libraries. If the GNUplot is not installed, simply nothing happens. NOTE: the GNUplot should be installed in your platform. Supported from release 4.6. NOTE: the GNUplot executable must be available in your PATH, i.e. if you type 'gnuplot' in the cmd window, it should be executed. If this does not happens, add the directory with the GNUplot binary to your PATH. In Linux platforms this should be already ok by default. NOTE: if no plot is displayed, open a cmd shell, type "gnuplot __tmp_gnuplot.gpl -persist" and see which error is displayed. </p>
+</div>
+<p><code>#include &lt;ChGnuPlot.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a66e6bc0893bf2929b84c025e22411941"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66e6bc0893bf2929b84c025e22411941"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChGnuPlot</b> (const char *mgpl_filename=&quot;__tmp_gnuplot.gpl&quot;)</td></tr>
+<tr class="separator:a66e6bc0893bf2929b84c025e22411941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad58d00f8970fcd0afaf7659bb457bf5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#ad58d00f8970fcd0afaf7659bb457bf5c">SetPersist</a> (bool mpersist)</td></tr>
+<tr class="memdesc:ad58d00f8970fcd0afaf7659bb457bf5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If false, the GNUplot will close soon after the plot.  <a href="#ad58d00f8970fcd0afaf7659bb457bf5c">More...</a><br /></td></tr>
+<tr class="separator:ad58d00f8970fcd0afaf7659bb457bf5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf2249a0158edf048b5b0c990ccd2c1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#abf2249a0158edf048b5b0c990ccd2c1a">SetCommand</a> (const char *command)</td></tr>
+<tr class="memdesc:abf2249a0158edf048b5b0c990ccd2c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the main feature.  <a href="#abf2249a0158edf048b5b0c990ccd2c1a">More...</a><br /></td></tr>
+<tr class="separator:abf2249a0158edf048b5b0c990ccd2c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab231e3f80eba318fecce3c39f6c60461"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab231e3f80eba318fecce3c39f6c60461"></a>
+<a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html">ChGnuPlot</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#ab231e3f80eba318fecce3c39f6c60461">operator&lt;&lt;</a> (const char *command)</td></tr>
+<tr class="memdesc:ab231e3f80eba318fecce3c39f6c60461"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is equivalent to <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#abf2249a0158edf048b5b0c990ccd2c1a" title="This is the main feature. ">SetCommand()</a>. <br /></td></tr>
+<tr class="separator:ab231e3f80eba318fecce3c39f6c60461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2abe67f1e9f961f4f2d82bfe02a369a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa2abe67f1e9f961f4f2d82bfe02a369a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#aa2abe67f1e9f961f4f2d82bfe02a369a">Plot</a> (const char *datfile, int colX, int colY, const char *title, const char *customsettings=&quot; with lines &quot;)</td></tr>
+<tr class="memdesc:aa2abe67f1e9f961f4f2d82bfe02a369a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to easy 2D plot of x,y data from a .dat external file. <br /></td></tr>
+<tr class="separator:aa2abe67f1e9f961f4f2d82bfe02a369a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7b60d6746a025da874d84a6aa8a9532"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7b60d6746a025da874d84a6aa8a9532"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#aa7b60d6746a025da874d84a6aa8a9532">Plot</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;mx, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;my, const char *title, const char *customsettings=&quot; with lines &quot;)</td></tr>
+<tr class="memdesc:aa7b60d6746a025da874d84a6aa8a9532"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to easy 2D plot of x,y data from two column vectors. <br /></td></tr>
+<tr class="separator:aa7b60d6746a025da874d84a6aa8a9532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af263fd33d2658e72333c802ee6ecf0c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af263fd33d2658e72333c802ee6ecf0c1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#af263fd33d2658e72333c802ee6ecf0c1">Plot</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;mdata, int colX, int colY, const char *title, const char *customsettings=&quot; with lines &quot;)</td></tr>
+<tr class="memdesc:af263fd33d2658e72333c802ee6ecf0c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to easy 2D plot of x,y data from two columns of a matrix. <br /></td></tr>
+<tr class="separator:af263fd33d2658e72333c802ee6ecf0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad855488326e4908284fa6f4d63a74ff1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad855488326e4908284fa6f4d63a74ff1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#ad855488326e4908284fa6f4d63a74ff1">Plot</a> (<a class="el" href="classchrono_1_1_ch_function___recorder.html">ChFunction_Recorder</a> &amp;mrecorder, const char *title, const char *customsettings=&quot; with lines &quot;)</td></tr>
+<tr class="memdesc:ad855488326e4908284fa6f4d63a74ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to easy 2D plot of x,y data from a ChFunction_recorder. <br /></td></tr>
+<tr class="separator:ad855488326e4908284fa6f4d63a74ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a1abd621891f2e16d01a874708c6c79"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2a1abd621891f2e16d01a874708c6c79"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#a2a1abd621891f2e16d01a874708c6c79">Plot</a> (<a class="el" href="classchrono_1_1_ch_function___oscilloscope.html">ChFunction_Oscilloscope</a> &amp;mrecorder, const char *title, const char *customsettings=&quot; with lines &quot;)</td></tr>
+<tr class="memdesc:a2a1abd621891f2e16d01a874708c6c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to easy 2D plot of x,y data from a ChFunction_recorder. <br /></td></tr>
+<tr class="separator:a2a1abd621891f2e16d01a874708c6c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4121674d1f0520371c81c48d02f7afd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#a4121674d1f0520371c81c48d02f7afd4">Plot</a> (<a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> &amp;mfunct, double xmin, double xmax, double dx, const char *title, const char *customsettings=&quot; with lines &quot;)</td></tr>
+<tr class="memdesc:a4121674d1f0520371c81c48d02f7afd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to easy 2D plot of x,y data from a generic <a class="el" href="classchrono_1_1_ch_function.html" title="Interface base class for scalar functions of the type: y= f(x) ">ChFunction</a> Note, if the <a class="el" href="classchrono_1_1_ch_function.html" title="Interface base class for scalar functions of the type: y= f(x) ">ChFunction</a> is of type <a class="el" href="classchrono_1_1_ch_function___oscilloscope.html" title="Oscilloscope function. ">ChFunction_Oscilloscope</a> or <a class="el" href="classchrono_1_1_ch_function___recorder.html" title="Recorder function: ">ChFunction_Recorder</a>, there are specific <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#aa2abe67f1e9f961f4f2d82bfe02a369a" title="Shortcut to easy 2D plot of x,y data from a .dat external file. ">Plot()</a> functions that can leverage their point-like nature in a better way.  <a href="#a4121674d1f0520371c81c48d02f7afd4">More...</a><br /></td></tr>
+<tr class="separator:a4121674d1f0520371c81c48d02f7afd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdea4fa29ed24615394436a439ce55e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abdea4fa29ed24615394436a439ce55e3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#abdea4fa29ed24615394436a439ce55e3">Replot</a> ()</td></tr>
+<tr class="memdesc:abdea4fa29ed24615394436a439ce55e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replot last plots (since the last time you used Output...() functions, if any). <br /></td></tr>
+<tr class="separator:abdea4fa29ed24615394436a439ce55e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae71c9e7355bee70ee2529c5e0958e8e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae71c9e7355bee70ee2529c5e0958e8e0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#ae71c9e7355bee70ee2529c5e0958e8e0">SetRangeX</a> (double mmin, double mmax, bool automin=false, bool automax=false)</td></tr>
+<tr class="memdesc:ae71c9e7355bee70ee2529c5e0958e8e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to add the command that set the X range. <br /></td></tr>
+<tr class="separator:ae71c9e7355bee70ee2529c5e0958e8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac98ad6f93eaad875c7f1430d840d29d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac98ad6f93eaad875c7f1430d840d29d3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#ac98ad6f93eaad875c7f1430d840d29d3">SetRangeY</a> (double mmin, double mmax, bool automin=false, bool automax=false)</td></tr>
+<tr class="memdesc:ac98ad6f93eaad875c7f1430d840d29d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to add the command that set the Y range. <br /></td></tr>
+<tr class="separator:ac98ad6f93eaad875c7f1430d840d29d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d29bc5c2a90e10ebfec355bda81a49a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d29bc5c2a90e10ebfec355bda81a49a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#a2d29bc5c2a90e10ebfec355bda81a49a">SetRangeZ</a> (double mmin, double mmax, bool automin=false, bool automax=false)</td></tr>
+<tr class="memdesc:a2d29bc5c2a90e10ebfec355bda81a49a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to add the command that set the Z range. <br /></td></tr>
+<tr class="separator:a2d29bc5c2a90e10ebfec355bda81a49a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0880d498a8211b7351cc673c831259e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0880d498a8211b7351cc673c831259e4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#a0880d498a8211b7351cc673c831259e4">SetTitle</a> (const char *mlabel)</td></tr>
+<tr class="memdesc:a0880d498a8211b7351cc673c831259e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to add title. <br /></td></tr>
+<tr class="separator:a0880d498a8211b7351cc673c831259e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f81be625044813ad3565a8f04aca5da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f81be625044813ad3565a8f04aca5da"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#a4f81be625044813ad3565a8f04aca5da">SetLabelX</a> (const char *mlabel)</td></tr>
+<tr class="memdesc:a4f81be625044813ad3565a8f04aca5da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to add a label on axis. <br /></td></tr>
+<tr class="separator:a4f81be625044813ad3565a8f04aca5da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad46a76f619e4d09cbebc178ea4919799"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad46a76f619e4d09cbebc178ea4919799"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#ad46a76f619e4d09cbebc178ea4919799">SetLabelY</a> (const char *mlabel)</td></tr>
+<tr class="memdesc:ad46a76f619e4d09cbebc178ea4919799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to add a label on axis. <br /></td></tr>
+<tr class="separator:ad46a76f619e4d09cbebc178ea4919799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6afafeaadea9211c7af2b1aee016fd5b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6afafeaadea9211c7af2b1aee016fd5b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#a6afafeaadea9211c7af2b1aee016fd5b">SetLabelZ</a> (const char *mlabel)</td></tr>
+<tr class="memdesc:a6afafeaadea9211c7af2b1aee016fd5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to add a label on axis. <br /></td></tr>
+<tr class="separator:a6afafeaadea9211c7af2b1aee016fd5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a762674b959c318b5fd6bea506d78eda4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a762674b959c318b5fd6bea506d78eda4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#a762674b959c318b5fd6bea506d78eda4">SetGrid</a> (bool dashed=true, double linewidth=1.0, <a class="el" href="classchrono_1_1_ch_color.html">ChColor</a> mcolor=<a class="el" href="classchrono_1_1_ch_color.html">ChColor</a>(0, 0, 0))</td></tr>
+<tr class="memdesc:a762674b959c318b5fd6bea506d78eda4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to add the command that turns on the grid. <br /></td></tr>
+<tr class="separator:a762674b959c318b5fd6bea506d78eda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8655040b5b93e1d2b8d57be48078bcb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#a8655040b5b93e1d2b8d57be48078bcb6">OutputWindow</a> (int windownum=0)</td></tr>
+<tr class="memdesc:a8655040b5b93e1d2b8d57be48078bcb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set plot in a window.  <a href="#a8655040b5b93e1d2b8d57be48078bcb6">More...</a><br /></td></tr>
+<tr class="separator:a8655040b5b93e1d2b8d57be48078bcb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb46e5b0e41ae29fdc5bf8297b33a59c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#afb46e5b0e41ae29fdc5bf8297b33a59c">OutputPNG</a> (const char *filename, int sizex=400, int sizey=300)</td></tr>
+<tr class="memdesc:afb46e5b0e41ae29fdc5bf8297b33a59c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save plot in a png file.  <a href="#afb46e5b0e41ae29fdc5bf8297b33a59c">More...</a><br /></td></tr>
+<tr class="separator:afb46e5b0e41ae29fdc5bf8297b33a59c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0545dcc4e4e3d844b659cf1a7e55268e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#a0545dcc4e4e3d844b659cf1a7e55268e">OutputEPS</a> (const char *filename, double inchsizex=4, double inchsizey=3, bool color=true)</td></tr>
+<tr class="memdesc:a0545dcc4e4e3d844b659cf1a7e55268e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save plot in a eps file.  <a href="#a0545dcc4e4e3d844b659cf1a7e55268e">More...</a><br /></td></tr>
+<tr class="separator:a0545dcc4e4e3d844b659cf1a7e55268e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6352a1b7697904fc330f8ee2de7804f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#ac6352a1b7697904fc330f8ee2de7804f">OutputCustomTerminal</a> (const char *filename, const char *terminalsetting)</td></tr>
+<tr class="memdesc:ac6352a1b7697904fc330f8ee2de7804f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save plot in a custom terminal.  <a href="#ac6352a1b7697904fc330f8ee2de7804f">More...</a><br /></td></tr>
+<tr class="separator:ac6352a1b7697904fc330f8ee2de7804f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:acfe84392d967bfa854e6b4a278469978"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acfe84392d967bfa854e6b4a278469978"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>FlushPlots</b> (std::string &amp;mscript)</td></tr>
+<tr class="separator:acfe84392d967bfa854e6b4a278469978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a260db23da4bd39d94f9d9abb666f6545"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a260db23da4bd39d94f9d9abb666f6545"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ExecuteGnuplot</b> (std::string &amp;mscript)</td></tr>
+<tr class="separator:a260db23da4bd39d94f9d9abb666f6545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6398f85300fd5316270ec8fe22517823"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6398f85300fd5316270ec8fe22517823"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>d_to_str</b> (double num)</td></tr>
+<tr class="separator:a6398f85300fd5316270ec8fe22517823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13879ac87a9974848805a55f89978f3b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13879ac87a9974848805a55f89978f3b"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>i_to_str</b> (int num)</td></tr>
+<tr class="separator:a13879ac87a9974848805a55f89978f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d212a010b49dff521d086a030c97109"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d212a010b49dff521d086a030c97109"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>col_to_hex</b> (<a class="el" href="classchrono_1_1_ch_color.html">ChColor</a> mcolor)</td></tr>
+<tr class="separator:a7d212a010b49dff521d086a030c97109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a6be1fc7008588a41a8b8cc14b912fd1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6be1fc7008588a41a8b8cc14b912fd1b"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>gpl_filename</b></td></tr>
+<tr class="separator:a6be1fc7008588a41a8b8cc14b912fd1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5096217e62e4e0f6b165332c97bfe5a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5096217e62e4e0f6b165332c97bfe5a6"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>commandfile</b></td></tr>
+<tr class="separator:a5096217e62e4e0f6b165332c97bfe5a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a778f8fad9ed38d0b07c5cc9a11bb0373"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a778f8fad9ed38d0b07c5cc9a11bb0373"></a>
+std::vector&lt; ChGnuPlotDataplot &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>plots</b></td></tr>
+<tr class="separator:a778f8fad9ed38d0b07c5cc9a11bb0373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302e408378af0b9d9f52e5ed1e9febfe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a302e408378af0b9d9f52e5ed1e9febfe"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>persist</b></td></tr>
+<tr class="separator:a302e408378af0b9d9f52e5ed1e9febfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac6352a1b7697904fc330f8ee2de7804f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::postprocess::ChGnuPlot::OutputCustomTerminal </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>terminalsetting</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Save plot in a custom terminal. </p>
+<p>For instance try terminalsetting ="set terminal svg size 350,262 fname 'Verdana' fsize 10" Call this before <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#aa2abe67f1e9f961f4f2d82bfe02a369a" title="Shortcut to easy 2D plot of x,y data from a .dat external file. ">Plot()</a> statements. Otherwise call <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#abdea4fa29ed24615394436a439ce55e3" title="Replot last plots (since the last time you used Output...() functions, if any). ">Replot()</a> just after. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0545dcc4e4e3d844b659cf1a7e55268e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::postprocess::ChGnuPlot::OutputEPS </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>inchsizex</em> = <code>4</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>inchsizey</em> = <code>3</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>color</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Save plot in a eps file. </p>
+<p>Call this before <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#aa2abe67f1e9f961f4f2d82bfe02a369a" title="Shortcut to easy 2D plot of x,y data from a .dat external file. ">Plot()</a> statements. Otherwise call <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#abdea4fa29ed24615394436a439ce55e3" title="Replot last plots (since the last time you used Output...() functions, if any). ">Replot()</a> just after. </p>
+
+</div>
+</div>
+<a class="anchor" id="afb46e5b0e41ae29fdc5bf8297b33a59c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::postprocess::ChGnuPlot::OutputPNG </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sizex</em> = <code>400</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sizey</em> = <code>300</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Save plot in a png file. </p>
+<p>Call this before <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#aa2abe67f1e9f961f4f2d82bfe02a369a" title="Shortcut to easy 2D plot of x,y data from a .dat external file. ">Plot()</a> statements. Otherwise call <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#abdea4fa29ed24615394436a439ce55e3" title="Replot last plots (since the last time you used Output...() functions, if any). ">Replot()</a> just after. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8655040b5b93e1d2b8d57be48078bcb6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::postprocess::ChGnuPlot::OutputWindow </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>windownum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set plot in a window. </p>
+<p>For multiple windows, call this with icreasing windownum, interleaving with <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#aa2abe67f1e9f961f4f2d82bfe02a369a" title="Shortcut to easy 2D plot of x,y data from a .dat external file. ">Plot()</a> statements etc. Call this before <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#aa2abe67f1e9f961f4f2d82bfe02a369a" title="Shortcut to easy 2D plot of x,y data from a .dat external file. ">Plot()</a> statements. Otherwise call <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#abdea4fa29ed24615394436a439ce55e3" title="Replot last plots (since the last time you used Output...() functions, if any). ">Replot()</a> just after. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4121674d1f0520371c81c48d02f7afd4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::postprocess::ChGnuPlot::Plot </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> &amp;&#160;</td>
+          <td class="paramname"><em>mfunct</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>xmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>xmax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>title</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>customsettings</em> = <code>&quot;&#160;with&#160;lines&#160;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Shortcut to easy 2D plot of x,y data from a generic <a class="el" href="classchrono_1_1_ch_function.html" title="Interface base class for scalar functions of the type: y= f(x) ">ChFunction</a> Note, if the <a class="el" href="classchrono_1_1_ch_function.html" title="Interface base class for scalar functions of the type: y= f(x) ">ChFunction</a> is of type <a class="el" href="classchrono_1_1_ch_function___oscilloscope.html" title="Oscilloscope function. ">ChFunction_Oscilloscope</a> or <a class="el" href="classchrono_1_1_ch_function___recorder.html" title="Recorder function: ">ChFunction_Recorder</a>, there are specific <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#aa2abe67f1e9f961f4f2d82bfe02a369a" title="Shortcut to easy 2D plot of x,y data from a .dat external file. ">Plot()</a> functions that can leverage their point-like nature in a better way. </p>
+
+</div>
+</div>
+<a class="anchor" id="abf2249a0158edf048b5b0c990ccd2c1a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::postprocess::ChGnuPlot::SetCommand </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>command</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This is the main feature. </p>
+<p>Use this function to add commands in the gnuplot script. It can be whatever gnuplot statement. Basically you would just need calls to <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#abf2249a0158edf048b5b0c990ccd2c1a" title="This is the main feature. ">SetCommand()</a> followed by an Output() at the end, however to make things easier, there are some shortcut functions such as <a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#ae71c9e7355bee70ee2529c5e0958e8e0" title="Shortcut to add the command that set the X range. ">SetRangeX()</a> ,<a class="el" href="classchrono_1_1postprocess_1_1_ch_gnu_plot.html#a762674b959c318b5fd6bea506d78eda4" title="Shortcut to add the command that turns on the grid. ">SetGrid()</a>, Plot etc. that populate the command file for you. It will be automatically null-terminated, so you may call it multiple times, each per line. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad58d00f8970fcd0afaf7659bb457bf5c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::postprocess::ChGnuPlot::SetPersist </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mpersist</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If false, the GNUplot will close soon after the plot. </p>
+<p>For plotting in windows , it is better to leave it as true by default, but for plotting eps or png maybe you want it to close automatically. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:23 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

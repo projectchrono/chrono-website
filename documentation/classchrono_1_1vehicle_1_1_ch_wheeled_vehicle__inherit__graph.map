@@ -1,0 +1,4 @@
+<map id="chrono::vehicle::ChWheeledVehicle" name="chrono::vehicle::ChWheeledVehicle">
+<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_wheeled_vehicle.html" title="Wheeled vehicle model constructed from a JSON specification file. " alt="" coords="14,169,183,211"/>
+<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_vehicle.html" title="Base class for chrono vehicle systems. " alt="" coords="9,5,188,32"/>
+</map>

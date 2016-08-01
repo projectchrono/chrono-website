@@ -1,0 +1,7 @@
+<map id="chrono::ChLoaderUVW" name="chrono::ChLoaderUVW">
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_loader_u_v_watomic.html" title="Class of loaders for ChLoadableUVW objects (which support volume loads) of atomic type..." alt="" coords="5,155,201,181"/>
+<area shape="rect" id="node5" href="$classchrono_1_1_ch_loader_u_v_wdistributed.html" title="Class of loaders for ChLoadableUVW objects (which support volume loads), for loads of distributed typ..." alt="" coords="225,155,443,181"/>
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_loader.html" title="Class for loads applied to a single ChLoadable object. " alt="" coords="155,5,281,32"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_loader_x_y_znode.html" title="FORCE AT XYZ NODE Loader for a constant force applied at a XYZ node. " alt="" coords="14,229,193,256"/>
+<area shape="rect" id="node6" href="$classchrono_1_1_ch_loader_gravity.html" title="A very usual type of volume loader: the constant gravitational load on Y. " alt="" coords="251,229,417,256"/>
+</map>

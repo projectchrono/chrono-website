@@ -1,0 +1,4 @@
+<map id="chrono::vehicle::ChRoadWheel" name="chrono::vehicle::ChRoadWheel">
+<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_double_road_wheel.html" title="Base class for a double road wheel (template definition). " alt="" coords="5,80,181,121"/>
+<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_ch_single_road_wheel.html" title="Base class for a single road wheel (template definition). " alt="" coords="205,80,376,121"/>
+</map>

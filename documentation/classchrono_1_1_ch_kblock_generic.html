@@ -1,0 +1,328 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChKblockGeneric Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_kblock_generic.html">ChKblockGeneric</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1_ch_kblock_generic-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChKblockGeneric Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class that represent nxn sparse blocks to put into K global matrix, that is blocks that connect N 'variables' and build a matrix K in a sparse variational inequality VI(Z*x-d,K): </p>
+<p>| M+K -Cq'|*|q|- | f|= |0| , l  Y, C  Ny, normal cone to Y | Cq -E | |l| |-b| |c|</p>
+<p>Also Z symmetric by flipping sign of l_i: |M+K Cq'|*| q|-| f|=|0| |Cq E | |-l| |-b| |c|</p><ul>
+<li>case linear problem: all Y_i = R, Ny=0, ex. all bilaterals</li>
+<li>case LCP: all Y_i = R+: c&gt;=0, l&gt;=0, l*c=0</li>
+<li>case CCP: Y_i are friction cones Note that K blocks often have a physical interpretation as stiffness, but not always, for example they can represent hessians. Note that all blocks in K, all masses and constraint jacobians Cq are not really assembled in large matrices, so to exploit sparsity. </li>
+</ul>
+</div>
+<p><code>#include &lt;ChKblockGeneric.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChKblockGeneric:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_kblock_generic__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_kblock_generic_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_kblock_generic_inherit__map" id="chrono_1_1_ch_kblock_generic_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block&#45;sparse matrices, that is blocks that connect ..." alt="" coords="27,5,154,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::ChKblockGeneric:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_kblock_generic__coll__graph.png" border="0" usemap="#chrono_1_1_ch_kblock_generic_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1_ch_kblock_generic_coll__map" id="chrono_1_1_ch_kblock_generic_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block&#45;sparse matrices, that is blocks that connect ..." alt="" coords="27,5,154,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad0869b7f229b75667904447d05560814"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0869b7f229b75667904447d05560814"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChKblockGeneric</b> (std::vector&lt; <a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> * &gt; mvariables)</td></tr>
+<tr class="separator:ad0869b7f229b75667904447d05560814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb0e88f5e61a672b71aba7d8719be15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7bb0e88f5e61a672b71aba7d8719be15"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChKblockGeneric</b> (<a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> *mvariableA, <a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> *mvariableB)</td></tr>
+<tr class="separator:a7bb0e88f5e61a672b71aba7d8719be15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adebe9848ef7e52090ebcc2b00ce4e81c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adebe9848ef7e52090ebcc2b00ce4e81c"></a>
+<a class="el" href="classchrono_1_1_ch_kblock_generic.html">ChKblockGeneric</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_kblock_generic.html#adebe9848ef7e52090ebcc2b00ce4e81c">operator=</a> (const <a class="el" href="classchrono_1_1_ch_kblock_generic.html">ChKblockGeneric</a> &amp;other)</td></tr>
+<tr class="memdesc:adebe9848ef7e52090ebcc2b00ce4e81c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator: copy from other object. <br /></td></tr>
+<tr class="separator:adebe9848ef7e52090ebcc2b00ce4e81c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ffec175e947e8bb7f263ee97c726861"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_kblock_generic.html#a3ffec175e947e8bb7f263ee97c726861">SetVariables</a> (std::vector&lt; <a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> * &gt; mvariables)</td></tr>
+<tr class="memdesc:a3ffec175e947e8bb7f263ee97c726861"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set references to the constrained objects, each of <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> type, automatically creating/resizing K matrix if needed.  <a href="#a3ffec175e947e8bb7f263ee97c726861">More...</a><br /></td></tr>
+<tr class="separator:a3ffec175e947e8bb7f263ee97c726861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09c279aa8f7104101c4c0a060bf7a404"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09c279aa8f7104101c4c0a060bf7a404"></a>
+virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_kblock_generic.html#a09c279aa8f7104101c4c0a060bf7a404">GetNvars</a> () const override</td></tr>
+<tr class="memdesc:a09c279aa8f7104101c4c0a060bf7a404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of referenced <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> items. <br /></td></tr>
+<tr class="separator:a09c279aa8f7104101c4c0a060bf7a404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9199c75940f2d6f0db696c31e81eaf00"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9199c75940f2d6f0db696c31e81eaf00"></a>
+<a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_kblock_generic.html#a9199c75940f2d6f0db696c31e81eaf00">GetVariableN</a> (unsigned int m_var) const </td></tr>
+<tr class="memdesc:a9199c75940f2d6f0db696c31e81eaf00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the m-th vector variable object. <br /></td></tr>
+<tr class="separator:a9199c75940f2d6f0db696c31e81eaf00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5661af70e0a4dbcc47773b60b97dc92d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5661af70e0a4dbcc47773b60b97dc92d"></a>
+virtual <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_kblock_generic.html#a5661af70e0a4dbcc47773b60b97dc92d">Get_K</a> () override</td></tr>
+<tr class="memdesc:a5661af70e0a4dbcc47773b60b97dc92d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the K stiffness matrix as a single block, referring only to the referenced ChVariable objects. <br /></td></tr>
+<tr class="separator:a5661af70e0a4dbcc47773b60b97dc92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cd28cf601432a8962f6424161baca95"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_kblock_generic.html#a4cd28cf601432a8962f6424161baca95">MultiplyAndAdd</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;result, const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;vect) const override</td></tr>
+<tr class="memdesc:a4cd28cf601432a8962f6424161baca95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the product of the corresponding blocks in the system matrix (ie.  <a href="#a4cd28cf601432a8962f6424161baca95">More...</a><br /></td></tr>
+<tr class="separator:a4cd28cf601432a8962f6424161baca95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdcb17da3c7608a3ba2bb8a7af9822cc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_kblock_generic.html#afdcb17da3c7608a3ba2bb8a7af9822cc">DiagonalAdd</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;result) override</td></tr>
+<tr class="memdesc:afdcb17da3c7608a3ba2bb8a7af9822cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the diagonal of the stiffness matrix block(s) as a column vector to 'result'.  <a href="#afdcb17da3c7608a3ba2bb8a7af9822cc">More...</a><br /></td></tr>
+<tr class="separator:afdcb17da3c7608a3ba2bb8a7af9822cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14c2c176aac32ce5e1755e3ec40d0a2a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_kblock_generic.html#a14c2c176aac32ce5e1755e3ec40d0a2a">Build_K</a> (<a class="el" href="classchrono_1_1_ch_sparse_matrix.html">ChSparseMatrix</a> &amp;storage, bool add) override</td></tr>
+<tr class="memdesc:a14c2c176aac32ce5e1755e3ec40d0a2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the K matrix associated to these variables into a global 'storage' matrix, at the offsets of variables.  <a href="#a14c2c176aac32ce5e1755e3ec40d0a2a">More...</a><br /></td></tr>
+<tr class="separator:a14c2c176aac32ce5e1755e3ec40d0a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a14c2c176aac32ce5e1755e3ec40d0a2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChKblockGeneric::Build_K </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_sparse_matrix.html">ChSparseMatrix</a> &amp;&#160;</td>
+          <td class="paramname"><em>storage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>add</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Writes the K matrix associated to these variables into a global 'storage' matrix, at the offsets of variables. </p>
+<p>Most solvers do not need this: the sparse 'storage' matrix is used for testing, for direct solvers, for dumping full matrix to Matlab for checks, etc. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_kblock.html#a34b254456936f2df855bc94b12f7b2e9">chrono::ChKblock</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afdcb17da3c7608a3ba2bb8a7af9822cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChKblockGeneric::DiagonalAdd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add the diagonal of the stiffness matrix block(s) as a column vector to 'result'. </p>
+<p>NOTE: the 'result' vector must already have the size of system unknowns, ie the size of the total variables&amp;constraints in the system; the procedure will use the ChVariable offsets (that must be already updated) as index. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_kblock.html#a5d73e813d911b7732df182368a6a1927">chrono::ChKblock</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4cd28cf601432a8962f6424161baca95"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChKblockGeneric::MultiplyAndAdd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vect</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the product of the corresponding blocks in the system matrix (ie. </p>
+<p>the K matrix blocks) by 'vect', and add to 'result'. NOTE: the 'vect' and 'result' vectors must already have the size of the total variables&amp;constraints in the system; the procedure will use the ChVariable offsets (that must be already updated) to know the indexes in result and vect. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_kblock.html#a959a207617f395fe1a34453250fb1d0d">chrono::ChKblock</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3ffec175e947e8bb7f263ee97c726861"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChKblockGeneric::SetVariables </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> * &gt;&#160;</td>
+          <td class="paramname"><em>mvariables</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set references to the constrained objects, each of <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> type, automatically creating/resizing K matrix if needed. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:14 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

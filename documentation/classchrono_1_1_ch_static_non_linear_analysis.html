@@ -1,0 +1,325 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChStaticNonLinearAnalysis Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_static_non_linear_analysis.html">ChStaticNonLinearAnalysis</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1_ch_static_non_linear_analysis-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChStaticNonLinearAnalysis Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Non-Linear static analysis. </p>
+</div>
+<p><code>#include &lt;ChStaticAnalysis.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChStaticNonLinearAnalysis:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_static_non_linear_analysis__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_static_non_linear_analysis_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_static_non_linear_analysis_inherit__map" id="chrono_1_1_ch_static_non_linear_analysis_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_static_analysis.html" title="Base class for static analysis. " alt="" coords="9,5,180,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::ChStaticNonLinearAnalysis:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_static_non_linear_analysis__coll__graph.png" border="0" usemap="#chrono_1_1_ch_static_non_linear_analysis_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1_ch_static_non_linear_analysis_coll__map" id="chrono_1_1_ch_static_non_linear_analysis_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_static_analysis.html" title="Base class for static analysis. " alt="" coords="753,99,924,126"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_vector_dynamic.html" title="ChVectorDynamic. " alt="" coords="466,5,642,47"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_matrix.html" title="ChMatrix: " alt="" coords="240,13,413,39"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_state_delta.html" title="Class for incremental form of state of time&#45;integrable objects. " alt="" coords="480,71,628,98"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_vector_dynamic.html" title="chrono::ChVectorDynamic\l\&lt; double \&gt;" alt="" coords="239,85,415,127"/>
+<area shape="rect" id="node10" href="classchrono_1_1_ch_state.html" title="Class for state of time&#45;integrable objects. " alt="" coords="495,122,613,149"/>
+<area shape="rect" id="node7" href="classchrono_1_1_ch_matrix.html" title="chrono::ChMatrix\&lt; double \&gt;" alt="" coords="5,93,189,119"/>
+<area shape="rect" id="node8" href="classchrono_1_1_ch_integrable_i_iorder.html" title="Special subcase: II&#45;order differential system. " alt="" coords="464,173,644,199"/>
+<area shape="rect" id="node9" href="classchrono_1_1_ch_integrable.html" title="Interface class for all objects that support time integration. " alt="" coords="255,173,398,199"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a039eb11375bda02465c2ab1420202898"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a039eb11375bda02465c2ab1420202898"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_non_linear_analysis.html#a039eb11375bda02465c2ab1420202898">ChStaticNonLinearAnalysis</a> (<a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html">ChIntegrableIIorder</a> &amp;mintegrable)</td></tr>
+<tr class="memdesc:a039eb11375bda02465c2ab1420202898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
+<tr class="separator:a039eb11375bda02465c2ab1420202898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f5f5811ccf2afeb6bbfd2a1fd07a142"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f5f5811ccf2afeb6bbfd2a1fd07a142"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_non_linear_analysis.html#a7f5f5811ccf2afeb6bbfd2a1fd07a142">~ChStaticNonLinearAnalysis</a> ()</td></tr>
+<tr class="memdesc:a7f5f5811ccf2afeb6bbfd2a1fd07a142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:a7f5f5811ccf2afeb6bbfd2a1fd07a142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabb582ed23cee954ca208effa195d3d4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_non_linear_analysis.html#aabb582ed23cee954ca208effa195d3d4">StaticAnalysis</a> ()</td></tr>
+<tr class="memdesc:aabb582ed23cee954ca208effa195d3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the static analysis, doing a linear solve.  <a href="#aabb582ed23cee954ca208effa195d3d4">More...</a><br /></td></tr>
+<tr class="separator:aabb582ed23cee954ca208effa195d3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1f5d3b2b47d68cdd7a2d39f87bd348b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1f5d3b2b47d68cdd7a2d39f87bd348b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_non_linear_analysis.html#ae1f5d3b2b47d68cdd7a2d39f87bd348b">SetMaxiters</a> (int miters)</td></tr>
+<tr class="memdesc:ae1f5d3b2b47d68cdd7a2d39f87bd348b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the max number of iterations using the Newton Raphson procedure. <br /></td></tr>
+<tr class="separator:ae1f5d3b2b47d68cdd7a2d39f87bd348b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0064da91dbe643e1394d0d99597a019"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0064da91dbe643e1394d0d99597a019"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_non_linear_analysis.html#ad0064da91dbe643e1394d0d99597a019">GetMaxiters</a> ()</td></tr>
+<tr class="memdesc:ad0064da91dbe643e1394d0d99597a019"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the max number of iterations using the Newton Raphson procedure. <br /></td></tr>
+<tr class="separator:ad0064da91dbe643e1394d0d99597a019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a550cac4ec47f5bd3d4d1c4009e207758"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_non_linear_analysis.html#a550cac4ec47f5bd3d4d1c4009e207758">SetIncrementalSteps</a> (int mist)</td></tr>
+<tr class="memdesc:a550cac4ec47f5bd3d4d1c4009e207758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of steps that, for the first iterations, make the residual growing linearly.  <a href="#a550cac4ec47f5bd3d4d1c4009e207758">More...</a><br /></td></tr>
+<tr class="separator:a550cac4ec47f5bd3d4d1c4009e207758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9602aa6819b9563a5dc9328a6ebf34d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_non_linear_analysis.html#ad9602aa6819b9563a5dc9328a6ebf34d">GetIncrementalSteps</a> ()</td></tr>
+<tr class="memdesc:ad9602aa6819b9563a5dc9328a6ebf34d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of steps that, for the first iterations, make the residual growing linearly.  <a href="#ad9602aa6819b9563a5dc9328a6ebf34d">More...</a><br /></td></tr>
+<tr class="separator:ad9602aa6819b9563a5dc9328a6ebf34d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade0b628f5c516f37fc3e6c8c6d76873c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade0b628f5c516f37fc3e6c8c6d76873c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_non_linear_analysis.html#ade0b628f5c516f37fc3e6c8c6d76873c">SetTolerance</a> (double mtol)</td></tr>
+<tr class="memdesc:ade0b628f5c516f37fc3e6c8c6d76873c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the tolerance for terminating the Newton Raphson procedure. <br /></td></tr>
+<tr class="separator:ade0b628f5c516f37fc3e6c8c6d76873c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3f95b0591742249923f2c640e3562aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3f95b0591742249923f2c640e3562aa"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_non_linear_analysis.html#aa3f95b0591742249923f2c640e3562aa">GetTolerance</a> ()</td></tr>
+<tr class="memdesc:aa3f95b0591742249923f2c640e3562aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the tolerance for terminating the Newton Raphson procedure. <br /></td></tr>
+<tr class="separator:aa3f95b0591742249923f2c640e3562aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_static_analysis"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_static_analysis')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_static_analysis.html">chrono::ChStaticAnalysis</a></td></tr>
+<tr class="memitem:a994dd3b1257e62d1decda3345d632364 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a994dd3b1257e62d1decda3345d632364"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_analysis.html#a994dd3b1257e62d1decda3345d632364">ChStaticAnalysis</a> (<a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html">ChIntegrableIIorder</a> &amp;mintegrable)</td></tr>
+<tr class="memdesc:a994dd3b1257e62d1decda3345d632364 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
+<tr class="separator:a994dd3b1257e62d1decda3345d632364 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d776fd1d79a29f3afaa9958b96616d4 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d776fd1d79a29f3afaa9958b96616d4"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_analysis.html#a7d776fd1d79a29f3afaa9958b96616d4">~ChStaticAnalysis</a> ()</td></tr>
+<tr class="memdesc:a7d776fd1d79a29f3afaa9958b96616d4 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:a7d776fd1d79a29f3afaa9958b96616d4 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c4b3d2e0506732236b2710e6cb5b328 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1c4b3d2e0506732236b2710e6cb5b328"></a>
+virtual <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_analysis.html#a1c4b3d2e0506732236b2710e6cb5b328">get_L</a> ()</td></tr>
+<tr class="memdesc:a1c4b3d2e0506732236b2710e6cb5b328 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the lagrangian multipliers, if any. <br /></td></tr>
+<tr class="separator:a1c4b3d2e0506732236b2710e6cb5b328 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ae65a9277b3ce72c3ee6c0e532a6b77 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0ae65a9277b3ce72c3ee6c0e532a6b77"></a>
+<a class="el" href="classchrono_1_1_ch_integrable.html">ChIntegrable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_analysis.html#a0ae65a9277b3ce72c3ee6c0e532a6b77">GetIntegrable</a> ()</td></tr>
+<tr class="memdesc:a0ae65a9277b3ce72c3ee6c0e532a6b77 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the integrable object. <br /></td></tr>
+<tr class="separator:a0ae65a9277b3ce72c3ee6c0e532a6b77 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85621b2aa9aac67f90bec3b6bb511188 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85621b2aa9aac67f90bec3b6bb511188"></a>
+virtual <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_analysis.html#a85621b2aa9aac67f90bec3b6bb511188">get_X</a> ()</td></tr>
+<tr class="memdesc:a85621b2aa9aac67f90bec3b6bb511188 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the state, position part, at current analysis. <br /></td></tr>
+<tr class="separator:a85621b2aa9aac67f90bec3b6bb511188 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a967e3269b32025a0b932ec381e083e82 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a967e3269b32025a0b932ec381e083e82"></a>
+virtual <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_analysis.html#a967e3269b32025a0b932ec381e083e82">get_V</a> ()</td></tr>
+<tr class="memdesc:a967e3269b32025a0b932ec381e083e82 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the state, speed part, at current analysis. <br /></td></tr>
+<tr class="separator:a967e3269b32025a0b932ec381e083e82 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1397f2bac228665be22ad6a440934834 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1397f2bac228665be22ad6a440934834"></a>
+virtual <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_static_analysis.html#a1397f2bac228665be22ad6a440934834">get_A</a> ()</td></tr>
+<tr class="memdesc:a1397f2bac228665be22ad6a440934834 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the acceleration, at current analysis. <br /></td></tr>
+<tr class="separator:a1397f2bac228665be22ad6a440934834 inherit pub_methods_classchrono_1_1_ch_static_analysis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a4d2afb43219d1f320b2b3736941f2ff2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d2afb43219d1f320b2b3736941f2ff2"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>maxiters</b></td></tr>
+<tr class="separator:a4d2afb43219d1f320b2b3736941f2ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8cb7961bcf50b9edaf84db096f417f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8cb7961bcf50b9edaf84db096f417f3"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>tolerance</b></td></tr>
+<tr class="separator:ab8cb7961bcf50b9edaf84db096f417f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98e299f5c54a25e3a488a168b8e56220"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a98e299f5c54a25e3a488a168b8e56220"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>incremental_steps</b></td></tr>
+<tr class="separator:a98e299f5c54a25e3a488a168b8e56220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_static_analysis"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_static_analysis')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_static_analysis.html">chrono::ChStaticAnalysis</a></td></tr>
+<tr class="memitem:ac6d722768dccd82502e07d49b2495f49 inherit pro_attribs_classchrono_1_1_ch_static_analysis"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6d722768dccd82502e07d49b2495f49"></a>
+<a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html">ChIntegrableIIorder</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>integrable</b></td></tr>
+<tr class="separator:ac6d722768dccd82502e07d49b2495f49 inherit pro_attribs_classchrono_1_1_ch_static_analysis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaa15cd0a06063b99a46e748fb776a36 inherit pro_attribs_classchrono_1_1_ch_static_analysis"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeaa15cd0a06063b99a46e748fb776a36"></a>
+<a class="el" href="classchrono_1_1_ch_state.html">ChState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>X</b></td></tr>
+<tr class="separator:aeaa15cd0a06063b99a46e748fb776a36 inherit pro_attribs_classchrono_1_1_ch_static_analysis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff36edbcde7f339cd415f6bc9087203e inherit pro_attribs_classchrono_1_1_ch_static_analysis"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff36edbcde7f339cd415f6bc9087203e"></a>
+<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a>&#160;</td><td class="memItemRight" valign="bottom"><b>V</b></td></tr>
+<tr class="separator:aff36edbcde7f339cd415f6bc9087203e inherit pro_attribs_classchrono_1_1_ch_static_analysis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a360f6cc95c5f0a84aabb2838550e1546 inherit pro_attribs_classchrono_1_1_ch_static_analysis"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a360f6cc95c5f0a84aabb2838550e1546"></a>
+<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a>&#160;</td><td class="memItemRight" valign="bottom"><b>A</b></td></tr>
+<tr class="separator:a360f6cc95c5f0a84aabb2838550e1546 inherit pro_attribs_classchrono_1_1_ch_static_analysis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c7bcf006e6db8a2a3687220c1d77aca inherit pro_attribs_classchrono_1_1_ch_static_analysis"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8c7bcf006e6db8a2a3687220c1d77aca"></a>
+<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&#160;</td><td class="memItemRight" valign="bottom"><b>L</b></td></tr>
+<tr class="separator:a8c7bcf006e6db8a2a3687220c1d77aca inherit pro_attribs_classchrono_1_1_ch_static_analysis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ad9602aa6819b9563a5dc9328a6ebf34d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::ChStaticNonLinearAnalysis::GetIncrementalSteps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the number of steps that, for the first iterations, make the residual growing linearly. </p>
+
+</div>
+</div>
+<a class="anchor" id="a550cac4ec47f5bd3d4d1c4009e207758"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChStaticNonLinearAnalysis::SetIncrementalSteps </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mist</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the number of steps that, for the first iterations, make the residual growing linearly. </p>
+<p>If =0, no incremental application of residual, so it is a classic Newton Raphson iteration, otherwise acts as continuation strategy. For values &gt; 0 , it might help convergence. Must be less than maxiters. </p>
+
+</div>
+</div>
+<a class="anchor" id="aabb582ed23cee954ca208effa195d3d4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChStaticNonLinearAnalysis::StaticAnalysis </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs the static analysis, doing a linear solve. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_static_analysis.html#af1d6035a76c91917e435509ead6d09fa">chrono::ChStaticAnalysis</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:18 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

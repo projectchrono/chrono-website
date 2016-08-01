@@ -1,0 +1,14 @@
+<map id="chrono::vehicle::ChSuspension" name="chrono::vehicle::ChSuspension">
+<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_double_wishbone.html" title="Base class for a double&#45;A arm suspension modeled with bodies and constraints. " alt="" coords="272,5,448,47"/>
+<area shape="rect" id="node4" href="$classchrono_1_1vehicle_1_1_ch_double_wishbone_reduced.html" title="Base class for a double&#45;A arm suspension modeled with distance constraints. " alt="" coords="272,71,448,112"/>
+<area shape="rect" id="node6" href="$classchrono_1_1vehicle_1_1_ch_hendrickson_p_r_i_m_a_x_x.html" title="Base class for a Hendrickson PRIMAXX EX suspension. " alt="" coords="256,136,464,177"/>
+<area shape="rect" id="node8" href="$classchrono_1_1vehicle_1_1_ch_mac_pherson_strut.html" title="Base class for a MacPherson strut modeled with bodies and constraints. " alt="" coords="256,201,464,243"/>
+<area shape="rect" id="node10" href="$classchrono_1_1vehicle_1_1_ch_multi_link.html" title="Base class for a multi&#45;link suspension modeled with bodies and constraints. " alt="" coords="267,267,453,294"/>
+<area shape="rect" id="node12" href="$classchrono_1_1vehicle_1_1_ch_solid_axle.html" title="Base class for a solid axle suspension modeled with bodies and constraints. " alt="" coords="265,318,455,345"/>
+<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_double_wishbone.html" title="Double&#45;A arm suspension constructed with data from file. " alt="" coords="512,13,729,39"/>
+<area shape="rect" id="node5" href="$classchrono_1_1vehicle_1_1_double_wishbone_reduced.html" title="Reduced double&#45;A arm suspension constructed with data from file. " alt="" coords="512,71,729,112"/>
+<area shape="rect" id="node7" href="$classchrono_1_1vehicle_1_1_hendrickson_p_r_i_m_a_x_x.html" title="Hendrickson PRIMAXX suspension constructed with data from file. " alt="" coords="525,136,716,177"/>
+<area shape="rect" id="node9" href="$classchrono_1_1vehicle_1_1_mac_pherson_strut.html" title="MacPherson strut suspension constructed with data from file. " alt="" coords="525,201,716,243"/>
+<area shape="rect" id="node11" href="$classchrono_1_1vehicle_1_1_multi_link.html" title="Multi&#45;link suspension constructed with data from file. " alt="" coords="535,267,706,294"/>
+<area shape="rect" id="node13" href="$classchrono_1_1vehicle_1_1_solid_axle.html" title="Solid axle suspension constructed with data from file. " alt="" coords="534,318,707,345"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="chrono::ChTriangleMeshShape" name="chrono::ChTriangleMeshShape">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_visualization.html" title="Base class for assets that define something about visualization (rendering, post processing, etc.) It contains basic information about position, color, and visibility. " alt="" coords="808,101,968,128"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_asset.html" title="Classes for adding user data (such as rendering shapes, reference to files) to ChPhysicsItem objects..." alt="" coords="536,5,656,32"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_color.html" title="Class for setting a color (used by ChVisualization) " alt="" coords="537,56,655,83"/>
+<area shape="rect" id="node5" href="$classchrono_1_1_ch_matrix33.html" title="ChMatrix33. " alt="" coords="528,107,664,149"/>
+<area shape="rect" id="node6" href="$classchrono_1_1_ch_matrix_n_m.html" title="chrono::ChMatrixNM\l\&lt; Real, 3, 3 \&gt;" alt="" coords="259,107,402,149"/>
+<area shape="rect" id="node7" href="$classchrono_1_1_ch_matrix.html" title="ChMatrix: " alt="" coords="5,115,179,141"/>
+<area shape="rect" id="node8" href="$classchrono_1_1_ch_vector.html" title="Definition of general purpose 3d vector variables, such as points in 3D. " alt="" coords="509,181,683,208"/>
+<area shape="rect" id="node9" href="$classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html" title="A triangle mesh with connectivity info: vertices can be shared between faces. " alt="" coords="791,253,985,294"/>
+<area shape="rect" id="node10" href="$classchrono_1_1geometry_1_1_ch_triangle_mesh.html" title="Base class for triangle meshes. " alt="" coords="483,260,709,287"/>
+<area shape="rect" id="node11" href="$classchrono_1_1geometry_1_1_ch_geometry.html" title="Base class for geometric objects used for collisions and visualization. " alt="" coords="228,260,433,287"/>
+</map>

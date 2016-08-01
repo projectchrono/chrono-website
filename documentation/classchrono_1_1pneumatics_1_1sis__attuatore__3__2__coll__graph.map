@@ -1,0 +1,8 @@
+<map id="chrono::pneumatics::sis_attuatore_3_2" name="chrono::pneumatics::sis_attuatore_3_2">
+<area shape="rect" id="node2" href="$classchrono_1_1pneumatics_1_1sistema.html" title="A pneumatic system. " alt="" coords="5,243,141,284"/>
+<area shape="rect" id="node3" href="$classchrono_1_1pneumatics_1_1pistone__3__2.html" title="A specialized pneumatic piston actuator, with two 3&#45;2 valves. " alt="" coords="165,243,301,284"/>
+<area shape="rect" id="node4" href="$classchrono_1_1pneumatics_1_1pistone.html" title="This class implements the details of a pneumatic piston with given stroke, chambers, etc. " alt="" coords="71,124,207,165"/>
+<area shape="rect" id="node5" href="$classchrono_1_1pneumatics_1_1volume.html" title="Class defining the properties of a pneumatic volume of air, with density, pressure, etc. " alt="" coords="71,5,207,47"/>
+<area shape="rect" id="node6" href="$classchrono_1_1pneumatics_1_1valvola__3__2.html" title="Class defining the 3&#45;ways valve (3&#45;2), with on&#45;off behaviour. " alt="" coords="231,124,367,165"/>
+<area shape="rect" id="node7" href="$classchrono_1_1pneumatics_1_1ugello.html" title="Class defining pneumatic nozzles. " alt="" coords="231,5,367,47"/>
+</map>

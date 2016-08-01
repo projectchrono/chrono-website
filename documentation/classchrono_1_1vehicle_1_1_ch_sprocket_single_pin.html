@@ -1,0 +1,389 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChSprocketSinglePin Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket_single_pin.html">ChSprocketSinglePin</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_sprocket_single_pin-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChSprocketSinglePin Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__tracked.html">Tracked vehicles</a> &raquo; <a class="el" href="group__vehicle__tracked__sprocket.html">Sprocket subsystem</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for a sprocket template with gear profile composed of circular arcs. </p>
+<p>This sprocket type is suitable for interaction with single-pin track shoes. </p>
+</div>
+<p><code>#include &lt;ChSprocketSinglePin.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::ChSprocketSinglePin:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_sprocket_single_pin__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_sprocket_single_pin_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_sprocket_single_pin_inherit__map" id="chrono_1_1vehicle_1_1_ch_sprocket_single_pin_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_sprocket.html" title="Base class for a tracked vehicle sprocket. " alt="" coords="5,5,192,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::vehicle::ChSprocketSinglePin:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_sprocket_single_pin__coll__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_sprocket_single_pin_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_sprocket_single_pin_coll__map" id="chrono_1_1vehicle_1_1_ch_sprocket_single_pin_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_sprocket.html" title="Base class for a tracked vehicle sprocket. " alt="" coords="13,109,200,136"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_system_1_1_ch_custom_compute_collision_callback.html" title="Class to be inherited by user and to use in SetCustomComputeCollisionCallback() " alt="" coords="5,5,208,47"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a5dc82084fa6aac71b3156ff59377d9ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket_single_pin.html#a5dc82084fa6aac71b3156ff59377d9ed">ChSprocketSinglePin</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a5dc82084fa6aac71b3156ff59377d9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae00758a6ac237a9124c953e1cf9f8f4c"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classchrono_1_1geometry_1_1_ch_line_path.html">geometry::ChLinePath</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket_single_pin.html#ae00758a6ac237a9124c953e1cf9f8f4c">GetProfile</a> () override</td></tr>
+<tr class="memdesc:ae00758a6ac237a9124c953e1cf9f8f4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the 2D gear profile.  <a href="#ae00758a6ac237a9124c953e1cf9f8f4c">More...</a><br /></td></tr>
+<tr class="separator:ae00758a6ac237a9124c953e1cf9f8f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fde146ee583720007e595ecff9449a0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_system_1_1_ch_custom_compute_collision_callback.html">ChSystem::ChCustomComputeCollisionCallback</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket_single_pin.html#a0fde146ee583720007e595ecff9449a0">GetCollisionCallback</a> (<a class="el" href="classchrono_1_1vehicle_1_1_ch_track_assembly.html">ChTrackAssembly</a> *track) override</td></tr>
+<tr class="memdesc:a0fde146ee583720007e595ecff9449a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the custom collision callback object.  <a href="#a0fde146ee583720007e595ecff9449a0">More...</a><br /></td></tr>
+<tr class="separator:a0fde146ee583720007e595ecff9449a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html">chrono::vehicle::ChSprocket</a></td></tr>
+<tr class="memitem:af25f4e60e1250f2d032bcdc88a1b96e1 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#af25f4e60e1250f2d032bcdc88a1b96e1">ChSprocket</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:af25f4e60e1250f2d032bcdc88a1b96e1 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e4c14a911b9f3c84be0f1742d9b98ef inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1e4c14a911b9f3c84be0f1742d9b98ef"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a1e4c14a911b9f3c84be0f1742d9b98ef">GetName</a> () const </td></tr>
+<tr class="memdesc:a1e4c14a911b9f3c84be0f1742d9b98ef inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name identifier for this sprocket subsystem. <br /></td></tr>
+<tr class="separator:a1e4c14a911b9f3c84be0f1742d9b98ef inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad44f8c342cca8e500034cec0150e4213 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad44f8c342cca8e500034cec0150e4213"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#ad44f8c342cca8e500034cec0150e4213">SetName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:ad44f8c342cca8e500034cec0150e4213 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the name identifier for this sprocket subsystem. <br /></td></tr>
+<tr class="separator:ad44f8c342cca8e500034cec0150e4213 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0df1cc3cbab6e30cb1caf2a5847837a1 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0df1cc3cbab6e30cb1caf2a5847837a1"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a0df1cc3cbab6e30cb1caf2a5847837a1">GetNumTeeth</a> () const =0</td></tr>
+<tr class="memdesc:a0df1cc3cbab6e30cb1caf2a5847837a1 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of teeth of the gear. <br /></td></tr>
+<tr class="separator:a0df1cc3cbab6e30cb1caf2a5847837a1 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb4b1307b1cf0737b384a538f5e5e54 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a7bb4b1307b1cf0737b384a538f5e5e54">GetAssemblyRadius</a> () const =0</td></tr>
+<tr class="memdesc:a7bb4b1307b1cf0737b384a538f5e5e54 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the track assembly radius.  <a href="#a7bb4b1307b1cf0737b384a538f5e5e54">More...</a><br /></td></tr>
+<tr class="separator:a7bb4b1307b1cf0737b384a538f5e5e54 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b5aae08bcb5f93133b31971cde1ec56 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b5aae08bcb5f93133b31971cde1ec56"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a7b5aae08bcb5f93133b31971cde1ec56">GetGearBody</a> () const </td></tr>
+<tr class="memdesc:a7b5aae08bcb5f93133b31971cde1ec56 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the gear body. <br /></td></tr>
+<tr class="separator:a7b5aae08bcb5f93133b31971cde1ec56 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac62a219de1aefb6f196eeda9662f3993 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac62a219de1aefb6f196eeda9662f3993"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shaft.html">ChShaft</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#ac62a219de1aefb6f196eeda9662f3993">GetAxle</a> () const </td></tr>
+<tr class="memdesc:ac62a219de1aefb6f196eeda9662f3993 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the axle shaft. <br /></td></tr>
+<tr class="separator:ac62a219de1aefb6f196eeda9662f3993 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a627d1e3a40cd4767f8cf84907784d5cc inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a627d1e3a40cd4767f8cf84907784d5cc"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_lock_revolute.html">ChLinkLockRevolute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a627d1e3a40cd4767f8cf84907784d5cc">GetRevolute</a> () const </td></tr>
+<tr class="memdesc:a627d1e3a40cd4767f8cf84907784d5cc inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the revolute joint. <br /></td></tr>
+<tr class="separator:a627d1e3a40cd4767f8cf84907784d5cc inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ec6cb99a8952d0f023ca9145afd659 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13ec6cb99a8952d0f023ca9145afd659"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a13ec6cb99a8952d0f023ca9145afd659">GetAxleSpeed</a> () const </td></tr>
+<tr class="memdesc:a13ec6cb99a8952d0f023ca9145afd659 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the angular speed of the axle. <br /></td></tr>
+<tr class="separator:a13ec6cb99a8952d0f023ca9145afd659 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b43b5e35f48756b2d30e97924fc5b74 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a5b43b5e35f48756b2d30e97924fc5b74">SetContactMaterial</a> (float friction_coefficient, float restitution_coefficient, float young_modulus, float poisson_ratio)</td></tr>
+<tr class="memdesc:a5b43b5e35f48756b2d30e97924fc5b74 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set contact material properties.  <a href="#a5b43b5e35f48756b2d30e97924fc5b74">More...</a><br /></td></tr>
+<tr class="separator:a5b43b5e35f48756b2d30e97924fc5b74 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4cf19e266f77d8f92012885f95ff305 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4cf19e266f77d8f92012885f95ff305"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#ac4cf19e266f77d8f92012885f95ff305">SetCollide</a> (bool val)</td></tr>
+<tr class="memdesc:ac4cf19e266f77d8f92012885f95ff305 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on/off collision flag for the gear wheel. <br /></td></tr>
+<tr class="separator:ac4cf19e266f77d8f92012885f95ff305 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad91c33e23781a3b18bdcb98f48d6de3a inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad91c33e23781a3b18bdcb98f48d6de3a"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#ad91c33e23781a3b18bdcb98f48d6de3a">GetMass</a> () const </td></tr>
+<tr class="memdesc:ad91c33e23781a3b18bdcb98f48d6de3a inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mass of the sprocket subsystem. <br /></td></tr>
+<tr class="separator:ad91c33e23781a3b18bdcb98f48d6de3a inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dc9b833bbfb033aac39689c546989fb inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a2dc9b833bbfb033aac39689c546989fb">Initialize</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt; chassis, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;location, <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_assembly.html">ChTrackAssembly</a> *track)</td></tr>
+<tr class="memdesc:a2dc9b833bbfb033aac39689c546989fb inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize this sprocket subsystem.  <a href="#a2dc9b833bbfb033aac39689c546989fb">More...</a><br /></td></tr>
+<tr class="separator:a2dc9b833bbfb033aac39689c546989fb inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af663cd230d5fc60d748406c348d62b7b inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#af663cd230d5fc60d748406c348d62b7b">ApplyAxleTorque</a> (double torque)</td></tr>
+<tr class="memdesc:af663cd230d5fc60d748406c348d62b7b inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the provided motor torque.  <a href="#af663cd230d5fc60d748406c348d62b7b">More...</a><br /></td></tr>
+<tr class="separator:af663cd230d5fc60d748406c348d62b7b inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab76e89a330305983726178f177b98760 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab76e89a330305983726178f177b98760"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#ab76e89a330305983726178f177b98760">LogConstraintViolations</a> ()</td></tr>
+<tr class="memdesc:ab76e89a330305983726178f177b98760 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log current constraint violations. <br /></td></tr>
+<tr class="separator:ab76e89a330305983726178f177b98760 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ad957d9a01a51f6099a73a251fc5a3201"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad957d9a01a51f6099a73a251fc5a3201"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket_single_pin.html#ad957d9a01a51f6099a73a251fc5a3201">GetOuterRadius</a> () const =0</td></tr>
+<tr class="memdesc:ad957d9a01a51f6099a73a251fc5a3201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the radius of the addendum circle. <br /></td></tr>
+<tr class="separator:ad957d9a01a51f6099a73a251fc5a3201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad853ff1ef32c53832c9be9397981dd80"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad853ff1ef32c53832c9be9397981dd80"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket_single_pin.html#ad853ff1ef32c53832c9be9397981dd80">GetArcRadius</a> () const =0</td></tr>
+<tr class="memdesc:ad853ff1ef32c53832c9be9397981dd80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the radius of the (concave) tooth circular arc. <br /></td></tr>
+<tr class="separator:ad853ff1ef32c53832c9be9397981dd80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a375d740051265ca0e750192f191de1ef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a375d740051265ca0e750192f191de1ef"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket_single_pin.html#a375d740051265ca0e750192f191de1ef">GetArcCentersRadius</a> () const =0</td></tr>
+<tr class="memdesc:a375d740051265ca0e750192f191de1ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the radius of the tooth arc centers. <br /></td></tr>
+<tr class="separator:a375d740051265ca0e750192f191de1ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html">chrono::vehicle::ChSprocket</a></td></tr>
+<tr class="memitem:a1fa469f3ebd0bd8d8602b59635c97b34 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1fa469f3ebd0bd8d8602b59635c97b34"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a1fa469f3ebd0bd8d8602b59635c97b34">GetGearMass</a> () const =0</td></tr>
+<tr class="memdesc:a1fa469f3ebd0bd8d8602b59635c97b34 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mass of the gear body. <br /></td></tr>
+<tr class="separator:a1fa469f3ebd0bd8d8602b59635c97b34 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28ab9c1c2fb09ed23ed367aa3d1cf65f inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28ab9c1c2fb09ed23ed367aa3d1cf65f"></a>
+virtual const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a28ab9c1c2fb09ed23ed367aa3d1cf65f">GetGearInertia</a> ()=0</td></tr>
+<tr class="memdesc:a28ab9c1c2fb09ed23ed367aa3d1cf65f inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the moments of inertia of the gear body. <br /></td></tr>
+<tr class="separator:a28ab9c1c2fb09ed23ed367aa3d1cf65f inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a580a5572f2df65a4fc1b4af99a762b95 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a580a5572f2df65a4fc1b4af99a762b95"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a580a5572f2df65a4fc1b4af99a762b95">GetAxleInertia</a> () const =0</td></tr>
+<tr class="memdesc:a580a5572f2df65a4fc1b4af99a762b95 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the inertia of the axle shaft. <br /></td></tr>
+<tr class="separator:a580a5572f2df65a4fc1b4af99a762b95 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac00471262d8bdea2a734fcc36665f4c6 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac00471262d8bdea2a734fcc36665f4c6"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#ac00471262d8bdea2a734fcc36665f4c6">GetSeparation</a> () const =0</td></tr>
+<tr class="memdesc:ac00471262d8bdea2a734fcc36665f4c6 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the distance between the two gear profiles. <br /></td></tr>
+<tr class="separator:ac00471262d8bdea2a734fcc36665f4c6 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad314ca7ed22ebe2a76d164f4ceaae7cb inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#ad314ca7ed22ebe2a76d164f4ceaae7cb">AddGearVisualization</a> ()</td></tr>
+<tr class="memdesc:ad314ca7ed22ebe2a76d164f4ceaae7cb inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add visualization of the gear wheel.  <a href="#ad314ca7ed22ebe2a76d164f4ceaae7cb">More...</a><br /></td></tr>
+<tr class="separator:ad314ca7ed22ebe2a76d164f4ceaae7cb inherit pro_methods_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html">chrono::vehicle::ChSprocket</a></td></tr>
+<tr class="memitem:a00671e16b8ddab8df31a61e6e9aa82d7 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00671e16b8ddab8df31a61e6e9aa82d7"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a00671e16b8ddab8df31a61e6e9aa82d7">m_name</a></td></tr>
+<tr class="memdesc:a00671e16b8ddab8df31a61e6e9aa82d7 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of the subsystem <br /></td></tr>
+<tr class="separator:a00671e16b8ddab8df31a61e6e9aa82d7 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003f816c529185be53cd210c6f94c1ac inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a003f816c529185be53cd210c6f94c1ac"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#a003f816c529185be53cd210c6f94c1ac">m_gear</a></td></tr>
+<tr class="memdesc:a003f816c529185be53cd210c6f94c1ac inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to the sprocket gear body <br /></td></tr>
+<tr class="separator:a003f816c529185be53cd210c6f94c1ac inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade2d908358bf910ed0304f5bfb87f3c2 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade2d908358bf910ed0304f5bfb87f3c2"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shaft.html">ChShaft</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#ade2d908358bf910ed0304f5bfb87f3c2">m_axle</a></td></tr>
+<tr class="memdesc:ade2d908358bf910ed0304f5bfb87f3c2 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to gear shafts <br /></td></tr>
+<tr class="separator:ade2d908358bf910ed0304f5bfb87f3c2 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac794ab38fea7d1413818ab98021115c1 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac794ab38fea7d1413818ab98021115c1"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shafts_body.html">ChShaftsBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#ac794ab38fea7d1413818ab98021115c1">m_axle_to_spindle</a></td></tr>
+<tr class="memdesc:ac794ab38fea7d1413818ab98021115c1 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to gear-shaft connector <br /></td></tr>
+<tr class="separator:ac794ab38fea7d1413818ab98021115c1 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73899b54ac6ca798659bbcec76b50f8 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa73899b54ac6ca798659bbcec76b50f8"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_lock_revolute.html">ChLinkLockRevolute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#aa73899b54ac6ca798659bbcec76b50f8">m_revolute</a></td></tr>
+<tr class="memdesc:aa73899b54ac6ca798659bbcec76b50f8 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to sprocket revolute joint <br /></td></tr>
+<tr class="separator:aa73899b54ac6ca798659bbcec76b50f8 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab20f02a98a0810009ec1e2d8cfcc4915 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab20f02a98a0810009ec1e2d8cfcc4915"></a>
+<a class="el" href="classchrono_1_1_ch_system_1_1_ch_custom_compute_collision_callback.html">ChSystem::ChCustomComputeCollisionCallback</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#ab20f02a98a0810009ec1e2d8cfcc4915">m_callback</a></td></tr>
+<tr class="memdesc:ab20f02a98a0810009ec1e2d8cfcc4915 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="mdescLeft">&#160;</td><td class="mdescRight">custom collision functor object <br /></td></tr>
+<tr class="separator:ab20f02a98a0810009ec1e2d8cfcc4915 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8086c45b331c79389cc0b8fa0ba58393 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8086c45b331c79389cc0b8fa0ba58393"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_friction</b></td></tr>
+<tr class="separator:a8086c45b331c79389cc0b8fa0ba58393 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dc0c33817983fea0d3603a0ddb7c4cb inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2dc0c33817983fea0d3603a0ddb7c4cb"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_restitution</b></td></tr>
+<tr class="separator:a2dc0c33817983fea0d3603a0ddb7c4cb inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f2ecd1b724af5829a90dd6c2b989cc5 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f2ecd1b724af5829a90dd6c2b989cc5"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_young_modulus</b></td></tr>
+<tr class="separator:a3f2ecd1b724af5829a90dd6c2b989cc5 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb51c4a170e9b8d2a4f2a62e486dc7c4 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb51c4a170e9b8d2a4f2a62e486dc7c4"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_poisson_ratio</b></td></tr>
+<tr class="separator:adb51c4a170e9b8d2a4f2a62e486dc7c4 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_sprocket"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a5dc82084fa6aac71b3156ff59377d9ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::vehicle::ChSprocketSinglePin::ChSprocketSinglePin </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>name of the subsystem </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a0fde146ee583720007e595ecff9449a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_system_1_1_ch_custom_compute_collision_callback.html">ChSystem::ChCustomComputeCollisionCallback</a> * chrono::vehicle::ChSprocketSinglePin::GetCollisionCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_assembly.html">ChTrackAssembly</a> *&#160;</td>
+          <td class="paramname"><em>track</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the custom collision callback object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">track</td><td>pointer to containing track assembly </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#ad5945fac7e35b108532191135e70e8ff">chrono::vehicle::ChSprocket</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae00758a6ac237a9124c953e1cf9f8f4c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classchrono_1_1geometry_1_1_ch_line_path.html">geometry::ChLinePath</a> &gt; chrono::vehicle::ChSprocketSinglePin::GetProfile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the 2D gear profile. </p>
+<p>The gear profile, a ChLinePath geometric object, is made up of an arbitrary number of sub-paths of type ChLineArc or ChLineSegment sub-lines. These must be added in clockwise order, and the end of sub-path i must be coincident with beginning of sub-path i+1. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_sprocket.html#adcd18ac845688bb970191818ed09c439">chrono::vehicle::ChSprocket</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:25 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

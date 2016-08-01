@@ -1,0 +1,5 @@
+<map id="chrono::ChAparticle" name="chrono::ChAparticle">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_particle_base.html" title="Base class for a single particle to be used in ChIndexedParticles containers. " alt="" coords="18,169,178,196"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_frame_moving.html" title="chrono::ChFrameMoving\l\&lt; double \&gt;" alt="" coords="15,80,181,121"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_frame.html" title="chrono::ChFrame\&lt; double \&gt;" alt="" coords="5,5,191,32"/>
+</map>

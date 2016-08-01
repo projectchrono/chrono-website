@@ -1,0 +1,336 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::irrlicht::EffectHandler Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1irrlicht.html">irrlicht</a></li><li class="navelem"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html">EffectHandler</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1irrlicht_1_1_effect_handler-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::irrlicht::EffectHandler Class Reference<div class="ingroups"><a class="el" href="group__irrlicht__module.html">IRRLICHT module</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Main effect handling class, use this to apply shadows and effects. </p>
+</div>
+<p><code>#include &lt;ChIrrEffects.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ga07eee4eb4ca74794431e6c9f18a486f1"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>EffectHandler</b> (irr::IrrlichtDevice *irrlichtDevice, const irr::core::dimension2du &amp;screenRTTSize=irr::core::dimension2du(0, 0), const bool useVSMShadows=false, const bool useRoundSpotLights=false, const bool use32BitDepthBuffers=false)</td></tr>
+<tr class="separator:ga07eee4eb4ca74794431e6c9f18a486f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabc0f96cbdbc1ea6b66c135de3bfd9fdd"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__irrlicht__module.html#gabc0f96cbdbc1ea6b66c135de3bfd9fdd">~EffectHandler</a> ()</td></tr>
+<tr class="memdesc:gabc0f96cbdbc1ea6b66c135de3bfd9fdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:gabc0f96cbdbc1ea6b66c135de3bfd9fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58bfd35d067427ba7440171d40594ddd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58bfd35d067427ba7440171d40594ddd"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#a58bfd35d067427ba7440171d40594ddd">addShadowLight</a> (const SShadowLight &amp;shadowLight)</td></tr>
+<tr class="memdesc:a58bfd35d067427ba7440171d40594ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a shadow light. Check out the shadow light constructor for more information. <br /></td></tr>
+<tr class="separator:a58bfd35d067427ba7440171d40594ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7709fe230dcc6f34ab65142cf64384f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7709fe230dcc6f34ab65142cf64384f6"></a>
+SShadowLight &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#a7709fe230dcc6f34ab65142cf64384f6">getShadowLight</a> (irr::u32 index)</td></tr>
+<tr class="memdesc:a7709fe230dcc6f34ab65142cf64384f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a reference to a shadow light. You may get the max amount from getShadowLightCount. <br /></td></tr>
+<tr class="separator:a7709fe230dcc6f34ab65142cf64384f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a578844c8f18b5f5fd2898c643fa24d51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a578844c8f18b5f5fd2898c643fa24d51"></a>
+const irr::u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#a578844c8f18b5f5fd2898c643fa24d51">getShadowLightCount</a> () const </td></tr>
+<tr class="memdesc:a578844c8f18b5f5fd2898c643fa24d51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the current number of shadow lights. <br /></td></tr>
+<tr class="separator:a578844c8f18b5f5fd2898c643fa24d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga38c148333706a83c45e03302532df5ee"><td class="memItemLeft" align="right" valign="top">irr::video::ITexture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__irrlicht__module.html#ga38c148333706a83c45e03302532df5ee">getShadowMapTexture</a> (const irr::u32 resolution, const bool secondary=false)</td></tr>
+<tr class="memdesc:ga38c148333706a83c45e03302532df5ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the shadow map texture for the specified square shadow map resolution.  <a href="group__irrlicht__module.html#ga38c148333706a83c45e03302532df5ee">More...</a><br /></td></tr>
+<tr class="separator:ga38c148333706a83c45e03302532df5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd0d06b4418e58ce04dfabf28158f6e"><td class="memItemLeft" align="right" valign="top">irr::video::ITexture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#a6bd0d06b4418e58ce04dfabf28158f6e">getDepthMapTexture</a> ()</td></tr>
+<tr class="memdesc:a6bd0d06b4418e58ce04dfabf28158f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the screen depth map texture if the depth pass is enabled.  <a href="#a6bd0d06b4418e58ce04dfabf28158f6e">More...</a><br /></td></tr>
+<tr class="separator:a6bd0d06b4418e58ce04dfabf28158f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf622503f8c2fe3811de75c5a3a32aaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__irrlicht__module.html#gadf622503f8c2fe3811de75c5a3a32aaf">addNodeToDepthPass</a> (irr::scene::ISceneNode *node)</td></tr>
+<tr class="memdesc:gadf622503f8c2fe3811de75c5a3a32aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is now unrelated to shadow mapping.  <a href="group__irrlicht__module.html#gadf622503f8c2fe3811de75c5a3a32aaf">More...</a><br /></td></tr>
+<tr class="separator:gadf622503f8c2fe3811de75c5a3a32aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb0e24f66d7ba9532f7942ed20305e71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__irrlicht__module.html#gaeb0e24f66d7ba9532f7942ed20305e71">removeNodeFromDepthPass</a> (irr::scene::ISceneNode *node)</td></tr>
+<tr class="memdesc:gaeb0e24f66d7ba9532f7942ed20305e71"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is now unrelated to shadow mapping.  <a href="group__irrlicht__module.html#gaeb0e24f66d7ba9532f7942ed20305e71">More...</a><br /></td></tr>
+<tr class="separator:gaeb0e24f66d7ba9532f7942ed20305e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga809dc24886dd4884648b479fdba588b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__irrlicht__module.html#ga809dc24886dd4884648b479fdba588b6">enableDepthPass</a> (bool enableDepthPass)</td></tr>
+<tr class="memdesc:ga809dc24886dd4884648b479fdba588b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables/disables an additional pass before applying post processing effects (If there are any) which records screen depth info to the depth buffer for use with post processing effects that require screen depth info, such as SSAO or DOF.  <a href="group__irrlicht__module.html#ga809dc24886dd4884648b479fdba588b6">More...</a><br /></td></tr>
+<tr class="separator:ga809dc24886dd4884648b479fdba588b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48ca32f0c965417c1e522370006c2522"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48ca32f0c965417c1e522370006c2522"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#a48ca32f0c965417c1e522370006c2522">removeShadowFromNode</a> (irr::scene::ISceneNode *node)</td></tr>
+<tr class="memdesc:a48ca32f0c965417c1e522370006c2522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes shadows from a scene node. <br /></td></tr>
+<tr class="separator:a48ca32f0c965417c1e522370006c2522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7684181896d5711848c74d393d5cb581"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7684181896d5711848c74d393d5cb581"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>excludeNodeFromLightingCalculations</b> (irr::scene::ISceneNode *node)</td></tr>
+<tr class="separator:a7684181896d5711848c74d393d5cb581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac64c9b9a352ca747e67886ba25bc236d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__irrlicht__module.html#gac64c9b9a352ca747e67886ba25bc236d">update</a> (irr::video::ITexture *outputTarget=0)</td></tr>
+<tr class="memdesc:gac64c9b9a352ca747e67886ba25bc236d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the effects handler.  <a href="group__irrlicht__module.html#gac64c9b9a352ca747e67886ba25bc236d">More...</a><br /></td></tr>
+<tr class="separator:gac64c9b9a352ca747e67886ba25bc236d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga19e09b23d6e288e13df172c8d6c5e8aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__irrlicht__module.html#ga19e09b23d6e288e13df172c8d6c5e8aa">addShadowToNode</a> (irr::scene::ISceneNode *node, <a class="el" href="group__irrlicht__module.html#gadf6049603cfa127f42c6bbe78fa889d8">E_FILTER_TYPE</a> filterType=EFT_NONE, <a class="el" href="group__irrlicht__module.html#ga4d7e2f7bdfa610d6bbf8c7970d1f4eb3">E_SHADOW_MODE</a> shadowMode=ESM_BOTH)</td></tr>
+<tr class="memdesc:ga19e09b23d6e288e13df172c8d6c5e8aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a shadow to the scene node.  <a href="group__irrlicht__module.html#ga19e09b23d6e288e13df172c8d6c5e8aa">More...</a><br /></td></tr>
+<tr class="separator:ga19e09b23d6e288e13df172c8d6c5e8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8104e28f763c6ee3b8e51ef513bc1af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af8104e28f763c6ee3b8e51ef513bc1af"></a>
+irr::f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#af8104e28f763c6ee3b8e51ef513bc1af">getTime</a> ()</td></tr>
+<tr class="memdesc:af8104e28f763c6ee3b8e51ef513bc1af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the device time divided by 100, for use with the shader callbacks. <br /></td></tr>
+<tr class="separator:af8104e28f763c6ee3b8e51ef513bc1af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a246a75cd43cdaaf6b468bbb963353373"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a246a75cd43cdaaf6b468bbb963353373"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#a246a75cd43cdaaf6b468bbb963353373">setClearColour</a> (irr::video::SColor ClearCol)</td></tr>
+<tr class="memdesc:a246a75cd43cdaaf6b468bbb963353373"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the scene clear colour, for when the scene is cleared before smgr-&gt;drawAll(). <br /></td></tr>
+<tr class="separator:a246a75cd43cdaaf6b468bbb963353373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabb32bcb50f788927c6b69de74a7e3d01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__irrlicht__module.html#gabb32bcb50f788927c6b69de74a7e3d01">addPostProcessingEffect</a> (irr::s32 MaterialType, IPostProcessingRenderCallback *callback=0)</td></tr>
+<tr class="memdesc:gabb32bcb50f788927c6b69de74a7e3d01"><td class="mdescLeft">&#160;</td><td class="mdescRight">A very easy to use post processing function.  <a href="group__irrlicht__module.html#gabb32bcb50f788927c6b69de74a7e3d01">More...</a><br /></td></tr>
+<tr class="separator:gabb32bcb50f788927c6b69de74a7e3d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf3099dce89215252906b8294fcc6a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#a9bf3099dce89215252906b8294fcc6a7">setPostProcessingRenderCallback</a> (irr::s32 MaterialType, IPostProcessingRenderCallback *callback=0)</td></tr>
+<tr class="memdesc:a9bf3099dce89215252906b8294fcc6a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the IPostProcessingRenderCallback for the specified post processing effect.  <a href="#a9bf3099dce89215252906b8294fcc6a7">More...</a><br /></td></tr>
+<tr class="separator:a9bf3099dce89215252906b8294fcc6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d7f4561cc7d8367b353d62e63835e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0d7f4561cc7d8367b353d62e63835e0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#ae0d7f4561cc7d8367b353d62e63835e0">removePostProcessingEffect</a> (irr::s32 MaterialType)</td></tr>
+<tr class="memdesc:ae0d7f4561cc7d8367b353d62e63835e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the first encountered post processing effect with the specified material type. <br /></td></tr>
+<tr class="separator:ae0d7f4561cc7d8367b353d62e63835e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga826eb1e6f5be03ab2c924450541ddf76"><td class="memItemLeft" align="right" valign="top">irr::s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__irrlicht__module.html#ga826eb1e6f5be03ab2c924450541ddf76">addPostProcessingEffectFromFile</a> (const irr::core::stringc &amp;filename, IPostProcessingRenderCallback *callback=0)</td></tr>
+<tr class="memdesc:ga826eb1e6f5be03ab2c924450541ddf76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a post processing effect by reading a pixel shader from a file.  <a href="group__irrlicht__module.html#ga826eb1e6f5be03ab2c924450541ddf76">More...</a><br /></td></tr>
+<tr class="separator:ga826eb1e6f5be03ab2c924450541ddf76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga006d6615ff19b98a44d8b890c6d69d61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__irrlicht__module.html#ga006d6615ff19b98a44d8b890c6d69d61">setPostProcessingEffectConstant</a> (const irr::s32 materialType, const irr::core::stringc &amp;name, const irr::f32 *data, const irr::u32 count)</td></tr>
+<tr class="memdesc:ga006d6615ff19b98a44d8b890c6d69d61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a shader parameter for a post-processing effect.  <a href="group__irrlicht__module.html#ga006d6615ff19b98a44d8b890c6d69d61">More...</a><br /></td></tr>
+<tr class="separator:ga006d6615ff19b98a44d8b890c6d69d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93e10c61d945157cebcae24bd2d5a0de"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classchrono_1_1irrlicht_1_1_c_screen_quad.html">CScreenQuad</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#a93e10c61d945157cebcae24bd2d5a0de">getScreenQuad</a> ()</td></tr>
+<tr class="memdesc:a93e10c61d945157cebcae24bd2d5a0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the screen quad scene node.  <a href="#a93e10c61d945157cebcae24bd2d5a0de">More...</a><br /></td></tr>
+<tr class="separator:a93e10c61d945157cebcae24bd2d5a0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43fb5886409cd828d7cce37601d49626"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43fb5886409cd828d7cce37601d49626"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#a43fb5886409cd828d7cce37601d49626">setActiveSceneManager</a> (irr::scene::ISceneManager *smgrIn)</td></tr>
+<tr class="memdesc:a43fb5886409cd828d7cce37601d49626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the active scene manager. <br /></td></tr>
+<tr class="separator:a43fb5886409cd828d7cce37601d49626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea1dfe872cd06553da76ccb0bb8d966"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4ea1dfe872cd06553da76ccb0bb8d966"></a>
+irr::scene::ISceneManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#a4ea1dfe872cd06553da76ccb0bb8d966">getActiveSceneManager</a> ()</td></tr>
+<tr class="memdesc:a4ea1dfe872cd06553da76ccb0bb8d966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the active scene manager. <br /></td></tr>
+<tr class="separator:a4ea1dfe872cd06553da76ccb0bb8d966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcb8ee8132ebdc6cf11149a20531016c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#abcb8ee8132ebdc6cf11149a20531016c">setPostProcessingUserTexture</a> (irr::video::ITexture *userTexture)</td></tr>
+<tr class="memdesc:abcb8ee8132ebdc6cf11149a20531016c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This allows the user to specify a custom, fourth texture to be used in the post-processing effects.  <a href="#abcb8ee8132ebdc6cf11149a20531016c">More...</a><br /></td></tr>
+<tr class="separator:abcb8ee8132ebdc6cf11149a20531016c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac1791906893fe45585f6415bf6e362"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaac1791906893fe45585f6415bf6e362"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#aaac1791906893fe45585f6415bf6e362">setAmbientColor</a> (irr::video::SColor ambientColour)</td></tr>
+<tr class="memdesc:aaac1791906893fe45585f6415bf6e362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the global ambient color for shadowed scene nodes. <br /></td></tr>
+<tr class="separator:aaac1791906893fe45585f6415bf6e362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32b35291a5bb632076c0b3e37faefa5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32b35291a5bb632076c0b3e37faefa5e"></a>
+irr::video::SColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#a32b35291a5bb632076c0b3e37faefa5e">getAmbientColor</a> () const </td></tr>
+<tr class="memdesc:a32b35291a5bb632076c0b3e37faefa5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the global ambient color. <br /></td></tr>
+<tr class="separator:a32b35291a5bb632076c0b3e37faefa5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadaba0113af331876f3a9e891e387fd92"><td class="memItemLeft" align="right" valign="top">
+irr::video::ITexture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__irrlicht__module.html#gadaba0113af331876f3a9e891e387fd92">generateRandomVectorTexture</a> (const irr::core::dimension2du &amp;dimensions, const irr::core::stringc &amp;name=&quot;randVec&quot;)</td></tr>
+<tr class="memdesc:gadaba0113af331876f3a9e891e387fd92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a randomized texture composed of uniformly distributed 3 dimensional vectors. <br /></td></tr>
+<tr class="separator:gadaba0113af331876f3a9e891e387fd92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc3b6dbe7b565dca0125cf99f4bf440c"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__irrlicht__module.html#gadc3b6dbe7b565dca0125cf99f4bf440c">setScreenRenderTargetResolution</a> (const irr::core::dimension2du &amp;resolution)</td></tr>
+<tr class="memdesc:gadc3b6dbe7b565dca0125cf99f4bf440c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a new screen render target resolution. <br /></td></tr>
+<tr class="separator:gadc3b6dbe7b565dca0125cf99f4bf440c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bed39b569c5b3ea407652fa838206e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4bed39b569c5b3ea407652fa838206e2"></a>
+irr::IrrlichtDevice *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html#a4bed39b569c5b3ea407652fa838206e2">getIrrlichtDevice</a> ()</td></tr>
+<tr class="memdesc:a4bed39b569c5b3ea407652fa838206e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the device that this <a class="el" href="classchrono_1_1irrlicht_1_1_effect_handler.html" title="Main effect handling class, use this to apply shadows and effects. ">EffectHandler</a> was initialized with. <br /></td></tr>
+<tr class="separator:a4bed39b569c5b3ea407652fa838206e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a6bd0d06b4418e58ce04dfabf28158f6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">irr::video::ITexture* chrono::irrlicht::EffectHandler::getDepthMapTexture </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves the screen depth map texture if the depth pass is enabled. </p>
+<p>This is unrelated to the shadow map, and is meant to be used for post processing effects that require screen depth info, eg. DOF or SSAO. </p>
+
+</div>
+</div>
+<a class="anchor" id="a93e10c61d945157cebcae24bd2d5a0de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classchrono_1_1irrlicht_1_1_c_screen_quad.html">CScreenQuad</a>&amp; chrono::irrlicht::EffectHandler::getScreenQuad </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the screen quad scene node. </p>
+<p>This is not required in any way, but some advanced users may want to adjust its material settings accordingly. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9bf3099dce89215252906b8294fcc6a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::irrlicht::EffectHandler::setPostProcessingRenderCallback </td>
+          <td>(</td>
+          <td class="paramtype">irr::s32&#160;</td>
+          <td class="paramname"><em>MaterialType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IPostProcessingRenderCallback *&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the IPostProcessingRenderCallback for the specified post processing effect. </p>
+<p>The old callback if previously set will be automatically deleted. </p>
+
+</div>
+</div>
+<a class="anchor" id="abcb8ee8132ebdc6cf11149a20531016c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::irrlicht::EffectHandler::setPostProcessingUserTexture </td>
+          <td>(</td>
+          <td class="paramtype">irr::video::ITexture *&#160;</td>
+          <td class="paramname"><em>userTexture</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This allows the user to specify a custom, fourth texture to be used in the post-processing effects. </p>
+<p>See addPostProcessingEffect for more info. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:23 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

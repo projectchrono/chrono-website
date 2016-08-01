@@ -1,0 +1,8 @@
+<map id="chrono::ChShaftsTorqueBase" name="chrono::ChShaftsTorqueBase">
+<area shape="rect" id="node5" href="$classchrono_1_1_ch_shafts_thermal_engine.html" title="Class for defining a thermal engine between two one&#45;degree&#45;of&#45;freedom parts; i.e., shafts that can be used to build 1D models of power trains. " alt="" coords="5,304,216,331"/>
+<area shape="rect" id="node6" href="$classchrono_1_1_ch_shafts_torque.html" title="Class for defining a user&#45;defined torque between two one&#45;degree&#45;of&#45;freedom parts; i..." alt="" coords="241,304,405,331"/>
+<area shape="rect" id="node7" href="$classchrono_1_1_ch_shafts_torsion_spring.html" title="Class for defining a torsional spring&#45;damper between between two 1D parts; i.e., shafts that can be u..." alt="" coords="429,304,633,331"/>
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_shafts_couple.html" title="Base class for defining constraints between a couple of two one&#45;degree&#45;of&#45;freedom parts; i..." alt="" coords="240,155,405,181"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="243,80,402,107"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="269,5,376,32"/>
+</map>

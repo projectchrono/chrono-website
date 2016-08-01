@@ -1,0 +1,4 @@
+<map id="chrono::ChShaftsTorqueConverter" name="chrono::ChShaftsTorqueConverter">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="37,80,195,107"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="63,5,169,32"/>
+</map>

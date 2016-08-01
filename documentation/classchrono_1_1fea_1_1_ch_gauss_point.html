@@ -1,0 +1,209 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::fea::ChGaussPoint Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1fea.html">fea</a></li><li class="navelem"><a class="el" href="classchrono_1_1fea_1_1_ch_gauss_point.html">ChGaussPoint</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="classchrono_1_1fea_1_1_ch_gauss_point-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::fea::ChGaussPoint Class Reference<div class="ingroups"><a class="el" href="group__fea__module.html">FEA module</a> &raquo; <a class="el" href="group__fea__math.html">Mathematical support</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for a gauss point, that has a position (1D-3D) and a weight. </p>
+<p>It also contains the strain and the stress tensor. </p>
+</div>
+<p><code>#include &lt;ChGaussPoint.h&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for chrono::fea::ChGaussPoint:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_gauss_point__coll__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_gauss_point_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_gauss_point_coll__map" id="chrono_1_1fea_1_1_ch_gauss_point_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_matrix_dynamic.html" title="ChMatrixDynamic. " alt="" coords="395,5,569,47"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_matrix.html" title="ChMatrix: " alt="" coords="5,35,179,62"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_matrix_n_m.html" title="chrono::ChMatrixNM\l\&lt; Real, 6, 1 \&gt;" alt="" coords="228,64,371,105"/>
+<area shape="rect" id="node4" href="classchrono_1_1fea_1_1_ch_stress_tensor.html" title="Class for stress tensors, in compact Voight notation that is with 6 components in a column..." alt="" coords="871,64,1061,105"/>
+<area shape="rect" id="node5" href="classchrono_1_1fea_1_1_ch_voight_tensor.html" title="Base class for stress and strain tensors, in compact Voight notation that is with 6 components in a c..." alt="" coords="593,64,783,105"/>
+<area shape="rect" id="node7" href="classchrono_1_1fea_1_1_ch_strain_tensor.html" title="Class for strain tensors, in compact Voight notation that is with 6 components in a column..." alt="" coords="873,129,1059,171"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a37480ae671631b505f7e12d9bd2cbda7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37480ae671631b505f7e12d9bd2cbda7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_gauss_point.html#a37480ae671631b505f7e12d9bd2cbda7">ChGaussPoint</a> (int n, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; *coord, double w)</td></tr>
+<tr class="memdesc:a37480ae671631b505f7e12d9bd2cbda7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor; n number of the gauss point, coordinates of the point, w weight. <br /></td></tr>
+<tr class="separator:a37480ae671631b505f7e12d9bd2cbda7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a16184a978be2c7818c9a1646c9448"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21a16184a978be2c7818c9a1646c9448"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_gauss_point.html#a21a16184a978be2c7818c9a1646c9448">~ChGaussPoint</a> ()</td></tr>
+<tr class="memdesc:a21a16184a978be2c7818c9a1646c9448"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:a21a16184a978be2c7818c9a1646c9448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d5a703fe98745286a93110ed6a78bca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d5a703fe98745286a93110ed6a78bca"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_gauss_point.html#a5d5a703fe98745286a93110ed6a78bca">GetLocalCoordinates</a> ()</td></tr>
+<tr class="memdesc:a5d5a703fe98745286a93110ed6a78bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns local coordinates. <br /></td></tr>
+<tr class="separator:a5d5a703fe98745286a93110ed6a78bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe2b9ac51b20fc401dec41008a14a2b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe2b9ac51b20fc401dec41008a14a2b5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setLocalCoordinates</b> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;c)</td></tr>
+<tr class="separator:afe2b9ac51b20fc401dec41008a14a2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef5ff074fdcf7e88caf823e5edc99126"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef5ff074fdcf7e88caf823e5edc99126"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_gauss_point.html#aef5ff074fdcf7e88caf823e5edc99126">GetCoordinates</a> ()</td></tr>
+<tr class="memdesc:aef5ff074fdcf7e88caf823e5edc99126"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns absolute coordinates. <br /></td></tr>
+<tr class="separator:aef5ff074fdcf7e88caf823e5edc99126"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec216ed834af575e7e28ae9807ad608"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0ec216ed834af575e7e28ae9807ad608"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCoordinates</b> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;c)</td></tr>
+<tr class="separator:a0ec216ed834af575e7e28ae9807ad608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa15f537c5723c8b3dcd22be45f68e10a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa15f537c5723c8b3dcd22be45f68e10a"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_gauss_point.html#aa15f537c5723c8b3dcd22be45f68e10a">GetWeight</a> ()</td></tr>
+<tr class="memdesc:aa15f537c5723c8b3dcd22be45f68e10a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns integration weight of receiver. <br /></td></tr>
+<tr class="separator:aa15f537c5723c8b3dcd22be45f68e10a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f662c560d3f3536c2a06f0b10e2a667"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f662c560d3f3536c2a06f0b10e2a667"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setWeight</b> (double w)</td></tr>
+<tr class="separator:a5f662c560d3f3536c2a06f0b10e2a667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ac39aa3dcd0add56cbd2635d5ec75b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ac39aa3dcd0add56cbd2635d5ec75b4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_gauss_point.html#a3ac39aa3dcd0add56cbd2635d5ec75b4">GetNumber</a> ()</td></tr>
+<tr class="memdesc:a3ac39aa3dcd0add56cbd2635d5ec75b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of the point. <br /></td></tr>
+<tr class="separator:a3ac39aa3dcd0add56cbd2635d5ec75b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a46cfa67a27fc686871a2ff4d4c6bd7a2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a46cfa67a27fc686871a2ff4d4c6bd7a2"></a>
+<a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_gauss_point.html#a46cfa67a27fc686871a2ff4d4c6bd7a2">MatrB</a></td></tr>
+<tr class="memdesc:a46cfa67a27fc686871a2ff4d4c6bd7a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix of partial derivatives: to obtain strain &amp; stress. <br /></td></tr>
+<tr class="separator:a46cfa67a27fc686871a2ff4d4c6bd7a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49688549f1f07fddfe0d05d50bdd302d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49688549f1f07fddfe0d05d50bdd302d"></a>
+<a class="el" href="classchrono_1_1fea_1_1_ch_strain_tensor.html">ChStrainTensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_gauss_point.html#a49688549f1f07fddfe0d05d50bdd302d">Strain</a></td></tr>
+<tr class="memdesc:a49688549f1f07fddfe0d05d50bdd302d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strain tensor. <br /></td></tr>
+<tr class="separator:a49688549f1f07fddfe0d05d50bdd302d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a631cc4769d7672e40e86ea5f5e98427f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a631cc4769d7672e40e86ea5f5e98427f"></a>
+<a class="el" href="classchrono_1_1fea_1_1_ch_stress_tensor.html">ChStressTensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_gauss_point.html#a631cc4769d7672e40e86ea5f5e98427f">Stress</a></td></tr>
+<tr class="memdesc:a631cc4769d7672e40e86ea5f5e98427f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stress tensor. <br /></td></tr>
+<tr class="separator:a631cc4769d7672e40e86ea5f5e98427f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:21 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

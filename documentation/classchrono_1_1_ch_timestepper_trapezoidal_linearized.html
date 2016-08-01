@@ -1,0 +1,412 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChTimestepperTrapezoidalLinearized Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_timestepper_trapezoidal_linearized.html">ChTimestepperTrapezoidalLinearized</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1_ch_timestepper_trapezoidal_linearized-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChTimestepperTrapezoidalLinearized Class Reference<div class="ingroups"><a class="el" href="group__chrono.html">Chrono::Engine</a> &raquo; <a class="el" href="group__chrono__timestepper.html">Time integrators</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Performs a step of trapezoidal implicit linearized for II order systems. </p>
+</div>
+<p><code>#include &lt;ChTimestepper.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChTimestepperTrapezoidalLinearized:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_timestepper_trapezoidal_linearized__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_timestepper_trapezoidal_linearized_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_timestepper_trapezoidal_linearized_inherit__map" id="chrono_1_1_ch_timestepper_trapezoidal_linearized_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_timestepper_i_iorder.html" title="Base class for 2nd order timesteppers, i.e., a time integrator for a ChIntegrableIIorder. " alt="" coords="5,87,200,114"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_timestepper.html" title="Base class for timesteppers, i.e., time integrators that can advance a system state. " alt="" coords="23,5,182,32"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_implicit_iterative_timestepper.html" title="Base properties for implicit solvers. " alt="" coords="225,80,399,121"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_implicit_timestepper.html" title="Base class for implicit solvers (double inheritance) " alt="" coords="212,5,412,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::ChTimestepperTrapezoidalLinearized:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_timestepper_trapezoidal_linearized__coll__graph.png" border="0" usemap="#chrono_1_1_ch_timestepper_trapezoidal_linearized_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1_ch_timestepper_trapezoidal_linearized_coll__map" id="chrono_1_1_ch_timestepper_trapezoidal_linearized_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_timestepper_i_iorder.html" title="Base class for 2nd order timesteppers, i.e., a time integrator for a ChIntegrableIIorder. " alt="" coords="800,139,995,165"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_timestepper.html" title="Base class for timesteppers, i.e., time integrators that can advance a system state. " alt="" coords="545,92,703,119"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_vector_dynamic.html" title="ChVectorDynamic. " alt="" coords="239,22,415,63"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_matrix.html" title="ChMatrix: " alt="" coords="11,29,184,56"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_integrable.html" title="Interface class for all objects that support time integration. " alt="" coords="255,99,398,125"/>
+<area shape="rect" id="node7" href="classchrono_1_1_ch_state_delta.html" title="Class for incremental form of state of time&#45;integrable objects. " alt="" coords="550,199,698,225"/>
+<area shape="rect" id="node8" href="classchrono_1_1_ch_vector_dynamic.html" title="chrono::ChVectorDynamic\l\&lt; double \&gt;" alt="" coords="239,166,415,207"/>
+<area shape="rect" id="node10" href="classchrono_1_1_ch_state.html" title="Class for state of time&#45;integrable objects. " alt="" coords="565,143,683,169"/>
+<area shape="rect" id="node9" href="classchrono_1_1_ch_matrix.html" title="chrono::ChMatrix\&lt; double \&gt;" alt="" coords="5,173,189,200"/>
+<area shape="rect" id="node11" href="classchrono_1_1_ch_implicit_iterative_timestepper.html" title="Base properties for implicit solvers. " alt="" coords="810,305,985,346"/>
+<area shape="rect" id="node12" href="classchrono_1_1_ch_implicit_timestepper.html" title="Base class for implicit solvers (double inheritance) " alt="" coords="524,312,724,339"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:add49c449ba49fee559c93a85cc59a19a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add49c449ba49fee559c93a85cc59a19a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper_trapezoidal_linearized.html#add49c449ba49fee559c93a85cc59a19a">ChTimestepperTrapezoidalLinearized</a> (<a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html">ChIntegrableIIorder</a> *mintegrable=nullptr)</td></tr>
+<tr class="memdesc:add49c449ba49fee559c93a85cc59a19a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructors (default empty) <br /></td></tr>
+<tr class="separator:add49c449ba49fee559c93a85cc59a19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a327c9757a77f2ea806408db319246fad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper_trapezoidal_linearized.html#a327c9757a77f2ea806408db319246fad">Advance</a> (const double dt)</td></tr>
+<tr class="memdesc:a327c9757a77f2ea806408db319246fad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an integration timestep.  <a href="#a327c9757a77f2ea806408db319246fad">More...</a><br /></td></tr>
+<tr class="separator:a327c9757a77f2ea806408db319246fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_timestepper_i_iorder')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_timestepper_i_iorder.html">chrono::ChTimestepperIIorder</a></td></tr>
+<tr class="memitem:a568f734211ecd75250b9ac8ac2d08c6b inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a568f734211ecd75250b9ac8ac2d08c6b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper_i_iorder.html#a568f734211ecd75250b9ac8ac2d08c6b">ChTimestepperIIorder</a> (<a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html">ChIntegrableIIorder</a> *mintegrable=nullptr)</td></tr>
+<tr class="memdesc:a568f734211ecd75250b9ac8ac2d08c6b inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
+<tr class="separator:a568f734211ecd75250b9ac8ac2d08c6b inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a059692a9fae68b6a0137b6e30fdafe inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a059692a9fae68b6a0137b6e30fdafe"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper_i_iorder.html#a6a059692a9fae68b6a0137b6e30fdafe">~ChTimestepperIIorder</a> ()</td></tr>
+<tr class="memdesc:a6a059692a9fae68b6a0137b6e30fdafe inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:a6a059692a9fae68b6a0137b6e30fdafe inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3ab8ddfe6a51fe6c169cfb41d39c2a8 inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab3ab8ddfe6a51fe6c169cfb41d39c2a8"></a>
+virtual <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper_i_iorder.html#ab3ab8ddfe6a51fe6c169cfb41d39c2a8">get_X</a> ()</td></tr>
+<tr class="memdesc:ab3ab8ddfe6a51fe6c169cfb41d39c2a8 inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the state, position part, at current time. <br /></td></tr>
+<tr class="separator:ab3ab8ddfe6a51fe6c169cfb41d39c2a8 inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b9eb40834add2206dc1ee43b2ccbdb5 inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b9eb40834add2206dc1ee43b2ccbdb5"></a>
+virtual <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper_i_iorder.html#a4b9eb40834add2206dc1ee43b2ccbdb5">get_V</a> ()</td></tr>
+<tr class="memdesc:a4b9eb40834add2206dc1ee43b2ccbdb5 inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the state, speed part, at current time. <br /></td></tr>
+<tr class="separator:a4b9eb40834add2206dc1ee43b2ccbdb5 inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62cb6c051feb3345afdd82a818115475 inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62cb6c051feb3345afdd82a818115475"></a>
+virtual <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper_i_iorder.html#a62cb6c051feb3345afdd82a818115475">get_A</a> ()</td></tr>
+<tr class="memdesc:a62cb6c051feb3345afdd82a818115475 inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the acceleration, at current time. <br /></td></tr>
+<tr class="separator:a62cb6c051feb3345afdd82a818115475 inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5943f75c02ddd352c2b5b6542059c124 inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5943f75c02ddd352c2b5b6542059c124"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper_i_iorder.html#a5943f75c02ddd352c2b5b6542059c124">SetIntegrable</a> (<a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html">ChIntegrableIIorder</a> *mintegrable)</td></tr>
+<tr class="memdesc:a5943f75c02ddd352c2b5b6542059c124 inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the integrable object. <br /></td></tr>
+<tr class="separator:a5943f75c02ddd352c2b5b6542059c124 inherit pub_methods_classchrono_1_1_ch_timestepper_i_iorder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_timestepper"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_timestepper')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_timestepper.html">chrono::ChTimestepper</a></td></tr>
+<tr class="memitem:adba12f11fd091d6b7da9833e27208d2b inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adba12f11fd091d6b7da9833e27208d2b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper.html#adba12f11fd091d6b7da9833e27208d2b">ChTimestepper</a> (<a class="el" href="classchrono_1_1_ch_integrable.html">ChIntegrable</a> *mintegrable=nullptr)</td></tr>
+<tr class="memdesc:adba12f11fd091d6b7da9833e27208d2b inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
+<tr class="separator:adba12f11fd091d6b7da9833e27208d2b inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9fadc8fa629d194bdea700a2b01eaf4 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9fadc8fa629d194bdea700a2b01eaf4"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper.html#af9fadc8fa629d194bdea700a2b01eaf4">~ChTimestepper</a> ()</td></tr>
+<tr class="memdesc:af9fadc8fa629d194bdea700a2b01eaf4 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:af9fadc8fa629d194bdea700a2b01eaf4 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8bc496cdc71a1dbe49d6afca36ac90a inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa8bc496cdc71a1dbe49d6afca36ac90a"></a>
+virtual <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper.html#aa8bc496cdc71a1dbe49d6afca36ac90a">get_L</a> ()</td></tr>
+<tr class="memdesc:aa8bc496cdc71a1dbe49d6afca36ac90a inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the lagrangian multipliers, if any. <br /></td></tr>
+<tr class="separator:aa8bc496cdc71a1dbe49d6afca36ac90a inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca17e2caebb4eea232f86ce3c14ea584 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca17e2caebb4eea232f86ce3c14ea584"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper.html#aca17e2caebb4eea232f86ce3c14ea584">SetIntegrable</a> (<a class="el" href="classchrono_1_1_ch_integrable.html">ChIntegrable</a> *mintegrable)</td></tr>
+<tr class="memdesc:aca17e2caebb4eea232f86ce3c14ea584 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the integrable object. <br /></td></tr>
+<tr class="separator:aca17e2caebb4eea232f86ce3c14ea584 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb78c190c812f1c162048a3d7109cf2f inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb78c190c812f1c162048a3d7109cf2f"></a>
+<a class="el" href="classchrono_1_1_ch_integrable.html">ChIntegrable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper.html#abb78c190c812f1c162048a3d7109cf2f">GetIntegrable</a> ()</td></tr>
+<tr class="memdesc:abb78c190c812f1c162048a3d7109cf2f inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the integrable object. <br /></td></tr>
+<tr class="separator:abb78c190c812f1c162048a3d7109cf2f inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe5d46ce6471e55792e40520fcaec424 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe5d46ce6471e55792e40520fcaec424"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper.html#afe5d46ce6471e55792e40520fcaec424">GetTime</a> () const </td></tr>
+<tr class="memdesc:afe5d46ce6471e55792e40520fcaec424 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current time. <br /></td></tr>
+<tr class="separator:afe5d46ce6471e55792e40520fcaec424 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90fcd0c61c69db14821bbfc0e60548c0 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90fcd0c61c69db14821bbfc0e60548c0"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper.html#a90fcd0c61c69db14821bbfc0e60548c0">SetTime</a> (double mt)</td></tr>
+<tr class="memdesc:a90fcd0c61c69db14821bbfc0e60548c0 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current time. <br /></td></tr>
+<tr class="separator:a90fcd0c61c69db14821bbfc0e60548c0 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b035367ea67a1cd8de6824e5e73a53a inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b035367ea67a1cd8de6824e5e73a53a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper.html#a6b035367ea67a1cd8de6824e5e73a53a">SetVerbose</a> (bool mverbose)</td></tr>
+<tr class="memdesc:a6b035367ea67a1cd8de6824e5e73a53a inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on/off logging of messages. <br /></td></tr>
+<tr class="separator:a6b035367ea67a1cd8de6824e5e73a53a inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac526e7358a8e1c1183080b66515d9d69 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac526e7358a8e1c1183080b66515d9d69"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper.html#ac526e7358a8e1c1183080b66515d9d69">SetQcDoClamp</a> (bool mdc)</td></tr>
+<tr class="memdesc:ac526e7358a8e1c1183080b66515d9d69 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on/off clamping on the Qcterm. <br /></td></tr>
+<tr class="separator:ac526e7358a8e1c1183080b66515d9d69 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb3cd44018e9fa59db5e816bc63c6e52 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb3cd44018e9fa59db5e816bc63c6e52"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper.html#adb3cd44018e9fa59db5e816bc63c6e52">SetQcClamping</a> (double mcl)</td></tr>
+<tr class="memdesc:adb3cd44018e9fa59db5e816bc63c6e52 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on/off clamping on the Qcterm. <br /></td></tr>
+<tr class="separator:adb3cd44018e9fa59db5e816bc63c6e52 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cfbee56072f8ab70cc0d0454e33ae48 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1cfbee56072f8ab70cc0d0454e33ae48"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper.html#a1cfbee56072f8ab70cc0d0454e33ae48">ArchiveOUT</a> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a1cfbee56072f8ab70cc0d0454e33ae48 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow serialization of transient data to archives. <br /></td></tr>
+<tr class="separator:a1cfbee56072f8ab70cc0d0454e33ae48 inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32deb62a52d6dbec141b60e700735f1b inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32deb62a52d6dbec141b60e700735f1b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timestepper.html#a32deb62a52d6dbec141b60e700735f1b">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a32deb62a52d6dbec141b60e700735f1b inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:a32deb62a52d6dbec141b60e700735f1b inherit pub_methods_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html">chrono::ChImplicitIterativeTimestepper</a></td></tr>
+<tr class="memitem:aadc3308628158baec1ee06b1b4e64337 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aadc3308628158baec1ee06b1b4e64337"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#aadc3308628158baec1ee06b1b4e64337">SetMaxiters</a> (int miters)</td></tr>
+<tr class="memdesc:aadc3308628158baec1ee06b1b4e64337 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the max number of iterations using the Newton Raphson procedure. <br /></td></tr>
+<tr class="separator:aadc3308628158baec1ee06b1b4e64337 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59219e45ae978120f58d8f2a1161528f inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59219e45ae978120f58d8f2a1161528f"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#a59219e45ae978120f58d8f2a1161528f">GetMaxiters</a> ()</td></tr>
+<tr class="memdesc:a59219e45ae978120f58d8f2a1161528f inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the max number of iterations using the Newton Raphson procedure. <br /></td></tr>
+<tr class="separator:a59219e45ae978120f58d8f2a1161528f inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f1ef9b1159040c450ae364fc87be780 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#a8f1ef9b1159040c450ae364fc87be780">SetRelTolerance</a> (double rel_tol)</td></tr>
+<tr class="memdesc:a8f1ef9b1159040c450ae364fc87be780 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the relative tolerance.  <a href="#a8f1ef9b1159040c450ae364fc87be780">More...</a><br /></td></tr>
+<tr class="separator:a8f1ef9b1159040c450ae364fc87be780 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38cf06ae10c9461d02dca21fc8342d3e inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#a38cf06ae10c9461d02dca21fc8342d3e">SetAbsTolerances</a> (double abs_tolS, double abs_tolL)</td></tr>
+<tr class="memdesc:a38cf06ae10c9461d02dca21fc8342d3e inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the absolute tolerances.  <a href="#a38cf06ae10c9461d02dca21fc8342d3e">More...</a><br /></td></tr>
+<tr class="separator:a38cf06ae10c9461d02dca21fc8342d3e inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c8b8317648fee26eae43c3346059309 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#a6c8b8317648fee26eae43c3346059309">SetAbsTolerances</a> (double abs_tol)</td></tr>
+<tr class="memdesc:a6c8b8317648fee26eae43c3346059309 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the absolute tolerances.  <a href="#a6c8b8317648fee26eae43c3346059309">More...</a><br /></td></tr>
+<tr class="separator:a6c8b8317648fee26eae43c3346059309 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69e8af871b9469195197059401f50335 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a69e8af871b9469195197059401f50335"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#a69e8af871b9469195197059401f50335">GetNumIterations</a> () const </td></tr>
+<tr class="memdesc:a69e8af871b9469195197059401f50335 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of iterations. <br /></td></tr>
+<tr class="separator:a69e8af871b9469195197059401f50335 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2939a1326a2e586d47026fd551d7c9e inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac2939a1326a2e586d47026fd551d7c9e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#ac2939a1326a2e586d47026fd551d7c9e">GetNumSetupCalls</a> () const </td></tr>
+<tr class="memdesc:ac2939a1326a2e586d47026fd551d7c9e inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of calls to the solver's Setup function. <br /></td></tr>
+<tr class="separator:ac2939a1326a2e586d47026fd551d7c9e inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f99555a442beb4a57157bdd3c682490 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f99555a442beb4a57157bdd3c682490"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#a2f99555a442beb4a57157bdd3c682490">GetNumSolveCalls</a> () const </td></tr>
+<tr class="memdesc:a2f99555a442beb4a57157bdd3c682490 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of calls to the solver's Solve function. <br /></td></tr>
+<tr class="separator:a2f99555a442beb4a57157bdd3c682490 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4407ba435d2a9a0b385cb248433b46d0 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4407ba435d2a9a0b385cb248433b46d0"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#a4407ba435d2a9a0b385cb248433b46d0">ArchiveOUT</a> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a4407ba435d2a9a0b385cb248433b46d0 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow serialization of transient data to archives. <br /></td></tr>
+<tr class="separator:a4407ba435d2a9a0b385cb248433b46d0 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee9199d939cec59b6c167812e344eea8 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee9199d939cec59b6c167812e344eea8"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#aee9199d939cec59b6c167812e344eea8">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="memdesc:aee9199d939cec59b6c167812e344eea8 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:aee9199d939cec59b6c167812e344eea8 inherit pub_methods_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ab3010c315eaa206bce77d83071622300"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab3010c315eaa206bce77d83071622300"></a>
+<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Dv</b></td></tr>
+<tr class="separator:ab3010c315eaa206bce77d83071622300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5982354496c4275b61cba6f06f6195ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5982354496c4275b61cba6f06f6195ce"></a>
+<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Dl</b></td></tr>
+<tr class="separator:a5982354496c4275b61cba6f06f6195ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6251c06064d65f831e9b2fc12a3eaa01"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6251c06064d65f831e9b2fc12a3eaa01"></a>
+<a class="el" href="classchrono_1_1_ch_state.html">ChState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Xnew</b></td></tr>
+<tr class="separator:a6251c06064d65f831e9b2fc12a3eaa01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3081fd8d288da968b2b043f06cd94c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae3081fd8d288da968b2b043f06cd94c0"></a>
+<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Vnew</b></td></tr>
+<tr class="separator:ae3081fd8d288da968b2b043f06cd94c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5e62c4047833dc234c35d01aee51c59"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5e62c4047833dc234c35d01aee51c59"></a>
+<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&#160;</td><td class="memItemRight" valign="bottom"><b>R</b></td></tr>
+<tr class="separator:ad5e62c4047833dc234c35d01aee51c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a257b38b56f31ce9580c9fb691a3b998f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a257b38b56f31ce9580c9fb691a3b998f"></a>
+<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Rold</b></td></tr>
+<tr class="separator:a257b38b56f31ce9580c9fb691a3b998f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecfddcc5b892d3841374b7119a2f50c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecfddcc5b892d3841374b7119a2f50c4"></a>
+<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Qc</b></td></tr>
+<tr class="separator:aecfddcc5b892d3841374b7119a2f50c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_timestepper_i_iorder"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_timestepper_i_iorder')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_timestepper_i_iorder.html">chrono::ChTimestepperIIorder</a></td></tr>
+<tr class="memitem:af6ea8ac07dc72a3fcbce1f0b550a328a inherit pro_attribs_classchrono_1_1_ch_timestepper_i_iorder"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6ea8ac07dc72a3fcbce1f0b550a328a"></a>
+<a class="el" href="classchrono_1_1_ch_state.html">ChState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>X</b></td></tr>
+<tr class="separator:af6ea8ac07dc72a3fcbce1f0b550a328a inherit pro_attribs_classchrono_1_1_ch_timestepper_i_iorder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51f9d604370cab40c3803f13189aacb inherit pro_attribs_classchrono_1_1_ch_timestepper_i_iorder"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab51f9d604370cab40c3803f13189aacb"></a>
+<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a>&#160;</td><td class="memItemRight" valign="bottom"><b>V</b></td></tr>
+<tr class="separator:ab51f9d604370cab40c3803f13189aacb inherit pro_attribs_classchrono_1_1_ch_timestepper_i_iorder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bcdee919c22246de1c9c5ff6fc19754 inherit pro_attribs_classchrono_1_1_ch_timestepper_i_iorder"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bcdee919c22246de1c9c5ff6fc19754"></a>
+<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a>&#160;</td><td class="memItemRight" valign="bottom"><b>A</b></td></tr>
+<tr class="separator:a6bcdee919c22246de1c9c5ff6fc19754 inherit pro_attribs_classchrono_1_1_ch_timestepper_i_iorder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_timestepper"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_timestepper')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_timestepper.html">chrono::ChTimestepper</a></td></tr>
+<tr class="memitem:a7c6c5eea0311fc96237307d2ea7f7500 inherit pro_attribs_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7c6c5eea0311fc96237307d2ea7f7500"></a>
+<a class="el" href="classchrono_1_1_ch_integrable.html">ChIntegrable</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>integrable</b></td></tr>
+<tr class="separator:a7c6c5eea0311fc96237307d2ea7f7500 inherit pro_attribs_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a980ecdbf752d3399879704f0f4470c8d inherit pro_attribs_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a980ecdbf752d3399879704f0f4470c8d"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>T</b></td></tr>
+<tr class="separator:a980ecdbf752d3399879704f0f4470c8d inherit pro_attribs_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a364b81a29f5bd7d153dd50a651ec3f98 inherit pro_attribs_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a364b81a29f5bd7d153dd50a651ec3f98"></a>
+<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&#160;</td><td class="memItemRight" valign="bottom"><b>L</b></td></tr>
+<tr class="separator:a364b81a29f5bd7d153dd50a651ec3f98 inherit pro_attribs_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424053b8c37b5bbbaba6b1bb012adb82 inherit pro_attribs_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a424053b8c37b5bbbaba6b1bb012adb82"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>verbose</b></td></tr>
+<tr class="separator:a424053b8c37b5bbbaba6b1bb012adb82 inherit pro_attribs_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d8453b085e08068653fcd86e2de1ba4 inherit pro_attribs_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d8453b085e08068653fcd86e2de1ba4"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Qc_do_clamp</b></td></tr>
+<tr class="separator:a7d8453b085e08068653fcd86e2de1ba4 inherit pro_attribs_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a546bbdae98c87ea5c76f77b1e234a083 inherit pro_attribs_classchrono_1_1_ch_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a546bbdae98c87ea5c76f77b1e234a083"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Qc_clamping</b></td></tr>
+<tr class="separator:a546bbdae98c87ea5c76f77b1e234a083 inherit pro_attribs_classchrono_1_1_ch_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html">chrono::ChImplicitIterativeTimestepper</a></td></tr>
+<tr class="memitem:aa3dc9b5c4ec58f55e57aabe57aef9cf2 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3dc9b5c4ec58f55e57aabe57aef9cf2"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#aa3dc9b5c4ec58f55e57aabe57aef9cf2">maxiters</a></td></tr>
+<tr class="memdesc:aa3dc9b5c4ec58f55e57aabe57aef9cf2 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum number of iterations <br /></td></tr>
+<tr class="separator:aa3dc9b5c4ec58f55e57aabe57aef9cf2 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadefc8a869b20b18c9d56eb14ada1ef6 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aadefc8a869b20b18c9d56eb14ada1ef6"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#aadefc8a869b20b18c9d56eb14ada1ef6">reltol</a></td></tr>
+<tr class="memdesc:aadefc8a869b20b18c9d56eb14ada1ef6 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative tolerance <br /></td></tr>
+<tr class="separator:aadefc8a869b20b18c9d56eb14ada1ef6 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a083bb9f2b36186ce61a5baf119fd856b inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a083bb9f2b36186ce61a5baf119fd856b"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#a083bb9f2b36186ce61a5baf119fd856b">abstolS</a></td></tr>
+<tr class="memdesc:a083bb9f2b36186ce61a5baf119fd856b inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">absolute tolerance (states) <br /></td></tr>
+<tr class="separator:a083bb9f2b36186ce61a5baf119fd856b inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf0b69c3ca6cc1950e77c1b1fe8622c2 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf0b69c3ca6cc1950e77c1b1fe8622c2"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#abf0b69c3ca6cc1950e77c1b1fe8622c2">abstolL</a></td></tr>
+<tr class="memdesc:abf0b69c3ca6cc1950e77c1b1fe8622c2 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">absolute tolerance (Lagrange multipliers) <br /></td></tr>
+<tr class="separator:abf0b69c3ca6cc1950e77c1b1fe8622c2 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e9fdde1cc2fed57137aa3c1f2c3a8c7 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e9fdde1cc2fed57137aa3c1f2c3a8c7"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#a4e9fdde1cc2fed57137aa3c1f2c3a8c7">numiters</a></td></tr>
+<tr class="memdesc:a4e9fdde1cc2fed57137aa3c1f2c3a8c7 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of iterations <br /></td></tr>
+<tr class="separator:a4e9fdde1cc2fed57137aa3c1f2c3a8c7 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dbcfd0a8fff314af304813ac4ff10a2 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7dbcfd0a8fff314af304813ac4ff10a2"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#a7dbcfd0a8fff314af304813ac4ff10a2">numsetups</a></td></tr>
+<tr class="memdesc:a7dbcfd0a8fff314af304813ac4ff10a2 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of calls to the solver's Setup function <br /></td></tr>
+<tr class="separator:a7dbcfd0a8fff314af304813ac4ff10a2 inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae755c5f64bf5de61db56ec16c422032a inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae755c5f64bf5de61db56ec16c422032a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_implicit_iterative_timestepper.html#ae755c5f64bf5de61db56ec16c422032a">numsolves</a></td></tr>
+<tr class="memdesc:ae755c5f64bf5de61db56ec16c422032a inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of calls to the solver's Solve function <br /></td></tr>
+<tr class="separator:ae755c5f64bf5de61db56ec16c422032a inherit pro_attribs_classchrono_1_1_ch_implicit_iterative_timestepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a327c9757a77f2ea806408db319246fad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChTimestepperTrapezoidalLinearized::Advance </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>dt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs an integration timestep. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dt</td><td>timestep to advance </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_timestepper.html#a227e873e3660f6a2e87bb89bb7806fff">chrono::ChTimestepper</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:19 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

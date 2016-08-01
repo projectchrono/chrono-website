@@ -1,0 +1,451 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChSolverMINRES Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_solver_m_i_n_r_e_s.html">ChSolverMINRES</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1_ch_solver_m_i_n_r_e_s-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChSolverMINRES Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>An iterative solver based on modified Krylov iteration of MINRES type alternated with gradient projection (active set). </p>
+<p>The problem is described by a variational inequality VI(Z*x-d,K):</p>
+<p>| M -Cq'|*|q|- | f|= |0| , l  Y, c  Ny, normal cone to Y | Cq -E | |l| |-b| |c|</p>
+<p>Also Z symmetric by flipping sign of l_i: |M Cq'|*| q|-| f|=|0| |Cq E | |-l| |-b| |c|</p><ul>
+<li>case linear problem: all Y_i = R, Ny=0, ex. all bilaterals</li>
+<li>case LCP: all Y_i = R+: c&gt;=0, l&gt;=0, l*c=0</li>
+<li>case CCP: Y_i are friction cones </li>
+</ul>
+</div>
+<p><code>#include &lt;ChSolverMINRES.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChSolverMINRES:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_solver_m_i_n_r_e_s__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_solver_m_i_n_r_e_s_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_solver_m_i_n_r_e_s_inherit__map" id="chrono_1_1_ch_solver_m_i_n_r_e_s_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_iterative_solver.html" title="Base class for ITERATIVE solvers aimed at solving complementarity problems arising from QP optimizati..." alt="" coords="8,80,179,107"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_solver.html" title="Base class for solvers aimed at solving complementarity problems arising from QP optimization problem..." alt="" coords="32,5,155,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::ChSolverMINRES:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_solver_m_i_n_r_e_s__coll__graph.png" border="0" usemap="#chrono_1_1_ch_solver_m_i_n_r_e_s_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1_ch_solver_m_i_n_r_e_s_coll__map" id="chrono_1_1_ch_solver_m_i_n_r_e_s_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_iterative_solver.html" title="Base class for ITERATIVE solvers aimed at solving complementarity problems arising from QP optimizati..." alt="" coords="8,80,179,107"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_solver.html" title="Base class for solvers aimed at solving complementarity problems arising from QP optimization problem..." alt="" coords="32,5,155,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:acde5a54b436d3dc816de77d684b0d9e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver_m_i_n_r_e_s.html#acde5a54b436d3dc816de77d684b0d9e8">ChSolverMINRES</a> (int mmax_iters=50, bool mwarm_start=false, double mtolerance=0.0)</td></tr>
+<tr class="separator:acde5a54b436d3dc816de77d684b0d9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a985d54e35cc5059120ca9d20c6fe2a54"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver_m_i_n_r_e_s.html#a985d54e35cc5059120ca9d20c6fe2a54">Solve</a> (<a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;sysd) override</td></tr>
+<tr class="memdesc:a985d54e35cc5059120ca9d20c6fe2a54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the solution of the problem.  <a href="#a985d54e35cc5059120ca9d20c6fe2a54">More...</a><br /></td></tr>
+<tr class="separator:a985d54e35cc5059120ca9d20c6fe2a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afedbd04dcf8ae1076bb5b624077417bf"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver_m_i_n_r_e_s.html#afedbd04dcf8ae1076bb5b624077417bf">Solve_SupportingStiffness</a> (<a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;sysd)</td></tr>
+<tr class="memdesc:afedbd04dcf8ae1076bb5b624077417bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="classchrono_1_1_ch_solver_m_i_n_r_e_s.html#a985d54e35cc5059120ca9d20c6fe2a54" title="Performs the solution of the problem. ">Solve()</a>, but this also supports the presence of <a class="el" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block-sparse matrices, that is blocks that connect ...">ChKblock</a> blocks.  <a href="#afedbd04dcf8ae1076bb5b624077417bf">More...</a><br /></td></tr>
+<tr class="separator:afedbd04dcf8ae1076bb5b624077417bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b200599aa996776a2072eaed8a8266"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92b200599aa996776a2072eaed8a8266"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFeasTolerance</b> (double mf)</td></tr>
+<tr class="separator:a92b200599aa996776a2072eaed8a8266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaca13e847afa64e950fda0b2c050c2bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaca13e847afa64e950fda0b2c050c2bd"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetFeasTolerance</b> ()</td></tr>
+<tr class="separator:aaca13e847afa64e950fda0b2c050c2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae92f105ef83d3122970cc6d5f486c270"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae92f105ef83d3122970cc6d5f486c270"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMaxFixedpointSteps</b> (int mm)</td></tr>
+<tr class="separator:ae92f105ef83d3122970cc6d5f486c270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7676b5f6b0448ef417edf3ce4b2dd582"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7676b5f6b0448ef417edf3ce4b2dd582"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetMaxFixedpointSteps</b> ()</td></tr>
+<tr class="separator:a7676b5f6b0448ef417edf3ce4b2dd582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6f657934df9bff1558e4d9b845ef207"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6f657934df9bff1558e4d9b845ef207"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetRelTolerance</b> (double mrt)</td></tr>
+<tr class="separator:ae6f657934df9bff1558e4d9b845ef207"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a6e34069d747df92f90323e8082008"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12a6e34069d747df92f90323e8082008"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetRelTolerance</b> ()</td></tr>
+<tr class="separator:a12a6e34069d747df92f90323e8082008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9495afe986867d19e919f5135abbda8d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9495afe986867d19e919f5135abbda8d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDiagonalPreconditioning</b> (bool mp)</td></tr>
+<tr class="separator:a9495afe986867d19e919f5135abbda8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad803654f491d0d70f648ee89526eab85"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad803654f491d0d70f648ee89526eab85"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetDiagonalPreconditioning</b> ()</td></tr>
+<tr class="separator:ad803654f491d0d70f648ee89526eab85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c1ce1cc6c2766d71e7d2ee52ceac2c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c1ce1cc6c2766d71e7d2ee52ceac2c1"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver_m_i_n_r_e_s.html#a6c1ce1cc6c2766d71e7d2ee52ceac2c1">ArchiveOUT</a> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a6c1ce1cc6c2766d71e7d2ee52ceac2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow serialization of transient data to archives. <br /></td></tr>
+<tr class="separator:a6c1ce1cc6c2766d71e7d2ee52ceac2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11120880277f586b58c481d6cd7578a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a11120880277f586b58c481d6cd7578a9"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver_m_i_n_r_e_s.html#a11120880277f586b58c481d6cd7578a9">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a11120880277f586b58c481d6cd7578a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:a11120880277f586b58c481d6cd7578a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_iterative_solver"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_iterative_solver')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_iterative_solver.html">chrono::ChIterativeSolver</a></td></tr>
+<tr class="memitem:a672786b1e3ed75a3451dc46f54ea60ad inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a672786b1e3ed75a3451dc46f54ea60ad">ChIterativeSolver</a> (int mmax_iters=50, bool mwarm_start=false, double mtolerance=0.0, double momega=1.0, double mshlambda=1.0)</td></tr>
+<tr class="separator:a672786b1e3ed75a3451dc46f54ea60ad inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc5ac766debfe5cc6a8f7cdade91d4a inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a3cc5ac766debfe5cc6a8f7cdade91d4a">SolveRequiresMatrix</a> () const override</td></tr>
+<tr class="memdesc:a3cc5ac766debfe5cc6a8f7cdade91d4a inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate whether ot not the <a class="el" href="classchrono_1_1_ch_solver.html#a9b12f7808ac12d0768a4989d725abee7" title="Performs the solution of the problem. ">Solve()</a> phase requires an up-to-date problem matrix.  <a href="#a3cc5ac766debfe5cc6a8f7cdade91d4a">More...</a><br /></td></tr>
+<tr class="separator:a3cc5ac766debfe5cc6a8f7cdade91d4a inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3080bf9416569d52bc9116d9944e96f2 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a3080bf9416569d52bc9116d9944e96f2">SetMaxIterations</a> (int mval)</td></tr>
+<tr class="memdesc:a3080bf9416569d52bc9116d9944e96f2 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum number of iterations.  <a href="#a3080bf9416569d52bc9116d9944e96f2">More...</a><br /></td></tr>
+<tr class="separator:a3080bf9416569d52bc9116d9944e96f2 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c73ee3f130e87f375d2fb0f4cccaca inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af3c73ee3f130e87f375d2fb0f4cccaca"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#af3c73ee3f130e87f375d2fb0f4cccaca">GetMaxIterations</a> () const </td></tr>
+<tr class="memdesc:af3c73ee3f130e87f375d2fb0f4cccaca inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current value for the maximum allowed number of iterations. <br /></td></tr>
+<tr class="separator:af3c73ee3f130e87f375d2fb0f4cccaca inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9d835e00ea6cf0cd50957f333863ee9 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9d835e00ea6cf0cd50957f333863ee9"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#ac9d835e00ea6cf0cd50957f333863ee9">GetTotalIterations</a> () const </td></tr>
+<tr class="memdesc:ac9d835e00ea6cf0cd50957f333863ee9 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of total iterations taken by the solver. <br /></td></tr>
+<tr class="separator:ac9d835e00ea6cf0cd50957f333863ee9 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb5c40e0ca27a35ac605d658cd56b11 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#aefb5c40e0ca27a35ac605d658cd56b11">SetOmega</a> (double mval)</td></tr>
+<tr class="memdesc:aefb5c40e0ca27a35ac605d658cd56b11 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the overrelaxation factor.  <a href="#aefb5c40e0ca27a35ac605d658cd56b11">More...</a><br /></td></tr>
+<tr class="separator:aefb5c40e0ca27a35ac605d658cd56b11 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af139dda546ef09a5d5efde95e16f6c95 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af139dda546ef09a5d5efde95e16f6c95"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#af139dda546ef09a5d5efde95e16f6c95">GetOmega</a> () const </td></tr>
+<tr class="memdesc:af139dda546ef09a5d5efde95e16f6c95 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current value of the overrelaxation factor. <br /></td></tr>
+<tr class="separator:af139dda546ef09a5d5efde95e16f6c95 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0e8454eae0317f71dcce667c6e3c69b inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#ad0e8454eae0317f71dcce667c6e3c69b">SetSharpnessLambda</a> (double mval)</td></tr>
+<tr class="memdesc:ad0e8454eae0317f71dcce667c6e3c69b inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the sharpness factor.  <a href="#ad0e8454eae0317f71dcce667c6e3c69b">More...</a><br /></td></tr>
+<tr class="separator:ad0e8454eae0317f71dcce667c6e3c69b inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc65bdef8c619bb33dc2cd83da47fc7c inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc65bdef8c619bb33dc2cd83da47fc7c"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#acc65bdef8c619bb33dc2cd83da47fc7c">GetSharpnessLambda</a> () const </td></tr>
+<tr class="memdesc:acc65bdef8c619bb33dc2cd83da47fc7c inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current value of the sharpness factor. <br /></td></tr>
+<tr class="separator:acc65bdef8c619bb33dc2cd83da47fc7c inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bdf41fd9af35a3c8bcbaccff9841fbd inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a6bdf41fd9af35a3c8bcbaccff9841fbd">SetWarmStart</a> (bool mval)</td></tr>
+<tr class="memdesc:a6bdf41fd9af35a3c8bcbaccff9841fbd inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/disable 'warm start'.  <a href="#a6bdf41fd9af35a3c8bcbaccff9841fbd">More...</a><br /></td></tr>
+<tr class="separator:a6bdf41fd9af35a3c8bcbaccff9841fbd inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa76f53da0cdc98e4bc285538f97f770 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa76f53da0cdc98e4bc285538f97f770"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#afa76f53da0cdc98e4bc285538f97f770">GetWarmStart</a> () const </td></tr>
+<tr class="memdesc:afa76f53da0cdc98e4bc285538f97f770 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a flag indicating whether or not warm start is enabled. <br /></td></tr>
+<tr class="separator:afa76f53da0cdc98e4bc285538f97f770 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2826890ac00a9625b447620549dbbd63 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a2826890ac00a9625b447620549dbbd63">SetTolerance</a> (double mval)</td></tr>
+<tr class="memdesc:a2826890ac00a9625b447620549dbbd63 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the tolerance for stopping criterion.  <a href="#a2826890ac00a9625b447620549dbbd63">More...</a><br /></td></tr>
+<tr class="separator:a2826890ac00a9625b447620549dbbd63 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a6300b4ece5ae313e6d572e421cace inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75a6300b4ece5ae313e6d572e421cace"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a75a6300b4ece5ae313e6d572e421cace">GetTolerance</a> () const </td></tr>
+<tr class="memdesc:a75a6300b4ece5ae313e6d572e421cace inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current value of the solver tolerance. <br /></td></tr>
+<tr class="separator:a75a6300b4ece5ae313e6d572e421cace inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65a198d7126d04be99d04ca9f420bd38 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a65a198d7126d04be99d04ca9f420bd38">SetRecordViolation</a> (bool mval)</td></tr>
+<tr class="memdesc:a65a198d7126d04be99d04ca9f420bd38 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/disable recording of the constraint violation history.  <a href="#a65a198d7126d04be99d04ca9f420bd38">More...</a><br /></td></tr>
+<tr class="separator:a65a198d7126d04be99d04ca9f420bd38 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a995ce6be33572eecd4b6d6df5320c382 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a995ce6be33572eecd4b6d6df5320c382"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a995ce6be33572eecd4b6d6df5320c382">GetRecordViolation</a> () const </td></tr>
+<tr class="memdesc:a995ce6be33572eecd4b6d6df5320c382 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a flag indicating whether or not constraint violations are recorded. <br /></td></tr>
+<tr class="separator:a995ce6be33572eecd4b6d6df5320c382 inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4910fa14be6d0fbaedbb9c9a4d2e840f inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a4910fa14be6d0fbaedbb9c9a4d2e840f">GetViolationHistory</a> () const </td></tr>
+<tr class="memdesc:a4910fa14be6d0fbaedbb9c9a4d2e840f inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the vector of constraint violation history.  <a href="#a4910fa14be6d0fbaedbb9c9a4d2e840f">More...</a><br /></td></tr>
+<tr class="separator:a4910fa14be6d0fbaedbb9c9a4d2e840f inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e194eebd834215508fe48e38b177bce inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a3e194eebd834215508fe48e38b177bce">GetDeltalambdaHistory</a> () const </td></tr>
+<tr class="memdesc:a3e194eebd834215508fe48e38b177bce inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the vector with history of maximum change in Lagrange multipliers Note that collection of constraint violations must be enabled through SetRecordViolation.  <a href="#a3e194eebd834215508fe48e38b177bce">More...</a><br /></td></tr>
+<tr class="separator:a3e194eebd834215508fe48e38b177bce inherit pub_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_solver"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_solver')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_solver.html">chrono::ChSolver</a></td></tr>
+<tr class="memitem:a12b6aefbd0c14c733450a71db4e756c4 inherit pub_methods_classchrono_1_1_ch_solver"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver.html#a12b6aefbd0c14c733450a71db4e756c4">Setup</a> (<a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;sysd)</td></tr>
+<tr class="memdesc:a12b6aefbd0c14c733450a71db4e756c4 inherit pub_methods_classchrono_1_1_ch_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function does the setup operations for the solver.  <a href="#a12b6aefbd0c14c733450a71db4e756c4">More...</a><br /></td></tr>
+<tr class="separator:a12b6aefbd0c14c733450a71db4e756c4 inherit pub_methods_classchrono_1_1_ch_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa50796bd69702ef5cbb18684b25052c4 inherit pub_methods_classchrono_1_1_ch_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa50796bd69702ef5cbb18684b25052c4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver.html#aa50796bd69702ef5cbb18684b25052c4">SetVerbose</a> (bool mv)</td></tr>
+<tr class="memdesc:aa50796bd69702ef5cbb18684b25052c4 inherit pub_methods_classchrono_1_1_ch_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set verbose output from solver. <br /></td></tr>
+<tr class="separator:aa50796bd69702ef5cbb18684b25052c4 inherit pub_methods_classchrono_1_1_ch_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea6813a7d389429e96fab65f6164e26d inherit pub_methods_classchrono_1_1_ch_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea6813a7d389429e96fab65f6164e26d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetVerbose</b> () const </td></tr>
+<tr class="separator:aea6813a7d389429e96fab65f6164e26d inherit pub_methods_classchrono_1_1_ch_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:af43b630ca02342fa156a38b53e80d019"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af43b630ca02342fa156a38b53e80d019"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>feas_tolerance</b></td></tr>
+<tr class="separator:af43b630ca02342fa156a38b53e80d019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa1c0cdd80f1d128d20f28a6f39f7eb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa1c0cdd80f1d128d20f28a6f39f7eb2"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>max_fixedpoint_steps</b></td></tr>
+<tr class="separator:afa1c0cdd80f1d128d20f28a6f39f7eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46f745f6404d3953b9428e4745df742b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a46f745f6404d3953b9428e4745df742b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>diag_preconditioning</b></td></tr>
+<tr class="separator:a46f745f6404d3953b9428e4745df742b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85fa6698889074c305f6b1f18ce2b718"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85fa6698889074c305f6b1f18ce2b718"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>rel_tolerance</b></td></tr>
+<tr class="separator:a85fa6698889074c305f6b1f18ce2b718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_iterative_solver"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_iterative_solver')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_iterative_solver.html">chrono::ChIterativeSolver</a></td></tr>
+<tr class="memitem:a2ba741f3ee59620ca0895ea4c81227da inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ba741f3ee59620ca0895ea4c81227da"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a2ba741f3ee59620ca0895ea4c81227da">max_iterations</a></td></tr>
+<tr class="memdesc:a2ba741f3ee59620ca0895ea4c81227da inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum allowed iterations <br /></td></tr>
+<tr class="separator:a2ba741f3ee59620ca0895ea4c81227da inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accbcf1546be3c6ad6f27cc5a401e6f70 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="accbcf1546be3c6ad6f27cc5a401e6f70"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#accbcf1546be3c6ad6f27cc5a401e6f70">tot_iterations</a></td></tr>
+<tr class="memdesc:accbcf1546be3c6ad6f27cc5a401e6f70 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">total number of iterations performed by the solver <br /></td></tr>
+<tr class="separator:accbcf1546be3c6ad6f27cc5a401e6f70 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1015abb9ce0494f3dc0bbce3ac3ef29c inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1015abb9ce0494f3dc0bbce3ac3ef29c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a1015abb9ce0494f3dc0bbce3ac3ef29c">warm_start</a></td></tr>
+<tr class="memdesc:a1015abb9ce0494f3dc0bbce3ac3ef29c inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicate whether or not to use warm starting <br /></td></tr>
+<tr class="separator:a1015abb9ce0494f3dc0bbce3ac3ef29c inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b96ea2a83f716c47ce0c10c500b8337 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b96ea2a83f716c47ce0c10c500b8337"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a6b96ea2a83f716c47ce0c10c500b8337">tolerance</a></td></tr>
+<tr class="memdesc:a6b96ea2a83f716c47ce0c10c500b8337 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">tolerance for termination criteria <br /></td></tr>
+<tr class="separator:a6b96ea2a83f716c47ce0c10c500b8337 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee83ab61e299b2f5a6e0f097001b5f47 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee83ab61e299b2f5a6e0f097001b5f47"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#aee83ab61e299b2f5a6e0f097001b5f47">omega</a></td></tr>
+<tr class="memdesc:aee83ab61e299b2f5a6e0f097001b5f47 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">over-relaxation factor <br /></td></tr>
+<tr class="separator:aee83ab61e299b2f5a6e0f097001b5f47 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b2f3d4889cfbd000fcb70acd3407e97 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b2f3d4889cfbd000fcb70acd3407e97"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a9b2f3d4889cfbd000fcb70acd3407e97">shlambda</a></td></tr>
+<tr class="memdesc:a9b2f3d4889cfbd000fcb70acd3407e97 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">sharpness factor <br /></td></tr>
+<tr class="separator:a9b2f3d4889cfbd000fcb70acd3407e97 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf96b8bcdefe1fde8e6eeabe4636948b inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf96b8bcdefe1fde8e6eeabe4636948b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>record_violation_history</b></td></tr>
+<tr class="separator:acf96b8bcdefe1fde8e6eeabe4636948b inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d6d4a6b909cf066649d4f9c886adeb6 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d6d4a6b909cf066649d4f9c886adeb6"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>violation_history</b></td></tr>
+<tr class="separator:a5d6d4a6b909cf066649d4f9c886adeb6 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdc9fb1ded810d57dd09e159d7f638e1 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acdc9fb1ded810d57dd09e159d7f638e1"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>dlambda_history</b></td></tr>
+<tr class="separator:acdc9fb1ded810d57dd09e159d7f638e1 inherit pro_attribs_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_solver"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_solver')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_solver.html">chrono::ChSolver</a></td></tr>
+<tr class="memitem:ab745e1abcf285583f3fdc1a0df99989a inherit pro_attribs_classchrono_1_1_ch_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab745e1abcf285583f3fdc1a0df99989a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>verbose</b></td></tr>
+<tr class="separator:ab745e1abcf285583f3fdc1a0df99989a inherit pro_attribs_classchrono_1_1_ch_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_classchrono_1_1_ch_iterative_solver"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classchrono_1_1_ch_iterative_solver')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classchrono_1_1_ch_iterative_solver.html">chrono::ChIterativeSolver</a></td></tr>
+<tr class="memitem:a5a575b95c21900bb323a988b6ddb4fb8 inherit pro_methods_classchrono_1_1_ch_iterative_solver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_iterative_solver.html#a5a575b95c21900bb323a988b6ddb4fb8">AtIterationEnd</a> (double mmaxviolation, double mdeltalambda, unsigned int iternum)</td></tr>
+<tr class="memdesc:a5a575b95c21900bb323a988b6ddb4fb8 inherit pro_methods_classchrono_1_1_ch_iterative_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method MUST be called by all iterative methods INSIDE their iteration loops (at the end).  <a href="#a5a575b95c21900bb323a988b6ddb4fb8">More...</a><br /></td></tr>
+<tr class="separator:a5a575b95c21900bb323a988b6ddb4fb8 inherit pro_methods_classchrono_1_1_ch_iterative_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="acde5a54b436d3dc816de77d684b0d9e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::ChSolverMINRES::ChSolverMINRES </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mmax_iters</em> = <code>50</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mwarm_start</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mtolerance</em> = <code>0.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mmax_iters</td><td>max.number of iterations </td></tr>
+    <tr><td class="paramname">mwarm_start</td><td>uses warm start? </td></tr>
+    <tr><td class="paramname">mtolerance</td><td>tolerance for termination criterion </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a985d54e35cc5059120ca9d20c6fe2a54"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::ChSolverMINRES::Solve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;&#160;</td>
+          <td class="paramname"><em>sysd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs the solution of the problem. </p>
+<dl class="section return"><dt>Returns</dt><dd>the maximum constraint violation after termination. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sysd</td><td>system description with constraints and variables </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_solver.html#a9b12f7808ac12d0768a4989d725abee7">chrono::ChSolver</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afedbd04dcf8ae1076bb5b624077417bf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::ChSolverMINRES::Solve_SupportingStiffness </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;&#160;</td>
+          <td class="paramname"><em>sysd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same as <a class="el" href="classchrono_1_1_ch_solver_m_i_n_r_e_s.html#a985d54e35cc5059120ca9d20c6fe2a54" title="Performs the solution of the problem. ">Solve()</a>, but this also supports the presence of <a class="el" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block-sparse matrices, that is blocks that connect ...">ChKblock</a> blocks. </p>
+<p>If <a class="el" href="classchrono_1_1_ch_solver_m_i_n_r_e_s.html#a985d54e35cc5059120ca9d20c6fe2a54" title="Performs the solution of the problem. ">Solve()</a> is called and stiffness is present, <a class="el" href="classchrono_1_1_ch_solver_m_i_n_r_e_s.html#a985d54e35cc5059120ca9d20c6fe2a54" title="Performs the solution of the problem. ">Solve()</a> automatically falls back to this function. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sysd</td><td>system description with constraints and variables </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:18 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

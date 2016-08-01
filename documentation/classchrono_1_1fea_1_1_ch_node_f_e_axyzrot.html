@@ -1,0 +1,1028 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::fea::ChNodeFEAxyzrot Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1fea.html">fea</a></li><li class="navelem"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::fea::ChNodeFEAxyzrot Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for a generic ED finite element node, with x,y,z displacement and a 3D rotation. </p>
+<p>This is the typical node that can be used for beams, etc. </p>
+</div>
+<p><code>#include &lt;ChNodeFEAxyzrot.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::fea::ChNodeFEAxyzrot:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot__inherit__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_node_f_e_axyzrot_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_node_f_e_axyzrot_inherit__map" id="chrono_1_1fea_1_1_ch_node_f_e_axyzrot_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html" title="Base class for a generic finite element node that can be stored in ChMesh containers. " alt="" coords="5,169,203,196"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_node_base.html" title="Class for a node, that has some degrees of freedom and that contain a proxy to the solver..." alt="" coords="31,87,177,114"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_body_frame.html" title="Class for objects that represent moving frames in space and that contain ChVariables proxies to the s..." alt="" coords="227,169,381,196"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_frame_moving.html" title="chrono::ChFrameMoving\l\&lt; double \&gt;" alt="" coords="221,80,387,121"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_frame.html" title="chrono::ChFrame\&lt; double \&gt;" alt="" coords="211,5,397,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::fea::ChNodeFEAxyzrot:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot__coll__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_node_f_e_axyzrot_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_node_f_e_axyzrot_coll__map" id="chrono_1_1fea_1_1_ch_node_f_e_axyzrot_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html" title="Base class for a generic finite element node that can be stored in ChMesh containers. " alt="" coords="1188,23,1385,50"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_node_base.html" title="Class for a node, that has some degrees of freedom and that contain a proxy to the solver..." alt="" coords="983,19,1129,46"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_body_frame.html" title="Class for objects that represent moving frames in space and that contain ChVariables proxies to the s..." alt="" coords="1210,75,1363,102"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_frame_moving.html" title="chrono::ChFrameMoving\l\&lt; double \&gt;" alt="" coords="973,71,1139,112"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_frame.html" title="chrono::ChFrame\&lt; double \&gt;" alt="" coords="739,35,924,62"/>
+<area shape="rect" id="node7" href="classchrono_1_1_ch_matrix33.html" title="chrono::ChMatrix33\l\&lt; double \&gt;" alt="" coords="502,5,638,47"/>
+<area shape="rect" id="node8" href="classchrono_1_1_ch_matrix_n_m.html" title="chrono::ChMatrixNM\l\&lt; double, 3, 3 \&gt;" alt="" coords="261,5,403,47"/>
+<area shape="rect" id="node9" href="classchrono_1_1_ch_matrix.html" title="chrono::ChMatrix\&lt; double \&gt;" alt="" coords="5,13,189,39"/>
+<area shape="rect" id="node10" href="classchrono_1_1_ch_coordsys.html" title="chrono::ChCoordsys\l\&lt; double \&gt;" alt="" coords="499,87,641,128"/>
+<area shape="rect" id="node11" href="classchrono_1_1_ch_vector.html" title="chrono::ChVector\&lt; double \&gt;" alt="" coords="239,86,425,113"/>
+<area shape="rect" id="node12" href="classchrono_1_1_ch_quaternion.html" title="chrono::ChQuaternion\l\&lt; double \&gt;" alt="" coords="257,137,407,179"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a40065a6ae0f88c49f2218fd0ab77bd5d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40065a6ae0f88c49f2218fd0ab77bd5d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChNodeFEAxyzrot</b> (<a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt;&gt; initialf=<a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt;&gt;())</td></tr>
+<tr class="separator:a40065a6ae0f88c49f2218fd0ab77bd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af41a971375bfd41ea71ede1e3696c0ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af41a971375bfd41ea71ede1e3696c0ed"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChNodeFEAxyzrot</b> (const <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a> &amp;other)</td></tr>
+<tr class="separator:af41a971375bfd41ea71ede1e3696c0ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4138718091fc78d9df239c3caf98eba8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4138718091fc78d9df239c3caf98eba8"></a>
+<a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a> &amp;other)</td></tr>
+<tr class="separator:a4138718091fc78d9df239c3caf98eba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1e6e97f756a754b04aca42955663431"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1e6e97f756a754b04aca42955663431"></a>
+virtual <a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Variables</b> () override</td></tr>
+<tr class="separator:ae1e6e97f756a754b04aca42955663431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e5a777cfa7a42ecc8c58665ea8d8fde"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_variables_body_own_mass.html">ChVariablesBodyOwnMass</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a5e5a777cfa7a42ecc8c58665ea8d8fde">VariablesBody</a> () override</td></tr>
+<tr class="memdesc:a5e5a777cfa7a42ecc8c58665ea8d8fde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns reference to the encapsulated <a class="el" href="classchrono_1_1_ch_variables_body.html" title="Specialized class for representing a 6-DOF item for a system, that is a 3D rigid body, with mass matrix and associate variables (a 6 element vector, ex.speed) This is an abstract class, specialized for example in ChVariablesBodyOwnMass and ChVariablesBodySharedMass. ">ChVariablesBody</a>, representing body variables (pos, speed or accel.  <a href="#a5e5a777cfa7a42ecc8c58665ea8d8fde">More...</a><br /></td></tr>
+<tr class="separator:a5e5a777cfa7a42ecc8c58665ea8d8fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9537950956a85cef0955d16d9b22f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d9537950956a85cef0955d16d9b22f5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a5d9537950956a85cef0955d16d9b22f5">Relax</a> () override</td></tr>
+<tr class="memdesc:a5d9537950956a85cef0955d16d9b22f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the rest position as the actual position. <br /></td></tr>
+<tr class="separator:a5d9537950956a85cef0955d16d9b22f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa8419f490fc48b78947fa54f99ecae2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa8419f490fc48b78947fa54f99ecae2"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#afa8419f490fc48b78947fa54f99ecae2">SetNoSpeedNoAcceleration</a> () override</td></tr>
+<tr class="memdesc:afa8419f490fc48b78947fa54f99ecae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset to no speed and acceleration. <br /></td></tr>
+<tr class="separator:afa8419f490fc48b78947fa54f99ecae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7760b7f5f0112f1562fb05672307493"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#af7760b7f5f0112f1562fb05672307493">SetFixed</a> (bool mev) override</td></tr>
+<tr class="memdesc:af7760b7f5f0112f1562fb05672307493"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the 'fixed' state of the node.  <a href="#af7760b7f5f0112f1562fb05672307493">More...</a><br /></td></tr>
+<tr class="separator:af7760b7f5f0112f1562fb05672307493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a131b7dc57785b3248c054ce59a9ac6d3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a131b7dc57785b3248c054ce59a9ac6d3">GetFixed</a> () override</td></tr>
+<tr class="memdesc:a131b7dc57785b3248c054ce59a9ac6d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the 'fixed' state of the node.  <a href="#a131b7dc57785b3248c054ce59a9ac6d3">More...</a><br /></td></tr>
+<tr class="separator:a131b7dc57785b3248c054ce59a9ac6d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e9e272a608dede919c5691075573e76"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1e9e272a608dede919c5691075573e76"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a1e9e272a608dede919c5691075573e76">GetMass</a> ()</td></tr>
+<tr class="memdesc:a1e9e272a608dede919c5691075573e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get atomic mass of the node. <br /></td></tr>
+<tr class="separator:a1e9e272a608dede919c5691075573e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2a303084ffb5f4aaf6ca1788baf9337"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2a303084ffb5f4aaf6ca1788baf9337"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#ab2a303084ffb5f4aaf6ca1788baf9337">SetMass</a> (double mm)</td></tr>
+<tr class="memdesc:ab2a303084ffb5f4aaf6ca1788baf9337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set atomic mass of the node. <br /></td></tr>
+<tr class="separator:ab2a303084ffb5f4aaf6ca1788baf9337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3765ada59923d0e2f40e12b13dc1c3b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3765ada59923d0e2f40e12b13dc1c3b"></a>
+<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#aa3765ada59923d0e2f40e12b13dc1c3b">GetInertia</a> ()</td></tr>
+<tr class="memdesc:aa3765ada59923d0e2f40e12b13dc1c3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access atomic inertia of the node. <br /></td></tr>
+<tr class="separator:aa3765ada59923d0e2f40e12b13dc1c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a025b7d5fd5274a2cef10bdea37835d1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a025b7d5fd5274a2cef10bdea37835d1b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a025b7d5fd5274a2cef10bdea37835d1b">SetX0</a> (<a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt;&gt; mx)</td></tr>
+<tr class="memdesc:a025b7d5fd5274a2cef10bdea37835d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the initial (reference) frame. <br /></td></tr>
+<tr class="separator:a025b7d5fd5274a2cef10bdea37835d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6332dfc52ff1896856c3df7ca861c68a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6332dfc52ff1896856c3df7ca861c68a"></a>
+const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a6332dfc52ff1896856c3df7ca861c68a">GetX0</a> () const </td></tr>
+<tr class="memdesc:a6332dfc52ff1896856c3df7ca861c68a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the initial (reference) frame. <br /></td></tr>
+<tr class="separator:a6332dfc52ff1896856c3df7ca861c68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a565c925797d41e5c6233fe8a8b9395fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a565c925797d41e5c6233fe8a8b9395fd"></a>
+<a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a565c925797d41e5c6233fe8a8b9395fd">GetX0ref</a> ()</td></tr>
+<tr class="memdesc:a565c925797d41e5c6233fe8a8b9395fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the initial (reference) frame. <br /></td></tr>
+<tr class="separator:a565c925797d41e5c6233fe8a8b9395fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e8bed9f1da9935dcb1549c94cdfb637"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e8bed9f1da9935dcb1549c94cdfb637"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a8e8bed9f1da9935dcb1549c94cdfb637">SetForce</a> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; mf)</td></tr>
+<tr class="memdesc:a8e8bed9f1da9935dcb1549c94cdfb637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the 3d applied force, in absolute reference. <br /></td></tr>
+<tr class="separator:a8e8bed9f1da9935dcb1549c94cdfb637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5738c0df1b6bb4b4a2f755dcf8d28e58"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5738c0df1b6bb4b4a2f755dcf8d28e58"></a>
+const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a5738c0df1b6bb4b4a2f755dcf8d28e58">GetForce</a> () const </td></tr>
+<tr class="memdesc:a5738c0df1b6bb4b4a2f755dcf8d28e58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the 3d applied force, in absolute reference. <br /></td></tr>
+<tr class="separator:a5738c0df1b6bb4b4a2f755dcf8d28e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5fd1176bb0abf5a39f19e0edf57e475"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5fd1176bb0abf5a39f19e0edf57e475"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#ad5fd1176bb0abf5a39f19e0edf57e475">SetTorque</a> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; mf)</td></tr>
+<tr class="memdesc:ad5fd1176bb0abf5a39f19e0edf57e475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the 3d applied torque, in absolute reference. <br /></td></tr>
+<tr class="separator:ad5fd1176bb0abf5a39f19e0edf57e475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c58c117c6a1b368e0421eda2349eb8f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4c58c117c6a1b368e0421eda2349eb8f"></a>
+const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a4c58c117c6a1b368e0421eda2349eb8f">GetTorque</a> () const </td></tr>
+<tr class="memdesc:a4c58c117c6a1b368e0421eda2349eb8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the 3d applied torque, in absolute reference. <br /></td></tr>
+<tr class="separator:a4c58c117c6a1b368e0421eda2349eb8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af11c737360f428f7fb67905e9cd4dd43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#af11c737360f428f7fb67905e9cd4dd43">Frame</a> ()</td></tr>
+<tr class="memdesc:af11c737360f428f7fb67905e9cd4dd43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the frame of the node - in absolute csys, with infos on actual position, speed, acceleration, etc.  <a href="#af11c737360f428f7fb67905e9cd4dd43">More...</a><br /></td></tr>
+<tr class="separator:af11c737360f428f7fb67905e9cd4dd43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67636a70a6c59648e728e85448d80420"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67636a70a6c59648e728e85448d80420"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a67636a70a6c59648e728e85448d80420">Get_ndof_x</a> () const override</td></tr>
+<tr class="memdesc:a67636a70a6c59648e728e85448d80420"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of degrees of freedom (7 because quaternion for rotation). <br /></td></tr>
+<tr class="separator:a67636a70a6c59648e728e85448d80420"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991c22174529154133de4d0f3f611185"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a991c22174529154133de4d0f3f611185"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a991c22174529154133de4d0f3f611185">Get_ndof_w</a> () const override</td></tr>
+<tr class="memdesc:a991c22174529154133de4d0f3f611185"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of degrees of freedom, derivative (6 because angular velocity for rotation derivative). <br /></td></tr>
+<tr class="separator:a991c22174529154133de4d0f3f611185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77499feaac905d2b0c8ec9e9c845a768"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77499feaac905d2b0c8ec9e9c845a768"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntStateGather</b> (const unsigned int off_x, <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, const unsigned int off_v, <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v, double &amp;T) override</td></tr>
+<tr class="separator:a77499feaac905d2b0c8ec9e9c845a768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99e3d3bbc163e326282726c2b6ce305d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99e3d3bbc163e326282726c2b6ce305d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntStateScatter</b> (const unsigned int off_x, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, const unsigned int off_v, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v, const double T) override</td></tr>
+<tr class="separator:a99e3d3bbc163e326282726c2b6ce305d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a627c9a587f335c821f60d1f8e65d5f46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a627c9a587f335c821f60d1f8e65d5f46"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntStateGatherAcceleration</b> (const unsigned int off_a, <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;a) override</td></tr>
+<tr class="separator:a627c9a587f335c821f60d1f8e65d5f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17370de6444bb47c5c2109121833e119"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a17370de6444bb47c5c2109121833e119"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntStateScatterAcceleration</b> (const unsigned int off_a, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;a) override</td></tr>
+<tr class="separator:a17370de6444bb47c5c2109121833e119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b86edefdd91ea386bdfda41298d2559"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b86edefdd91ea386bdfda41298d2559"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntStateIncrement</b> (const unsigned int off_x, <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x_new, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, const unsigned int off_v, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;Dv) override</td></tr>
+<tr class="separator:a4b86edefdd91ea386bdfda41298d2559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9eb73839f88979903fcc336c231390"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb9eb73839f88979903fcc336c231390"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntLoadResidual_F</b> (const unsigned int off, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const double c) override</td></tr>
+<tr class="separator:afb9eb73839f88979903fcc336c231390"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0182d67f81b9749b957a07bd1efed4c5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0182d67f81b9749b957a07bd1efed4c5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntLoadResidual_Mv</b> (const unsigned int off, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;w, const double c) override</td></tr>
+<tr class="separator:a0182d67f81b9749b957a07bd1efed4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9b7c6cb3cd332e4833def3429e9b220"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad9b7c6cb3cd332e4833def3429e9b220"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntToDescriptor</b> (const unsigned int off_v, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R) override</td></tr>
+<tr class="separator:ad9b7c6cb3cd332e4833def3429e9b220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a521193fc74d803a556d3ba3bcde11686"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a521193fc74d803a556d3ba3bcde11686"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntFromDescriptor</b> (const unsigned int off_v, <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v) override</td></tr>
+<tr class="separator:a521193fc74d803a556d3ba3bcde11686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44fdf01fd7adadcd09440023a816d3d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44fdf01fd7adadcd09440023a816d3d0"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a44fdf01fd7adadcd09440023a816d3d0">InjectVariables</a> (<a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;mdescriptor) override</td></tr>
+<tr class="memdesc:a44fdf01fd7adadcd09440023a816d3d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell to a system descriptor that there are variables of type <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> in this object (for further passing it to a solver) <br /></td></tr>
+<tr class="separator:a44fdf01fd7adadcd09440023a816d3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797bf4b4c6b2b686bd5cacefc7f07934"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a797bf4b4c6b2b686bd5cacefc7f07934"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a797bf4b4c6b2b686bd5cacefc7f07934">VariablesFbReset</a> () override</td></tr>
+<tr class="memdesc:a797bf4b4c6b2b686bd5cacefc7f07934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the 'fb' part (the known term) of the encapsulated <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> to zero. <br /></td></tr>
+<tr class="separator:a797bf4b4c6b2b686bd5cacefc7f07934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1fd4fbf656119c7696e862cf2fcac55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1fd4fbf656119c7696e862cf2fcac55"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#ac1fd4fbf656119c7696e862cf2fcac55">VariablesFbLoadForces</a> (double factor=1) override</td></tr>
+<tr class="memdesc:ac1fd4fbf656119c7696e862cf2fcac55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the current forces (applied to node) into the encapsulated <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a>, in the 'fb' part: qf+=forces*factor. <br /></td></tr>
+<tr class="separator:ac1fd4fbf656119c7696e862cf2fcac55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a019751f539b3b73dddf73fa6481f898e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a019751f539b3b73dddf73fa6481f898e">VariablesQbLoadSpeed</a> () override</td></tr>
+<tr class="memdesc:a019751f539b3b73dddf73fa6481f898e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the 'qb' part of the <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> with the current value of speeds.  <a href="#a019751f539b3b73dddf73fa6481f898e">More...</a><br /></td></tr>
+<tr class="separator:a019751f539b3b73dddf73fa6481f898e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab5a854c4ac0269cf4844aa0367a091"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#aeab5a854c4ac0269cf4844aa0367a091">VariablesQbSetSpeed</a> (double step=0) override</td></tr>
+<tr class="memdesc:aeab5a854c4ac0269cf4844aa0367a091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetches the item speed (ex.  <a href="#aeab5a854c4ac0269cf4844aa0367a091">More...</a><br /></td></tr>
+<tr class="separator:aeab5a854c4ac0269cf4844aa0367a091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a088d6a8e55c858efb7ead4c0c1357feb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a088d6a8e55c858efb7ead4c0c1357feb">VariablesFbIncrementMq</a> () override</td></tr>
+<tr class="memdesc:a088d6a8e55c858efb7ead4c0c1357feb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds M*q (masses multiplied current 'qb') to Fb, ex.  <a href="#a088d6a8e55c858efb7ead4c0c1357feb">More...</a><br /></td></tr>
+<tr class="separator:a088d6a8e55c858efb7ead4c0c1357feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c8f46b540388d5016209338cb3c51bb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a0c8f46b540388d5016209338cb3c51bb">VariablesQbIncrementPosition</a> (double step) override</td></tr>
+<tr class="memdesc:a0c8f46b540388d5016209338cb3c51bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment node positions by the 'qb' part of the <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a>, multiplied by a 'step' factor.  <a href="#a0c8f46b540388d5016209338cb3c51bb">More...</a><br /></td></tr>
+<tr class="separator:a0c8f46b540388d5016209338cb3c51bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a5699d3fd8076bd3500f6a3bd4f347b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a5699d3fd8076bd3500f6a3bd4f347b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a4a5699d3fd8076bd3500f6a3bd4f347b">ArchiveOUT</a> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive) override</td></tr>
+<tr class="memdesc:a4a5699d3fd8076bd3500f6a3bd4f347b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow serialization of transient data to archives. <br /></td></tr>
+<tr class="separator:a4a5699d3fd8076bd3500f6a3bd4f347b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95cf9be69dba0823759d0d92743013b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a95cf9be69dba0823759d0d92743013b2"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html#a95cf9be69dba0823759d0d92743013b2">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive) override</td></tr>
+<tr class="memdesc:a95cf9be69dba0823759d0d92743013b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow deserialization of transient data from archives. <br /></td></tr>
+<tr class="separator:a95cf9be69dba0823759d0d92743013b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_node_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_node_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_node_base.html">chrono::ChNodeBase</a></td></tr>
+<tr class="memitem:a0bef52b4bc9f9bb1c2752973d02aea22 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bef52b4bc9f9bb1c2752973d02aea22"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChNodeBase</b> (const <a class="el" href="classchrono_1_1_ch_node_base.html">ChNodeBase</a> &amp;other)</td></tr>
+<tr class="separator:a0bef52b4bc9f9bb1c2752973d02aea22 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa75c13f2d3b949ea986637a0244dea inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafa75c13f2d3b949ea986637a0244dea"></a>
+<a class="el" href="classchrono_1_1_ch_node_base.html">ChNodeBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classchrono_1_1_ch_node_base.html">ChNodeBase</a> &amp;other)</td></tr>
+<tr class="separator:aafa75c13f2d3b949ea986637a0244dea inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d3ac9c6920e3007664d76c9958ec6fe inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d3ac9c6920e3007664d76c9958ec6fe"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#a8d3ac9c6920e3007664d76c9958ec6fe">NodeGetOffset_x</a> ()</td></tr>
+<tr class="memdesc:a8d3ac9c6920e3007664d76c9958ec6fe inherit pub_methods_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get offset in the state vector (position part) <br /></td></tr>
+<tr class="separator:a8d3ac9c6920e3007664d76c9958ec6fe inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81db7e5d9fdb4c31e840b2dee2637331 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81db7e5d9fdb4c31e840b2dee2637331"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#a81db7e5d9fdb4c31e840b2dee2637331">NodeGetOffset_w</a> ()</td></tr>
+<tr class="memdesc:a81db7e5d9fdb4c31e840b2dee2637331 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get offset in the state vector (speed part) <br /></td></tr>
+<tr class="separator:a81db7e5d9fdb4c31e840b2dee2637331 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a396ecb39169bfb09d76c71469c517b27 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a396ecb39169bfb09d76c71469c517b27"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#a396ecb39169bfb09d76c71469c517b27">NodeSetOffset_x</a> (const unsigned int moff)</td></tr>
+<tr class="memdesc:a396ecb39169bfb09d76c71469c517b27 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set offset in the state vector (position part) <br /></td></tr>
+<tr class="separator:a396ecb39169bfb09d76c71469c517b27 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a449109b1ccbb6b3c77e5be629d43d60e inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a449109b1ccbb6b3c77e5be629d43d60e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#a449109b1ccbb6b3c77e5be629d43d60e">NodeSetOffset_w</a> (const unsigned int moff)</td></tr>
+<tr class="memdesc:a449109b1ccbb6b3c77e5be629d43d60e inherit pub_methods_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set offset in the state vector (speed part) <br /></td></tr>
+<tr class="separator:a449109b1ccbb6b3c77e5be629d43d60e inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_body_frame"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_body_frame')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_body_frame.html">chrono::ChBodyFrame</a></td></tr>
+<tr class="memitem:ac5ae9f0baa02076fa475028137a9699d inherit pub_methods_classchrono_1_1_ch_body_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5ae9f0baa02076fa475028137a9699d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChBodyFrame</b> (const <a class="el" href="classchrono_1_1_ch_body_frame.html">ChBodyFrame</a> &amp;other)</td></tr>
+<tr class="separator:ac5ae9f0baa02076fa475028137a9699d inherit pub_methods_classchrono_1_1_ch_body_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a8dc60901936ae39e0947960b88466e inherit pub_methods_classchrono_1_1_ch_body_frame"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_body_frame.html#a0a8dc60901936ae39e0947960b88466e">To_abs_forcetorque</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;force, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;appl_point, int local, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;resultforce, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;resulttorque)</td></tr>
+<tr class="memdesc:a0a8dc60901936ae39e0947960b88466e inherit pub_methods_classchrono_1_1_ch_body_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform generic cartesian force into absolute force+torque applied to body COG.  <a href="#a0a8dc60901936ae39e0947960b88466e">More...</a><br /></td></tr>
+<tr class="separator:a0a8dc60901936ae39e0947960b88466e inherit pub_methods_classchrono_1_1_ch_body_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a946663b2f1fbccfb75dc257865b171dc inherit pub_methods_classchrono_1_1_ch_body_frame"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_body_frame.html#a946663b2f1fbccfb75dc257865b171dc">To_abs_torque</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;torque, int local, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;resulttorque)</td></tr>
+<tr class="memdesc:a946663b2f1fbccfb75dc257865b171dc inherit pub_methods_classchrono_1_1_ch_body_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform generic cartesian torque into absolute torque applied to body COG.  <a href="#a946663b2f1fbccfb75dc257865b171dc">More...</a><br /></td></tr>
+<tr class="separator:a946663b2f1fbccfb75dc257865b171dc inherit pub_methods_classchrono_1_1_ch_body_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_frame_moving"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_frame_moving')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_frame_moving.html">chrono::ChFrameMoving&lt; double &gt;</a></td></tr>
+<tr class="memitem:a288e2ba039186958362e497aeb9fe7c4 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a288e2ba039186958362e497aeb9fe7c4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a288e2ba039186958362e497aeb9fe7c4">ChFrameMoving</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;mv=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;(0, 0, 0), const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;mq=<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt;(1, 0, 0, 0))</td></tr>
+<tr class="memdesc:a288e2ba039186958362e497aeb9fe7c4 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from pos and rot (as a quaternion) <br /></td></tr>
+<tr class="separator:a288e2ba039186958362e497aeb9fe7c4 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaceb1b4e39b6c69c1db7a78c4360e72 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afaceb1b4e39b6c69c1db7a78c4360e72"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#afaceb1b4e39b6c69c1db7a78c4360e72">ChFrameMoving</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;mv, const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt; double &gt; &amp;ma)</td></tr>
+<tr class="memdesc:afaceb1b4e39b6c69c1db7a78c4360e72 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from pos and rotation (as a 3x3 matrix) <br /></td></tr>
+<tr class="separator:afaceb1b4e39b6c69c1db7a78c4360e72 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec876e30b47ff76e317a9497220e1745 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec876e30b47ff76e317a9497220e1745"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#aec876e30b47ff76e317a9497220e1745">ChFrameMoving</a> (const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;mc)</td></tr>
+<tr class="memdesc:aec876e30b47ff76e317a9497220e1745 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a coordsys. <br /></td></tr>
+<tr class="separator:aec876e30b47ff76e317a9497220e1745 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aac61331465f28b8aa62da47ae8ee66 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0aac61331465f28b8aa62da47ae8ee66"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a0aac61331465f28b8aa62da47ae8ee66">ChFrameMoving</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;mc)</td></tr>
+<tr class="memdesc:a0aac61331465f28b8aa62da47ae8ee66 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a frame. <br /></td></tr>
+<tr class="separator:a0aac61331465f28b8aa62da47ae8ee66 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f96d8939565b5ea2248e28ced18ef9 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9f96d8939565b5ea2248e28ced18ef9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#ab9f96d8939565b5ea2248e28ced18ef9">ChFrameMoving</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;other)</td></tr>
+<tr class="memdesc:ab9f96d8939565b5ea2248e28ced18ef9 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor, build from another moving frame. <br /></td></tr>
+<tr class="separator:ab9f96d8939565b5ea2248e28ced18ef9 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8955051e8783fbc59992445e04b71f9c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8955051e8783fbc59992445e04b71f9c"></a>
+<a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a8955051e8783fbc59992445e04b71f9c">operator=</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;other)</td></tr>
+<tr class="memdesc:a8955051e8783fbc59992445e04b71f9c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator: copy from another moving frame. <br /></td></tr>
+<tr class="separator:a8955051e8783fbc59992445e04b71f9c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a825c2fc4aa765e58b7b02a08aa3b779c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a825c2fc4aa765e58b7b02a08aa3b779c"></a>
+<a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a825c2fc4aa765e58b7b02a08aa3b779c">operator=</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;other)</td></tr>
+<tr class="memdesc:a825c2fc4aa765e58b7b02a08aa3b779c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator: copy from another frame. <br /></td></tr>
+<tr class="separator:a825c2fc4aa765e58b7b02a08aa3b779c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c823c98bf5d7b2fc8c1aeb1a9127b3 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80c823c98bf5d7b2fc8c1aeb1a9127b3"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a80c823c98bf5d7b2fc8c1aeb1a9127b3">operator==</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;other) const</td></tr>
+<tr class="memdesc:a80c823c98bf5d7b2fc8c1aeb1a9127b3 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true for identical frames. <br /></td></tr>
+<tr class="separator:a80c823c98bf5d7b2fc8c1aeb1a9127b3 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a17e2319b7363526e29371cb3dc6922 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a17e2319b7363526e29371cb3dc6922"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a3a17e2319b7363526e29371cb3dc6922">operator!=</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;other) const</td></tr>
+<tr class="memdesc:a3a17e2319b7363526e29371cb3dc6922 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true for different frames. <br /></td></tr>
+<tr class="separator:a3a17e2319b7363526e29371cb3dc6922 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51719eda763c1d5eca7a7380f26a3b1 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#ab51719eda763c1d5eca7a7380f26a3b1">operator&gt;&gt;</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;Fb) const</td></tr>
+<tr class="memdesc:ab51719eda763c1d5eca7a7380f26a3b1 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">The '&gt;&gt;' operator transforms a coordinate system, so transformations can be represented with this syntax: new_frame = old_frame &gt;&gt; tr_frame; For a sequence of transformations, i.e.  <a href="#ab51719eda763c1d5eca7a7380f26a3b1">More...</a><br /></td></tr>
+<tr class="separator:ab51719eda763c1d5eca7a7380f26a3b1 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4335000058a5aae56179a06fff19c9fb inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a4335000058a5aae56179a06fff19c9fb">operator*</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;Fb) const</td></tr>
+<tr class="memdesc:a4335000058a5aae56179a06fff19c9fb inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">The '*' operator transforms a coordinate system, so transformations can be represented with this syntax: new_frame = tr_frame * old_frame; For a sequence of transformations, i.e.  <a href="#a4335000058a5aae56179a06fff19c9fb">More...</a><br /></td></tr>
+<tr class="separator:a4335000058a5aae56179a06fff19c9fb inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad298304dede416903f2d8cefd87892e8 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad298304dede416903f2d8cefd87892e8"></a>
+<a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#ad298304dede416903f2d8cefd87892e8">operator&gt;&gt;=</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;T)</td></tr>
+<tr class="memdesc:ad298304dede416903f2d8cefd87892e8 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs pre-multiplication of this frame by another frame, for example: A&gt;&gt;=T means A'=T*A ; or A'=A &gt;&gt; T. <br /></td></tr>
+<tr class="separator:ad298304dede416903f2d8cefd87892e8 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8ff1bfbec42b70ef4fc4ed226e306a2 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8ff1bfbec42b70ef4fc4ed226e306a2"></a>
+<a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#ab8ff1bfbec42b70ef4fc4ed226e306a2">operator&gt;&gt;=</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;D)</td></tr>
+<tr class="memdesc:ab8ff1bfbec42b70ef4fc4ed226e306a2 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs pre-multiplication of this frame by a vector D, to 'move' by a displacement D: <br /></td></tr>
+<tr class="separator:ab8ff1bfbec42b70ef4fc4ed226e306a2 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5e38d8016010410a04ed65f079c8d33 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa5e38d8016010410a04ed65f079c8d33"></a>
+<a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#aa5e38d8016010410a04ed65f079c8d33">operator&gt;&gt;=</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;R)</td></tr>
+<tr class="memdesc:aa5e38d8016010410a04ed65f079c8d33 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs pre-multiplication of this frame by a quaternion R, to 'rotate' it by R: <br /></td></tr>
+<tr class="separator:aa5e38d8016010410a04ed65f079c8d33 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af48800197f9c01ef6958611a78b80e1e inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af48800197f9c01ef6958611a78b80e1e"></a>
+<a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#af48800197f9c01ef6958611a78b80e1e">operator&gt;&gt;=</a> (const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;F)</td></tr>
+<tr class="memdesc:af48800197f9c01ef6958611a78b80e1e inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs pre-multiplication of this frame by a ChCoordsys F: <br /></td></tr>
+<tr class="separator:af48800197f9c01ef6958611a78b80e1e inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab48227add07e77cba4ab52ae6ddde057 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab48227add07e77cba4ab52ae6ddde057"></a>
+<a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#ab48227add07e77cba4ab52ae6ddde057">operator&gt;&gt;=</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;F)</td></tr>
+<tr class="memdesc:ab48227add07e77cba4ab52ae6ddde057 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs pre-multiplication of this frame by a ChFrame F: <br /></td></tr>
+<tr class="separator:ab48227add07e77cba4ab52ae6ddde057 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae75e19e13751601003c192172c349528 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#ae75e19e13751601003c192172c349528">operator%=</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;T)</td></tr>
+<tr class="memdesc:ae75e19e13751601003c192172c349528 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs pre-multiplication of this frame by another frame, for example: A%=T means A'=T*A ; or A'=A &gt;&gt; T Note: DEPRECATED, use &gt;&gt;= instead.  <a href="#ae75e19e13751601003c192172c349528">More...</a><br /></td></tr>
+<tr class="separator:ae75e19e13751601003c192172c349528 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3363490ec6a0cf48846fe6676ee05f0e inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3363490ec6a0cf48846fe6676ee05f0e"></a>
+<a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a3363490ec6a0cf48846fe6676ee05f0e">operator*=</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;T)</td></tr>
+<tr class="memdesc:a3363490ec6a0cf48846fe6676ee05f0e inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs post-multiplication of this frame by another frame, for example: A*=T means A'=A*T ; or A'=T &gt;&gt; A. <br /></td></tr>
+<tr class="separator:a3363490ec6a0cf48846fe6676ee05f0e inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a408fbb18e30f7c207e731cda77855e28 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a408fbb18e30f7c207e731cda77855e28"></a>
+<a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a408fbb18e30f7c207e731cda77855e28">GetCoord_dt</a> ()</td></tr>
+<tr class="memdesc:a408fbb18e30f7c207e731cda77855e28 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return both current rotation and translation speeds as a coordsystem object, with vector and quaternion. <br /></td></tr>
+<tr class="separator:a408fbb18e30f7c207e731cda77855e28 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d47a144a709e6ea935723928d324e98 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d47a144a709e6ea935723928d324e98"></a>
+const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetCoord_dt</b> () const</td></tr>
+<tr class="separator:a3d47a144a709e6ea935723928d324e98 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6326e786e296e6ebff04ad760eeff88 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6326e786e296e6ebff04ad760eeff88"></a>
+<a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#ae6326e786e296e6ebff04ad760eeff88">GetCoord_dtdt</a> ()</td></tr>
+<tr class="memdesc:ae6326e786e296e6ebff04ad760eeff88 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return both current rotation and translation accelerations as a coordsystem object, with vector and quaternion. <br /></td></tr>
+<tr class="separator:ae6326e786e296e6ebff04ad760eeff88 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9462c7b0fb54d77df273a816d2cceb inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f9462c7b0fb54d77df273a816d2cceb"></a>
+const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetCoord_dtdt</b> () const</td></tr>
+<tr class="separator:a8f9462c7b0fb54d77df273a816d2cceb inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadb30bb3e3fa88a86beec9477e32da0c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aadb30bb3e3fa88a86beec9477e32da0c"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#aadb30bb3e3fa88a86beec9477e32da0c">GetPos_dt</a> ()</td></tr>
+<tr class="memdesc:aadb30bb3e3fa88a86beec9477e32da0c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current speed as a 3d vector. <br /></td></tr>
+<tr class="separator:aadb30bb3e3fa88a86beec9477e32da0c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3633d8967d0be5018933d6447ab63dc7 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3633d8967d0be5018933d6447ab63dc7"></a>
+const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetPos_dt</b> () const</td></tr>
+<tr class="separator:a3633d8967d0be5018933d6447ab63dc7 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a515e2db6b9b902db95a9a9e660d2371c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a515e2db6b9b902db95a9a9e660d2371c"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a515e2db6b9b902db95a9a9e660d2371c">GetPos_dtdt</a> ()</td></tr>
+<tr class="memdesc:a515e2db6b9b902db95a9a9e660d2371c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current acceleration as a 3d vector. <br /></td></tr>
+<tr class="separator:a515e2db6b9b902db95a9a9e660d2371c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2415f7a3e571a71a8c89f40e1233cfa5 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2415f7a3e571a71a8c89f40e1233cfa5"></a>
+const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetPos_dtdt</b> () const</td></tr>
+<tr class="separator:a2415f7a3e571a71a8c89f40e1233cfa5 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf666212794a303914d5d467e27c1ed inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9bf666212794a303914d5d467e27c1ed"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a9bf666212794a303914d5d467e27c1ed">GetRot_dt</a> ()</td></tr>
+<tr class="memdesc:a9bf666212794a303914d5d467e27c1ed inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current rotation speed as a quaternion. <br /></td></tr>
+<tr class="separator:a9bf666212794a303914d5d467e27c1ed inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a604ff7f3abad67bba2fd447d369e1868 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a604ff7f3abad67bba2fd447d369e1868"></a>
+const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRot_dt</b> () const</td></tr>
+<tr class="separator:a604ff7f3abad67bba2fd447d369e1868 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2cacda132318d29189b024661771c64 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af2cacda132318d29189b024661771c64"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#af2cacda132318d29189b024661771c64">GetRot_dtdt</a> ()</td></tr>
+<tr class="memdesc:af2cacda132318d29189b024661771c64 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current rotation acceleration as a quaternion. <br /></td></tr>
+<tr class="separator:af2cacda132318d29189b024661771c64 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f1d42bf48a1063a15baf5f4ecaa7a82 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f1d42bf48a1063a15baf5f4ecaa7a82"></a>
+const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRot_dtdt</b> () const</td></tr>
+<tr class="separator:a9f1d42bf48a1063a15baf5f4ecaa7a82 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a238b1de257cbcb857fbc305c49783712 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a238b1de257cbcb857fbc305c49783712"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a238b1de257cbcb857fbc305c49783712">GetWvel_loc</a> () const</td></tr>
+<tr class="memdesc:a238b1de257cbcb857fbc305c49783712 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the actual angular speed (expressed in local coords) <br /></td></tr>
+<tr class="separator:a238b1de257cbcb857fbc305c49783712 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b4286ac9aac88b9543052438534e90 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a65b4286ac9aac88b9543052438534e90"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a65b4286ac9aac88b9543052438534e90">GetWvel_par</a> () const</td></tr>
+<tr class="memdesc:a65b4286ac9aac88b9543052438534e90 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the actual angular speed (expressed in parent coords) <br /></td></tr>
+<tr class="separator:a65b4286ac9aac88b9543052438534e90 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a179305b6ba82e4a5d2c67cbd4a245795 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a179305b6ba82e4a5d2c67cbd4a245795"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a179305b6ba82e4a5d2c67cbd4a245795">GetWacc_loc</a> () const</td></tr>
+<tr class="memdesc:a179305b6ba82e4a5d2c67cbd4a245795 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the actual angular acceleration (expressed in local coords) <br /></td></tr>
+<tr class="separator:a179305b6ba82e4a5d2c67cbd4a245795 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a037abe4c6b481016af0e3caa2f4ecb02 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a037abe4c6b481016af0e3caa2f4ecb02"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a037abe4c6b481016af0e3caa2f4ecb02">GetWacc_par</a> () const</td></tr>
+<tr class="memdesc:a037abe4c6b481016af0e3caa2f4ecb02 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the actual angular acceleration (expressed in parent coords) <br /></td></tr>
+<tr class="separator:a037abe4c6b481016af0e3caa2f4ecb02 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9bda1f6c424371579f6309ccc7e41fd inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#af9bda1f6c424371579f6309ccc7e41fd">SetCoord_dt</a> (const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;mcoord_dt)</td></tr>
+<tr class="memdesc:af9bda1f6c424371579f6309ccc7e41fd inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set both linear speed and rotation speed as a single ChCoordsys derivative.  <a href="#af9bda1f6c424371579f6309ccc7e41fd">More...</a><br /></td></tr>
+<tr class="separator:af9bda1f6c424371579f6309ccc7e41fd inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53e4bce88e79e080412db38c06036bdc inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53e4bce88e79e080412db38c06036bdc"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a53e4bce88e79e080412db38c06036bdc">SetPos_dt</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;mvel)</td></tr>
+<tr class="memdesc:a53e4bce88e79e080412db38c06036bdc inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the linear speed. <br /></td></tr>
+<tr class="separator:a53e4bce88e79e080412db38c06036bdc inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21dd17c6cfeb6aba19f5f67b494ac67c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a21dd17c6cfeb6aba19f5f67b494ac67c">SetRot_dt</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;mrot_dt)</td></tr>
+<tr class="memdesc:a21dd17c6cfeb6aba19f5f67b494ac67c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the rotation speed as a quaternion.  <a href="#a21dd17c6cfeb6aba19f5f67b494ac67c">More...</a><br /></td></tr>
+<tr class="separator:a21dd17c6cfeb6aba19f5f67b494ac67c inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b5baa4f47ffa794354e9d246ce81de4 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b5baa4f47ffa794354e9d246ce81de4"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a3b5baa4f47ffa794354e9d246ce81de4">SetWvel_loc</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;wl)</td></tr>
+<tr class="memdesc:a3b5baa4f47ffa794354e9d246ce81de4 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the rotation speed from given angular speed (expressed in local csys) <br /></td></tr>
+<tr class="separator:a3b5baa4f47ffa794354e9d246ce81de4 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02f1236db0570812a2f9fcbb86b282c1 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02f1236db0570812a2f9fcbb86b282c1"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a02f1236db0570812a2f9fcbb86b282c1">SetWvel_par</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;wp)</td></tr>
+<tr class="memdesc:a02f1236db0570812a2f9fcbb86b282c1 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the rotation speed from given angular speed (expressed in parent csys) <br /></td></tr>
+<tr class="separator:a02f1236db0570812a2f9fcbb86b282c1 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac011f5ab46da6db8b3b1730f2c770d38 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#ac011f5ab46da6db8b3b1730f2c770d38">SetCoord_dtdt</a> (const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;mcoord_dtdt)</td></tr>
+<tr class="memdesc:ac011f5ab46da6db8b3b1730f2c770d38 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set both linear acceleration and rotation acceleration as a single ChCoordsys derivative.  <a href="#ac011f5ab46da6db8b3b1730f2c770d38">More...</a><br /></td></tr>
+<tr class="separator:ac011f5ab46da6db8b3b1730f2c770d38 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdaed5f352e5b986c510046844366574 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afdaed5f352e5b986c510046844366574"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#afdaed5f352e5b986c510046844366574">SetPos_dtdt</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;macc)</td></tr>
+<tr class="memdesc:afdaed5f352e5b986c510046844366574 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the linear acceleration. <br /></td></tr>
+<tr class="separator:afdaed5f352e5b986c510046844366574 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2423f2ca8d068e1cd24c13adf9f0e1a1 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a2423f2ca8d068e1cd24c13adf9f0e1a1">SetRot_dtdt</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;mrot_dtdt)</td></tr>
+<tr class="memdesc:a2423f2ca8d068e1cd24c13adf9f0e1a1 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the rotation acceleration as a quaternion derivative.  <a href="#a2423f2ca8d068e1cd24c13adf9f0e1a1">More...</a><br /></td></tr>
+<tr class="separator:a2423f2ca8d068e1cd24c13adf9f0e1a1 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7aa72001a33dfdf7a4f3b91e792f4f2 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad7aa72001a33dfdf7a4f3b91e792f4f2"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#ad7aa72001a33dfdf7a4f3b91e792f4f2">SetWacc_loc</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;al)</td></tr>
+<tr class="memdesc:ad7aa72001a33dfdf7a4f3b91e792f4f2 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the rotation acceleration from given angular acceleration (expressed in local csys) <br /></td></tr>
+<tr class="separator:ad7aa72001a33dfdf7a4f3b91e792f4f2 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea624478653d896671f6fc368f1b1d52 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea624478653d896671f6fc368f1b1d52"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#aea624478653d896671f6fc368f1b1d52">SetWacc_par</a> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;ap)</td></tr>
+<tr class="memdesc:aea624478653d896671f6fc368f1b1d52 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the rotation speed from given angular speed (expressed in parent csys) <br /></td></tr>
+<tr class="separator:aea624478653d896671f6fc368f1b1d52 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d48f2e8ea3a06eb7747abf651a327db inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d48f2e8ea3a06eb7747abf651a327db"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a7d48f2e8ea3a06eb7747abf651a327db">Compute_Adt</a> (<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt; double &gt; &amp;mA_dt) const</td></tr>
+<tr class="memdesc:a7d48f2e8ea3a06eb7747abf651a327db inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the time derivative of rotation matrix, mAdt. <br /></td></tr>
+<tr class="separator:a7d48f2e8ea3a06eb7747abf651a327db inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb8a611bb68779dbc2c529be79559c85 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb8a611bb68779dbc2c529be79559c85"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#abb8a611bb68779dbc2c529be79559c85">Compute_Adtdt</a> (<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt; double &gt; &amp;mA_dtdt)</td></tr>
+<tr class="memdesc:abb8a611bb68779dbc2c529be79559c85 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the 2nd time derivative of rotation matrix, mAdtdt. <br /></td></tr>
+<tr class="separator:abb8a611bb68779dbc2c529be79559c85 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0876f204aa20340b4f2122191d0d3011 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0876f204aa20340b4f2122191d0d3011"></a>
+<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a0876f204aa20340b4f2122191d0d3011">GetA_dt</a> ()</td></tr>
+<tr class="memdesc:a0876f204aa20340b4f2122191d0d3011 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes and returns an Adt matrix (-note: prefer using <a class="el" href="classchrono_1_1_ch_frame_moving.html#a7d48f2e8ea3a06eb7747abf651a327db" title="Computes the time derivative of rotation matrix, mAdt. ">Compute_Adt()</a> directly for better performance) <br /></td></tr>
+<tr class="separator:a0876f204aa20340b4f2122191d0d3011 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aded869050abf2ab77b0ce6ee829ae861 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aded869050abf2ab77b0ce6ee829ae861"></a>
+<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#aded869050abf2ab77b0ce6ee829ae861">GetA_dtdt</a> ()</td></tr>
+<tr class="memdesc:aded869050abf2ab77b0ce6ee829ae861 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes and returns an Adt matrix (-note: prefer using <a class="el" href="classchrono_1_1_ch_frame_moving.html#abb8a611bb68779dbc2c529be79559c85" title="Computes the 2nd time derivative of rotation matrix, mAdtdt. ">Compute_Adtdt()</a> directly for better performance) <br /></td></tr>
+<tr class="separator:aded869050abf2ab77b0ce6ee829ae861 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eb4fe030945e98817ec5ddda7b5ed77 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a4eb4fe030945e98817ec5ddda7b5ed77">ConcatenatePreTransformation</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;T)</td></tr>
+<tr class="memdesc:a4eb4fe030945e98817ec5ddda7b5ed77 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a transformation (rotation and translation) represented by another ChFrameMoving T.  <a href="#a4eb4fe030945e98817ec5ddda7b5ed77">More...</a><br /></td></tr>
+<tr class="separator:a4eb4fe030945e98817ec5ddda7b5ed77 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9713fbb7f0b4837ea439e7faaf65ef8f inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a9713fbb7f0b4837ea439e7faaf65ef8f">ConcatenatePostTransformation</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;T)</td></tr>
+<tr class="memdesc:a9713fbb7f0b4837ea439e7faaf65ef8f inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a transformation (rotation and translation) represented by another ChFrameMoving T in local coordinate.  <a href="#a9713fbb7f0b4837ea439e7faaf65ef8f">More...</a><br /></td></tr>
+<tr class="separator:a9713fbb7f0b4837ea439e7faaf65ef8f inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa9c3d21a3f36bb87ee39ff923fd3e32 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#aaa9c3d21a3f36bb87ee39ff923fd3e32">PointSpeedLocalToParent</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;localpos) const</td></tr>
+<tr class="memdesc:aaa9c3d21a3f36bb87ee39ff923fd3e32 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given the position of a point in local frame coords, and assuming it is sticky to frame, return the speed in parent coords.  <a href="#aaa9c3d21a3f36bb87ee39ff923fd3e32">More...</a><br /></td></tr>
+<tr class="separator:aaa9c3d21a3f36bb87ee39ff923fd3e32 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd059cc5c4956d801e1baf039417787a inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#afd059cc5c4956d801e1baf039417787a">PointSpeedLocalToParent</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;localpos, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;localspeed) const</td></tr>
+<tr class="memdesc:afd059cc5c4956d801e1baf039417787a inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given the position localpos of a point in the local reference frame, assuming that the point moves in the local reference frame with localspeed, return the speed in the parent reference frame.  <a href="#afd059cc5c4956d801e1baf039417787a">More...</a><br /></td></tr>
+<tr class="separator:afd059cc5c4956d801e1baf039417787a inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a370b4c4c7fe7ccb3bbd4f6dcdcab1 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a96a370b4c4c7fe7ccb3bbd4f6dcdcab1">PointAccelerationLocalToParent</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;localpos) const</td></tr>
+<tr class="memdesc:a96a370b4c4c7fe7ccb3bbd4f6dcdcab1 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given the position of a point in local frame coords, and assuming it is sticky to frame, return the acceleration in parent coords.  <a href="#a96a370b4c4c7fe7ccb3bbd4f6dcdcab1">More...</a><br /></td></tr>
+<tr class="separator:a96a370b4c4c7fe7ccb3bbd4f6dcdcab1 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e6af3c9043d00109495020a2bd21ee8 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a8e6af3c9043d00109495020a2bd21ee8">PointAccelerationLocalToParent</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;localpos, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;localspeed, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;localacc) const</td></tr>
+<tr class="memdesc:a8e6af3c9043d00109495020a2bd21ee8 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given the position of a point in local frame coords, and assuming it has a frame-relative speed localspeed and frame-relative acceleration localacc, return the acceleration in parent coords.  <a href="#a8e6af3c9043d00109495020a2bd21ee8">More...</a><br /></td></tr>
+<tr class="separator:a8e6af3c9043d00109495020a2bd21ee8 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f382db84416528054ad8fff1e619eb5 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a2f382db84416528054ad8fff1e619eb5">PointSpeedParentToLocal</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;parentpos, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;parentspeed) const</td></tr>
+<tr class="memdesc:a2f382db84416528054ad8fff1e619eb5 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given the position of a point in parent frame coords, and assuming it has an absolute speed parentspeed, return the speed in local coords.  <a href="#a2f382db84416528054ad8fff1e619eb5">More...</a><br /></td></tr>
+<tr class="separator:a2f382db84416528054ad8fff1e619eb5 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b307683015ece05dd65ae4c748c6332 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a2b307683015ece05dd65ae4c748c6332">PointAccelerationParentToLocal</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;parentpos, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;parentspeed, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;parentacc) const</td></tr>
+<tr class="memdesc:a2b307683015ece05dd65ae4c748c6332 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given the position of a point in parent frame coords, and assuming it has an absolute speed parentspeed and absolute acceleration parentacc, return the acceleration in local coords.  <a href="#a2b307683015ece05dd65ae4c748c6332">More...</a><br /></td></tr>
+<tr class="separator:a2b307683015ece05dd65ae4c748c6332 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a039f308d90317eb78f34b4e4f8c91 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a76a039f308d90317eb78f34b4e4f8c91">TransformLocalToParent</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;local, <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;parent) const</td></tr>
+<tr class="memdesc:a76a039f308d90317eb78f34b4e4f8c91 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function transforms a frame from 'this' local coordinate system to parent frame coordinate system, and also transforms the speed and acceleration of the frame.  <a href="#a76a039f308d90317eb78f34b4e4f8c91">More...</a><br /></td></tr>
+<tr class="separator:a76a039f308d90317eb78f34b4e4f8c91 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a123631c81c69dfee834af048cfbad56f inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a123631c81c69dfee834af048cfbad56f">TransformParentToLocal</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;parent, <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;local) const</td></tr>
+<tr class="memdesc:a123631c81c69dfee834af048cfbad56f inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function transforms a frame from the parent coordinate system to 'this' local frame coordinate system.  <a href="#a123631c81c69dfee834af048cfbad56f">More...</a><br /></td></tr>
+<tr class="separator:a123631c81c69dfee834af048cfbad56f inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37d0f72777cb3be0776ba3b7cd266b36 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37d0f72777cb3be0776ba3b7cd266b36"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a37d0f72777cb3be0776ba3b7cd266b36">Equals</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;other) const</td></tr>
+<tr class="memdesc:a37d0f72777cb3be0776ba3b7cd266b36 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if coordsys is identical to other coordsys. <br /></td></tr>
+<tr class="separator:a37d0f72777cb3be0776ba3b7cd266b36 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4eac1716fc24bd4e48de4f9a4db398f inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab4eac1716fc24bd4e48de4f9a4db398f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#ab4eac1716fc24bd4e48de4f9a4db398f">Equals</a> (const <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt; &amp;other, doubletol) const</td></tr>
+<tr class="memdesc:ab4eac1716fc24bd4e48de4f9a4db398f inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if coordsys is equal to other coordsys, within a tolerance 'tol'. <br /></td></tr>
+<tr class="separator:ab4eac1716fc24bd4e48de4f9a4db398f inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a3166d3ffaea0e1f7f1ec4fb3e90492 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#a2a3166d3ffaea0e1f7f1ec4fb3e90492">Invert</a> ()</td></tr>
+<tr class="memdesc:a2a3166d3ffaea0e1f7f1ec4fb3e90492 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">The transformation (also for speeds, accelerations) is inverted in place.  <a href="#a2a3166d3ffaea0e1f7f1ec4fb3e90492">More...</a><br /></td></tr>
+<tr class="separator:a2a3166d3ffaea0e1f7f1ec4fb3e90492 inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce755e5b0a71a54c4c9f712771de21d inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afce755e5b0a71a54c4c9f712771de21d"></a>
+<a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetInverse</b> ()</td></tr>
+<tr class="separator:afce755e5b0a71a54c4c9f712771de21d inherit pub_methods_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_frame"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_frame')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_frame.html">chrono::ChFrame&lt; double &gt;</a></td></tr>
+<tr class="memitem:ae79b25ef3e2f30ee258b92b9a6f9c884 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae79b25ef3e2f30ee258b92b9a6f9c884"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#ae79b25ef3e2f30ee258b92b9a6f9c884">ChFrame</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;mv=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;(0, 0, 0), const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;mq=<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt;(1, 0, 0, 0))</td></tr>
+<tr class="memdesc:ae79b25ef3e2f30ee258b92b9a6f9c884 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor, or construct from pos and rot (as a quaternion) <br /></td></tr>
+<tr class="separator:ae79b25ef3e2f30ee258b92b9a6f9c884 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a582cc8f159e4343370391365885d10ef inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a582cc8f159e4343370391365885d10ef"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a582cc8f159e4343370391365885d10ef">ChFrame</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;mv, const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt; double &gt; &amp;ma)</td></tr>
+<tr class="memdesc:a582cc8f159e4343370391365885d10ef inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from pos and rotation (as a 3x3 matrix) <br /></td></tr>
+<tr class="separator:a582cc8f159e4343370391365885d10ef inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a142b929bc390d26d26b75fa264d986b1 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a142b929bc390d26d26b75fa264d986b1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a142b929bc390d26d26b75fa264d986b1">ChFrame</a> (const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;mc)</td></tr>
+<tr class="memdesc:a142b929bc390d26d26b75fa264d986b1 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a coordsys. <br /></td></tr>
+<tr class="separator:a142b929bc390d26d26b75fa264d986b1 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af1b27f3411b3c9bd3fbf259ee124e0 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1af1b27f3411b3c9bd3fbf259ee124e0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a1af1b27f3411b3c9bd3fbf259ee124e0">ChFrame</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;mv, const doublealpha, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;mu)</td></tr>
+<tr class="memdesc:a1af1b27f3411b3c9bd3fbf259ee124e0 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from position mv and rotation of angle alpha around unit vector mu. <br /></td></tr>
+<tr class="separator:a1af1b27f3411b3c9bd3fbf259ee124e0 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a890f728141ee4f3eafa82780206349af inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a890f728141ee4f3eafa82780206349af"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a890f728141ee4f3eafa82780206349af">ChFrame</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;other)</td></tr>
+<tr class="memdesc:a890f728141ee4f3eafa82780206349af inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor, build from another frame. <br /></td></tr>
+<tr class="separator:a890f728141ee4f3eafa82780206349af inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f11c09d4b8fb334be81f74dfee764cd inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f11c09d4b8fb334be81f74dfee764cd"></a>
+<a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a9f11c09d4b8fb334be81f74dfee764cd">operator=</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;other)</td></tr>
+<tr class="memdesc:a9f11c09d4b8fb334be81f74dfee764cd inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator: copy from another frame. <br /></td></tr>
+<tr class="separator:a9f11c09d4b8fb334be81f74dfee764cd inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f45656c194a3fd3c4f1138b904ebba inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6f45656c194a3fd3c4f1138b904ebba"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#af6f45656c194a3fd3c4f1138b904ebba">operator==</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;other) const</td></tr>
+<tr class="memdesc:af6f45656c194a3fd3c4f1138b904ebba inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true for identical frames. <br /></td></tr>
+<tr class="separator:af6f45656c194a3fd3c4f1138b904ebba inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a477ec250a2f8cadb1251356df3962e18 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a477ec250a2f8cadb1251356df3962e18"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a477ec250a2f8cadb1251356df3962e18">operator!=</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;other) const</td></tr>
+<tr class="memdesc:a477ec250a2f8cadb1251356df3962e18 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true for different frames. <br /></td></tr>
+<tr class="separator:a477ec250a2f8cadb1251356df3962e18 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaae2f87fc6f4dc37880117aa825e13e inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#afaae2f87fc6f4dc37880117aa825e13e">operator&gt;&gt;</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;Fb) const</td></tr>
+<tr class="memdesc:afaae2f87fc6f4dc37880117aa825e13e inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">The '&gt;&gt;' operator transforms a coordinate system, so transformations can be represented with this syntax: new_frame = old_frame &gt;&gt; tr_frame; For a sequence of transformations, i.e.  <a href="#afaae2f87fc6f4dc37880117aa825e13e">More...</a><br /></td></tr>
+<tr class="separator:afaae2f87fc6f4dc37880117aa825e13e inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab590af72731ef08069213d0abb399e28 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#ab590af72731ef08069213d0abb399e28">operator*</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;Fb) const</td></tr>
+<tr class="memdesc:ab590af72731ef08069213d0abb399e28 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">The '&gt;&gt;' operator transforms a vector, so transformations can be represented with this syntax: new_v = old_v &gt;&gt; tr_frame; For a sequence of transformations, i.e.  <a href="#ab590af72731ef08069213d0abb399e28">More...</a><br /></td></tr>
+<tr class="separator:ab590af72731ef08069213d0abb399e28 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7709d570e2d3371602d465c038527717 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a7709d570e2d3371602d465c038527717">operator*</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;V) const</td></tr>
+<tr class="memdesc:a7709d570e2d3371602d465c038527717 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">The '*' operator transforms a vector, so transformations can be represented with this syntax: new_v = tr_frame * old_v; For a sequence of transformations, i.e.  <a href="#a7709d570e2d3371602d465c038527717">More...</a><br /></td></tr>
+<tr class="separator:a7709d570e2d3371602d465c038527717 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaf9efc75c040018e5fe17ad8dfdd270 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#acaf9efc75c040018e5fe17ad8dfdd270">operator/</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;V) const</td></tr>
+<tr class="memdesc:acaf9efc75c040018e5fe17ad8dfdd270 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">The '/' is like the '*' operator (see), but uses the inverse transformation for A, in A/b.  <a href="#acaf9efc75c040018e5fe17ad8dfdd270">More...</a><br /></td></tr>
+<tr class="separator:acaf9efc75c040018e5fe17ad8dfdd270 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d8971cbf998caa039daf3e741441e91 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d8971cbf998caa039daf3e741441e91"></a>
+<a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a2d8971cbf998caa039daf3e741441e91">operator&gt;&gt;=</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;T)</td></tr>
+<tr class="memdesc:a2d8971cbf998caa039daf3e741441e91 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs pre-multiplication of this frame by another frame, for example: A&gt;&gt;=T means A'=T*A ; or A'=A &gt;&gt; T. <br /></td></tr>
+<tr class="separator:a2d8971cbf998caa039daf3e741441e91 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc119c68d715f31c98d965d9916f8ce inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2bc119c68d715f31c98d965d9916f8ce"></a>
+<a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a2bc119c68d715f31c98d965d9916f8ce">operator&gt;&gt;=</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;D)</td></tr>
+<tr class="memdesc:a2bc119c68d715f31c98d965d9916f8ce inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs pre-multiplication of this frame by a vector D, to 'move' by a displacement D: <br /></td></tr>
+<tr class="separator:a2bc119c68d715f31c98d965d9916f8ce inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04aa4ddc62954e8b720e744485a1b545 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04aa4ddc62954e8b720e744485a1b545"></a>
+<a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a04aa4ddc62954e8b720e744485a1b545">operator&gt;&gt;=</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;R)</td></tr>
+<tr class="memdesc:a04aa4ddc62954e8b720e744485a1b545 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs pre-multiplication of this frame by a quaternion R, to 'rotate' it by R: <br /></td></tr>
+<tr class="separator:a04aa4ddc62954e8b720e744485a1b545 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65d107bfd477c30c36fa4567e2ce7d93 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a65d107bfd477c30c36fa4567e2ce7d93"></a>
+<a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a65d107bfd477c30c36fa4567e2ce7d93">operator&gt;&gt;=</a> (const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;F)</td></tr>
+<tr class="memdesc:a65d107bfd477c30c36fa4567e2ce7d93 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs pre-multiplication of this frame by a ChCoordsys F, to transform it: <br /></td></tr>
+<tr class="separator:a65d107bfd477c30c36fa4567e2ce7d93 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad08b4f607d9bd0e3e8287d92951665fd inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#ad08b4f607d9bd0e3e8287d92951665fd">operator%=</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;T)</td></tr>
+<tr class="memdesc:ad08b4f607d9bd0e3e8287d92951665fd inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs pre-multiplication of this frame by another frame, for example: A%=T means A'=T*A ; or A'=A &gt;&gt; T Note: DEPRECATED, use &gt;&gt;= instead.  <a href="#ad08b4f607d9bd0e3e8287d92951665fd">More...</a><br /></td></tr>
+<tr class="separator:ad08b4f607d9bd0e3e8287d92951665fd inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bf32cdf6e5f98e79fdc1ccb13c6d361 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4bf32cdf6e5f98e79fdc1ccb13c6d361"></a>
+<a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a4bf32cdf6e5f98e79fdc1ccb13c6d361">operator*=</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;T)</td></tr>
+<tr class="memdesc:a4bf32cdf6e5f98e79fdc1ccb13c6d361 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs post-multiplication of this frame by another frame, for example: A*=T means A'=A*T ; or A'=T &gt;&gt; A. <br /></td></tr>
+<tr class="separator:a4bf32cdf6e5f98e79fdc1ccb13c6d361 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad07a8ec60fdeea1f658ce0220abfa470 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad07a8ec60fdeea1f658ce0220abfa470"></a>
+<a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#ad07a8ec60fdeea1f658ce0220abfa470">GetCoord</a> ()</td></tr>
+<tr class="memdesc:ad07a8ec60fdeea1f658ce0220abfa470 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return both current rotation and translation as a coordsystem object, with vector and quaternion. <br /></td></tr>
+<tr class="separator:ad07a8ec60fdeea1f658ce0220abfa470 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af55b781efe2486aa11b5869f58341588 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af55b781efe2486aa11b5869f58341588"></a>
+const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetCoord</b> () const</td></tr>
+<tr class="separator:af55b781efe2486aa11b5869f58341588 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b1a4cd1495fc9d2709fb9cebd231b45 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b1a4cd1495fc9d2709fb9cebd231b45"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a8b1a4cd1495fc9d2709fb9cebd231b45">GetPos</a> ()</td></tr>
+<tr class="memdesc:a8b1a4cd1495fc9d2709fb9cebd231b45 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current translation as a 3d vector. <br /></td></tr>
+<tr class="separator:a8b1a4cd1495fc9d2709fb9cebd231b45 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a312597303485b7972affa4324e14c404 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a312597303485b7972affa4324e14c404"></a>
+const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetPos</b> () const</td></tr>
+<tr class="separator:a312597303485b7972affa4324e14c404 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02176cd16ce6c5de8f5d98b3e416064c inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02176cd16ce6c5de8f5d98b3e416064c"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a02176cd16ce6c5de8f5d98b3e416064c">GetRot</a> ()</td></tr>
+<tr class="memdesc:a02176cd16ce6c5de8f5d98b3e416064c inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current rotation as a quaternion. <br /></td></tr>
+<tr class="separator:a02176cd16ce6c5de8f5d98b3e416064c inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0346826d15cb8e8bfd2bee1363b9d1d inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0346826d15cb8e8bfd2bee1363b9d1d"></a>
+const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRot</b> () const</td></tr>
+<tr class="separator:aa0346826d15cb8e8bfd2bee1363b9d1d inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec3b462b591aea9ee4081fed81ab316 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4ec3b462b591aea9ee4081fed81ab316"></a>
+<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a4ec3b462b591aea9ee4081fed81ab316">GetA</a> ()</td></tr>
+<tr class="memdesc:a4ec3b462b591aea9ee4081fed81ab316 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current rotation as a 3x3 matrix. <br /></td></tr>
+<tr class="separator:a4ec3b462b591aea9ee4081fed81ab316 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab3c26a1d9e6ab880543efdc9e46c90 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afab3c26a1d9e6ab880543efdc9e46c90"></a>
+const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetA</b> () const</td></tr>
+<tr class="separator:afab3c26a1d9e6ab880543efdc9e46c90 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7967f2b306e99a476feab05c9219e927 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7967f2b306e99a476feab05c9219e927"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a7967f2b306e99a476feab05c9219e927">GetRotAxis</a> ()</td></tr>
+<tr class="memdesc:a7967f2b306e99a476feab05c9219e927 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get axis of finite rotation, in parent space. <br /></td></tr>
+<tr class="separator:a7967f2b306e99a476feab05c9219e927 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c83d6725ab1848ea7701ea6d0e8a873 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3c83d6725ab1848ea7701ea6d0e8a873"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a3c83d6725ab1848ea7701ea6d0e8a873">GetRotAngle</a> ()</td></tr>
+<tr class="memdesc:a3c83d6725ab1848ea7701ea6d0e8a873 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get angle of rotation about axis of finite rotation. <br /></td></tr>
+<tr class="separator:a3c83d6725ab1848ea7701ea6d0e8a873 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f3a281421eb5942a4cb428a48a2e0d3 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a5f3a281421eb5942a4cb428a48a2e0d3">SetCoord</a> (const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;mcoord)</td></tr>
+<tr class="memdesc:a5f3a281421eb5942a4cb428a48a2e0d3 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Impose both translation and rotation as a single ChCoordsys.  <a href="#a5f3a281421eb5942a4cb428a48a2e0d3">More...</a><br /></td></tr>
+<tr class="separator:a5f3a281421eb5942a4cb428a48a2e0d3 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cdd72f0e3b635d74de5c2a188c364eb inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a3cdd72f0e3b635d74de5c2a188c364eb">SetCoord</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;mv, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;mq)</td></tr>
+<tr class="memdesc:a3cdd72f0e3b635d74de5c2a188c364eb inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Impose both translation and rotation.  <a href="#a3cdd72f0e3b635d74de5c2a188c364eb">More...</a><br /></td></tr>
+<tr class="separator:a3cdd72f0e3b635d74de5c2a188c364eb inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb8f321b82271d5c99d0f8a72fe43d25 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#afb8f321b82271d5c99d0f8a72fe43d25">SetRot</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;mrot)</td></tr>
+<tr class="memdesc:afb8f321b82271d5c99d0f8a72fe43d25 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Impose the rotation as a quaternion.  <a href="#afb8f321b82271d5c99d0f8a72fe43d25">More...</a><br /></td></tr>
+<tr class="separator:afb8f321b82271d5c99d0f8a72fe43d25 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5230ed2ead6bf42bd3cac8783a12f1 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#acf5230ed2ead6bf42bd3cac8783a12f1">SetRot</a> (const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt; double &gt; &amp;mA)</td></tr>
+<tr class="memdesc:acf5230ed2ead6bf42bd3cac8783a12f1 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Impose the rotation as a 3x3 matrix.  <a href="#acf5230ed2ead6bf42bd3cac8783a12f1">More...</a><br /></td></tr>
+<tr class="separator:acf5230ed2ead6bf42bd3cac8783a12f1 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff6092eacfcc0f01ea44fc2b52c8ba4b inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff6092eacfcc0f01ea44fc2b52c8ba4b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#aff6092eacfcc0f01ea44fc2b52c8ba4b">SetPos</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;mpos)</td></tr>
+<tr class="memdesc:aff6092eacfcc0f01ea44fc2b52c8ba4b inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Impose the translation. <br /></td></tr>
+<tr class="separator:aff6092eacfcc0f01ea44fc2b52c8ba4b inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42335d80624db997a0156adb1424a598 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a42335d80624db997a0156adb1424a598">ConcatenatePreTransformation</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;T)</td></tr>
+<tr class="memdesc:a42335d80624db997a0156adb1424a598 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a transformation (rotation and translation) represented by another ChFrame T.  <a href="#a42335d80624db997a0156adb1424a598">More...</a><br /></td></tr>
+<tr class="separator:a42335d80624db997a0156adb1424a598 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9ea08deac0167a97d01a422c33c0d6e inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#ae9ea08deac0167a97d01a422c33c0d6e">ConcatenatePostTransformation</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;T)</td></tr>
+<tr class="memdesc:ae9ea08deac0167a97d01a422c33c0d6e inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a transformation (rotation and translation) represented by another ChFrame T in local coordinate.  <a href="#ae9ea08deac0167a97d01a422c33c0d6e">More...</a><br /></td></tr>
+<tr class="separator:ae9ea08deac0167a97d01a422c33c0d6e inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a141cc703bbe550a86a191de4e06d6d54 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a141cc703bbe550a86a191de4e06d6d54"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a141cc703bbe550a86a191de4e06d6d54">Move</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;V)</td></tr>
+<tr class="memdesc:a141cc703bbe550a86a191de4e06d6d54 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">An easy way to move the frame by the amount specified by vector V, (assuming V expressed in parent coordinates) <br /></td></tr>
+<tr class="separator:a141cc703bbe550a86a191de4e06d6d54 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7053567f49fefff377930c3664e514c7 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7053567f49fefff377930c3664e514c7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a7053567f49fefff377930c3664e514c7">Move</a> (const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt; &amp;VR)</td></tr>
+<tr class="memdesc:a7053567f49fefff377930c3664e514c7 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply both translation and rotation, assuming both expressed in parent coordinates, as a vector for translation and quaternion for rotation,. <br /></td></tr>
+<tr class="separator:a7053567f49fefff377930c3664e514c7 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cb08ffcaad45a5aad9a805ddb196a77 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a5cb08ffcaad45a5aad9a805ddb196a77">TransformLocalToParent</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;local) const</td></tr>
+<tr class="memdesc:a5cb08ffcaad45a5aad9a805ddb196a77 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function transforms a point from the local frame coordinate system to the parent coordinate system.  <a href="#a5cb08ffcaad45a5aad9a805ddb196a77">More...</a><br /></td></tr>
+<tr class="separator:a5cb08ffcaad45a5aad9a805ddb196a77 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab93bb8bbe7b0dddd8528188ff930b98b inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#ab93bb8bbe7b0dddd8528188ff930b98b">TransformLocalToParent</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;local, <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;parent) const</td></tr>
+<tr class="memdesc:ab93bb8bbe7b0dddd8528188ff930b98b inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function transforms a frame from 'this' local coordinate system to parent frame coordinate system.  <a href="#ab93bb8bbe7b0dddd8528188ff930b98b">More...</a><br /></td></tr>
+<tr class="separator:ab93bb8bbe7b0dddd8528188ff930b98b inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a644364abf14925f7747775bb48824970 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a644364abf14925f7747775bb48824970"></a>
+virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>TransformPointLocalToParent</b> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;local) const</td></tr>
+<tr class="separator:a644364abf14925f7747775bb48824970 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a702ff61ce6f7a1a09cafb2f13fbb0c15 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a702ff61ce6f7a1a09cafb2f13fbb0c15">TransformParentToLocal</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;parent) const</td></tr>
+<tr class="memdesc:a702ff61ce6f7a1a09cafb2f13fbb0c15 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function transforms a point from the parent coordinate system to local frame coordinate system.  <a href="#a702ff61ce6f7a1a09cafb2f13fbb0c15">More...</a><br /></td></tr>
+<tr class="separator:a702ff61ce6f7a1a09cafb2f13fbb0c15 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae16dbcaba6e38aa449310830364afd inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a1ae16dbcaba6e38aa449310830364afd">TransformParentToLocal</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;parent, <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;local) const</td></tr>
+<tr class="memdesc:a1ae16dbcaba6e38aa449310830364afd inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function transforms a frame from the parent coordinate system to 'this' local frame coordinate system.  <a href="#a1ae16dbcaba6e38aa449310830364afd">More...</a><br /></td></tr>
+<tr class="separator:a1ae16dbcaba6e38aa449310830364afd inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b1266e11e5996152915afb78c8f6153 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b1266e11e5996152915afb78c8f6153"></a>
+virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>TransformPointParentToLocal</b> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;parent) const</td></tr>
+<tr class="separator:a7b1266e11e5996152915afb78c8f6153 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc220cba1c4dbf1e81afd8f7a95371f7 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#acc220cba1c4dbf1e81afd8f7a95371f7">TransformDirectionParentToLocal</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;mdirection) const</td></tr>
+<tr class="memdesc:acc220cba1c4dbf1e81afd8f7a95371f7 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function transforms a direction from 'this' local coordinate system to parent frame coordinate system.  <a href="#acc220cba1c4dbf1e81afd8f7a95371f7">More...</a><br /></td></tr>
+<tr class="separator:acc220cba1c4dbf1e81afd8f7a95371f7 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d6e7abeab0561ad79fe7087d8b4103 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a69d6e7abeab0561ad79fe7087d8b4103">TransformDirectionLocalToParent</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;mdirection) const</td></tr>
+<tr class="memdesc:a69d6e7abeab0561ad79fe7087d8b4103 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function transforms a direction from the parent frame coordinate system to 'this' local coordinate system.  <a href="#a69d6e7abeab0561ad79fe7087d8b4103">More...</a><br /></td></tr>
+<tr class="separator:a69d6e7abeab0561ad79fe7087d8b4103 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6441f60fc81d5e09ac0c31897c6a6e35 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6441f60fc81d5e09ac0c31897c6a6e35"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a6441f60fc81d5e09ac0c31897c6a6e35">Equals</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;other) const</td></tr>
+<tr class="memdesc:a6441f60fc81d5e09ac0c31897c6a6e35 inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if coordsys is identical to other coordsys. <br /></td></tr>
+<tr class="separator:a6441f60fc81d5e09ac0c31897c6a6e35 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfc63345c3ba06730edb142c01bee62e inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abfc63345c3ba06730edb142c01bee62e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#abfc63345c3ba06730edb142c01bee62e">Equals</a> (const <a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt; &amp;other, doubletol) const</td></tr>
+<tr class="memdesc:abfc63345c3ba06730edb142c01bee62e inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if coordsys is equal to other coordsys, within a tolerance 'tol'. <br /></td></tr>
+<tr class="separator:abfc63345c3ba06730edb142c01bee62e inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac210a5fcc10de19b9109914f050bb8af inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac210a5fcc10de19b9109914f050bb8af"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#ac210a5fcc10de19b9109914f050bb8af">Normalize</a> ()</td></tr>
+<tr class="memdesc:ac210a5fcc10de19b9109914f050bb8af inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize the rotation, so that quaternion has unit length. <br /></td></tr>
+<tr class="separator:ac210a5fcc10de19b9109914f050bb8af inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21b92165435f5021da62a55cee1438ca inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21b92165435f5021da62a55cee1438ca"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a21b92165435f5021da62a55cee1438ca">SetIdentity</a> ()</td></tr>
+<tr class="memdesc:a21b92165435f5021da62a55cee1438ca inherit pub_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets to no translation and no rotation. <br /></td></tr>
+<tr class="separator:a21b92165435f5021da62a55cee1438ca inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8d3679ca172ea14399233f0cd109a38 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8d3679ca172ea14399233f0cd109a38"></a>
+<a class="el" href="classchrono_1_1_ch_frame.html">ChFrame</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetInverse</b> () const</td></tr>
+<tr class="separator:ad8d3679ca172ea14399233f0cd109a38 inherit pub_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classchrono_1_1_ch_frame"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classchrono_1_1_ch_frame')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_frame.html">chrono::ChFrame&lt; double &gt;</a></td></tr>
+<tr class="memitem:afaf16a5a44551956ef9c4e57bffa3266 inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afaf16a5a44551956ef9c4e57bffa3266"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#afaf16a5a44551956ef9c4e57bffa3266">SetMatrix_Fp</a> (<a class="el" href="classchrono_1_1_ch_matrix_n_m.html">ChMatrixNM</a>&lt; double, 3, 4 &gt; &amp;Fp, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;mq)</td></tr>
+<tr class="memdesc:afaf16a5a44551956ef9c4e57bffa3266 inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a 3x4 matrix [Fp(q)], as in [Fp(q)]*[Fm(q)]' = [A(q)]. <br /></td></tr>
+<tr class="separator:afaf16a5a44551956ef9c4e57bffa3266 inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f06a287ec5f7eecd7c5c887662f931c inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6f06a287ec5f7eecd7c5c887662f931c"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a6f06a287ec5f7eecd7c5c887662f931c">SetMatrix_Fm</a> (<a class="el" href="classchrono_1_1_ch_matrix_n_m.html">ChMatrixNM</a>&lt; double, 3, 4 &gt; &amp;Fm, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;mq)</td></tr>
+<tr class="memdesc:a6f06a287ec5f7eecd7c5c887662f931c inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a 3x4 matrix [Fm(q)], as in [Fp(q)]*[Fm(q)]' = [A(q)]. <br /></td></tr>
+<tr class="separator:a6f06a287ec5f7eecd7c5c887662f931c inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ff3d8c318dbd2768849784d7e77b8b inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20ff3d8c318dbd2768849784d7e77b8b"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a20ff3d8c318dbd2768849784d7e77b8b">SetMatrix_Gl</a> (<a class="el" href="classchrono_1_1_ch_matrix_n_m.html">ChMatrixNM</a>&lt; double, 3, 4 &gt; &amp;Gl, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;mq)</td></tr>
+<tr class="memdesc:a20ff3d8c318dbd2768849784d7e77b8b inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast fill a 3x4 matrix [Gl(q)], as in local angular speed conversion Wl=[Gl]*q_dt (btw: [Gl(q)] = 2*[Fp(q')] = 2*[G] with G matrix as in Shabana) <br /></td></tr>
+<tr class="separator:a20ff3d8c318dbd2768849784d7e77b8b inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a5e1bba663f98222f5b260486b0065 inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77a5e1bba663f98222f5b260486b0065"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a77a5e1bba663f98222f5b260486b0065">SetMatrix_Gw</a> (<a class="el" href="classchrono_1_1_ch_matrix_n_m.html">ChMatrixNM</a>&lt; double, 3, 4 &gt; &amp;Gw, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;mq)</td></tr>
+<tr class="memdesc:a77a5e1bba663f98222f5b260486b0065 inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast fill a 3x4 matrix [Gw(q)], as in absolute angular speed conversion Ww=[Gw]*q_dt (btw: [Gw(q)] = 2*[Fm(q')] = 2*[E] with E matrix as in Shabana) <br /></td></tr>
+<tr class="separator:a77a5e1bba663f98222f5b260486b0065 inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac272913dc7da7c37f9d8d402f16048b5 inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac272913dc7da7c37f9d8d402f16048b5"></a>
+static <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#ac272913dc7da7c37f9d8d402f16048b5">Gl_x_Quat</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;mq, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;qb)</td></tr>
+<tr class="memdesc:ac272913dc7da7c37f9d8d402f16048b5 inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the product v=[Gl(mq)]*qb without the need of having the [Gl] matrix (just pass the mq quaternion, since Gl is function of mq) <br /></td></tr>
+<tr class="separator:ac272913dc7da7c37f9d8d402f16048b5 inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0372c750033c10d6e530926fff0f7e6a inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0372c750033c10d6e530926fff0f7e6a"></a>
+static <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#a0372c750033c10d6e530926fff0f7e6a">GlT_x_Vect</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; double &gt; &amp;mq, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &amp;v)</td></tr>
+<tr class="memdesc:a0372c750033c10d6e530926fff0f7e6a inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the product q=[Gl(mq)]*v without the need of having the [Gl] matrix (just pass the mq quaternion, since Gl is function of mq) <br /></td></tr>
+<tr class="separator:a0372c750033c10d6e530926fff0f7e6a inherit pub_static_methods_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classchrono_1_1fea_1_1_ch_node_f_e_abase"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classchrono_1_1fea_1_1_ch_node_f_e_abase')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html">chrono::fea::ChNodeFEAbase</a></td></tr>
+<tr class="memitem:a2f0a8472c73915cd94bc79d8b572cd8d inherit pub_attribs_classchrono_1_1fea_1_1_ch_node_f_e_abase"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f0a8472c73915cd94bc79d8b572cd8d"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html#a2f0a8472c73915cd94bc79d8b572cd8d">m_TotalMass</a></td></tr>
+<tr class="memdesc:a2f0a8472c73915cd94bc79d8b572cd8d inherit pub_attribs_classchrono_1_1fea_1_1_ch_node_f_e_abase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nodal mass obtained from element masss matrix. <br /></td></tr>
+<tr class="separator:a2f0a8472c73915cd94bc79d8b572cd8d inherit pub_attribs_classchrono_1_1fea_1_1_ch_node_f_e_abase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classchrono_1_1_ch_frame_moving"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classchrono_1_1_ch_frame_moving')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classchrono_1_1_ch_frame_moving.html">chrono::ChFrameMoving&lt; double &gt;</a></td></tr>
+<tr class="memitem:aa197328ff6df31ac124493ac1044f4a1 inherit pub_attribs_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa197328ff6df31ac124493ac1044f4a1"></a>
+<a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#aa197328ff6df31ac124493ac1044f4a1">coord_dt</a></td></tr>
+<tr class="memdesc:aa197328ff6df31ac124493ac1044f4a1 inherit pub_attribs_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation and position speed, as vector+quaternion. <br /></td></tr>
+<tr class="separator:aa197328ff6df31ac124493ac1044f4a1 inherit pub_attribs_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afec6909b039e6cf5fd96d4852bf2923f inherit pub_attribs_classchrono_1_1_ch_frame_moving"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afec6909b039e6cf5fd96d4852bf2923f"></a>
+<a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame_moving.html#afec6909b039e6cf5fd96d4852bf2923f">coord_dtdt</a></td></tr>
+<tr class="memdesc:afec6909b039e6cf5fd96d4852bf2923f inherit pub_attribs_classchrono_1_1_ch_frame_moving"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation and position acceleration, as vector+quaternion. <br /></td></tr>
+<tr class="separator:afec6909b039e6cf5fd96d4852bf2923f inherit pub_attribs_classchrono_1_1_ch_frame_moving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classchrono_1_1_ch_frame"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classchrono_1_1_ch_frame')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classchrono_1_1_ch_frame.html">chrono::ChFrame&lt; double &gt;</a></td></tr>
+<tr class="memitem:ace185ca046c8367fe3142df70865e1db inherit pub_attribs_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace185ca046c8367fe3142df70865e1db"></a>
+<a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#ace185ca046c8367fe3142df70865e1db">coord</a></td></tr>
+<tr class="memdesc:ace185ca046c8367fe3142df70865e1db inherit pub_attribs_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation and position, as vector+quaternion. <br /></td></tr>
+<tr class="separator:ace185ca046c8367fe3142df70865e1db inherit pub_attribs_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab461b3edb592232c853ff13dfb1d9ee6 inherit pub_attribs_classchrono_1_1_ch_frame"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab461b3edb592232c853ff13dfb1d9ee6"></a>
+<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_frame.html#ab461b3edb592232c853ff13dfb1d9ee6">Amatrix</a></td></tr>
+<tr class="memdesc:ab461b3edb592232c853ff13dfb1d9ee6 inherit pub_attribs_classchrono_1_1_ch_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">3x3 orthogonal rotation matrix <br /></td></tr>
+<tr class="separator:ab461b3edb592232c853ff13dfb1d9ee6 inherit pub_attribs_classchrono_1_1_ch_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_node_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_node_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_node_base.html">chrono::ChNodeBase</a></td></tr>
+<tr class="memitem:ae0adb6b7920c50a629a87919c0432311 inherit pro_attribs_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0adb6b7920c50a629a87919c0432311"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#ae0adb6b7920c50a629a87919c0432311">offset_x</a></td></tr>
+<tr class="memdesc:ae0adb6b7920c50a629a87919c0432311 inherit pro_attribs_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset in vector of state (position part) <br /></td></tr>
+<tr class="separator:ae0adb6b7920c50a629a87919c0432311 inherit pro_attribs_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61454ad50b090ac8942927687856d830 inherit pro_attribs_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a61454ad50b090ac8942927687856d830"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#a61454ad50b090ac8942927687856d830">offset_w</a></td></tr>
+<tr class="memdesc:a61454ad50b090ac8942927687856d830 inherit pro_attribs_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset in vector of state (speed part) <br /></td></tr>
+<tr class="separator:a61454ad50b090ac8942927687856d830 inherit pro_attribs_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="af11c737360f428f7fb67905e9cd4dd43"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&amp; chrono::fea::ChNodeFEAxyzrot::Frame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access the frame of the node - in absolute csys, with infos on actual position, speed, acceleration, etc. </p>
+
+</div>
+</div>
+<a class="anchor" id="a131b7dc57785b3248c054ce59a9ac6d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::fea::ChNodeFEAxyzrot::GetFixed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the 'fixed' state of the node. </p>
+<p>If true, its current field value is not changed by solver. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html#a0b0b48f8a126c0d93af6dd83d27decdf">chrono::fea::ChNodeFEAbase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af7760b7f5f0112f1562fb05672307493"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChNodeFEAxyzrot::SetFixed </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the 'fixed' state of the node. </p>
+<p>If true, its current field value is not changed by solver. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html#af7d96ba8951ebb67168a5d28512e56da">chrono::fea::ChNodeFEAbase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5e5a777cfa7a42ecc8c58665ea8d8fde"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classchrono_1_1_ch_variables_body_own_mass.html">ChVariablesBodyOwnMass</a>&amp; chrono::fea::ChNodeFEAxyzrot::VariablesBody </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns reference to the encapsulated <a class="el" href="classchrono_1_1_ch_variables_body.html" title="Specialized class for representing a 6-DOF item for a system, that is a 3D rigid body, with mass matrix and associate variables (a 6 element vector, ex.speed) This is an abstract class, specialized for example in ChVariablesBodyOwnMass and ChVariablesBodySharedMass. ">ChVariablesBody</a>, representing body variables (pos, speed or accel. </p>
+<ul>
+<li>see VariablesLoad...() ) and forces. The <a class="el" href="classchrono_1_1_ch_variables_body_own_mass.html" title="Specialized class for representing a 6-DOF item for a system, that is a 3D rigid body, with mass matrix and associate variables (a 6 element vector, ex.speed) Differently from the &#39;naive&#39; implementation ChVariablesGeneric, here a full 6x6 mass matrix is not built, since only the 3x3 inertia matrix and the mass value are enough. ">ChVariablesBodyOwnMass</a> is the interface to the system solver. </li>
+</ul>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_body_frame.html#af5fcb74b4d0f80d6bbef36ce4ecf5b2d">chrono::ChBodyFrame</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a088d6a8e55c858efb7ead4c0c1357feb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChNodeFEAxyzrot::VariablesFbIncrementMq </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds M*q (masses multiplied current 'qb') to Fb, ex. </p>
+<p>if qb is initialized with v_old using VariablesQbLoadSpeed, this method can be used in timestepping schemes that do: M*v_new = M*v_old + forces*dt </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_node_base.html#aca441a1c1a18da5702fcaad1e4c2b4ef">chrono::ChNodeBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0c8f46b540388d5016209338cb3c51bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChNodeFEAxyzrot::VariablesQbIncrementPosition </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>step</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Increment node positions by the 'qb' part of the <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a>, multiplied by a 'step' factor. </p>
+<p>pos+=qb*step If qb is a speed, this behaves like a single step of 1-st order numerical integration (Eulero integration). </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_node_base.html#a2f905cf2333c3e8ba5ef3cf5fac05636">chrono::ChNodeBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a019751f539b3b73dddf73fa6481f898e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChNodeFEAxyzrot::VariablesQbLoadSpeed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize the 'qb' part of the <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> with the current value of speeds. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_node_base.html#a0a83f345b2195a12c1a291b524dea710">chrono::ChNodeBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeab5a854c4ac0269cf4844aa0367a091"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChNodeFEAxyzrot::VariablesQbSetSpeed </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>step</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fetches the item speed (ex. </p>
+<p>linear velocity, in xyz nodes) from the 'qb' part of the <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> and sets it as the current item speed. If 'step' is not 0, also should compute the approximate acceleration of the item using backward differences, that is accel=(new_speed-old_speed)/step. Mostly used after the solver provided the solution in <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a>. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_node_base.html#a320a0b9bb784235b50c70c4a1fa3d2d8">chrono::ChNodeBase</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:22 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

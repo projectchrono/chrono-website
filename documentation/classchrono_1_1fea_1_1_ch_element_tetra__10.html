@@ -1,0 +1,997 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::fea::ChElementTetra_10 Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1fea.html">fea</a></li><li class="navelem"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html">ChElementTetra_10</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1fea_1_1_ch_element_tetra__10-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::fea::ChElementTetra_10 Class Reference<div class="ingroups"><a class="el" href="group__fea__module.html">FEA module</a> &raquo; <a class="el" href="group__fea__elements.html">Elements</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Tetahedron FEA element with 10 nodes. </p>
+<p>This is a quadratic element for displacementes; stress and strain are interpolated depending on Gauss points. </p>
+</div>
+<p><code>#include &lt;ChElementTetra_10.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::fea::ChElementTetra_10:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_element_tetra__10__inherit__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_element_tetra__10_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_element_tetra__10_inherit__map" id="chrono_1_1fea_1_1_ch_element_tetra__10_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1fea_1_1_ch_element_tetrahedron.html" title="Class for tetrahedral elements. " alt="" coords="213,229,443,256"/>
+<area shape="rect" id="node3" href="classchrono_1_1fea_1_1_ch_element3_d.html" title="Class for all 3&#45;Dimensional elements. " alt="" coords="19,155,197,181"/>
+<area shape="rect" id="node4" href="classchrono_1_1fea_1_1_ch_element_generic.html" title="Class for all elements whose stiffness matrix can be seen as a NxN block&#45;matrix to be splitted betwee..." alt="" coords="5,80,211,107"/>
+<area shape="rect" id="node5" href="classchrono_1_1fea_1_1_ch_element_base.html" title="Base class for all finite elements, that can be used in the ChMesh physics item. " alt="" coords="13,5,203,32"/>
+<area shape="rect" id="node6" href="classchrono_1_1fea_1_1_ch_element_corotational.html" title="Class for corotational elements (elements with rotation matrices that follow the global motion of the..." alt="" coords="221,155,451,181"/>
+<area shape="rect" id="node7" href="classchrono_1_1_ch_loadable_u_v_w.html" title="Interface for objects that can be subject to volume loads, distributed along UVW coordinates of the o..." alt="" coords="467,229,637,256"/>
+<area shape="rect" id="node8" href="classchrono_1_1_ch_loadable.html" title="Interface for objects that can be subject to loads (forces) Forces can be distributed on UV surfaces..." alt="" coords="483,155,621,181"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::fea::ChElementTetra_10:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_element_tetra__10__coll__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_element_tetra__10_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_element_tetra__10_coll__map" id="chrono_1_1fea_1_1_ch_element_tetra__10_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1fea_1_1_ch_element_tetrahedron.html" title="Class for tetrahedral elements. " alt="" coords="1188,115,1417,141"/>
+<area shape="rect" id="node3" href="classchrono_1_1fea_1_1_ch_element3_d.html" title="Class for all 3&#45;Dimensional elements. " alt="" coords="935,60,1112,87"/>
+<area shape="rect" id="node4" href="classchrono_1_1fea_1_1_ch_element_generic.html" title="Class for all elements whose stiffness matrix can be seen as a NxN block&#45;matrix to be splitted betwee..." alt="" coords="641,56,847,83"/>
+<area shape="rect" id="node5" href="classchrono_1_1fea_1_1_ch_element_base.html" title="Base class for all finite elements, that can be used in the ChMesh physics item. " alt="" coords="228,5,419,32"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_kblock_generic.html" title="Class that represent nxn sparse blocks to put into K global matrix, that is blocks that connect N &#39;va..." alt="" coords="238,56,409,83"/>
+<area shape="rect" id="node7" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block&#45;sparse matrices, that is blocks that connect ..." alt="" coords="29,56,155,83"/>
+<area shape="rect" id="node8" href="classchrono_1_1fea_1_1_ch_element_corotational.html" title="Class for corotational elements (elements with rotation matrices that follow the global motion of the..." alt="" coords="908,115,1139,141"/>
+<area shape="rect" id="node9" href="classchrono_1_1_ch_matrix33.html" title="ChMatrix33. " alt="" coords="676,107,812,149"/>
+<area shape="rect" id="node10" href="classchrono_1_1_ch_matrix_n_m.html" title="chrono::ChMatrixNM\l\&lt; Real, 3, 3 \&gt;" alt="" coords="252,107,395,149"/>
+<area shape="rect" id="node11" href="classchrono_1_1_ch_matrix.html" title="ChMatrix: " alt="" coords="5,149,179,176"/>
+<area shape="rect" id="node16" href="classchrono_1_1_ch_matrix_dynamic.html" title="ChMatrixDynamic. " alt="" coords="443,166,617,207"/>
+<area shape="rect" id="node12" href="classchrono_1_1_ch_loadable_u_v_w.html" title="Interface for objects that can be subject to volume loads, distributed along UVW coordinates of the o..." alt="" coords="1217,224,1388,251"/>
+<area shape="rect" id="node13" href="classchrono_1_1_ch_loadable.html" title="Interface for objects that can be subject to loads (forces) Forces can be distributed on UV surfaces..." alt="" coords="954,235,1093,261"/>
+<area shape="rect" id="node14" href="classchrono_1_1_ch_matrix_n_m.html" title="chrono::ChMatrixNM\l\&lt; double, 4, 4 \&gt;" alt="" coords="1231,277,1374,318"/>
+<area shape="rect" id="node15" href="classchrono_1_1_ch_matrix.html" title="chrono::ChMatrix\&lt; double \&gt;" alt="" coords="931,285,1115,312"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:adfd742fcebc2e2ba4f5091ee17269200"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adfd742fcebc2e2ba4f5091ee17269200"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#adfd742fcebc2e2ba4f5091ee17269200">GetNnodes</a> () override</td></tr>
+<tr class="memdesc:adfd742fcebc2e2ba4f5091ee17269200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of nodes used by this element. <br /></td></tr>
+<tr class="separator:adfd742fcebc2e2ba4f5091ee17269200"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab4571f7eddfd137980c302d20baca4"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#acab4571f7eddfd137980c302d20baca4">GetNdofs</a> () override</td></tr>
+<tr class="memdesc:acab4571f7eddfd137980c302d20baca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of coordinates in the field used by the referenced nodes.  <a href="#acab4571f7eddfd137980c302d20baca4">More...</a><br /></td></tr>
+<tr class="separator:acab4571f7eddfd137980c302d20baca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae47f90e599902d85d82a2b35c6385770"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#ae47f90e599902d85d82a2b35c6385770">GetNodeNdofs</a> (int n) override</td></tr>
+<tr class="memdesc:ae47f90e599902d85d82a2b35c6385770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of coordinates from the n-th node that are used by this element.  <a href="#ae47f90e599902d85d82a2b35c6385770">More...</a><br /></td></tr>
+<tr class="separator:ae47f90e599902d85d82a2b35c6385770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf4c1f8e8c1140c9ff22ddcbec10bc69"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf4c1f8e8c1140c9ff22ddcbec10bc69"></a>
+virtual std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html">ChNodeFEAbase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#abf4c1f8e8c1140c9ff22ddcbec10bc69">GetNodeN</a> (int n)</td></tr>
+<tr class="memdesc:abf4c1f8e8c1140c9ff22ddcbec10bc69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the nth node. <br /></td></tr>
+<tr class="separator:abf4c1f8e8c1140c9ff22ddcbec10bc69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade95ab3a278ecfe801ff65b5b640257c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade95ab3a278ecfe801ff65b5b640257c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetNodes</b> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; nodeA, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; nodeB, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; nodeC, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; nodeD, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; nodeE, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; nodeF, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; nodeG, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; nodeH, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; nodeI, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; nodeJ)</td></tr>
+<tr class="separator:ade95ab3a278ecfe801ff65b5b640257c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e92fa20f0a5ec048aa290a356612b97"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a6e92fa20f0a5ec048aa290a356612b97">ShapeFunctions</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;N, double r, double s, double t)</td></tr>
+<tr class="memdesc:a6e92fa20f0a5ec048aa290a356612b97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the N shape function matrix with the.  <a href="#a6e92fa20f0a5ec048aa290a356612b97">More...</a><br /></td></tr>
+<tr class="separator:a6e92fa20f0a5ec048aa290a356612b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6de74117ca8683ebf755fbb746a57bb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#aa6de74117ca8683ebf755fbb746a57bb">GetStateBlock</a> (<a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &amp;mD)</td></tr>
+<tr class="memdesc:aa6de74117ca8683ebf755fbb746a57bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the D vector (displacement) column matrix with the current field values at the nodes of the element, with proper ordering.  <a href="#aa6de74117ca8683ebf755fbb746a57bb">More...</a><br /></td></tr>
+<tr class="separator:aa6de74117ca8683ebf755fbb746a57bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c3ac67fdb3270fde534eb181275afcf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3c3ac67fdb3270fde534eb181275afcf"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a3c3ac67fdb3270fde534eb181275afcf">ComputeVolume</a> ()</td></tr>
+<tr class="memdesc:a3c3ac67fdb3270fde534eb181275afcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Approximation!! not the exact volume This returns an exact value only in case of Constant Metric Tetrahedron. <br /></td></tr>
+<tr class="separator:a3c3ac67fdb3270fde534eb181275afcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6eec53b5c1b3ed7f5ebea75466df968"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#ae6eec53b5c1b3ed7f5ebea75466df968">ComputeJacobian</a> (<a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &amp;Jacobian, double zeta1, double zeta2, double zeta3, double zeta4)</td></tr>
+<tr class="memdesc:ae6eec53b5c1b3ed7f5ebea75466df968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts inside 'Jacobian' the Jacobian matrix of the element zeta1,...,zeta4 are the four natural coordinates of the integration point note: in case of tetrahedral elements natural coord.  <a href="#ae6eec53b5c1b3ed7f5ebea75466df968">More...</a><br /></td></tr>
+<tr class="separator:ae6eec53b5c1b3ed7f5ebea75466df968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32d41646cb0ea5f5f436d9bcb4b8ccdb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a32d41646cb0ea5f5f436d9bcb4b8ccdb">ComputeMatrB</a> (<a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &amp;mmatrB, double zeta1, double zeta2, double zeta3, double zeta4, double &amp;JacobianDet)</td></tr>
+<tr class="memdesc:a32d41646cb0ea5f5f436d9bcb4b8ccdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the matrix of partial derivatives and puts data in "mmatrB" evaluated at natural coordinates zeta1,...,zeta4 note: in case of tetrahedral elements natural coord.  <a href="#a32d41646cb0ea5f5f436d9bcb4b8ccdb">More...</a><br /></td></tr>
+<tr class="separator:a32d41646cb0ea5f5f436d9bcb4b8ccdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6380ad675016202af263bc5e32b1c637"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a6380ad675016202af263bc5e32b1c637">ComputeStiffnessMatrix</a> ()</td></tr>
+<tr class="memdesc:a6380ad675016202af263bc5e32b1c637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the local STIFFNESS MATRIX of the element: K = sum (w_i * [B]' * [D] * [B])  <a href="#a6380ad675016202af263bc5e32b1c637">More...</a><br /></td></tr>
+<tr class="separator:a6380ad675016202af263bc5e32b1c637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a816667292569760af38d00182cee7f52"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a816667292569760af38d00182cee7f52"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a816667292569760af38d00182cee7f52">GetParameterForNodeID</a> (const int nodeID, double &amp;z1, double &amp;z2, double &amp;z3, double &amp;z4)</td></tr>
+<tr class="memdesc:a816667292569760af38d00182cee7f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given the node ID, gets the 4 parameters of the shape function. <br /></td></tr>
+<tr class="separator:a816667292569760af38d00182cee7f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be0eb2559ed618d3f2dcfc7fd6858bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1fea_1_1_ch_strain_tensor.html">ChStrainTensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a8be0eb2559ed618d3f2dcfc7fd6858bb">GetStrain</a> (double z1, double z2, double z3, double z4)</td></tr>
+<tr class="memdesc:a8be0eb2559ed618d3f2dcfc7fd6858bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the strain tensor at given parameters.  <a href="#a8be0eb2559ed618d3f2dcfc7fd6858bb">More...</a><br /></td></tr>
+<tr class="separator:a8be0eb2559ed618d3f2dcfc7fd6858bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7554f01e65ca32e3e28abe9a36f06902"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1fea_1_1_ch_stress_tensor.html">ChStressTensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a7554f01e65ca32e3e28abe9a36f06902">GetStress</a> (double z1, double z2, double z3, double z4)</td></tr>
+<tr class="memdesc:a7554f01e65ca32e3e28abe9a36f06902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the stress tensor at given parameters.  <a href="#a7554f01e65ca32e3e28abe9a36f06902">More...</a><br /></td></tr>
+<tr class="separator:a7554f01e65ca32e3e28abe9a36f06902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e3a3b787de71437d27e875b07c0127b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a8e3a3b787de71437d27e875b07c0127b">SetupInitial</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *system) override</td></tr>
+<tr class="memdesc:a8e3a3b787de71437d27e875b07c0127b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial setup: This is used mostly to precompute matrices that do not change during the simulation, i.e.  <a href="#a8e3a3b787de71437d27e875b07c0127b">More...</a><br /></td></tr>
+<tr class="separator:a8e3a3b787de71437d27e875b07c0127b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e09e033aea9322d1773dc5a99e27389"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a3e09e033aea9322d1773dc5a99e27389">UpdateRotation</a> ()</td></tr>
+<tr class="memdesc:a3e09e033aea9322d1773dc5a99e27389"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given the actual position of the nodes, recompute the cumulative rotation matrix A.  <a href="#a3e09e033aea9322d1773dc5a99e27389">More...</a><br /></td></tr>
+<tr class="separator:a3e09e033aea9322d1773dc5a99e27389"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78d7019af78accf39a827f0ce0865636"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a78d7019af78accf39a827f0ce0865636">ComputeKRMmatricesGlobal</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;H, double Kfactor, double Rfactor=0, double Mfactor=0)</td></tr>
+<tr class="memdesc:a78d7019af78accf39a827f0ce0865636"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets H as the global stiffness matrix K, scaled by Kfactor.  <a href="#a78d7019af78accf39a827f0ce0865636">More...</a><br /></td></tr>
+<tr class="separator:a78d7019af78accf39a827f0ce0865636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e14273ca888f510ad1cc9dc05438806"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a3e14273ca888f510ad1cc9dc05438806">ComputeInternalForces</a> (<a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &amp;Fi)</td></tr>
+<tr class="memdesc:a3e14273ca888f510ad1cc9dc05438806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the internal forces (ex.  <a href="#a3e14273ca888f510ad1cc9dc05438806">More...</a><br /></td></tr>
+<tr class="separator:a3e14273ca888f510ad1cc9dc05438806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0acdc6d797388ff2751093ffd68ec338"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0acdc6d797388ff2751093ffd68ec338"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a0acdc6d797388ff2751093ffd68ec338">SetMaterial</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_continuum_elastic.html">ChContinuumElastic</a> &gt; my_material)</td></tr>
+<tr class="memdesc:a0acdc6d797388ff2751093ffd68ec338"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the material of the element. <br /></td></tr>
+<tr class="separator:a0acdc6d797388ff2751093ffd68ec338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a3996ef798fe8efbfb940569030d68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31a3996ef798fe8efbfb940569030d68"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_continuum_elastic.html">ChContinuumElastic</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetMaterial</b> ()</td></tr>
+<tr class="separator:a31a3996ef798fe8efbfb940569030d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6aebaeed8324a6c21b3ed695db2a16b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6aebaeed8324a6c21b3ed695db2a16b"></a>
+<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#ac6aebaeed8324a6c21b3ed695db2a16b">GetMatrB</a> (int n)</td></tr>
+<tr class="memdesc:ac6aebaeed8324a6c21b3ed695db2a16b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the partial derivatives matrix MatrB and the StiffnessMatrix. <br /></td></tr>
+<tr class="separator:ac6aebaeed8324a6c21b3ed695db2a16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb496a6faf738505eb66edf6bc801b95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb496a6faf738505eb66edf6bc801b95"></a>
+<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetStiffnessMatrix</b> ()</td></tr>
+<tr class="separator:adb496a6faf738505eb66edf6bc801b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5df3d99e696c2b8483f862d18a953c56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5df3d99e696c2b8483f862d18a953c56"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a5df3d99e696c2b8483f862d18a953c56">LoadableGet_ndof_x</a> ()</td></tr>
+<tr class="memdesc:a5df3d99e696c2b8483f862d18a953c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of DOFs affected by this element (position part) <br /></td></tr>
+<tr class="separator:a5df3d99e696c2b8483f862d18a953c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9763d80e48b11c37765d96d1932868d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9763d80e48b11c37765d96d1932868d5"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a9763d80e48b11c37765d96d1932868d5">LoadableGet_ndof_w</a> ()</td></tr>
+<tr class="memdesc:a9763d80e48b11c37765d96d1932868d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of DOFs affected by this element (speed part) <br /></td></tr>
+<tr class="separator:a9763d80e48b11c37765d96d1932868d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5b3454a810d41a8871d6cdcb825fb41"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa5b3454a810d41a8871d6cdcb825fb41"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#aa5b3454a810d41a8871d6cdcb825fb41">LoadableGetStateBlock_x</a> (int block_offset, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;mD)</td></tr>
+<tr class="memdesc:aa5b3454a810d41a8871d6cdcb825fb41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all the DOFs packed in a single vector (position part) <br /></td></tr>
+<tr class="separator:aa5b3454a810d41a8871d6cdcb825fb41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a044aa7ac026b5964903ea4ef91f2e193"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a044aa7ac026b5964903ea4ef91f2e193"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a044aa7ac026b5964903ea4ef91f2e193">LoadableGetStateBlock_w</a> (int block_offset, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;mD)</td></tr>
+<tr class="memdesc:a044aa7ac026b5964903ea4ef91f2e193"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all the DOFs packed in a single vector (speed part) <br /></td></tr>
+<tr class="separator:a044aa7ac026b5964903ea4ef91f2e193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90c83c3107916c4e59bdc9c21bdc4185"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90c83c3107916c4e59bdc9c21bdc4185"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a90c83c3107916c4e59bdc9c21bdc4185">Get_field_ncoords</a> ()</td></tr>
+<tr class="memdesc:a90c83c3107916c4e59bdc9c21bdc4185"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of coordinates in the interpolated field: here the {x,y,z} displacement. <br /></td></tr>
+<tr class="separator:a90c83c3107916c4e59bdc9c21bdc4185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a458b0d4577e2e90c4a73636c9e559c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a458b0d4577e2e90c4a73636c9e559c"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a6a458b0d4577e2e90c4a73636c9e559c">GetSubBlocks</a> ()</td></tr>
+<tr class="memdesc:a6a458b0d4577e2e90c4a73636c9e559c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell the number of DOFs blocks (ex. =1 for a body, =4 for a tetrahedron, etc.) <br /></td></tr>
+<tr class="separator:a6a458b0d4577e2e90c4a73636c9e559c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2ca37ec653501a1dc2d09c8115a70aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2ca37ec653501a1dc2d09c8115a70aa"></a>
+virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#ab2ca37ec653501a1dc2d09c8115a70aa">GetSubBlockOffset</a> (int nblock)</td></tr>
+<tr class="memdesc:ab2ca37ec653501a1dc2d09c8115a70aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the offset of the i-th sub-block of DOFs in global vector. <br /></td></tr>
+<tr class="separator:ab2ca37ec653501a1dc2d09c8115a70aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9474192be910d28bdd7a23eef733fad4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9474192be910d28bdd7a23eef733fad4"></a>
+virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a9474192be910d28bdd7a23eef733fad4">GetSubBlockSize</a> (int nblock)</td></tr>
+<tr class="memdesc:a9474192be910d28bdd7a23eef733fad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the i-th sub-block of DOFs in global vector. <br /></td></tr>
+<tr class="separator:a9474192be910d28bdd7a23eef733fad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ce57dd0f061f6afb3ededf287513a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33ce57dd0f061f6afb3ededf287513a9"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a33ce57dd0f061f6afb3ededf287513a9">LoadableGetVariables</a> (std::vector&lt; <a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> * &gt; &amp;mvars)</td></tr>
+<tr class="memdesc:a33ce57dd0f061f6afb3ededf287513a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pointers to the contained <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a>, appending to the mvars vector. <br /></td></tr>
+<tr class="separator:a33ce57dd0f061f6afb3ededf287513a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fdea03d2d54a0e8351149e39a1a5f4b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a4fdea03d2d54a0e8351149e39a1a5f4b">ComputeNF</a> (const double U, const double V, const double W, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;Qi, double &amp;detJ, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;F, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; *state_x, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; *state_w)</td></tr>
+<tr class="memdesc:a4fdea03d2d54a0e8351149e39a1a5f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate N'*F , where N is some type of shape function evaluated at U,V,W coordinates of the volume, each ranging in -1..+1 F is a load, N'*F is the resulting generalized load Returns also det[J] with J=[dx/du,..], that might be useful in gauss quadrature.  <a href="#a4fdea03d2d54a0e8351149e39a1a5f4b">More...</a><br /></td></tr>
+<tr class="separator:a4fdea03d2d54a0e8351149e39a1a5f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1820c11d0b0a6124d28c22e4d8ffe29a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1820c11d0b0a6124d28c22e4d8ffe29a"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a1820c11d0b0a6124d28c22e4d8ffe29a">GetDensity</a> ()</td></tr>
+<tr class="memdesc:a1820c11d0b0a6124d28c22e4d8ffe29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is needed so that it can be accessed by ChLoaderVolumeGravity. <br /></td></tr>
+<tr class="separator:a1820c11d0b0a6124d28c22e4d8ffe29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33e9f879c8a70c26d773204dd6beaba3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a33e9f879c8a70c26d773204dd6beaba3">IsTetrahedronIntegrationNeeded</a> ()</td></tr>
+<tr class="memdesc:a33e9f879c8a70c26d773204dd6beaba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, use quadrature over u,v,w in [0..1] range as tetrahedron volumetric coords, with z=1-u-v-w otherwise use quadrature over u,v,w in [-1..+1] as box isoparametric coords.  <a href="#a33e9f879c8a70c26d773204dd6beaba3">More...</a><br /></td></tr>
+<tr class="separator:a33e9f879c8a70c26d773204dd6beaba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1fea_1_1_ch_element_tetrahedron"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1fea_1_1_ch_element_tetrahedron')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetrahedron.html">chrono::fea::ChElementTetrahedron</a></td></tr>
+<tr class="memitem:aac750ee1b0cbae6f308c00548b7a0be0 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_tetrahedron"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_tetrahedron.html#aac750ee1b0cbae6f308c00548b7a0be0">Update</a> ()</td></tr>
+<tr class="memdesc:aac750ee1b0cbae6f308c00548b7a0be0 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_tetrahedron"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update: this is called at least at each time step.  <a href="#aac750ee1b0cbae6f308c00548b7a0be0">More...</a><br /></td></tr>
+<tr class="separator:aac750ee1b0cbae6f308c00548b7a0be0 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_tetrahedron"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1fea_1_1_ch_element3_d"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1fea_1_1_ch_element3_d')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_element3_d.html">chrono::fea::ChElement3D</a></td></tr>
+<tr class="memitem:a78b3b723c767a08afef7d153d331771e inherit pub_methods_classchrono_1_1fea_1_1_ch_element3_d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78b3b723c767a08afef7d153d331771e"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetVolume</b> ()</td></tr>
+<tr class="separator:a78b3b723c767a08afef7d153d331771e inherit pub_methods_classchrono_1_1fea_1_1_ch_element3_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1fea_1_1_ch_element_generic')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html">chrono::fea::ChElementGeneric</a></td></tr>
+<tr class="memitem:a5bc94d9bc6145c9d3aa09e06b6dd57de inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5bc94d9bc6145c9d3aa09e06b6dd57de"></a>
+<a class="el" href="classchrono_1_1_ch_kblock_generic.html">ChKblockGeneric</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html#a5bc94d9bc6145c9d3aa09e06b6dd57de">Kstiffness</a> ()</td></tr>
+<tr class="memdesc:a5bc94d9bc6145c9d3aa09e06b6dd57de inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the proxy to stiffness, for sparse solver. <br /></td></tr>
+<tr class="separator:a5bc94d9bc6145c9d3aa09e06b6dd57de inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f73b6291566ac330f46274daa63a89 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6f73b6291566ac330f46274daa63a89"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html#af6f73b6291566ac330f46274daa63a89">EleIntLoadResidual_F</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const double c) override</td></tr>
+<tr class="memdesc:af6f73b6291566ac330f46274daa63a89 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="mdescLeft">&#160;</td><td class="mdescRight">(This is a default (a bit unoptimal) book keeping so that in children classes you can avoid implementing this EleIntLoadResidual_F function, unless you need faster code) <br /></td></tr>
+<tr class="separator:af6f73b6291566ac330f46274daa63a89 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adea6aa9914e0c44f9f4ac51510ebdc93 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adea6aa9914e0c44f9f4ac51510ebdc93"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html#adea6aa9914e0c44f9f4ac51510ebdc93">EleIntLoadResidual_Mv</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;w, const double c) override</td></tr>
+<tr class="memdesc:adea6aa9914e0c44f9f4ac51510ebdc93 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="mdescLeft">&#160;</td><td class="mdescRight">(This is a default (VERY UNOPTIMAL) book keeping so that in children classes you can avoid implementing this EleIntLoadResidual_Mv function, unless you need faster code.) <br /></td></tr>
+<tr class="separator:adea6aa9914e0c44f9f4ac51510ebdc93 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6147d30ab40c8396693bec5c646b5913 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html#a6147d30ab40c8396693bec5c646b5913">ComputeMmatrixGlobal</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;M) override</td></tr>
+<tr class="memdesc:a6147d30ab40c8396693bec5c646b5913 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the global mass matrix.  <a href="#a6147d30ab40c8396693bec5c646b5913">More...</a><br /></td></tr>
+<tr class="separator:a6147d30ab40c8396693bec5c646b5913 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfe1e50aa31758ad12421e8aed5ef439 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abfe1e50aa31758ad12421e8aed5ef439"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html#abfe1e50aa31758ad12421e8aed5ef439">InjectKRMmatrices</a> (<a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;mdescriptor) override</td></tr>
+<tr class="memdesc:abfe1e50aa31758ad12421e8aed5ef439 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell to a system descriptor that there are item(s) of type <a class="el" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block-sparse matrices, that is blocks that connect ...">ChKblock</a> in this object (for further passing it to a solver) <br /></td></tr>
+<tr class="separator:abfe1e50aa31758ad12421e8aed5ef439 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a504166d3ebca09a3d076156c0eec606d inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html#a504166d3ebca09a3d076156c0eec606d">KRMmatricesLoad</a> (double Kfactor, double Rfactor, double Mfactor) override</td></tr>
+<tr class="memdesc:a504166d3ebca09a3d076156c0eec606d inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the current stiffness K and damping R and mass M matrices in encapsulated <a class="el" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block-sparse matrices, that is blocks that connect ...">ChKblock</a> item(s), if any.  <a href="#a504166d3ebca09a3d076156c0eec606d">More...</a><br /></td></tr>
+<tr class="separator:a504166d3ebca09a3d076156c0eec606d inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8951b624dab2253b6c4cec2c9d9a46f9 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8951b624dab2253b6c4cec2c9d9a46f9"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html#a8951b624dab2253b6c4cec2c9d9a46f9">VariablesFbLoadInternalForces</a> (double factor=1.) override</td></tr>
+<tr class="memdesc:a8951b624dab2253b6c4cec2c9d9a46f9 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the internal forces, expressed as nodal forces, into the encapsulated <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a>, in the 'fb' part: qf+=forces*factor (This is a default (a bit unoptimal) book keeping so that in children classes you can avoid implementing this VariablesFbLoadInternalForces function, unless you need faster code) <br /></td></tr>
+<tr class="separator:a8951b624dab2253b6c4cec2c9d9a46f9 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b5a0c73847fd050a6c474acbac94f8e inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html#a7b5a0c73847fd050a6c474acbac94f8e">VariablesFbIncrementMq</a> () override</td></tr>
+<tr class="memdesc:a7b5a0c73847fd050a6c474acbac94f8e inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds M*q (internal masses multiplied current 'qb') to Fb, ex.  <a href="#a7b5a0c73847fd050a6c474acbac94f8e">More...</a><br /></td></tr>
+<tr class="separator:a7b5a0c73847fd050a6c474acbac94f8e inherit pub_methods_classchrono_1_1fea_1_1_ch_element_generic"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1fea_1_1_ch_element_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1fea_1_1_ch_element_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html">chrono::fea::ChElementBase</a></td></tr>
+<tr class="memitem:ad569dd917bb66c0fa556bd9095918cb7 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad569dd917bb66c0fa556bd9095918cb7"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#ad569dd917bb66c0fa556bd9095918cb7">ComputeNodalMass</a> ()</td></tr>
+<tr class="memdesc:ad569dd917bb66c0fa556bd9095918cb7 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute element's nodal masses. <br /></td></tr>
+<tr class="separator:ad569dd917bb66c0fa556bd9095918cb7 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1fea_1_1_ch_element_corotational"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1fea_1_1_ch_element_corotational')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_element_corotational.html">chrono::fea::ChElementCorotational</a></td></tr>
+<tr class="memitem:aa60562626a5317855a06907011003e69 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_corotational"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_corotational.html#aa60562626a5317855a06907011003e69">Rotation</a> ()</td></tr>
+<tr class="memdesc:aa60562626a5317855a06907011003e69 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_corotational"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the cumulative rotation matrix of the element, The rotation is expressed relative to initial reference position of element.  <a href="#aa60562626a5317855a06907011003e69">More...</a><br /></td></tr>
+<tr class="separator:aa60562626a5317855a06907011003e69 inherit pub_methods_classchrono_1_1fea_1_1_ch_element_corotational"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a99c9adf8bc0f0ec086384b2eee19e907"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99c9adf8bc0f0ec086384b2eee19e907"></a>
+std::vector&lt; std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>nodes</b></td></tr>
+<tr class="separator:a99c9adf8bc0f0ec086384b2eee19e907"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6b9061e50df6146ccdf5638771ad5f2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6b9061e50df6146ccdf5638771ad5f2"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_continuum_elastic.html">ChContinuumElastic</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Material</b></td></tr>
+<tr class="separator:ac6b9061e50df6146ccdf5638771ad5f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f1e0cb87f19ee5c373c3670b5671557"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f1e0cb87f19ee5c373c3670b5671557"></a>
+std::vector&lt; <a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>MatrB</b></td></tr>
+<tr class="separator:a7f1e0cb87f19ee5c373c3670b5671557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c80faa10946dd0b9c88f1d3099304ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4c80faa10946dd0b9c88f1d3099304ee"></a>
+<a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&#160;</td><td class="memItemRight" valign="bottom"><b>StiffnessMatrix</b></td></tr>
+<tr class="separator:a4c80faa10946dd0b9c88f1d3099304ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4af528405a9f3ae4b8c6bc6bae3c2097"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4af528405a9f3ae4b8c6bc6bae3c2097"></a>
+<a class="el" href="classchrono_1_1_ch_matrix_n_m.html">ChMatrixNM</a>&lt; double, 4, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mM</b></td></tr>
+<tr class="separator:a4af528405a9f3ae4b8c6bc6bae3c2097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1fea_1_1_ch_element3_d"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1fea_1_1_ch_element3_d')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_element3_d.html">chrono::fea::ChElement3D</a></td></tr>
+<tr class="memitem:af19a7728f8c392ae9d8b100b5cfe320f inherit pro_attribs_classchrono_1_1fea_1_1_ch_element3_d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af19a7728f8c392ae9d8b100b5cfe320f"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Volume</b></td></tr>
+<tr class="separator:af19a7728f8c392ae9d8b100b5cfe320f inherit pro_attribs_classchrono_1_1fea_1_1_ch_element3_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1fea_1_1_ch_element_generic"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1fea_1_1_ch_element_generic')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html">chrono::fea::ChElementGeneric</a></td></tr>
+<tr class="memitem:a48df5e9a7317d08954256f8b0eef65d6 inherit pro_attribs_classchrono_1_1fea_1_1_ch_element_generic"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48df5e9a7317d08954256f8b0eef65d6"></a>
+<a class="el" href="classchrono_1_1_ch_kblock_generic.html">ChKblockGeneric</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Kmatr</b></td></tr>
+<tr class="separator:a48df5e9a7317d08954256f8b0eef65d6 inherit pro_attribs_classchrono_1_1fea_1_1_ch_element_generic"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1fea_1_1_ch_element_corotational"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1fea_1_1_ch_element_corotational')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_element_corotational.html">chrono::fea::ChElementCorotational</a></td></tr>
+<tr class="memitem:a26e78c4de95eaf31b55a02b6cc4a9d69 inherit pro_attribs_classchrono_1_1fea_1_1_ch_element_corotational"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26e78c4de95eaf31b55a02b6cc4a9d69"></a>
+<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&#160;</td><td class="memItemRight" valign="bottom"><b>A</b></td></tr>
+<tr class="separator:a26e78c4de95eaf31b55a02b6cc4a9d69 inherit pro_attribs_classchrono_1_1fea_1_1_ch_element_corotational"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_attribs_classchrono_1_1fea_1_1_ch_element_tetrahedron"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classchrono_1_1fea_1_1_ch_element_tetrahedron')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetrahedron.html">chrono::fea::ChElementTetrahedron</a></td></tr>
+<tr class="memitem:ae8822b4837bac23c33645b622ba28af8 inherit pub_attribs_classchrono_1_1fea_1_1_ch_element_tetrahedron"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8822b4837bac23c33645b622ba28af8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ID</b></td></tr>
+<tr class="separator:ae8822b4837bac23c33645b622ba28af8 inherit pub_attribs_classchrono_1_1fea_1_1_ch_element_tetrahedron"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a3e14273ca888f510ad1cc9dc05438806"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementTetra_10::ComputeInternalForces </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>Fi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the internal forces (ex. </p>
+<p>the actual position of nodes is not in relaxed reference position) and set values in the Fi vector. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a975ea7097b93df139090ed26301c7ee6">chrono::fea::ChElementBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae6eec53b5c1b3ed7f5ebea75466df968"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementTetra_10::ComputeJacobian </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>Jacobian</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>zeta1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>zeta2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>zeta3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>zeta4</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Puts inside 'Jacobian' the Jacobian matrix of the element zeta1,...,zeta4 are the four natural coordinates of the integration point note: in case of tetrahedral elements natural coord. </p>
+<p>vary in the range 0 ... +1 </p>
+
+</div>
+</div>
+<a class="anchor" id="a78d7019af78accf39a827f0ce0865636"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementTetra_10::ComputeKRMmatricesGlobal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>H</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Kfactor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Rfactor</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Mfactor</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets H as the global stiffness matrix K, scaled by Kfactor. </p>
+<p>Optionally, also superimposes global damping matrix R, scaled by Rfactor, and global mass matrix M multiplied by Mfactor. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a1e679b7026bab571b615374c5b0313bf">chrono::fea::ChElementBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a32d41646cb0ea5f5f436d9bcb4b8ccdb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementTetra_10::ComputeMatrB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>mmatrB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>zeta1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>zeta2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>zeta3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>zeta4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>JacobianDet</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the matrix of partial derivatives and puts data in "mmatrB" evaluated at natural coordinates zeta1,...,zeta4 note: in case of tetrahedral elements natural coord. </p>
+<p>vary in the range 0 ... +1 </p>
+
+</div>
+</div>
+<a class="anchor" id="a4fdea03d2d54a0e8351149e39a1a5f4b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementTetra_10::ComputeNF </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>U</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>V</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>W</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>Qi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>detJ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>F</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; *&#160;</td>
+          <td class="paramname"><em>state_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; *&#160;</td>
+          <td class="paramname"><em>state_w</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Evaluate N'*F , where N is some type of shape function evaluated at U,V,W coordinates of the volume, each ranging in -1..+1 F is a load, N'*F is the resulting generalized load Returns also det[J] with J=[dx/du,..], that might be useful in gauss quadrature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">U</td><td>parametric coordinate in volume </td></tr>
+    <tr><td class="paramname">V</td><td>parametric coordinate in volume </td></tr>
+    <tr><td class="paramname">W</td><td>parametric coordinate in volume </td></tr>
+    <tr><td class="paramname">Qi</td><td>Return result of N'*F here, maybe with offset block_offset </td></tr>
+    <tr><td class="paramname">detJ</td><td>Return det[J] here </td></tr>
+    <tr><td class="paramname">F</td><td>Input F vector, size is = n.field coords. </td></tr>
+    <tr><td class="paramname">state_x</td><td>if != 0, update state (pos. part) to this, then evaluate Q </td></tr>
+    <tr><td class="paramname">state_w</td><td>if != 0, update state (speed part) to this, then evaluate Q </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_loadable_u_v_w.html#a337de40660966c931877c240e53ec4b5">chrono::ChLoadableUVW</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6380ad675016202af263bc5e32b1c637"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementTetra_10::ComputeStiffnessMatrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the local STIFFNESS MATRIX of the element: K = sum (w_i * [B]' * [D] * [B]) </p>
+<p>!! =&gt; because the canonical interval is -1 ... +1, but we want to integrate </p>
+
+</div>
+</div>
+<a class="anchor" id="acab4571f7eddfd137980c302d20baca4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int chrono::fea::ChElementTetra_10::GetNdofs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the number of coordinates in the field used by the referenced nodes. </p>
+<p>This is for example the size (n.of rows/columns) of the local stiffness matrix. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a41f0651dc8d6a218a3d00a0028b9f3cf">chrono::fea::ChElementBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae47f90e599902d85d82a2b35c6385770"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int chrono::fea::ChElementTetra_10::GetNodeNdofs </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the number of coordinates from the n-th node that are used by this element. </p>
+<p>Note that this may be different from the value returned by GetNodeN(n)-&gt;Get_ndof_w(); </p>
+
+<p>Implements <a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a5ff4c93c77488c602f5a3d24a9644c7d">chrono::fea::ChElementBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6de74117ca8683ebf755fbb746a57bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementTetra_10::GetStateBlock </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>mD</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fills the D vector (displacement) column matrix with the current field values at the nodes of the element, with proper ordering. </p>
+<p>If the D vector has not the size of this-&gt;<a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#acab4571f7eddfd137980c302d20baca4" title="Gets the number of coordinates in the field used by the referenced nodes. ">GetNdofs()</a>, it will be resized. For corotational elements, field is assumed in local reference! </p>
+
+<p>Implements <a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#ac41d184892cb3296030a4236c01b30ef">chrono::fea::ChElementBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8be0eb2559ed618d3f2dcfc7fd6858bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1fea_1_1_ch_strain_tensor.html">ChStrainTensor</a> chrono::fea::ChElementTetra_10::GetStrain </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z4</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the strain tensor at given parameters. </p>
+<p>The tensor is in the original undeformed unrotated reference. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7554f01e65ca32e3e28abe9a36f06902"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1fea_1_1_ch_stress_tensor.html">ChStressTensor</a> chrono::fea::ChElementTetra_10::GetStress </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z4</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the stress tensor at given parameters. </p>
+<p>The tensor is in the original undeformed unrotated reference. </p>
+
+</div>
+</div>
+<a class="anchor" id="a33e9f879c8a70c26d773204dd6beaba3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::fea::ChElementTetra_10::IsTetrahedronIntegrationNeeded </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If true, use quadrature over u,v,w in [0..1] range as tetrahedron volumetric coords, with z=1-u-v-w otherwise use quadrature over u,v,w in [-1..+1] as box isoparametric coords. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_loadable_u_v_w.html#adbad0b69670579769ab5fb669609e4d0">chrono::ChLoadableUVW</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8e3a3b787de71437d27e875b07c0127b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementTetra_10::SetupInitial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *&#160;</td>
+          <td class="paramname"><em>system</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initial setup: This is used mostly to precompute matrices that do not change during the simulation, i.e. </p>
+<p>the local stiffness of each element, if any, the mass, etc. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#ae172f3e59d3950ca16e2a970b2f5b5d5">chrono::fea::ChElementBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6e92fa20f0a5ec048aa290a356612b97"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementTetra_10::ShapeFunctions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fills the N shape function matrix with the. </p>
+<p>values of shape functions at zi parametric coordinates, where r=1 at 2nd vertex, s=1 at 3rd, t=1 at 4th. All ranging in [0...1]. The last, u (=1 at 1st vertex) is computed form the first 3. It stores the Ni(r,s,t) values in a 1 row, 10 columns matrix. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3e09e033aea9322d1773dc5a99e27389"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementTetra_10::UpdateRotation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Given the actual position of the nodes, recompute the cumulative rotation matrix A. </p>
+<p>CHLDREN CLASSES MUST IMPLEMENT THIS!!! </p>
+
+<p>Implements <a class="el" href="classchrono_1_1fea_1_1_ch_element_corotational.html#a99f034e0701f106c3b18601b0a76dee2">chrono::fea::ChElementCorotational</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:21 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

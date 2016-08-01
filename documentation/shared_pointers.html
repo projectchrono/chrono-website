@@ -1,0 +1,232 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: Shared pointers</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="index.html">Project Chrono API/SDK documentation</a></li><li class="navelem"><a class="el" href="manual_root.html">Reference Manual</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Shared pointers </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p>In Chrono, most of the 'heavyweight objects', such as rigid bodies, links, etc., are managed via <b>shared pointers</b>. One consequence is that the user does not need to be concerned about deleting objects after creating them. Indeed, these shared pointers provide in some sense a basic garbage-collection facility. In this context, Chrono uses the C++11 compliant shared pointer from the STL library: <code>std::shared_ptr</code>.</p>
+<p>Objects of shared_ptr types have the ability of sharing the ownership of a pointer. Once they take shared ownership of a pointer, the group of owners become responsible for its deletion when the last one of them releases that ownership. In this context, its useful to keep in mind that shared_ptr objects release ownership on the object they co-own as soon as they themselves are destroyed.</p>
+<p>Once all shared_ptr objects that share ownership over a pointer have released this ownership, the managed object is <em>automatically</em> deleted.</p>
+<p>The main effect of using a shared_ptr object is that the user will <b>never need to use delete</b>. This simplifies memory management and avoids errors associated with dangling pointers.</p>
+<p>Example: create an object and handle it with via a shared pointer.</p>
+<div class="fragment"><div class="line">std::shared_ptr&lt;ChBody&gt; my_body(<span class="keyword">new</span> ChBody);</div></div><!-- fragment --><p>A better alternative is to use <code>std::make_shared</code>, which is a bit faster:</p>
+<div class="fragment"><div class="line"><span class="keyword">auto</span> my_body = std::make_shared&lt;ChBody&gt;();</div></div><!-- fragment --><p>Note that <code>auto</code>, as in other C++11 cases, means that there is no need to specify <code>std::shared_ptr&lt;ChBody&gt; my_body = ...</code></p>
+<p>In the next example, parameters are needed in the constructor call:</p>
+<div class="fragment"><div class="line"><span class="keyword">auto</span> my_foo = std::make_shared&lt;Foo&gt;(par1, par2);</div></div><!-- fragment --><p>Other pointers can also be assigned to the same shared object. Examples:</p>
+<div class="fragment"><div class="line"><span class="keyword">auto</span> my_foo = std::make_shared&lt;Foo&gt;(par1, par2);</div><div class="line">std::shared_ptr&lt;Foo&gt; my_fuu = my_foo;</div><div class="line"></div><div class="line"><span class="keyword">auto</span> my_fii = FunctionReturningSharedPointer();</div></div><!-- fragment --><p>Downcasting shared pointers falls back on the use of <code>dynamic_pointer_cast&lt;...&gt;(...)</code>. A static cast is done via <code>static_pointer_cast&lt;...&gt;(...)</code>:</p>
+<div class="fragment"><div class="line">std::shared_ptr&lt;Base&gt; var1;</div><div class="line"><span class="keyword">auto</span> var2 = std::dynamic_pointer_cast&lt;Derived&gt;(var1);</div><div class="line"><span class="keyword">auto</span> var3 = std::static_pointer_cast&lt;Derived&gt;(var1);</div><div class="line"></div><div class="line"><span class="keywordflow">if</span> (<span class="keyword">auto</span> mystepper = std::dynamic_pointer_cast&lt;ChTimestepperHHT&gt;(my_system.<a class="code" href="classchrono_1_1_ch_system.html#a7ef2ddce2bc48761d3ed90579f8dbb57">GetTimestepper</a>())) {</div><div class="line">    mystepper-&gt;SetAlpha(-0.2);</div><div class="line">    ...</div><div class="line">}</div></div><!-- fragment --><h2>Porting from a pre 3.0 version of the Chrono API</h2>
+<p>Pre 3.0 versions of the Chrono API used the custom shared pointer class <code>ChSharedPtr</code>. This was made obsolete and replaced by the <code>std::shared_ptr</code>. Modifying old code to use the v.3.0 and newer versions of the Chrono API can be straightforward if one follows these guidelines:</p>
+<ul>
+<li>Types:<ul>
+<li>OLD: <pre class="fragment">        ChSharedPtr&lt;Foo&gt;
+</pre></li>
+<li>NEW: <pre class="fragment">        std::shared_ptr&lt;Foo&gt;
+</pre></li>
+</ul>
+</li>
+<li>Creation of shared pointers:<ul>
+<li>OLD: <pre class="fragment">        ChSharedPtr&lt;Foo&gt; my_var(new Foo(arg1, arg2));
+</pre></li>
+<li>NEW: <pre class="fragment">        auto my_var = std::make_shared&lt;Foo&gt;(arg1, arg2);
+</pre></li>
+</ul>
+</li>
+<li>If the constructor of Foo does not take any arguments, then:<ul>
+<li>OLD: <pre class="fragment">        ChSharedPtr&lt;Foo&gt;  my_var(new Foo);
+</pre></li>
+<li>NEW: <pre class="fragment">        auto my_var = std::make_shared&lt;Foo&gt;();
+</pre></li>
+</ul>
+</li>
+<li>If a variable has already been declared as a shared pointer somewhere else:<ul>
+<li>OLD: <pre class="fragment">        ChSharedPtr&lt;Foo&gt; my_var;
+        my_var = ChSharedPtr&lt;Foo&gt;(new Foo(arg1, arg2));
+</pre></li>
+<li>NEW: <pre class="fragment">        std::shared_ptr&lt;Foo&gt; my_var;
+        my_var = std::make_shared&lt;Foo&gt;(arg1, arg2);
+</pre></li>
+</ul>
+</li>
+<li>Copy constructors<ul>
+<li>OLD: <pre class="fragment">        ChSharedPtr&lt;Foo&gt;  var1;
+        ChSharedPtr&lt;Foo&gt; var2(var1);
+        ChSharedPtr&lt;Foo&gt; var3 = ChSharedPtr&lt;Foo&gt;(var1);
+</pre></li>
+<li>NEW: <pre class="fragment">        std::shared_ptr&lt;Foo&gt; var1;
+        std::shared_ptr&lt;Foo&gt; var2(var1);
+        auto var3 = std::shared_ptr&lt;Foo&gt;(var1);
+</pre></li>
+</ul>
+</li>
+<li>Constructor from raw pointer<ul>
+<li>OLD: <pre class="fragment">        Foo* my_pointer;
+        ChSharedPtr&lt;Foo&gt; my_var(my_pointer);
+</pre></li>
+<li>NEW: <pre class="fragment">        Foo* my_pointer;
+        std::shared_ptr&lt;Foo&gt; my_var(my_pointer);
+</pre></li>
+</ul>
+</li>
+<li>Casting<ul>
+<li>OLD: <pre class="fragment">        ChSharedPtr&lt;Base&gt;  var1;
+        ChSharedPtr&lt;Derived&gt; var2 = var1.DynamicCastTo&lt;Derived&gt;();
+        ChSharedPtr&lt;Derived&gt; var3 = var1.StaticCastTo&lt;Derived&gt;();
+</pre></li>
+<li>NEW: <pre class="fragment">        std::shared_ptr&lt;Base&gt; var1;
+        auto var2 = std::dynamic_pointer_cast&lt;Derived&gt;(var1);
+        auto var3 = std::static_pointer_cast &lt;Derived&gt;(var1);
+</pre></li>
+</ul>
+</li>
+<li>Access to the wrapped pointer<ul>
+<li>OLD: <pre class="fragment">        ChSharedPtr&lt;Foo&gt; my_var;
+        Foo* my_pointer = my_var.get_ptr();
+</pre></li>
+<li>NEW: <pre class="fragment">        std::shared_ptr&lt;Foo&gt; my_var;
+        Foo* my_pointer = my_var.get();
+</pre></li>
+</ul>
+</li>
+<li>Testing for NULL (empty) shared pointer, e.g. in an assert or a conditional<ul>
+<li>OLD: <pre class="fragment">        ChSharedPtr&lt;Foo&gt; my_var;
+        assert(!my_var.IsNull());
+</pre></li>
+<li>NEW: <pre class="fragment">        std::shared_ptr&lt;Foo&gt; my_var;
+        assert(!my_var);
+</pre></li>
+</ul>
+</li>
+<li>Testing for the type should be done explicitly with dynamic_pointer_cast<ul>
+<li>OLD: <pre class="fragment">        ChSharedPtr&lt;Bar&gt; my_var;
+        if (my_var.IsType&lt;Foo&gt;()) {
+                ....
+        }
+</pre></li>
+<li>NEW: <pre class="fragment">        std::shared_ptr&lt;Bar&gt; my_var;
+        if (std::dynamic_pointer_cast&lt;Foo&gt;(my_var)) {
+                ...
+        }</pre> </li>
+</ul>
+</li>
+</ul>
+</div></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:10 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

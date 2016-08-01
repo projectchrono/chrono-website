@@ -1,0 +1,396 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::fea::ChBeamSectionBasic Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1fea.html">fea</a></li><li class="navelem"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html">ChBeamSectionBasic</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="classchrono_1_1fea_1_1_ch_beam_section_basic-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::fea::ChBeamSectionBasic Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Basic geometry for a beam section in 3D, along with basic material properties (zz and yy moments of inertia, area, Young modulus, etc.) This material can be shared between multiple beams. </p>
+</div>
+<p><code>#include &lt;ChBeamSection.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::fea::ChBeamSectionBasic:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_beam_section_basic__inherit__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_beam_section_basic_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_beam_section_basic_inherit__map" id="chrono_1_1fea_1_1_ch_beam_section_basic_inherit__map">
+<area shape="rect" id="node3" href="classchrono_1_1fea_1_1_ch_beam_section_advanced.html" title="Geometry for a beam section in 3D, along with basic material properties. " alt="" coords="5,169,196,211"/>
+<area shape="rect" id="node2" href="classchrono_1_1fea_1_1_ch_beam_section.html" title="Base class for properties of beam sections. " alt="" coords="5,5,196,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::fea::ChBeamSectionBasic:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_beam_section_basic__coll__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_beam_section_basic_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_beam_section_basic_coll__map" id="chrono_1_1fea_1_1_ch_beam_section_basic_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1fea_1_1_ch_beam_section.html" title="Base class for properties of beam sections. " alt="" coords="5,5,196,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a1e28d264f1958dbc4aad1476ca2a4191"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1e28d264f1958dbc4aad1476ca2a4191"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#a1e28d264f1958dbc4aad1476ca2a4191">SetArea</a> (const double ma)</td></tr>
+<tr class="memdesc:a1e28d264f1958dbc4aad1476ca2a4191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the cross sectional area A of the beam (m^2) <br /></td></tr>
+<tr class="separator:a1e28d264f1958dbc4aad1476ca2a4191"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a725af1314f922e2973d3ebcf2643954c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a725af1314f922e2973d3ebcf2643954c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetArea</b> () const </td></tr>
+<tr class="separator:a725af1314f922e2973d3ebcf2643954c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a355e71f3de4855429d3f547f84eebeb3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a355e71f3de4855429d3f547f84eebeb3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#a355e71f3de4855429d3f547f84eebeb3">SetIyy</a> (double ma)</td></tr>
+<tr class="memdesc:a355e71f3de4855429d3f547f84eebeb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Iyy moment of inertia of the beam (for flexion about y axis) Note: some textbook calls this Iyy as Iz. <br /></td></tr>
+<tr class="separator:a355e71f3de4855429d3f547f84eebeb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d92112bf144a27481f1006f7100e54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53d92112bf144a27481f1006f7100e54"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetIyy</b> () const </td></tr>
+<tr class="separator:a53d92112bf144a27481f1006f7100e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac07a573376beab29012f883ae3cf1a42"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac07a573376beab29012f883ae3cf1a42"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#ac07a573376beab29012f883ae3cf1a42">SetIzz</a> (double ma)</td></tr>
+<tr class="memdesc:ac07a573376beab29012f883ae3cf1a42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Izz moment of inertia of the beam (for flexion about z axis) Note: some textbook calls this Izz as Iy. <br /></td></tr>
+<tr class="separator:ac07a573376beab29012f883ae3cf1a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7e054cad8e009e35d5c5a0913312c6f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab7e054cad8e009e35d5c5a0913312c6f"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetIzz</b> () const </td></tr>
+<tr class="separator:ab7e054cad8e009e35d5c5a0913312c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41ddeb6ff9bba246f2fdb3b2e552e264"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a41ddeb6ff9bba246f2fdb3b2e552e264"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#a41ddeb6ff9bba246f2fdb3b2e552e264">SetJ</a> (double ma)</td></tr>
+<tr class="memdesc:a41ddeb6ff9bba246f2fdb3b2e552e264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the J torsion constant of the beam (for torsion about x axis) <br /></td></tr>
+<tr class="separator:a41ddeb6ff9bba246f2fdb3b2e552e264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1abff77f34421d7d2b717bca72549a11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1abff77f34421d7d2b717bca72549a11"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetJ</b> () const </td></tr>
+<tr class="separator:a1abff77f34421d7d2b717bca72549a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b369eda060cdbd4fd3e07df46377348"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#a3b369eda060cdbd4fd3e07df46377348">SetKsy</a> (double ma)</td></tr>
+<tr class="memdesc:a3b369eda060cdbd4fd3e07df46377348"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Timoshenko shear coefficient Ks for y shear, usually about 0.8, (for elements that use this, ex.  <a href="#a3b369eda060cdbd4fd3e07df46377348">More...</a><br /></td></tr>
+<tr class="separator:a3b369eda060cdbd4fd3e07df46377348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1677fd128eb15a5328ea6cb18f5df46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1677fd128eb15a5328ea6cb18f5df46"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetKsy</b> () const </td></tr>
+<tr class="separator:ab1677fd128eb15a5328ea6cb18f5df46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25422f5d194516b55b129fe77ccf3c9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#a25422f5d194516b55b129fe77ccf3c9a">SetKsz</a> (double ma)</td></tr>
+<tr class="memdesc:a25422f5d194516b55b129fe77ccf3c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Timoshenko shear coefficient Ks for z shear, usually about 0.8, (for elements that use this, ex.  <a href="#a25422f5d194516b55b129fe77ccf3c9a">More...</a><br /></td></tr>
+<tr class="separator:a25422f5d194516b55b129fe77ccf3c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f5abde8ef891a2fdbbd223a6f1f865"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a73f5abde8ef891a2fdbbd223a6f1f865"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetKsz</b> () const </td></tr>
+<tr class="separator:a73f5abde8ef891a2fdbbd223a6f1f865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac155e2149c784a7bfe674a5c73da0b95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#ac155e2149c784a7bfe674a5c73da0b95">SetAsRectangularSection</a> (double width_y, double width_z)</td></tr>
+<tr class="memdesc:ac155e2149c784a7bfe674a5c73da0b95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut: set Area, Ixx, Iyy, Ksy, Ksz and J torsion constant at once, given the y and z widths of the beam assumed with rectangular shape.  <a href="#ac155e2149c784a7bfe674a5c73da0b95">More...</a><br /></td></tr>
+<tr class="separator:ac155e2149c784a7bfe674a5c73da0b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10b7f3597c86bd12238e3f9707c27503"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#a10b7f3597c86bd12238e3f9707c27503">SetAsCircularSection</a> (double diameter)</td></tr>
+<tr class="memdesc:a10b7f3597c86bd12238e3f9707c27503"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut: set Area, Ixx, Iyy, Ksy, Ksz and J torsion constant at once, given the diameter of the beam assumed with circular shape.  <a href="#a10b7f3597c86bd12238e3f9707c27503">More...</a><br /></td></tr>
+<tr class="separator:a10b7f3597c86bd12238e3f9707c27503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a477a6405f076d6de81a41fbbb590918a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a477a6405f076d6de81a41fbbb590918a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#a477a6405f076d6de81a41fbbb590918a">SetDensity</a> (double md)</td></tr>
+<tr class="memdesc:a477a6405f076d6de81a41fbbb590918a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the density of the beam (kg/m^3) <br /></td></tr>
+<tr class="separator:a477a6405f076d6de81a41fbbb590918a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f377521b8761bdb83f25ff6732707cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f377521b8761bdb83f25ff6732707cb"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetDensity</b> () const </td></tr>
+<tr class="separator:a5f377521b8761bdb83f25ff6732707cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2baeb5d04f9eb312baef9bd4d0cb4c97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2baeb5d04f9eb312baef9bd4d0cb4c97"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#a2baeb5d04f9eb312baef9bd4d0cb4c97">SetYoungModulus</a> (double mE)</td></tr>
+<tr class="memdesc:a2baeb5d04f9eb312baef9bd4d0cb4c97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set E, the Young elastic modulus (N/m^2) <br /></td></tr>
+<tr class="separator:a2baeb5d04f9eb312baef9bd4d0cb4c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2eea92c4b35a7cb76be21070f28e58c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2eea92c4b35a7cb76be21070f28e58c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetYoungModulus</b> () const </td></tr>
+<tr class="separator:ab2eea92c4b35a7cb76be21070f28e58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3ca6103e42ba8a5a8ffe5c08ecb4cfc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae3ca6103e42ba8a5a8ffe5c08ecb4cfc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#ae3ca6103e42ba8a5a8ffe5c08ecb4cfc">SetGshearModulus</a> (double mG)</td></tr>
+<tr class="memdesc:ae3ca6103e42ba8a5a8ffe5c08ecb4cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set G, the shear modulus. <br /></td></tr>
+<tr class="separator:ae3ca6103e42ba8a5a8ffe5c08ecb4cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef5562340b70aba35215a571146ba173"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef5562340b70aba35215a571146ba173"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetGshearModulus</b> () const </td></tr>
+<tr class="separator:aef5562340b70aba35215a571146ba173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31858069c74680352e2b7b9ce4d16dbe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31858069c74680352e2b7b9ce4d16dbe"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#a31858069c74680352e2b7b9ce4d16dbe">SetGwithPoissonRatio</a> (double mpoisson)</td></tr>
+<tr class="memdesc:a31858069c74680352e2b7b9ce4d16dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set G, the shear modulus, given current E and the specified Poisson ratio. <br /></td></tr>
+<tr class="separator:a31858069c74680352e2b7b9ce4d16dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63d42b743a4f214b578dbeb42776b5d8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63d42b743a4f214b578dbeb42776b5d8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#a63d42b743a4f214b578dbeb42776b5d8">SetBeamRaleyghDamping</a> (double mr)</td></tr>
+<tr class="memdesc:a63d42b743a4f214b578dbeb42776b5d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Raleygh damping ratio r (as in: R = r * K ), to do: also mass-proportional term. <br /></td></tr>
+<tr class="separator:a63d42b743a4f214b578dbeb42776b5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae54d70bcc2b476492d5a176efaf0dcd8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae54d70bcc2b476492d5a176efaf0dcd8"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetBeamRaleyghDamping</b> ()</td></tr>
+<tr class="separator:ae54d70bcc2b476492d5a176efaf0dcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1fea_1_1_ch_beam_section')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_beam_section.html">chrono::fea::ChBeamSection</a></td></tr>
+<tr class="memitem:a99f574d550a69737cc36e319ed1d5e4e inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99f574d550a69737cc36e319ed1d5e4e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section.html#a99f574d550a69737cc36e319ed1d5e4e">SetDrawThickness</a> (double thickness_y, double thickness_z)</td></tr>
+<tr class="memdesc:a99f574d550a69737cc36e319ed1d5e4e inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rectangular thickness of the beam on y and z directions, only for drawing/rendering purposes (these thickenss values do NOT have any meaning at a physical level, use <a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#ac155e2149c784a7bfe674a5c73da0b95" title="Shortcut: set Area, Ixx, Iyy, Ksy, Ksz and J torsion constant at once, given the y and z widths of th...">ChBeamSectionBasic::SetAsRectangularSection()</a> <br /></td></tr>
+<tr class="separator:a99f574d550a69737cc36e319ed1d5e4e inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af581f467339543358b56b04df209198c inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af581f467339543358b56b04df209198c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetDrawThicknessY</b> ()</td></tr>
+<tr class="separator:af581f467339543358b56b04df209198c inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b0505b5a68bb1a2ad17d447b4ca4456 inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b0505b5a68bb1a2ad17d447b4ca4456"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetDrawThicknessZ</b> ()</td></tr>
+<tr class="separator:a4b0505b5a68bb1a2ad17d447b4ca4456 inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a322d0624a1b33524e93d3604938a7e3c inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a322d0624a1b33524e93d3604938a7e3c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section.html#a322d0624a1b33524e93d3604938a7e3c">IsCircular</a> ()</td></tr>
+<tr class="memdesc:a322d0624a1b33524e93d3604938a7e3c inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells if the section must be drawn as a circular section instead than default rectangular. <br /></td></tr>
+<tr class="separator:a322d0624a1b33524e93d3604938a7e3c inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae173f05d8942f9c2e16c96217f1065a5 inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae173f05d8942f9c2e16c96217f1065a5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section.html#ae173f05d8942f9c2e16c96217f1065a5">SetCircular</a> (bool ic)</td></tr>
+<tr class="memdesc:ae173f05d8942f9c2e16c96217f1065a5 inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if the section must be drawn as a circular section instead than default rectangular. <br /></td></tr>
+<tr class="separator:ae173f05d8942f9c2e16c96217f1065a5 inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2973c5a7fe800a43da628fc4ebf7c13f inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2973c5a7fe800a43da628fc4ebf7c13f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_beam_section.html#a2973c5a7fe800a43da628fc4ebf7c13f">SetDrawCircularRadius</a> (double draw_rad)</td></tr>
+<tr class="memdesc:a2973c5a7fe800a43da628fc4ebf7c13f inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the radius of the beam if in 'circular section' draw mode, only for drawing/rendering purposes (this radius value do NOT have any meaning at a physical level, use <a class="el" href="classchrono_1_1fea_1_1_ch_beam_section_basic.html#a10b7f3597c86bd12238e3f9707c27503" title="Shortcut: set Area, Ixx, Iyy, Ksy, Ksz and J torsion constant at once, given the diameter of the beam...">ChBeamSectionBasic::SetAsCircularSection()</a> <br /></td></tr>
+<tr class="separator:a2973c5a7fe800a43da628fc4ebf7c13f inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed25524a15766871f8b8bca35dca18c9 inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aed25524a15766871f8b8bca35dca18c9"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetDrawCircularRadius</b> ()</td></tr>
+<tr class="separator:aed25524a15766871f8b8bca35dca18c9 inherit pub_methods_classchrono_1_1fea_1_1_ch_beam_section"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a6e144e2222f08433a39879dc6c512f6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e144e2222f08433a39879dc6c512f6d"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Area</b></td></tr>
+<tr class="separator:a6e144e2222f08433a39879dc6c512f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e19fc35cae82783f54d340d9ab57e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66e19fc35cae82783f54d340d9ab57e1"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Iyy</b></td></tr>
+<tr class="separator:a66e19fc35cae82783f54d340d9ab57e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c052e3b2684f546ee5306a5361b79e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c052e3b2684f546ee5306a5361b79e1"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Izz</b></td></tr>
+<tr class="separator:a0c052e3b2684f546ee5306a5361b79e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad267b240a2561dfd860135bd86f3365f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad267b240a2561dfd860135bd86f3365f"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>J</b></td></tr>
+<tr class="separator:ad267b240a2561dfd860135bd86f3365f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2e9502b84f66a722d55e8ffb64eaa79"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac2e9502b84f66a722d55e8ffb64eaa79"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>G</b></td></tr>
+<tr class="separator:ac2e9502b84f66a722d55e8ffb64eaa79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21589730fb90c8181e47afff11232f47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21589730fb90c8181e47afff11232f47"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>E</b></td></tr>
+<tr class="separator:a21589730fb90c8181e47afff11232f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ca2422c784f1754479301f26577cac5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ca2422c784f1754479301f26577cac5"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>density</b></td></tr>
+<tr class="separator:a2ca2422c784f1754479301f26577cac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac427d185899c786ecd5fecf8122e814d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac427d185899c786ecd5fecf8122e814d"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>rdamping</b></td></tr>
+<tr class="separator:ac427d185899c786ecd5fecf8122e814d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80b25441d550a67afb64cf1c0b20e9fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80b25441d550a67afb64cf1c0b20e9fc"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Ks_y</b></td></tr>
+<tr class="separator:a80b25441d550a67afb64cf1c0b20e9fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1613e509a02c15dca87bbb1996a8e4e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1613e509a02c15dca87bbb1996a8e4e"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Ks_z</b></td></tr>
+<tr class="separator:af1613e509a02c15dca87bbb1996a8e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classchrono_1_1fea_1_1_ch_beam_section"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classchrono_1_1fea_1_1_ch_beam_section')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_beam_section.html">chrono::fea::ChBeamSection</a></td></tr>
+<tr class="memitem:a862ef93ce2bae661bdcb20d66ce5cd1a inherit pub_attribs_classchrono_1_1fea_1_1_ch_beam_section"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a862ef93ce2bae661bdcb20d66ce5cd1a"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>y_drawsize</b></td></tr>
+<tr class="separator:a862ef93ce2bae661bdcb20d66ce5cd1a inherit pub_attribs_classchrono_1_1fea_1_1_ch_beam_section"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a461264b713f96a36f76c5b23c5cf8981 inherit pub_attribs_classchrono_1_1fea_1_1_ch_beam_section"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a461264b713f96a36f76c5b23c5cf8981"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>z_drawsize</b></td></tr>
+<tr class="separator:a461264b713f96a36f76c5b23c5cf8981 inherit pub_attribs_classchrono_1_1fea_1_1_ch_beam_section"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9fa9fdec08406496c9220c14ea62d3b inherit pub_attribs_classchrono_1_1fea_1_1_ch_beam_section"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9fa9fdec08406496c9220c14ea62d3b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_circular</b></td></tr>
+<tr class="separator:ac9fa9fdec08406496c9220c14ea62d3b inherit pub_attribs_classchrono_1_1fea_1_1_ch_beam_section"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a10b7f3597c86bd12238e3f9707c27503"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChBeamSectionBasic::SetAsCircularSection </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>diameter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Shortcut: set Area, Ixx, Iyy, Ksy, Ksz and J torsion constant at once, given the diameter of the beam assumed with circular shape. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac155e2149c784a7bfe674a5c73da0b95"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChBeamSectionBasic::SetAsRectangularSection </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>width_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>width_z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Shortcut: set Area, Ixx, Iyy, Ksy, Ksz and J torsion constant at once, given the y and z widths of the beam assumed with rectangular shape. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3b369eda060cdbd4fd3e07df46377348"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChBeamSectionBasic::SetKsy </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Timoshenko shear coefficient Ks for y shear, usually about 0.8, (for elements that use this, ex. </p>
+<p>the Timoshenko beams, or Reddy's beams) </p>
+
+</div>
+</div>
+<a class="anchor" id="a25422f5d194516b55b129fe77ccf3c9a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChBeamSectionBasic::SetKsz </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Timoshenko shear coefficient Ks for z shear, usually about 0.8, (for elements that use this, ex. </p>
+<p>the Timoshenko beams, or Reddy's beams) </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:20 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

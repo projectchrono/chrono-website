@@ -1,0 +1,13 @@
+<map id="chrono::ChBodyAuxRef" name="chrono::ChBodyAuxRef">
+<area shape="rect" id="node10" href="$classchrono_1_1cascade_1_1_ch_body_easy_cascade.html" title="Easy&#45;to&#45;use class for quick creation of rigid bodies with a OpenCASCADE shape. " alt="" coords="1043,5,1245,47"/>
+<area shape="rect" id="node11" href="$classchrono_1_1_ch_body_easy_convex_hull_aux_ref.html" title="Easy&#45;to&#45;use class for quick creation of rigid bodies with a convex hull shape, that has a REF csys di..." alt="" coords="1049,71,1239,112"/>
+<area shape="rect" id="node12" href="$classchrono_1_1_ch_body_easy_mesh.html" title="Easy&#45;to&#45;use class for quick creation of rigid bodies with a triangle mesh shape, that has a REF csys ..." alt="" coords="1055,137,1233,163"/>
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_body.html" title="Class for rigid bodies. " alt="" coords="671,78,787,105"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="458,23,617,50"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="268,19,375,46"/>
+<area shape="rect" id="node5" href="$classchrono_1_1_ch_body_frame.html" title="Class for objects that represent moving frames in space and that contain ChVariables proxies to the s..." alt="" coords="461,78,614,105"/>
+<area shape="rect" id="node6" href="$classchrono_1_1_ch_frame_moving.html" title="chrono::ChFrameMoving\l\&lt; double \&gt;" alt="" coords="239,71,404,112"/>
+<area shape="rect" id="node7" href="$classchrono_1_1_ch_frame.html" title="chrono::ChFrame\&lt; double \&gt;" alt="" coords="5,78,191,105"/>
+<area shape="rect" id="node8" href="$classchrono_1_1_ch_loadable_u_v_w.html" title="Interface for objects that can be subject to volume loads, distributed along UVW coordinates of the o..." alt="" coords="452,133,623,159"/>
+<area shape="rect" id="node9" href="$classchrono_1_1_ch_loadable.html" title="Interface for objects that can be subject to loads (forces) Forces can be distributed on UV surfaces..." alt="" coords="252,137,391,163"/>
+</map>

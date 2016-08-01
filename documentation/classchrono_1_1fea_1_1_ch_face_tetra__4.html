@@ -1,0 +1,393 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::fea::ChFaceTetra_4 Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1fea.html">fea</a></li><li class="navelem"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html">ChFaceTetra_4</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1fea_1_1_ch_face_tetra__4-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::fea::ChFaceTetra_4 Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Face of a linear <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4.html" title="Tetahedron FEA element with 4 nodes. ">ChElementTetra_4</a> tetrahedron. </p>
+<p>This is a proxy to the tetrahedron. It can be used to apply pressure loads. Note, face_id is the number of the vertex to whom it is opposed: 0,1,2,3. Corner nodes, obtainable with GetNodeN(), are in counterclockwise order seen from the outside. </p>
+</div>
+<p><code>#include &lt;ChFaceTetra_4.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::fea::ChFaceTetra_4:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_face_tetra__4__inherit__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_face_tetra__4_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_face_tetra__4_inherit__map" id="chrono_1_1fea_1_1_ch_face_tetra__4_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_loadable_u_v.html" title="Interface for objects that can be subject to area loads, distributed along UV coordinates of the obje..." alt="" coords="19,80,177,107"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_loadable.html" title="Interface for objects that can be subject to loads (forces) Forces can be distributed on UV surfaces..." alt="" coords="29,5,167,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::fea::ChFaceTetra_4:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_face_tetra__4__coll__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_face_tetra__4_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_face_tetra__4_coll__map" id="chrono_1_1fea_1_1_ch_face_tetra__4_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_loadable_u_v.html" title="Interface for objects that can be subject to area loads, distributed along UV coordinates of the obje..." alt="" coords="19,80,177,107"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_loadable.html" title="Interface for objects that can be subject to loads (forces) Forces can be distributed on UV surfaces..." alt="" coords="29,5,167,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab4b300103d9c83fe4a2758de4e28b331"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab4b300103d9c83fe4a2758de4e28b331"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChFaceTetra_4</b> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4.html">ChElementTetra_4</a> &gt; mel, char mid)</td></tr>
+<tr class="separator:ab4b300103d9c83fe4a2758de4e28b331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00facf780a8161058991468e0f341930"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00facf780a8161058991468e0f341930"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetNodeN</b> (int i)</td></tr>
+<tr class="separator:a00facf780a8161058991468e0f341930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d76c675c9d483df832621918b66255a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#a1d76c675c9d483df832621918b66255a">ShapeFunctions</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;N, double r, double s)</td></tr>
+<tr class="memdesc:a1d76c675c9d483df832621918b66255a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the N shape function matrix (1 row, 3 columns) with the.  <a href="#a1d76c675c9d483df832621918b66255a">More...</a><br /></td></tr>
+<tr class="separator:a1d76c675c9d483df832621918b66255a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c1d47130caf6cd0b6ac2e8d24147d68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3c1d47130caf6cd0b6ac2e8d24147d68"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#a3c1d47130caf6cd0b6ac2e8d24147d68">LoadableGet_ndof_x</a> ()</td></tr>
+<tr class="memdesc:a3c1d47130caf6cd0b6ac2e8d24147d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of DOFs affected by this element (position part) <br /></td></tr>
+<tr class="separator:a3c1d47130caf6cd0b6ac2e8d24147d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ee1cabac9de43b2aacb26a33d403e2f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ee1cabac9de43b2aacb26a33d403e2f"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#a8ee1cabac9de43b2aacb26a33d403e2f">LoadableGet_ndof_w</a> ()</td></tr>
+<tr class="memdesc:a8ee1cabac9de43b2aacb26a33d403e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of DOFs affected by this element (speed part) <br /></td></tr>
+<tr class="separator:a8ee1cabac9de43b2aacb26a33d403e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb0345eef7b41f2ce166a6f96fc90fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6fb0345eef7b41f2ce166a6f96fc90fe"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#a6fb0345eef7b41f2ce166a6f96fc90fe">LoadableGetStateBlock_x</a> (int block_offset, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;mD)</td></tr>
+<tr class="memdesc:a6fb0345eef7b41f2ce166a6f96fc90fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all the DOFs packed in a single vector (position part) <br /></td></tr>
+<tr class="separator:a6fb0345eef7b41f2ce166a6f96fc90fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae06c9657f06091aa4dfbeb79300cd391"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae06c9657f06091aa4dfbeb79300cd391"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#ae06c9657f06091aa4dfbeb79300cd391">LoadableGetStateBlock_w</a> (int block_offset, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;mD)</td></tr>
+<tr class="memdesc:ae06c9657f06091aa4dfbeb79300cd391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all the DOFs packed in a single vector (speed part) <br /></td></tr>
+<tr class="separator:ae06c9657f06091aa4dfbeb79300cd391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17d40c5093f1cb2e7beb8359c7f6c2d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a17d40c5093f1cb2e7beb8359c7f6c2d9"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#a17d40c5093f1cb2e7beb8359c7f6c2d9">Get_field_ncoords</a> ()</td></tr>
+<tr class="memdesc:a17d40c5093f1cb2e7beb8359c7f6c2d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of coordinates in the interpolated field: here the {x,y,z} displacement. <br /></td></tr>
+<tr class="separator:a17d40c5093f1cb2e7beb8359c7f6c2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77e472b71d0033c010f20f904ac4ef08"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77e472b71d0033c010f20f904ac4ef08"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#a77e472b71d0033c010f20f904ac4ef08">GetSubBlocks</a> ()</td></tr>
+<tr class="memdesc:a77e472b71d0033c010f20f904ac4ef08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell the number of DOFs blocks (ex. =1 for a body, =4 for a tetrahedron, etc.) <br /></td></tr>
+<tr class="separator:a77e472b71d0033c010f20f904ac4ef08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf66f78eaa9c89155b428af4eda8c43a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf66f78eaa9c89155b428af4eda8c43a"></a>
+virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#adf66f78eaa9c89155b428af4eda8c43a">GetSubBlockOffset</a> (int nblock)</td></tr>
+<tr class="memdesc:adf66f78eaa9c89155b428af4eda8c43a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the offset of the i-th sub-block of DOFs in global vector. <br /></td></tr>
+<tr class="separator:adf66f78eaa9c89155b428af4eda8c43a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae263fce883d403305f6e04accdfb83f9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae263fce883d403305f6e04accdfb83f9"></a>
+virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#ae263fce883d403305f6e04accdfb83f9">GetSubBlockSize</a> (int nblock)</td></tr>
+<tr class="memdesc:ae263fce883d403305f6e04accdfb83f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the i-th sub-block of DOFs in global vector. <br /></td></tr>
+<tr class="separator:ae263fce883d403305f6e04accdfb83f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc46bb60123ae9566674778d89d1e646"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc46bb60123ae9566674778d89d1e646"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#afc46bb60123ae9566674778d89d1e646">LoadableGetVariables</a> (std::vector&lt; <a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> * &gt; &amp;mvars)</td></tr>
+<tr class="memdesc:afc46bb60123ae9566674778d89d1e646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pointers to the contained <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a>, appending to the mvars vector. <br /></td></tr>
+<tr class="separator:afc46bb60123ae9566674778d89d1e646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f0dd6b316e05c8b699259a89dfd69e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#a8f0dd6b316e05c8b699259a89dfd69e6">ComputeNF</a> (const double U, const double V, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;Qi, double &amp;detJ, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;F, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; *state_x, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; *state_w)</td></tr>
+<tr class="memdesc:a8f0dd6b316e05c8b699259a89dfd69e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate N'*F , where N is some type of shape function evaluated at U,V coordinates of the surface, each ranging in 0..+1 F is a load, N'*F is the resulting generalized load Returns also det[J] with J=[dx/du,..], that might be useful in gauss quadrature.  <a href="#a8f0dd6b316e05c8b699259a89dfd69e6">More...</a><br /></td></tr>
+<tr class="separator:a8f0dd6b316e05c8b699259a89dfd69e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05cb7782ed944a4cbb2bcc743662e665"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a05cb7782ed944a4cbb2bcc743662e665"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#a05cb7782ed944a4cbb2bcc743662e665">IsTriangleIntegrationNeeded</a> ()</td></tr>
+<tr class="memdesc:a05cb7782ed944a4cbb2bcc743662e665"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, use quadrature over u,v in [0..1] range as triangle volumetric coords. <br /></td></tr>
+<tr class="separator:a05cb7782ed944a4cbb2bcc743662e665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8059079ea94c35765e5f357e7c39e9c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_face_tetra__4.html#ac8059079ea94c35765e5f357e7c39e9c">ComputeNormal</a> (const double U, const double V)</td></tr>
+<tr class="memdesc:ac8059079ea94c35765e5f357e7c39e9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the normal to the surface at the parametric coordinate u,v.  <a href="#ac8059079ea94c35765e5f357e7c39e9c">More...</a><br /></td></tr>
+<tr class="separator:ac8059079ea94c35765e5f357e7c39e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a9ab1bcf31729cfc4b52ebc4b6a38cbfc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ab1bcf31729cfc4b52ebc4b6a38cbfc"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>face_id</b></td></tr>
+<tr class="separator:a9ab1bcf31729cfc4b52ebc4b6a38cbfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5a95e302d841ad031eb6e7e44653471"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af5a95e302d841ad031eb6e7e44653471"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4.html">ChElementTetra_4</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>melement</b></td></tr>
+<tr class="separator:af5a95e302d841ad031eb6e7e44653471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a8f0dd6b316e05c8b699259a89dfd69e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChFaceTetra_4::ComputeNF </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>U</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>V</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>Qi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>detJ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>F</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; *&#160;</td>
+          <td class="paramname"><em>state_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; *&#160;</td>
+          <td class="paramname"><em>state_w</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Evaluate N'*F , where N is some type of shape function evaluated at U,V coordinates of the surface, each ranging in 0..+1 F is a load, N'*F is the resulting generalized load Returns also det[J] with J=[dx/du,..], that might be useful in gauss quadrature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">U</td><td>parametric coordinate in surface </td></tr>
+    <tr><td class="paramname">V</td><td>parametric coordinate in surface </td></tr>
+    <tr><td class="paramname">Qi</td><td>Return result of N'*F here, maybe with offset block_offset </td></tr>
+    <tr><td class="paramname">detJ</td><td>Return det[J] here </td></tr>
+    <tr><td class="paramname">F</td><td>Input F vector, size is = n.field coords. </td></tr>
+    <tr><td class="paramname">state_x</td><td>if != 0, update state (pos. part) to this, then evaluate Q </td></tr>
+    <tr><td class="paramname">state_w</td><td>if != 0, update state (speed part) to this, then evaluate Q </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_loadable_u_v.html#aaf730787e79fd3b661105d1336facaa1">chrono::ChLoadableUV</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac8059079ea94c35765e5f357e7c39e9c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> chrono::fea::ChFaceTetra_4::ComputeNormal </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>U</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>V</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the normal to the surface at the parametric coordinate u,v. </p>
+<p>Normal must be considered pointing outside in case the surface is a boundary to a volume. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_loadable_u_v.html#a1e2738616c1e361910dfb73c3a493024">chrono::ChLoadableUV</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d76c675c9d483df832621918b66255a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChFaceTetra_4::ShapeFunctions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fills the N shape function matrix (1 row, 3 columns) with the. </p>
+<p>values of shape functions at r,s 'area' coordinates, all ranging in [0...1]. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:21 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

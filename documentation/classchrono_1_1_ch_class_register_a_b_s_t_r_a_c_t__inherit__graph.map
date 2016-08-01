@@ -1,0 +1,4 @@
+<map id="chrono::ChClassRegisterABSTRACT&lt; t &gt;" name="chrono::ChClassRegisterABSTRACT&lt; t &gt;">
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_class_register.html" title="ChClassRegister&lt;t&gt; is responsable for registration of C++ classes at compile time (each class name ID..." alt="" coords="41,155,239,181"/>
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_class_register_common.html" title="ChClassRegisterCommon is a base abstract class which allows a common management of all template class..." alt="" coords="29,5,251,32"/>
+</map>

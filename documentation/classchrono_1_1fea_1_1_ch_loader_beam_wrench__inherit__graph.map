@@ -1,0 +1,5 @@
+<map id="chrono::fea::ChLoaderBeamWrench" name="chrono::fea::ChLoaderBeamWrench">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_loader_uatomic.html" title="Class of loaders for ChLoadableU objects (which support line loads) of atomic type, that is, with a concentrated load in a point Pu. " alt="" coords="11,155,185,181"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_loader_u.html" title="Class of loaders for ChLoadableU objects (which support line loads). " alt="" coords="31,80,165,107"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_loader.html" title="Class for loads applied to a single ChLoadable object. " alt="" coords="35,5,161,32"/>
+</map>

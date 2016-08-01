@@ -1,0 +1,1201 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChQuaternion&lt; Real &gt; Class Template Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="classchrono_1_1_ch_quaternion-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChQuaternion&lt; Real &gt; Class Template Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><h3>template&lt;class Real = double&gt;<br />
+class chrono::ChQuaternion&lt; Real &gt;</h3>
+
+<p>QUATERNION: </p>
+<p>Class defining quaternion objects, that is four-dimensional numbers, also known as Eulero's parameters. Quaternions are very handy when used to represent rotations in 3d.</p>
+<p>The quaternion object comes either with the template "ChQuaternion&lt;type&gt;" mode, either in the 'shortcut' flavour, that is "Quaternion", which assumes the type of the four scalars is double precision, so it is faster to type. For example, for a declaration, you can write "ChQuaternion&lt;double&gt; foo;", as well as "Quaternion foo;" (less typing effort for the second..)</p>
+<p>Further info at the <a class="el" href="coordinate_transformations.html#manual_ChQuaternion">Quaternions</a> manual page. </p>
+</div>
+<p><code>#include &lt;ChQuaternion.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a51de84338df8809ee9594b21cd07e60a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a51de84338df8809ee9594b21cd07e60a">ChQuaternion</a> ()</td></tr>
+<tr class="memdesc:a51de84338df8809ee9594b21cd07e60a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a51de84338df8809ee9594b21cd07e60a">More...</a><br /></td></tr>
+<tr class="separator:a51de84338df8809ee9594b21cd07e60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f3ecc18ba24cd5f1031ca1ea8c35c42"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f3ecc18ba24cd5f1031ca1ea8c35c42"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a9f3ecc18ba24cd5f1031ca1ea8c35c42">ChQuaternion</a> (const Real ne0, const Real ne1, const Real ne2, const Real ne3)</td></tr>
+<tr class="memdesc:a9f3ecc18ba24cd5f1031ca1ea8c35c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from four scalars. The first is the real part, others are i,j,k imaginary parts. <br /></td></tr>
+<tr class="separator:a9f3ecc18ba24cd5f1031ca1ea8c35c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa20fc193296b6e9d92a1dc9f76e256"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6aa20fc193296b6e9d92a1dc9f76e256"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a6aa20fc193296b6e9d92a1dc9f76e256">ChQuaternion</a> (const Real ns, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; nv)</td></tr>
+<tr class="memdesc:a6aa20fc193296b6e9d92a1dc9f76e256"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from real part, and vector with i,j,k imaginary part. <br /></td></tr>
+<tr class="separator:a6aa20fc193296b6e9d92a1dc9f76e256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa06923156b8726a7b00744757eaaf01"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa06923156b8726a7b00744757eaaf01"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aaa06923156b8726a7b00744757eaaf01">ChQuaternion</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other)</td></tr>
+<tr class="memdesc:aaa06923156b8726a7b00744757eaaf01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. <br /></td></tr>
+<tr class="separator:aaa06923156b8726a7b00744757eaaf01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04040680a9c2ed69812a9f6b900b495f"><td class="memTemplParams" colspan="2"><a class="anchor" id="a04040680a9c2ed69812a9f6b900b495f"></a>
+template&lt;class RealB &gt; </td></tr>
+<tr class="memitem:a04040680a9c2ed69812a9f6b900b495f"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a04040680a9c2ed69812a9f6b900b495f">ChQuaternion</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; RealB &gt; &amp;other)</td></tr>
+<tr class="memdesc:a04040680a9c2ed69812a9f6b900b495f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor between vectors float&lt;-&gt;double etc. <br /></td></tr>
+<tr class="separator:a04040680a9c2ed69812a9f6b900b495f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f1014a8b18edddf80a01d80e51ae1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15f1014a8b18edddf80a01d80e51ae1e"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a15f1014a8b18edddf80a01d80e51ae1e">operator=</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other)</td></tr>
+<tr class="memdesc:a15f1014a8b18edddf80a01d80e51ae1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator: copy from another quaternion. <br /></td></tr>
+<tr class="separator:a15f1014a8b18edddf80a01d80e51ae1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab19c792ff1326efff75a91676be88d77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab19c792ff1326efff75a91676be88d77"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#ab19c792ff1326efff75a91676be88d77">operator-</a> () const </td></tr>
+<tr class="memdesc:ab19c792ff1326efff75a91676be88d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for sign change. <br /></td></tr>
+<tr class="separator:ab19c792ff1326efff75a91676be88d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6d68b2a50fcff259881450d711ad6dc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6d68b2a50fcff259881450d711ad6dc"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#ad6d68b2a50fcff259881450d711ad6dc">operator!</a> () const </td></tr>
+<tr class="memdesc:ad6d68b2a50fcff259881450d711ad6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for making a conjugate quaternion (the original is not changed) A conjugate quaternion has the vectorial part with changed sign. <br /></td></tr>
+<tr class="separator:ad6d68b2a50fcff259881450d711ad6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a242f76ca0deba7fb393f346899855b97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a242f76ca0deba7fb393f346899855b97"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a242f76ca0deba7fb393f346899855b97">operator+</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other) const </td></tr>
+<tr class="memdesc:a242f76ca0deba7fb393f346899855b97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for quaternion sum. <br /></td></tr>
+<tr class="separator:a242f76ca0deba7fb393f346899855b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24538fb9ed9637a2f5b6f658abb7dcee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a24538fb9ed9637a2f5b6f658abb7dcee"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator+=</b> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other)</td></tr>
+<tr class="separator:a24538fb9ed9637a2f5b6f658abb7dcee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2c674c25917b47e19439f0ea6687833"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2c674c25917b47e19439f0ea6687833"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#ae2c674c25917b47e19439f0ea6687833">operator-</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other) const </td></tr>
+<tr class="memdesc:ae2c674c25917b47e19439f0ea6687833"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for quaternion difference. <br /></td></tr>
+<tr class="separator:ae2c674c25917b47e19439f0ea6687833"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02f4b98d17a8ff247def77e0799dd239"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02f4b98d17a8ff247def77e0799dd239"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator-=</b> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other)</td></tr>
+<tr class="separator:a02f4b98d17a8ff247def77e0799dd239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19cf457dd93738d3b21fcde0d1ba7c8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a19cf457dd93738d3b21fcde0d1ba7c8a">operator*</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other) const </td></tr>
+<tr class="memdesc:a19cf457dd93738d3b21fcde0d1ba7c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">NOTE The following * and *= operators had a different behaviour prior to 13/9/2014, but we assume no one used * *= in that previous form (element-by-element product).  <a href="#a19cf457dd93738d3b21fcde0d1ba7c8a">More...</a><br /></td></tr>
+<tr class="separator:a19cf457dd93738d3b21fcde0d1ba7c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a087f6375b0a7142bfd1d50ccf356ee23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a087f6375b0a7142bfd1d50ccf356ee23">operator*=</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other)</td></tr>
+<tr class="memdesc:a087f6375b0a7142bfd1d50ccf356ee23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for quaternion product and assignment: A*=B means A'=A*B, with typical quaternion product.  <a href="#a087f6375b0a7142bfd1d50ccf356ee23">More...</a><br /></td></tr>
+<tr class="separator:a087f6375b0a7142bfd1d50ccf356ee23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d25848a1a9aa365d45defd544f76a7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a1d25848a1a9aa365d45defd544f76a7c">operator&gt;&gt;</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other) const </td></tr>
+<tr class="memdesc:a1d25848a1a9aa365d45defd544f76a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for 'specular' quaternion product: A&gt;&gt;B = B*A .  <a href="#a1d25848a1a9aa365d45defd544f76a7c">More...</a><br /></td></tr>
+<tr class="separator:a1d25848a1a9aa365d45defd544f76a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab003562461fb2febd5d4f33405c1dfcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#ab003562461fb2febd5d4f33405c1dfcb">operator&gt;&gt;=</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other)</td></tr>
+<tr class="memdesc:ab003562461fb2febd5d4f33405c1dfcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for quaternion 'specular' product and assignment: A&gt;&gt;=B means A'=A&gt;&gt;B, or A'=B*A with typical quaternion product.  <a href="#ab003562461fb2febd5d4f33405c1dfcb">More...</a><br /></td></tr>
+<tr class="separator:ab003562461fb2febd5d4f33405c1dfcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2ac9ea5898d75a9e7cccaf866139ca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4c2ac9ea5898d75a9e7cccaf866139ca"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>operator*</b> (const Real v) const </td></tr>
+<tr class="separator:a4c2ac9ea5898d75a9e7cccaf866139ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac09805398d68e5c8ce8ec69b0e8338a2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac09805398d68e5c8ce8ec69b0e8338a2"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator*=</b> (const Real v)</td></tr>
+<tr class="separator:ac09805398d68e5c8ce8ec69b0e8338a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee9d9f200106b276ad9c79eb71bfc455"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee9d9f200106b276ad9c79eb71bfc455"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aee9d9f200106b276ad9c79eb71bfc455">operator/</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other) const </td></tr>
+<tr class="memdesc:aee9d9f200106b276ad9c79eb71bfc455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for element-wise division (note that this is NOT the quaternion division operation!) <br /></td></tr>
+<tr class="separator:aee9d9f200106b276ad9c79eb71bfc455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bd3d3cdb36aff48a6849bff26287236"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bd3d3cdb36aff48a6849bff26287236"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator/=</b> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other)</td></tr>
+<tr class="separator:a0bd3d3cdb36aff48a6849bff26287236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c39c59ef899e9975370d6cb73d9f9ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3c39c59ef899e9975370d6cb73d9f9ee"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a3c39c59ef899e9975370d6cb73d9f9ee">operator/</a> (const Real v) const </td></tr>
+<tr class="memdesc:a3c39c59ef899e9975370d6cb73d9f9ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for scaling the quaternion by inverse of a scalar value, as q/s. <br /></td></tr>
+<tr class="separator:a3c39c59ef899e9975370d6cb73d9f9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cc3a808deb31a529a3cdcd5ef04d949"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6cc3a808deb31a529a3cdcd5ef04d949"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator/=</b> (const Real v)</td></tr>
+<tr class="separator:a6cc3a808deb31a529a3cdcd5ef04d949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af220adfc047837656777894a99177a87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#af220adfc047837656777894a99177a87">operator%</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other) const </td></tr>
+<tr class="memdesc:af220adfc047837656777894a99177a87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for quaternion product: AB means the typical quaternion product AxB Note: DEPRECATED, use the * operator instead.  <a href="#af220adfc047837656777894a99177a87">More...</a><br /></td></tr>
+<tr class="separator:af220adfc047837656777894a99177a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a706870393ecdc9c445e330d0015c8ad4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a706870393ecdc9c445e330d0015c8ad4"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a706870393ecdc9c445e330d0015c8ad4">operator%=</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other)</td></tr>
+<tr class="memdesc:a706870393ecdc9c445e330d0015c8ad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Note: DEPRECATED, use the *= operator instead. <br /></td></tr>
+<tr class="separator:a706870393ecdc9c445e330d0015c8ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a761783dd720e27b2384e3490c7184e56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a761783dd720e27b2384e3490c7184e56"></a>
+Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a761783dd720e27b2384e3490c7184e56">operator^</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other) const </td></tr>
+<tr class="memdesc:a761783dd720e27b2384e3490c7184e56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for dot product: A^B means the scalar dot-product A*B Note: pay attention to operator low precedence (see C++ precedence rules!) <br /></td></tr>
+<tr class="separator:a761783dd720e27b2384e3490c7184e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5405728df5047d67b20ccfc5fbddd388"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5405728df5047d67b20ccfc5fbddd388"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;=</b> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other) const </td></tr>
+<tr class="separator:a5405728df5047d67b20ccfc5fbddd388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aa5a2dbb4333b03e88120df546426bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1aa5a2dbb4333b03e88120df546426bd"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator&gt;=</b> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other) const </td></tr>
+<tr class="separator:a1aa5a2dbb4333b03e88120df546426bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eed84d3df4c1356c9eeeef43872085b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9eed84d3df4c1356c9eeeef43872085b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other) const </td></tr>
+<tr class="separator:a9eed84d3df4c1356c9eeeef43872085b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c742da8c607dcec6046d0c29cb9ede"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68c742da8c607dcec6046d0c29cb9ede"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other) const </td></tr>
+<tr class="separator:a68c742da8c607dcec6046d0c29cb9ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba5098038dd463ba2e34012735bd1c2e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba5098038dd463ba2e34012735bd1c2e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aba5098038dd463ba2e34012735bd1c2e">Set</a> (const Real ne0, const Real ne1, const Real ne2, const Real ne3)</td></tr>
+<tr class="memdesc:aba5098038dd463ba2e34012735bd1c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the four values of the quaternion at once. <br /></td></tr>
+<tr class="separator:aba5098038dd463ba2e34012735bd1c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48beb83fbf7ed400aeafb9288fd5a01f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48beb83fbf7ed400aeafb9288fd5a01f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a48beb83fbf7ed400aeafb9288fd5a01f">Set</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;n)</td></tr>
+<tr class="memdesc:a48beb83fbf7ed400aeafb9288fd5a01f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion as a copy of another quaternion. <br /></td></tr>
+<tr class="separator:a48beb83fbf7ed400aeafb9288fd5a01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82cb4951e9cdebfc3b2755a537fc438d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82cb4951e9cdebfc3b2755a537fc438d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a82cb4951e9cdebfc3b2755a537fc438d">Set</a> (const Real p)</td></tr>
+<tr class="memdesc:a82cb4951e9cdebfc3b2755a537fc438d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion with four components as a sample scalar. <br /></td></tr>
+<tr class="separator:a82cb4951e9cdebfc3b2755a537fc438d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4f8983d87851ca9468de243854036fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4f8983d87851ca9468de243854036fb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#ad4f8983d87851ca9468de243854036fb">SetNull</a> ()</td></tr>
+<tr class="memdesc:ad4f8983d87851ca9468de243854036fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion as a null quaternion. <br /></td></tr>
+<tr class="separator:ad4f8983d87851ca9468de243854036fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96605c3b1d6b41797f2fabc4d245e0f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a96605c3b1d6b41797f2fabc4d245e0f5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a96605c3b1d6b41797f2fabc4d245e0f5">SetUnit</a> ()</td></tr>
+<tr class="memdesc:a96605c3b1d6b41797f2fabc4d245e0f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion as a unit quaternion. <br /></td></tr>
+<tr class="separator:a96605c3b1d6b41797f2fabc4d245e0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3ad5229b22c2b56ec9a5cc039631649"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3ad5229b22c2b56ec9a5cc039631649"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#ad3ad5229b22c2b56ec9a5cc039631649">SetScalar</a> (const Real s)</td></tr>
+<tr class="memdesc:ad3ad5229b22c2b56ec9a5cc039631649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the scalar part only. <br /></td></tr>
+<tr class="separator:ad3ad5229b22c2b56ec9a5cc039631649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fb7e49b01b626c8e394139cd386a11e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3fb7e49b01b626c8e394139cd386a11e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a3fb7e49b01b626c8e394139cd386a11e">SetVector</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;mv)</td></tr>
+<tr class="memdesc:a3fb7e49b01b626c8e394139cd386a11e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the vectorial part only. <br /></td></tr>
+<tr class="separator:a3fb7e49b01b626c8e394139cd386a11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fd9e21741269cd5973058e7b22f52bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6fd9e21741269cd5973058e7b22f52bf"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a6fd9e21741269cd5973058e7b22f52bf">GetVector</a> ()</td></tr>
+<tr class="memdesc:a6fd9e21741269cd5973058e7b22f52bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the vectorial part only. <br /></td></tr>
+<tr class="separator:a6fd9e21741269cd5973058e7b22f52bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d94b1610c19294dd45058863c39d05"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad7d94b1610c19294dd45058863c39d05"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#ad7d94b1610c19294dd45058863c39d05">Equals</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other) const </td></tr>
+<tr class="memdesc:ad7d94b1610c19294dd45058863c39d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if quaternion is identical to other quaternion. <br /></td></tr>
+<tr class="separator:ad7d94b1610c19294dd45058863c39d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8168f2ff1899454f675f285550010ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8168f2ff1899454f675f285550010ee"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#ad8168f2ff1899454f675f285550010ee">Equals</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;other, Real tol) const </td></tr>
+<tr class="memdesc:ad8168f2ff1899454f675f285550010ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if quaternion equals another quaternion, within a tolerance 'tol'. <br /></td></tr>
+<tr class="separator:ad8168f2ff1899454f675f285550010ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3631f929e0e22c57e14cdfe306593ddc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3631f929e0e22c57e14cdfe306593ddc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a3631f929e0e22c57e14cdfe306593ddc">Add</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; A, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; B)</td></tr>
+<tr class="memdesc:a3631f929e0e22c57e14cdfe306593ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The quaternion becomes the sum of the two quaternions A and B: this=A+B. <br /></td></tr>
+<tr class="separator:a3631f929e0e22c57e14cdfe306593ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1af45e7c5e69503737b6d5df51decde"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1af45e7c5e69503737b6d5df51decde"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aa1af45e7c5e69503737b6d5df51decde">Sub</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; A, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; B)</td></tr>
+<tr class="memdesc:aa1af45e7c5e69503737b6d5df51decde"><td class="mdescLeft">&#160;</td><td class="mdescRight">The quaternion becomes the difference of the two quaternions A and B: this=A-B. <br /></td></tr>
+<tr class="separator:aa1af45e7c5e69503737b6d5df51decde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1491d9ce559f73ddb89c0d6be43dea3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a1491d9ce559f73ddb89c0d6be43dea3f">Cross</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; qa, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; qb)</td></tr>
+<tr class="memdesc:a1491d9ce559f73ddb89c0d6be43dea3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The quaternion becomes the quaternion product of the two quaternions A and B: following the classic Hamilton rule: this=AxB This is the true, typical quaternion product.  <a href="#a1491d9ce559f73ddb89c0d6be43dea3f">More...</a><br /></td></tr>
+<tr class="separator:a1491d9ce559f73ddb89c0d6be43dea3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a179b934f7bbf25618a798af81668c07b"><td class="memItemLeft" align="right" valign="top">Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a179b934f7bbf25618a798af81668c07b">Dot</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; A, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; B) const </td></tr>
+<tr class="memdesc:a179b934f7bbf25618a798af81668c07b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The result is dot product of the two quaternion A and B: result=A*B.  <a href="#a179b934f7bbf25618a798af81668c07b">More...</a><br /></td></tr>
+<tr class="separator:a179b934f7bbf25618a798af81668c07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affa428c6fd9bfb20223cce4a0b7cbfa1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="affa428c6fd9bfb20223cce4a0b7cbfa1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#affa428c6fd9bfb20223cce4a0b7cbfa1">Mul</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; A, const Real v)</td></tr>
+<tr class="memdesc:affa428c6fd9bfb20223cce4a0b7cbfa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The quaternion becomes the product of a quaternion A and a scalar v: this=A*v. <br /></td></tr>
+<tr class="separator:affa428c6fd9bfb20223cce4a0b7cbfa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e45881900c29c053751cd7bf1d9b146"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9e45881900c29c053751cd7bf1d9b146"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a9e45881900c29c053751cd7bf1d9b146">Scale</a> (const Real v)</td></tr>
+<tr class="memdesc:a9e45881900c29c053751cd7bf1d9b146"><td class="mdescLeft">&#160;</td><td class="mdescRight">The quaternion is multiplied by a scalar factor 's' this*=v. <br /></td></tr>
+<tr class="separator:a9e45881900c29c053751cd7bf1d9b146"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7accd30615b0168b65d552e1bfe5bcfb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7accd30615b0168b65d552e1bfe5bcfb"></a>
+Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a7accd30615b0168b65d552e1bfe5bcfb">Length</a> () const </td></tr>
+<tr class="memdesc:a7accd30615b0168b65d552e1bfe5bcfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the euclidean norm of the quaternion, that is its length or magnitude. <br /></td></tr>
+<tr class="separator:a7accd30615b0168b65d552e1bfe5bcfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a762f3eca93e2f041b1662e6e345ce932"><td class="memItemLeft" align="right" valign="top">Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a762f3eca93e2f041b1662e6e345ce932">Length2</a> () const </td></tr>
+<tr class="memdesc:a762f3eca93e2f041b1662e6e345ce932"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the euclidean norm of the quaternion, squared (i.e.  <a href="#a762f3eca93e2f041b1662e6e345ce932">More...</a><br /></td></tr>
+<tr class="separator:a762f3eca93e2f041b1662e6e345ce932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac8a6eadebd43994503e7cb9cd168263"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac8a6eadebd43994503e7cb9cd168263"></a>
+Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aac8a6eadebd43994503e7cb9cd168263">LengthInf</a> () const </td></tr>
+<tr class="memdesc:aac8a6eadebd43994503e7cb9cd168263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the infinite norm of the quaternion, that is the maximum absolute value of one of its elements. <br /></td></tr>
+<tr class="separator:aac8a6eadebd43994503e7cb9cd168263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cf5e8c1c0a575479be8eb512ab692af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a9cf5e8c1c0a575479be8eb512ab692af">Normalize</a> ()</td></tr>
+<tr class="memdesc:a9cf5e8c1c0a575479be8eb512ab692af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize this quaternion, so that its euclidean length is 1.  <a href="#a9cf5e8c1c0a575479be8eb512ab692af">More...</a><br /></td></tr>
+<tr class="separator:a9cf5e8c1c0a575479be8eb512ab692af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad14f3e8e374e2e1afae0ff06c636ab7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#ad14f3e8e374e2e1afae0ff06c636ab7c">GetNormalized</a> () const </td></tr>
+<tr class="memdesc:ad14f3e8e374e2e1afae0ff06c636ab7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a normalized copy of this quaternion, with euclidean length =1.  <a href="#ad14f3e8e374e2e1afae0ff06c636ab7c">More...</a><br /></td></tr>
+<tr class="separator:ad14f3e8e374e2e1afae0ff06c636ab7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acefd16a1701c73d21bb829bb04f0a9bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acefd16a1701c73d21bb829bb04f0a9bc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#acefd16a1701c73d21bb829bb04f0a9bc">Conjugate</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;A)</td></tr>
+<tr class="memdesc:acefd16a1701c73d21bb829bb04f0a9bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The quaternion is set as the conjugate of A quaternion. <br /></td></tr>
+<tr class="separator:acefd16a1701c73d21bb829bb04f0a9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f87083852dcd20f895d8a1c6f1ae735"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f87083852dcd20f895d8a1c6f1ae735"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a9f87083852dcd20f895d8a1c6f1ae735">Conjugate</a> ()</td></tr>
+<tr class="memdesc:a9f87083852dcd20f895d8a1c6f1ae735"><td class="mdescLeft">&#160;</td><td class="mdescRight">The quaternion itself is conjugated (its vectorial part changes sign) <br /></td></tr>
+<tr class="separator:a9f87083852dcd20f895d8a1c6f1ae735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af53c228da261660578b7396ef5f24b16"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af53c228da261660578b7396ef5f24b16"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#af53c228da261660578b7396ef5f24b16">GetConjugate</a> () const </td></tr>
+<tr class="memdesc:af53c228da261660578b7396ef5f24b16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a conjugated version of this quaternion. <br /></td></tr>
+<tr class="separator:af53c228da261660578b7396ef5f24b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619eb1736f56dd6e47b43edcb9b5a94d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a619eb1736f56dd6e47b43edcb9b5a94d"></a>
+<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a619eb1736f56dd6e47b43edcb9b5a94d">GetInverse</a> () const </td></tr>
+<tr class="memdesc:a619eb1736f56dd6e47b43edcb9b5a94d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the inverse of the quaternion. <br /></td></tr>
+<tr class="separator:a619eb1736f56dd6e47b43edcb9b5a94d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23cbc266678a0212d1139847b409b60f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a23cbc266678a0212d1139847b409b60f">Rotate</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; A) const </td></tr>
+<tr class="memdesc:a23cbc266678a0212d1139847b409b60f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates the vector A on the basis of this quaternion: res=p*[0,A]*p' (speed-optimized version).  <a href="#a23cbc266678a0212d1139847b409b60f">More...</a><br /></td></tr>
+<tr class="separator:a23cbc266678a0212d1139847b409b60f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4a0702cecc00a44b6d0bc1fc794ca42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aa4a0702cecc00a44b6d0bc1fc794ca42">RotateBack</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; A) const </td></tr>
+<tr class="memdesc:aa4a0702cecc00a44b6d0bc1fc794ca42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates the vector A on the basis of conjugate of this quaternion: res=p'*[0,A]*p (speed-optimized version).  <a href="#aa4a0702cecc00a44b6d0bc1fc794ca42">More...</a><br /></td></tr>
+<tr class="separator:aa4a0702cecc00a44b6d0bc1fc794ca42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaeb382b8e0783068797f2d8b87acf2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aeaeb382b8e0783068797f2d8b87acf2c">Q_from_Rotv</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;angle_axis)</td></tr>
+<tr class="memdesc:aeaeb382b8e0783068797f2d8b87acf2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion from a rotation vector (ie.  <a href="#aeaeb382b8e0783068797f2d8b87acf2c">More...</a><br /></td></tr>
+<tr class="separator:aeaeb382b8e0783068797f2d8b87acf2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad1a948d7d67ba7055868599b02c78e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aad1a948d7d67ba7055868599b02c78e8">Q_to_Rotv</a> ()</td></tr>
+<tr class="memdesc:aad1a948d7d67ba7055868599b02c78e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rotation vector (ie.  <a href="#aad1a948d7d67ba7055868599b02c78e8">More...</a><br /></td></tr>
+<tr class="separator:aad1a948d7d67ba7055868599b02c78e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee8c97aac91a7c1f9bf3b62cea5bdcc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aee8c97aac91a7c1f9bf3b62cea5bdcc2">Q_from_AngAxis</a> (const Real angle, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;axis)</td></tr>
+<tr class="memdesc:aee8c97aac91a7c1f9bf3b62cea5bdcc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion from an agle of rotation and an axis, defined in <em>absolute</em> coords.  <a href="#aee8c97aac91a7c1f9bf3b62cea5bdcc2">More...</a><br /></td></tr>
+<tr class="separator:aee8c97aac91a7c1f9bf3b62cea5bdcc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af45245cf328138fb27097cf01300a86b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af45245cf328138fb27097cf01300a86b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#af45245cf328138fb27097cf01300a86b">Q_from_AngX</a> (const Real angleX)</td></tr>
+<tr class="memdesc:af45245cf328138fb27097cf01300a86b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion from an agle of rotation about X axis. <br /></td></tr>
+<tr class="separator:af45245cf328138fb27097cf01300a86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa687e3abe7fec54d434ab68c8f4d169e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa687e3abe7fec54d434ab68c8f4d169e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aa687e3abe7fec54d434ab68c8f4d169e">Q_from_AngY</a> (const Real angleY)</td></tr>
+<tr class="memdesc:aa687e3abe7fec54d434ab68c8f4d169e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion from an agle of rotation about Y axis. <br /></td></tr>
+<tr class="separator:aa687e3abe7fec54d434ab68c8f4d169e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f6001a4406a31346a150777547c6ad3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f6001a4406a31346a150777547c6ad3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a8f6001a4406a31346a150777547c6ad3">Q_from_AngZ</a> (const Real angleZ)</td></tr>
+<tr class="memdesc:a8f6001a4406a31346a150777547c6ad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion from an agle of rotation about Z axis. <br /></td></tr>
+<tr class="separator:a8f6001a4406a31346a150777547c6ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0f231359c355138414273fe80bc2569"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#ac0f231359c355138414273fe80bc2569">Q_to_AngAxis</a> (Real &amp;a_angle, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;a_axis) const </td></tr>
+<tr class="memdesc:ac0f231359c355138414273fe80bc2569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the quaternion to an agle of rotation and an axis, defined in <em>absolute</em> coords.  <a href="#ac0f231359c355138414273fe80bc2569">More...</a><br /></td></tr>
+<tr class="separator:ac0f231359c355138414273fe80bc2569"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa34f9261a7a782b81411bec2fc45680e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa34f9261a7a782b81411bec2fc45680e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aa34f9261a7a782b81411bec2fc45680e">Q_from_NasaAngles</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;mang)</td></tr>
+<tr class="memdesc:aa34f9261a7a782b81411bec2fc45680e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion from three angles (NASA angle set) heading, bank and attitude. <br /></td></tr>
+<tr class="separator:aa34f9261a7a782b81411bec2fc45680e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96bcac54895356edff12a7ed228f1404"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a96bcac54895356edff12a7ed228f1404"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a96bcac54895356edff12a7ed228f1404">Q_to_NasaAngles</a> ()</td></tr>
+<tr class="memdesc:a96bcac54895356edff12a7ed228f1404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the quaternion to three angles (NASA angle set) heading, bank and attitude. <br /></td></tr>
+<tr class="separator:a96bcac54895356edff12a7ed228f1404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd0b191ad498796460072587c531a59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a2dd0b191ad498796460072587c531a59">Qdt_from_Wabs</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;w, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;q)</td></tr>
+<tr class="memdesc:a2dd0b191ad498796460072587c531a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion dq/dt.  <a href="#a2dd0b191ad498796460072587c531a59">More...</a><br /></td></tr>
+<tr class="separator:a2dd0b191ad498796460072587c531a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fce35b932a8a5149edb97303561f712"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a3fce35b932a8a5149edb97303561f712">Qdt_from_Wrel</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;w, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;q)</td></tr>
+<tr class="memdesc:a3fce35b932a8a5149edb97303561f712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion dq/dt.  <a href="#a3fce35b932a8a5149edb97303561f712">More...</a><br /></td></tr>
+<tr class="separator:a3fce35b932a8a5149edb97303561f712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af12f16303b963b8cc105286cea57581b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#af12f16303b963b8cc105286cea57581b">Qdt_to_Wabs</a> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;w, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;q)</td></tr>
+<tr class="memdesc:af12f16303b963b8cc105286cea57581b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the vector of angular speed 'w' specified in <em>absolute</em> coords, from the quaternion dq/dt and the rotation expressed as a quaternion q.  <a href="#af12f16303b963b8cc105286cea57581b">More...</a><br /></td></tr>
+<tr class="separator:af12f16303b963b8cc105286cea57581b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5138efc1b50fd12183bc023f46233a12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a5138efc1b50fd12183bc023f46233a12">Qdt_to_Wrel</a> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;w, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;q)</td></tr>
+<tr class="memdesc:a5138efc1b50fd12183bc023f46233a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the vector of angular speed 'w' specified in <em>relative</em> coords, from the quaternion dq/dt and the rotation expressed as a quaternion q.  <a href="#a5138efc1b50fd12183bc023f46233a12">More...</a><br /></td></tr>
+<tr class="separator:a5138efc1b50fd12183bc023f46233a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af32db7790de672299460c06d95f81968"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#af32db7790de672299460c06d95f81968">Qdtdt_from_Aabs</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;a, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;q, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;q_dt)</td></tr>
+<tr class="memdesc:af32db7790de672299460c06d95f81968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion ddq/dtdt.  <a href="#af32db7790de672299460c06d95f81968">More...</a><br /></td></tr>
+<tr class="separator:af32db7790de672299460c06d95f81968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728e3567f214fdfd91e3c6c485ff7e5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a728e3567f214fdfd91e3c6c485ff7e5b">Qdtdt_from_Arel</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;a, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;q, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;q_dt)</td></tr>
+<tr class="memdesc:a728e3567f214fdfd91e3c6c485ff7e5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion ddq/dtdt.  <a href="#a728e3567f214fdfd91e3c6c485ff7e5b">More...</a><br /></td></tr>
+<tr class="separator:a728e3567f214fdfd91e3c6c485ff7e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5a928b14e7bafb31d82b5648cb4b02f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aa5a928b14e7bafb31d82b5648cb4b02f">Qdt_from_AngAxis</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;q, const Real angle_dt, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;axis)</td></tr>
+<tr class="memdesc:aa5a928b14e7bafb31d82b5648cb4b02f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion dq/dt.  <a href="#aa5a928b14e7bafb31d82b5648cb4b02f">More...</a><br /></td></tr>
+<tr class="separator:aa5a928b14e7bafb31d82b5648cb4b02f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d8a0155933519e34f05e07b72bdc22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a77d8a0155933519e34f05e07b72bdc22">Qdtdt_from_AngAxis</a> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;q, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;q_dt, const Real angle_dtdt, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;axis)</td></tr>
+<tr class="memdesc:a77d8a0155933519e34f05e07b72bdc22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the quaternion ddq/dtdt.  <a href="#a77d8a0155933519e34f05e07b72bdc22">More...</a><br /></td></tr>
+<tr class="separator:a77d8a0155933519e34f05e07b72bdc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29415263b4edfa538e08639fa7300588"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a29415263b4edfa538e08639fa7300588">ImmQ_complete</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;qimm)</td></tr>
+<tr class="memdesc:a29415263b4edfa538e08639fa7300588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given the immaginary (vectorial) {e1 e2 e3} part of a quaternion, tries to set the entire quaternion q = {e0, e1, e2, e3}.  <a href="#a29415263b4edfa538e08639fa7300588">More...</a><br /></td></tr>
+<tr class="separator:a29415263b4edfa538e08639fa7300588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d805df9810e63c5a4743aad6b55adf2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d805df9810e63c5a4743aad6b55adf2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ImmQ_dt_complete</b> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;mq, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;qimm_dt)</td></tr>
+<tr class="separator:a7d805df9810e63c5a4743aad6b55adf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7b21eb6304778646d39c6513922080f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad7b21eb6304778646d39c6513922080f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ImmQ_dtdt_complete</b> (const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;mq, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;mqdt, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;qimm_dtdt)</td></tr>
+<tr class="separator:ad7b21eb6304778646d39c6513922080f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a714abafa4856a9b8dd639d74180a4ab1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a714abafa4856a9b8dd639d74180a4ab1">GetXaxis</a> () const </td></tr>
+<tr class="memdesc:a714abafa4856a9b8dd639d74180a4ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the X axis of a coordsystem, given the quaternion which represents the alignment of the coordsystem.  <a href="#a714abafa4856a9b8dd639d74180a4ab1">More...</a><br /></td></tr>
+<tr class="separator:a714abafa4856a9b8dd639d74180a4ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01cde5c78006e08cc93cb35af5928347"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a01cde5c78006e08cc93cb35af5928347">GetYaxis</a> () const </td></tr>
+<tr class="memdesc:a01cde5c78006e08cc93cb35af5928347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Y axis of a coordsystem, given the quaternion which represents the alignment of the coordsystem.  <a href="#a01cde5c78006e08cc93cb35af5928347">More...</a><br /></td></tr>
+<tr class="separator:a01cde5c78006e08cc93cb35af5928347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9114f30e264ac209f010ca66670f8cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#aa9114f30e264ac209f010ca66670f8cf">GetZaxis</a> () const </td></tr>
+<tr class="memdesc:aa9114f30e264ac209f010ca66670f8cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Z axis of a coordsystem, given the quaternion which represents the alignment of the coordsystem.  <a href="#aa9114f30e264ac209f010ca66670f8cf">More...</a><br /></td></tr>
+<tr class="separator:aa9114f30e264ac209f010ca66670f8cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e06a12d1a6964d8ae0defa62331d7e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e06a12d1a6964d8ae0defa62331d7e9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ArchiveOUT</b> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="separator:a0e06a12d1a6964d8ae0defa62331d7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3072ffe8fab1f88c5385db910d0300f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3072ffe8fab1f88c5385db910d0300f3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_quaternion.html#a3072ffe8fab1f88c5385db910d0300f3">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a3072ffe8fab1f88c5385db910d0300f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:a3072ffe8fab1f88c5385db910d0300f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a9bcfdd0c4d02347df48523de279c9afc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9bcfdd0c4d02347df48523de279c9afc"></a>
+Real&#160;</td><td class="memItemRight" valign="bottom"><b>e0</b></td></tr>
+<tr class="separator:a9bcfdd0c4d02347df48523de279c9afc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4ea53305dc13c50ae9916db0a64741a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4ea53305dc13c50ae9916db0a64741a"></a>
+Real&#160;</td><td class="memItemRight" valign="bottom"><b>e1</b></td></tr>
+<tr class="separator:aa4ea53305dc13c50ae9916db0a64741a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97938f11fcb3403c7ebf8e0c5cc45970"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a97938f11fcb3403c7ebf8e0c5cc45970"></a>
+Real&#160;</td><td class="memItemRight" valign="bottom"><b>e2</b></td></tr>
+<tr class="separator:a97938f11fcb3403c7ebf8e0c5cc45970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8cefc817b97930a9cc7942964ecb924"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8cefc817b97930a9cc7942964ecb924"></a>
+Real&#160;</td><td class="memItemRight" valign="bottom"><b>e3</b></td></tr>
+<tr class="separator:ab8cefc817b97930a9cc7942964ecb924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a51de84338df8809ee9594b21cd07e60a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Default constructor. </p>
+<p>Note, it is a null quaternion {0,0,0,0}, not a {1,0,0,0} unit quaternion. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a1491d9ce559f73ddb89c0d6be43dea3f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Cross </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td>
+          <td class="paramname"><em>qa</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td>
+          <td class="paramname"><em>qb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The quaternion becomes the quaternion product of the two quaternions A and B: following the classic Hamilton rule: this=AxB This is the true, typical quaternion product. </p>
+<p>It is NOT commutative. </p>
+
+</div>
+</div>
+<a class="anchor" id="a179b934f7bbf25618a798af81668c07b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">Real <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Dot </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt;&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The result is dot product of the two quaternion A and B: result=A*B. </p>
+<p>This kind of product is not used a lot, anyway... </p>
+
+</div>
+</div>
+<a class="anchor" id="ad14f3e8e374e2e1afae0ff06c636ab7c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt;Real&gt; <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::GetNormalized </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a normalized copy of this quaternion, with euclidean length =1. </p>
+<p>Not to be confused with <a class="el" href="classchrono_1_1_ch_quaternion.html#a9cf5e8c1c0a575479be8eb512ab692af" title="Normalize this quaternion, so that its euclidean length is 1. ">Normalize()</a>, that normalizes in place. </p>
+
+</div>
+</div>
+<a class="anchor" id="a714abafa4856a9b8dd639d74180a4ab1"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;Real&gt; <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::GetXaxis </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the X axis of a coordsystem, given the quaternion which represents the alignment of the coordsystem. </p>
+<p>Note that it is assumed that the quaternion is already normalized. </p>
+
+</div>
+</div>
+<a class="anchor" id="a01cde5c78006e08cc93cb35af5928347"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;Real&gt; <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::GetYaxis </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the Y axis of a coordsystem, given the quaternion which represents the alignment of the coordsystem. </p>
+<p>Note that it is assumed that the quaternion is already normalized. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa9114f30e264ac209f010ca66670f8cf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;Real&gt; <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::GetZaxis </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the Z axis of a coordsystem, given the quaternion which represents the alignment of the coordsystem. </p>
+<p>Note that it is assumed that the quaternion is already normalized. </p>
+
+</div>
+</div>
+<a class="anchor" id="a29415263b4edfa538e08639fa7300588"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::ImmQ_complete </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>qimm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Given the immaginary (vectorial) {e1 e2 e3} part of a quaternion, tries to set the entire quaternion q = {e0, e1, e2, e3}. </p>
+<p>Also for q_dt and q_dtdt Note: singularities may happen! </p>
+
+</div>
+</div>
+<a class="anchor" id="a762f3eca93e2f041b1662e6e345ce932"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">Real <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Length2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the euclidean norm of the quaternion, squared (i.e. </p>
+<p>as <a class="el" href="classchrono_1_1_ch_quaternion.html#a7accd30615b0168b65d552e1bfe5bcfb" title="Computes the euclidean norm of the quaternion, that is its length or magnitude. ">Length()</a>, but skipping the square root) </p>
+
+</div>
+</div>
+<a class="anchor" id="a9cf5e8c1c0a575479be8eb512ab692af"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Normalize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Normalize this quaternion, so that its euclidean length is 1. </p>
+<p>Returns false if original quaternion had zero length (in such a case it will be defaulted as 1,0,0,0) otherwise returns true for success. </p>
+
+</div>
+</div>
+<a class="anchor" id="af220adfc047837656777894a99177a87"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt;Real&gt; <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::operator% </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operator for quaternion product: AB means the typical quaternion product AxB Note: DEPRECATED, use the * operator instead. </p>
+
+</div>
+</div>
+<a class="anchor" id="a19cf457dd93738d3b21fcde0d1ba7c8a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt;Real&gt; <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>NOTE The following * and *= operators had a different behaviour prior to 13/9/2014, but we assume no one used * *= in that previous form (element-by-element product). </p>
+<p>Now * operator will be used for classical quaternion product, as the old % operator. This is be more congruent with the * operator for ChFrames etc. Operator for quaternion product: A*B means the typical quaternion product. Note: since unit quaternions can represent rotations, the product can represent a concatenation of rotations as: frame_rotation_2to0 = frame_rotation_1to0 * frame_rotation_2to1 Note: pay attention to operator low precedence (see C++ precedence rules!) Note: quaternion product is not commutative. </p>
+
+</div>
+</div>
+<a class="anchor" id="a087f6375b0a7142bfd1d50ccf356ee23"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt;Real&gt;&amp; <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operator for quaternion product and assignment: A*=B means A'=A*B, with typical quaternion product. </p>
+<p>Note: since unit quaternions can represent rotations, the product can represent a post-concatenation of a rotation in a kinematic chain. Note: quaternion product is not commutative. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1d25848a1a9aa365d45defd544f76a7c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt;Real&gt; <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operator for 'specular' quaternion product: A&gt;&gt;B = B*A . </p>
+<p>Note: since unit quaternions can represent rotations, the product can represent a concatenation of rotations as: frame_rotation_2to0 = frame_rotation_2to1 &gt;&gt; frame_rotation_1to0 Note: pay attention to operator low precedence (see C++ precedence rules!) Note: quaternion product is not commutative. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab003562461fb2febd5d4f33405c1dfcb"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt;Real&gt;&amp; <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::operator&gt;&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operator for quaternion 'specular' product and assignment: A&gt;&gt;=B means A'=A&gt;&gt;B, or A'=B*A with typical quaternion product. </p>
+<p>Note: since unit quaternions can represent rotations, the product can represent a pre-concatenation of a rotation in a kinematic chain. Note: quaternion product is not commutative. </p>
+
+</div>
+</div>
+<a class="anchor" id="aee8c97aac91a7c1f9bf3b62cea5bdcc2"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Q_from_AngAxis </td>
+          <td>(</td>
+          <td class="paramtype">const Real&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>axis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the quaternion from an agle of rotation and an axis, defined in <em>absolute</em> coords. </p>
+<p>The axis is supposed to be fixed, i.e. it is constant during rotation! NOTE, axismust be normalized! If you need directly the rotation vector=axis * angle, use rather <a class="el" href="classchrono_1_1_ch_quaternion.html#aeaeb382b8e0783068797f2d8b87acf2c" title="Sets the quaternion from a rotation vector (ie. ">Q_from_Rotv()</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="aeaeb382b8e0783068797f2d8b87acf2c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Q_from_Rotv </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>angle_axis</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the quaternion from a rotation vector (ie. </p>
+<p>a 3D axis of rotation with length as agle of rotation) defined in absolute coords. If you need distinct axis and angle, use rather <a class="el" href="classchrono_1_1_ch_quaternion.html#aee8c97aac91a7c1f9bf3b62cea5bdcc2" title="Sets the quaternion from an agle of rotation and an axis, defined in absolute coords. ">Q_from_AngAxis()</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="ac0f231359c355138414273fe80bc2569"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Q_to_AngAxis </td>
+          <td>(</td>
+          <td class="paramtype">Real &amp;&#160;</td>
+          <td class="paramname"><em>a_angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a_axis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts the quaternion to an agle of rotation and an axis, defined in <em>absolute</em> coords. </p>
+<p>Resulting angle and axis must be passed as parameters If you need directly the rotation vector=axis * angle, use rather <a class="el" href="classchrono_1_1_ch_quaternion.html#aad1a948d7d67ba7055868599b02c78e8" title="Gets the rotation vector (ie. ">Q_to_Rotv()</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="aad1a948d7d67ba7055868599b02c78e8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;Real&gt; <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Q_to_Rotv </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the rotation vector (ie. </p>
+<p>a 3D axis of rotation with length as agle of rotation) from a quaternion. If you need distinct axis and angle, use rather <a class="el" href="classchrono_1_1_ch_quaternion.html#ac0f231359c355138414273fe80bc2569" title="Converts the quaternion to an agle of rotation and an axis, defined in absolute coords. ">Q_to_AngAxis()</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="aa5a928b14e7bafb31d82b5648cb4b02f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Qdt_from_AngAxis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Real&#160;</td>
+          <td class="paramname"><em>angle_dt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>axis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the quaternion dq/dt. </p>
+<p>Inputs: the axis of rotation 'axis' (assuming it is already normalized and in <em>absolute</em> coords), the angular speed 'angle_dt' (scalar value), and the rotation expressed as a quaternion 'q'. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2dd0b191ad498796460072587c531a59"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Qdt_from_Wabs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the quaternion dq/dt. </p>
+<p>Inputs: the vector of angular speed w specified in <em>absolute</em> coords, and the rotation expressed as a quaternion q. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3fce35b932a8a5149edb97303561f712"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Qdt_from_Wrel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the quaternion dq/dt. </p>
+<p>Inputs: the vector of angular speed w specified in _relative coords, and the rotation expressed as a quaternion q. </p>
+
+</div>
+</div>
+<a class="anchor" id="af12f16303b963b8cc105286cea57581b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Qdt_to_Wabs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the vector of angular speed 'w' specified in <em>absolute</em> coords, from the quaternion dq/dt and the rotation expressed as a quaternion q. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5138efc1b50fd12183bc023f46233a12"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Qdt_to_Wrel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the vector of angular speed 'w' specified in <em>relative</em> coords, from the quaternion dq/dt and the rotation expressed as a quaternion q. </p>
+
+</div>
+</div>
+<a class="anchor" id="af32db7790de672299460c06d95f81968"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Qdtdt_from_Aabs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q_dt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the quaternion ddq/dtdt. </p>
+<p>Inputs: the vector of angular acceleration 'a' specified in <em>absolute</em> coords, the rotation expressed as a quaternion q, the rotation speed as a quaternion 'q_dt'. </p>
+
+</div>
+</div>
+<a class="anchor" id="a77d8a0155933519e34f05e07b72bdc22"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Qdtdt_from_AngAxis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q_dt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Real&#160;</td>
+          <td class="paramname"><em>angle_dtdt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>axis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the quaternion ddq/dtdt. </p>
+<p>Inputs: the axis of ang.acceleration 'axis' (assuming it is already normalized and in <em>absolute</em> coords), the angular acceleration 'angle_dtdt' (scalar value), the rotation expressed as a quaternion 'quat' and th rotation speed 'q_dt'. </p>
+
+</div>
+</div>
+<a class="anchor" id="a728e3567f214fdfd91e3c6c485ff7e5b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Qdtdt_from_Arel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt; Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q_dt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the quaternion ddq/dtdt. </p>
+<p>Inputs: the vector of angular acceleration 'a' specified in <em>relative</em> coords, the rotation expressed as a quaternion q, the rotation speed as a quaternion 'q_dt'. </p>
+
+</div>
+</div>
+<a class="anchor" id="a23cbc266678a0212d1139847b409b60f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;Real&gt; <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::Rotate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rotates the vector A on the basis of this quaternion: res=p*[0,A]*p' (speed-optimized version). </p>
+<p>Endomorphism assumes p is already normalized. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa4a0702cecc00a44b6d0bc1fc794ca42"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Real = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;Real&gt; <a class="el" href="classchrono_1_1_ch_quaternion.html">chrono::ChQuaternion</a>&lt; Real &gt;::RotateBack </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; Real &gt;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rotates the vector A on the basis of conjugate of this quaternion: res=p'*[0,A]*p (speed-optimized version). </p>
+<p>Endomorphism assumes p is already normalized. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:17 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

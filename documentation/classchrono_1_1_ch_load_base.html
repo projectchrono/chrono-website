@@ -1,0 +1,532 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChLoadBase Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_load_base.html">ChLoadBase</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1_ch_load_base-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChLoadBase Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for loads. </p>
+<p>This class can be inherited to implement applied loads to bodies, finite elements, etc. A load is an object that might wrap one or more <a class="el" href="classchrono_1_1_ch_loader.html" title="Class for loads applied to a single ChLoadable object. ">ChLoader</a> objects, whose value is dependent. It implements functionalities to perform automatic differentiation of the load so it optionally can compute the jacobian (the tangent stiffness matrix of the load) that can be used in implicit integrators, statics, etc. </p>
+</div>
+<p><code>#include &lt;ChLoad.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChLoadBase:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_load_base__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_load_base_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_load_base_inherit__map" id="chrono_1_1_ch_load_base_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_load.html" title="chrono::ChLoad\&lt; ChLoader\lBeamWrench \&gt;" alt="" coords="209,5,391,47"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_load.html" title="chrono::ChLoad\&lt; ChLoader\lBeamWrenchDistributed \&gt;" alt="" coords="209,71,391,112"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_load.html" title="chrono::ChLoad\&lt; ChLoader\lXYZnode \&gt;" alt="" coords="209,136,391,177"/>
+<area shape="rect" id="node8" href="classchrono_1_1_ch_load.html" title="Class for a load acting on a single ChLoadable item, via ChLoader objects. " alt="" coords="209,202,391,229"/>
+<area shape="rect" id="node9" href="classchrono_1_1_ch_load_body_mesh.html" title="Class for applyings loads to a triangle mesh belonging to a ChBody, as a cluster of forces operating ..." alt="" coords="212,253,388,279"/>
+<area shape="rect" id="node10" href="classchrono_1_1_ch_load_custom.html" title="Loads acting on a single ChLoadable item. " alt="" coords="220,303,380,330"/>
+<area shape="rect" id="node13" href="classchrono_1_1_ch_load_custom_multiple.html" title="Loads acting on multiple ChLoadable items. " alt="" coords="197,354,403,381"/>
+<area shape="rect" id="node14" href="classchrono_1_1fea_1_1_ch_load_contact_surface_mesh.html" title="Class for applyings loads to a contact mesh as a cluster of forces operating on the nodes of the unde..." alt="" coords="207,405,393,447"/>
+<area shape="rect" id="node3" href="classchrono_1_1fea_1_1_ch_load_beam_wrench.html" title="Atomic wrench (ready to use load) Load for a wrench (force+torque) at a specific position of a beam..." alt="" coords="451,13,669,39"/>
+<area shape="rect" id="node5" href="classchrono_1_1fea_1_1_ch_load_beam_wrench_distributed.html" title="Distributed constant wrench (ready to use load) Load for a wrench (force+torque) at a specific positi..." alt="" coords="451,71,669,112"/>
+<area shape="rect" id="node7" href="classchrono_1_1_ch_load_x_y_znode.html" title="Force at XYZ node (ready to use load) " alt="" coords="476,143,644,170"/>
+<area shape="rect" id="node11" href="classchrono_1_1_ch_load_body_force.html" title="FORCE ON A RIGID BODY Load for a constant force applied at a ChBody. " alt="" coords="471,278,649,305"/>
+<area shape="rect" id="node12" href="classchrono_1_1_ch_load_body_torque.html" title="TORQUE ON A RIGID BODY Loader for a constant torque applied at a ChBody. " alt="" coords="468,329,652,355"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::ChLoadBase:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_load_base__coll__graph.png" border="0" usemap="#chrono_1_1_ch_load_base_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1_ch_load_base_coll__map" id="chrono_1_1_ch_load_base_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_load_jacobians.html" title="Utility class for storing jacobian matrices. " alt="" coords="128,215,301,241"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_matrix_dynamic.html" title="chrono::ChMatrixDynamic\l\&lt; double \&gt;" alt="" coords="10,81,185,123"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_matrix.html" title="chrono::ChMatrix\&lt; double \&gt;" alt="" coords="5,5,189,32"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_kblock_generic.html" title="Class that represent nxn sparse blocks to put into K global matrix, that is blocks that connect N &#39;va..." alt="" coords="209,89,380,115"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block&#45;sparse matrices, that is blocks that connect ..." alt="" coords="231,5,358,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a1f4beea0d21b036e538d56f5fdc39623"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f4beea0d21b036e538d56f5fdc39623"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#a1f4beea0d21b036e538d56f5fdc39623">LoadGet_ndof_x</a> ()=0</td></tr>
+<tr class="memdesc:a1f4beea0d21b036e538d56f5fdc39623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of DOFs affected by this load (position part) <br /></td></tr>
+<tr class="separator:a1f4beea0d21b036e538d56f5fdc39623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b4ce84e2c476499dadce8761546b2fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b4ce84e2c476499dadce8761546b2fe"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#a6b4ce84e2c476499dadce8761546b2fe">LoadGet_ndof_w</a> ()=0</td></tr>
+<tr class="memdesc:a6b4ce84e2c476499dadce8761546b2fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of DOFs affected by this load (speed part) <br /></td></tr>
+<tr class="separator:a6b4ce84e2c476499dadce8761546b2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a656d294f1cde57f13aae4e3a037e228d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a656d294f1cde57f13aae4e3a037e228d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#a656d294f1cde57f13aae4e3a037e228d">LoadGetStateBlock_x</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;mD)=0</td></tr>
+<tr class="memdesc:a656d294f1cde57f13aae4e3a037e228d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all the current DOFs packed in a single vector (position part) <br /></td></tr>
+<tr class="separator:a656d294f1cde57f13aae4e3a037e228d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a58c968c401bd89ab1b63d3ed342a18"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a58c968c401bd89ab1b63d3ed342a18"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#a4a58c968c401bd89ab1b63d3ed342a18">LoadGetStateBlock_w</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;mD)=0</td></tr>
+<tr class="memdesc:a4a58c968c401bd89ab1b63d3ed342a18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all the current DOFs packed in a single vector (speed part) <br /></td></tr>
+<tr class="separator:a4a58c968c401bd89ab1b63d3ed342a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb6dcd54f832bdf572c5d2bb71bf0c1"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#a1bb6dcd54f832bdf572c5d2bb71bf0c1">LoadGet_field_ncoords</a> ()=0</td></tr>
+<tr class="memdesc:a1bb6dcd54f832bdf572c5d2bb71bf0c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of coordinates in the interpolated field, ex=3 for a tetrahedron finite element or a cable, = 1 for a thermal problem, etc.  <a href="#a1bb6dcd54f832bdf572c5d2bb71bf0c1">More...</a><br /></td></tr>
+<tr class="separator:a1bb6dcd54f832bdf572c5d2bb71bf0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a463b84225fb590c0283336ebc8ae5f5b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#a463b84225fb590c0283336ebc8ae5f5b">ComputeQ</a> (<a class="el" href="classchrono_1_1_ch_state.html">ChState</a> *state_x, <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> *state_w)=0</td></tr>
+<tr class="memdesc:a463b84225fb590c0283336ebc8ae5f5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute Q, the generalized load(s).  <a href="#a463b84225fb590c0283336ebc8ae5f5b">More...</a><br /></td></tr>
+<tr class="separator:a463b84225fb590c0283336ebc8ae5f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a898513a4735f16bd489592c9aebbf461"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#a898513a4735f16bd489592c9aebbf461">ComputeJacobian</a> (<a class="el" href="classchrono_1_1_ch_state.html">ChState</a> *state_x, <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> *state_w, <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;mK, <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;mR, <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;mM)=0</td></tr>
+<tr class="memdesc:a898513a4735f16bd489592c9aebbf461"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the K=-dQ/dx, R=-dQ/dv , M=-dQ/da jacobians.  <a href="#a898513a4735f16bd489592c9aebbf461">More...</a><br /></td></tr>
+<tr class="separator:a898513a4735f16bd489592c9aebbf461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3914be0a45cc90c5c0907342be1571bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3914be0a45cc90c5c0907342be1571bf"></a>
+<a class="el" href="classchrono_1_1_ch_load_jacobians.html">ChLoadJacobians</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#a3914be0a45cc90c5c0907342be1571bf">GetJacobians</a> ()</td></tr>
+<tr class="memdesc:a3914be0a45cc90c5c0907342be1571bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the jacobians (if any, i.e. if this is a stiff load) <br /></td></tr>
+<tr class="separator:a3914be0a45cc90c5c0907342be1571bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adefc983258bc55d5ffbada8d90d7de43"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#adefc983258bc55d5ffbada8d90d7de43">CreateJacobianMatrices</a> ()=0</td></tr>
+<tr class="memdesc:adefc983258bc55d5ffbada8d90d7de43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the jacobian loads if needed, and also set the <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> referenced by the sparse KRM block.  <a href="#adefc983258bc55d5ffbada8d90d7de43">More...</a><br /></td></tr>
+<tr class="separator:adefc983258bc55d5ffbada8d90d7de43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7687c81c738c475f345e981053ba0945"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#a7687c81c738c475f345e981053ba0945">Update</a> ()</td></tr>
+<tr class="memdesc:a7687c81c738c475f345e981053ba0945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update: this is called at least at each time step.  <a href="#a7687c81c738c475f345e981053ba0945">More...</a><br /></td></tr>
+<tr class="separator:a7687c81c738c475f345e981053ba0945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c7f0c2688a2bb2afcaef24e147c3643"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#a1c7f0c2688a2bb2afcaef24e147c3643">IsStiff</a> ()=0</td></tr>
+<tr class="memdesc:a1c7f0c2688a2bb2afcaef24e147c3643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report if this is load is stiff.  <a href="#a1c7f0c2688a2bb2afcaef24e147c3643">More...</a><br /></td></tr>
+<tr class="separator:a1c7f0c2688a2bb2afcaef24e147c3643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4e4fc7e787e5f75c2ae58b049c9f0f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d4e4fc7e787e5f75c2ae58b049c9f0f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#a8d4e4fc7e787e5f75c2ae58b049c9f0f">LoadIntLoadResidual_F</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const double c)=0</td></tr>
+<tr class="memdesc:a8d4e4fc7e787e5f75c2ae58b049c9f0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the internal loads Q (pasted at global nodes offsets) into a global vector R, multiplied by a scaling factor c, as R += forces * c. <br /></td></tr>
+<tr class="separator:a8d4e4fc7e787e5f75c2ae58b049c9f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa01417d0a6f7ca22784715202ddfb08c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#aa01417d0a6f7ca22784715202ddfb08c">InjectKRMmatrices</a> (<a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;mdescriptor)</td></tr>
+<tr class="memdesc:aa01417d0a6f7ca22784715202ddfb08c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell to a system descriptor that there are item(s) of type <a class="el" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block-sparse matrices, that is blocks that connect ...">ChKblock</a> in this object (for further passing it to a solver) Basically does nothing, but inherited classes must specialize this.  <a href="#aa01417d0a6f7ca22784715202ddfb08c">More...</a><br /></td></tr>
+<tr class="separator:aa01417d0a6f7ca22784715202ddfb08c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9ae30e2e80f29376b1aaaa373d99bbf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_load_base.html#ac9ae30e2e80f29376b1aaaa373d99bbf">KRMmatricesLoad</a> (double Kfactor, double Rfactor, double Mfactor)</td></tr>
+<tr class="memdesc:ac9ae30e2e80f29376b1aaaa373d99bbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the current stiffness K and damping R and mass M matrices in encapsulated <a class="el" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block-sparse matrices, that is blocks that connect ...">ChKblock</a> item(s), if any.  <a href="#ac9ae30e2e80f29376b1aaaa373d99bbf">More...</a><br /></td></tr>
+<tr class="separator:ac9ae30e2e80f29376b1aaaa373d99bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a064d4cabac4777e4e62cf3b5d6bb65ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a064d4cabac4777e4e62cf3b5d6bb65ce"></a>
+<a class="el" href="classchrono_1_1_ch_load_jacobians.html">ChLoadJacobians</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>jacobians</b></td></tr>
+<tr class="separator:a064d4cabac4777e4e62cf3b5d6bb65ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a898513a4735f16bd489592c9aebbf461"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChLoadBase::ComputeJacobian </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state.html">ChState</a> *&#160;</td>
+          <td class="paramname"><em>state_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> *&#160;</td>
+          <td class="paramname"><em>state_w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>mK</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>mR</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>mM</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute the K=-dQ/dx, R=-dQ/dv , M=-dQ/da jacobians. </p>
+<p>Called automatically at each <a class="el" href="classchrono_1_1_ch_load_base.html#a7687c81c738c475f345e981053ba0945" title="Update: this is called at least at each time step. ">Update()</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state_x</td><td>state position to evaluate jacobians </td></tr>
+    <tr><td class="paramname">state_w</td><td>state speed to evaluate jacobians </td></tr>
+    <tr><td class="paramname">mK</td><td>result dQ/dx </td></tr>
+    <tr><td class="paramname">mR</td><td>result dQ/dv </td></tr>
+    <tr><td class="paramname">mM</td><td>result dQ/da </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_load_custom_multiple.html#a7a6598fc11b21d672f2efa777ee29218">chrono::ChLoadCustomMultiple</a>, <a class="el" href="classchrono_1_1_ch_load_custom.html#a1f837d25180215502099e63d7b6e4dd2">chrono::ChLoadCustom</a>, <a class="el" href="classchrono_1_1_ch_load.html#af989b7576d3d564e544a90623a1cd1d9">chrono::ChLoad&lt; Tloader &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#af989b7576d3d564e544a90623a1cd1d9">chrono::ChLoad&lt; ChLoaderBeamWrench &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#af989b7576d3d564e544a90623a1cd1d9">chrono::ChLoad&lt; ChLoaderXYZnode &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#af989b7576d3d564e544a90623a1cd1d9">chrono::ChLoad&lt; ChLoaderBeamWrenchDistributed &gt;</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_load_contact_surface_mesh.html#a70b7285d1f738649f8cdcf5efb7035a9">chrono::fea::ChLoadContactSurfaceMesh</a>, and <a class="el" href="classchrono_1_1_ch_load_body_mesh.html#a7036cea1cdb5d9cfd5cbc44e37b60213">chrono::ChLoadBodyMesh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a463b84225fb590c0283336ebc8ae5f5b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChLoadBase::ComputeQ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state.html">ChState</a> *&#160;</td>
+          <td class="paramname"><em>state_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> *&#160;</td>
+          <td class="paramname"><em>state_w</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute Q, the generalized load(s). </p>
+<p>Where Q is stored depends on children classes. Called automatically at each <a class="el" href="classchrono_1_1_ch_load_base.html#a7687c81c738c475f345e981053ba0945" title="Update: this is called at least at each time step. ">Update()</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state_x</td><td>state position to evaluate Q </td></tr>
+    <tr><td class="paramname">state_w</td><td>state speed to evaluate Q </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_load_custom_multiple.html#adf722eb74c916c0f25fbb5284b579baa">chrono::ChLoadCustomMultiple</a>, <a class="el" href="classchrono_1_1_ch_load_custom.html#ae7782082c51e719e7a632b6f354cf2f3">chrono::ChLoadCustom</a>, <a class="el" href="classchrono_1_1_ch_load.html#af41f1a9cfae24160b319d252f8ba3292">chrono::ChLoad&lt; Tloader &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#af41f1a9cfae24160b319d252f8ba3292">chrono::ChLoad&lt; ChLoaderBeamWrench &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#af41f1a9cfae24160b319d252f8ba3292">chrono::ChLoad&lt; ChLoaderXYZnode &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#af41f1a9cfae24160b319d252f8ba3292">chrono::ChLoad&lt; ChLoaderBeamWrenchDistributed &gt;</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_load_contact_surface_mesh.html#a8b404459daad6f62fdd6bbdcdcad62e2">chrono::fea::ChLoadContactSurfaceMesh</a>, <a class="el" href="classchrono_1_1_ch_load_body_mesh.html#abb582a8250ac03f6bfecdde4fd5b9f14">chrono::ChLoadBodyMesh</a>, <a class="el" href="classchrono_1_1_ch_load_body_torque.html#a9fd84c4278fb0815977f8fe0cad29b58">chrono::ChLoadBodyTorque</a>, and <a class="el" href="classchrono_1_1_ch_load_body_force.html#a63c86b16e163dd7c71da9b846dfa183c">chrono::ChLoadBodyForce</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adefc983258bc55d5ffbada8d90d7de43"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChLoadBase::CreateJacobianMatrices </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create the jacobian loads if needed, and also set the <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> referenced by the sparse KRM block. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_load_custom_multiple.html#ab4124f42e35c2cde2b94488de4135f29">chrono::ChLoadCustomMultiple</a>, <a class="el" href="classchrono_1_1_ch_load_custom.html#a15cf3b40313548e3cc41b09427b2059e">chrono::ChLoadCustom</a>, <a class="el" href="classchrono_1_1_ch_load.html#a01d6a8364110513de1fb39af30fdead2">chrono::ChLoad&lt; Tloader &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#a01d6a8364110513de1fb39af30fdead2">chrono::ChLoad&lt; ChLoaderBeamWrench &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#a01d6a8364110513de1fb39af30fdead2">chrono::ChLoad&lt; ChLoaderXYZnode &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#a01d6a8364110513de1fb39af30fdead2">chrono::ChLoad&lt; ChLoaderBeamWrenchDistributed &gt;</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_load_contact_surface_mesh.html#a263758e32546b2e6f439b4fd1e9a60ce">chrono::fea::ChLoadContactSurfaceMesh</a>, and <a class="el" href="classchrono_1_1_ch_load_body_mesh.html#ab275c505f99999111722f8b4d675fd00">chrono::ChLoadBodyMesh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa01417d0a6f7ca22784715202ddfb08c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChLoadBase::InjectKRMmatrices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;&#160;</td>
+          <td class="paramname"><em>mdescriptor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tell to a system descriptor that there are item(s) of type <a class="el" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block-sparse matrices, that is blocks that connect ...">ChKblock</a> in this object (for further passing it to a solver) Basically does nothing, but inherited classes must specialize this. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1fea_1_1_ch_load_contact_surface_mesh.html#a36a1bc6cda816d0968eaa73e32e7d25b">chrono::fea::ChLoadContactSurfaceMesh</a>, and <a class="el" href="classchrono_1_1_ch_load_body_mesh.html#ad4a23c2e99f3daa668e57fedf5cbfe4a">chrono::ChLoadBodyMesh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1c7f0c2688a2bb2afcaef24e147c3643"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::ChLoadBase::IsStiff </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Report if this is load is stiff. </p>
+<p>If so, InjectKRMmatrices will provide the jacobians of the load. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_load_custom_multiple.html#aebb2cfa09ab0ba5ebe829d7582190ff6">chrono::ChLoadCustomMultiple</a>, <a class="el" href="classchrono_1_1_ch_load_custom.html#ad832ca767fbb9e268f4c78b002628c35">chrono::ChLoadCustom</a>, <a class="el" href="classchrono_1_1_ch_load.html#a462540ee3d1b7ceee09c07c235fc8aee">chrono::ChLoad&lt; Tloader &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#a462540ee3d1b7ceee09c07c235fc8aee">chrono::ChLoad&lt; ChLoaderBeamWrench &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#a462540ee3d1b7ceee09c07c235fc8aee">chrono::ChLoad&lt; ChLoaderXYZnode &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#a462540ee3d1b7ceee09c07c235fc8aee">chrono::ChLoad&lt; ChLoaderBeamWrenchDistributed &gt;</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_load_contact_surface_mesh.html#a9ea024ea49c45baa351785731ac16d52">chrono::fea::ChLoadContactSurfaceMesh</a>, <a class="el" href="classchrono_1_1_ch_load_body_mesh.html#ade0d80e5bc29d1a9903d70824cf265c9">chrono::ChLoadBodyMesh</a>, <a class="el" href="classchrono_1_1_ch_load_body_torque.html#a8dc036dcfc5ff9c334994f5bb2f82fc4">chrono::ChLoadBodyTorque</a>, and <a class="el" href="classchrono_1_1_ch_load_body_force.html#a5024587b103f41e44911520a7a95e5d2">chrono::ChLoadBodyForce</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac9ae30e2e80f29376b1aaaa373d99bbf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChLoadBase::KRMmatricesLoad </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Kfactor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Rfactor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Mfactor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds the current stiffness K and damping R and mass M matrices in encapsulated <a class="el" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block-sparse matrices, that is blocks that connect ...">ChKblock</a> item(s), if any. </p>
+<p>The K, R, M matrices are added with scaling values Kfactor, Rfactor, Mfactor. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1fea_1_1_ch_load_contact_surface_mesh.html#a2ad45448d28a7cdb5712ae0f6cc5247c">chrono::fea::ChLoadContactSurfaceMesh</a>, and <a class="el" href="classchrono_1_1_ch_load_body_mesh.html#a6baa7985a5e2200806a1403af4259a92">chrono::ChLoadBodyMesh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1bb6dcd54f832bdf572c5d2bb71bf0c1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int chrono::ChLoadBase::LoadGet_field_ncoords </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of coordinates in the interpolated field, ex=3 for a tetrahedron finite element or a cable, = 1 for a thermal problem, etc. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_load_custom_multiple.html#a6fbee058bc3287ea5028129d5d419f7a">chrono::ChLoadCustomMultiple</a>, <a class="el" href="classchrono_1_1_ch_load_custom.html#aee089020ecbee702b3468627b70c3676">chrono::ChLoadCustom</a>, <a class="el" href="classchrono_1_1_ch_load.html#a6578014ac4c82efb4df790f1cd4d4aa5">chrono::ChLoad&lt; Tloader &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#a6578014ac4c82efb4df790f1cd4d4aa5">chrono::ChLoad&lt; ChLoaderBeamWrench &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#a6578014ac4c82efb4df790f1cd4d4aa5">chrono::ChLoad&lt; ChLoaderXYZnode &gt;</a>, <a class="el" href="classchrono_1_1_ch_load.html#a6578014ac4c82efb4df790f1cd4d4aa5">chrono::ChLoad&lt; ChLoaderBeamWrenchDistributed &gt;</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_load_contact_surface_mesh.html#aafd3b9ca07a3762a29a9602bd2fa471a">chrono::fea::ChLoadContactSurfaceMesh</a>, and <a class="el" href="classchrono_1_1_ch_load_body_mesh.html#a3830a993237bb1d71782108e883e77a9">chrono::ChLoadBodyMesh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7687c81c738c475f345e981053ba0945"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChLoadBase::Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update: this is called at least at each time step. </p>
+<ul>
+<li>It recomputes the generalized load Q vector(s)</li>
+<li>It recomputes the jacobian(s) K,R,M in case of stiff load Q and jacobians assumed evaluated at the current state. Jacobian structures are automatically allocated if needed. </li>
+</ul>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:16 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

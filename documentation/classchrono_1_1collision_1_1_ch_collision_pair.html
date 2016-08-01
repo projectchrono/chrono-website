@@ -1,0 +1,328 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::collision::ChCollisionPair Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1collision.html">collision</a></li><li class="navelem"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html">ChCollisionPair</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="classchrono_1_1collision_1_1_ch_collision_pair-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::collision::ChCollisionPair Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for storing information about a collision point. </p>
+</div>
+<p><code>#include &lt;ChCCollisionPair.h&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for chrono::collision::ChCollisionPair:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1collision_1_1_ch_collision_pair__coll__graph.png" border="0" usemap="#chrono_1_1collision_1_1_ch_collision_pair_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1collision_1_1_ch_collision_pair_coll__map" id="chrono_1_1collision_1_1_ch_collision_pair_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1geometry_1_1_ch_geometry.html" title="Base class for geometric objects used for collisions and visualization. " alt="" coords="5,5,211,32"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_vector.html" title="chrono::ChVector\&lt; float \&gt;" alt="" coords="235,5,408,32"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_vector.html" title="Definition of general purpose 3d vector variables, such as points in 3D. " alt="" coords="433,5,607,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac74cf4ee6642f79ac1209ec37978d45b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac74cf4ee6642f79ac1209ec37978d45b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#ac74cf4ee6642f79ac1209ec37978d45b">ChCollisionPair</a> ()</td></tr>
+<tr class="memdesc:ac74cf4ee6642f79ac1209ec37978d45b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic constructor. <br /></td></tr>
+<tr class="separator:ac74cf4ee6642f79ac1209ec37978d45b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abad0b235a190b320a72575cd26433114"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abad0b235a190b320a72575cd26433114"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#abad0b235a190b320a72575cd26433114">ChCollisionPair</a> (<a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">geometry::ChGeometry</a> *mgeo1, <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">geometry::ChGeometry</a> *mgeo2, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;mp1, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;mp2, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; float &gt; &amp;mnormal, float *mreaction_cache=0)</td></tr>
+<tr class="memdesc:abad0b235a190b320a72575cd26433114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for case of contact point correctly estimated. <br /></td></tr>
+<tr class="separator:abad0b235a190b320a72575cd26433114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa4154b3f7db99913adfc3b4a18cec18"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa4154b3f7db99913adfc3b4a18cec18"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#aaa4154b3f7db99913adfc3b4a18cec18">ChCollisionPair</a> (<a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">geometry::ChGeometry</a> *mgeo1, <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">geometry::ChGeometry</a> *mgeo2)</td></tr>
+<tr class="memdesc:aaa4154b3f7db99913adfc3b4a18cec18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for case of just intersection. <br /></td></tr>
+<tr class="separator:aaa4154b3f7db99913adfc3b4a18cec18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe58e544cf29ff041b257397f4bd2939"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abe58e544cf29ff041b257397f4bd2939"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#abe58e544cf29ff041b257397f4bd2939">Set</a> (<a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">geometry::ChGeometry</a> *mgeo1, <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">geometry::ChGeometry</a> *mgeo2, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;mp1, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;mp2, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; float &gt; &amp;mnormal, float *mreaction_cache=0)</td></tr>
+<tr class="memdesc:abe58e544cf29ff041b257397f4bd2939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set all data at once (better: use the custom constructor) <br /></td></tr>
+<tr class="separator:abe58e544cf29ff041b257397f4bd2939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63d6890e9e48eadac766ea9264054b98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#a63d6890e9e48eadac766ea9264054b98">SwapGeometries</a> ()</td></tr>
+<tr class="memdesc:a63d6890e9e48eadac766ea9264054b98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap geometries, that is geo1 becomes geo2 and viceversa; normal and so on are updates as well.  <a href="#a63d6890e9e48eadac766ea9264054b98">More...</a><br /></td></tr>
+<tr class="separator:a63d6890e9e48eadac766ea9264054b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e2f6a92923d5386c288063c07bdfaff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#a7e2f6a92923d5386c288063c07bdfaff">CacheFetchSpeedSolutionFromManifold</a> (float &amp;mN, float &amp;mU, float &amp;mV)</td></tr>
+<tr class="memdesc:a7e2f6a92923d5386c288063c07bdfaff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetches normal and U,V impulsive reactions, as previously stored in a persistent contact manifold maintained by the collision engine.  <a href="#a7e2f6a92923d5386c288063c07bdfaff">More...</a><br /></td></tr>
+<tr class="separator:a7e2f6a92923d5386c288063c07bdfaff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a5b043dae2baa9586553372d8d4dacf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#a7a5b043dae2baa9586553372d8d4dacf">CacheFetchPositionSolutionFromManifold</a> (float &amp;mN, float &amp;mU, float &amp;mV)</td></tr>
+<tr class="memdesc:a7a5b043dae2baa9586553372d8d4dacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetches normal and U,V 'positional' reactions, as previously stored in a persistent contact manifold maintained by the collision engine.  <a href="#a7a5b043dae2baa9586553372d8d4dacf">More...</a><br /></td></tr>
+<tr class="separator:a7a5b043dae2baa9586553372d8d4dacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab85bf9f62427087ed80f923507479a49"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab85bf9f62427087ed80f923507479a49"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#ab85bf9f62427087ed80f923507479a49">CacheStoreSpeedSolutionIntoManifold</a> (const float mN, const float mU, const float mV)</td></tr>
+<tr class="memdesc:ab85bf9f62427087ed80f923507479a49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores normal and U,V reactions into a persistent contact manifold maintained by the collision engine (if any) <br /></td></tr>
+<tr class="separator:ab85bf9f62427087ed80f923507479a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6623427bc2906ad94f31ed4115d27edc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6623427bc2906ad94f31ed4115d27edc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#a6623427bc2906ad94f31ed4115d27edc">CacheStorePositionSolutionIntoManifold</a> (const float mN, const float mU, const float mV)</td></tr>
+<tr class="memdesc:a6623427bc2906ad94f31ed4115d27edc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores normal and U,V 'positional' reactions into a persistent contact manifold maintained by the collision engine (if any) <br /></td></tr>
+<tr class="separator:a6623427bc2906ad94f31ed4115d27edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a55c378101b2de1b15f6b4a98c84c7c19"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55c378101b2de1b15f6b4a98c84c7c19"></a>
+<a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">geometry::ChGeometry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#a55c378101b2de1b15f6b4a98c84c7c19">geo1</a></td></tr>
+<tr class="memdesc:a55c378101b2de1b15f6b4a98c84c7c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer to 1st geometry which generated this collision pair <br /></td></tr>
+<tr class="separator:a55c378101b2de1b15f6b4a98c84c7c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5282fd6205227d893a6430455cadf9f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5282fd6205227d893a6430455cadf9f"></a>
+<a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">geometry::ChGeometry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#ae5282fd6205227d893a6430455cadf9f">geo2</a></td></tr>
+<tr class="memdesc:ae5282fd6205227d893a6430455cadf9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer to 2nd geometry which generated this collision pair <br /></td></tr>
+<tr class="separator:ae5282fd6205227d893a6430455cadf9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9a9818378b4ca592fcc58d76caf1bbd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9a9818378b4ca592fcc58d76caf1bbd"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#aa9a9818378b4ca592fcc58d76caf1bbd">p1</a></td></tr>
+<tr class="memdesc:aa9a9818378b4ca592fcc58d76caf1bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">max penetration point on geo1, after refining, in abs space <br /></td></tr>
+<tr class="separator:aa9a9818378b4ca592fcc58d76caf1bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebe7407242b68ba03c7d891406f40b57"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aebe7407242b68ba03c7d891406f40b57"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#aebe7407242b68ba03c7d891406f40b57">p2</a></td></tr>
+<tr class="memdesc:aebe7407242b68ba03c7d891406f40b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">max penetration point on geo2, after refining, in abs space <br /></td></tr>
+<tr class="separator:aebe7407242b68ba03c7d891406f40b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc015a78c43306eeb17d3e727f815b1f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc015a78c43306eeb17d3e727f815b1f"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#acc015a78c43306eeb17d3e727f815b1f">normal</a></td></tr>
+<tr class="memdesc:acc015a78c43306eeb17d3e727f815b1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">normal, on surface of master reference (geo1) <br /></td></tr>
+<tr class="separator:acc015a78c43306eeb17d3e727f815b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a723407f349aecf3502e7e3eb2cdb4eaf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a723407f349aecf3502e7e3eb2cdb4eaf"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#a723407f349aecf3502e7e3eb2cdb4eaf">norm_dist</a></td></tr>
+<tr class="memdesc:a723407f349aecf3502e7e3eb2cdb4eaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">penetration distance (negative if going inside) after refining <br /></td></tr>
+<tr class="separator:a723407f349aecf3502e7e3eb2cdb4eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70ba7211c41b7c406054bc0d87207959"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70ba7211c41b7c406054bc0d87207959"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#a70ba7211c41b7c406054bc0d87207959">just_intersection</a></td></tr>
+<tr class="memdesc:a70ba7211c41b7c406054bc0d87207959"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, only reports that two geometries are intersection, but no info is reliable <br /></td></tr>
+<tr class="separator:a70ba7211c41b7c406054bc0d87207959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2622f35f4945c948a1f1595bed65153"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_pair.html#ae2622f35f4945c948a1f1595bed65153">reactions_cache</a></td></tr>
+<tr class="memdesc:ae2622f35f4945c948a1f1595bed65153"><td class="mdescLeft">&#160;</td><td class="mdescRight">about normal, p1 or p2.  <a href="#ae2622f35f4945c948a1f1595bed65153">More...</a><br /></td></tr>
+<tr class="separator:ae2622f35f4945c948a1f1595bed65153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a7a5b043dae2baa9586553372d8d4dacf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionPair::CacheFetchPositionSolutionFromManifold </td>
+          <td>(</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>mN</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>mU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>mV</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fetches normal and U,V 'positional' reactions, as previously stored in a persistent contact manifold maintained by the collision engine. </p>
+<p>If no cache, set as 0,0,0 </p>
+
+</div>
+</div>
+<a class="anchor" id="a7e2f6a92923d5386c288063c07bdfaff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionPair::CacheFetchSpeedSolutionFromManifold </td>
+          <td>(</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>mN</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>mU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>mV</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fetches normal and U,V impulsive reactions, as previously stored in a persistent contact manifold maintained by the collision engine. </p>
+<p>If no cache, set as 0,0,0 </p>
+
+</div>
+</div>
+<a class="anchor" id="a63d6890e9e48eadac766ea9264054b98"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionPair::SwapGeometries </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Swap geometries, that is geo1 becomes geo2 and viceversa; normal and so on are updates as well. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ae2622f35f4945c948a1f1595bed65153"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float* chrono::collision::ChCollisionPair::reactions_cache</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>about normal, p1 or p2. </p>
+<p>points to an array[3] of N,U,V reactions which might be stored in a persistent contact manifold in the collision engine </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:20 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

@@ -1,0 +1,413 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::utils::ChValidation Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1utils.html">utils</a></li><li class="navelem"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html">ChValidation</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classchrono_1_1utils_1_1_ch_validation-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::utils::ChValidation Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>This class provides functionality for validation of simulation results. </p>
+<p>It provides functions for processing either two data files (simulation and reference) and calculating the norms of the column differences, or for processing a single simulation data file and calculating the norms of its columns. In either case, it is assumed that the first column in a data file contains time values. This column is never processed. </p>
+</div>
+<p><code>#include &lt;ChUtilsValidation.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:adfa5bfe5fe73231e9cdd4c93a0a0f8bf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#adfa5bfe5fe73231e9cdd4c93a0a0f8bf">Process</a> (const std::string &amp;sim_filename, const std::string &amp;ref_filename, char delim= '\t')</td></tr>
+<tr class="memdesc:adfa5bfe5fe73231e9cdd4c93a0a0f8bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the data from the specified files and process it.  <a href="#adfa5bfe5fe73231e9cdd4c93a0a0f8bf">More...</a><br /></td></tr>
+<tr class="separator:adfa5bfe5fe73231e9cdd4c93a0a0f8bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9d3e020c1fed8cb25578142c44e8af3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#ad9d3e020c1fed8cb25578142c44e8af3">Process</a> (const <a class="el" href="namespacechrono_1_1utils.html#a65c3f88148b339cd4197dd3cf0fae435">Data</a> &amp;sim_data, const <a class="el" href="namespacechrono_1_1utils.html#a65c3f88148b339cd4197dd3cf0fae435">Data</a> &amp;ref_data)</td></tr>
+<tr class="memdesc:ad9d3e020c1fed8cb25578142c44e8af3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process the data in the two specified structures.  <a href="#ad9d3e020c1fed8cb25578142c44e8af3">More...</a><br /></td></tr>
+<tr class="separator:ad9d3e020c1fed8cb25578142c44e8af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41aac35d8a434a013b77d9457d9fdcfb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#a41aac35d8a434a013b77d9457d9fdcfb">Process</a> (const std::string &amp;sim_filename, char delim= '\t')</td></tr>
+<tr class="memdesc:a41aac35d8a434a013b77d9457d9fdcfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the data in the specified file and process it.  <a href="#a41aac35d8a434a013b77d9457d9fdcfb">More...</a><br /></td></tr>
+<tr class="separator:a41aac35d8a434a013b77d9457d9fdcfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0893df6b61241277bafbd0f0a824b46e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#a0893df6b61241277bafbd0f0a824b46e">Process</a> (const <a class="el" href="namespacechrono_1_1utils.html#a65c3f88148b339cd4197dd3cf0fae435">Data</a> &amp;sim_data)</td></tr>
+<tr class="memdesc:a0893df6b61241277bafbd0f0a824b46e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process the data in the specified structure.  <a href="#a0893df6b61241277bafbd0f0a824b46e">More...</a><br /></td></tr>
+<tr class="separator:a0893df6b61241277bafbd0f0a824b46e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4728134551a018aab606a0c9f521e1d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4728134551a018aab606a0c9f521e1d"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#aa4728134551a018aab606a0c9f521e1d">GetNumColumns</a> () const </td></tr>
+<tr class="memdesc:aa4728134551a018aab606a0c9f521e1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of data columns. <br /></td></tr>
+<tr class="separator:aa4728134551a018aab606a0c9f521e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a802a342cb313a56205d190ddd504cfed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a802a342cb313a56205d190ddd504cfed"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#a802a342cb313a56205d190ddd504cfed">GetNumRows</a> () const </td></tr>
+<tr class="memdesc:a802a342cb313a56205d190ddd504cfed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of rows. <br /></td></tr>
+<tr class="separator:a802a342cb313a56205d190ddd504cfed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70b2b61d35a12711a4439700ac96b796"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70b2b61d35a12711a4439700ac96b796"></a>
+const <a class="el" href="namespacechrono_1_1utils.html#a6b6c9acc22c35718986dc6f09239a86f">Headers</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#a70b2b61d35a12711a4439700ac96b796">GetHeadersSimData</a> () const </td></tr>
+<tr class="memdesc:a70b2b61d35a12711a4439700ac96b796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the headers in the simulation data file. <br /></td></tr>
+<tr class="separator:a70b2b61d35a12711a4439700ac96b796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44c78da24c026139a0365d6a953c4a8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af44c78da24c026139a0365d6a953c4a8"></a>
+const <a class="el" href="namespacechrono_1_1utils.html#a65c3f88148b339cd4197dd3cf0fae435">Data</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#af44c78da24c026139a0365d6a953c4a8">GetSimData</a> () const </td></tr>
+<tr class="memdesc:af44c78da24c026139a0365d6a953c4a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the simulation data. <br /></td></tr>
+<tr class="separator:af44c78da24c026139a0365d6a953c4a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32aa7d4f60f150b8781e4681a1823a31"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32aa7d4f60f150b8781e4681a1823a31"></a>
+const <a class="el" href="namespacechrono_1_1utils.html#a6b6c9acc22c35718986dc6f09239a86f">Headers</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#a32aa7d4f60f150b8781e4681a1823a31">GetHeadersRefData</a> () const </td></tr>
+<tr class="memdesc:a32aa7d4f60f150b8781e4681a1823a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the headers in the reference data file. <br /></td></tr>
+<tr class="separator:a32aa7d4f60f150b8781e4681a1823a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70c8cd90df3fc74bade9f96f78ebbb59"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70c8cd90df3fc74bade9f96f78ebbb59"></a>
+const <a class="el" href="namespacechrono_1_1utils.html#a65c3f88148b339cd4197dd3cf0fae435">Data</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#a70c8cd90df3fc74bade9f96f78ebbb59">GetRefData</a> () const </td></tr>
+<tr class="memdesc:a70c8cd90df3fc74bade9f96f78ebbb59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the reference data. <br /></td></tr>
+<tr class="separator:a70c8cd90df3fc74bade9f96f78ebbb59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba3dd14f55bda5415da567d1e89706fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba3dd14f55bda5415da567d1e89706fe"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#aba3dd14f55bda5415da567d1e89706fe">GetL2norm</a> (size_t col) const </td></tr>
+<tr class="memdesc:aba3dd14f55bda5415da567d1e89706fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the L2 norm for the specified column. <br /></td></tr>
+<tr class="separator:aba3dd14f55bda5415da567d1e89706fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a734e5342d48042fe9778fc66ca71e7c3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a734e5342d48042fe9778fc66ca71e7c3"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#a734e5342d48042fe9778fc66ca71e7c3">GetRMSnorm</a> (size_t col) const </td></tr>
+<tr class="memdesc:a734e5342d48042fe9778fc66ca71e7c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the RMS norm for the specified column. <br /></td></tr>
+<tr class="separator:a734e5342d48042fe9778fc66ca71e7c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1678f04693d96e1f9ed916b0d55b453"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1678f04693d96e1f9ed916b0d55b453"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#aa1678f04693d96e1f9ed916b0d55b453">GetINFnorm</a> (size_t col) const </td></tr>
+<tr class="memdesc:aa1678f04693d96e1f9ed916b0d55b453"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the infinity norm for the specified column. <br /></td></tr>
+<tr class="separator:aa1678f04693d96e1f9ed916b0d55b453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4576d6c7ddbc69c4caf95ce25d734e9a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4576d6c7ddbc69c4caf95ce25d734e9a"></a>
+const <a class="el" href="namespacechrono_1_1utils.html#a0cc8e240ea584807ef82f9cfeab5fa57">DataVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#a4576d6c7ddbc69c4caf95ce25d734e9a">GetL2norms</a> () const </td></tr>
+<tr class="memdesc:a4576d6c7ddbc69c4caf95ce25d734e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the L2 norms for all columns. <br /></td></tr>
+<tr class="separator:a4576d6c7ddbc69c4caf95ce25d734e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69be09396d9c27fb825f9c068f28e82c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a69be09396d9c27fb825f9c068f28e82c"></a>
+const <a class="el" href="namespacechrono_1_1utils.html#a0cc8e240ea584807ef82f9cfeab5fa57">DataVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#a69be09396d9c27fb825f9c068f28e82c">GetRMSnorms</a> () const </td></tr>
+<tr class="memdesc:a69be09396d9c27fb825f9c068f28e82c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the RMS norm for all columns. <br /></td></tr>
+<tr class="separator:a69be09396d9c27fb825f9c068f28e82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9dbfc1643dfe52fb4ce3d00fc3d61e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9dbfc1643dfe52fb4ce3d00fc3d61e2"></a>
+const <a class="el" href="namespacechrono_1_1utils.html#a0cc8e240ea584807ef82f9cfeab5fa57">DataVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#af9dbfc1643dfe52fb4ce3d00fc3d61e2">GetINFnorms</a> () const </td></tr>
+<tr class="memdesc:af9dbfc1643dfe52fb4ce3d00fc3d61e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the infinity norms for all columns. <br /></td></tr>
+<tr class="separator:af9dbfc1643dfe52fb4ce3d00fc3d61e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aaae8ea06f3ba3e0e4e2c11bb1ac1ff9d"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1utils_1_1_ch_validation.html#aaae8ea06f3ba3e0e4e2c11bb1ac1ff9d">ReadDataFile</a> (const std::string &amp;filename, char delim, <a class="el" href="namespacechrono_1_1utils.html#a6b6c9acc22c35718986dc6f09239a86f">Headers</a> &amp;headers, <a class="el" href="namespacechrono_1_1utils.html#a65c3f88148b339cd4197dd3cf0fae435">Data</a> &amp;data)</td></tr>
+<tr class="memdesc:aaae8ea06f3ba3e0e4e2c11bb1ac1ff9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the specified data file.  <a href="#aaae8ea06f3ba3e0e4e2c11bb1ac1ff9d">More...</a><br /></td></tr>
+<tr class="separator:aaae8ea06f3ba3e0e4e2c11bb1ac1ff9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="adfa5bfe5fe73231e9cdd4c93a0a0f8bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::utils::ChValidation::Process </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sim_filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>ref_filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>delim</em> = <code>'\t'</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the data from the specified files and process it. </p>
+<p>Excluding the first column (which must contain identical values in the two input files), we subtract the data in corresponding columns in the two files are and calculate the norms of the difference vectors. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sim_filename</td><td>name of the file with simulation results </td></tr>
+    <tr><td class="paramname">ref_filename</td><td>name of the file with reference data </td></tr>
+    <tr><td class="paramname">delim</td><td>delimiter (default TAB) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad9d3e020c1fed8cb25578142c44e8af3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::utils::ChValidation::Process </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacechrono_1_1utils.html#a65c3f88148b339cd4197dd3cf0fae435">Data</a> &amp;&#160;</td>
+          <td class="paramname"><em>sim_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacechrono_1_1utils.html#a65c3f88148b339cd4197dd3cf0fae435">Data</a> &amp;&#160;</td>
+          <td class="paramname"><em>ref_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Process the data in the two specified structures. </p>
+<p>Excluding the first column (which must contain identical values in the two input structures), we subtract the data in corresponding columns in the two structures are and calculate the norms of the difference vectors. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sim_data</td><td>simulation data strcture </td></tr>
+    <tr><td class="paramname">ref_data</td><td>reference data structure </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a41aac35d8a434a013b77d9457d9fdcfb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::utils::ChValidation::Process </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sim_filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>delim</em> = <code>'\t'</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the data in the specified file and process it. </p>
+<p>We calculate the vector norms of all columns except the first one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sim_filename</td><td>name of the file with simulation results </td></tr>
+    <tr><td class="paramname">delim</td><td>delimiter (default TAB) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0893df6b61241277bafbd0f0a824b46e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::utils::ChValidation::Process </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacechrono_1_1utils.html#a65c3f88148b339cd4197dd3cf0fae435">Data</a> &amp;&#160;</td>
+          <td class="paramname"><em>sim_data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Process the data in the specified structure. </p>
+<p>We calculate the vector norms of all columns except the first one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sim_data</td><td>simulation data structure </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aaae8ea06f3ba3e0e4e2c11bb1ac1ff9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t chrono::utils::ChValidation::ReadDataFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>delim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacechrono_1_1utils.html#a6b6c9acc22c35718986dc6f09239a86f">Headers</a> &amp;&#160;</td>
+          <td class="paramname"><em>headers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacechrono_1_1utils.html#a65c3f88148b339cd4197dd3cf0fae435">Data</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read the specified data file. </p>
+<p>The file is assumed to be delimited by the specified character. The return value is the actual number of data points read from the file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">filename</td><td>name of the data file </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">delim</td><td>delimiter </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">headers</td><td>vector of column header strings </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">data</td><td>table of data values </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:23 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

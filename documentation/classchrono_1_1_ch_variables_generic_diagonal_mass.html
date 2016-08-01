@@ -1,0 +1,383 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChVariablesGenericDiagonalMass Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_variables_generic_diagonal_mass.html">ChVariablesGenericDiagonalMass</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1_ch_variables_generic_diagonal_mass-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChVariablesGenericDiagonalMass Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Specialized class for representing a N-DOF item for a system, that is an item with a diagonal mass matrix and associate variables. </p>
+</div>
+<p><code>#include &lt;ChVariablesGenericDiagonalMass.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChVariablesGenericDiagonalMass:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_variables_generic_diagonal_mass__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_variables_generic_diagonal_mass_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_variables_generic_diagonal_mass_inherit__map" id="chrono_1_1_ch_variables_generic_diagonal_mass_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ..." alt="" coords="28,5,168,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::ChVariablesGenericDiagonalMass:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_variables_generic_diagonal_mass__coll__graph.png" border="0" usemap="#chrono_1_1_ch_variables_generic_diagonal_mass_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1_ch_variables_generic_diagonal_mass_coll__map" id="chrono_1_1_ch_variables_generic_diagonal_mass_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ..." alt="" coords="28,5,168,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a6a9bdd05280c328641e31c4d86d4e8d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a9bdd05280c328641e31c4d86d4e8d3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChVariablesGenericDiagonalMass</b> (int m_ndof=1)</td></tr>
+<tr class="separator:a6a9bdd05280c328641e31c4d86d4e8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42ce5fd7873ad237719fec9fedef36e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42ce5fd7873ad237719fec9fedef36e2"></a>
+<a class="el" href="classchrono_1_1_ch_variables_generic_diagonal_mass.html">ChVariablesGenericDiagonalMass</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables_generic_diagonal_mass.html#a42ce5fd7873ad237719fec9fedef36e2">operator=</a> (const <a class="el" href="classchrono_1_1_ch_variables_generic_diagonal_mass.html">ChVariablesGenericDiagonalMass</a> &amp;other)</td></tr>
+<tr class="memdesc:a42ce5fd7873ad237719fec9fedef36e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator: copy from other object. <br /></td></tr>
+<tr class="separator:a42ce5fd7873ad237719fec9fedef36e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8318cdd227a75370916140996df63c9e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8318cdd227a75370916140996df63c9e"></a>
+<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables_generic_diagonal_mass.html#a8318cdd227a75370916140996df63c9e">GetMassDiagonal</a> ()</td></tr>
+<tr class="memdesc:a8318cdd227a75370916140996df63c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the diagonal mass. <br /></td></tr>
+<tr class="separator:a8318cdd227a75370916140996df63c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad43e579b078a4e913ada318926191faa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad43e579b078a4e913ada318926191faa"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables_generic_diagonal_mass.html#ad43e579b078a4e913ada318926191faa">Get_ndof</a> () const override</td></tr>
+<tr class="memdesc:ad43e579b078a4e913ada318926191faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of scalar variables in the vector qb (dof=degrees of freedom) <br /></td></tr>
+<tr class="separator:ad43e579b078a4e913ada318926191faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ee212156ccd062aad40890c7241c9b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a08ee212156ccd062aad40890c7241c9b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables_generic_diagonal_mass.html#a08ee212156ccd062aad40890c7241c9b">Compute_invMb_v</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;result, const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;vect) const override</td></tr>
+<tr class="memdesc:a08ee212156ccd062aad40890c7241c9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the product of the inverse mass matrix by a vector, and add to result: result = [invMb]*vect. <br /></td></tr>
+<tr class="separator:a08ee212156ccd062aad40890c7241c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e682eb31d1bf8f62ebde30cce3ba31"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62e682eb31d1bf8f62ebde30cce3ba31"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables_generic_diagonal_mass.html#a62e682eb31d1bf8f62ebde30cce3ba31">Compute_inc_invMb_v</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;result, const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;vect) const override</td></tr>
+<tr class="memdesc:a62e682eb31d1bf8f62ebde30cce3ba31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the product of the inverse mass matrix by a vector, and increment result: result += [invMb]*vect. <br /></td></tr>
+<tr class="separator:a62e682eb31d1bf8f62ebde30cce3ba31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf2d4985bbe241d5cfdfb5535cb8a126"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf2d4985bbe241d5cfdfb5535cb8a126"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables_generic_diagonal_mass.html#aaf2d4985bbe241d5cfdfb5535cb8a126">Compute_inc_Mb_v</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;result, const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;vect) const override</td></tr>
+<tr class="memdesc:aaf2d4985bbe241d5cfdfb5535cb8a126"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the product of the mass matrix by a vector, and set in result: result = [Mb]*vect. <br /></td></tr>
+<tr class="separator:aaf2d4985bbe241d5cfdfb5535cb8a126"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb0b213272e1019c83ffe293a7dbd06c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables_generic_diagonal_mass.html#afb0b213272e1019c83ffe293a7dbd06c">MultiplyAndAdd</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;result, const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;vect, const double c_a) const override</td></tr>
+<tr class="memdesc:afb0b213272e1019c83ffe293a7dbd06c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the product of the corresponding block in the system matrix (ie.  <a href="#afb0b213272e1019c83ffe293a7dbd06c">More...</a><br /></td></tr>
+<tr class="separator:afb0b213272e1019c83ffe293a7dbd06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f9a27135e214d0f5f312d4101dec4b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables_generic_diagonal_mass.html#a93f9a27135e214d0f5f312d4101dec4b">DiagonalAdd</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;result, const double c_a) const override</td></tr>
+<tr class="memdesc:a93f9a27135e214d0f5f312d4101dec4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the diagonal of the mass matrix scaled by c_a, to 'result'.  <a href="#a93f9a27135e214d0f5f312d4101dec4b">More...</a><br /></td></tr>
+<tr class="separator:a93f9a27135e214d0f5f312d4101dec4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8102b46954665634e689f1be1fea6a1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables_generic_diagonal_mass.html#ac8102b46954665634e689f1be1fea6a1">Build_M</a> (<a class="el" href="classchrono_1_1_ch_sparse_matrix.html">ChSparseMatrix</a> &amp;storage, int insrow, int inscol, const double c_a) override</td></tr>
+<tr class="memdesc:ac8102b46954665634e689f1be1fea6a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the mass matrix (for these variables) scaled by c_a, storing it in 'storage' sparse matrix, at given column/row offset.  <a href="#ac8102b46954665634e689f1be1fea6a1">More...</a><br /></td></tr>
+<tr class="separator:ac8102b46954665634e689f1be1fea6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_variables"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_variables')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_variables.html">chrono::ChVariables</a></td></tr>
+<tr class="memitem:abd0c652d3d09b4aec89ebd335f62043f inherit pub_methods_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd0c652d3d09b4aec89ebd335f62043f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChVariables</b> (int m_ndof)</td></tr>
+<tr class="separator:abd0c652d3d09b4aec89ebd335f62043f inherit pub_methods_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52b50c7e922b19946dff2e20ea79e82d inherit pub_methods_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a52b50c7e922b19946dff2e20ea79e82d"></a>
+<a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables.html#a52b50c7e922b19946dff2e20ea79e82d">operator=</a> (const <a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> &amp;other)</td></tr>
+<tr class="memdesc:a52b50c7e922b19946dff2e20ea79e82d inherit pub_methods_classchrono_1_1_ch_variables"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator: copy from other object. <br /></td></tr>
+<tr class="separator:a52b50c7e922b19946dff2e20ea79e82d inherit pub_methods_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11676d14323179bd70e1bb9ba0326486 inherit pub_methods_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables.html#a11676d14323179bd70e1bb9ba0326486">SetDisabled</a> (bool mdis)</td></tr>
+<tr class="memdesc:a11676d14323179bd70e1bb9ba0326486 inherit pub_methods_classchrono_1_1_ch_variables"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivates/freezes the variable (these 'frozen', variables won't be modified by the system solver).  <a href="#a11676d14323179bd70e1bb9ba0326486">More...</a><br /></td></tr>
+<tr class="separator:a11676d14323179bd70e1bb9ba0326486 inherit pub_methods_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb58d99850666ff26e90e5e15a12e6e0 inherit pub_methods_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables.html#adb58d99850666ff26e90e5e15a12e6e0">IsDisabled</a> () const </td></tr>
+<tr class="memdesc:adb58d99850666ff26e90e5e15a12e6e0 inherit pub_methods_classchrono_1_1_ch_variables"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells if the variables have been deactivated (these 'frozen', variables won't be modified by the system solver).  <a href="#adb58d99850666ff26e90e5e15a12e6e0">More...</a><br /></td></tr>
+<tr class="separator:adb58d99850666ff26e90e5e15a12e6e0 inherit pub_methods_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad89c808bb145578e2f10d9bf96d5ba7c inherit pub_methods_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables.html#ad89c808bb145578e2f10d9bf96d5ba7c">IsActive</a> () const </td></tr>
+<tr class="memdesc:ad89c808bb145578e2f10d9bf96d5ba7c inherit pub_methods_classchrono_1_1_ch_variables"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells if these variables are currently active, in general, that is tells if they must be included into the system solver or not.  <a href="#ad89c808bb145578e2f10d9bf96d5ba7c">More...</a><br /></td></tr>
+<tr class="separator:ad89c808bb145578e2f10d9bf96d5ba7c inherit pub_methods_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45ca153b424a8968773535972379ef45 inherit pub_methods_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a45ca153b424a8968773535972379ef45"></a>
+<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables.html#a45ca153b424a8968773535972379ef45">Get_qb</a> ()</td></tr>
+<tr class="memdesc:a45ca153b424a8968773535972379ef45 inherit pub_methods_classchrono_1_1_ch_variables"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns reference to qb, body-relative part of degrees of freedom q in system: | M -Cq'|*|q|- | f|= |0| , c&gt;0, l&gt;0, l*r=0; | Cq 0 | |l| |-b| |c|. <br /></td></tr>
+<tr class="separator:a45ca153b424a8968773535972379ef45 inherit pub_methods_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fef6d7c83deecc6152a4c4426661c3a inherit pub_methods_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables.html#a0fef6d7c83deecc6152a4c4426661c3a">Compute_fb</a> ()</td></tr>
+<tr class="memdesc:a0fef6d7c83deecc6152a4c4426661c3a inherit pub_methods_classchrono_1_1_ch_variables"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute fb, body-relative part of known vector f in system.  <a href="#a0fef6d7c83deecc6152a4c4426661c3a">More...</a><br /></td></tr>
+<tr class="separator:a0fef6d7c83deecc6152a4c4426661c3a inherit pub_methods_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8da01b4fd8b0815bde21e7132715d239 inherit pub_methods_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables.html#a8da01b4fd8b0815bde21e7132715d239">Get_fb</a> ()</td></tr>
+<tr class="memdesc:a8da01b4fd8b0815bde21e7132715d239 inherit pub_methods_classchrono_1_1_ch_variables"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns reference to fb, body-relative part of known vector f in system.  <a href="#a8da01b4fd8b0815bde21e7132715d239">More...</a><br /></td></tr>
+<tr class="separator:a8da01b4fd8b0815bde21e7132715d239 inherit pub_methods_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f60722c1ab10a686fbe43c48c97ed7b inherit pub_methods_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f60722c1ab10a686fbe43c48c97ed7b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables.html#a5f60722c1ab10a686fbe43c48c97ed7b">SetOffset</a> (int moff)</td></tr>
+<tr class="memdesc:a5f60722c1ab10a686fbe43c48c97ed7b inherit pub_methods_classchrono_1_1_ch_variables"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set offset in global q vector (set automatically by <a class="el" href="classchrono_1_1_ch_system_descriptor.html" title="Base class for collecting objects inherited from ChConstraint , ChVariables and, optionally ChKblock...">ChSystemDescriptor</a>) <br /></td></tr>
+<tr class="separator:a5f60722c1ab10a686fbe43c48c97ed7b inherit pub_methods_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a485038170510ffe5a3a10c46e019ed49 inherit pub_methods_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a485038170510ffe5a3a10c46e019ed49"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables.html#a485038170510ffe5a3a10c46e019ed49">GetOffset</a> () const </td></tr>
+<tr class="memdesc:a485038170510ffe5a3a10c46e019ed49 inherit pub_methods_classchrono_1_1_ch_variables"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get offset in global q vector. <br /></td></tr>
+<tr class="separator:a485038170510ffe5a3a10c46e019ed49 inherit pub_methods_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a736072fe898fc75b90bc81e9e09cccc8 inherit pub_methods_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a736072fe898fc75b90bc81e9e09cccc8"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ArchiveOUT</b> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="separator:a736072fe898fc75b90bc81e9e09cccc8 inherit pub_methods_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455b9a7431975b7d6d6bc44d78599a7a inherit pub_methods_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a455b9a7431975b7d6d6bc44d78599a7a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ArchiveIN</b> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="separator:a455b9a7431975b7d6d6bc44d78599a7a inherit pub_methods_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_variables"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_variables')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_variables.html">chrono::ChVariables</a></td></tr>
+<tr class="memitem:a45456c5fd02ef8b6a6c1d06a2acfd99e inherit pro_attribs_classchrono_1_1_ch_variables"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a45456c5fd02ef8b6a6c1d06a2acfd99e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_variables.html#a45456c5fd02ef8b6a6c1d06a2acfd99e">offset</a></td></tr>
+<tr class="memdesc:a45456c5fd02ef8b6a6c1d06a2acfd99e inherit pro_attribs_classchrono_1_1_ch_variables"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset in global q state vector (needed by some solvers) <br /></td></tr>
+<tr class="separator:a45456c5fd02ef8b6a6c1d06a2acfd99e inherit pro_attribs_classchrono_1_1_ch_variables"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac8102b46954665634e689f1be1fea6a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChVariablesGenericDiagonalMass::Build_M </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_sparse_matrix.html">ChSparseMatrix</a> &amp;&#160;</td>
+          <td class="paramname"><em>storage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>insrow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>inscol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>c_a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Build the mass matrix (for these variables) scaled by c_a, storing it in 'storage' sparse matrix, at given column/row offset. </p>
+<p>Note, most iterative solvers don't need to know mass matrix explicitly. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_variables.html#afc7379e2e9d3e90c005b1a6d0de2efce">chrono::ChVariables</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a93f9a27135e214d0f5f312d4101dec4b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChVariablesGenericDiagonalMass::DiagonalAdd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>c_a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add the diagonal of the mass matrix scaled by c_a, to 'result'. </p>
+<p>NOTE: the 'result' vector must already have the size of system unknowns, ie the size of the total variables&amp;constraints in the system; the procedure will use the ChVariable offset (that must be already updated) as index. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_variables.html#afadd754f904de04ccb98825e39654644">chrono::ChVariables</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afb0b213272e1019c83ffe293a7dbd06c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChVariablesGenericDiagonalMass::MultiplyAndAdd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>c_a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the product of the corresponding block in the system matrix (ie. </p>
+<p>the mass matrix) by 'vect', scale by c_a, and add to 'result'. NOTE: the 'vect' and 'result' vectors must already have the size of the total variables&amp;constraints in the system; the procedure will use the ChVariable offsets (that must be already updated) to know the indexes in result and vect. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_variables.html#a6b91bea62e898e3abe89d1e58972944c">chrono::ChVariables</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:19 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

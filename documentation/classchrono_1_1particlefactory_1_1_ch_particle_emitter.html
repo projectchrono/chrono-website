@@ -1,0 +1,352 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::particlefactory::ChParticleEmitter Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1particlefactory.html">particlefactory</a></li><li class="navelem"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html">ChParticleEmitter</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1particlefactory_1_1_ch_particle_emitter-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::particlefactory::ChParticleEmitter Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for emitters of particles, with random positions, rotations, and random shapes. </p>
+<p>You can setup a variety of different emitters by assembling different types of items inherited by classes like <a class="el" href="classchrono_1_1particlefactory_1_1_ch_random_shape_creator.html" title="BASE class for generators of random ChBody shapes. ">ChRandomShapeCreator</a>, <a class="el" href="classchrono_1_1particlefactory_1_1_ch_random_particle_position.html" title="BASE class for generators of random particle positions. ">ChRandomParticlePosition</a>, etc. </p>
+</div>
+<p><code>#include &lt;ChParticleEmitter.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a5704cde89a426f3c462c1457cfa127b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5704cde89a426f3c462c1457cfa127b2"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>eChFlowMode</b> { <b>FLOW_PARTICLESPERSECOND</b>, 
+<b>FLOW_MASSPERSECOND</b>
+ }</td></tr>
+<tr class="separator:a5704cde89a426f3c462c1457cfa127b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a3776d275a641a1d597fdb76c47238975"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a3776d275a641a1d597fdb76c47238975">EmitParticles</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;msystem, double mdt, <a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt;&gt; pre_transform=<a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt;&gt;())</td></tr>
+<tr class="memdesc:a3776d275a641a1d597fdb76c47238975"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that creates random particles with random shape, position and alignment each time it is called.  <a href="#a3776d275a641a1d597fdb76c47238975">More...</a><br /></td></tr>
+<tr class="separator:a3776d275a641a1d597fdb76c47238975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af43491b86bbbc8d80fb7a7d8fe6c492a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af43491b86bbbc8d80fb7a7d8fe6c492a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#af43491b86bbbc8d80fb7a7d8fe6c492a">SetCallbackPostCreation</a> (<a class="el" href="classchrono_1_1particlefactory_1_1_ch_callback_post_creation.html">ChCallbackPostCreation</a> *mcallback)</td></tr>
+<tr class="memdesc:af43491b86bbbc8d80fb7a7d8fe6c492a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pass an object from a ChPostCreationCallback-inherited class if you want to set additional stuff on each created particle (ex.set some random asset, set some random material, or such) <br /></td></tr>
+<tr class="separator:af43491b86bbbc8d80fb7a7d8fe6c492a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4cbc0a9574379a5476da96356a46bd5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4cbc0a9574379a5476da96356a46bd5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#ad4cbc0a9574379a5476da96356a46bd5">SetParticleCreator</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1particlefactory_1_1_ch_random_shape_creator.html">ChRandomShapeCreator</a> &gt; mc)</td></tr>
+<tr class="memdesc:ad4cbc0a9574379a5476da96356a46bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle creator, that is an object whose class is inherited from <a class="el" href="classchrono_1_1particlefactory_1_1_ch_random_shape_creator.html" title="BASE class for generators of random ChBody shapes. ">ChRandomShapeCreator</a>. <br /></td></tr>
+<tr class="separator:ad4cbc0a9574379a5476da96356a46bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c17e060f7957f42781eff1a0299f043"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7c17e060f7957f42781eff1a0299f043"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a7c17e060f7957f42781eff1a0299f043">SetParticlePositioner</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1particlefactory_1_1_ch_random_particle_position.html">ChRandomParticlePosition</a> &gt; mc)</td></tr>
+<tr class="memdesc:a7c17e060f7957f42781eff1a0299f043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle positioner, that generates different positions for each particle. <br /></td></tr>
+<tr class="separator:a7c17e060f7957f42781eff1a0299f043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84fcac32e3afbfb0020479aeee0e7604"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84fcac32e3afbfb0020479aeee0e7604"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a84fcac32e3afbfb0020479aeee0e7604">SetParticleAligner</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1particlefactory_1_1_ch_random_particle_alignment.html">ChRandomParticleAlignment</a> &gt; mc)</td></tr>
+<tr class="memdesc:a84fcac32e3afbfb0020479aeee0e7604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle aligner, that generates different rotations for each particle. <br /></td></tr>
+<tr class="separator:a84fcac32e3afbfb0020479aeee0e7604"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35fe334005b554d61a40861013db9f57"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35fe334005b554d61a40861013db9f57"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a35fe334005b554d61a40861013db9f57">SetParticleVelocity</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1particlefactory_1_1_ch_random_particle_velocity.html">ChRandomParticleVelocity</a> &gt; mc)</td></tr>
+<tr class="memdesc:a35fe334005b554d61a40861013db9f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the generator of particle velocities, that generates different initial speed for each particle. <br /></td></tr>
+<tr class="separator:a35fe334005b554d61a40861013db9f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a375a2e7b69d47647f90571f8832bf2f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a375a2e7b69d47647f90571f8832bf2f8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a375a2e7b69d47647f90571f8832bf2f8">SetParticleAngularVelocity</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1particlefactory_1_1_ch_random_particle_velocity.html">ChRandomParticleVelocity</a> &gt; mc)</td></tr>
+<tr class="memdesc:a375a2e7b69d47647f90571f8832bf2f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the generator of angular velocities, for different initial angular velocity for each particle. <br /></td></tr>
+<tr class="separator:a375a2e7b69d47647f90571f8832bf2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1edc654956f718c1b1d2750d46c10918"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a1edc654956f718c1b1d2750d46c10918">SetFlowControlMode</a> (eChFlowMode mymode)</td></tr>
+<tr class="memdesc:a1edc654956f718c1b1d2750d46c10918"><td class="mdescLeft">&#160;</td><td class="mdescRight">define a flow rate measured as n.of particles per second [part/s], as by default or a flow rate measured as kg per second [kg/s].  <a href="#a1edc654956f718c1b1d2750d46c10918">More...</a><br /></td></tr>
+<tr class="separator:a1edc654956f718c1b1d2750d46c10918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bb02aeaf65aed2146b944523215e87a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8bb02aeaf65aed2146b944523215e87a"></a>
+eChFlowMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a8bb02aeaf65aed2146b944523215e87a">GetFlowControlMode</a> ()</td></tr>
+<tr class="memdesc:a8bb02aeaf65aed2146b944523215e87a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report if flow rate is measured as [part/s] or [kg/s]. <br /></td></tr>
+<tr class="separator:a8bb02aeaf65aed2146b944523215e87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a14ca30c5012487f3a1ff1e15ca894c"><td class="memItemLeft" align="right" valign="top">double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a8a14ca30c5012487f3a1ff1e15ca894c">ParticlesPerSecond</a> ()</td></tr>
+<tr class="memdesc:a8a14ca30c5012487f3a1ff1e15ca894c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the flow rate, measured as n.of particles per second [part/s].  <a href="#a8a14ca30c5012487f3a1ff1e15ca894c">More...</a><br /></td></tr>
+<tr class="separator:a8a14ca30c5012487f3a1ff1e15ca894c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6778513b9f374a95cd6f8af5d0a25776"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6778513b9f374a95cd6f8af5d0a25776"></a>
+double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a6778513b9f374a95cd6f8af5d0a25776">MassPerSecond</a> ()</td></tr>
+<tr class="memdesc:a6778513b9f374a95cd6f8af5d0a25776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the flow rate, measured as kg per second [kg/s]. <br /></td></tr>
+<tr class="separator:a6778513b9f374a95cd6f8af5d0a25776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2ce693312f83a2b3165b7fd5409fa99"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2ce693312f83a2b3165b7fd5409fa99"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#ae2ce693312f83a2b3165b7fd5409fa99">SetUseParticleReservoir</a> (bool ml)</td></tr>
+<tr class="memdesc:ae2ce693312f83a2b3165b7fd5409fa99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on this to limit on max amount of particles. <br /></td></tr>
+<tr class="separator:ae2ce693312f83a2b3165b7fd5409fa99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13a1f506c9e392cd213f854df799ed61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13a1f506c9e392cd213f854df799ed61"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a13a1f506c9e392cd213f854df799ed61">SetUseMassReservoir</a> (bool ml)</td></tr>
+<tr class="memdesc:a13a1f506c9e392cd213f854df799ed61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on this to limit on max mass of particles. <br /></td></tr>
+<tr class="separator:a13a1f506c9e392cd213f854df799ed61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0f014d3e3851efd5675a8a2f72d68b7"><td class="memItemLeft" align="right" valign="top">int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#ad0f014d3e3851efd5675a8a2f72d68b7">ParticleReservoirAmount</a> ()</td></tr>
+<tr class="memdesc:ad0f014d3e3851efd5675a8a2f72d68b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the max number of particles to create - after this goes to 0, the creation stops.  <a href="#ad0f014d3e3851efd5675a8a2f72d68b7">More...</a><br /></td></tr>
+<tr class="separator:ad0f014d3e3851efd5675a8a2f72d68b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54bed92184e2c550c2a2c3790c7eac08"><td class="memItemLeft" align="right" valign="top">double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a54bed92184e2c550c2a2c3790c7eac08">MassReservoirAmount</a> ()</td></tr>
+<tr class="memdesc:a54bed92184e2c550c2a2c3790c7eac08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the max mass of particles to create - after this goes to 0, the creation stops.  <a href="#a54bed92184e2c550c2a2c3790c7eac08">More...</a><br /></td></tr>
+<tr class="separator:a54bed92184e2c550c2a2c3790c7eac08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e45ed2d29ba58be251b23a5e4ed6799"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e45ed2d29ba58be251b23a5e4ed6799"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a3e45ed2d29ba58be251b23a5e4ed6799">GetTotCreatedParticles</a> ()</td></tr>
+<tr class="memdesc:a3e45ed2d29ba58be251b23a5e4ed6799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total amount of created particles. <br /></td></tr>
+<tr class="separator:a3e45ed2d29ba58be251b23a5e4ed6799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5590cb8da261f483934d99cd8dc29b0a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5590cb8da261f483934d99cd8dc29b0a"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a5590cb8da261f483934d99cd8dc29b0a">GetTotCreatedMass</a> ()</td></tr>
+<tr class="memdesc:a5590cb8da261f483934d99cd8dc29b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total mass of created particles. <br /></td></tr>
+<tr class="separator:a5590cb8da261f483934d99cd8dc29b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa402269f890e55c28ad65464573c3278"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa402269f890e55c28ad65464573c3278"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#aa402269f890e55c28ad65464573c3278">SetInheritSpeed</a> (bool mi)</td></tr>
+<tr class="memdesc:aa402269f890e55c28ad65464573c3278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on this to have the particles 'inherit' the speed of the owner body in pre_transform. <br /></td></tr>
+<tr class="separator:aa402269f890e55c28ad65464573c3278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b18f4f6ad84c4bdedecae9d7fc5ec79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a2b18f4f6ad84c4bdedecae9d7fc5ec79">SetJitterDeclustering</a> (bool mj)</td></tr>
+<tr class="memdesc:a2b18f4f6ad84c4bdedecae9d7fc5ec79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on this to avoid quantization if generating from an object that has high speed in pre_transform (so avoids clusters in jets of particles).  <a href="#a2b18f4f6ad84c4bdedecae9d7fc5ec79">More...</a><br /></td></tr>
+<tr class="separator:a2b18f4f6ad84c4bdedecae9d7fc5ec79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a3776d275a641a1d597fdb76c47238975"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::particlefactory::ChParticleEmitter::EmitParticles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> &amp;&#160;</td>
+          <td class="paramname"><em>msystem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mdt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt;&gt;&#160;</td>
+          <td class="paramname"><em>pre_transform</em> = <code><a class="el" href="classchrono_1_1_ch_frame_moving.html">ChFrameMoving</a>&lt;&gt;()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that creates random particles with random shape, position and alignment each time it is called. </p>
+<p>Typically, one calls this function once per timestep. </p>
+
+</div>
+</div>
+<a class="anchor" id="a54bed92184e2c550c2a2c3790c7eac08"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double&amp; chrono::particlefactory::ChParticleEmitter::MassReservoirAmount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access the max mass of particles to create - after this goes to 0, the creation stops. </p>
+<p>Remember to turn on this limit with SetLimitMassAmount() </p>
+
+</div>
+</div>
+<a class="anchor" id="ad0f014d3e3851efd5675a8a2f72d68b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int&amp; chrono::particlefactory::ChParticleEmitter::ParticleReservoirAmount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access the max number of particles to create - after this goes to 0, the creation stops. </p>
+<p>Remember to turn on this limit with SetLimitParticleAmount() </p>
+
+</div>
+</div>
+<a class="anchor" id="a8a14ca30c5012487f3a1ff1e15ca894c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double&amp; chrono::particlefactory::ChParticleEmitter::ParticlesPerSecond </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access the flow rate, measured as n.of particles per second [part/s]. </p>
+<p>This is meaningful only if in </p>
+
+</div>
+</div>
+<a class="anchor" id="a1edc654956f718c1b1d2750d46c10918"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::particlefactory::ChParticleEmitter::SetFlowControlMode </td>
+          <td>(</td>
+          <td class="paramtype">eChFlowMode&#160;</td>
+          <td class="paramname"><em>mymode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>define a flow rate measured as n.of particles per second [part/s], as by default or a flow rate measured as kg per second [kg/s]. </p>
+<p>Then, use <a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a8a14ca30c5012487f3a1ff1e15ca894c" title="Access the flow rate, measured as n.of particles per second [part/s]. ">ParticlesPerSecond()</a> or <a class="el" href="classchrono_1_1particlefactory_1_1_ch_particle_emitter.html#a6778513b9f374a95cd6f8af5d0a25776" title="Access the flow rate, measured as kg per second [kg/s]. ">MassPerSecond()</a> to tune the flow. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2b18f4f6ad84c4bdedecae9d7fc5ec79"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::particlefactory::ChParticleEmitter::SetJitterDeclustering </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Turn on this to avoid quantization if generating from an object that has high speed in pre_transform (so avoids clusters in jets of particles). </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:23 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

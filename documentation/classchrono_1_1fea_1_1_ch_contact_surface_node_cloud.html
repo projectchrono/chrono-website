@@ -1,0 +1,255 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::fea::ChContactSurfaceNodeCloud Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1fea.html">fea</a></li><li class="navelem"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud.html">ChContactSurfaceNodeCloud</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::fea::ChContactSurfaceNodeCloud Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class which defines a contact surface for FEA elements, where only xyz nodes in the FEA model are used as contact items for the collision detection. </p>
+<p>Might be an efficient option in case of dense tesselations (but misses the FEAnodes-vs-FEAfaces cases, and misses FEAedge-vs-edges) </p>
+</div>
+<p><code>#include &lt;ChContactSurfaceNodeCloud.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::fea::ChContactSurfaceNodeCloud:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud__inherit__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_contact_surface_node_cloud_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_contact_surface_node_cloud_inherit__map" id="chrono_1_1fea_1_1_ch_contact_surface_node_cloud_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1fea_1_1_ch_contact_surface.html" title="Base class for contact surfaces in FEA meshes. " alt="" coords="5,5,208,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::fea::ChContactSurfaceNodeCloud:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud__coll__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_contact_surface_node_cloud_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_contact_surface_node_cloud_coll__map" id="chrono_1_1fea_1_1_ch_contact_surface_node_cloud_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1fea_1_1_ch_contact_surface.html" title="Base class for contact surfaces in FEA meshes. " alt="" coords="1103,583,1305,609"/>
+<area shape="rect" id="node3" href="classchrono_1_1fea_1_1_ch_mesh.html" title="Class which defines a mesh of finite elements of class ChFelem, between nodes of class ChFnode..." alt="" coords="863,583,1007,609"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_indexed_nodes.html" title="Interface class for clusters of points that can be accessed with an index. " alt="" coords="493,583,664,609"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="167,532,325,559"/>
+<area shape="rect" id="node8" href="classchrono_1_1_ch_assembly.html" title="Class for assemblies of items, for example ChBody, ChLink, ChMesh, etc. " alt="" coords="507,532,651,559"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="5,532,112,559"/>
+<area shape="rect" id="node7" href="classchrono_1_1_ch_system.html" title="Physical system. " alt="" coords="869,312,1000,339"/>
+<area shape="rect" id="node9" href="classchrono_1_1_ch_integrable_i_iorder.html" title="Special subcase: II&#45;order differential system. " alt="" coords="489,5,669,32"/>
+<area shape="rect" id="node10" href="classchrono_1_1_ch_integrable.html" title="Interface class for all objects that support time integration. " alt="" coords="175,5,317,32"/>
+<area shape="rect" id="node11" href="classchrono_1_1_ch_system_descriptor.html" title="Base class for collecting objects inherited from ChConstraint , ChVariables and, optionally ChKblock..." alt="" coords="483,123,674,149"/>
+<area shape="rect" id="node12" href="classchrono_1_1_ch_timer.html" title="chrono::ChTimer\&lt; double \&gt;" alt="" coords="488,251,669,277"/>
+<area shape="rect" id="node13" href="classchrono_1_1_ch_system_1_1_ch_custom_collision_point_callback.html" title="Class to be inherited by user and to use in SetCustomCollisionPointCallback() " alt="" coords="477,302,680,343"/>
+<area shape="rect" id="node14" href="classchrono_1_1_ch_vector.html" title="Definition of general purpose 3d vector variables, such as points in 3D. " alt="" coords="491,368,666,395"/>
+<area shape="rect" id="node15" href="classchrono_1_1_ch_solver.html" title="Base class for solvers aimed at solving complementarity problems arising from QP optimization problem..." alt="" coords="517,419,640,445"/>
+<area shape="rect" id="node16" href="classchrono_1_1collision_1_1_ch_collision_system.html" title="Base class for generic collision engine. " alt="" coords="511,57,646,98"/>
+<area shape="rect" id="node17" href="classchrono_1_1collision_1_1_ch_narrow_phase_callback.html" title="Class to be used as a callback interface for the narrow phase collision system. " alt="" coords="161,122,331,163"/>
+<area shape="rect" id="node18" href="classchrono_1_1collision_1_1_ch_broad_phase_callback.html" title="Class to be used as a callback interface for the broad&#45;phase collision system. " alt="" coords="165,57,327,98"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a636560b82d2259592626f11560908e65"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a636560b82d2259592626f11560908e65"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChContactSurfaceNodeCloud</b> (<a class="el" href="classchrono_1_1fea_1_1_ch_mesh.html">ChMesh</a> *parentmesh=0)</td></tr>
+<tr class="separator:a636560b82d2259592626f11560908e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af944f7aea2bed96b8115d226f178fa7f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af944f7aea2bed96b8115d226f178fa7f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud.html#af944f7aea2bed96b8115d226f178fa7f">AddNode</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; mnode, const double point_radius=0.001)</td></tr>
+<tr class="memdesc:af944f7aea2bed96b8115d226f178fa7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a specific node to this collision cloud. <br /></td></tr>
+<tr class="separator:af944f7aea2bed96b8115d226f178fa7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4dfb8832de679ef0b90e174b6ae6fbc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4dfb8832de679ef0b90e174b6ae6fbc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud.html#ad4dfb8832de679ef0b90e174b6ae6fbc">AddNode</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html">ChNodeFEAxyzrot</a> &gt; mnode, const double point_radius=0.001)</td></tr>
+<tr class="memdesc:ad4dfb8832de679ef0b90e174b6ae6fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a specific node to this collision cloud. <br /></td></tr>
+<tr class="separator:ad4dfb8832de679ef0b90e174b6ae6fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a558862acf4fa17718ac845b4c1d28319"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a558862acf4fa17718ac845b4c1d28319"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud.html#a558862acf4fa17718ac845b4c1d28319">AddAllNodes</a> (const double point_radius=0.001)</td></tr>
+<tr class="memdesc:a558862acf4fa17718ac845b4c1d28319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add all nodes of the mesh to this collision cloud. <br /></td></tr>
+<tr class="separator:a558862acf4fa17718ac845b4c1d28319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad403c4d2711360b33ab85e5c40f60f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad403c4d2711360b33ab85e5c40f60f1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud.html#aad403c4d2711360b33ab85e5c40f60f1">AddFacesFromNodeSet</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html">ChNodeFEAbase</a> &gt; &gt; &amp;node_set, const double point_radius=0.001)</td></tr>
+<tr class="memdesc:aad403c4d2711360b33ab85e5c40f60f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add nodes of the mesh, belonging to the node_set, to this collision cloud. <br /></td></tr>
+<tr class="separator:aad403c4d2711360b33ab85e5c40f60f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dce05aa03c5c358f85e7b0df630fc92"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4dce05aa03c5c358f85e7b0df630fc92"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud.html#a4dce05aa03c5c358f85e7b0df630fc92">GetNnodes</a> () const </td></tr>
+<tr class="memdesc:a4dce05aa03c5c358f85e7b0df630fc92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of nodes. <br /></td></tr>
+<tr class="separator:a4dce05aa03c5c358f85e7b0df630fc92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36dc0f18da189f304dd6359471bb7aa0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36dc0f18da189f304dd6359471bb7aa0"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud.html#a36dc0f18da189f304dd6359471bb7aa0">GetNnodesRot</a> () const </td></tr>
+<tr class="memdesc:a36dc0f18da189f304dd6359471bb7aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of nodes with rotation too. <br /></td></tr>
+<tr class="separator:a36dc0f18da189f304dd6359471bb7aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c33db9b4f6aab033e5295220afd7e4d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2c33db9b4f6aab033e5295220afd7e4d"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_zsphere.html">ChContactNodeXYZsphere</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud.html#a2c33db9b4f6aab033e5295220afd7e4d">GetNode</a> (unsigned int n)</td></tr>
+<tr class="memdesc:a2c33db9b4f6aab033e5295220afd7e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the N-th node. <br /></td></tr>
+<tr class="separator:a2c33db9b4f6aab033e5295220afd7e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2acdfb825ebb11f8dc7ce2b051a9ae68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2acdfb825ebb11f8dc7ce2b051a9ae68"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z_r_o_tsphere.html">ChContactNodeXYZROTsphere</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud.html#a2acdfb825ebb11f8dc7ce2b051a9ae68">GetNodeRot</a> (unsigned int n)</td></tr>
+<tr class="memdesc:a2acdfb825ebb11f8dc7ce2b051a9ae68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the N-th node with rotation too. <br /></td></tr>
+<tr class="separator:a2acdfb825ebb11f8dc7ce2b051a9ae68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abef8be446e88d9a2677553491825b9c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abef8be446e88d9a2677553491825b9c0"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface_node_cloud.html#abef8be446e88d9a2677553491825b9c0">SurfaceSyncCollisionModels</a> ()</td></tr>
+<tr class="memdesc:abef8be446e88d9a2677553491825b9c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions to interface this with <a class="el" href="classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies...">ChPhysicsItem</a> container. <br /></td></tr>
+<tr class="separator:abef8be446e88d9a2677553491825b9c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0373a9d2ce9eaf06dcd8c742879669b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0373a9d2ce9eaf06dcd8c742879669b6"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SurfaceAddCollisionModelsToSystem</b> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *msys)</td></tr>
+<tr class="separator:a0373a9d2ce9eaf06dcd8c742879669b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac732f9f2aacda8c2ecb3b821424e0356"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac732f9f2aacda8c2ecb3b821424e0356"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SurfaceRemoveCollisionModelsFromSystem</b> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *msys)</td></tr>
+<tr class="separator:ac732f9f2aacda8c2ecb3b821424e0356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1fea_1_1_ch_contact_surface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface.html">chrono::fea::ChContactSurface</a></td></tr>
+<tr class="memitem:a407a07959d321a17d3452258ce53132b inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a407a07959d321a17d3452258ce53132b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChContactSurface</b> (<a class="el" href="classchrono_1_1fea_1_1_ch_mesh.html">ChMesh</a> *parentmesh=0)</td></tr>
+<tr class="separator:a407a07959d321a17d3452258ce53132b inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22809ff81e4fa4e806466c315cfd8995 inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22809ff81e4fa4e806466c315cfd8995"></a>
+<a class="el" href="classchrono_1_1fea_1_1_ch_mesh.html">ChMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface.html#a22809ff81e4fa4e806466c315cfd8995">GetMesh</a> ()</td></tr>
+<tr class="memdesc:a22809ff81e4fa4e806466c315cfd8995 inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get owner mesh. <br /></td></tr>
+<tr class="separator:a22809ff81e4fa4e806466c315cfd8995 inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a614aab07f9e55d60844cb416ecaf0f9e inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a614aab07f9e55d60844cb416ecaf0f9e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface.html#a614aab07f9e55d60844cb416ecaf0f9e">SetMesh</a> (<a class="el" href="classchrono_1_1fea_1_1_ch_mesh.html">ChMesh</a> *mm)</td></tr>
+<tr class="memdesc:a614aab07f9e55d60844cb416ecaf0f9e inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set owner mesh. <br /></td></tr>
+<tr class="separator:a614aab07f9e55d60844cb416ecaf0f9e inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afed1c79a7270dc2072e75cd96f38f92f inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afed1c79a7270dc2072e75cd96f38f92f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface.html#afed1c79a7270dc2072e75cd96f38f92f">SetMaterialSurface</a> (const std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_material_surface_base.html">ChMaterialSurfaceBase</a> &gt; &amp;mnewsurf)</td></tr>
+<tr class="memdesc:afed1c79a7270dc2072e75cd96f38f92f inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the material surface for 'boundary contact'. <br /></td></tr>
+<tr class="separator:afed1c79a7270dc2072e75cd96f38f92f inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81f88f2ee5f82f290d1b3797b72ffc09 inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81f88f2ee5f82f290d1b3797b72ffc09"></a>
+virtual std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_material_surface_base.html">ChMaterialSurfaceBase</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface.html#a81f88f2ee5f82f290d1b3797b72ffc09">GetMaterialSurfaceBase</a> ()</td></tr>
+<tr class="memdesc:a81f88f2ee5f82f290d1b3797b72ffc09 inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the material surface for 'boundary contact'. <br /></td></tr>
+<tr class="separator:a81f88f2ee5f82f290d1b3797b72ffc09 inherit pub_methods_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1fea_1_1_ch_contact_surface"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1fea_1_1_ch_contact_surface')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface.html">chrono::fea::ChContactSurface</a></td></tr>
+<tr class="memitem:ad350af00fb972ed3f65d2bfe05e90fe9 inherit pro_attribs_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad350af00fb972ed3f65d2bfe05e90fe9"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_material_surface_base.html">ChMaterialSurfaceBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface.html#ad350af00fb972ed3f65d2bfe05e90fe9">matsurface</a></td></tr>
+<tr class="memdesc:ad350af00fb972ed3f65d2bfe05e90fe9 inherit pro_attribs_classchrono_1_1fea_1_1_ch_contact_surface"><td class="mdescLeft">&#160;</td><td class="mdescRight">material for contacts <br /></td></tr>
+<tr class="separator:ad350af00fb972ed3f65d2bfe05e90fe9 inherit pro_attribs_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42018e5ef058ba0e81f5ae385697c9f5 inherit pro_attribs_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42018e5ef058ba0e81f5ae385697c9f5"></a>
+<a class="el" href="classchrono_1_1fea_1_1_ch_mesh.html">ChMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>mmesh</b></td></tr>
+<tr class="separator:a42018e5ef058ba0e81f5ae385697c9f5 inherit pro_attribs_classchrono_1_1fea_1_1_ch_contact_surface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:20 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

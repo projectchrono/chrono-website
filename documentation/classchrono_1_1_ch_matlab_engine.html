@@ -1,0 +1,263 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChMatlabEngine Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_matlab_engine.html">ChMatlabEngine</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1_ch_matlab_engine-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChMatlabEngine Class Reference<div class="ingroups"><a class="el" href="group__matlab__module.html">MATLAB module</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for accessing the Matlab engine with a C++ wrapper. </p>
+<p>When a <a class="el" href="classchrono_1_1_ch_matlab_engine.html" title="Class for accessing the Matlab engine with a C++ wrapper. ">ChMatlabEngine</a> object is instanced, a Matlab engine is started (assuming Matlab is properly installed and its dll are available on the system) and following funcitons can be used to copy variables from/to chrono::engine, and to execute commands in Matlab. Useful also to exploit the powerful plotting features of Matlab. Note! to compile programs that include this header, your makefile must be properly configured to set the Matlab SDK directory, so that matlab headers and libs can be compiled/linked Also, if you run an executable that used this header on a system that has no Matlab installed, a 'missing dll' error will pop up as soon as you try to start the program. </p>
+</div>
+<p><code>#include &lt;ChMatlabEngine.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a2a5d9c0264dc04c712515be0cc801cfe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2a5d9c0264dc04c712515be0cc801cfe"></a>
+matlabengine::Engine *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_matlab_engine.html#a2a5d9c0264dc04c712515be0cc801cfe">GetEngine</a> ()</td></tr>
+<tr class="memdesc:a2a5d9c0264dc04c712515be0cc801cfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return pointer to internal Matlab engine (avoid using it directly, if you can use other functions of this class that 'wrap' it.) <br /></td></tr>
+<tr class="separator:a2a5d9c0264dc04c712515be0cc801cfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a573c3fc8fe999e2883348b540263e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a573c3fc8fe999e2883348b540263e7"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_matlab_engine.html#a4a573c3fc8fe999e2883348b540263e7">Eval</a> (std::string mstring)</td></tr>
+<tr class="memdesc:a4a573c3fc8fe999e2883348b540263e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate a Matlab instruction (as a string). If error happens while executing, returns false. <br /></td></tr>
+<tr class="separator:a4a573c3fc8fe999e2883348b540263e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafec5ecfbf8c3497cf5618426b1f4f90"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafec5ecfbf8c3497cf5618426b1f4f90"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_matlab_engine.html#aafec5ecfbf8c3497cf5618426b1f4f90">SetVisible</a> (bool mvis)</td></tr>
+<tr class="memdesc:aafec5ecfbf8c3497cf5618426b1f4f90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set visibility of GUI matlab window. <br /></td></tr>
+<tr class="separator:aafec5ecfbf8c3497cf5618426b1f4f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f553e86aec451d176d87cea63576410"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_matlab_engine.html#a2f553e86aec451d176d87cea63576410">PutVariable</a> (const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;mmatr, std::string varname)</td></tr>
+<tr class="memdesc:a2f553e86aec451d176d87cea63576410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put a matrix in Matlab environment, specifying its name as variable.  <a href="#a2f553e86aec451d176d87cea63576410">More...</a><br /></td></tr>
+<tr class="separator:a2f553e86aec451d176d87cea63576410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8819ef2d6dd0b562c4404352a1e227b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_matlab_engine.html#a8819ef2d6dd0b562c4404352a1e227b3">PutSparseMatrix</a> (const <a class="el" href="classchrono_1_1_ch_sparse_matrix.html">ChSparseMatrix</a> &amp;mmatr, std::string varname)</td></tr>
+<tr class="memdesc:a8819ef2d6dd0b562c4404352a1e227b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put a sparse matrix in Matlab environment, specifying its name as variable.  <a href="#a8819ef2d6dd0b562c4404352a1e227b3">More...</a><br /></td></tr>
+<tr class="separator:a8819ef2d6dd0b562c4404352a1e227b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90a917c649be7875c4490a653043a51d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_matlab_engine.html#a90a917c649be7875c4490a653043a51d">GetVariable</a> (<a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt; double &gt; &amp;mmatr, std::string varname)</td></tr>
+<tr class="memdesc:a90a917c649be7875c4490a653043a51d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetch a matrix from Matlab environment, specifying its name as variable.  <a href="#a90a917c649be7875c4490a653043a51d">More...</a><br /></td></tr>
+<tr class="separator:a90a917c649be7875c4490a653043a51d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a34f3a86895156179356c33f0f47875"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a34f3a86895156179356c33f0f47875"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ArchiveOUT</b> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="separator:a9a34f3a86895156179356c33f0f47875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad46cfe924b876b5caf7180100301f4a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad46cfe924b876b5caf7180100301f4a1"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_matlab_engine.html#ad46cfe924b876b5caf7180100301f4a1">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="memdesc:ad46cfe924b876b5caf7180100301f4a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:ad46cfe924b876b5caf7180100301f4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a90a917c649be7875c4490a653043a51d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ChMatlabEngine::GetVariable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>mmatr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>varname</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fetch a matrix from Matlab environment, specifying its name as variable. </p>
+<p>The used matrix must be of <a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic&lt;double&gt;</a> type because it might undergo resizing. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8819ef2d6dd0b562c4404352a1e227b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ChMatlabEngine::PutSparseMatrix </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_sparse_matrix.html">ChSparseMatrix</a> &amp;&#160;</td>
+          <td class="paramname"><em>mmatr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>varname</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Put a sparse matrix in Matlab environment, specifying its name as variable. </p>
+<p>If a variable with the same name already exist, it is overwritten. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2f553e86aec451d176d87cea63576410"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ChMatlabEngine::PutVariable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>mmatr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>varname</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Put a matrix in Matlab environment, specifying its name as variable. </p>
+<p>If a variable with the same name already exist, it is overwritten. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:17 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

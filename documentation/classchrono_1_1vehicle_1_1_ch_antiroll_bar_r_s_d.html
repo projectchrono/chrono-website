@@ -1,0 +1,342 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChAntirollBarRSD Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html">ChAntirollBarRSD</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChAntirollBarRSD Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__wheeled.html">Wheeled vehicles</a> &raquo; <a class="el" href="group__vehicle__wheeled__antirollbar.html">Anti-roll bar subsystem</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Template for an anti-roll subsystem using an RSD. </p>
+<p>Base class for an anti-roll bar template modeled two arms connected with a revolute spring-damper. Derived from <a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar.html" title="Base class for an anti-roll bar subsystem. ">ChAntirollBar</a>, but still and abstract base class.</p>
+<p>The anti-roll bar subsystem is modeled with respect to a right-handed frame, with X pointing towards the front, Y to the left, and Z up (ISO standard). The subsystem reference frame is assumed to be always aligned with that of the vehicle. When attached to a chassis, only an offset is provided. </p>
+</div>
+<p><code>#include &lt;ChAntirollBarRSD.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::ChAntirollBarRSD:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d_inherit__map" id="chrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d_inherit__map">
+<area shape="rect" id="node3" href="classchrono_1_1vehicle_1_1_antiroll_bar_r_s_d.html" title="RSD antirollbar model constructed with data from file (JSON format). " alt="" coords="23,169,182,211"/>
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar.html" title="Base class for an anti&#45;roll bar subsystem. " alt="" coords="5,5,200,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::vehicle::ChAntirollBarRSD:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d__coll__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d_coll__map" id="chrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar.html" title="Base class for an anti&#45;roll bar subsystem. " alt="" coords="5,5,200,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a7bdf482155f931d9cb8502e845c2cbd7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a7bdf482155f931d9cb8502e845c2cbd7">ChAntirollBarRSD</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a7bdf482155f931d9cb8502e845c2cbd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cc387c46a0d46e18ebea78a302b75bc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a4cc387c46a0d46e18ebea78a302b75bc">Initialize</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt; chassis, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;location, std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt; susp_body_left, std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt; susp_body_right) override</td></tr>
+<tr class="memdesc:a4cc387c46a0d46e18ebea78a302b75bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The anti-roll bar subsystem is initialized by attaching it to the specified chassis body at the specified location (with respect to and expressed in the reference frame of the chassis).  <a href="#a4cc387c46a0d46e18ebea78a302b75bc">More...</a><br /></td></tr>
+<tr class="separator:a4cc387c46a0d46e18ebea78a302b75bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad38bc60da97c539c562efcf35e8841d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad38bc60da97c539c562efcf35e8841d6"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#ad38bc60da97c539c562efcf35e8841d6">GetMass</a> () const override</td></tr>
+<tr class="memdesc:ad38bc60da97c539c562efcf35e8841d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total mass of the anti-roll bar subsystem. <br /></td></tr>
+<tr class="separator:ad38bc60da97c539c562efcf35e8841d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa56a3b48db86a81657014ba5d002f4a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa56a3b48db86a81657014ba5d002f4a4"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#aa56a3b48db86a81657014ba5d002f4a4">LogConstraintViolations</a> () override</td></tr>
+<tr class="memdesc:aa56a3b48db86a81657014ba5d002f4a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log current constraint violations. <br /></td></tr>
+<tr class="separator:aa56a3b48db86a81657014ba5d002f4a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1vehicle_1_1_ch_antiroll_bar')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar.html">chrono::vehicle::ChAntirollBar</a></td></tr>
+<tr class="memitem:a6a2e1ba4cf3f5f65d52e298a7832b0d0 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar.html#a6a2e1ba4cf3f5f65d52e298a7832b0d0">ChAntirollBar</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a6a2e1ba4cf3f5f65d52e298a7832b0d0 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c000cedeac38c38467571681ee51885 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1c000cedeac38c38467571681ee51885"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar.html#a1c000cedeac38c38467571681ee51885">GetName</a> () const </td></tr>
+<tr class="memdesc:a1c000cedeac38c38467571681ee51885 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name identifier for this suspension subsystem. <br /></td></tr>
+<tr class="separator:a1c000cedeac38c38467571681ee51885 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a034aa90109bfd5314758f78daa24b4a2 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a034aa90109bfd5314758f78daa24b4a2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar.html#a034aa90109bfd5314758f78daa24b4a2">SetName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a034aa90109bfd5314758f78daa24b4a2 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the name identifier for this suspension subsystem. <br /></td></tr>
+<tr class="separator:a034aa90109bfd5314758f78daa24b4a2 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a8b6beca1d9ba4b14839df0cb39789236"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b6beca1d9ba4b14839df0cb39789236"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a8b6beca1d9ba4b14839df0cb39789236">getArmMass</a> () const =0</td></tr>
+<tr class="memdesc:a8b6beca1d9ba4b14839df0cb39789236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mass of the arm body. <br /></td></tr>
+<tr class="separator:a8b6beca1d9ba4b14839df0cb39789236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f93764ae1e78919def45beb26abfd73"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f93764ae1e78919def45beb26abfd73"></a>
+virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a7f93764ae1e78919def45beb26abfd73">getArmInertia</a> ()=0</td></tr>
+<tr class="memdesc:a7f93764ae1e78919def45beb26abfd73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the moments of inertia of the arm body. <br /></td></tr>
+<tr class="separator:a7f93764ae1e78919def45beb26abfd73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f28d22d47d3e53d2cf45f442d2e682"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56f28d22d47d3e53d2cf45f442d2e682"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a56f28d22d47d3e53d2cf45f442d2e682">getArmLength</a> () const =0</td></tr>
+<tr class="memdesc:a56f28d22d47d3e53d2cf45f442d2e682"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the arm length (dimension in y direction). <br /></td></tr>
+<tr class="separator:a56f28d22d47d3e53d2cf45f442d2e682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a525a8294123ca091f8dd0992723e659d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a525a8294123ca091f8dd0992723e659d"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a525a8294123ca091f8dd0992723e659d">getArmWidth</a> () const =0</td></tr>
+<tr class="memdesc:a525a8294123ca091f8dd0992723e659d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the arm width (dimension in X direction). <br /></td></tr>
+<tr class="separator:a525a8294123ca091f8dd0992723e659d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ea70fa6eee215074ee27aa863bd44f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ea70fa6eee215074ee27aa863bd44f3"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a2ea70fa6eee215074ee27aa863bd44f3">getDroplinkHeight</a> () const =0</td></tr>
+<tr class="memdesc:a2ea70fa6eee215074ee27aa863bd44f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return height of droplinks (dimension in Z direction). <br /></td></tr>
+<tr class="separator:a2ea70fa6eee215074ee27aa863bd44f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82ee044988c5f46369082a0dc6eb2965"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82ee044988c5f46369082a0dc6eb2965"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a82ee044988c5f46369082a0dc6eb2965">getArmRadius</a> () const =0</td></tr>
+<tr class="memdesc:a82ee044988c5f46369082a0dc6eb2965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return radius of arm (visualization only) <br /></td></tr>
+<tr class="separator:a82ee044988c5f46369082a0dc6eb2965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f22e566dac90e274787ec2193d54c42"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f22e566dac90e274787ec2193d54c42"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a5f22e566dac90e274787ec2193d54c42">getSpringCoefficient</a> () const =0</td></tr>
+<tr class="memdesc:a5f22e566dac90e274787ec2193d54c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the rotational spring coefficient. <br /></td></tr>
+<tr class="separator:a5f22e566dac90e274787ec2193d54c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a495f1901b66fdcfdcc8d1c987e5e78"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a495f1901b66fdcfdcc8d1c987e5e78"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a8a495f1901b66fdcfdcc8d1c987e5e78">getDampingCoefficient</a> () const =0</td></tr>
+<tr class="memdesc:a8a495f1901b66fdcfdcc8d1c987e5e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the rotational damping coefficient. <br /></td></tr>
+<tr class="separator:a8a495f1901b66fdcfdcc8d1c987e5e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a5670e1d56fd68af30032b0757a3b2043"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5670e1d56fd68af30032b0757a3b2043"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a5670e1d56fd68af30032b0757a3b2043">m_arm_left</a></td></tr>
+<tr class="memdesc:a5670e1d56fd68af30032b0757a3b2043"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to the left arm body <br /></td></tr>
+<tr class="separator:a5670e1d56fd68af30032b0757a3b2043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcb24fc2b9d45d980799cafdc36cc46d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afcb24fc2b9d45d980799cafdc36cc46d"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#afcb24fc2b9d45d980799cafdc36cc46d">m_arm_right</a></td></tr>
+<tr class="memdesc:afcb24fc2b9d45d980799cafdc36cc46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to the right arm body <br /></td></tr>
+<tr class="separator:afcb24fc2b9d45d980799cafdc36cc46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a078ebd9ab7965e2d71fa3e1998ae62a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a078ebd9ab7965e2d71fa3e1998ae62a3"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_lock_revolute.html">ChLinkLockRevolute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a078ebd9ab7965e2d71fa3e1998ae62a3">m_revolute_ch</a></td></tr>
+<tr class="memdesc:a078ebd9ab7965e2d71fa3e1998ae62a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to revolute joint to chassis <br /></td></tr>
+<tr class="separator:a078ebd9ab7965e2d71fa3e1998ae62a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedbc3e65ab235a51ca24444e912400b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aedbc3e65ab235a51ca24444e912400b2"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_lock_revolute.html">ChLinkLockRevolute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#aedbc3e65ab235a51ca24444e912400b2">m_revolute</a></td></tr>
+<tr class="memdesc:aedbc3e65ab235a51ca24444e912400b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to central revolute joint <br /></td></tr>
+<tr class="separator:aedbc3e65ab235a51ca24444e912400b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab27d165139b239f28a6e986c3312449e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab27d165139b239f28a6e986c3312449e"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_distance.html">ChLinkDistance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#ab27d165139b239f28a6e986c3312449e">m_link_left</a></td></tr>
+<tr class="memdesc:ab27d165139b239f28a6e986c3312449e"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to the left droplink distance constraint <br /></td></tr>
+<tr class="separator:ab27d165139b239f28a6e986c3312449e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70e1044061a1e8f86055a39fa2c7071f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70e1044061a1e8f86055a39fa2c7071f"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_distance.html">ChLinkDistance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar_r_s_d.html#a70e1044061a1e8f86055a39fa2c7071f">m_link_right</a></td></tr>
+<tr class="memdesc:a70e1044061a1e8f86055a39fa2c7071f"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to the right droplink distance constraint <br /></td></tr>
+<tr class="separator:a70e1044061a1e8f86055a39fa2c7071f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1vehicle_1_1_ch_antiroll_bar')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar.html">chrono::vehicle::ChAntirollBar</a></td></tr>
+<tr class="memitem:a1067bbbb0b7d6592993c3657f5c89826 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1067bbbb0b7d6592993c3657f5c89826"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar.html#a1067bbbb0b7d6592993c3657f5c89826">m_name</a></td></tr>
+<tr class="memdesc:a1067bbbb0b7d6592993c3657f5c89826 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of the subsystem <br /></td></tr>
+<tr class="separator:a1067bbbb0b7d6592993c3657f5c89826 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_antiroll_bar"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a7bdf482155f931d9cb8502e845c2cbd7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::vehicle::ChAntirollBarRSD::ChAntirollBarRSD </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>name of the subsystem </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a4cc387c46a0d46e18ebea78a302b75bc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChAntirollBarRSD::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt;&#160;</td>
+          <td class="paramname"><em>chassis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>location</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td>
+          <td class="paramname"><em>susp_body_left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td>
+          <td class="paramname"><em>susp_body_right</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The anti-roll bar subsystem is initialized by attaching it to the specified chassis body at the specified location (with respect to and expressed in the reference frame of the chassis). </p>
+<p>It is assumed that the suspension reference frame is always aligned with the chassis reference frame. Finally, susp_body_left and susp_body_right are handles to the suspension bodies to which the anti-roll bar's droplinks are to be attached. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">chassis</td><td>handle to the chassis body </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">location</td><td>location relative to the chassis frame </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">susp_body_left</td><td>susp body to which left droplink is connected </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">susp_body_right</td><td>susp body to which right droplink is connected </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_antiroll_bar.html#a2d061a7cdb2f65c31b7e5e231682d1f8">chrono::vehicle::ChAntirollBar</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:24 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

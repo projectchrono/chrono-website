@@ -1,0 +1,245 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChRealtimeStepTimer Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_realtime_step_timer.html">ChRealtimeStepTimer</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1_ch_realtime_step_timer-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChRealtimeStepTimer Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for a timer which measure the time spent in VR or game-like simulation loops, and suggests a dt integration step for the physical simulation for the next step. </p>
+<p>Uses high-resolution timer. Note that the suggested integrations step tries to keep a true real-time pace in advancing the simulation, that is the simulated time should match the real time. The suggested step may be non-constant because the overhead of the simulaiton loop may vary because of varying overhead in visualization, collision or simulation. </p>
+</div>
+<p><code>#include &lt;ChRealtimeStep.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChRealtimeStepTimer:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_realtime_step_timer__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_realtime_step_timer_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_realtime_step_timer_inherit__map" id="chrono_1_1_ch_realtime_step_timer_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_timer.html" title="chrono::ChTimer\&lt; double \&gt;" alt="" coords="14,5,195,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::ChRealtimeStepTimer:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_realtime_step_timer__coll__graph.png" border="0" usemap="#chrono_1_1_ch_realtime_step_timer_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1_ch_realtime_step_timer_coll__map" id="chrono_1_1_ch_realtime_step_timer_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_timer.html" title="chrono::ChTimer\&lt; double \&gt;" alt="" coords="14,5,195,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0c36d6bd8835b213cb70cabbbdeb2ff9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c36d6bd8835b213cb70cabbbdeb2ff9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_realtime_step_timer.html#a0c36d6bd8835b213cb70cabbbdeb2ff9">ChRealtimeStepTimer</a> ()</td></tr>
+<tr class="memdesc:a0c36d6bd8835b213cb70cabbbdeb2ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the timer (outside the simulation loop, preferably just before beginning the while{} loop) <br /></td></tr>
+<tr class="separator:a0c36d6bd8835b213cb70cabbbdeb2ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8c043d898a7f7da153303aa48b9cf17"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_realtime_step_timer.html#ad8c043d898a7f7da153303aa48b9cf17">SuggestSimulationStep</a> (double max_step=0.02, double min_step=CH_NANOTOL)</td></tr>
+<tr class="memdesc:ad8c043d898a7f7da153303aa48b9cf17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this function INSIDE the simulation loop, just ONCE per loop, to get the suggested time for the next integration time step.  <a href="#ad8c043d898a7f7da153303aa48b9cf17">More...</a><br /></td></tr>
+<tr class="separator:ad8c043d898a7f7da153303aa48b9cf17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_timer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_timer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_timer.html">chrono::ChTimer&lt; double &gt;</a></td></tr>
+<tr class="memitem:ac224369802ff58eb9d38969d975d6804 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac224369802ff58eb9d38969d975d6804"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timer.html#ac224369802ff58eb9d38969d975d6804">start</a> ()</td></tr>
+<tr class="memdesc:ac224369802ff58eb9d38969d975d6804 inherit pub_methods_classchrono_1_1_ch_timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the timer. <br /></td></tr>
+<tr class="separator:ac224369802ff58eb9d38969d975d6804 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cfd2f90b5fb8cdb91d47348880a65a9 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7cfd2f90b5fb8cdb91d47348880a65a9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timer.html#a7cfd2f90b5fb8cdb91d47348880a65a9">stop</a> ()</td></tr>
+<tr class="memdesc:a7cfd2f90b5fb8cdb91d47348880a65a9 inherit pub_methods_classchrono_1_1_ch_timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops the timer. <br /></td></tr>
+<tr class="separator:a7cfd2f90b5fb8cdb91d47348880a65a9 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad09aabfa63f2da2f62b91209b3778ae8 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad09aabfa63f2da2f62b91209b3778ae8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timer.html#ad09aabfa63f2da2f62b91209b3778ae8">reset</a> ()</td></tr>
+<tr class="memdesc:ad09aabfa63f2da2f62b91209b3778ae8 inherit pub_methods_classchrono_1_1_ch_timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the total accumulated time (when repeating multiple <a class="el" href="classchrono_1_1_ch_timer.html#ac224369802ff58eb9d38969d975d6804" title="Start the timer. ">start()</a> <a class="el" href="classchrono_1_1_ch_timer.html#a7cfd2f90b5fb8cdb91d47348880a65a9" title="Stops the timer. ">stop()</a> <a class="el" href="classchrono_1_1_ch_timer.html#ac224369802ff58eb9d38969d975d6804" title="Start the timer. ">start()</a> <a class="el" href="classchrono_1_1_ch_timer.html#a7cfd2f90b5fb8cdb91d47348880a65a9" title="Stops the timer. ">stop()</a> ) <br /></td></tr>
+<tr class="separator:ad09aabfa63f2da2f62b91209b3778ae8 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfbcfc64e6d31dfa6aaedd5ca4933e85 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memItemLeft" align="right" valign="top">unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timer.html#adfbcfc64e6d31dfa6aaedd5ca4933e85">GetTimeMilliseconds</a> () const</td></tr>
+<tr class="memdesc:adfbcfc64e6d31dfa6aaedd5ca4933e85 inherit pub_methods_classchrono_1_1_ch_timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time in [ms].  <a href="#adfbcfc64e6d31dfa6aaedd5ca4933e85">More...</a><br /></td></tr>
+<tr class="separator:adfbcfc64e6d31dfa6aaedd5ca4933e85 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dcc3b27bc4ae4a3a46da00884f47c7e inherit pub_methods_classchrono_1_1_ch_timer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4dcc3b27bc4ae4a3a46da00884f47c7e"></a>
+unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timer.html#a4dcc3b27bc4ae4a3a46da00884f47c7e">GetTimeMillisecondsIntermediate</a> () const</td></tr>
+<tr class="memdesc:a4dcc3b27bc4ae4a3a46da00884f47c7e inherit pub_methods_classchrono_1_1_ch_timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time in [ms] since <a class="el" href="classchrono_1_1_ch_timer.html#ac224369802ff58eb9d38969d975d6804" title="Start the timer. ">start()</a>. It does not require <a class="el" href="classchrono_1_1_ch_timer.html#a7cfd2f90b5fb8cdb91d47348880a65a9" title="Stops the timer. ">stop()</a>. <br /></td></tr>
+<tr class="separator:a4dcc3b27bc4ae4a3a46da00884f47c7e inherit pub_methods_classchrono_1_1_ch_timer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88891c8dfa9a9ca013fdac1f9e78c26c inherit pub_methods_classchrono_1_1_ch_timer"><td class="memItemLeft" align="right" valign="top">unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timer.html#a88891c8dfa9a9ca013fdac1f9e78c26c">GetTimeMicroseconds</a> () const</td></tr>
+<tr class="memdesc:a88891c8dfa9a9ca013fdac1f9e78c26c inherit pub_methods_classchrono_1_1_ch_timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time in [us].  <a href="#a88891c8dfa9a9ca013fdac1f9e78c26c">More...</a><br /></td></tr>
+<tr class="separator:a88891c8dfa9a9ca013fdac1f9e78c26c inherit pub_methods_classchrono_1_1_ch_timer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a626884fe9ca82af661bef77d71107f0c inherit pub_methods_classchrono_1_1_ch_timer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a626884fe9ca82af661bef77d71107f0c"></a>
+unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timer.html#a626884fe9ca82af661bef77d71107f0c">GetTimeMicrosecondsIntermediate</a> () const</td></tr>
+<tr class="memdesc:a626884fe9ca82af661bef77d71107f0c inherit pub_methods_classchrono_1_1_ch_timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time in [us] since <a class="el" href="classchrono_1_1_ch_timer.html#ac224369802ff58eb9d38969d975d6804" title="Start the timer. ">start()</a>. It does not require <a class="el" href="classchrono_1_1_ch_timer.html#a7cfd2f90b5fb8cdb91d47348880a65a9" title="Stops the timer. ">stop()</a>. <br /></td></tr>
+<tr class="separator:a626884fe9ca82af661bef77d71107f0c inherit pub_methods_classchrono_1_1_ch_timer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c872ce2e89f1d21f0f3ff90662b886 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timer.html#a69c872ce2e89f1d21f0f3ff90662b886">GetTimeSeconds</a> () const</td></tr>
+<tr class="memdesc:a69c872ce2e89f1d21f0f3ff90662b886 inherit pub_methods_classchrono_1_1_ch_timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time in [s], with real_type precision Use <a class="el" href="classchrono_1_1_ch_timer.html#ac224369802ff58eb9d38969d975d6804" title="Start the timer. ">start()</a>..<a class="el" href="classchrono_1_1_ch_timer.html#a7cfd2f90b5fb8cdb91d47348880a65a9" title="Stops the timer. ">stop()</a> before calling this.  <a href="#a69c872ce2e89f1d21f0f3ff90662b886">More...</a><br /></td></tr>
+<tr class="separator:a69c872ce2e89f1d21f0f3ff90662b886 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a304331345fd3022e4cc30457f63fb8a1 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a304331345fd3022e4cc30457f63fb8a1"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timer.html#a304331345fd3022e4cc30457f63fb8a1">GetTimeSecondsIntermediate</a> () const</td></tr>
+<tr class="memdesc:a304331345fd3022e4cc30457f63fb8a1 inherit pub_methods_classchrono_1_1_ch_timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time in [s] since <a class="el" href="classchrono_1_1_ch_timer.html#ac224369802ff58eb9d38969d975d6804" title="Start the timer. ">start()</a>. It does not require <a class="el" href="classchrono_1_1_ch_timer.html#a7cfd2f90b5fb8cdb91d47348880a65a9" title="Stops the timer. ">stop()</a>. <br /></td></tr>
+<tr class="separator:a304331345fd3022e4cc30457f63fb8a1 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f2e81857192984c109f029467a5253 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7f2e81857192984c109f029467a5253"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_timer.html#aa7f2e81857192984c109f029467a5253">operator()</a> () const</td></tr>
+<tr class="memdesc:aa7f2e81857192984c109f029467a5253 inherit pub_methods_classchrono_1_1_ch_timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the last timer value, in seconds, with the () operator. <br /></td></tr>
+<tr class="separator:aa7f2e81857192984c109f029467a5253 inherit pub_methods_classchrono_1_1_ch_timer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ad8c043d898a7f7da153303aa48b9cf17"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::ChRealtimeStepTimer::SuggestSimulationStep </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>max_step</em> = <code>0.02</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>min_step</em> = <code>CH_NANOTOL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Call this function INSIDE the simulation loop, just ONCE per loop, to get the suggested time for the next integration time step. </p>
+<p>If the the <a class="el" href="classchrono_1_1_ch_realtime_step_timer.html" title="Class for a timer which measure the time spent in VR or game-like simulation loops, and suggests a dt integration step for the physical simulation for the next step. ">ChRealtimeStepTimer</a> measured that previous simulation step required few real-time, it will suggest a corresponding small value for advancing the simulated time, and viceversa will give higher values (up to a maximum 'max_step' limit, however) if the simulation goes slow because of high CPU overhead. If the clamping value of 'max_step' is not reached, the real-time and simulated time should always match. There is also an optional 'min_step' value, which avoids too small integration steps. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">max_step</td><td>upper limit for step </td></tr>
+    <tr><td class="paramname">min_step</td><td>lower limit for step </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:17 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

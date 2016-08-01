@@ -1,0 +1,223 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::opengl::ChOpenGLWindow Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1opengl.html">opengl</a></li><li class="navelem"><a class="el" href="classchrono_1_1opengl_1_1_ch_open_g_l_window.html">ChOpenGLWindow</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="classchrono_1_1opengl_1_1_ch_open_g_l_window-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::opengl::ChOpenGLWindow Class Reference<div class="ingroups"><a class="el" href="group__opengl.html">Opengl</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Manager for the OpenGL context and window. </p>
+</div>
+<p><code>#include &lt;ChOpenGLWindow.h&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for chrono::opengl::ChOpenGLWindow:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1opengl_1_1_ch_open_g_l_window__coll__graph.png" border="0" usemap="#chrono_1_1opengl_1_1_ch_open_g_l_window_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1opengl_1_1_ch_open_g_l_window_coll__map" id="chrono_1_1opengl_1_1_ch_open_g_l_window_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1opengl_1_1_ch_open_g_l_viewer.html" title="OpenGL viewer, this class draws the system to the screen and handles input. " alt="" coords="1656,291,1876,318"/>
+<area shape="rect" id="node3" href="classchrono_1_1opengl_1_1_ch_open_g_l_base.html" title="Base class for all OpenGL related classes. " alt="" coords="5,215,216,242"/>
+<area shape="rect" id="node4" href="classchrono_1_1opengl_1_1_ch_open_g_l_h_u_d.html" title="Class that renders the text and other UI elements. " alt="" coords="543,50,753,76"/>
+<area shape="rect" id="node6" href="classchrono_1_1opengl_1_1_ch_open_g_l_object.html" title="Base class for all drawable objects. " alt="" coords="785,120,1004,147"/>
+<area shape="rect" id="node7" href="classchrono_1_1opengl_1_1_ch_open_g_l_shader.html" title="Sample shader class that loads and compiles the vertex and fragment shaders. " alt="" coords="277,186,499,212"/>
+<area shape="rect" id="node10" href="classchrono_1_1opengl_1_1_ch_open_g_l_o_b_j.html" title="Class for rendering an object. " alt="" coords="791,287,998,314"/>
+<area shape="rect" id="node11" href="classchrono_1_1opengl_1_1_ch_open_g_l_o_b_j_loader.html" title="Uses the tiny_obj_loader library to load an OBJ file in the proper format. " alt="" coords="265,287,511,314"/>
+<area shape="rect" id="node12" href="classchrono_1_1opengl_1_1_ch_open_g_l_contacts.html" title="Renders contact points as a point cloud. " alt="" coords="1028,347,1261,374"/>
+<area shape="rect" id="node13" href="classchrono_1_1opengl_1_1_ch_open_g_l_camera.html" title="OpenGL camera class. " alt="" coords="535,407,761,434"/>
+<area shape="rect" id="node5" href="classchrono_1_1opengl_1_1_ch_open_g_l_cloud.html" title="Generic renderable point cloud. " alt="" coords="1289,94,1504,120"/>
+<area shape="rect" id="node27" href="classchrono_1_1opengl_1_1_ch_open_g_l_wires.html" title="Renders a wireframe view for triangles. " alt="" coords="1289,144,1504,171"/>
+<area shape="rect" id="node8" href="classchrono_1_1opengl_1_1_ch_open_g_l_graphs.html" title="Class to render simple plots for the UI. " alt="" coords="1285,466,1508,492"/>
+<area shape="rect" id="node9" href="classchrono_1_1_ch_timer.html" title="chrono::ChTimer\&lt; double \&gt;" alt="" coords="804,598,985,624"/>
+<area shape="rect" id="node14" href="classchrono_1_1_ch_system.html" title="Physical system. " alt="" coords="1331,786,1462,812"/>
+<area shape="rect" id="node16" href="classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="1687,822,1845,848"/>
+<area shape="rect" id="node15" href="classchrono_1_1_ch_assembly.html" title="Class for assemblies of items, for example ChBody, ChLink, ChMesh, etc. " alt="" coords="2008,791,2152,818"/>
+<area shape="rect" id="node17" href="classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="1343,850,1450,876"/>
+<area shape="rect" id="node18" href="classchrono_1_1_ch_integrable_i_iorder.html" title="Special subcase: II&#45;order differential system. " alt="" coords="805,699,985,726"/>
+<area shape="rect" id="node19" href="classchrono_1_1_ch_integrable.html" title="Interface class for all objects that support time integration. " alt="" coords="317,699,459,726"/>
+<area shape="rect" id="node20" href="classchrono_1_1_ch_system_descriptor.html" title="Base class for collecting objects inherited from ChConstraint , ChVariables and, optionally ChKblock..." alt="" coords="799,750,990,776"/>
+<area shape="rect" id="node21" href="classchrono_1_1_ch_system_1_1_ch_custom_collision_point_callback.html" title="Class to be inherited by user and to use in SetCustomCollisionPointCallback() " alt="" coords="793,801,996,842"/>
+<area shape="rect" id="node22" href="classchrono_1_1_ch_vector.html" title="Definition of general purpose 3d vector variables, such as points in 3D. " alt="" coords="807,867,982,894"/>
+<area shape="rect" id="node23" href="classchrono_1_1_ch_solver.html" title="Base class for solvers aimed at solving complementarity problems arising from QP optimization problem..." alt="" coords="833,918,956,944"/>
+<area shape="rect" id="node24" href="classchrono_1_1collision_1_1_ch_collision_system.html" title="Base class for generic collision engine. " alt="" coords="827,969,962,1010"/>
+<area shape="rect" id="node25" href="classchrono_1_1collision_1_1_ch_narrow_phase_callback.html" title="Class to be used as a callback interface for the narrow phase collision system. " alt="" coords="303,936,473,977"/>
+<area shape="rect" id="node26" href="classchrono_1_1collision_1_1_ch_broad_phase_callback.html" title="Class to be used as a callback interface for the broad&#45;phase collision system. " alt="" coords="307,1001,469,1042"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a946961f94fece2e3458a8ff525458ba2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a946961f94fece2e3458a8ff525458ba2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (int size_x, int size_y, const char *title, <a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *msystem)</td></tr>
+<tr class="separator:a946961f94fece2e3458a8ff525458ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5421aaff499459fd93c22c9fd31b08eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5421aaff499459fd93c22c9fd31b08eb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>StartDrawLoop</b> (double time_step)</td></tr>
+<tr class="separator:a5421aaff499459fd93c22c9fd31b08eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd0315ceadfb979a16b938c77e57a9a2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd0315ceadfb979a16b938c77e57a9a2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>DoStepDynamics</b> (double time_step)</td></tr>
+<tr class="separator:afd0315ceadfb979a16b938c77e57a9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a10998d6856a15f14e3306d29bb4c51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a10998d6856a15f14e3306d29bb4c51"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Render</b> ()</td></tr>
+<tr class="separator:a0a10998d6856a15f14e3306d29bb4c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac37b99ae0183bf8f1c2fe1212af73567"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac37b99ae0183bf8f1c2fe1212af73567"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Active</b> ()</td></tr>
+<tr class="separator:ac37b99ae0183bf8f1c2fe1212af73567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66478af739b9e8af8a76c7bf12ad3ae5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66478af739b9e8af8a76c7bf12ad3ae5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Running</b> ()</td></tr>
+<tr class="separator:a66478af739b9e8af8a76c7bf12ad3ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafeffd334ffc63ffb8f4404a0681ca25"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafeffd334ffc63ffb8f4404a0681ca25"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Pause</b> ()</td></tr>
+<tr class="separator:aafeffd334ffc63ffb8f4404a0681ca25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a361b56f457f2389bcfa3bb2b457ef294"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a361b56f457f2389bcfa3bb2b457ef294"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCamera</b> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; pos, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; look, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; up, float scale=0.5f, float near_clip_dist=0.1f, float far_clip_dist=1000.0f)</td></tr>
+<tr class="separator:a361b56f457f2389bcfa3bb2b457ef294"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51014f83ecc3e35f882abc2fee329c92"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51014f83ecc3e35f882abc2fee329c92"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetRenderMode</b> (RenderMode mode)</td></tr>
+<tr class="separator:a51014f83ecc3e35f882abc2fee329c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a8a0a824fbdd828136e54f7d5c9ae208d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a0a824fbdd828136e54f7d5c9ae208d"></a>
+static <a class="el" href="classchrono_1_1opengl_1_1_ch_open_g_l_window.html">ChOpenGLWindow</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getInstance</b> ()</td></tr>
+<tr class="separator:a8a0a824fbdd828136e54f7d5c9ae208d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e11e0292ca23d19f3e420286f9dbd59"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e11e0292ca23d19f3e420286f9dbd59"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>GLFWGetVersion</b> (GLFWwindow *main_window)</td></tr>
+<tr class="separator:a6e11e0292ca23d19f3e420286f9dbd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ab8ff7af5f8a730e02fbf5b9c21881b3d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8ff7af5f8a730e02fbf5b9c21881b3d"></a>
+<a class="el" href="classchrono_1_1opengl_1_1_ch_open_g_l_viewer.html">ChOpenGLViewer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>viewer</b></td></tr>
+<tr class="separator:ab8ff7af5f8a730e02fbf5b9c21881b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:23 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

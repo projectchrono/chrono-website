@@ -1,0 +1,8 @@
+<map id="chrono::ChSystemDEM" name="chrono::ChSystemDEM">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_system.html" title="Physical system. " alt="" coords="113,229,243,256"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_assembly.html" title="Class for assemblies of items, for example ChBody, ChLink, ChMesh, etc. " alt="" coords="13,155,157,181"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node5" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="31,5,138,32"/>
+<area shape="rect" id="node6" href="$classchrono_1_1_ch_integrable_i_iorder.html" title="Special subcase: II&#45;order differential system. " alt="" coords="181,155,361,181"/>
+<area shape="rect" id="node7" href="$classchrono_1_1_ch_integrable.html" title="Interface class for all objects that support time integration. " alt="" coords="200,80,343,107"/>
+</map>

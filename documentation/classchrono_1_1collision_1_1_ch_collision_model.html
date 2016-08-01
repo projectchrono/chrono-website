@@ -1,0 +1,1410 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::collision::ChCollisionModel Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1collision.html">collision</a></li><li class="navelem"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">ChCollisionModel</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1collision_1_1_ch_collision_model-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::collision::ChCollisionModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class containing the geometric model ready for collision detection. </p>
+<p>Each rigid body will have a <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html" title="Class containing the geometric model ready for collision detection. ">ChCollisionModel</a>. A <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html" title="Class containing the geometric model ready for collision detection. ">ChCollisionModel</a> will contain all the geometric description(s) of the shape of the rigid body, for collision purposes. </p>
+</div>
+<p><code>#include &lt;ChCCollisionModel.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::collision::ChCollisionModel:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1collision_1_1_ch_collision_model__inherit__graph.png" border="0" usemap="#chrono_1_1collision_1_1_ch_collision_model_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1collision_1_1_ch_collision_model_inherit__map" id="chrono_1_1collision_1_1_ch_collision_model_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html" title="A wrapper to uses GPU collision detection. " alt="" coords="177,5,344,47"/>
+<area shape="rect" id="node3" href="classchrono_1_1collision_1_1_ch_model_bullet.html" title="A wrapper to use the Bullet collision detection library. " alt="" coords="199,71,323,112"/>
+<area shape="rect" id="node4" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html" title="A wrapper to use the Bullet collision detection library. " alt="" coords="193,136,328,177"/>
+<area shape="rect" id="node5" href="classchrono_1_1collision_1_1_ch_model_sphere_set_body.html" title="Class for the collision model to be used in ChIndexedParticles shapes, that are collections of point&#45;..." alt="" coords="392,103,557,144"/>
+<area shape="rect" id="node6" href="classchrono_1_1collision_1_1_ch_model_sphere_set_d_e_m.html" title="Class for the collision model to be used in ChIndexedParticles shapes, that are collections of point&#45;..." alt="" coords="392,168,557,209"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::collision::ChCollisionModel:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1collision_1_1_ch_collision_model__coll__graph.png" border="0" usemap="#chrono_1_1collision_1_1_ch_collision_model_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1collision_1_1_ch_collision_model_coll__map" id="chrono_1_1collision_1_1_ch_collision_model_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_contactable.html" title="Interface for objects that generate contacts One should inherit from ChContactable_1vars, ChContactable_2vars etc. " alt="" coords="5,5,161,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:abf5a11d9a0f1e4331a7e98a404b414a4"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#abf5a11d9a0f1e4331a7e98a404b414a4">ClearModel</a> ()=0</td></tr>
+<tr class="memdesc:abf5a11d9a0f1e4331a7e98a404b414a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all inserted geometries.  <a href="#abf5a11d9a0f1e4331a7e98a404b414a4">More...</a><br /></td></tr>
+<tr class="separator:abf5a11d9a0f1e4331a7e98a404b414a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f35b794785f4db3d047f4c97152b25"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a73f35b794785f4db3d047f4c97152b25">BuildModel</a> ()=0</td></tr>
+<tr class="memdesc:a73f35b794785f4db3d047f4c97152b25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the BV hierarchy.  <a href="#a73f35b794785f4db3d047f4c97152b25">More...</a><br /></td></tr>
+<tr class="separator:a73f35b794785f4db3d047f4c97152b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20bb30ee505dcec212f0d74f5be5e7f8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a20bb30ee505dcec212f0d74f5be5e7f8">AddSphere</a> (double radius, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;())=0</td></tr>
+<tr class="memdesc:a20bb30ee505dcec212f0d74f5be5e7f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a sphere shape to this model, for collision purposes.  <a href="#a20bb30ee505dcec212f0d74f5be5e7f8">More...</a><br /></td></tr>
+<tr class="separator:a20bb30ee505dcec212f0d74f5be5e7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa42f4d06ba9603cc675863d72afbd8e7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#aa42f4d06ba9603cc675863d72afbd8e7">AddEllipsoid</a> (double rx, double ry, double rz, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:aa42f4d06ba9603cc675863d72afbd8e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an ellipsoid shape to this model, for collision purposes.  <a href="#aa42f4d06ba9603cc675863d72afbd8e7">More...</a><br /></td></tr>
+<tr class="separator:aa42f4d06ba9603cc675863d72afbd8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af62fb76a4750b4865120a99d9cce4715"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#af62fb76a4750b4865120a99d9cce4715">AddBox</a> (double hx, double hy, double hz, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:af62fb76a4750b4865120a99d9cce4715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a box shape to this model, for collision purposes.  <a href="#af62fb76a4750b4865120a99d9cce4715">More...</a><br /></td></tr>
+<tr class="separator:af62fb76a4750b4865120a99d9cce4715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaf8ee4bb32afde7536311ab6e5ba264"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afaf8ee4bb32afde7536311ab6e5ba264"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#afaf8ee4bb32afde7536311ab6e5ba264">AddCylinder</a> (double rx, double rz, double hy, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:afaf8ee4bb32afde7536311ab6e5ba264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a cylinder to this model (default axis on Y direction), for collision purposes. <br /></td></tr>
+<tr class="separator:afaf8ee4bb32afde7536311ab6e5ba264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b6f58734337273dfe603091332325e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4b6f58734337273dfe603091332325e"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#af4b6f58734337273dfe603091332325e">AddCone</a> (double rx, double rz, double hy, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:af4b6f58734337273dfe603091332325e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a cone to this model (default axis on Y direction), for collision purposes. <br /></td></tr>
+<tr class="separator:af4b6f58734337273dfe603091332325e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58377b8bf43917fba9aa0b668dd564c7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a58377b8bf43917fba9aa0b668dd564c7">AddCapsule</a> (double radius, double hlen, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:a58377b8bf43917fba9aa0b668dd564c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a capsule to this model (default axis in Y direction), for collision purposes.  <a href="#a58377b8bf43917fba9aa0b668dd564c7">More...</a><br /></td></tr>
+<tr class="separator:a58377b8bf43917fba9aa0b668dd564c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d10ab2dabca81b36fe070c2bac1eb3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9d10ab2dabca81b36fe070c2bac1eb3"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#af9d10ab2dabca81b36fe070c2bac1eb3">AddRoundedBox</a> (double hx, double hy, double hz, double sphere_r, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:af9d10ab2dabca81b36fe070c2bac1eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a rounded box shape to this model, for collision purposes. <br /></td></tr>
+<tr class="separator:af9d10ab2dabca81b36fe070c2bac1eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81294793e40189802aca511ee56baf98"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81294793e40189802aca511ee56baf98"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a81294793e40189802aca511ee56baf98">AddRoundedCylinder</a> (double rx, double rz, double hy, double sphere_r, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:a81294793e40189802aca511ee56baf98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a rounded cylinder to this model (default axis on Y direction), for collision purposes. <br /></td></tr>
+<tr class="separator:a81294793e40189802aca511ee56baf98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ebaf04c91aeb25062e7b0405cc5ac4c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ebaf04c91aeb25062e7b0405cc5ac4c"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a3ebaf04c91aeb25062e7b0405cc5ac4c">AddRoundedCone</a> (double rx, double rz, double hy, double sphere_r, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:a3ebaf04c91aeb25062e7b0405cc5ac4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a rounded cone to this model (default axis on Y direction), for collision purposes. <br /></td></tr>
+<tr class="separator:a3ebaf04c91aeb25062e7b0405cc5ac4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaace9e3cd95745078b9cda587e4e293e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#aaace9e3cd95745078b9cda587e4e293e">AddConvexHull</a> (std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &gt; &amp;pointlist, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:aaace9e3cd95745078b9cda587e4e293e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a convex hull to this model.  <a href="#aaace9e3cd95745078b9cda587e4e293e">More...</a><br /></td></tr>
+<tr class="separator:aaace9e3cd95745078b9cda587e4e293e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a2422c82a4fd5780f795fb0f3890a7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#af1a2422c82a4fd5780f795fb0f3890a7">AddTriangleMesh</a> (const <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html">geometry::ChTriangleMesh</a> &amp;trimesh, bool is_static, bool is_convex, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1), double sphereswept_thickness=0.0)=0</td></tr>
+<tr class="memdesc:af1a2422c82a4fd5780f795fb0f3890a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a triangle mesh to this model, passing a triangle mesh (do not delete the triangle mesh until the collision model, because depending on the implementation of inherited <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html" title="Class containing the geometric model ready for collision detection. ">ChCollisionModel</a> classes, maybe the triangle is referenced via a striding interface or just copied) Note: if possible, in sake of high performance, avoid triangle meshes and prefer simplified representations as compounds of convex shapes of boxes/spheres/etc.  <a href="#af1a2422c82a4fd5780f795fb0f3890a7">More...</a><br /></td></tr>
+<tr class="separator:af1a2422c82a4fd5780f795fb0f3890a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdb4570bb97da2d70a2ed0f2b259222f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#acdb4570bb97da2d70a2ed0f2b259222f">AddBarrel</a> (double Y_low, double Y_high, double R_vert, double R_hor, double R_offset, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:acdb4570bb97da2d70a2ed0f2b259222f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a barrel-like shape to this model (main axis on Y direction), for collision purposes.  <a href="#acdb4570bb97da2d70a2ed0f2b259222f">More...</a><br /></td></tr>
+<tr class="separator:acdb4570bb97da2d70a2ed0f2b259222f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ea08e445847f4e9efb93c863c0ecf1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a59ea08e445847f4e9efb93c863c0ecf1">Add2Dpath</a> (<a class="el" href="classchrono_1_1geometry_1_1_ch_line_path.html">geometry::ChLinePath</a> &amp;mpath, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1), const double thickness=0.001)</td></tr>
+<tr class="memdesc:a59ea08e445847f4e9efb93c863c0ecf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a 2D closed line, defined on the XY plane passing by pos and alinged as rot, that defines a 2D collision shape that will collide with another 2D line of the same type if aligned on the same plane.  <a href="#a59ea08e445847f4e9efb93c863c0ecf1">More...</a><br /></td></tr>
+<tr class="separator:a59ea08e445847f4e9efb93c863c0ecf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17775278e20338007a5be0dc5cc19155"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a17775278e20338007a5be0dc5cc19155">AddPoint</a> (double radius=0, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;())</td></tr>
+<tr class="memdesc:a17775278e20338007a5be0dc5cc19155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a point-like sphere, that will collide with other geometries, but won't ever create contacts between them.  <a href="#a17775278e20338007a5be0dc5cc19155">More...</a><br /></td></tr>
+<tr class="separator:a17775278e20338007a5be0dc5cc19155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f578609e4831edcebc989e8161c162"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a68f578609e4831edcebc989e8161c162">AddCopyOfAnotherModel</a> (<a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">ChCollisionModel</a> *another)=0</td></tr>
+<tr class="memdesc:a68f578609e4831edcebc989e8161c162"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add all shapes already contained in another model.  <a href="#a68f578609e4831edcebc989e8161c162">More...</a><br /></td></tr>
+<tr class="separator:a68f578609e4831edcebc989e8161c162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fcca732e4c5c96d3bcf1bb25091374c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a4fcca732e4c5c96d3bcf1bb25091374c">AddConvexHullsFromFile</a> (<a class="el" href="classchrono_1_1_ch_stream_in_ascii.html">ChStreamInAscii</a> &amp;mstream, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))</td></tr>
+<tr class="memdesc:a4fcca732e4c5c96d3bcf1bb25091374c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a cluster of convex hulls by a '.chulls' file description.  <a href="#a4fcca732e4c5c96d3bcf1bb25091374c">More...</a><br /></td></tr>
+<tr class="separator:a4fcca732e4c5c96d3bcf1bb25091374c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a048eac79ad8d71893c81d5eb0b942131"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a048eac79ad8d71893c81d5eb0b942131"></a>
+<a class="el" href="classchrono_1_1_ch_contactable.html">ChContactable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a048eac79ad8d71893c81d5eb0b942131">GetContactable</a> ()</td></tr>
+<tr class="memdesc:a048eac79ad8d71893c81d5eb0b942131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the pointer to the contactable object. <br /></td></tr>
+<tr class="separator:a048eac79ad8d71893c81d5eb0b942131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e1cb3959b3c923cb58d67492d7af850"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a8e1cb3959b3c923cb58d67492d7af850">SetContactable</a> (<a class="el" href="classchrono_1_1_ch_contactable.html">ChContactable</a> *mc)</td></tr>
+<tr class="memdesc:a8e1cb3959b3c923cb58d67492d7af850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the pointer to the contactable object.  <a href="#a8e1cb3959b3c923cb58d67492d7af850">More...</a><br /></td></tr>
+<tr class="separator:a8e1cb3959b3c923cb58d67492d7af850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0df20d1b2a835620d14e7a1299fbafcc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_physics_item.html">ChPhysicsItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a0df20d1b2a835620d14e7a1299fbafcc">GetPhysicsItem</a> ()</td></tr>
+<tr class="memdesc:a0df20d1b2a835620d14e7a1299fbafcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the pointer to the client owner <a class="el" href="classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies...">ChPhysicsItem</a>.  <a href="#a0df20d1b2a835620d14e7a1299fbafcc">More...</a><br /></td></tr>
+<tr class="separator:a0df20d1b2a835620d14e7a1299fbafcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94df79842af030fa1d5fd648f8cc2d05"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a94df79842af030fa1d5fd648f8cc2d05">SyncPosition</a> ()=0</td></tr>
+<tr class="memdesc:a94df79842af030fa1d5fd648f8cc2d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the position and orientation of the collision model as the rigid body current position.  <a href="#a94df79842af030fa1d5fd648f8cc2d05">More...</a><br /></td></tr>
+<tr class="separator:a94df79842af030fa1d5fd648f8cc2d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bfcb1a8feb88162ad8d12df00469120"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a9bfcb1a8feb88162ad8d12df00469120">SetFamily</a> (int mfamily)</td></tr>
+<tr class="memdesc:a9bfcb1a8feb88162ad8d12df00469120"><td class="mdescLeft">&#160;</td><td class="mdescRight">By default, all collsion objects belong to family n.0, but you can set family in range 0..15.  <a href="#a9bfcb1a8feb88162ad8d12df00469120">More...</a><br /></td></tr>
+<tr class="separator:a9bfcb1a8feb88162ad8d12df00469120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb08cef98f0485af5c62403fc82ebe73"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb08cef98f0485af5c62403fc82ebe73"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>GetFamily</b> ()</td></tr>
+<tr class="separator:adb08cef98f0485af5c62403fc82ebe73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ca6bbd3cf8c0841333425b399ee6986"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a2ca6bbd3cf8c0841333425b399ee6986">SetFamilyMaskNoCollisionWithFamily</a> (int mfamily)</td></tr>
+<tr class="memdesc:a2ca6bbd3cf8c0841333425b399ee6986"><td class="mdescLeft">&#160;</td><td class="mdescRight">By default, family mask is all turned on, so all families can collide with this object, but you can turn on-off some bytes of this mask so that some families do not collide.  <a href="#a2ca6bbd3cf8c0841333425b399ee6986">More...</a><br /></td></tr>
+<tr class="separator:a2ca6bbd3cf8c0841333425b399ee6986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a822686a2f5f856018f0c77034c8cf7cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a822686a2f5f856018f0c77034c8cf7cd"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFamilyMaskDoCollisionWithFamily</b> (int mfamily)</td></tr>
+<tr class="separator:a822686a2f5f856018f0c77034c8cf7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6397dd0c6f391dca9db149e43707897d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a6397dd0c6f391dca9db149e43707897d">GetFamilyMaskDoesCollisionWithFamily</a> (int mfamily)</td></tr>
+<tr class="memdesc:a6397dd0c6f391dca9db149e43707897d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells if the family mask of this collision object allows for the collision with another collision object belonging to a given family.  <a href="#a6397dd0c6f391dca9db149e43707897d">More...</a><br /></td></tr>
+<tr class="separator:a6397dd0c6f391dca9db149e43707897d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2c6e1d92cd916803232f9eb7363f073"><td class="memItemLeft" align="right" valign="top">virtual short int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#ab2c6e1d92cd916803232f9eb7363f073">GetFamilyGroup</a> () const </td></tr>
+<tr class="memdesc:ab2c6e1d92cd916803232f9eb7363f073"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the collision family group of this model.  <a href="#ab2c6e1d92cd916803232f9eb7363f073">More...</a><br /></td></tr>
+<tr class="separator:ab2c6e1d92cd916803232f9eb7363f073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcc039ce6c3bbf299c26edececc893ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#afcc039ce6c3bbf299c26edececc893ff">SetFamilyGroup</a> (short int group)</td></tr>
+<tr class="memdesc:afcc039ce6c3bbf299c26edececc893ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the collision family group of this model.  <a href="#afcc039ce6c3bbf299c26edececc893ff">More...</a><br /></td></tr>
+<tr class="separator:afcc039ce6c3bbf299c26edececc893ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9019b1d929079176cf801cb4ab5496ed"><td class="memItemLeft" align="right" valign="top">virtual short int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a9019b1d929079176cf801cb4ab5496ed">GetFamilyMask</a> () const </td></tr>
+<tr class="memdesc:a9019b1d929079176cf801cb4ab5496ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the collision mask for this model.  <a href="#a9019b1d929079176cf801cb4ab5496ed">More...</a><br /></td></tr>
+<tr class="separator:a9019b1d929079176cf801cb4ab5496ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab505a5c5b14973775f881e4ef18de231"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#ab505a5c5b14973775f881e4ef18de231">SetFamilyMask</a> (short int mask)</td></tr>
+<tr class="memdesc:ab505a5c5b14973775f881e4ef18de231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the collision mask for this model.  <a href="#ab505a5c5b14973775f881e4ef18de231">More...</a><br /></td></tr>
+<tr class="separator:ab505a5c5b14973775f881e4ef18de231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67c91cf1ee2b023a2403cf912156b9a3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a67c91cf1ee2b023a2403cf912156b9a3">SetSafeMargin</a> (double amargin)</td></tr>
+<tr class="memdesc:a67c91cf1ee2b023a2403cf912156b9a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the suggested collision 'inward safe margin' for the shapes to be added from now on, using the AddBox, AddCylinder etc (where, if this margin is too high for some thin or small shapes, it may be clamped).  <a href="#a67c91cf1ee2b023a2403cf912156b9a3">More...</a><br /></td></tr>
+<tr class="separator:a67c91cf1ee2b023a2403cf912156b9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66d446c3f77fa79c33fce3fc25a52dfc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66d446c3f77fa79c33fce3fc25a52dfc"></a>
+virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a66d446c3f77fa79c33fce3fc25a52dfc">GetSafeMargin</a> ()</td></tr>
+<tr class="memdesc:a66d446c3f77fa79c33fce3fc25a52dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the inward safe margin (see <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a67c91cf1ee2b023a2403cf912156b9a3" title="Sets the suggested collision &#39;inward safe margin&#39; for the shapes to be added from now on...">SetSafeMargin()</a> ) <br /></td></tr>
+<tr class="separator:a66d446c3f77fa79c33fce3fc25a52dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991003cc6ec95e3db61c2f61b55578e8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a991003cc6ec95e3db61c2f61b55578e8">SetEnvelope</a> (double amargin)</td></tr>
+<tr class="memdesc:a991003cc6ec95e3db61c2f61b55578e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the suggested collision outward 'envelope' (used from shapes added, from now on, to this collision model).  <a href="#a991003cc6ec95e3db61c2f61b55578e8">More...</a><br /></td></tr>
+<tr class="separator:a991003cc6ec95e3db61c2f61b55578e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa10e2b58bbc8a3572f4186e31f9f6b55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa10e2b58bbc8a3572f4186e31f9f6b55"></a>
+virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#aa10e2b58bbc8a3572f4186e31f9f6b55">GetEnvelope</a> ()</td></tr>
+<tr class="memdesc:aa10e2b58bbc8a3572f4186e31f9f6b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the outward safe margin (see <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a991003cc6ec95e3db61c2f61b55578e8" title="Sets the suggested collision outward &#39;envelope&#39; (used from shapes added, from now on...">SetEnvelope()</a> ) <br /></td></tr>
+<tr class="separator:aa10e2b58bbc8a3572f4186e31f9f6b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab68baad8125eaa06689bb6e7d64f17eb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#ab68baad8125eaa06689bb6e7d64f17eb">GetAABB</a> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;bbmin, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;bbmax) const =0</td></tr>
+<tr class="memdesc:ab68baad8125eaa06689bb6e7d64f17eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the axis aligned bounding box (AABB) of the collision model, i.e.  <a href="#ab68baad8125eaa06689bb6e7d64f17eb">More...</a><br /></td></tr>
+<tr class="separator:ab68baad8125eaa06689bb6e7d64f17eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0d7cdadf6a69506d0e6cc247ac906e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0d7cdadf6a69506d0e6cc247ac906e6"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ArchiveOUT</b> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="separator:ad0d7cdadf6a69506d0e6cc247ac906e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87da1ca2a15f1a7c8b204d55b77f72bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87da1ca2a15f1a7c8b204d55b77f72bc"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a87da1ca2a15f1a7c8b204d55b77f72bc">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a87da1ca2a15f1a7c8b204d55b77f72bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:a87da1ca2a15f1a7c8b204d55b77f72bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a1f0e40b1c695d5f785bca7187552db76"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a1f0e40b1c695d5f785bca7187552db76">SetDefaultSuggestedEnvelope</a> (double menv)</td></tr>
+<tr class="memdesc:a1f0e40b1c695d5f785bca7187552db76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using this function BEFORE you start creating collision shapes, it will make all following collision shapes to take this collision envelope (safe outward layer) as default.  <a href="#a1f0e40b1c695d5f785bca7187552db76">More...</a><br /></td></tr>
+<tr class="separator:a1f0e40b1c695d5f785bca7187552db76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34510afcfc5b3b5e72ab8b61b8e3adbb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a34510afcfc5b3b5e72ab8b61b8e3adbb">SetDefaultSuggestedMargin</a> (double mmargin)</td></tr>
+<tr class="memdesc:a34510afcfc5b3b5e72ab8b61b8e3adbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using this function BEFORE you start creating collision shapes, it will make all following collision shapes to take this collision margin (inward penetration layer) as default.  <a href="#a34510afcfc5b3b5e72ab8b61b8e3adbb">More...</a><br /></td></tr>
+<tr class="separator:a34510afcfc5b3b5e72ab8b61b8e3adbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f75132a9dac27460f77daa260351058"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f75132a9dac27460f77daa260351058"></a>
+static double&#160;</td><td class="memItemRight" valign="bottom"><b>GetDefaultSuggestedEnvelope</b> ()</td></tr>
+<tr class="separator:a5f75132a9dac27460f77daa260351058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b6faca8e6a5419a82d5ba296c9694f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1b6faca8e6a5419a82d5ba296c9694f0"></a>
+static double&#160;</td><td class="memItemRight" valign="bottom"><b>GetDefaultSuggestedMargin</b> ()</td></tr>
+<tr class="separator:a1b6faca8e6a5419a82d5ba296c9694f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a8e95212d6ee967bd4c42c72b4aec6758"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e95212d6ee967bd4c42c72b4aec6758"></a>
+virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>GetSuggestedFullMargin</b> ()</td></tr>
+<tr class="separator:a8e95212d6ee967bd4c42c72b4aec6758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a488b1b2f73974eb80d5ce6b15fdf9660"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a488b1b2f73974eb80d5ce6b15fdf9660"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>model_envelope</b></td></tr>
+<tr class="separator:a488b1b2f73974eb80d5ce6b15fdf9660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab2d721f76e55603f8ffe2a87d8a8f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adab2d721f76e55603f8ffe2a87d8a8f4"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>model_safe_margin</b></td></tr>
+<tr class="separator:adab2d721f76e55603f8ffe2a87d8a8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3859404b102621fd2c81751d795be948"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3859404b102621fd2c81751d795be948"></a>
+<a class="el" href="classchrono_1_1_ch_contactable.html">ChContactable</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>mcontactable</b></td></tr>
+<tr class="separator:a3859404b102621fd2c81751d795be948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6afb43d7df000c668d70f6658eb36254"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6afb43d7df000c668d70f6658eb36254"></a>
+short int&#160;</td><td class="memItemRight" valign="bottom"><b>family_group</b></td></tr>
+<tr class="separator:a6afb43d7df000c668d70f6658eb36254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5f7cb99df39dd23bcac8f39764dab3f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5f7cb99df39dd23bcac8f39764dab3f"></a>
+short int&#160;</td><td class="memItemRight" valign="bottom"><b>family_mask</b></td></tr>
+<tr class="separator:ad5f7cb99df39dd23bcac8f39764dab3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a59ea08e445847f4e9efb93c863c0ecf1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChCollisionModel::Add2Dpath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1geometry_1_1_ch_line_path.html">geometry::ChLinePath</a> &amp;&#160;</td>
+          <td class="paramname"><em>mpath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>rot</em> = <code><a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>thickness</em> = <code>0.001</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a 2D closed line, defined on the XY plane passing by pos and alinged as rot, that defines a 2D collision shape that will collide with another 2D line of the same type if aligned on the same plane. </p>
+<p>This is useful for mechanisms that work on a plane, and that require more precise collision that is not possible with current 3D shapes. For example, the line can contain concave or convex round fillets. Requirements:</p><ul>
+<li>the line must be clockwise for inner material, (counterclockwise=hollow, material outside)</li>
+<li>the line must contain only ChLineSegment and ChLineArc sub-lines</li>
+<li>the sublines must follow in the proper order, with cohincident corners, and must be closed. </li>
+</ul>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#a85c42b6623929ba44afe71281f8d6b66">chrono::collision::ChModelBullet</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acdb4570bb97da2d70a2ed0f2b259222f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChCollisionModel::AddBarrel </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Y_low</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Y_high</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>R_vert</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>R_hor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>R_offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>rot</em> = <code><a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a barrel-like shape to this model (main axis on Y direction), for collision purposes. </p>
+<p>The barrel shape is made by lathing an arc of an ellipse around the vertical Y axis. The center of the ellipse is on Y=0 level, and it is ofsetted by R_offset from the Y axis in radial direction. The two radii of the ellipse are R_vert (for the vertical direction, i.e. the axis parellel to Y) and R_hor (for the axis that is perpendicular to Y). Also, the solid is clamped with two discs on the top and the bottom, at levels Y_low and Y_high. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#a7d65777ce4d31efe55039b363a51e3d6">chrono::collision::ChModelBullet</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#af49891eee6707d6fea40682e72e0197c">chrono::collision::ChCollisionModelParallel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af62fb76a4750b4865120a99d9cce4715"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChCollisionModel::AddBox </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>hx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>hy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>hz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>rot</em> = <code><a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a box shape to this model, for collision purposes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hx</td><td>the halfsize on x axis </td></tr>
+    <tr><td class="paramname">hy</td><td>the halfsize on y axis </td></tr>
+    <tr><td class="paramname">hz</td><td>the halfsize on z axis </td></tr>
+    <tr><td class="paramname">pos</td><td>the position of the box COG </td></tr>
+    <tr><td class="paramname">rot</td><td>the rotation of the box - matrix must be orthogonal </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#ad077d5c3988bd0734181acdd088855eb">chrono::collision::ChModelBullet</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#a42d417cb010d28dc5a1115d58ca7949f">chrono::collision::ChCollisionModelParallel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a58377b8bf43917fba9aa0b668dd564c7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChCollisionModel::AddCapsule </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>hlen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>rot</em> = <code><a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a capsule to this model (default axis in Y direction), for collision purposes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radius</td><td>capsule radius </td></tr>
+    <tr><td class="paramname">hlen</td><td>half-length of capsule axis </td></tr>
+    <tr><td class="paramname">pos</td><td>the position of the ellipsoid </td></tr>
+    <tr><td class="paramname">rot</td><td>the matrix defining rotation (orthogonal) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#a025578d27598997cf8c466f4593f04ad">chrono::collision::ChCollisionModelParallel</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#a33b614a3f3ea3323ff31aaee2ef660ab">chrono::collision::ChModelBullet</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaace9e3cd95745078b9cda587e4e293e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChCollisionModel::AddConvexHull </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>pointlist</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>rot</em> = <code><a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a convex hull to this model. </p>
+<p>A convex hull is simply a point cloud that describe a convex polytope. Connectivity between the vertexes, as faces/edges in triangle meshes is not necessary. Points are passed as a list, that is instantly copied into the model. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#a035b053dd2f9cb912b24eaa754fc4460">chrono::collision::ChModelBullet</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#a846ea026e2ad0c9785fbeff93629a1a9">chrono::collision::ChCollisionModelParallel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4fcca732e4c5c96d3bcf1bb25091374c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::collision::ChCollisionModel::AddConvexHullsFromFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_stream_in_ascii.html">ChStreamInAscii</a> &amp;&#160;</td>
+          <td class="paramname"><em>mstream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>rot</em> = <code><a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a cluster of convex hulls by a '.chulls' file description. </p>
+<p>The file is an ascii text that contains many lines with "[x] [y] [z]" coordinates of the convex hulls. Hulls are separated by lines with "hull". Inherited classes should not need to implement/overload this, because this base implementation basically calls <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#aaace9e3cd95745078b9cda587e4e293e" title="Add a convex hull to this model. ">AddConvexHull()</a> n times while parsing the file, that is enough. </p>
+
+</div>
+</div>
+<a class="anchor" id="a68f578609e4831edcebc989e8161c162"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChCollisionModel::AddCopyOfAnotherModel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">ChCollisionModel</a> *&#160;</td>
+          <td class="paramname"><em>another</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add all shapes already contained in another model. </p>
+<p>If possible, child classes implement this so that underlying shapes are shared (not copied) among the models. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#a44900a3afb682ce1e07ae865b7ba5182">chrono::collision::ChModelBullet</a>, <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#ad1ae2619ea5a7610cca8d6a77968ba26">chrono::collision::ChCollisionModelParallel</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a3ed04ab80fe9fdfb2886a82d86b5000f">chrono::collision::ChModelSphereSet</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa42f4d06ba9603cc675863d72afbd8e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChCollisionModel::AddEllipsoid </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>rot</em> = <code><a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add an ellipsoid shape to this model, for collision purposes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rx</td><td>the rad on x axis </td></tr>
+    <tr><td class="paramname">ry</td><td>the rad on y axis </td></tr>
+    <tr><td class="paramname">rz</td><td>the rad on z axis </td></tr>
+    <tr><td class="paramname">pos</td><td>the position of the ellipsoid </td></tr>
+    <tr><td class="paramname">rot</td><td>the matrix defining rotation (orthogonal) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#aaccdca3955ed65a49344b3d112629949">chrono::collision::ChModelBullet</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#a3af6cb94b0cb0c4007f76f046c6f82e2">chrono::collision::ChCollisionModelParallel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a17775278e20338007a5be0dc5cc19155"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChCollisionModel::AddPoint </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>radius</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a point-like sphere, that will collide with other geometries, but won't ever create contacts between them. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radius</td><td>the radius of the node </td></tr>
+    <tr><td class="paramname">pos</td><td>the position of the node in model coordinates </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#a7c01552bb671f2e901875722de07179f">chrono::collision::ChModelBullet</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a20bb30ee505dcec212f0d74f5be5e7f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChCollisionModel::AddSphere </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a sphere shape to this model, for collision purposes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radius</td><td>the radius of the sphere </td></tr>
+    <tr><td class="paramname">pos</td><td>the position of the sphere in model coordinates </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#ac7e88857381efeabedddcb9505fc0a19">chrono::collision::ChModelBullet</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#a50cb6e887f0a75335b30ac0d9650d25b">chrono::collision::ChCollisionModelParallel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1a2422c82a4fd5780f795fb0f3890a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChCollisionModel::AddTriangleMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html">geometry::ChTriangleMesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>trimesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>is_static</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>is_convex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>rot</em> = <code><a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sphereswept_thickness</em> = <code>0.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a triangle mesh to this model, passing a triangle mesh (do not delete the triangle mesh until the collision model, because depending on the implementation of inherited <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html" title="Class containing the geometric model ready for collision detection. ">ChCollisionModel</a> classes, maybe the triangle is referenced via a striding interface or just copied) Note: if possible, in sake of high performance, avoid triangle meshes and prefer simplified representations as compounds of convex shapes of boxes/spheres/etc. </p>
+<p>. type. See functions above. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">trimesh</td><td>the triangle mesh </td></tr>
+    <tr><td class="paramname">is_static</td><td>true only if model doesn't move (es.a terrain). May improve performance </td></tr>
+    <tr><td class="paramname">is_convex</td><td>true if mesh convex hull is used (only for simple mesh). May improve robustness </td></tr>
+    <tr><td class="paramname">pos</td><td>displacement respect to COG (optional) </td></tr>
+    <tr><td class="paramname">rot</td><td>the rotation of the mesh - matrix must be orthogonal </td></tr>
+    <tr><td class="paramname">sphereswept_thickness</td><td>optional: outward sphereswept layer (when supported) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#a24388300a18ef9fc2bbcce2a7dd7e8ba">chrono::collision::ChModelBullet</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#ab6760676a8accc0274d8adea866d8634">chrono::collision::ChCollisionModelParallel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a73f35b794785f4db3d047f4c97152b25"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int chrono::collision::ChCollisionModel::BuildModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Builds the BV hierarchy. </p>
+<p>Call this function AFTER adding the geometric description. MUST be inherited by child classes! (ex for bulding BV hierarchies) </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a3e699c93c4ca556ea57fb06442cf08dd">chrono::collision::ChModelSphereSet</a>, <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#ac2ba5cb12e37cda5d52ec222064d3386">chrono::collision::ChModelBullet</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#abe3de2584d218ab1103d7bf3a48e14c6">chrono::collision::ChCollisionModelParallel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abf5a11d9a0f1e4331a7e98a404b414a4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int chrono::collision::ChCollisionModel::ClearModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes all inserted geometries. </p>
+<p>Also, if you begin the definition of a model, AFTER adding the geometric description, remember to call the <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#abf5a11d9a0f1e4331a7e98a404b414a4" title="Deletes all inserted geometries. ">ClearModel()</a>. MUST be inherited by child classes! (ex for resetting also BV hierarchies) </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#abef9cd5b8decff073fd3f6d5ae419683">chrono::collision::ChModelSphereSet</a>, <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#ae88ffb13cdfbe7f57b44dd1b901f0e92">chrono::collision::ChModelBullet</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#a1522898f8a9e366935ecf420cc8eb10f">chrono::collision::ChCollisionModelParallel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab68baad8125eaa06689bb6e7d64f17eb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::collision::ChCollisionModel::GetAABB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>bbmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>bbmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the axis aligned bounding box (AABB) of the collision model, i.e. </p>
+<p>max-min along the x,y,z world axes. Remember that <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a94df79842af030fa1d5fd648f8cc2d05" title="Sets the position and orientation of the collision model as the rigid body current position...">SyncPosition()</a> should be invoked before calling this. MUST be implemented by child classes! </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#a732e47be7be47970380be4d62acedd3b">chrono::collision::ChModelBullet</a>, <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#ae7269cf553879f5d946201ff0e6d4cd4">chrono::collision::ChCollisionModelParallel</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#ae9d14efe770487c1c5e1a1d2f04af25b">chrono::collision::ChModelSphereSet</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab2c6e1d92cd916803232f9eb7363f073"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual short int chrono::collision::ChCollisionModel::GetFamilyGroup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the collision family group of this model. </p>
+<p>The collision family of this model is the position of the single set bit in the return value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9019b1d929079176cf801cb4ab5496ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual short int chrono::collision::ChCollisionModel::GetFamilyMask </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the collision mask for this model. </p>
+<p>Each bit of the return value indicates whether this model collides with the corresponding family (bit set) or not (bit unset). </p>
+
+</div>
+</div>
+<a class="anchor" id="a6397dd0c6f391dca9db149e43707897d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::collision::ChCollisionModel::GetFamilyMaskDoesCollisionWithFamily </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mfamily</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tells if the family mask of this collision object allows for the collision with another collision object belonging to a given family. </p>
+<p>NOTE: this function has NO effect if used before you add the body to a <a class="el" href="classchrono_1_1_ch_system.html" title="Physical system. ">ChSystem</a>, using AddBody(). Use after AddBody(). This default implementation uses the family mask. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#a1551a47d96497f93e2a97ea3c97d0fa5">chrono::collision::ChModelBullet</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a543a19ace20226d29a00dc29503584ab">chrono::collision::ChModelSphereSet</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0df20d1b2a835620d14e7a1299fbafcc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_physics_item.html">ChPhysicsItem</a> * chrono::collision::ChCollisionModel::GetPhysicsItem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the pointer to the client owner <a class="el" href="classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies...">ChPhysicsItem</a>. </p>
+<p>Default: just casts <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a048eac79ad8d71893c81d5eb0b942131" title="Gets the pointer to the contactable object. ">GetContactable()</a>. Just for backward compatibility. It might return null if contactable not inherited by <a class="el" href="classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies...">ChPhysicsItem</a>. ***TODO*** remove the need of ChPhysicsItem*, just use ChContactable* in all code </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set_body.html#a55015b6f1e1639c95a01fee40f2b195c">chrono::collision::ChModelSphereSetBody</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set_d_e_m.html#a1a4fb9e020d65294e830463db99cdc57">chrono::collision::ChModelSphereSetDEM</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8e1cb3959b3c923cb58d67492d7af850"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::collision::ChCollisionModel::SetContactable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_contactable.html">ChContactable</a> *&#160;</td>
+          <td class="paramname"><em>mc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the pointer to the contactable object. </p>
+<p>A derived class may override this, but should always invoke this base class implementation. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#a8792f59b8cf140212cc02a85c2871dac">chrono::collision::ChCollisionModelParallel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1f0e40b1c695d5f785bca7187552db76"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionModel::SetDefaultSuggestedEnvelope </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>menv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Using this function BEFORE you start creating collision shapes, it will make all following collision shapes to take this collision envelope (safe outward layer) as default. </p>
+<p>Easier than calling <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a991003cc6ec95e3db61c2f61b55578e8" title="Sets the suggested collision outward &#39;envelope&#39; (used from shapes added, from now on...">SetEnvelope()</a> all the times. </p>
+
+</div>
+</div>
+<a class="anchor" id="a34510afcfc5b3b5e72ab8b61b8e3adbb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionModel::SetDefaultSuggestedMargin </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mmargin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Using this function BEFORE you start creating collision shapes, it will make all following collision shapes to take this collision margin (inward penetration layer) as default. </p>
+<p>If you call it again later, it will have no effect, except for shapes created later. Easier than calling SetMargin() all the times. </p>
+
+</div>
+</div>
+<a class="anchor" id="a991003cc6ec95e3db61c2f61b55578e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::collision::ChCollisionModel::SetEnvelope </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>amargin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the suggested collision outward 'envelope' (used from shapes added, from now on, to this collision model). </p>
+<p>This 'envelope' is a surrounding invisible volume which extends outward from the surface, and it is used to detect contacts a bit before shapes come into contact, i.e. when dist&gt;0. However contact points will stay on the true surface of the geometry, not on the external surface of the envelope. Call this BEFORE adding the shapes into the model. Side effect: AABB are 'expanded' outward by this amount, so if you exagerate with this value, CD might be slower and too sensible. On the other hand, if you set this value to 0, contacts are detected only for dist&lt;=0, thus causing unstable simulation. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9bfcb1a8feb88162ad8d12df00469120"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionModel::SetFamily </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mfamily</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>By default, all collsion objects belong to family n.0, but you can set family in range 0..15. </p>
+<p>This is used when the objects collided with another: the contact is created only if the family is within the 'family mask' of the other, and viceversa. NOTE: these functions have NO effect if used before you add the body to a <a class="el" href="classchrono_1_1_ch_system.html" title="Physical system. ">ChSystem</a>, using AddBody(). Use after AddBody(). These default implementations use the family group. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#a199d2833cbb58ce22aa6d18469170a31">chrono::collision::ChModelBullet</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a96562884557192847c473e2db4772c59">chrono::collision::ChModelSphereSet</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afcc039ce6c3bbf299c26edececc893ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionModel::SetFamilyGroup </td>
+          <td>(</td>
+          <td class="paramtype">short int&#160;</td>
+          <td class="paramname"><em>group</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the collision family group of this model. </p>
+<p>This is an alternative way of specifying the collision family for this object. The value family_group must have a single bit set (i.e. it must be a power of 2). The corresponding family is then the bit position. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab505a5c5b14973775f881e4ef18de231"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionModel::SetFamilyMask </td>
+          <td>(</td>
+          <td class="paramtype">short int&#160;</td>
+          <td class="paramname"><em>mask</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the collision mask for this model. </p>
+<p>Any set bit in the specified mask indicates that this model collides with all objects whose family is equal to the bit position. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2ca6bbd3cf8c0841333425b399ee6986"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionModel::SetFamilyMaskNoCollisionWithFamily </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mfamily</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>By default, family mask is all turned on, so all families can collide with this object, but you can turn on-off some bytes of this mask so that some families do not collide. </p>
+<p>When two objects collide, the contact is created only if the family is within the 'family mask' of the other, and viceversa. NOTE: these functions have NO effect if used before you add the body to a <a class="el" href="classchrono_1_1_ch_system.html" title="Physical system. ">ChSystem</a>, using AddBody(). Use after AddBody(). These default implementations use the family mask. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#af27ebf70cd20e5e49a99bac6975057d1">chrono::collision::ChModelBullet</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a8d0226f85bcccc1f54aed68bec93c742">chrono::collision::ChModelSphereSet</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a67c91cf1ee2b023a2403cf912156b9a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::collision::ChCollisionModel::SetSafeMargin </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>amargin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the suggested collision 'inward safe margin' for the shapes to be added from now on, using the AddBox, AddCylinder etc (where, if this margin is too high for some thin or small shapes, it may be clamped). </p>
+<p>If dist&lt;0 and interpenetation occurs (ex.for numerical errors) within this 'safe margin' inward range, collision detection is still fast and reliable (beyond this, for deep penetrations, CD still works, but might be slower and less reliable) Call this BEFORE adding the shapes into the model. Side effect: think at the margin as a radius of a 'smoothing' fillet on all corners of the shapes - that's why you cannot exceed with this... </p>
+
+</div>
+</div>
+<a class="anchor" id="a94df79842af030fa1d5fd648f8cc2d05"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::collision::ChCollisionModel::SyncPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the position and orientation of the collision model as the rigid body current position. </p>
+<p>By default it uses GetCsysForCollisionModel </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_model_bullet.html#aede731dc0eb02692943e829855dbfcdf">chrono::collision::ChModelBullet</a>, <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set_body.html#ae13499342a983c04b169647fde2162c3">chrono::collision::ChModelSphereSetBody</a>, <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set_d_e_m.html#a3224b1be46562826e982bceba3bb2a73">chrono::collision::ChModelSphereSetDEM</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model_parallel.html#ad867dc71a6c83d16994c1b8929a42fe7">chrono::collision::ChCollisionModelParallel</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:20 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

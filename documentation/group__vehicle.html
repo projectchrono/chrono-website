@@ -1,0 +1,564 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: VEHICLE module</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li class="current"><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#groups">Modules</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle">
+<div class="title">VEHICLE module</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<p>Ground vehicle modeling. </p>
+<p>This module introduces template-based modeling tools for creating wheeled and tracked vehicles.</p>
+<p>For additional information, see:</p><ul>
+<li>the <a class="el" href="module_vehicle_installation.html">installation guide</a></li>
+<li>the <a class="el" href="tutorial_table_of_content_chrono_vehicle.html">tutorials</a> </li>
+</ul>
+<div class="dynheader">
+Collaboration diagram for VEHICLE module:</div>
+<div class="dyncontent">
+<center><table><tr><td><img src="group__vehicle.png" border="0" alt="" usemap="#group____vehicle"/>
+<map name="group____vehicle" id="group____vehicle">
+<area shape="rect" id="node1" href="group__vehicle__wheeled.html" title="Wheeled vehicles" alt="" coords="183,5,308,32"/>
+<area shape="rect" id="node3" href="group__vehicle__tracked.html" title="Tracked vehicles" alt="" coords="185,56,306,83"/>
+<area shape="rect" id="node4" href="group__vehicle__terrain.html" title="Terrain models" alt="" coords="191,107,299,133"/>
+<area shape="rect" id="node5" href="group__vehicle__powertrain.html" title="Powertrain models" alt="" coords="180,157,311,184"/>
+<area shape="rect" id="node6" href="group__vehicle__utils.html" title="Utility classes" alt="" coords="193,208,298,235"/>
+<area shape="rect" id="node7" href="group__vehicle__driver.html" title="Driver models" alt="" coords="194,259,297,285"/>
+</map>
+</td></tr></table></center>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
+Modules</h2></td></tr>
+<tr class="memitem:group__vehicle__driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle__driver.html">Driver models</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__vehicle__powertrain"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle__powertrain.html">Powertrain models</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__vehicle__terrain"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle__terrain.html">Terrain models</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__vehicle__tracked"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle__tracked.html">Tracked vehicles</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__vehicle__utils"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle__utils.html">Utility classes</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__vehicle__wheeled"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle__wheeled.html">Wheeled vehicles</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespacechrono_1_1vehicle"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechrono_1_1vehicle.html">chrono::vehicle</a></td></tr>
+<tr class="memdesc:namespacechrono_1_1vehicle"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace with classes for the VEHICLE module. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_wheel_i_d.html">chrono::vehicle::WheelID</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to encode the ID of a vehicle wheel.  <a href="classchrono_1_1vehicle_1_1_wheel_i_d.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchrono_1_1vehicle_1_1_body_state.html">chrono::vehicle::BodyState</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to communicate a full body state.  <a href="structchrono_1_1vehicle_1_1_body_state.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchrono_1_1vehicle_1_1_wheel_state.html">chrono::vehicle::WheelState</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to communicate a full wheel body state.  <a href="structchrono_1_1vehicle_1_1_wheel_state.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchrono_1_1vehicle_1_1_tire_force.html">chrono::vehicle::TireForce</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to communicate a set of generalized tire forces.  <a href="structchrono_1_1vehicle_1_1_tire_force.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchrono_1_1vehicle_1_1_track_shoe_force.html">chrono::vehicle::TrackShoeForce</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to communicate a set of generalized track shoe forces.  <a href="structchrono_1_1vehicle_1_1_track_shoe_force.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_linear_spring_force.html">chrono::vehicle::LinearSpringForce</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility class for specifying a linear spring force.  <a href="classchrono_1_1vehicle_1_1_linear_spring_force.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_linear_damper_force.html">chrono::vehicle::LinearDamperForce</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility class for specifying a linear damper force.  <a href="classchrono_1_1vehicle_1_1_linear_damper_force.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_linear_spring_damper_force.html">chrono::vehicle::LinearSpringDamperForce</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility class for specifying a linear spring-damper force.  <a href="classchrono_1_1vehicle_1_1_linear_spring_damper_force.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_map_spring_force.html">chrono::vehicle::MapSpringForce</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility class for specifying a map spring force.  <a href="classchrono_1_1vehicle_1_1_map_spring_force.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_map_damper_force.html">chrono::vehicle::MapDamperForce</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility class for specifying a map damper force.  <a href="classchrono_1_1vehicle_1_1_map_damper_force.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">chrono::vehicle::ChVehicle</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for chrono vehicle systems.  <a href="classchrono_1_1vehicle_1_1_ch_vehicle.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga835c0f46a50e177ce09934d676ee0f1a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga835c0f46a50e177ce09934d676ee0f1a"></a>
+typedef std::vector&lt; BodyState &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#ga835c0f46a50e177ce09934d676ee0f1a">chrono::vehicle::BodyStates</a></td></tr>
+<tr class="memdesc:ga835c0f46a50e177ce09934d676ee0f1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of body state structures. <br /></td></tr>
+<tr class="separator:ga835c0f46a50e177ce09934d676ee0f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadbcaa1a6069a78ecfc78fcb666b94949"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadbcaa1a6069a78ecfc78fcb666b94949"></a>
+typedef std::vector&lt; WheelState &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#gadbcaa1a6069a78ecfc78fcb666b94949">chrono::vehicle::WheelStates</a></td></tr>
+<tr class="memdesc:gadbcaa1a6069a78ecfc78fcb666b94949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of wheel state structures. <br /></td></tr>
+<tr class="separator:gadbcaa1a6069a78ecfc78fcb666b94949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga70c8001a7f9c1f762c68cba3611e8694"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga70c8001a7f9c1f762c68cba3611e8694"></a>
+typedef std::vector&lt; TireForce &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#ga70c8001a7f9c1f762c68cba3611e8694">chrono::vehicle::TireForces</a></td></tr>
+<tr class="memdesc:ga70c8001a7f9c1f762c68cba3611e8694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of tire force structures. <br /></td></tr>
+<tr class="separator:ga70c8001a7f9c1f762c68cba3611e8694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68a689abd84eeae6f29659943bcf81eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga68a689abd84eeae6f29659943bcf81eb"></a>
+typedef std::vector&lt; TrackShoeForce &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#ga68a689abd84eeae6f29659943bcf81eb">chrono::vehicle::TrackShoeForces</a></td></tr>
+<tr class="memdesc:ga68a689abd84eeae6f29659943bcf81eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of tire force structures. <br /></td></tr>
+<tr class="separator:ga68a689abd84eeae6f29659943bcf81eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga6e89b4f65f5acf86bce02a712d9eab38"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">chrono::vehicle::VehicleSide</a> { <a class="el" href="group__vehicle.html#gga6e89b4f65f5acf86bce02a712d9eab38aa41b381aafe5202a28379db03f940b90">chrono::vehicle::LEFT</a> = 0, 
+<a class="el" href="group__vehicle.html#gga6e89b4f65f5acf86bce02a712d9eab38a2ffd2881334ad5e9aa5440d60209c528">chrono::vehicle::RIGHT</a> = 1
+ }<tr class="memdesc:ga6e89b4f65f5acf86bce02a712d9eab38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum for the side (left/right) of a vehicle.  <a href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ga6e89b4f65f5acf86bce02a712d9eab38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28beaf95a6c3d6851c8f9e47ca11c942"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#ga28beaf95a6c3d6851c8f9e47ca11c942">chrono::vehicle::VisualizationType</a> { <a class="el" href="group__vehicle.html#gga28beaf95a6c3d6851c8f9e47ca11c942a44f2ab8990da49d7486150ff166ee1a7">chrono::vehicle::NONE</a>, 
+<a class="el" href="group__vehicle.html#gga28beaf95a6c3d6851c8f9e47ca11c942a2e3f28c8468a37b25ecb8f1b2e57d5b0">chrono::vehicle::PRIMITIVES</a>, 
+<a class="el" href="group__vehicle.html#gga28beaf95a6c3d6851c8f9e47ca11c942acd5dad206e0446e2ebce8198b775bf35">chrono::vehicle::MESH</a>
+ }<tr class="memdesc:ga28beaf95a6c3d6851c8f9e47ca11c942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum for visualization types.  <a href="group__vehicle.html#ga28beaf95a6c3d6851c8f9e47ca11c942">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ga28beaf95a6c3d6851c8f9e47ca11c942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga102c9add7b8569f7ed4f7cb6e20e7da4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#ga102c9add7b8569f7ed4f7cb6e20e7da4">chrono::vehicle::TireModelType</a> { <br />
+&#160;&#160;<a class="el" href="group__vehicle.html#gga102c9add7b8569f7ed4f7cb6e20e7da4af9808b819a0a8b60851a04fb8441e35e">chrono::vehicle::RIGID</a>, 
+<a class="el" href="group__vehicle.html#gga102c9add7b8569f7ed4f7cb6e20e7da4ad4cc2a87c0b61a3a0914bca27bae24e0">chrono::vehicle::PACEJKA</a>, 
+<a class="el" href="group__vehicle.html#gga102c9add7b8569f7ed4f7cb6e20e7da4a26458861d0270ba15b611d04430e4e6d">chrono::vehicle::LUGRE</a>, 
+<a class="el" href="group__vehicle.html#gga102c9add7b8569f7ed4f7cb6e20e7da4a251a10d41c1e122fd96b35812bebf7f7">chrono::vehicle::FIALA</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__vehicle.html#gga102c9add7b8569f7ed4f7cb6e20e7da4a7175114f1b94a61024c0a4cbd441001a">chrono::vehicle::ANCF</a>, 
+<a class="el" href="group__vehicle.html#gga102c9add7b8569f7ed4f7cb6e20e7da4a1510ba855d868148f3f06a8688423659">chrono::vehicle::FEA</a>
+<br />
+ }<tr class="memdesc:ga102c9add7b8569f7ed4f7cb6e20e7da4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum for available tire models.  <a href="group__vehicle.html#ga102c9add7b8569f7ed4f7cb6e20e7da4">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ga102c9add7b8569f7ed4f7cb6e20e7da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa74a07235d32651851d1a35902d636d2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#gaa74a07235d32651851d1a35902d636d2">chrono::vehicle::PowertrainModelType</a> { <a class="el" href="group__vehicle.html#ggaa74a07235d32651851d1a35902d636d2aa96501d625af0c498f940d72557d056b">chrono::vehicle::SHAFTS</a>, 
+<a class="el" href="group__vehicle.html#ggaa74a07235d32651851d1a35902d636d2a498ee0982cac72926db34cd0f4c85343">chrono::vehicle::SIMPLE</a>
+ }<tr class="memdesc:gaa74a07235d32651851d1a35902d636d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum for available powertrain model templates.  <a href="group__vehicle.html#gaa74a07235d32651851d1a35902d636d2">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:gaa74a07235d32651851d1a35902d636d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba63f6b3d472e68cfd9bebc80d37b344"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#gaba63f6b3d472e68cfd9bebc80d37b344">chrono::vehicle::SuspensionType</a> { <br />
+&#160;&#160;<a class="el" href="group__vehicle.html#ggaba63f6b3d472e68cfd9bebc80d37b344aa0618b198fb96e135382bff8abf52551">chrono::vehicle::DOUBLE_WISHBONE</a>, 
+<a class="el" href="group__vehicle.html#ggaba63f6b3d472e68cfd9bebc80d37b344a269973bf2e2a3a1f151f3f1328837500">chrono::vehicle::DOUBLE_WISHBONE_REDUCED</a>, 
+<a class="el" href="group__vehicle.html#ggaba63f6b3d472e68cfd9bebc80d37b344a51b236bc25c667a8e2b7fa80a55399c2">chrono::vehicle::SOLID_AXLE</a>, 
+<a class="el" href="group__vehicle.html#ggaba63f6b3d472e68cfd9bebc80d37b344a081d9d96298ae7984ac8793b1cac056f">chrono::vehicle::MULTI_LINK</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__vehicle.html#ggaba63f6b3d472e68cfd9bebc80d37b344a4cdf383584a1a558798710ba9b7eeab3">chrono::vehicle::HENDRICKSON_PRIMAXX</a>, 
+<a class="el" href="group__vehicle.html#ggaba63f6b3d472e68cfd9bebc80d37b344a731be1ea3051171220a1ab4c3e1cb1d1">chrono::vehicle::MACPHERSON_STRUT</a>
+<br />
+ }<tr class="memdesc:gaba63f6b3d472e68cfd9bebc80d37b344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum for available suspension model templates.  <a href="group__vehicle.html#gaba63f6b3d472e68cfd9bebc80d37b344">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:gaba63f6b3d472e68cfd9bebc80d37b344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6f8ba5920980027fc96227e59be0286"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#gac6f8ba5920980027fc96227e59be0286">chrono::vehicle::DrivelineType</a> { <a class="el" href="group__vehicle.html#ggac6f8ba5920980027fc96227e59be0286a5addfbf50b581068190316e72a95bb02">chrono::vehicle::FWD</a>, 
+<a class="el" href="group__vehicle.html#ggac6f8ba5920980027fc96227e59be0286aabdcc5516262062566267a870f735baf">chrono::vehicle::RWD</a>, 
+<a class="el" href="group__vehicle.html#ggac6f8ba5920980027fc96227e59be0286aaaaef126efc699fb686852e7e9215822">chrono::vehicle::AWD</a>
+ }<tr class="memdesc:gac6f8ba5920980027fc96227e59be0286"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum for drive types.  <a href="group__vehicle.html#gac6f8ba5920980027fc96227e59be0286">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:gac6f8ba5920980027fc96227e59be0286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad9777e02cc5771623677f1af1568f79a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#gad9777e02cc5771623677f1af1568f79a">chrono::vehicle::TrackShoeType</a> { <a class="el" href="group__vehicle.html#ggad9777e02cc5771623677f1af1568f79aa025579f8bf9a8f2cacefe72db3527a9f">chrono::vehicle::SINGLE_PIN</a>, 
+<a class="el" href="group__vehicle.html#ggad9777e02cc5771623677f1af1568f79aade2838b9e74bbe97d81a08390bb9856a">chrono::vehicle::DOUBLE_PIN</a>
+ }<tr class="memdesc:gad9777e02cc5771623677f1af1568f79a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum for track shoe types.  <a href="group__vehicle.html#gad9777e02cc5771623677f1af1568f79a">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:gad9777e02cc5771623677f1af1568f79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf1bd6107e3bad71f37ba01e55d08ef7e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#gaf1bd6107e3bad71f37ba01e55d08ef7e">chrono::vehicle::GuidePinType</a> { <a class="el" href="group__vehicle.html#ggaf1bd6107e3bad71f37ba01e55d08ef7eab6639803d35a1552f9d613c1810ebc92">chrono::vehicle::CENTRAL_PIN</a>, 
+<a class="el" href="group__vehicle.html#ggaf1bd6107e3bad71f37ba01e55d08ef7eaa5a784594873e0a6697ac0ea875ea17a">chrono::vehicle::LATERAL_PIN</a>
+ }<tr class="memdesc:gaf1bd6107e3bad71f37ba01e55d08ef7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum for guide pin (track shoe/roadwheel/idler).  <a href="group__vehicle.html#gaf1bd6107e3bad71f37ba01e55d08ef7e">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:gaf1bd6107e3bad71f37ba01e55d08ef7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66cf574943efdb9c58acdbb5a19a476f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#ga66cf574943efdb9c58acdbb5a19a476f">chrono::vehicle::OutputInformation</a> { <a class="el" href="group__vehicle.html#gga66cf574943efdb9c58acdbb5a19a476fa4738cdd33b7ada21c935c9aa3712bf09">chrono::vehicle::OUT_SPRINGS</a> = 1 &lt;&lt; 0, 
+<a class="el" href="group__vehicle.html#gga66cf574943efdb9c58acdbb5a19a476fa8a486f4045030b630a0407a673e90d01">chrono::vehicle::OUT_SHOCKS</a> = 1 &lt;&lt; 1, 
+<a class="el" href="group__vehicle.html#gga66cf574943efdb9c58acdbb5a19a476fa375b2e1f9f96ba62e9412454b5534c59">chrono::vehicle::OUT_CONSTRAINTS</a> = 1 &lt;&lt; 2, 
+<a class="el" href="group__vehicle.html#gga66cf574943efdb9c58acdbb5a19a476fa19cb7d6607e51772745f9d79db4cc6f5">chrono::vehicle::OUT_TESTRIG</a> = 1 &lt;&lt; 3
+ }<tr class="memdesc:ga66cf574943efdb9c58acdbb5a19a476f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags for output (log/debug).  <a href="group__vehicle.html#ga66cf574943efdb9c58acdbb5a19a476f">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ga66cf574943efdb9c58acdbb5a19a476f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gae5de7dd42e1a695b07edbbada8153322"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae5de7dd42e1a695b07edbbada8153322"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#gae5de7dd42e1a695b07edbbada8153322">chrono::vehicle::SetDataPath</a> (const std::string &amp;path)</td></tr>
+<tr class="memdesc:gae5de7dd42e1a695b07edbbada8153322"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the path to the Chrono::Vehicle data directory (ATTENTION: not thread safe). <br /></td></tr>
+<tr class="separator:gae5de7dd42e1a695b07edbbada8153322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafa9427f66d8d20a07f1611f763279c86"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafa9427f66d8d20a07f1611f763279c86"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#gafa9427f66d8d20a07f1611f763279c86">chrono::vehicle::GetDataPath</a> ()</td></tr>
+<tr class="memdesc:gafa9427f66d8d20a07f1611f763279c86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current path to the Chrono::Vehicle data directory (thread safe). <br /></td></tr>
+<tr class="separator:gafa9427f66d8d20a07f1611f763279c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8829e407981053981a513a43066d3f15"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vehicle.html#ga8829e407981053981a513a43066d3f15">chrono::vehicle::GetDataFile</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:ga8829e407981053981a513a43066d3f15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the complete path to the specified filename (thread safe).  <a href="group__vehicle.html#ga8829e407981053981a513a43066d3f15">More...</a><br /></td></tr>
+<tr class="separator:ga8829e407981053981a513a43066d3f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="gac6f8ba5920980027fc96227e59be0286"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__vehicle.html#gac6f8ba5920980027fc96227e59be0286">chrono::vehicle::DrivelineType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enum for drive types. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggac6f8ba5920980027fc96227e59be0286a5addfbf50b581068190316e72a95bb02"></a>FWD&#160;</td><td class="fielddoc">
+<p>front-wheel drive </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggac6f8ba5920980027fc96227e59be0286aabdcc5516262062566267a870f735baf"></a>RWD&#160;</td><td class="fielddoc">
+<p>rear-wheel drive </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggac6f8ba5920980027fc96227e59be0286aaaaef126efc699fb686852e7e9215822"></a>AWD&#160;</td><td class="fielddoc">
+<p>all-wheel drive </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gaf1bd6107e3bad71f37ba01e55d08ef7e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__vehicle.html#gaf1bd6107e3bad71f37ba01e55d08ef7e">chrono::vehicle::GuidePinType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enum for guide pin (track shoe/roadwheel/idler). </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggaf1bd6107e3bad71f37ba01e55d08ef7eab6639803d35a1552f9d613c1810ebc92"></a>CENTRAL_PIN&#160;</td><td class="fielddoc">
+<p>track shoes with central guiding pin and double wheels </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggaf1bd6107e3bad71f37ba01e55d08ef7eaa5a784594873e0a6697ac0ea875ea17a"></a>LATERAL_PIN&#160;</td><td class="fielddoc">
+<p>track shoes with lateral guiding pins and single wheels </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga66cf574943efdb9c58acdbb5a19a476f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__vehicle.html#ga66cf574943efdb9c58acdbb5a19a476f">chrono::vehicle::OutputInformation</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flags for output (log/debug). </p>
+<p>These flags can be bit-wise ORed and used as a mask. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga66cf574943efdb9c58acdbb5a19a476fa4738cdd33b7ada21c935c9aa3712bf09"></a>OUT_SPRINGS&#160;</td><td class="fielddoc">
+<p>suspension spring information </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga66cf574943efdb9c58acdbb5a19a476fa8a486f4045030b630a0407a673e90d01"></a>OUT_SHOCKS&#160;</td><td class="fielddoc">
+<p>suspension shock information </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga66cf574943efdb9c58acdbb5a19a476fa375b2e1f9f96ba62e9412454b5534c59"></a>OUT_CONSTRAINTS&#160;</td><td class="fielddoc">
+<p>constraint violation information </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga66cf574943efdb9c58acdbb5a19a476fa19cb7d6607e51772745f9d79db4cc6f5"></a>OUT_TESTRIG&#160;</td><td class="fielddoc">
+<p>test-rig specific information </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gaa74a07235d32651851d1a35902d636d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__vehicle.html#gaa74a07235d32651851d1a35902d636d2">chrono::vehicle::PowertrainModelType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enum for available powertrain model templates. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggaa74a07235d32651851d1a35902d636d2aa96501d625af0c498f940d72557d056b"></a>SHAFTS&#160;</td><td class="fielddoc">
+<p>powertrain based on <a class="el" href="classchrono_1_1_ch_shaft.html" title="Class for one-degree-of-freedom mechanical parts with associated inertia (mass, or J moment of intert...">ChShaft</a> elements </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggaa74a07235d32651851d1a35902d636d2a498ee0982cac72926db34cd0f4c85343"></a>SIMPLE&#160;</td><td class="fielddoc">
+<p>simple powertrain model (similar to a DC motor) </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gaba63f6b3d472e68cfd9bebc80d37b344"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__vehicle.html#gaba63f6b3d472e68cfd9bebc80d37b344">chrono::vehicle::SuspensionType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enum for available suspension model templates. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggaba63f6b3d472e68cfd9bebc80d37b344aa0618b198fb96e135382bff8abf52551"></a>DOUBLE_WISHBONE&#160;</td><td class="fielddoc">
+<p>double wishbone </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggaba63f6b3d472e68cfd9bebc80d37b344a269973bf2e2a3a1f151f3f1328837500"></a>DOUBLE_WISHBONE_REDUCED&#160;</td><td class="fielddoc">
+<p>simplified double wishbone (constraint-based) </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggaba63f6b3d472e68cfd9bebc80d37b344a51b236bc25c667a8e2b7fa80a55399c2"></a>SOLID_AXLE&#160;</td><td class="fielddoc">
+<p>solid axle </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggaba63f6b3d472e68cfd9bebc80d37b344a081d9d96298ae7984ac8793b1cac056f"></a>MULTI_LINK&#160;</td><td class="fielddoc">
+<p>multi-link </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggaba63f6b3d472e68cfd9bebc80d37b344a4cdf383584a1a558798710ba9b7eeab3"></a>HENDRICKSON_PRIMAXX&#160;</td><td class="fielddoc">
+<p>Hendrickson PRIMAXX (walking beam) </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggaba63f6b3d472e68cfd9bebc80d37b344a731be1ea3051171220a1ab4c3e1cb1d1"></a>MACPHERSON_STRUT&#160;</td><td class="fielddoc">
+<p>MacPherson strut. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga102c9add7b8569f7ed4f7cb6e20e7da4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__vehicle.html#ga102c9add7b8569f7ed4f7cb6e20e7da4">chrono::vehicle::TireModelType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enum for available tire models. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga102c9add7b8569f7ed4f7cb6e20e7da4af9808b819a0a8b60851a04fb8441e35e"></a>RIGID&#160;</td><td class="fielddoc">
+<p>rigid tire </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga102c9add7b8569f7ed4f7cb6e20e7da4ad4cc2a87c0b61a3a0914bca27bae24e0"></a>PACEJKA&#160;</td><td class="fielddoc">
+<p>Pacejka (magic formula) tire. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga102c9add7b8569f7ed4f7cb6e20e7da4a26458861d0270ba15b611d04430e4e6d"></a>LUGRE&#160;</td><td class="fielddoc">
+<p>Lugre frition model tire. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga102c9add7b8569f7ed4f7cb6e20e7da4a251a10d41c1e122fd96b35812bebf7f7"></a>FIALA&#160;</td><td class="fielddoc">
+<p>Fiala tire. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga102c9add7b8569f7ed4f7cb6e20e7da4a7175114f1b94a61024c0a4cbd441001a"></a>ANCF&#160;</td><td class="fielddoc">
+<p>ANCF shell element-based tire. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga102c9add7b8569f7ed4f7cb6e20e7da4a1510ba855d868148f3f06a8688423659"></a>FEA&#160;</td><td class="fielddoc">
+<p>FEA co-rotational tire. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gad9777e02cc5771623677f1af1568f79a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__vehicle.html#gad9777e02cc5771623677f1af1568f79a">chrono::vehicle::TrackShoeType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enum for track shoe types. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggad9777e02cc5771623677f1af1568f79aa025579f8bf9a8f2cacefe72db3527a9f"></a>SINGLE_PIN&#160;</td><td class="fielddoc">
+<p>single-pin track shoe and sprocket </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggad9777e02cc5771623677f1af1568f79aade2838b9e74bbe97d81a08390bb9856a"></a>DOUBLE_PIN&#160;</td><td class="fielddoc">
+<p>double-pin track shoe and sprocket </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga6e89b4f65f5acf86bce02a712d9eab38"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">chrono::vehicle::VehicleSide</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enum for the side (left/right) of a vehicle. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga6e89b4f65f5acf86bce02a712d9eab38aa41b381aafe5202a28379db03f940b90"></a>LEFT&#160;</td><td class="fielddoc">
+<p>left side of vehicle is always 0 </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga6e89b4f65f5acf86bce02a712d9eab38a2ffd2881334ad5e9aa5440d60209c528"></a>RIGHT&#160;</td><td class="fielddoc">
+<p>right side of vehicle is always 1 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga28beaf95a6c3d6851c8f9e47ca11c942"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__vehicle.html#ga28beaf95a6c3d6851c8f9e47ca11c942">chrono::vehicle::VisualizationType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enum for visualization types. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga28beaf95a6c3d6851c8f9e47ca11c942a44f2ab8990da49d7486150ff166ee1a7"></a>NONE&#160;</td><td class="fielddoc">
+<p>no visualization </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga28beaf95a6c3d6851c8f9e47ca11c942a2e3f28c8468a37b25ecb8f1b2e57d5b0"></a>PRIMITIVES&#160;</td><td class="fielddoc">
+<p>use primitve shapes </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga28beaf95a6c3d6851c8f9e47ca11c942acd5dad206e0446e2ebce8198b775bf35"></a>MESH&#160;</td><td class="fielddoc">
+<p>use meshes </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga8829e407981053981a513a43066d3f15"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CH_VEHICLE_API std::string chrono::vehicle::GetDataFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the complete path to the specified filename (thread safe). </p>
+<p>The filename is assumed to be given relative to the Chrono::Vehicle model data directory. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:12 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

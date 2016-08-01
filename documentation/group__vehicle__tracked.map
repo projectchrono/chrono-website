@@ -1,0 +1,10 @@
+<map id="Tracked vehicles" name="Tracked vehicles">
+<area shape="rect" id="node1" href="$group__vehicle.html" title="Ground vehicle modeling. " alt="" coords="5,157,132,184"/>
+<area shape="rect" id="node2" href="$group__vehicle__tracked__suspension.html" title="Suspension subsystem" alt="" coords="349,5,508,32"/>
+<area shape="rect" id="node4" href="$group__vehicle__tracked__sprocket.html" title="Sprocket subsystem" alt="" coords="357,56,500,83"/>
+<area shape="rect" id="node5" href="$group__vehicle__tracked__idler.html" title="Idler subsystem" alt="" coords="371,107,486,133"/>
+<area shape="rect" id="node6" href="$group__vehicle__tracked__brake.html" title="Brake subsystem" alt="" coords="367,157,491,184"/>
+<area shape="rect" id="node7" href="$group__vehicle__tracked__shoe.html" title="Track&#45;shoe subsystem" alt="" coords="351,208,506,235"/>
+<area shape="rect" id="node8" href="$group__vehicle__tracked__utils.html" title="Utility classes" alt="" coords="376,259,481,285"/>
+<area shape="rect" id="node9" href="$group__vehicle__tracked__driveline.html" title="Driveline subsystem" alt="" coords="358,309,499,336"/>
+</map>

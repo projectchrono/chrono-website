@@ -1,0 +1,533 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChSimplePowertrain Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html">ChSimplePowertrain</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_simple_powertrain-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChSimplePowertrain Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__powertrain.html">Powertrain models</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Template for simplified powertrain model. </p>
+<p>This model uses a trivial speed-torque curve, has no torque converter and no transmission box. </p>
+</div>
+<p><code>#include &lt;ChSimplePowertrain.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::ChSimplePowertrain:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_simple_powertrain__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_simple_powertrain_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_simple_powertrain_inherit__map" id="chrono_1_1vehicle_1_1_ch_simple_powertrain_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_powertrain.html" title="Base class for a powertrain system. " alt="" coords="5,5,203,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::vehicle::ChSimplePowertrain:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_simple_powertrain__coll__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_simple_powertrain_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_simple_powertrain_coll__map" id="chrono_1_1vehicle_1_1_ch_simple_powertrain_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_powertrain.html" title="Base class for a powertrain system. " alt="" coords="5,5,203,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aadc2a6a19f73728fa10892ffb622fdfb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aadc2a6a19f73728fa10892ffb622fdfb"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#aadc2a6a19f73728fa10892ffb622fdfb">GetMotorSpeed</a> () const override</td></tr>
+<tr class="memdesc:aadc2a6a19f73728fa10892ffb622fdfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current engine speed. <br /></td></tr>
+<tr class="separator:aadc2a6a19f73728fa10892ffb622fdfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65f89e989b0270367aca09cd1bdd07e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af65f89e989b0270367aca09cd1bdd07e"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#af65f89e989b0270367aca09cd1bdd07e">GetMotorTorque</a> () const override</td></tr>
+<tr class="memdesc:af65f89e989b0270367aca09cd1bdd07e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current engine torque. <br /></td></tr>
+<tr class="separator:af65f89e989b0270367aca09cd1bdd07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ce6b6ffb028615c16d41dcf27847f28"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#a0ce6b6ffb028615c16d41dcf27847f28">GetTorqueConverterSlippage</a> () const override</td></tr>
+<tr class="memdesc:a0ce6b6ffb028615c16d41dcf27847f28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the value of slippage in the torque converter.  <a href="#a0ce6b6ffb028615c16d41dcf27847f28">More...</a><br /></td></tr>
+<tr class="separator:a0ce6b6ffb028615c16d41dcf27847f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a816520b9aedf3e3f3c39dab3a5d205cf"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#a816520b9aedf3e3f3c39dab3a5d205cf">GetTorqueConverterInputTorque</a> () const override</td></tr>
+<tr class="memdesc:a816520b9aedf3e3f3c39dab3a5d205cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the input torque to the torque converter.  <a href="#a816520b9aedf3e3f3c39dab3a5d205cf">More...</a><br /></td></tr>
+<tr class="separator:a816520b9aedf3e3f3c39dab3a5d205cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfca0dc68fa6aba8a89f8a5d2bebb664"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#acfca0dc68fa6aba8a89f8a5d2bebb664">GetTorqueConverterOutputTorque</a> () const override</td></tr>
+<tr class="memdesc:acfca0dc68fa6aba8a89f8a5d2bebb664"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the output torque from the torque converter.  <a href="#acfca0dc68fa6aba8a89f8a5d2bebb664">More...</a><br /></td></tr>
+<tr class="separator:acfca0dc68fa6aba8a89f8a5d2bebb664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac68f18ecfc9e9f830e6d7fea41c802ca"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#ac68f18ecfc9e9f830e6d7fea41c802ca">GetCurrentTransmissionGear</a> () const override</td></tr>
+<tr class="memdesc:ac68f18ecfc9e9f830e6d7fea41c802ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current transmission gear This simplified model does not have a transmission box.  <a href="#ac68f18ecfc9e9f830e6d7fea41c802ca">More...</a><br /></td></tr>
+<tr class="separator:ac68f18ecfc9e9f830e6d7fea41c802ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe8e150f1cae5cf8f933d25ad4b0d6ec"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#afe8e150f1cae5cf8f933d25ad4b0d6ec">GetOutputTorque</a> () const override</td></tr>
+<tr class="memdesc:afe8e150f1cae5cf8f933d25ad4b0d6ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the ouput torque from the powertrain.  <a href="#afe8e150f1cae5cf8f933d25ad4b0d6ec">More...</a><br /></td></tr>
+<tr class="separator:afe8e150f1cae5cf8f933d25ad4b0d6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf2d81bbf00c0ee4d697d624e683254c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#abf2d81bbf00c0ee4d697d624e683254c">SetDriveMode</a> (<a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56b">ChPowertrain::DriveMode</a> mmode) override</td></tr>
+<tr class="memdesc:abf2d81bbf00c0ee4d697d624e683254c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this function to set the mode of automatic transmission.  <a href="#abf2d81bbf00c0ee4d697d624e683254c">More...</a><br /></td></tr>
+<tr class="separator:abf2d81bbf00c0ee4d697d624e683254c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52518d048aabf1388e02d397128ee757"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#a52518d048aabf1388e02d397128ee757">Initialize</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt; chassis, std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shaft.html">ChShaft</a> &gt; driveshaft) override</td></tr>
+<tr class="memdesc:a52518d048aabf1388e02d397128ee757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the powertrain system.  <a href="#a52518d048aabf1388e02d397128ee757">More...</a><br /></td></tr>
+<tr class="separator:a52518d048aabf1388e02d397128ee757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3dbe2951e91cfc64e2b41426b779528"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#ae3dbe2951e91cfc64e2b41426b779528">Synchronize</a> (double time, double throttle, double shaft_speed) override</td></tr>
+<tr class="memdesc:ae3dbe2951e91cfc64e2b41426b779528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the state of this powertrain system at the current time.  <a href="#ae3dbe2951e91cfc64e2b41426b779528">More...</a><br /></td></tr>
+<tr class="separator:ae3dbe2951e91cfc64e2b41426b779528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8329a4c091c8061b0a7082cd07a985ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#a8329a4c091c8061b0a7082cd07a985ed">Advance</a> (double step) override</td></tr>
+<tr class="memdesc:a8329a4c091c8061b0a7082cd07a985ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance the state of this powertrain system by the specified time step.  <a href="#a8329a4c091c8061b0a7082cd07a985ed">More...</a><br /></td></tr>
+<tr class="separator:a8329a4c091c8061b0a7082cd07a985ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1vehicle_1_1_ch_powertrain"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1vehicle_1_1_ch_powertrain')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html">chrono::vehicle::ChPowertrain</a></td></tr>
+<tr class="memitem:a9ef18d7f0471ecd7303891c0e3132574 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_powertrain"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ef18d7f0471ecd7303891c0e3132574"></a>
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56b">DriveMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ef18d7f0471ecd7303891c0e3132574">GetDriveMode</a> ()</td></tr>
+<tr class="memdesc:a9ef18d7f0471ecd7303891c0e3132574 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_powertrain"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current mode of the transmission. <br /></td></tr>
+<tr class="separator:a9ef18d7f0471ecd7303891c0e3132574 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_powertrain"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a6d0f79454000e6435f4ee1bae5c269b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d0f79454000e6435f4ee1bae5c269b4"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#a6d0f79454000e6435f4ee1bae5c269b4">GetForwardGearRatio</a> () const =0</td></tr>
+<tr class="memdesc:a6d0f79454000e6435f4ee1bae5c269b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the forward gear ratio (single gear transmission) <br /></td></tr>
+<tr class="separator:a6d0f79454000e6435f4ee1bae5c269b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa752097e4680a86e23f8915c42a9a630"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa752097e4680a86e23f8915c42a9a630"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#aa752097e4680a86e23f8915c42a9a630">GetReverseGearRatio</a> () const =0</td></tr>
+<tr class="memdesc:aa752097e4680a86e23f8915c42a9a630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the reverse gear ratio. <br /></td></tr>
+<tr class="separator:aa752097e4680a86e23f8915c42a9a630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae969f583c04d42dd1a28663419d29f8c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae969f583c04d42dd1a28663419d29f8c"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#ae969f583c04d42dd1a28663419d29f8c">GetMaxTorque</a> () const =0</td></tr>
+<tr class="memdesc:ae969f583c04d42dd1a28663419d29f8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the maximum motor torque. <br /></td></tr>
+<tr class="separator:ae969f583c04d42dd1a28663419d29f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a922cc7baeda2d2902acf025cc835f207"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a922cc7baeda2d2902acf025cc835f207"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_powertrain.html#a922cc7baeda2d2902acf025cc835f207">GetMaxSpeed</a> () const =0</td></tr>
+<tr class="memdesc:a922cc7baeda2d2902acf025cc835f207"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the maximum motor speed. <br /></td></tr>
+<tr class="separator:a922cc7baeda2d2902acf025cc835f207"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classchrono_1_1vehicle_1_1_ch_powertrain"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classchrono_1_1vehicle_1_1_ch_powertrain')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html">chrono::vehicle::ChPowertrain</a></td></tr>
+<tr class="memitem:a9ace54d15d4209d976db03c5121eb56b inherit pub_types_classchrono_1_1vehicle_1_1_ch_powertrain"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56b">DriveMode</a> { <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56babf084f87614031f162011794b61a59cd">FORWARD</a>, 
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56baf526c934af797c3f978eec8f358772f6">NEUTRAL</a>, 
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56ba6f8acee39ba5b756723578477fe33489">REVERSE</a>
+ }<tr class="memdesc:a9ace54d15d4209d976db03c5121eb56b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driving modes.  <a href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56b">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a9ace54d15d4209d976db03c5121eb56b inherit pub_types_classchrono_1_1vehicle_1_1_ch_powertrain"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1vehicle_1_1_ch_powertrain"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1vehicle_1_1_ch_powertrain')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html">chrono::vehicle::ChPowertrain</a></td></tr>
+<tr class="memitem:aea17d760c75c8d48806a9a10fca780d8 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_powertrain"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea17d760c75c8d48806a9a10fca780d8"></a>
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56b">DriveMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_drive_mode</b></td></tr>
+<tr class="separator:aea17d760c75c8d48806a9a10fca780d8 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_powertrain"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a8329a4c091c8061b0a7082cd07a985ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::vehicle::ChSimplePowertrain::Advance </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>step</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Advance the state of this powertrain system by the specified time step. </p>
+<p>This function does nothing for this simplified powertrain model. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a522bea75870e5d53759678f4df6d2815">chrono::vehicle::ChPowertrain</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac68f18ecfc9e9f830e6d7fea41c802ca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int chrono::vehicle::ChSimplePowertrain::GetCurrentTransmissionGear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the current transmission gear This simplified model does not have a transmission box. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#ac5cf0fe65fbd668e8e3a7ce09b2416be">chrono::vehicle::ChPowertrain</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afe8e150f1cae5cf8f933d25ad4b0d6ec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::vehicle::ChSimplePowertrain::GetOutputTorque </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the ouput torque from the powertrain. </p>
+<p>This is the torque that is passed to a vehicle system, thus providing the interface between the powertrain and vehcicle cosimulation modules. Since a ShaftsPowertrain is directly connected to the vehicle's driveline, this function returns 0. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#ad9735ab75d505eb9c1c0e5ab44d6d3e9">chrono::vehicle::ChPowertrain</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a816520b9aedf3e3f3c39dab3a5d205cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::vehicle::ChSimplePowertrain::GetTorqueConverterInputTorque </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the input torque to the torque converter. </p>
+<p>This simplified model does not have a torque converter. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a643d8992dcf397cac21dea042cf8a7b5">chrono::vehicle::ChPowertrain</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acfca0dc68fa6aba8a89f8a5d2bebb664"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::vehicle::ChSimplePowertrain::GetTorqueConverterOutputTorque </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the output torque from the torque converter. </p>
+<p>This simplified model does not have a torque converter. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#ae571daf2053f17b814cc23810e0387be">chrono::vehicle::ChPowertrain</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ce6b6ffb028615c16d41dcf27847f28"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::vehicle::ChSimplePowertrain::GetTorqueConverterSlippage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the value of slippage in the torque converter. </p>
+<p>This simplified model does not have a torque converter. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a79e70c37aefe0b1ba62587a7e83bc0e2">chrono::vehicle::ChPowertrain</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a52518d048aabf1388e02d397128ee757"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChSimplePowertrain::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td>
+          <td class="paramname"><em>chassis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shaft.html">ChShaft</a> &gt;&#160;</td>
+          <td class="paramname"><em>driveshaft</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize the powertrain system. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">chassis</td><td>chassis o the associated vehicle </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">driveshaft</td><td>shaft connection to the vehicle driveline </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a69877769b283c33d2dcfa086b282749e">chrono::vehicle::ChPowertrain</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abf2d81bbf00c0ee4d697d624e683254c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChSimplePowertrain::SetDriveMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a9ace54d15d4209d976db03c5121eb56b">ChPowertrain::DriveMode</a>&#160;</td>
+          <td class="paramname"><em>mmode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Use this function to set the mode of automatic transmission. </p>
+<p>This simplified model does not have a transmission box. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#a8beaadbecf8b6de186b4c69aabcd540f">chrono::vehicle::ChPowertrain</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae3dbe2951e91cfc64e2b41426b779528"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChSimplePowertrain::Synchronize </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>throttle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>shaft_speed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update the state of this powertrain system at the current time. </p>
+<p>The powertrain system is provided the current driver throttle input, a value in the range [0,1], and the current angular speed of the transmission shaft (from the driveline). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">time</td><td>current time </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">throttle</td><td>current throttle input [0,1] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">shaft_speed</td><td>current angular speed of the transmission shaft </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_powertrain.html#aa87a3d7374ad5fe8e4d1406f5da10e2f">chrono::vehicle::ChPowertrain</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:24 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

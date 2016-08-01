@@ -1,0 +1,4 @@
+<map id="chrono::fea::ChBeamSectionAdvanced" name="chrono::fea::ChBeamSectionAdvanced">
+<area shape="rect" id="node2" href="$classchrono_1_1fea_1_1_ch_beam_section_basic.html" title="Basic geometry for a beam section in 3D, along with basic material properties (zz and yy moments of i..." alt="" coords="5,80,196,121"/>
+<area shape="rect" id="node3" href="$classchrono_1_1fea_1_1_ch_beam_section.html" title="Base class for properties of beam sections. " alt="" coords="5,5,196,32"/>
+</map>

@@ -1,0 +1,400 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChSingleIdler Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_single_idler.html">ChSingleIdler</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_single_idler-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChSingleIdler Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__tracked.html">Tracked vehicles</a> &raquo; <a class="el" href="group__vehicle__tracked__idler.html">Idler subsystem</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for a single idler (template definition). </p>
+</div>
+<p><code>#include &lt;ChSingleIdler.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::ChSingleIdler:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_single_idler__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_single_idler_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_single_idler_inherit__map" id="chrono_1_1vehicle_1_1_ch_single_idler_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_idler.html" title="Base class for an idler subsystem. " alt="" coords="11,5,171,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::vehicle::ChSingleIdler:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_single_idler__coll__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_single_idler_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_single_idler_coll__map" id="chrono_1_1vehicle_1_1_ch_single_idler_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_idler.html" title="Base class for an idler subsystem. " alt="" coords="11,5,171,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a444aefcc7dbd7e1abfe42665d793127b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_single_idler.html#a444aefcc7dbd7e1abfe42665d793127b">ChSingleIdler</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a444aefcc7dbd7e1abfe42665d793127b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a259f16d4e2b970405f4eba4fa016ae20"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a259f16d4e2b970405f4eba4fa016ae20"></a>
+virtual <a class="el" href="group__vehicle.html#gaf1bd6107e3bad71f37ba01e55d08ef7e">GuidePinType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_single_idler.html#a259f16d4e2b970405f4eba4fa016ae20">GetType</a> () const override</td></tr>
+<tr class="memdesc:a259f16d4e2b970405f4eba4fa016ae20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the type of track shoe consistent with this idler. <br /></td></tr>
+<tr class="separator:a259f16d4e2b970405f4eba4fa016ae20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f9ba28074a5a93d0a1fd9fb45159b53"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_single_idler.html#a5f9ba28074a5a93d0a1fd9fb45159b53">Initialize</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt; chassis, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;location) override</td></tr>
+<tr class="memdesc:a5f9ba28074a5a93d0a1fd9fb45159b53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize this idler subsystem.  <a href="#a5f9ba28074a5a93d0a1fd9fb45159b53">More...</a><br /></td></tr>
+<tr class="separator:a5f9ba28074a5a93d0a1fd9fb45159b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1vehicle_1_1_ch_idler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html">chrono::vehicle::ChIdler</a></td></tr>
+<tr class="memitem:a369525abd2bc0b5e99496186175dd469 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a369525abd2bc0b5e99496186175dd469">ChIdler</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a369525abd2bc0b5e99496186175dd469 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1ad00244efc36624df2d1d6069ad944 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1ad00244efc36624df2d1d6069ad944"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#aa1ad00244efc36624df2d1d6069ad944">GetName</a> () const </td></tr>
+<tr class="memdesc:aa1ad00244efc36624df2d1d6069ad944 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name identifier for this idler subsystem. <br /></td></tr>
+<tr class="separator:aa1ad00244efc36624df2d1d6069ad944 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a583d2228fddc1745ffaba4a276fe898e inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a583d2228fddc1745ffaba4a276fe898e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a583d2228fddc1745ffaba4a276fe898e">SetName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a583d2228fddc1745ffaba4a276fe898e inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the name identifier for this idler subsystem. <br /></td></tr>
+<tr class="separator:a583d2228fddc1745ffaba4a276fe898e inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa87c1905080c268d169bd8e60199a968 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa87c1905080c268d169bd8e60199a968"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#aa87c1905080c268d169bd8e60199a968">GetWheelBody</a> () const </td></tr>
+<tr class="memdesc:aa87c1905080c268d169bd8e60199a968 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the road wheel body. <br /></td></tr>
+<tr class="separator:aa87c1905080c268d169bd8e60199a968 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0935c28c0bf944eba499ebd0cd910834 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0935c28c0bf944eba499ebd0cd910834"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_lock_revolute.html">ChLinkLockRevolute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a0935c28c0bf944eba499ebd0cd910834">GetRevolute</a> () const </td></tr>
+<tr class="memdesc:a0935c28c0bf944eba499ebd0cd910834 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the revolute joint. <br /></td></tr>
+<tr class="separator:a0935c28c0bf944eba499ebd0cd910834 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4673d48aeb517fc882e95aa4793ffae8 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4673d48aeb517fc882e95aa4793ffae8"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a4673d48aeb517fc882e95aa4793ffae8">GetWheelRadius</a> () const =0</td></tr>
+<tr class="memdesc:a4673d48aeb517fc882e95aa4793ffae8 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the radius of the idler wheel. <br /></td></tr>
+<tr class="separator:a4673d48aeb517fc882e95aa4793ffae8 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49a4c8b258f751ccba75c5ab8bed235f inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a49a4c8b258f751ccba75c5ab8bed235f">SetContactMaterial</a> (float friction_coefficient, float restitution_coefficient, float young_modulus, float poisson_ratio)</td></tr>
+<tr class="memdesc:a49a4c8b258f751ccba75c5ab8bed235f inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set contact material properties.  <a href="#a49a4c8b258f751ccba75c5ab8bed235f">More...</a><br /></td></tr>
+<tr class="separator:a49a4c8b258f751ccba75c5ab8bed235f inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f39f4378e6fd6bcea65795796a5cf21 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f39f4378e6fd6bcea65795796a5cf21"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a3f39f4378e6fd6bcea65795796a5cf21">SetCollide</a> (bool val)</td></tr>
+<tr class="memdesc:a3f39f4378e6fd6bcea65795796a5cf21 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on/off collision flag for the idler wheel. <br /></td></tr>
+<tr class="separator:a3f39f4378e6fd6bcea65795796a5cf21 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad18610f537162d1fd7b4a954cb870a30 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad18610f537162d1fd7b4a954cb870a30"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#ad18610f537162d1fd7b4a954cb870a30">GetMass</a> () const </td></tr>
+<tr class="memdesc:ad18610f537162d1fd7b4a954cb870a30 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mass of the idler subsystem. <br /></td></tr>
+<tr class="separator:ad18610f537162d1fd7b4a954cb870a30 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0b46cdab74c859d628a19bf58f0bf6c inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab0b46cdab74c859d628a19bf58f0bf6c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#ab0b46cdab74c859d628a19bf58f0bf6c">LogConstraintViolations</a> ()</td></tr>
+<tr class="memdesc:ab0b46cdab74c859d628a19bf58f0bf6c inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log current constraint violations. <br /></td></tr>
+<tr class="separator:ab0b46cdab74c859d628a19bf58f0bf6c inherit pub_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ae47c9f4efedd02a24f0b7cb8728b4761"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae47c9f4efedd02a24f0b7cb8728b4761"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_single_idler.html#ae47c9f4efedd02a24f0b7cb8728b4761">GetWheelWidth</a> () const =0</td></tr>
+<tr class="memdesc:ae47c9f4efedd02a24f0b7cb8728b4761"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the width of the idler wheel. <br /></td></tr>
+<tr class="separator:ae47c9f4efedd02a24f0b7cb8728b4761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45054059aa5eb06b07b08564ee90d338"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_single_idler.html#a45054059aa5eb06b07b08564ee90d338">AddWheelVisualization</a> ()</td></tr>
+<tr class="memdesc:a45054059aa5eb06b07b08564ee90d338"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add visualization of the idler wheel.  <a href="#a45054059aa5eb06b07b08564ee90d338">More...</a><br /></td></tr>
+<tr class="separator:a45054059aa5eb06b07b08564ee90d338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classchrono_1_1vehicle_1_1_ch_idler')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html">chrono::vehicle::ChIdler</a></td></tr>
+<tr class="memitem:ab44ed7dfb2e7de5c3a9d3085962591d6 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#ab44ed7dfb2e7de5c3a9d3085962591d6">GetLocation</a> (<a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a5649a2c283b6fbc1d28f1b3e701bed1a">PointId</a> which)=0</td></tr>
+<tr class="memdesc:ab44ed7dfb2e7de5c3a9d3085962591d6 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the location of the specified hardpoint.  <a href="#ab44ed7dfb2e7de5c3a9d3085962591d6">More...</a><br /></td></tr>
+<tr class="separator:ab44ed7dfb2e7de5c3a9d3085962591d6 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3035455c84b45010d9cbde54bd3f0605 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3035455c84b45010d9cbde54bd3f0605"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a3035455c84b45010d9cbde54bd3f0605">GetWheelMass</a> () const =0</td></tr>
+<tr class="memdesc:a3035455c84b45010d9cbde54bd3f0605 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mass of the idler wheel body. <br /></td></tr>
+<tr class="separator:a3035455c84b45010d9cbde54bd3f0605 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1954b5cf2497213390f44447e66caced inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1954b5cf2497213390f44447e66caced"></a>
+virtual const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a1954b5cf2497213390f44447e66caced">GetWheelInertia</a> ()=0</td></tr>
+<tr class="memdesc:a1954b5cf2497213390f44447e66caced inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the moments of inertia of the idler wheel body. <br /></td></tr>
+<tr class="separator:a1954b5cf2497213390f44447e66caced inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8af24d96c26dab5544bfd81c7fa504d8 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8af24d96c26dab5544bfd81c7fa504d8"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a8af24d96c26dab5544bfd81c7fa504d8">GetCarrierMass</a> () const =0</td></tr>
+<tr class="memdesc:a8af24d96c26dab5544bfd81c7fa504d8 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mass of the carrier body. <br /></td></tr>
+<tr class="separator:a8af24d96c26dab5544bfd81c7fa504d8 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f82840ed3d0364b805a8a93c69507d inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48f82840ed3d0364b805a8a93c69507d"></a>
+virtual const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a48f82840ed3d0364b805a8a93c69507d">GetCarrierInertia</a> ()=0</td></tr>
+<tr class="memdesc:a48f82840ed3d0364b805a8a93c69507d inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the moments of inertia of the carrier body. <br /></td></tr>
+<tr class="separator:a48f82840ed3d0364b805a8a93c69507d inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd9564800073f20948b73b236412281d inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd9564800073f20948b73b236412281d"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#acd9564800073f20948b73b236412281d">GetCarrierVisRadius</a> () const =0</td></tr>
+<tr class="memdesc:acd9564800073f20948b73b236412281d inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a visualization radius for the carrier body. <br /></td></tr>
+<tr class="separator:acd9564800073f20948b73b236412281d inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab17afa9565a059cc24ee27274fad5bbe inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab17afa9565a059cc24ee27274fad5bbe"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#ab17afa9565a059cc24ee27274fad5bbe">GetPrismaticPitchAngle</a> () const =0</td></tr>
+<tr class="memdesc:ab17afa9565a059cc24ee27274fad5bbe inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the pitch angle of the prismatic joint. <br /></td></tr>
+<tr class="separator:ab17afa9565a059cc24ee27274fad5bbe inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69a5efd9a647285df9e4787962740627 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a69a5efd9a647285df9e4787962740627"></a>
+virtual <a class="el" href="classchrono_1_1_ch_spring_force_callback.html">ChSpringForceCallback</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a69a5efd9a647285df9e4787962740627">GetTensionerForceCallback</a> () const =0</td></tr>
+<tr class="memdesc:a69a5efd9a647285df9e4787962740627 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the callback function for spring force. <br /></td></tr>
+<tr class="separator:a69a5efd9a647285df9e4787962740627 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_types_classchrono_1_1vehicle_1_1_ch_idler"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classchrono_1_1vehicle_1_1_ch_idler')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html">chrono::vehicle::ChIdler</a></td></tr>
+<tr class="memitem:a5649a2c283b6fbc1d28f1b3e701bed1a inherit pro_types_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a5649a2c283b6fbc1d28f1b3e701bed1a">PointId</a> { <br />
+&#160;&#160;<a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a5649a2c283b6fbc1d28f1b3e701bed1aab545fcd91f30b478560def1418333f13">WHEEL</a>, 
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a5649a2c283b6fbc1d28f1b3e701bed1aaf72c02ad5abb9fbc3a3c637e2f2f4e0f">CARRIER</a>, 
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a5649a2c283b6fbc1d28f1b3e701bed1aa03dd38b7ba00c91e30f19af0a9e8bf14">CARRIER_CHASSIS</a>, 
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a5649a2c283b6fbc1d28f1b3e701bed1aa5d1bab45c2d50d8fcede7ede11e3aaa9">TSDA_CARRIER</a>, 
+<br />
+&#160;&#160;<a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a5649a2c283b6fbc1d28f1b3e701bed1aa445dfeb100be5829a37f40b4ea0b61ca">TSDA_CHASSIS</a>, 
+<b>NUM_POINTS</b>
+<br />
+ }<tr class="memdesc:a5649a2c283b6fbc1d28f1b3e701bed1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifiers for the various hardpoints.  <a href="classchrono_1_1vehicle_1_1_ch_idler.html#a5649a2c283b6fbc1d28f1b3e701bed1a">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a5649a2c283b6fbc1d28f1b3e701bed1a inherit pro_types_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1vehicle_1_1_ch_idler')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html">chrono::vehicle::ChIdler</a></td></tr>
+<tr class="memitem:a05d0b8a48c37763d6f5238c68ab2eb47 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a05d0b8a48c37763d6f5238c68ab2eb47"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a05d0b8a48c37763d6f5238c68ab2eb47">m_name</a></td></tr>
+<tr class="memdesc:a05d0b8a48c37763d6f5238c68ab2eb47 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of the subsystem <br /></td></tr>
+<tr class="separator:a05d0b8a48c37763d6f5238c68ab2eb47 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83d4e126617f860449d32f24482dc235 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a83d4e126617f860449d32f24482dc235"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a83d4e126617f860449d32f24482dc235">m_wheel</a></td></tr>
+<tr class="memdesc:a83d4e126617f860449d32f24482dc235 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to the idler wheel body <br /></td></tr>
+<tr class="separator:a83d4e126617f860449d32f24482dc235 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51693ce0669c0b64f8016414c96f5c4f inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51693ce0669c0b64f8016414c96f5c4f"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a51693ce0669c0b64f8016414c96f5c4f">m_carrier</a></td></tr>
+<tr class="memdesc:a51693ce0669c0b64f8016414c96f5c4f inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to the carrier body <br /></td></tr>
+<tr class="separator:a51693ce0669c0b64f8016414c96f5c4f inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9abc6496581692d149ebe8c1e2d1d4d inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9abc6496581692d149ebe8c1e2d1d4d"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_lock_revolute.html">ChLinkLockRevolute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#ac9abc6496581692d149ebe8c1e2d1d4d">m_revolute</a></td></tr>
+<tr class="memdesc:ac9abc6496581692d149ebe8c1e2d1d4d inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to wheel-carrier revolute joint <br /></td></tr>
+<tr class="separator:ac9abc6496581692d149ebe8c1e2d1d4d inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d80a76407a94bd9e8da6961a4ffc677 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d80a76407a94bd9e8da6961a4ffc677"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_lock_prismatic.html">ChLinkLockPrismatic</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#a4d80a76407a94bd9e8da6961a4ffc677">m_prismatic</a></td></tr>
+<tr class="memdesc:a4d80a76407a94bd9e8da6961a4ffc677 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to carrier-chassis translational joint <br /></td></tr>
+<tr class="separator:a4d80a76407a94bd9e8da6961a4ffc677 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5aa163c931d1631ac9cda28cf74eb91 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5aa163c931d1631ac9cda28cf74eb91"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_spring_c_b.html">ChLinkSpringCB</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#ae5aa163c931d1631ac9cda28cf74eb91">m_tensioner</a></td></tr>
+<tr class="memdesc:ae5aa163c931d1631ac9cda28cf74eb91 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to the TSDA tensioner element <br /></td></tr>
+<tr class="separator:ae5aa163c931d1631ac9cda28cf74eb91 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72a8475e7cc1865222803d257c10e280 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a72a8475e7cc1865222803d257c10e280"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_friction</b></td></tr>
+<tr class="separator:a72a8475e7cc1865222803d257c10e280 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b56d220c5baf2b046164133882c9b61 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b56d220c5baf2b046164133882c9b61"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_restitution</b></td></tr>
+<tr class="separator:a3b56d220c5baf2b046164133882c9b61 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39cb098fcbfab53c108ef8f7dd406bcc inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39cb098fcbfab53c108ef8f7dd406bcc"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_young_modulus</b></td></tr>
+<tr class="separator:a39cb098fcbfab53c108ef8f7dd406bcc inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94548f353801379f39e35deb03fc3ad2 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94548f353801379f39e35deb03fc3ad2"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_poisson_ratio</b></td></tr>
+<tr class="separator:a94548f353801379f39e35deb03fc3ad2 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_idler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a444aefcc7dbd7e1abfe42665d793127b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::vehicle::ChSingleIdler::ChSingleIdler </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>name of the subsystem </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a45054059aa5eb06b07b08564ee90d338"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChSingleIdler::AddWheelVisualization </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add visualization of the idler wheel. </p>
+<p>The default implementation renders the wheel as a textured cylinder. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5f9ba28074a5a93d0a1fd9fb45159b53"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChSingleIdler::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt;&#160;</td>
+          <td class="paramname"><em>chassis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>location</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize this idler subsystem. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">chassis</td><td>handle to the chassis body </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">location</td><td>location relative to the chassis frame </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1vehicle_1_1_ch_idler.html#af73886e6f9acd1ec29e9656af6617944">chrono::vehicle::ChIdler</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:24 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

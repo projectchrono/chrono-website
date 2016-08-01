@@ -1,0 +1,161 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: Install the OGRE module</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="index.html">Project Chrono API/SDK documentation</a></li><li class="navelem"><a class="el" href="manual_root.html">Reference Manual</a></li><li class="navelem"><a class="el" href="tutorial_root.html">Tutorials</a></li><li class="navelem"><a class="el" href="tutorial_table_of_content_install.html">Installation Guides</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Install the OGRE module </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><div class="ce-danger"> This module is still at an experimental stage. </div><div class="ce-danger"> Most demos and tutorials do <b>not</b> use this module for visualization, as they use theIRRLICHT module, which is more tested and at a more advanced stage of development. </div><p>The <b>OGRE module</b> provides an interface to the <a href="http://www.ogre3d.org">Ogre</a> library as a realtime 3D visualization system to show Chrono::Engine simulations.</p>
+<h2>Requirements</h2>
+<ul>
+<li>To <b>run</b> applications based on this module you need:<ul>
+<li><a href="http://www.ogre3d.org">Ogre</a></li>
+</ul>
+</li>
+</ul>
+<p><a href="https://github.com/MyGUI/mygui">MyGUI</a></p><ul>
+<li><a href="https://www.libsdl.org/download-2.0.php">SDL</a></li>
+</ul>
+<p>To <b>build</b> this module you need:</p><ul>
+<li><a href="http://www.ogre3d.org">Ogre</a></li>
+</ul>
+<p><a href="https://github.com/MyGUI/mygui">MyGUI</a></p><ul>
+<li><a href="https://www.libsdl.org/download-2.0.php">SDL</a></li>
+</ul>
+<h2>Building instructions</h2>
+<p>Chrono_Ogre depends on Ogre, MyGUI, and SDL. Download them from the links above.</p>
+<p>This usually wouldn't be too tricky to setup, but the code is written in C++11, which causes problems with Ogre. In order to build Ogre so it can be used with Visual Studio 2013, you need to</p>
+<ol type="1">
+<li>Clone the Ogredeps repository at <a href="https://bitbucket.org/cabalistic/ogredeps">https://bitbucket.org/cabalistic/ogredeps</a> with Mercurial</li>
+<li>Install the DirectX June 2010 SDK at <a href="http://www.microsoft.com/en-us/download/details.aspx?id=6812">http://www.microsoft.com/en-us/download/details.aspx?id=6812</a></li>
+<li>Configure the Ogredeps CMake for Visual Studio 2013</li>
+<li>Build and install it, and then rename the install folder to "Dependencies"</li>
+<li>Clone the Ogre repository at <a href="https://bitbucket.org/sinbad/ogre">https://bitbucket.org/sinbad/ogre</a> with Mercurial<ul>
+<li>The version most tested on is 1.9. Version 2.0 and on should be compatible, but this isn't guaranteed</li>
+</ul>
+</li>
+<li>Copy the "Dependencies" folder from before into the build directory you made for Ogre in CMake</li>
+<li>Download boost at <a href="http://www.boost.org/users/download/">http://www.boost.org/users/download/</a></li>
+<li>Build boost</li>
+<li>Configure Ogre, build it, and then install it. All headers, libraries, and DLLs will be in the "sdk" folder in the build directory </li>
+</ol>
+</div></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:09 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

@@ -1,0 +1,330 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::pneumatics::pistone_3_2_prop Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1pneumatics.html">pneumatics</a></li><li class="navelem"><a class="el" href="classchrono_1_1pneumatics_1_1pistone__3__2__prop.html">pistone_3_2_prop</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1pneumatics_1_1pistone__3__2__prop-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::pneumatics::pistone_3_2_prop Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Specialized pneumatic piston, exploiting two 3-2 proportional valves. </p>
+</div>
+<p><code>#include &lt;pistone_3_2_prop.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::pneumatics::pistone_3_2_prop:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1pneumatics_1_1pistone__3__2__prop__inherit__graph.png" border="0" usemap="#chrono_1_1pneumatics_1_1pistone__3__2__prop_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1pneumatics_1_1pistone__3__2__prop_inherit__map" id="chrono_1_1pneumatics_1_1pistone__3__2__prop_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1pneumatics_1_1pistone.html" title="This class implements the details of a pneumatic piston with given stroke, chambers, etc. " alt="" coords="5,5,141,47"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::pneumatics::pistone_3_2_prop:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1pneumatics_1_1pistone__3__2__prop__coll__graph.png" border="0" usemap="#chrono_1_1pneumatics_1_1pistone__3__2__prop_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1pneumatics_1_1pistone__3__2__prop_coll__map" id="chrono_1_1pneumatics_1_1pistone__3__2__prop_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1pneumatics_1_1pistone.html" title="This class implements the details of a pneumatic piston with given stroke, chambers, etc. " alt="" coords="5,124,141,165"/>
+<area shape="rect" id="node3" href="classchrono_1_1pneumatics_1_1volume.html" title="Class defining the properties of a pneumatic volume of air, with density, pressure, etc. " alt="" coords="5,5,141,47"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab18ab2c2a8603a0922cdefb57adbda1d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab18ab2c2a8603a0922cdefb57adbda1d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetupValvole</b> ()</td></tr>
+<tr class="separator:ab18ab2c2a8603a0922cdefb57adbda1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c3945f16aef8e1b9fe3cde4b4ef400f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7c3945f16aef8e1b9fe3cde4b4ef400f"></a>
+virtual <a class="el" href="classchrono_1_1pneumatics_1_1valvola__3__2__prop.html">valvola_3_2_prop</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetValvA</b> ()</td></tr>
+<tr class="separator:a7c3945f16aef8e1b9fe3cde4b4ef400f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af88dfbddfa109cf4d3774cb94a98fb6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af88dfbddfa109cf4d3774cb94a98fb6d"></a>
+virtual <a class="el" href="classchrono_1_1pneumatics_1_1valvola__3__2__prop.html">valvola_3_2_prop</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetValvB</b> ()</td></tr>
+<tr class="separator:af88dfbddfa109cf4d3774cb94a98fb6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a4453de1806ab34a760bcf1238f6ff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6a4453de1806ab34a760bcf1238f6ff"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetComando</b> (double mycomandoA, double mycomandoB)</td></tr>
+<tr class="separator:ad6a4453de1806ab34a760bcf1238f6ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc826dea5525f487e7f546247f3f3ce5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc826dea5525f487e7f546247f3f3ce5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetStatoPistone</b> ()</td></tr>
+<tr class="separator:adc826dea5525f487e7f546247f3f3ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeecb45b9cc5c4d1d36034053f36b15c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeecb45b9cc5c4d1d36034053f36b15c7"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetStatoSist</b> (double *s)</td></tr>
+<tr class="separator:aeecb45b9cc5c4d1d36034053f36b15c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1pneumatics_1_1pistone"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1pneumatics_1_1pistone')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1pneumatics_1_1pistone.html">chrono::pneumatics::pistone</a></td></tr>
+<tr class="memitem:aa9fe0fbc8c0f8333307bbb4f3022b5f3 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9fe0fbc8c0f8333307bbb4f3022b5f3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetL</b> (double myl)</td></tr>
+<tr class="separator:aa9fe0fbc8c0f8333307bbb4f3022b5f3 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60c3e0b76bc498a1a509835c490ce6f0 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a60c3e0b76bc498a1a509835c490ce6f0"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetL</b> ()</td></tr>
+<tr class="separator:a60c3e0b76bc498a1a509835c490ce6f0 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad273b50370b2e62ca142aa6251db0ff5 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad273b50370b2e62ca142aa6251db0ff5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetA</b> (double mya)</td></tr>
+<tr class="separator:ad273b50370b2e62ca142aa6251db0ff5 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dd8f3b4cdfe41280ef94f3ff7c2349a inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4dd8f3b4cdfe41280ef94f3ff7c2349a"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetA</b> ()</td></tr>
+<tr class="separator:a4dd8f3b4cdfe41280ef94f3ff7c2349a inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae42bcce2902772f8e2e0943beead3ea6 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae42bcce2902772f8e2e0943beead3ea6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetAlfa</b> (double myalfa)</td></tr>
+<tr class="separator:ae42bcce2902772f8e2e0943beead3ea6 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc08c95a87ea8a10409ed8e727c9f87d inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc08c95a87ea8a10409ed8e727c9f87d"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetAlfa</b> ()</td></tr>
+<tr class="separator:acc08c95a87ea8a10409ed8e727c9f87d inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acecbdea21d28bbae31c20c2e740bee94 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acecbdea21d28bbae31c20c2e740bee94"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetWa</b> (double mywa)</td></tr>
+<tr class="separator:acecbdea21d28bbae31c20c2e740bee94 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3036f900308c6fafb746c0334d0dc035 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3036f900308c6fafb746c0334d0dc035"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetWa</b> ()</td></tr>
+<tr class="separator:a3036f900308c6fafb746c0334d0dc035 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad11cc9a962555b121d696e14e7ce2022 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad11cc9a962555b121d696e14e7ce2022"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetWb</b> (double mywb)</td></tr>
+<tr class="separator:ad11cc9a962555b121d696e14e7ce2022 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78179d41fa38916f85b28602ae5450f6 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78179d41fa38916f85b28602ae5450f6"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetWb</b> ()</td></tr>
+<tr class="separator:a78179d41fa38916f85b28602ae5450f6 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75e382c76bbe1eaccc0e0962c00b9d8b inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75e382c76bbe1eaccc0e0962c00b9d8b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGa</b> (double myga)</td></tr>
+<tr class="separator:a75e382c76bbe1eaccc0e0962c00b9d8b inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae08fa7a8596963406ebdc54768fdfb49 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae08fa7a8596963406ebdc54768fdfb49"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetGa</b> ()</td></tr>
+<tr class="separator:ae08fa7a8596963406ebdc54768fdfb49 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cc52d03825c0a255ed680dc0e20bd98 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9cc52d03825c0a255ed680dc0e20bd98"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGb</b> (double mygb)</td></tr>
+<tr class="separator:a9cc52d03825c0a255ed680dc0e20bd98 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4207af44a0b49456995b7db48da8bef3 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4207af44a0b49456995b7db48da8bef3"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetGb</b> ()</td></tr>
+<tr class="separator:a4207af44a0b49456995b7db48da8bef3 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619a021f5f2707758527c54966c15797 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a619a021f5f2707758527c54966c15797"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPs</b> (double myps)</td></tr>
+<tr class="separator:a619a021f5f2707758527c54966c15797 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc2787bc398b9d6964ea26f6607f4253 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc2787bc398b9d6964ea26f6607f4253"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetPs</b> ()</td></tr>
+<tr class="separator:acc2787bc398b9d6964ea26f6607f4253 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a940ef06a2933e1a1825b06ec12a1a3bf inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a940ef06a2933e1a1825b06ec12a1a3bf"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGamma</b> (double mygamma)</td></tr>
+<tr class="separator:a940ef06a2933e1a1825b06ec12a1a3bf inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e2aa1b4307d6bffab0e024438da6d58 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e2aa1b4307d6bffab0e024438da6d58"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetGamma</b> ()</td></tr>
+<tr class="separator:a6e2aa1b4307d6bffab0e024438da6d58 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaccfe85651b6a7f5c94645fcd9ac5acf inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaccfe85651b6a7f5c94645fcd9ac5acf"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMstelo</b> (double mymstelo)</td></tr>
+<tr class="separator:aaccfe85651b6a7f5c94645fcd9ac5acf inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82fa70e279d49c0684117c045e4e01d2 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82fa70e279d49c0684117c045e4e01d2"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetMstelo</b> ()</td></tr>
+<tr class="separator:a82fa70e279d49c0684117c045e4e01d2 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cb63f7f10637441dfae88fa92053e09 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3cb63f7f10637441dfae88fa92053e09"></a>
+<a class="el" href="classchrono_1_1pneumatics_1_1volume.html">volume</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetCa</b> ()</td></tr>
+<tr class="separator:a3cb63f7f10637441dfae88fa92053e09 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a5860502df4c120b7e1fa958102cac7 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a5860502df4c120b7e1fa958102cac7"></a>
+<a class="el" href="classchrono_1_1pneumatics_1_1volume.html">volume</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetCb</b> ()</td></tr>
+<tr class="separator:a4a5860502df4c120b7e1fa958102cac7 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32c8db8d77dab369f3ee6c41f0ca526b inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32c8db8d77dab369f3ee6c41f0ca526b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetupPistone</b> (double mps, double ml, double mwa, double mwb, double ma, double malfa, double mgamma, double mmstelo)</td></tr>
+<tr class="separator:a32c8db8d77dab369f3ee6c41f0ca526b inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a294f4e83f4626f0f048cfd56a3c263b2 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a294f4e83f4626f0f048cfd56a3c263b2"></a>
+virtual double *&#160;</td><td class="memItemRight" valign="bottom"><b>GetStatoPistone</b> ()</td></tr>
+<tr class="separator:a294f4e83f4626f0f048cfd56a3c263b2 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dcd33aa43cfbb5ba77e36036b0f36cb inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6dcd33aa43cfbb5ba77e36036b0f36cb"></a>
+virtual double *&#160;</td><td class="memItemRight" valign="bottom"><b>GetDerivataStatoPistone</b> ()</td></tr>
+<tr class="separator:a6dcd33aa43cfbb5ba77e36036b0f36cb inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78a48fa551ddaccb000cd05cdbf1aa95 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78a48fa551ddaccb000cd05cdbf1aa95"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDerivataStatoPistone</b> ()</td></tr>
+<tr class="separator:a78a48fa551ddaccb000cd05cdbf1aa95 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf8f7cb8dfc185ca4c23009ca9336a86 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf8f7cb8dfc185ca4c23009ca9336a86"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetStatoDer</b> (double *s, double *ds)</td></tr>
+<tr class="separator:aaf8f7cb8dfc185ca4c23009ca9336a86 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6dc43bd1591533078c17eb114a5a9d3 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6dc43bd1591533078c17eb114a5a9d3"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Forza</b> ()</td></tr>
+<tr class="separator:af6dc43bd1591533078c17eb114a5a9d3 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a027276a2a86e38297142f376aa263a2b inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a027276a2a86e38297142f376aa263a2b"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>PresA1</b> ()</td></tr>
+<tr class="separator:a027276a2a86e38297142f376aa263a2b inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c0350b0f24c2fc98ed64cffbc82ab2 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0c0350b0f24c2fc98ed64cffbc82ab2"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>PresB1</b> ()</td></tr>
+<tr class="separator:ac0c0350b0f24c2fc98ed64cffbc82ab2 inherit pub_methods_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classchrono_1_1pneumatics_1_1pistone')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classchrono_1_1pneumatics_1_1pistone.html">chrono::pneumatics::pistone</a></td></tr>
+<tr class="memitem:a180cba4de5fa6570f58683e50939b5b4 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a180cba4de5fa6570f58683e50939b5b4"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>l</b></td></tr>
+<tr class="separator:a180cba4de5fa6570f58683e50939b5b4 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeee398e4275a6cd9c685dead638a37f9 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeee398e4275a6cd9c685dead638a37f9"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>a</b></td></tr>
+<tr class="separator:aeee398e4275a6cd9c685dead638a37f9 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82eb6656ecd0656bb02b8a0d64d36d9f inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82eb6656ecd0656bb02b8a0d64d36d9f"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>alfa</b></td></tr>
+<tr class="separator:a82eb6656ecd0656bb02b8a0d64d36d9f inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e129ec4696bba5503db4b1a418955ea inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e129ec4696bba5503db4b1a418955ea"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>wa</b></td></tr>
+<tr class="separator:a6e129ec4696bba5503db4b1a418955ea inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d38d12fb61b55de35a8b86bb6d1dd05 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d38d12fb61b55de35a8b86bb6d1dd05"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>wb</b></td></tr>
+<tr class="separator:a8d38d12fb61b55de35a8b86bb6d1dd05 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc5161dcad5f5d02d7312d472fa85b1 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2cc5161dcad5f5d02d7312d472fa85b1"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>ga</b></td></tr>
+<tr class="separator:a2cc5161dcad5f5d02d7312d472fa85b1 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d892db16b2df75c8f0050f21fce1255 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d892db16b2df75c8f0050f21fce1255"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>gb</b></td></tr>
+<tr class="separator:a4d892db16b2df75c8f0050f21fce1255 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a070e337c01201c013f9762c1b19c5911 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a070e337c01201c013f9762c1b19c5911"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>ps</b></td></tr>
+<tr class="separator:a070e337c01201c013f9762c1b19c5911 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea7b0db8b4cf1b5f927626f4baf62ff inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ea7b0db8b4cf1b5f927626f4baf62ff"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>gamma</b></td></tr>
+<tr class="separator:a5ea7b0db8b4cf1b5f927626f4baf62ff inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab79392078d5a58602b9c76dcc57f3594 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab79392078d5a58602b9c76dcc57f3594"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>mstelo</b></td></tr>
+<tr class="separator:ab79392078d5a58602b9c76dcc57f3594 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac6722a8315f84477c75c0b5b793ca1 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeac6722a8315f84477c75c0b5b793ca1"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>statopistone</b> [4]</td></tr>
+<tr class="separator:aeac6722a8315f84477c75c0b5b793ca1 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba53ae8bd0f3e174c36da8691fdb3fa8 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba53ae8bd0f3e174c36da8691fdb3fa8"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>derivatastatopistone</b> [4]</td></tr>
+<tr class="separator:aba53ae8bd0f3e174c36da8691fdb3fa8 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c3e05765e5b9cbd5c04fb562505c8ae inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7c3e05765e5b9cbd5c04fb562505c8ae"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Dx1</b></td></tr>
+<tr class="separator:a7c3e05765e5b9cbd5c04fb562505c8ae inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46f7db74e717936524de3ff7736a8b10 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a46f7db74e717936524de3ff7736a8b10"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>fp</b></td></tr>
+<tr class="separator:a46f7db74e717936524de3ff7736a8b10 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2abba1ae692ad3a87a6d4c31e138b66 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af2abba1ae692ad3a87a6d4c31e138b66"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>fs</b></td></tr>
+<tr class="separator:af2abba1ae692ad3a87a6d4c31e138b66 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85a356f83b975eec44d909fe7f608682 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85a356f83b975eec44d909fe7f608682"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>fd</b></td></tr>
+<tr class="separator:a85a356f83b975eec44d909fe7f608682 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d6986754e64f8a0a380b08aaa9af090 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d6986754e64f8a0a380b08aaa9af090"></a>
+<a class="el" href="classchrono_1_1pneumatics_1_1volume.html">volume</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>ca</b></td></tr>
+<tr class="separator:a2d6986754e64f8a0a380b08aaa9af090 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1299e50e1be3906738b420d55c4dc5f5 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1299e50e1be3906738b420d55c4dc5f5"></a>
+<a class="el" href="classchrono_1_1pneumatics_1_1volume.html">volume</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>cb</b></td></tr>
+<tr class="separator:a1299e50e1be3906738b420d55c4dc5f5 inherit pub_attribs_classchrono_1_1pneumatics_1_1pistone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:23 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

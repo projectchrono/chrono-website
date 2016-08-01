@@ -1,0 +1,215 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::utils::ChProfileNode Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1utils.html">utils</a></li><li class="navelem"><a class="el" href="classchrono_1_1utils_1_1_ch_profile_node.html">ChProfileNode</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1utils_1_1_ch_profile_node-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::utils::ChProfileNode Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>A node in the Profile Hierarchy Tree. </p>
+</div>
+<p><code>#include &lt;ChProfiler.h&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for chrono::utils::ChProfileNode:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1utils_1_1_ch_profile_node__coll__graph.png" border="0" usemap="#chrono_1_1utils_1_1_ch_profile_node_coll__map" alt="Collaboration graph"/></div>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a09a2d498c0140b6ce0d669c052c36349"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09a2d498c0140b6ce0d669c052c36349"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChProfileNode</b> (const char *name, <a class="el" href="classchrono_1_1utils_1_1_ch_profile_node.html">ChProfileNode</a> *parent)</td></tr>
+<tr class="separator:a09a2d498c0140b6ce0d669c052c36349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a903b8e3e1993d1251ab7a3387b9e8c70"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a903b8e3e1993d1251ab7a3387b9e8c70"></a>
+<a class="el" href="classchrono_1_1utils_1_1_ch_profile_node.html">ChProfileNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Sub_Node</b> (const char *name)</td></tr>
+<tr class="separator:a903b8e3e1993d1251ab7a3387b9e8c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad012d748a55a3c3e704bba12b8eecc46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad012d748a55a3c3e704bba12b8eecc46"></a>
+<a class="el" href="classchrono_1_1utils_1_1_ch_profile_node.html">ChProfileNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Parent</b> (void)</td></tr>
+<tr class="separator:ad012d748a55a3c3e704bba12b8eecc46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b00b0c172260d57582c841dd1d4cfec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b00b0c172260d57582c841dd1d4cfec"></a>
+<a class="el" href="classchrono_1_1utils_1_1_ch_profile_node.html">ChProfileNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Sibling</b> (void)</td></tr>
+<tr class="separator:a3b00b0c172260d57582c841dd1d4cfec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfc8b25b0c22a526934c1190f7b24322"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adfc8b25b0c22a526934c1190f7b24322"></a>
+<a class="el" href="classchrono_1_1utils_1_1_ch_profile_node.html">ChProfileNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Child</b> (void)</td></tr>
+<tr class="separator:adfc8b25b0c22a526934c1190f7b24322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10ca877dddd682d21c7bcc9927ca8308"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a10ca877dddd682d21c7bcc9927ca8308"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CleanupMemory</b> ()</td></tr>
+<tr class="separator:a10ca877dddd682d21c7bcc9927ca8308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab938422c9ec8630a1dfd11a74646fd65"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab938422c9ec8630a1dfd11a74646fd65"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Reset</b> (void)</td></tr>
+<tr class="separator:ab938422c9ec8630a1dfd11a74646fd65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5afcf7a17589b4500fd78e5a9fd7c47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5afcf7a17589b4500fd78e5a9fd7c47"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Call</b> (void)</td></tr>
+<tr class="separator:ae5afcf7a17589b4500fd78e5a9fd7c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af54508e4344ff01b3ee150cf8131c6dd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af54508e4344ff01b3ee150cf8131c6dd"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Return</b> (void)</td></tr>
+<tr class="separator:af54508e4344ff01b3ee150cf8131c6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafd0dcbad14811866c056336a4a6aeea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafd0dcbad14811866c056336a4a6aeea"></a>
+const char *&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Name</b> (void)</td></tr>
+<tr class="separator:aafd0dcbad14811866c056336a4a6aeea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab27904d95a13779f1173abb3d3609b85"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab27904d95a13779f1173abb3d3609b85"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Total_Calls</b> (void)</td></tr>
+<tr class="separator:ab27904d95a13779f1173abb3d3609b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b744881a8f3df6fbe87c20cad822985"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b744881a8f3df6fbe87c20cad822985"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Total_Time</b> (void)</td></tr>
+<tr class="separator:a2b744881a8f3df6fbe87c20cad822985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a38f85616e8292f3e83b107b1d9ff522c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38f85616e8292f3e83b107b1d9ff522c"></a>
+const char *&#160;</td><td class="memItemRight" valign="bottom"><b>Name</b></td></tr>
+<tr class="separator:a38f85616e8292f3e83b107b1d9ff522c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbd87a591635da0f4772ab9192820573"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbd87a591635da0f4772ab9192820573"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TotalCalls</b></td></tr>
+<tr class="separator:afbd87a591635da0f4772ab9192820573"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b6ea2085752476ec753496ebe11475e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0b6ea2085752476ec753496ebe11475e"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>TotalTime</b></td></tr>
+<tr class="separator:a0b6ea2085752476ec753496ebe11475e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cbac3605cec51069a16d67e768b96d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1cbac3605cec51069a16d67e768b96d1"></a>
+unsigned long int&#160;</td><td class="memItemRight" valign="bottom"><b>StartTime</b></td></tr>
+<tr class="separator:a1cbac3605cec51069a16d67e768b96d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6792578208c799a6e639066daa3ba0b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6792578208c799a6e639066daa3ba0b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>RecursionCounter</b></td></tr>
+<tr class="separator:ad6792578208c799a6e639066daa3ba0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75eb5447a60a65eeecd8ed5625f6c2ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75eb5447a60a65eeecd8ed5625f6c2ae"></a>
+<a class="el" href="classchrono_1_1utils_1_1_ch_profile_node.html">ChProfileNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Parent</b></td></tr>
+<tr class="separator:a75eb5447a60a65eeecd8ed5625f6c2ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1110b3a5934d9307b7c977b05c3204f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1110b3a5934d9307b7c977b05c3204f"></a>
+<a class="el" href="classchrono_1_1utils_1_1_ch_profile_node.html">ChProfileNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Child</b></td></tr>
+<tr class="separator:ae1110b3a5934d9307b7c977b05c3204f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e3402ef37df7a445812462a799782a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e3402ef37df7a445812462a799782a4"></a>
+<a class="el" href="classchrono_1_1utils_1_1_ch_profile_node.html">ChProfileNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Sibling</b></td></tr>
+<tr class="separator:a7e3402ef37df7a445812462a799782a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:23 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

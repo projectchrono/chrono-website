@@ -1,0 +1,217 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::collision::ChCollisionInfo Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1collision.html">collision</a></li><li class="navelem"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_info.html">ChCollisionInfo</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="classchrono_1_1collision_1_1_ch_collision_info-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::collision::ChCollisionInfo Class Reference<div class="ingroups"><a class="el" href="group__chrono.html">Chrono::Engine</a> &raquo; <a class="el" href="group__chrono__collision.html">Collision objects</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for passing basic data about contact pairs. </p>
+</div>
+<p><code>#include &lt;ChCCollisionInfo.h&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for chrono::collision::ChCollisionInfo:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1collision_1_1_ch_collision_info__coll__graph.png" border="0" usemap="#chrono_1_1collision_1_1_ch_collision_info_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1collision_1_1_ch_collision_info_coll__map" id="chrono_1_1collision_1_1_ch_collision_info_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_vector.html" title="Definition of general purpose 3d vector variables, such as points in 3D. " alt="" coords="5,102,180,129"/>
+<area shape="rect" id="node3" href="classchrono_1_1collision_1_1_ch_collision_model.html" title="Class containing the geometric model ready for collision detection. " alt="" coords="204,95,328,136"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_contactable.html" title="Interface for objects that generate contacts One should inherit from ChContactable_1vars, ChContactable_2vars etc. " alt="" coords="188,5,344,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad4052c54ed7a41430116a1aecc62d4c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4052c54ed7a41430116a1aecc62d4c0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_info.html#ad4052c54ed7a41430116a1aecc62d4c0">ChCollisionInfo</a> ()</td></tr>
+<tr class="memdesc:ad4052c54ed7a41430116a1aecc62d4c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic default constructor. <br /></td></tr>
+<tr class="separator:ad4052c54ed7a41430116a1aecc62d4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae30dd2bdaf8d7644a05fc79233ceb786"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae30dd2bdaf8d7644a05fc79233ceb786"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_info.html#ae30dd2bdaf8d7644a05fc79233ceb786">ChCollisionInfo</a> (const <a class="el" href="classchrono_1_1collision_1_1_ch_collision_info.html">ChCollisionInfo</a> &amp;other, const bool swap=false)</td></tr>
+<tr class="memdesc:ae30dd2bdaf8d7644a05fc79233ceb786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy from other. <br /></td></tr>
+<tr class="separator:ae30dd2bdaf8d7644a05fc79233ceb786"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ab28c9386b8df545139349cf7810203"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_info.html#a4ab28c9386b8df545139349cf7810203">SwapModels</a> ()</td></tr>
+<tr class="memdesc:a4ab28c9386b8df545139349cf7810203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap models, that is modelA becomes modelB and viceversa; normal and so on are updates as well.  <a href="#a4ab28c9386b8df545139349cf7810203">More...</a><br /></td></tr>
+<tr class="separator:a4ab28c9386b8df545139349cf7810203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a085077b5b684482d2dd3ce543639ec54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a085077b5b684482d2dd3ce543639ec54"></a>
+<a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">ChCollisionModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_info.html#a085077b5b684482d2dd3ce543639ec54">modelA</a></td></tr>
+<tr class="memdesc:a085077b5b684482d2dd3ce543639ec54"><td class="mdescLeft">&#160;</td><td class="mdescRight">model A <br /></td></tr>
+<tr class="separator:a085077b5b684482d2dd3ce543639ec54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af352c49121be70337a7ede936eb7b308"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af352c49121be70337a7ede936eb7b308"></a>
+<a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">ChCollisionModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_info.html#af352c49121be70337a7ede936eb7b308">modelB</a></td></tr>
+<tr class="memdesc:af352c49121be70337a7ede936eb7b308"><td class="mdescLeft">&#160;</td><td class="mdescRight">model B <br /></td></tr>
+<tr class="separator:af352c49121be70337a7ede936eb7b308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73397ae482797b44b8323b0aafb10151"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a73397ae482797b44b8323b0aafb10151"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_info.html#a73397ae482797b44b8323b0aafb10151">vpA</a></td></tr>
+<tr class="memdesc:a73397ae482797b44b8323b0aafb10151"><td class="mdescLeft">&#160;</td><td class="mdescRight">coll.point on A, in abs coords <br /></td></tr>
+<tr class="separator:a73397ae482797b44b8323b0aafb10151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bed9975c73bd18423ce58df0ed324cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1bed9975c73bd18423ce58df0ed324cb"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_info.html#a1bed9975c73bd18423ce58df0ed324cb">vpB</a></td></tr>
+<tr class="memdesc:a1bed9975c73bd18423ce58df0ed324cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">coll.point on B, in abs coords <br /></td></tr>
+<tr class="separator:a1bed9975c73bd18423ce58df0ed324cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31bd27fc2209251d8e5626e453f75c9f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31bd27fc2209251d8e5626e453f75c9f"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_info.html#a31bd27fc2209251d8e5626e453f75c9f">vN</a></td></tr>
+<tr class="memdesc:a31bd27fc2209251d8e5626e453f75c9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">coll.normal, respect to A, in abs coords <br /></td></tr>
+<tr class="separator:a31bd27fc2209251d8e5626e453f75c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f03316ea44bb421730f4eef1d379d28"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f03316ea44bb421730f4eef1d379d28"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_info.html#a9f03316ea44bb421730f4eef1d379d28">distance</a></td></tr>
+<tr class="memdesc:a9f03316ea44bb421730f4eef1d379d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance (negative for penetration) <br /></td></tr>
+<tr class="separator:a9f03316ea44bb421730f4eef1d379d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2435776f47239c03c4bce34735acbb82"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2435776f47239c03c4bce34735acbb82"></a>
+float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_info.html#a2435776f47239c03c4bce34735acbb82">reaction_cache</a></td></tr>
+<tr class="memdesc:a2435776f47239c03c4bce34735acbb82"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer to some persistent user cache of reactions <br /></td></tr>
+<tr class="separator:a2435776f47239c03c4bce34735acbb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a4ab28c9386b8df545139349cf7810203"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionInfo::SwapModels </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Swap models, that is modelA becomes modelB and viceversa; normal and so on are updates as well. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:20 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

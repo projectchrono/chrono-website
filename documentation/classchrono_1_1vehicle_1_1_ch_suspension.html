@@ -1,0 +1,521 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChSuspension Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html">ChSuspension</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_suspension-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChSuspension Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__wheeled.html">Wheeled vehicles</a> &raquo; <a class="el" href="group__vehicle__wheeled__suspension.html">Suspension subsystem</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for a suspension subsystem. </p>
+</div>
+<p><code>#include &lt;ChSuspension.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::ChSuspension:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_suspension__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_suspension_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_suspension_inherit__map" id="chrono_1_1vehicle_1_1_ch_suspension_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_double_wishbone.html" title="Base class for a double&#45;A arm suspension modeled with bodies and constraints. " alt="" coords="272,5,448,47"/>
+<area shape="rect" id="node4" href="classchrono_1_1vehicle_1_1_ch_double_wishbone_reduced.html" title="Base class for a double&#45;A arm suspension modeled with distance constraints. " alt="" coords="272,71,448,112"/>
+<area shape="rect" id="node6" href="classchrono_1_1vehicle_1_1_ch_hendrickson_p_r_i_m_a_x_x.html" title="Base class for a Hendrickson PRIMAXX EX suspension. " alt="" coords="256,136,464,177"/>
+<area shape="rect" id="node8" href="classchrono_1_1vehicle_1_1_ch_mac_pherson_strut.html" title="Base class for a MacPherson strut modeled with bodies and constraints. " alt="" coords="256,201,464,243"/>
+<area shape="rect" id="node10" href="classchrono_1_1vehicle_1_1_ch_multi_link.html" title="Base class for a multi&#45;link suspension modeled with bodies and constraints. " alt="" coords="267,267,453,294"/>
+<area shape="rect" id="node12" href="classchrono_1_1vehicle_1_1_ch_solid_axle.html" title="Base class for a solid axle suspension modeled with bodies and constraints. " alt="" coords="265,318,455,345"/>
+<area shape="rect" id="node3" href="classchrono_1_1vehicle_1_1_double_wishbone.html" title="Double&#45;A arm suspension constructed with data from file. " alt="" coords="512,13,729,39"/>
+<area shape="rect" id="node5" href="classchrono_1_1vehicle_1_1_double_wishbone_reduced.html" title="Reduced double&#45;A arm suspension constructed with data from file. " alt="" coords="512,71,729,112"/>
+<area shape="rect" id="node7" href="classchrono_1_1vehicle_1_1_hendrickson_p_r_i_m_a_x_x.html" title="Hendrickson PRIMAXX suspension constructed with data from file. " alt="" coords="525,136,716,177"/>
+<area shape="rect" id="node9" href="classchrono_1_1vehicle_1_1_mac_pherson_strut.html" title="MacPherson strut suspension constructed with data from file. " alt="" coords="525,201,716,243"/>
+<area shape="rect" id="node11" href="classchrono_1_1vehicle_1_1_multi_link.html" title="Multi&#45;link suspension constructed with data from file. " alt="" coords="535,267,706,294"/>
+<area shape="rect" id="node13" href="classchrono_1_1vehicle_1_1_solid_axle.html" title="Solid axle suspension constructed with data from file. " alt="" coords="534,318,707,345"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a2190fab9b9d5872a4985bd7cf2d67080"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a2190fab9b9d5872a4985bd7cf2d67080">ChSuspension</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a2190fab9b9d5872a4985bd7cf2d67080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59f91b8303f99c9fedc2f0c0ee1d4937"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59f91b8303f99c9fedc2f0c0ee1d4937"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a59f91b8303f99c9fedc2f0c0ee1d4937">IsSteerable</a> () const =0</td></tr>
+<tr class="memdesc:a59f91b8303f99c9fedc2f0c0ee1d4937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify whether or not this suspension can be steered. <br /></td></tr>
+<tr class="separator:a59f91b8303f99c9fedc2f0c0ee1d4937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeece34b7c07a85f0aee5395537cac63e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeece34b7c07a85f0aee5395537cac63e"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#aeece34b7c07a85f0aee5395537cac63e">IsIndependent</a> () const =0</td></tr>
+<tr class="memdesc:aeece34b7c07a85f0aee5395537cac63e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify whether or not this is an independent suspension. <br /></td></tr>
+<tr class="separator:aeece34b7c07a85f0aee5395537cac63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af418aafe1da330e2e7e264e7fffd3f0d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af418aafe1da330e2e7e264e7fffd3f0d"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#af418aafe1da330e2e7e264e7fffd3f0d">GetName</a> () const </td></tr>
+<tr class="memdesc:af418aafe1da330e2e7e264e7fffd3f0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name identifier for this suspension subsystem. <br /></td></tr>
+<tr class="separator:af418aafe1da330e2e7e264e7fffd3f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1809eae8bc7c8290d7b3525c4ad3b3ef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1809eae8bc7c8290d7b3525c4ad3b3ef"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a1809eae8bc7c8290d7b3525c4ad3b3ef">SetName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a1809eae8bc7c8290d7b3525c4ad3b3ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the name identifier for this suspension subsystem. <br /></td></tr>
+<tr class="separator:a1809eae8bc7c8290d7b3525c4ad3b3ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53b8f1da65adc4b4b717a98e0b56ff0e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53b8f1da65adc4b4b717a98e0b56ff0e"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a53b8f1da65adc4b4b717a98e0b56ff0e">GetSpindle</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side) const </td></tr>
+<tr class="memdesc:a53b8f1da65adc4b4b717a98e0b56ff0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the spindle body on the specified side. <br /></td></tr>
+<tr class="separator:a53b8f1da65adc4b4b717a98e0b56ff0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2784d8fccef7bfaf799254a33154323c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2784d8fccef7bfaf799254a33154323c"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shaft.html">ChShaft</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a2784d8fccef7bfaf799254a33154323c">GetAxle</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side) const </td></tr>
+<tr class="memdesc:a2784d8fccef7bfaf799254a33154323c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the axle shaft on the specified side. <br /></td></tr>
+<tr class="separator:a2784d8fccef7bfaf799254a33154323c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3005965eb61a16422ea9efae24bb6920"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3005965eb61a16422ea9efae24bb6920"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_lock_revolute.html">ChLinkLockRevolute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a3005965eb61a16422ea9efae24bb6920">GetRevolute</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side) const </td></tr>
+<tr class="memdesc:a3005965eb61a16422ea9efae24bb6920"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the revolute joint on the specified side. <br /></td></tr>
+<tr class="separator:a3005965eb61a16422ea9efae24bb6920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae313d13408fadcd8440390ffa64525c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae313d13408fadcd8440390ffa64525c7"></a>
+const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#ae313d13408fadcd8440390ffa64525c7">GetSpindlePos</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side) const </td></tr>
+<tr class="memdesc:ae313d13408fadcd8440390ffa64525c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the global location of the spindle on the specified side. <br /></td></tr>
+<tr class="separator:ae313d13408fadcd8440390ffa64525c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e95aecdf495b3744332d301ceefc872"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a5e95aecdf495b3744332d301ceefc872">GetSpindleRot</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side) const </td></tr>
+<tr class="memdesc:a5e95aecdf495b3744332d301ceefc872"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the orientation of the spindle body on the specified side.  <a href="#a5e95aecdf495b3744332d301ceefc872">More...</a><br /></td></tr>
+<tr class="separator:a5e95aecdf495b3744332d301ceefc872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accffc90e2cbf6bb8fc50fe562867a451"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#accffc90e2cbf6bb8fc50fe562867a451">GetSpindleLinVel</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side) const </td></tr>
+<tr class="memdesc:accffc90e2cbf6bb8fc50fe562867a451"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the linear velocity of the spindle body on the specified side.  <a href="#accffc90e2cbf6bb8fc50fe562867a451">More...</a><br /></td></tr>
+<tr class="separator:accffc90e2cbf6bb8fc50fe562867a451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a762cb358630aa08e18d3a39a716fd21d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a762cb358630aa08e18d3a39a716fd21d">GetSpindleAngVel</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side) const </td></tr>
+<tr class="memdesc:a762cb358630aa08e18d3a39a716fd21d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the angular velocity of the spindle body on the specified side.  <a href="#a762cb358630aa08e18d3a39a716fd21d">More...</a><br /></td></tr>
+<tr class="separator:a762cb358630aa08e18d3a39a716fd21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1af982295abb547f22d819f6d0bc78b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1af982295abb547f22d819f6d0bc78b"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#ab1af982295abb547f22d819f6d0bc78b">GetAxleSpeed</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side) const </td></tr>
+<tr class="memdesc:ab1af982295abb547f22d819f6d0bc78b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the angular speed of the axle on the specified side. <br /></td></tr>
+<tr class="separator:ab1af982295abb547f22d819f6d0bc78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85356a3e28c2c4b68e82d4a46f224d3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a85356a3e28c2c4b68e82d4a46f224d3b">Synchronize</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side, const <a class="el" href="structchrono_1_1vehicle_1_1_tire_force.html">TireForce</a> &amp;tire_force)</td></tr>
+<tr class="memdesc:a85356a3e28c2c4b68e82d4a46f224d3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the suspension subsystem: apply the provided tire forces.  <a href="#a85356a3e28c2c4b68e82d4a46f224d3b">More...</a><br /></td></tr>
+<tr class="separator:a85356a3e28c2c4b68e82d4a46f224d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebe320d5fcf52bce29a53f8a82f11afc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#aebe320d5fcf52bce29a53f8a82f11afc">ApplyAxleTorque</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side, double torque)</td></tr>
+<tr class="memdesc:aebe320d5fcf52bce29a53f8a82f11afc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the provided motor torque.  <a href="#aebe320d5fcf52bce29a53f8a82f11afc">More...</a><br /></td></tr>
+<tr class="separator:aebe320d5fcf52bce29a53f8a82f11afc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02a53a277cd5f0f97fc1e9807e17c9c8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a02a53a277cd5f0f97fc1e9807e17c9c8">Initialize</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt; chassis, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;location, std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt; tierod_body)=0</td></tr>
+<tr class="memdesc:a02a53a277cd5f0f97fc1e9807e17c9c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize this suspension subsystem.  <a href="#a02a53a277cd5f0f97fc1e9807e17c9c8">More...</a><br /></td></tr>
+<tr class="separator:a02a53a277cd5f0f97fc1e9807e17c9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae932613bf9def71ec35abb5d16c38744"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#ae932613bf9def71ec35abb5d16c38744">GetLeftBody</a> () const </td></tr>
+<tr class="memdesc:ae932613bf9def71ec35abb5d16c38744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the left body for a possible antirollbar subsystem.  <a href="#ae932613bf9def71ec35abb5d16c38744">More...</a><br /></td></tr>
+<tr class="separator:ae932613bf9def71ec35abb5d16c38744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b086b07a7e372f6937dddd24f202945"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a8b086b07a7e372f6937dddd24f202945">GetRightBody</a> () const </td></tr>
+<tr class="memdesc:a8b086b07a7e372f6937dddd24f202945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the right body for a possible antirollbar subsystem.  <a href="#a8b086b07a7e372f6937dddd24f202945">More...</a><br /></td></tr>
+<tr class="separator:a8b086b07a7e372f6937dddd24f202945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b65dc37c9636d6dee943db6b93ed690"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b65dc37c9636d6dee943db6b93ed690"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a5b65dc37c9636d6dee943db6b93ed690">GetMass</a> () const =0</td></tr>
+<tr class="memdesc:a5b65dc37c9636d6dee943db6b93ed690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total mass of the suspension subsystem. <br /></td></tr>
+<tr class="separator:a5b65dc37c9636d6dee943db6b93ed690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe377d68dd8b0cd722030cc773291b7a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe377d68dd8b0cd722030cc773291b7a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#afe377d68dd8b0cd722030cc773291b7a">LogConstraintViolations</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side)</td></tr>
+<tr class="memdesc:afe377d68dd8b0cd722030cc773291b7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log current constraint violations. <br /></td></tr>
+<tr class="separator:afe377d68dd8b0cd722030cc773291b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a5345fbdf3c559a739186d0e12512a821"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5345fbdf3c559a739186d0e12512a821"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a5345fbdf3c559a739186d0e12512a821">m_name</a></td></tr>
+<tr class="memdesc:a5345fbdf3c559a739186d0e12512a821"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of the subsystem <br /></td></tr>
+<tr class="separator:a5345fbdf3c559a739186d0e12512a821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b9cce2a39b31f71dfc2fdbc44e23829"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b9cce2a39b31f71dfc2fdbc44e23829"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a9b9cce2a39b31f71dfc2fdbc44e23829">m_spindle</a> [2]</td></tr>
+<tr class="memdesc:a9b9cce2a39b31f71dfc2fdbc44e23829"><td class="mdescLeft">&#160;</td><td class="mdescRight">handles to spindle bodies <br /></td></tr>
+<tr class="separator:a9b9cce2a39b31f71dfc2fdbc44e23829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a5916459527b429a99f047e8aac7e8d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2a5916459527b429a99f047e8aac7e8d"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shaft.html">ChShaft</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a2a5916459527b429a99f047e8aac7e8d">m_axle</a> [2]</td></tr>
+<tr class="memdesc:a2a5916459527b429a99f047e8aac7e8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">handles to axle shafts <br /></td></tr>
+<tr class="separator:a2a5916459527b429a99f047e8aac7e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33aaa7b27736f2801e441c2f688fb715"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33aaa7b27736f2801e441c2f688fb715"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shafts_body.html">ChShaftsBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a33aaa7b27736f2801e441c2f688fb715">m_axle_to_spindle</a> [2]</td></tr>
+<tr class="memdesc:a33aaa7b27736f2801e441c2f688fb715"><td class="mdescLeft">&#160;</td><td class="mdescRight">handles to spindle-shaft connectors <br /></td></tr>
+<tr class="separator:a33aaa7b27736f2801e441c2f688fb715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c077386acaca26d21376a947cfd5752"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4c077386acaca26d21376a947cfd5752"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_lock_revolute.html">ChLinkLockRevolute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension.html#a4c077386acaca26d21376a947cfd5752">m_revolute</a> [2]</td></tr>
+<tr class="memdesc:a4c077386acaca26d21376a947cfd5752"><td class="mdescLeft">&#160;</td><td class="mdescRight">handles to spindle revolute joints <br /></td></tr>
+<tr class="separator:a4c077386acaca26d21376a947cfd5752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a2190fab9b9d5872a4985bd7cf2d67080"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::vehicle::ChSuspension::ChSuspension </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>name of the subsystem </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aebe320d5fcf52bce29a53f8a82f11afc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChSuspension::ApplyAxleTorque </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a>&#160;</td>
+          <td class="paramname"><em>side</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>torque</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply the provided motor torque. </p>
+<p>The given torque is applied to the specified (left or right) axle. This function provides the interface to the drivetrain subsystem (intermediated by the vehicle system). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">side</td><td>indicates the axle (left or right) where the torque should be applied </td></tr>
+    <tr><td class="paramname">torque</td><td>value of applied torque </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae932613bf9def71ec35abb5d16c38744"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="classchrono_1_1_ch_body.html">ChBody</a>&gt; chrono::vehicle::ChSuspension::GetLeftBody </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Specify the left body for a possible antirollbar subsystem. </p>
+<p>The default implementation returns a NULL pointer. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_double_wishbone.html#a4798f58ced5ae3feca0995599ede55ca">chrono::vehicle::ChDoubleWishbone</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_mac_pherson_strut.html#a602e144de4eeabf790457ecf36612760">chrono::vehicle::ChMacPhersonStrut</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_multi_link.html#a96800735971583f82ef3a4836e707541">chrono::vehicle::ChMultiLink</a>, and <a class="el" href="classchrono_1_1vehicle_1_1_ch_double_wishbone_reduced.html#a5e92845b63e17aa64712c323777ac014">chrono::vehicle::ChDoubleWishboneReduced</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8b086b07a7e372f6937dddd24f202945"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="classchrono_1_1_ch_body.html">ChBody</a>&gt; chrono::vehicle::ChSuspension::GetRightBody </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Specify the right body for a possible antirollbar subsystem. </p>
+<p>The default implementation returns a NULL pointer. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_double_wishbone.html#a0dd3ccc755847ab3e38e9ac5cb12b157">chrono::vehicle::ChDoubleWishbone</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_mac_pherson_strut.html#aed765a9b85a1972ca7d7f3d71514e658">chrono::vehicle::ChMacPhersonStrut</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_multi_link.html#af3c24453ca121011d7339f17bfa72405">chrono::vehicle::ChMultiLink</a>, and <a class="el" href="classchrono_1_1vehicle_1_1_ch_double_wishbone_reduced.html#a09184537b0cdbb1d0edc79b9b6305c3a">chrono::vehicle::ChDoubleWishboneReduced</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a762cb358630aa08e18d3a39a716fd21d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> chrono::vehicle::ChSuspension::GetSpindleAngVel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a>&#160;</td>
+          <td class="paramname"><em>side</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the angular velocity of the spindle body on the specified side. </p>
+<p>Return the angular velocity of the spindle frame, expressed in the global reference frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="accffc90e2cbf6bb8fc50fe562867a451"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&amp; chrono::vehicle::ChSuspension::GetSpindleLinVel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a>&#160;</td>
+          <td class="paramname"><em>side</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the linear velocity of the spindle body on the specified side. </p>
+<p>Return the linear velocity of the spindle center, expressed in the global reference frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5e95aecdf495b3744332d301ceefc872"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&amp; chrono::vehicle::ChSuspension::GetSpindleRot </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a>&#160;</td>
+          <td class="paramname"><em>side</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the orientation of the spindle body on the specified side. </p>
+<p>The spindle body orientation is returned as a quaternion representing a rotation with respect to the global reference frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="a02a53a277cd5f0f97fc1e9807e17c9c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::vehicle::ChSuspension::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt;&#160;</td>
+          <td class="paramname"><em>chassis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>location</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td>
+          <td class="paramname"><em>tierod_body</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize this suspension subsystem. </p>
+<p>The suspension subsystem is initialized by attaching it to the specified chassis body at the specified location (with respect to and expressed in the reference frame of the chassis). It is assumed that the suspension reference frame is always aligned with the chassis reference frame. Finally, tierod_body is a handle to the body to which the suspension tierods are to be attached. For a steerable suspension, this will be the steering link of a suspension subsystem. Otherwise, this is the chassis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">chassis</td><td>handle to the chassis body </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">location</td><td>location relative to the chassis frame </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tierod_body</td><td>body to which tireods are connected </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_hendrickson_p_r_i_m_a_x_x.html#ad335cd1b3cf2ebf8992363c951ca927a">chrono::vehicle::ChHendricksonPRIMAXX</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_solid_axle.html#abf603fc006717c3d4cad32202782d3e5">chrono::vehicle::ChSolidAxle</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_double_wishbone.html#a33b67e9e4ec10feecc5b78da5020e960">chrono::vehicle::ChDoubleWishbone</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_double_wishbone_reduced.html#a15a71c6d84a343218649c8215b2684a6">chrono::vehicle::ChDoubleWishboneReduced</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_mac_pherson_strut.html#ab258bb70e5d0a9e2b4a8c98838dcf356">chrono::vehicle::ChMacPhersonStrut</a>, and <a class="el" href="classchrono_1_1vehicle_1_1_ch_multi_link.html#a790218f9db68f6c0c0f47104ade2d923">chrono::vehicle::ChMultiLink</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a85356a3e28c2c4b68e82d4a46f224d3b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChSuspension::Synchronize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a>&#160;</td>
+          <td class="paramname"><em>side</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structchrono_1_1vehicle_1_1_tire_force.html">TireForce</a> &amp;&#160;</td>
+          <td class="paramname"><em>tire_force</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the suspension subsystem: apply the provided tire forces. </p>
+<p>The given tire force and moment is applied to the specified (left or right) spindle body. This function provides the interface to the tire system (intermediated by the vehicle system). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">side</td><td>indicates the spindle body (left or right) where the forces should be applied </td></tr>
+    <tr><td class="paramname">tire_force</td><td>generalized tire forces </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:25 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

@@ -1,0 +1,479 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChContactable Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_contactable.html">ChContactable</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1_ch_contactable-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChContactable Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Interface for objects that generate contacts One should inherit from ChContactable_1vars, ChContactable_2vars etc. </p>
+<p>depending on the number of ChVariable objects contained in the object (i.e. the variable chuncks to whom the contact point position depends, also the variables affected by contact force). </p>
+</div>
+<p><code>#include &lt;ChContactable.h&gt;</code></p>
+
+<p>Inherited by chrono::ChContactable_1vars&lt; 3 &gt;, chrono::ChContactable_1vars&lt; 6 &gt;, chrono::ChContactable_3vars&lt; 3, 3, 3 &gt;, chrono::ChContactable_1vars&lt; T1 &gt;, chrono::ChContactable_2vars&lt; T1, T2 &gt;, and chrono::ChContactable_3vars&lt; T1, T2, T3 &gt;.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a284d08c44e304bb55d7e03d5cc99b532"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a284d08c44e304bb55d7e03d5cc99b532"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#a284d08c44e304bb55d7e03d5cc99b532">IsContactActive</a> ()=0</td></tr>
+<tr class="memdesc:a284d08c44e304bb55d7e03d5cc99b532"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell if the object must be considered in collision detection. <br /></td></tr>
+<tr class="separator:a284d08c44e304bb55d7e03d5cc99b532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa05d16163699380cb9f1f9934de334fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa05d16163699380cb9f1f9934de334fd"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#aa05d16163699380cb9f1f9934de334fd">ContactableGet_ndof_x</a> ()=0</td></tr>
+<tr class="memdesc:aa05d16163699380cb9f1f9934de334fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of DOFs affected by this object (position part) <br /></td></tr>
+<tr class="separator:aa05d16163699380cb9f1f9934de334fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae858deb485115b39878ebdea6e9e5f1d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae858deb485115b39878ebdea6e9e5f1d"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#ae858deb485115b39878ebdea6e9e5f1d">ContactableGet_ndof_w</a> ()=0</td></tr>
+<tr class="memdesc:ae858deb485115b39878ebdea6e9e5f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of DOFs affected by this object (speed part) <br /></td></tr>
+<tr class="separator:ae858deb485115b39878ebdea6e9e5f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27daacf930f7faa5f39ac9316352b688"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27daacf930f7faa5f39ac9316352b688"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#a27daacf930f7faa5f39ac9316352b688">ContactableGetStateBlock_x</a> (<a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x)=0</td></tr>
+<tr class="memdesc:a27daacf930f7faa5f39ac9316352b688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the DOFs packed in a single vector (position part) <br /></td></tr>
+<tr class="separator:a27daacf930f7faa5f39ac9316352b688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af259e70b1cef3d2dece95bc0efac6b5a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af259e70b1cef3d2dece95bc0efac6b5a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#af259e70b1cef3d2dece95bc0efac6b5a">ContactableGetStateBlock_w</a> (<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;w)=0</td></tr>
+<tr class="memdesc:af259e70b1cef3d2dece95bc0efac6b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the DOFs packed in a single vector (speed part) <br /></td></tr>
+<tr class="separator:af259e70b1cef3d2dece95bc0efac6b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e3f88b77cecf11618fb5820ce01e5b4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#a7e3f88b77cecf11618fb5820ce01e5b4">ContactableIncrementState</a> (const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;dw, <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x_new)=0</td></tr>
+<tr class="memdesc:a7e3f88b77cecf11618fb5820ce01e5b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment the provided state of this object by the given state-delta increment.  <a href="#a7e3f88b77cecf11618fb5820ce01e5b4">More...</a><br /></td></tr>
+<tr class="separator:a7e3f88b77cecf11618fb5820ce01e5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7cfa3311d97631db5e81eb88be22fd5"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_material_surface_base.html">ChMaterialSurfaceBase</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#ab7cfa3311d97631db5e81eb88be22fd5">GetMaterialSurfaceBase</a> ()=0</td></tr>
+<tr class="memdesc:ab7cfa3311d97631db5e81eb88be22fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the pointer to the surface material.  <a href="#ab7cfa3311d97631db5e81eb88be22fd5">More...</a><br /></td></tr>
+<tr class="separator:ab7cfa3311d97631db5e81eb88be22fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c16937c3bdadba659ee5823cc8f0ccc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c16937c3bdadba659ee5823cc8f0ccc"></a>
+virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#a0c16937c3bdadba659ee5823cc8f0ccc">GetContactPoint</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;loc_point, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;state_x)=0</td></tr>
+<tr class="memdesc:a0c16937c3bdadba659ee5823cc8f0ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Express the local point in absolute frame, for the given state position. <br /></td></tr>
+<tr class="separator:a0c16937c3bdadba659ee5823cc8f0ccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13b6f0285fdb628e826e4368ff7c15a1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#a13b6f0285fdb628e826e4368ff7c15a1">GetContactPointSpeed</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;loc_point, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;state_x, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;state_w)=0</td></tr>
+<tr class="memdesc:a13b6f0285fdb628e826e4368ff7c15a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the absolute speed of a local point attached to the contactable.  <a href="#a13b6f0285fdb628e826e4368ff7c15a1">More...</a><br /></td></tr>
+<tr class="separator:a13b6f0285fdb628e826e4368ff7c15a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4729be59ee1b7c1453b6a4dcfe933733"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4729be59ee1b7c1453b6a4dcfe933733"></a>
+virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#a4729be59ee1b7c1453b6a4dcfe933733">GetContactPointSpeed</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;abs_point)=0</td></tr>
+<tr class="memdesc:a4729be59ee1b7c1453b6a4dcfe933733"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the absolute speed of point abs_point if attached to the surface. <br /></td></tr>
+<tr class="separator:a4729be59ee1b7c1453b6a4dcfe933733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42156df2e9ccbbe8d489963cb4a9c567"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#a42156df2e9ccbbe8d489963cb4a9c567">GetCsysForCollisionModel</a> ()=0</td></tr>
+<tr class="memdesc:a42156df2e9ccbbe8d489963cb4a9c567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the coordinate system for the associated collision model.  <a href="#a42156df2e9ccbbe8d489963cb4a9c567">More...</a><br /></td></tr>
+<tr class="separator:a42156df2e9ccbbe8d489963cb4a9c567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add76534d6a8bf66bd758b5fc1768d18e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#add76534d6a8bf66bd758b5fc1768d18e">ContactForceLoadResidual_F</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;F, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;abs_point, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R)=0</td></tr>
+<tr class="memdesc:add76534d6a8bf66bd758b5fc1768d18e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the given force at the given location and load into the global generalized force array.  <a href="#add76534d6a8bf66bd758b5fc1768d18e">More...</a><br /></td></tr>
+<tr class="separator:add76534d6a8bf66bd758b5fc1768d18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51fa7840e2fcae7884666a0b70f53530"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#a51fa7840e2fcae7884666a0b70f53530">ContactForceLoadQ</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;F, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;point, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;state_x, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;Q, int offset)=0</td></tr>
+<tr class="memdesc:a51fa7840e2fcae7884666a0b70f53530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the given force at the given point and load the generalized force array.  <a href="#a51fa7840e2fcae7884666a0b70f53530">More...</a><br /></td></tr>
+<tr class="separator:a51fa7840e2fcae7884666a0b70f53530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcdbf135c74eec46ecf73e3be6239633"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abcdbf135c74eec46ecf73e3be6239633"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#abcdbf135c74eec46ecf73e3be6239633">GetContactableMass</a> ()=0</td></tr>
+<tr class="memdesc:abcdbf135c74eec46ecf73e3be6239633"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be useful in some DEM code: <br /></td></tr>
+<tr class="separator:abcdbf135c74eec46ecf73e3be6239633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6a4cdb6464ed13a6ee2c3d96b9d9e99"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_physics_item.html">ChPhysicsItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_contactable.html#ab6a4cdb6464ed13a6ee2c3d96b9d9e99">GetPhysicsItem</a> ()=0</td></tr>
+<tr class="memdesc:ab6a4cdb6464ed13a6ee2c3d96b9d9e99"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is only for backward compatibility.  <a href="#ab6a4cdb6464ed13a6ee2c3d96b9d9e99">More...</a><br /></td></tr>
+<tr class="separator:ab6a4cdb6464ed13a6ee2c3d96b9d9e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a7e3f88b77cecf11618fb5820ce01e5b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChContactable::ContactableIncrementState </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>dw</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>x_new</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Increment the provided state of this object by the given state-delta increment. </p>
+<p>Compute: x_new = x + dw. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_body.html#a1703227519faf96ed6e236b31f09bfc4">chrono::ChBody</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z_r_o_t.html#af4fa089289fbe49999d061884dd9aa82">chrono::fea::ChContactNodeXYZROT</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#af985b8706850d1710fccf892f187d758">chrono::fea::ChContactTriangleXYZ</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_node_meshless.html#ab8ce808c8b7d4e3621122008cfc82675">chrono::fea::ChNodeMeshless</a>, <a class="el" href="classchrono_1_1_ch_node_s_p_h.html#a48e4bd7482400e6072845626b62f4075">chrono::ChNodeSPH</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z.html#a8f5b03292d2c4bb49b9d735ba4ef0301">chrono::fea::ChContactNodeXYZ</a>, and <a class="el" href="classchrono_1_1_ch_aparticle.html#aabcac2f5e006ba5a152ec0381b632448">chrono::ChAparticle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a51fa7840e2fcae7884666a0b70f53530"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChContactable::ContactForceLoadQ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>F</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>state_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>Q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Apply the given force at the given point and load the generalized force array. </p>
+<p>The force and its application point are specified in the gloabl frame. Each object must set the entries in Q corresponding to its variables, starting at the specified offset. If needed, the object states must be extracted from the provided state position. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_body.html#a1b6755346ef2e2979ff1e20251eb89ca">chrono::ChBody</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z_r_o_t.html#a7c899d08524c2bdba2b7bd0650b81dfd">chrono::fea::ChContactNodeXYZROT</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#ac8eea757cc71b57000c24e099c19dd10">chrono::fea::ChContactTriangleXYZ</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_node_meshless.html#af165637955e4d48acbb0a9d970512d00">chrono::fea::ChNodeMeshless</a>, <a class="el" href="classchrono_1_1_ch_node_s_p_h.html#a20a36da1f66909439a9310d73a67b804">chrono::ChNodeSPH</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z.html#a626aa79ff0aa22a0af54be79007410b7">chrono::fea::ChContactNodeXYZ</a>, and <a class="el" href="classchrono_1_1_ch_aparticle.html#a04fceef5a7ca138f5253ce9e73111e1d">chrono::ChAparticle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add76534d6a8bf66bd758b5fc1768d18e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChContactable::ContactForceLoadResidual_F </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>F</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>abs_point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>R</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Apply the given force at the given location and load into the global generalized force array. </p>
+<p>The force and its application point are given in the absolute reference frame. Each object must update the entries in R corresponding to its variables. Force for example could come from a penalty model. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_body.html#a1089a316f0ab1bf3165cf06cb67c2522">chrono::ChBody</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z_r_o_t.html#abd08f456375a5642cf3988af4d72caa5">chrono::fea::ChContactNodeXYZROT</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#ac9f6b996eb4430453cffefbb395fed58">chrono::fea::ChContactTriangleXYZ</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_node_meshless.html#a5b45eb2b17577b75e69add6ae809c9c0">chrono::fea::ChNodeMeshless</a>, <a class="el" href="classchrono_1_1_ch_node_s_p_h.html#a40bff51f9127f3f00b8911aae9d3b10d">chrono::ChNodeSPH</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z.html#a7b76125be37e4f0643207d1cea4b7042">chrono::fea::ChContactNodeXYZ</a>, and <a class="el" href="classchrono_1_1_ch_aparticle.html#ad332783e096d09e0033b70e6e973d2e8">chrono::ChAparticle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a13b6f0285fdb628e826e4368ff7c15a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> chrono::ChContactable::GetContactPointSpeed </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>loc_point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>state_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>state_w</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the absolute speed of a local point attached to the contactable. </p>
+<p>The given point is assumed to be expressed in the local frame of this object. This function must use the provided states. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_body.html#a6316d8c2a0ca88ab1f42f89e2d206d42">chrono::ChBody</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z_r_o_t.html#a78cf80a9e8842dfd9a05306a09ff81b4">chrono::fea::ChContactNodeXYZROT</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a58382eeb492dedf551e0b0bbb544cc37">chrono::fea::ChContactTriangleXYZ</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_node_meshless.html#ad5cc5b718684ff4eec7cc805e64c5278">chrono::fea::ChNodeMeshless</a>, <a class="el" href="classchrono_1_1_ch_node_s_p_h.html#a1eb09814e976d80cc7ba21b9bf86bd03">chrono::ChNodeSPH</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z.html#af4d2f7c6144aafaefc9ee07b5c7cb6a2">chrono::fea::ChContactNodeXYZ</a>, and <a class="el" href="classchrono_1_1_ch_aparticle.html#a64ab31fd5a4d19462d5c994dc4a7e4b5">chrono::ChAparticle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a42156df2e9ccbbe8d489963cb4a9c567"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a> chrono::ChContactable::GetCsysForCollisionModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the coordinate system for the associated collision model. </p>
+<p>ChCollisionModel might call this to get the position of the contact model (when rigid) and sync it. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_body.html#aa8388418f0b46c3355dea528742195ba">chrono::ChBody</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z_r_o_t.html#a8d52bb91f4746446160b9546a99678f5">chrono::fea::ChContactNodeXYZROT</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a1a764f43ce26c648395177e0c37e2c16">chrono::fea::ChContactTriangleXYZ</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_node_meshless.html#ab755fc5828108675e71cf9defe36025d">chrono::fea::ChNodeMeshless</a>, <a class="el" href="classchrono_1_1_ch_node_s_p_h.html#a2df4d7db378cd805401d07ce6e03c9cb">chrono::ChNodeSPH</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z.html#a3b15f38939c3563215a6645d023d8b77">chrono::fea::ChContactNodeXYZ</a>, and <a class="el" href="classchrono_1_1_ch_aparticle.html#a6d1ce82894eddd1f5bf6f72518bebb49">chrono::ChAparticle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab7cfa3311d97631db5e81eb88be22fd5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="classchrono_1_1_ch_material_surface_base.html">ChMaterialSurfaceBase</a>&gt;&amp; chrono::ChContactable::GetMaterialSurfaceBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the pointer to the surface material. </p>
+<p>Use dynamic cast to understand if this is a <a class="el" href="classchrono_1_1_ch_material_surface_d_e_m.html" title="Class for material surface data for DEM contact. ">ChMaterialSurfaceDEM</a>, ChMaterialSurfaceDVI or others. This function returns a reference to the shared pointer member variable and is therefore THREAD SAFE. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_body.html#a23429847bcd775d2efdf91ae2a76a3fd">chrono::ChBody</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z_r_o_t.html#a1a54e93ae2b4e0054448ef7b6b83f29b">chrono::fea::ChContactNodeXYZROT</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#af0d01c5ae7cd450a6dffefe37b798b23">chrono::fea::ChContactTriangleXYZ</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_node_meshless.html#a92fc4f4eaf61a7e8f128a88e85572d15">chrono::fea::ChNodeMeshless</a>, <a class="el" href="classchrono_1_1_ch_node_s_p_h.html#a83f29c4ab0ae95f5921d2f1e29820dc3">chrono::ChNodeSPH</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z.html#ae4f1b645097b75d2c3ec421265ebb26f">chrono::fea::ChContactNodeXYZ</a>, and <a class="el" href="classchrono_1_1_ch_aparticle.html#ac80d9a51c1d26f7318e63469f5281bdb">chrono::ChAparticle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab6a4cdb6464ed13a6ee2c3d96b9d9e99"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classchrono_1_1_ch_physics_item.html">ChPhysicsItem</a>* chrono::ChContactable::GetPhysicsItem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is only for backward compatibility. </p>
+<p>Note that in recent code the reference to the <a class="el" href="classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies...">ChPhysicsItem</a> should disappear. The <a class="el" href="classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies...">ChPhysicsItem</a> could be the <a class="el" href="classchrono_1_1_ch_contactable.html" title="Interface for objects that generate contacts One should inherit from ChContactable_1vars, ChContactable_2vars etc. ">ChContactable</a> itself (ex. see the <a class="el" href="classchrono_1_1_ch_body.html" title="Class for rigid bodies. ">ChBody</a>) or a container (ex. the ChMEsh, for ChContactTriangle) </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_body.html#a9d8890873cbd646b6789c231a79b86ff">chrono::ChBody</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z_r_o_t.html#ac6c2e99689de98c3c7c436568e98c3e8">chrono::fea::ChContactNodeXYZROT</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a821e3d593a2c5bc74eead5ed6831a05a">chrono::fea::ChContactTriangleXYZ</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_node_meshless.html#ad67defaade781cbbb49484143941e859">chrono::fea::ChNodeMeshless</a>, <a class="el" href="classchrono_1_1_ch_node_s_p_h.html#a1d0be7e9f0d6b42d94a71b992351edaa">chrono::ChNodeSPH</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_node_x_y_z.html#aaad85340f53887fc0248154c06f59d7e">chrono::fea::ChContactNodeXYZ</a>, and <a class="el" href="classchrono_1_1_ch_aparticle.html#afaa6c1bdff984f15934775d0cba23bf5">chrono::ChAparticle</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:13 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

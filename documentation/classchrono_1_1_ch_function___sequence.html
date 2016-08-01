@@ -1,0 +1,621 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChFunction_Sequence Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_function___sequence.html">ChFunction_Sequence</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1_ch_function___sequence-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChFunction_Sequence Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Sequence function: y = sequence_of_functions(f1(y), f2(y), f3(y)) All other function types can be inserted into this. </p>
+<p>This function is very important because very complex motion laws can be created by sequencing many basic ChFunctions. </p>
+</div>
+<p><code>#include &lt;ChFunction_Sequence.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChFunction_Sequence:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_function___sequence__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_function___sequence_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_function___sequence_inherit__map" id="chrono_1_1_ch_function___sequence_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_function.html" title="Interface base class for scalar functions of the type: y= f(x) " alt="" coords="5,5,141,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::ChFunction_Sequence:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_function___sequence__coll__graph.png" border="0" usemap="#chrono_1_1_ch_function___sequence_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1_ch_function___sequence_coll__map" id="chrono_1_1_ch_function___sequence_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_function.html" title="Interface base class for scalar functions of the type: y= f(x) " alt="" coords="5,5,141,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aacfb9b803148755623dbcec8d02bc171"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aacfb9b803148755623dbcec8d02bc171"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChFunction_Sequence</b> (const <a class="el" href="classchrono_1_1_ch_function___sequence.html">ChFunction_Sequence</a> &amp;other)</td></tr>
+<tr class="separator:aacfb9b803148755623dbcec8d02bc171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda0a9eca931b2f459ecdc62da9e49ef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adda0a9eca931b2f459ecdc62da9e49ef"></a>
+virtual <a class="el" href="classchrono_1_1_ch_function___sequence.html">ChFunction_Sequence</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#adda0a9eca931b2f459ecdc62da9e49ef">Clone</a> () const override</td></tr>
+<tr class="memdesc:adda0a9eca931b2f459ecdc62da9e49ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Virtual" copy constructor (covariant return type). <br /></td></tr>
+<tr class="separator:adda0a9eca931b2f459ecdc62da9e49ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e6653164942697cf5a14f0c1c636688"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e6653164942697cf5a14f0c1c636688"></a>
+virtual <a class="el" href="classchrono_1_1_ch_function.html#a57de32913b91ddca264958b2c4dee531">FunctionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#a4e6653164942697cf5a14f0c1c636688">Get_Type</a> () const override</td></tr>
+<tr class="memdesc:a4e6653164942697cf5a14f0c1c636688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the unique function type identifier. <br /></td></tr>
+<tr class="separator:a4e6653164942697cf5a14f0c1c636688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac497e5fa7a3c2e989d6812446b28de9f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac497e5fa7a3c2e989d6812446b28de9f"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#ac497e5fa7a3c2e989d6812446b28de9f">Get_y</a> (double x) const override</td></tr>
+<tr class="memdesc:ac497e5fa7a3c2e989d6812446b28de9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the y value of the function, at position x. <br /></td></tr>
+<tr class="separator:ac497e5fa7a3c2e989d6812446b28de9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ed4727b411f76d01cb41482d6ad580b"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#a9ed4727b411f76d01cb41482d6ad580b">Get_y_dx</a> (double x) const override</td></tr>
+<tr class="memdesc:a9ed4727b411f76d01cb41482d6ad580b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the dy/dx derivative of the function, at position x.  <a href="#a9ed4727b411f76d01cb41482d6ad580b">More...</a><br /></td></tr>
+<tr class="separator:a9ed4727b411f76d01cb41482d6ad580b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e9a9d0688d0a5e19390f1c4d8386180"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#a7e9a9d0688d0a5e19390f1c4d8386180">Get_y_dxdx</a> (double x) const override</td></tr>
+<tr class="memdesc:a7e9a9d0688d0a5e19390f1c4d8386180"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the ddy/dxdx double derivative of the function, at position x.  <a href="#a7e9a9d0688d0a5e19390f1c4d8386180">More...</a><br /></td></tr>
+<tr class="separator:a7e9a9d0688d0a5e19390f1c4d8386180"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd4ea7a473f5dce6dd5b5fab2c33c03a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd4ea7a473f5dce6dd5b5fab2c33c03a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#abd4ea7a473f5dce6dd5b5fab2c33c03a">Set_start</a> (double m_start)</td></tr>
+<tr class="memdesc:abd4ea7a473f5dce6dd5b5fab2c33c03a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sequence of functions starts at this x value. <br /></td></tr>
+<tr class="separator:abd4ea7a473f5dce6dd5b5fab2c33c03a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2849e53136005de0d561868f1793ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba2849e53136005de0d561868f1793ce"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_start</b> () const </td></tr>
+<tr class="separator:aba2849e53136005de0d561868f1793ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e4c360ea987f1185953334fd19cf319"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e4c360ea987f1185953334fd19cf319"></a>
+std::list&lt; <a class="el" href="classchrono_1_1_ch_fseq_node.html">ChFseqNode</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#a6e4c360ea987f1185953334fd19cf319">Get_list</a> ()</td></tr>
+<tr class="memdesc:a6e4c360ea987f1185953334fd19cf319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the list of the sub-functions. <br /></td></tr>
+<tr class="separator:a6e4c360ea987f1185953334fd19cf319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ae3cfc067ce308fcc6c2a8d85375ea6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#a2ae3cfc067ce308fcc6c2a8d85375ea6">Setup</a> ()</td></tr>
+<tr class="memdesc:a2ae3cfc067ce308fcc6c2a8d85375ea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans all the seq.of functions and setup the timings and continuity offsets, to satisfy all constraints.  <a href="#a2ae3cfc067ce308fcc6c2a8d85375ea6">More...</a><br /></td></tr>
+<tr class="separator:a2ae3cfc067ce308fcc6c2a8d85375ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a324c1122e597da3860f0cbe7a9997048"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#a324c1122e597da3860f0cbe7a9997048">InsertFunct</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> &gt; myfx, double duration, double weight=1, bool c0=false, bool c1=false, bool c2=false, int position=-1)</td></tr>
+<tr class="memdesc:a324c1122e597da3860f0cbe7a9997048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert function after the fx with defined "position" index in list.  <a href="#a324c1122e597da3860f0cbe7a9997048">More...</a><br /></td></tr>
+<tr class="separator:a324c1122e597da3860f0cbe7a9997048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa61e97078b15162b0aa12f434f0946"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#aafa61e97078b15162b0aa12f434f0946">KillFunct</a> (int position)</td></tr>
+<tr class="memdesc:aafa61e97078b15162b0aa12f434f0946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove and deletes function with defined "position", and returns TRUE.  <a href="#aafa61e97078b15162b0aa12f434f0946">More...</a><br /></td></tr>
+<tr class="separator:aafa61e97078b15162b0aa12f434f0946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e484ca241b914df0a6b1be67597c336"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#a6e484ca241b914df0a6b1be67597c336">GetNthFunction</a> (int position)</td></tr>
+<tr class="memdesc:a6e484ca241b914df0a6b1be67597c336"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classchrono_1_1_ch_function.html" title="Interface base class for scalar functions of the type: y= f(x) ">ChFunction</a> with given "position".  <a href="#a6e484ca241b914df0a6b1be67597c336">More...</a><br /></td></tr>
+<tr class="separator:a6e484ca241b914df0a6b1be67597c336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacedb6f6ea77aa533cf43bcb9a8d93a8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aacedb6f6ea77aa533cf43bcb9a8d93a8"></a>
+<a class="el" href="classchrono_1_1_ch_fseq_node.html">ChFseqNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#aacedb6f6ea77aa533cf43bcb9a8d93a8">GetNthNode</a> (int position)</td></tr>
+<tr class="memdesc:aacedb6f6ea77aa533cf43bcb9a8d93a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">As above, but returns the function node (containing function pointer, function duration, continuity flags with previous node, etc.) <br /></td></tr>
+<tr class="separator:aacedb6f6ea77aa533cf43bcb9a8d93a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1074764a536fbf8ef56df713b3352726"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#a1074764a536fbf8ef56df713b3352726">GetNthDuration</a> (int position)</td></tr>
+<tr class="memdesc:a1074764a536fbf8ef56df713b3352726"><td class="mdescLeft">&#160;</td><td class="mdescRight">As above, but returning duration.  <a href="#a1074764a536fbf8ef56df713b3352726">More...</a><br /></td></tr>
+<tr class="separator:a1074764a536fbf8ef56df713b3352726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafcc9b43efc8095349a7fd0b37951a1d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafcc9b43efc8095349a7fd0b37951a1d"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#aafcc9b43efc8095349a7fd0b37951a1d">Get_weight</a> (double x) const override</td></tr>
+<tr class="memdesc:aafcc9b43efc8095349a7fd0b37951a1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the weight of the function (useful for applications where you need to mix different weighted ChFunctions) <br /></td></tr>
+<tr class="separator:aafcc9b43efc8095349a7fd0b37951a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a292bd68c54d1d74218590a9505ab03"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#a2a292bd68c54d1d74218590a9505ab03">Estimate_x_range</a> (double &amp;xmin, double &amp;xmax) const override</td></tr>
+<tr class="memdesc:a2a292bd68c54d1d74218590a9505ab03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an estimate of the range of the function argument.  <a href="#a2a292bd68c54d1d74218590a9505ab03">More...</a><br /></td></tr>
+<tr class="separator:a2a292bd68c54d1d74218590a9505ab03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68aa48b8527b8af27c198c834d9cf6f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68aa48b8527b8af27c198c834d9cf6f5"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#a68aa48b8527b8af27c198c834d9cf6f5">HandleNumber</a> () const override</td></tr>
+<tr class="memdesc:a68aa48b8527b8af27c198c834d9cf6f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of handles of the function. <br /></td></tr>
+<tr class="separator:a68aa48b8527b8af27c198c834d9cf6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae01c12199c099ba677c4dfb835f35b46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#ae01c12199c099ba677c4dfb835f35b46">HandleAccess</a> (int handle_id, double mx, double my, bool set_mode)</td></tr>
+<tr class="memdesc:ae01c12199c099ba677c4dfb835f35b46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the x and y position of handle, given identifier.  <a href="#ae01c12199c099ba677c4dfb835f35b46">More...</a><br /></td></tr>
+<tr class="separator:ae01c12199c099ba677c4dfb835f35b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a611fab0e54092fd1161716450c42204c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a611fab0e54092fd1161716450c42204c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#a611fab0e54092fd1161716450c42204c">ArchiveOUT</a> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive) override</td></tr>
+<tr class="memdesc:a611fab0e54092fd1161716450c42204c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow serialization of transient data to archives. <br /></td></tr>
+<tr class="separator:a611fab0e54092fd1161716450c42204c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ccfc739375783e19ebdf31a5dafc67"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68ccfc739375783e19ebdf31a5dafc67"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function___sequence.html#a68ccfc739375783e19ebdf31a5dafc67">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive) override</td></tr>
+<tr class="memdesc:a68ccfc739375783e19ebdf31a5dafc67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow deserialization of transient data from archives. <br /></td></tr>
+<tr class="separator:a68ccfc739375783e19ebdf31a5dafc67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_function"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_function')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_function.html">chrono::ChFunction</a></td></tr>
+<tr class="memitem:ab61a9dcd642d03df40e6b7a693c0940e inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab61a9dcd642d03df40e6b7a693c0940e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChFunction</b> (const <a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> &amp;other)</td></tr>
+<tr class="separator:ab61a9dcd642d03df40e6b7a693c0940e inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b8ef2945855ddc7f1147d5ac352ced9 inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#a1b8ef2945855ddc7f1147d5ac352ced9">Estimate_y_range</a> (double xmin, double xmax, double &amp;ymin, double &amp;ymax, int derivate) const </td></tr>
+<tr class="memdesc:a1b8ef2945855ddc7f1147d5ac352ced9 inherit pub_methods_classchrono_1_1_ch_function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an estimate of the range of the function value.  <a href="#a1b8ef2945855ddc7f1147d5ac352ced9">More...</a><br /></td></tr>
+<tr class="separator:a1b8ef2945855ddc7f1147d5ac352ced9 inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee97d22f7ca42f70cd54d5650fe77d8 inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#a1ee97d22f7ca42f70cd54d5650fe77d8">Get_y_dN</a> (double x, int derivate) const </td></tr>
+<tr class="memdesc:a1ee97d22f7ca42f70cd54d5650fe77d8 inherit pub_methods_classchrono_1_1_ch_function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the function derivative of specified order at the given point.  <a href="#a1ee97d22f7ca42f70cd54d5650fe77d8">More...</a><br /></td></tr>
+<tr class="separator:a1ee97d22f7ca42f70cd54d5650fe77d8 inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a396e49a0f4dfff318e178e9c5dcd94b9 inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a396e49a0f4dfff318e178e9c5dcd94b9"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#a396e49a0f4dfff318e178e9c5dcd94b9">Compute_max</a> (double xmin, double xmax, double sampling_step, int derivate) const </td></tr>
+<tr class="memdesc:a396e49a0f4dfff318e178e9c5dcd94b9 inherit pub_methods_classchrono_1_1_ch_function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the maximum of y(x) in a range xmin-xmax, using a sampling method. <br /></td></tr>
+<tr class="separator:a396e49a0f4dfff318e178e9c5dcd94b9 inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab90f536981c495f3531560eb13c7f31e inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab90f536981c495f3531560eb13c7f31e"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#ab90f536981c495f3531560eb13c7f31e">Compute_min</a> (double xmin, double xmax, double sampling_step, int derivate) const </td></tr>
+<tr class="memdesc:ab90f536981c495f3531560eb13c7f31e inherit pub_methods_classchrono_1_1_ch_function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the minimum of y(x) in a range xmin-xmax, using a sampling method. <br /></td></tr>
+<tr class="separator:ab90f536981c495f3531560eb13c7f31e inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad457dae67c2712f0af29ec695ab58cac inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad457dae67c2712f0af29ec695ab58cac"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#ad457dae67c2712f0af29ec695ab58cac">Compute_mean</a> (double xmin, double xmax, double sampling_step, int derivate) const </td></tr>
+<tr class="memdesc:ad457dae67c2712f0af29ec695ab58cac inherit pub_methods_classchrono_1_1_ch_function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the mean value of y(x) in a range xmin-xmax, using a sampling method. <br /></td></tr>
+<tr class="separator:ad457dae67c2712f0af29ec695ab58cac inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0845e957d03fb0607f971640760dba3a inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0845e957d03fb0607f971640760dba3a"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#a0845e957d03fb0607f971640760dba3a">Compute_sqrmean</a> (double xmin, double xmax, double sampling_step, int derivate) const </td></tr>
+<tr class="memdesc:a0845e957d03fb0607f971640760dba3a inherit pub_methods_classchrono_1_1_ch_function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the square mean val. of y(x) in a range xmin-xmax, using sampling. <br /></td></tr>
+<tr class="separator:a0845e957d03fb0607f971640760dba3a inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf386d95901f2a5cc34d2b09a6989eb inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaaf386d95901f2a5cc34d2b09a6989eb"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#aaaf386d95901f2a5cc34d2b09a6989eb">Compute_int</a> (double xmin, double xmax, double sampling_step, int derivate) const </td></tr>
+<tr class="memdesc:aaaf386d95901f2a5cc34d2b09a6989eb inherit pub_methods_classchrono_1_1_ch_function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the integral of y(x) in a range xmin-xmax, using a sampling method. <br /></td></tr>
+<tr class="separator:aaaf386d95901f2a5cc34d2b09a6989eb inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af33624d6e794cbe392996367ce70fa3c inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af33624d6e794cbe392996367ce70fa3c"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#af33624d6e794cbe392996367ce70fa3c">Get_Ca_pos</a> () const </td></tr>
+<tr class="memdesc:af33624d6e794cbe392996367ce70fa3c inherit pub_methods_classchrono_1_1_ch_function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the positive acceleration coefficient (inherited classes should customize this). <br /></td></tr>
+<tr class="separator:af33624d6e794cbe392996367ce70fa3c inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acae57379059443443bb00c55790ecb65 inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acae57379059443443bb00c55790ecb65"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#acae57379059443443bb00c55790ecb65">Get_Ca_neg</a> () const </td></tr>
+<tr class="memdesc:acae57379059443443bb00c55790ecb65 inherit pub_methods_classchrono_1_1_ch_function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the positive acceleration coefficient (inherited classes should customize this). <br /></td></tr>
+<tr class="separator:acae57379059443443bb00c55790ecb65 inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a134c6150447c7e1cd75055c93722a280 inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a134c6150447c7e1cd75055c93722a280"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#a134c6150447c7e1cd75055c93722a280">Get_Cv</a> () const </td></tr>
+<tr class="memdesc:a134c6150447c7e1cd75055c93722a280 inherit pub_methods_classchrono_1_1_ch_function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the speed coefficient (inherited classes must customize this). <br /></td></tr>
+<tr class="separator:a134c6150447c7e1cd75055c93722a280 inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affb8d0ee10c5b500293dcb3be0aed905 inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#affb8d0ee10c5b500293dcb3be0aed905">FilePostscriptPlot</a> (<a class="el" href="classchrono_1_1_ch_file__ps.html">ChFile_ps</a> *m_file, int plotY, int plotDY, int plotDDY)</td></tr>
+<tr class="memdesc:affb8d0ee10c5b500293dcb3be0aed905 inherit pub_methods_classchrono_1_1_ch_function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plot function in graph space of the <a class="el" href="classchrono_1_1_ch_file__ps.html" title="Class for postScript(TM) output. ">ChFile_ps</a> postscript file where zoom factor, centering, colour, thickness etc.  <a href="#affb8d0ee10c5b500293dcb3be0aed905">More...</a><br /></td></tr>
+<tr class="separator:affb8d0ee10c5b500293dcb3be0aed905 inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a390805406a0a156002064f9ed999b1df inherit pub_methods_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#a390805406a0a156002064f9ed999b1df">FileAsciiPairsSave</a> (<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;m_file, double xmin=0, double xmax=1, int msamples=200)</td></tr>
+<tr class="memdesc:a390805406a0a156002064f9ed999b1df inherit pub_methods_classchrono_1_1_ch_function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save function as X-Y pairs separated by space, with CR at each pair, into an ASCII file.  <a href="#a390805406a0a156002064f9ed999b1df">More...</a><br /></td></tr>
+<tr class="separator:a390805406a0a156002064f9ed999b1df inherit pub_methods_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classchrono_1_1_ch_function"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classchrono_1_1_ch_function')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classchrono_1_1_ch_function.html">chrono::ChFunction</a></td></tr>
+<tr class="memitem:a57de32913b91ddca264958b2c4dee531 inherit pub_types_classchrono_1_1_ch_function"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57de32913b91ddca264958b2c4dee531"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_function.html#a57de32913b91ddca264958b2c4dee531">FunctionType</a> { <br />
+&#160;&#160;<b>FUNCT_CUSTOM</b>, 
+<b>FUNCT_CONST</b>, 
+<b>FUNCT_CONSTACC</b>, 
+<b>FUNCT_DERIVE</b>, 
+<br />
+&#160;&#160;<b>FUNCT_FILLET3</b>, 
+<b>FUNCT_INTEGRATE</b>, 
+<b>FUNCT_MATLAB</b>, 
+<b>FUNCT_MIRROR</b>, 
+<br />
+&#160;&#160;<b>FUNCT_MOCAP</b>, 
+<b>FUNCT_NOISE</b>, 
+<b>FUNCT_OPERATION</b>, 
+<b>FUNCT_OSCILLOSCOPE</b>, 
+<br />
+&#160;&#160;<b>FUNCT_POLY</b>, 
+<b>FUNCT_POLY345</b>, 
+<b>FUNCT_RAMP</b>, 
+<b>FUNCT_RECORDER</b>, 
+<br />
+&#160;&#160;<b>FUNCT_REPEAT</b>, 
+<b>FUNCT_SEQUENCE</b>, 
+<b>FUNCT_SIGMA</b>, 
+<b>FUNCT_SINE</b>
+<br />
+ }<tr class="memdesc:a57de32913b91ddca264958b2c4dee531"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of function types. <br /></td></tr>
+</td></tr>
+<tr class="separator:a57de32913b91ddca264958b2c4dee531 inherit pub_types_classchrono_1_1_ch_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a2a292bd68c54d1d74218590a9505ab03"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChFunction_Sequence::Estimate_x_range </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>xmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>xmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return an estimate of the range of the function argument. </p>
+<p>(Can be used for automatic zooming in a GUI) </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_function.html#ab59b8eeb477ea293ca1f5eb10acd3635">chrono::ChFunction</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9ed4727b411f76d01cb41482d6ad580b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::ChFunction_Sequence::Get_y_dx </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the dy/dx derivative of the function, at position x. </p>
+<p>Note that inherited classes may also avoid overriding this method, because this base method already provide a general-purpose numerical differentiation to get dy/dx only from the <a class="el" href="classchrono_1_1_ch_function___sequence.html#ac497e5fa7a3c2e989d6812446b28de9f" title="Return the y value of the function, at position x. ">Get_y()</a> function. (however, if the analytical derivative is known, it may better to implement a custom method). </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_function.html#ac9c7fb9c525d48c2eef4ebb1c01c0fcb">chrono::ChFunction</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7e9a9d0688d0a5e19390f1c4d8386180"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::ChFunction_Sequence::Get_y_dxdx </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the ddy/dxdx double derivative of the function, at position x. </p>
+<p>Note that inherited classes may also avoid overriding this method, because this base method already provide a general-purpose numerical differentiation to get ddy/dxdx only from the <a class="el" href="classchrono_1_1_ch_function___sequence.html#ac497e5fa7a3c2e989d6812446b28de9f" title="Return the y value of the function, at position x. ">Get_y()</a> function. (however, if the analytical derivative is known, it may be better to implement a custom method). </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_function.html#a98b881a240cc9b60c41f9a040875c7f1">chrono::ChFunction</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1074764a536fbf8ef56df713b3352726"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::ChFunction_Sequence::GetNthDuration </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>As above, but returning duration. </p>
+<p>(return value is reference, so it can be also changed later, but remember <a class="el" href="classchrono_1_1_ch_function___sequence.html#a2ae3cfc067ce308fcc6c2a8d85375ea6" title="Scans all the seq.of functions and setup the timings and continuity offsets, to satisfy all constrain...">Setup()</a> for the <a class="el" href="classchrono_1_1_ch_function___sequence.html" title="Sequence function: y = sequence_of_functions(f1(y), f2(y), f3(y)) All other function types can be ins...">ChFunction_Sequence</a> after you modified this return value by reference ***TO DO***). If no function, returns 0. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6e484ca241b914df0a6b1be67597c336"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> &gt; chrono::ChFunction_Sequence::GetNthFunction </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the <a class="el" href="classchrono_1_1_ch_function.html" title="Interface base class for scalar functions of the type: y= f(x) ">ChFunction</a> with given "position". </p>
+<ul>
+<li>If position = 0, returns always head (beginning),</li>
+<li>If position = -1 returns tail (end).</li>
+<li>If position &gt; max number of current nodes, returns tail fx anyway. </li>
+</ul>
+
+</div>
+</div>
+<a class="anchor" id="ae01c12199c099ba677c4dfb835f35b46"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int chrono::ChFunction_Sequence::HandleAccess </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>handle_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>my</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>set_mode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the x and y position of handle, given identifier. </p>
+<p>If set mode, x and y values are stored. Return false if handle not found. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_function.html#ae76c4aa602287ae4e8389c12a6ad28a9">chrono::ChFunction</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a324c1122e597da3860f0cbe7a9997048"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int chrono::ChFunction_Sequence::InsertFunct </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> &gt;&#160;</td>
+          <td class="paramname"><em>myfx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>duration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>weight</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>c0</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>c1</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>c2</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Insert function after the fx with defined "position" index in list. </p>
+<ul>
+<li>If index is higher than available objects, it simply goes to the end.</li>
+<li>If index = 0 insert at the beginning,</li>
+<li>If index = -1 insert at the end. Inserted functions will be deleted automatically when this object will be deleted. The fx segment has its own 'weight': use 1.0 for default, or different weights if you want that <a class="el" href="classchrono_1_1_ch_function___sequence.html#aafcc9b43efc8095349a7fd0b37951a1d" title="Return the weight of the function (useful for applications where you need to mix different weighted C...">Get_weight()</a> will give different results depending on the "x" parameter. Set c0=true if you want to force C0 continuity with previous function (an offset will be implicitly added to the function, as y=f(x)+Offset). Same for C1 and C2 continuity, using c1 and c2 flags. position index, 0,1,2,3.. (if -1 insert at the end) </li>
+</ul>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myfx</td><td>the function to insert </td></tr>
+    <tr><td class="paramname">duration</td><td>duration of the time segment for this function </td></tr>
+    <tr><td class="paramname">weight</td><td>optional weight scalar </td></tr>
+    <tr><td class="paramname">c2</td><td>impose continuity to previous f() by offsetting/slanting </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aafa61e97078b15162b0aa12f434f0946"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int chrono::ChFunction_Sequence::KillFunct </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove and deletes function with defined "position", and returns TRUE. </p>
+<ul>
+<li>If position = 0, removes always head (beginning),</li>
+<li>If position = -1 removes tail (end).</li>
+<li>If position &gt; max number of current nodes, removes tail anyway, but returns NULL. </li>
+</ul>
+
+</div>
+</div>
+<a class="anchor" id="a2ae3cfc067ce308fcc6c2a8d85375ea6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChFunction_Sequence::Setup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scans all the seq.of functions and setup the timings and continuity offsets, to satisfy all constraints. </p>
+<p>This must be called whenever a new function is inserted, or its timing and continuity constraints are changed. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:14 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

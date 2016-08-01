@@ -1,0 +1,6 @@
+<map id="chrono::ChShaftsTorque" name="chrono::ChShaftsTorque">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_shafts_torque_base.html" title="Base class for all stuff defining a torque between two one&#45;degree&#45;of&#45;freedom parts, for example torsional dampers, torsional springs, electric engines, etc. " alt="" coords="5,229,200,256"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_shafts_couple.html" title="Base class for defining constraints between a couple of two one&#45;degree&#45;of&#45;freedom parts; i..." alt="" coords="20,155,185,181"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="23,80,182,107"/>
+<area shape="rect" id="node5" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="49,5,156,32"/>
+</map>

@@ -1,0 +1,371 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChSimpleTrackDriveline Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_track_driveline.html">ChSimpleTrackDriveline</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_simple_track_driveline-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChSimpleTrackDriveline Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__tracked.html">Tracked vehicles</a> &raquo; <a class="el" href="group__vehicle__tracked__driveline.html">Driveline subsystem</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Simple driveline model for a tracked vehicle. </p>
+<p>This template splits the input torque to the left and right tracks using a simple analytical model of a Torsen limited-slip differential and the given driver steering input. </p>
+</div>
+<p><code>#include &lt;ChSimpleTrackDriveline.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::ChSimpleTrackDriveline:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_simple_track_driveline__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_simple_track_driveline_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_simple_track_driveline_inherit__map" id="chrono_1_1vehicle_1_1_ch_simple_track_driveline_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html" title="Base class for a tracked vehicle driveline. " alt="" coords="9,5,177,47"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::vehicle::ChSimpleTrackDriveline:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_simple_track_driveline__coll__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_simple_track_driveline_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_simple_track_driveline_coll__map" id="chrono_1_1vehicle_1_1_ch_simple_track_driveline_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html" title="Base class for a tracked vehicle driveline. " alt="" coords="9,5,177,47"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad16896a44d646499b26805982fc86ac4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad16896a44d646499b26805982fc86ac4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChSimpleTrackDriveline</b> (const std::string &amp;name)</td></tr>
+<tr class="separator:ad16896a44d646499b26805982fc86ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6909cf40c2c266eee0298f0d75a53ad9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_track_driveline.html#a6909cf40c2c266eee0298f0d75a53ad9">Initialize</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt; chassis, std::shared_ptr&lt; <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_assembly.html">ChTrackAssembly</a> &gt; track_left, std::shared_ptr&lt; <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_assembly.html">ChTrackAssembly</a> &gt; track_right) override</td></tr>
+<tr class="memdesc:a6909cf40c2c266eee0298f0d75a53ad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the driveline subsystem.  <a href="#a6909cf40c2c266eee0298f0d75a53ad9">More...</a><br /></td></tr>
+<tr class="separator:a6909cf40c2c266eee0298f0d75a53ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a188daf4064710c191ed789319385d4"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_track_driveline.html#a7a188daf4064710c191ed789319385d4">GetDriveshaftSpeed</a> () const override</td></tr>
+<tr class="memdesc:a7a188daf4064710c191ed789319385d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the angular speed of the driveshaft.  <a href="#a7a188daf4064710c191ed789319385d4">More...</a><br /></td></tr>
+<tr class="separator:a7a188daf4064710c191ed789319385d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2e72c5d37981709bce4d18e103727dc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_track_driveline.html#ad2e72c5d37981709bce4d18e103727dc">Synchronize</a> (double steering, double torque) override</td></tr>
+<tr class="memdesc:ad2e72c5d37981709bce4d18e103727dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the driveline subsystem.  <a href="#ad2e72c5d37981709bce4d18e103727dc">More...</a><br /></td></tr>
+<tr class="separator:ad2e72c5d37981709bce4d18e103727dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af99e4ed84a647ee4f92a9e41f553b467"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af99e4ed84a647ee4f92a9e41f553b467"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_track_driveline.html#af99e4ed84a647ee4f92a9e41f553b467">GetSprocketTorque</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side) const override</td></tr>
+<tr class="memdesc:af99e4ed84a647ee4f92a9e41f553b467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the motor torque to be applied to the specified sprocket. <br /></td></tr>
+<tr class="separator:af99e4ed84a647ee4f92a9e41f553b467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a609cf57dde59d3b42b070c34def4e28e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a609cf57dde59d3b42b070c34def4e28e"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_track_driveline.html#a609cf57dde59d3b42b070c34def4e28e">GetSprocketSpeed</a> (<a class="el" href="group__vehicle.html#ga6e89b4f65f5acf86bce02a712d9eab38">VehicleSide</a> side) const override</td></tr>
+<tr class="memdesc:a609cf57dde59d3b42b070c34def4e28e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the angular speed of the specified sprocket. <br /></td></tr>
+<tr class="separator:a609cf57dde59d3b42b070c34def4e28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html">chrono::vehicle::ChTrackDriveline</a></td></tr>
+<tr class="memitem:ad26fe32ec14561ce0b3e8e3cdaf91ea1 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html#ad26fe32ec14561ce0b3e8e3cdaf91ea1">ChTrackDriveline</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:ad26fe32ec14561ce0b3e8e3cdaf91ea1 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab893fd114cad6c6bff79d6c24afef874 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab893fd114cad6c6bff79d6c24afef874"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html#ab893fd114cad6c6bff79d6c24afef874">GetName</a> () const </td></tr>
+<tr class="memdesc:ab893fd114cad6c6bff79d6c24afef874 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name identifier for this driveline subsystem. <br /></td></tr>
+<tr class="separator:ab893fd114cad6c6bff79d6c24afef874 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e27078646185a72895d8b20a15e6f34 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e27078646185a72895d8b20a15e6f34"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html#a0e27078646185a72895d8b20a15e6f34">SetName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a0e27078646185a72895d8b20a15e6f34 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the name identifier for this driveline subsystem. <br /></td></tr>
+<tr class="separator:a0e27078646185a72895d8b20a15e6f34 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6dc0cb0efb50540cbc854799b8a57b7 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shaft.html">ChShaft</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html#ab6dc0cb0efb50540cbc854799b8a57b7">GetDriveshaft</a> () const </td></tr>
+<tr class="memdesc:ab6dc0cb0efb50540cbc854799b8a57b7 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the driveshaft.  <a href="#ab6dc0cb0efb50540cbc854799b8a57b7">More...</a><br /></td></tr>
+<tr class="separator:ab6dc0cb0efb50540cbc854799b8a57b7 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38626f3dc01685fc688db611b964cd8b inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38626f3dc01685fc688db611b964cd8b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html#a38626f3dc01685fc688db611b964cd8b">SetGyrationMode</a> (bool mode)</td></tr>
+<tr class="memdesc:a38626f3dc01685fc688db611b964cd8b inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn gyration mode on/off. <br /></td></tr>
+<tr class="separator:a38626f3dc01685fc688db611b964cd8b inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:adc2c43465e2e652767c87177578b4141"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_simple_track_driveline.html#adc2c43465e2e652767c87177578b4141">GetDifferentialMaxBias</a> () const =0</td></tr>
+<tr class="memdesc:adc2c43465e2e652767c87177578b4141"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the torque bias ratio for the differential.  <a href="#adc2c43465e2e652767c87177578b4141">More...</a><br /></td></tr>
+<tr class="separator:adc2c43465e2e652767c87177578b4141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1vehicle_1_1_ch_track_driveline"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1vehicle_1_1_ch_track_driveline')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html">chrono::vehicle::ChTrackDriveline</a></td></tr>
+<tr class="memitem:a61b190f4fb125adc494b56d086f49a35 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a61b190f4fb125adc494b56d086f49a35"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html#a61b190f4fb125adc494b56d086f49a35">m_name</a></td></tr>
+<tr class="memdesc:a61b190f4fb125adc494b56d086f49a35 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of the subsystem <br /></td></tr>
+<tr class="separator:a61b190f4fb125adc494b56d086f49a35 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20018b70ceac6842b6e658b0b0f7aa68 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20018b70ceac6842b6e658b0b0f7aa68"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html#a20018b70ceac6842b6e658b0b0f7aa68">m_gyration_mode</a></td></tr>
+<tr class="memdesc:a20018b70ceac6842b6e658b0b0f7aa68 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag indicating if in gyration mode (turn in place) <br /></td></tr>
+<tr class="separator:a20018b70ceac6842b6e658b0b0f7aa68 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a917cd36bc1dde9066b812683e5df11d7 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a917cd36bc1dde9066b812683e5df11d7"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shaft.html">ChShaft</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html#a917cd36bc1dde9066b812683e5df11d7">m_driveshaft</a></td></tr>
+<tr class="memdesc:a917cd36bc1dde9066b812683e5df11d7 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to the shaft connection to the powertrain <br /></td></tr>
+<tr class="separator:a917cd36bc1dde9066b812683e5df11d7 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_driveline"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="adc2c43465e2e652767c87177578b4141"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::vehicle::ChSimpleTrackDriveline::GetDifferentialMaxBias </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the torque bias ratio for the differential. </p>
+<p>This is a simple model of a Torsen limited-slip differential. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7a188daf4064710c191ed789319385d4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::vehicle::ChSimpleTrackDriveline::GetDriveshaftSpeed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the angular speed of the driveshaft. </p>
+<p>This represents the output from the driveline subsystem that is passed to the powertrain system. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html#a9d61b8c11c32e1f97ac827ed7d661c66">chrono::vehicle::ChTrackDriveline</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6909cf40c2c266eee0298f0d75a53ad9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChSimpleTrackDriveline::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td>
+          <td class="paramname"><em>chassis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_assembly.html">ChTrackAssembly</a> &gt;&#160;</td>
+          <td class="paramname"><em>track_left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_assembly.html">ChTrackAssembly</a> &gt;&#160;</td>
+          <td class="paramname"><em>track_right</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize the driveline subsystem. </p>
+<p>This function connects this driveline subsystem to the sprockets of the two track assembly subsystems. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chassis</td><td>handle to the chassis body </td></tr>
+    <tr><td class="paramname">track_left</td><td>handle to the left track assembly </td></tr>
+    <tr><td class="paramname">track_right</td><td>handle to the right track assembly </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html#a67a1f5f0ab505f0a79f65fdfe59b00a8">chrono::vehicle::ChTrackDriveline</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad2e72c5d37981709bce4d18e103727dc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChSimpleTrackDriveline::Synchronize </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>steering</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>torque</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update the driveline subsystem. </p>
+<p>The motor torque represents the input to the driveline subsystem from the powertrain system. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_driveline.html#a03de3ef9e35585480c3486975e2913c2">chrono::vehicle::ChTrackDriveline</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:24 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

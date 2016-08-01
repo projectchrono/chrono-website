@@ -1,0 +1,311 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChControllerPID Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_controller_p_i_d.html">ChControllerPID</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="classchrono_1_1_ch_controller_p_i_d-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChControllerPID Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for a basic PID controller. </p>
+<p>A basic PID controller, used as a 'black box'. Depending on input, it produces a controlled output proportional to input, input derivative by time, input integration </p>
+</div>
+<p><code>#include &lt;ChController.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChControllerPID:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_controller_p_i_d__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_controller_p_i_d_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_controller_p_i_d_inherit__map" id="chrono_1_1_ch_controller_p_i_d_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="35,5,141,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::ChControllerPID:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_controller_p_i_d__coll__graph.png" border="0" usemap="#chrono_1_1_ch_controller_p_i_d_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1_ch_controller_p_i_d_coll__map" id="chrono_1_1_ch_controller_p_i_d_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="35,5,141,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a307b7d581e735896825b2121587229bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a307b7d581e735896825b2121587229bf"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChControllerPID</b> (const <a class="el" href="classchrono_1_1_ch_controller_p_i_d.html">ChControllerPID</a> &amp;other)</td></tr>
+<tr class="separator:a307b7d581e735896825b2121587229bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee183f5b575c98e6887cd40e21841991"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee183f5b575c98e6887cd40e21841991"></a>
+virtual <a class="el" href="classchrono_1_1_ch_controller_p_i_d.html">ChControllerPID</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_controller_p_i_d.html#aee183f5b575c98e6887cd40e21841991">Clone</a> () const override</td></tr>
+<tr class="memdesc:aee183f5b575c98e6887cd40e21841991"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Virtual" copy constructor (covariant return type). <br /></td></tr>
+<tr class="separator:aee183f5b575c98e6887cd40e21841991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d2660de61830aa2688d6c4bdc2c6055"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_controller_p_i_d.html#a5d2660de61830aa2688d6c4bdc2c6055">Get_Out</a> (double mInput, double mTime)</td></tr>
+<tr class="memdesc:a5d2660de61830aa2688d6c4bdc2c6055"><td class="mdescLeft">&#160;</td><td class="mdescRight">COMPUTE CONTROL value! Given an input i, returns the output o=P*i+D*di/dt+I*Int(i dt) that is o = Pcomp+Icomp+Dcomp Calls to Get_Output must be done in (possibly uniform) time steps, otherwise remember to call <a class="el" href="classchrono_1_1_ch_controller_p_i_d.html#a5584ddba4fa2894c8fac48480abe4bb8" title="Use Reset to set accumulator to zero, at beginning. For integrative part. ">Reset()</a> before other sequences of calls.  <a href="#a5d2660de61830aa2688d6c4bdc2c6055">More...</a><br /></td></tr>
+<tr class="separator:a5d2660de61830aa2688d6c4bdc2c6055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab82983fc87dc4cb53d32e6b557556aa6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab82983fc87dc4cb53d32e6b557556aa6"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_controller_p_i_d.html#ab82983fc87dc4cb53d32e6b557556aa6">Get_Out</a> () const </td></tr>
+<tr class="memdesc:ab82983fc87dc4cb53d32e6b557556aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same, but just returns last computed output. <br /></td></tr>
+<tr class="separator:ab82983fc87dc4cb53d32e6b557556aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a735876e268b8fb9fcb02462f17613dfa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a735876e268b8fb9fcb02462f17613dfa"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Pcomp</b> () const </td></tr>
+<tr class="separator:a735876e268b8fb9fcb02462f17613dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b17901bec3ba83fb7cc36e59e066ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6b17901bec3ba83fb7cc36e59e066ec"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Icomp</b> () const </td></tr>
+<tr class="separator:aa6b17901bec3ba83fb7cc36e59e066ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c9c0721d3feefe6aadd011bab0e0af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31c9c0721d3feefe6aadd011bab0e0af"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Dcomp</b> () const </td></tr>
+<tr class="separator:a31c9c0721d3feefe6aadd011bab0e0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedd2f058ca11b8d65dcb2ac7b65a2b1c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aedd2f058ca11b8d65dcb2ac7b65a2b1c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_In_int</b> () const </td></tr>
+<tr class="separator:aedd2f058ca11b8d65dcb2ac7b65a2b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc0b22eb51d04b2e2dc71e3fb3b05b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9bc0b22eb51d04b2e2dc71e3fb3b05b9"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_In_dt</b> () const </td></tr>
+<tr class="separator:a9bc0b22eb51d04b2e2dc71e3fb3b05b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d6944351dbc65dd60e95be0dd5452c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d6944351dbc65dd60e95be0dd5452c0"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_In</b> () const </td></tr>
+<tr class="separator:a2d6944351dbc65dd60e95be0dd5452c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5584ddba4fa2894c8fac48480abe4bb8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5584ddba4fa2894c8fac48480abe4bb8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_controller_p_i_d.html#a5584ddba4fa2894c8fac48480abe4bb8">Reset</a> ()</td></tr>
+<tr class="memdesc:a5584ddba4fa2894c8fac48480abe4bb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use Reset to set accumulator to zero, at beginning. For integrative part. <br /></td></tr>
+<tr class="separator:a5584ddba4fa2894c8fac48480abe4bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_obj"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_obj')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_obj.html">chrono::ChObj</a></td></tr>
+<tr class="memitem:a3bcb7a534dd77133ec646dce66f0aec3 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3bcb7a534dd77133ec646dce66f0aec3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChObj</b> (const <a class="el" href="classchrono_1_1_ch_obj.html">ChObj</a> &amp;other)</td></tr>
+<tr class="separator:a3bcb7a534dd77133ec646dce66f0aec3 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2a14a6aa0ed3984c59edec33237be0b inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac2a14a6aa0ed3984c59edec33237be0b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#ac2a14a6aa0ed3984c59edec33237be0b">GetIdentifier</a> () const </td></tr>
+<tr class="memdesc:ac2a14a6aa0ed3984c59edec33237be0b inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the numerical identifier of the object. <br /></td></tr>
+<tr class="separator:ac2a14a6aa0ed3984c59edec33237be0b inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b7cb702661077cd5ba31d9ae8f81ae7 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b7cb702661077cd5ba31d9ae8f81ae7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a5b7cb702661077cd5ba31d9ae8f81ae7">SetIdentifier</a> (int id)</td></tr>
+<tr class="memdesc:a5b7cb702661077cd5ba31d9ae8f81ae7 inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the numerical identifier of the object. <br /></td></tr>
+<tr class="separator:a5b7cb702661077cd5ba31d9ae8f81ae7 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b228cfd939fa5d7417bca15c4e54b6 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16b228cfd939fa5d7417bca15c4e54b6"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a16b228cfd939fa5d7417bca15c4e54b6">GetChTime</a> () const </td></tr>
+<tr class="memdesc:a16b228cfd939fa5d7417bca15c4e54b6 inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the simulation time of this object. <br /></td></tr>
+<tr class="separator:a16b228cfd939fa5d7417bca15c4e54b6 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5846a7dd43ba7287f72e84ebd347075c inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5846a7dd43ba7287f72e84ebd347075c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a5846a7dd43ba7287f72e84ebd347075c">SetChTime</a> (double m_time)</td></tr>
+<tr class="memdesc:a5846a7dd43ba7287f72e84ebd347075c inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the simulation time of this object. <br /></td></tr>
+<tr class="separator:a5846a7dd43ba7287f72e84ebd347075c inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada888ab00f5590206e69d39750cb81b5 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada888ab00f5590206e69d39750cb81b5"></a>
+const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#ada888ab00f5590206e69d39750cb81b5">GetName</a> () const </td></tr>
+<tr class="memdesc:ada888ab00f5590206e69d39750cb81b5 inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of the object as C Ascii null-terminated string -for reading only! <br /></td></tr>
+<tr class="separator:ada888ab00f5590206e69d39750cb81b5 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a9ac3581a87befea9551e31feedfb5 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42a9ac3581a87befea9551e31feedfb5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a42a9ac3581a87befea9551e31feedfb5">SetName</a> (const char myname[])</td></tr>
+<tr class="memdesc:a42a9ac3581a87befea9551e31feedfb5 inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the name of this object, as ascii string. <br /></td></tr>
+<tr class="separator:a42a9ac3581a87befea9551e31feedfb5 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99b0c0a81cc30c53e9817a4de4bfe4cf inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99b0c0a81cc30c53e9817a4de4bfe4cf"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a99b0c0a81cc30c53e9817a4de4bfe4cf">GetNameString</a> () const </td></tr>
+<tr class="memdesc:a99b0c0a81cc30c53e9817a4de4bfe4cf inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of the object as C Ascii null-terminated string. <br /></td></tr>
+<tr class="separator:a99b0c0a81cc30c53e9817a4de4bfe4cf inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1623ac30e060c3fd053c62139199e3f inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad1623ac30e060c3fd053c62139199e3f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#ad1623ac30e060c3fd053c62139199e3f">SetNameString</a> (const std::string &amp;myname)</td></tr>
+<tr class="memdesc:ad1623ac30e060c3fd053c62139199e3f inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the name of this object, as std::string. <br /></td></tr>
+<tr class="separator:ad1623ac30e060c3fd053c62139199e3f inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adff8948176e374ff9f87dbb5ec82d299 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adff8948176e374ff9f87dbb5ec82d299"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MFlagsSetAllOFF</b> (int &amp;mflag)</td></tr>
+<tr class="separator:adff8948176e374ff9f87dbb5ec82d299 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa47f99fa69334ef3a5c83f59a7fb4072 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa47f99fa69334ef3a5c83f59a7fb4072"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MFlagsSetAllON</b> (int &amp;mflag)</td></tr>
+<tr class="separator:aa47f99fa69334ef3a5c83f59a7fb4072 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2a88edbfad8ebecafe5bde528e5918a inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2a88edbfad8ebecafe5bde528e5918a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MFlagSetON</b> (int &amp;mflag, int mask)</td></tr>
+<tr class="separator:ab2a88edbfad8ebecafe5bde528e5918a inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecf512c1e80abcd793587e51ae3b825e inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecf512c1e80abcd793587e51ae3b825e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MFlagSetOFF</b> (int &amp;mflag, int mask)</td></tr>
+<tr class="separator:aecf512c1e80abcd793587e51ae3b825e inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab96b3dc3aab7507a2c778373b741bed3 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab96b3dc3aab7507a2c778373b741bed3"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>MFlagGet</b> (int &amp;mflag, int mask)</td></tr>
+<tr class="separator:ab96b3dc3aab7507a2c778373b741bed3 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e7f3a68c9aafa33e1cba9fbca030011 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e7f3a68c9aafa33e1cba9fbca030011"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a8e7f3a68c9aafa33e1cba9fbca030011">ArchiveOUT</a> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a8e7f3a68c9aafa33e1cba9fbca030011 inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow serialization of transient data in archives. <br /></td></tr>
+<tr class="separator:a8e7f3a68c9aafa33e1cba9fbca030011 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb3ec9ec347d201072e377370922a42c inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb3ec9ec347d201072e377370922a42c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#abb3ec9ec347d201072e377370922a42c">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="memdesc:abb3ec9ec347d201072e377370922a42c inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:abb3ec9ec347d201072e377370922a42c inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ab361b144a0f998a5b401a6dfba68780f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab361b144a0f998a5b401a6dfba68780f"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_controller_p_i_d.html#ab361b144a0f998a5b401a6dfba68780f">P</a></td></tr>
+<tr class="memdesc:ab361b144a0f998a5b401a6dfba68780f"><td class="mdescLeft">&#160;</td><td class="mdescRight">proportional coefficient <br /></td></tr>
+<tr class="separator:ab361b144a0f998a5b401a6dfba68780f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace531a9c854a0110c110ca9a0c8b8470"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace531a9c854a0110c110ca9a0c8b8470"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_controller_p_i_d.html#ace531a9c854a0110c110ca9a0c8b8470">I</a></td></tr>
+<tr class="memdesc:ace531a9c854a0110c110ca9a0c8b8470"><td class="mdescLeft">&#160;</td><td class="mdescRight">integrative coefficient <br /></td></tr>
+<tr class="separator:ace531a9c854a0110c110ca9a0c8b8470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad67f3200f6bc673655fc0c4540841f48"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad67f3200f6bc673655fc0c4540841f48"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_controller_p_i_d.html#ad67f3200f6bc673655fc0c4540841f48">D</a></td></tr>
+<tr class="memdesc:ad67f3200f6bc673655fc0c4540841f48"><td class="mdescLeft">&#160;</td><td class="mdescRight">derivative coefficient <br /></td></tr>
+<tr class="separator:ad67f3200f6bc673655fc0c4540841f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_obj"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_obj')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_obj.html">chrono::ChObj</a></td></tr>
+<tr class="memitem:a5b53ca5737e905210ab41f55c6b37cbf inherit pro_attribs_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b53ca5737e905210ab41f55c6b37cbf"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a5b53ca5737e905210ab41f55c6b37cbf">ChTime</a></td></tr>
+<tr class="memdesc:a5b53ca5737e905210ab41f55c6b37cbf inherit pro_attribs_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">the time of simulation for the object <br /></td></tr>
+<tr class="separator:a5b53ca5737e905210ab41f55c6b37cbf inherit pro_attribs_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a5d2660de61830aa2688d6c4bdc2c6055"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::ChControllerPID::Get_Out </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mInput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mTime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>COMPUTE CONTROL value! Given an input i, returns the output o=P*i+D*di/dt+I*Int(i dt) that is o = Pcomp+Icomp+Dcomp Calls to Get_Output must be done in (possibly uniform) time steps, otherwise remember to call <a class="el" href="classchrono_1_1_ch_controller_p_i_d.html#a5584ddba4fa2894c8fac48480abe4bb8" title="Use Reset to set accumulator to zero, at beginning. For integrative part. ">Reset()</a> before other sequences of calls. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:13 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

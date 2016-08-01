@@ -1,0 +1,4 @@
+<map id="chrono::ChFile_ps_graph_setting" name="chrono::ChFile_ps_graph_setting">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_file__ps__axis__setting.html" title="Class for settings of an axis (x or y, or t) of a 2D plotting of a function on a EPS file..." alt="" coords="141,125,300,167"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_file__ps__color.html" title="Class for RGB color for a PostScript item (line, circle, etc) " alt="" coords="7,5,170,32"/>
+</map>

@@ -1,0 +1,370 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::collision::ChCollisionSystemBullet Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1collision.html">collision</a></li><li class="navelem"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html">ChCollisionSystemBullet</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classchrono_1_1collision_1_1_ch_collision_system_bullet-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::collision::ChCollisionSystemBullet Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for collision engine based on the 'Bullet' library. </p>
+<p>Contains either the broadphase and the narrow phase Bullet methods. </p>
+</div>
+<p><code>#include &lt;ChCCollisionSystemBullet.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::collision::ChCollisionSystemBullet:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1collision_1_1_ch_collision_system_bullet__inherit__graph.png" border="0" usemap="#chrono_1_1collision_1_1_ch_collision_system_bullet_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1collision_1_1_ch_collision_system_bullet_inherit__map" id="chrono_1_1collision_1_1_ch_collision_system_bullet_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1collision_1_1_ch_collision_system.html" title="Base class for generic collision engine. " alt="" coords="21,5,156,47"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::collision::ChCollisionSystemBullet:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1collision_1_1_ch_collision_system_bullet__coll__graph.png" border="0" usemap="#chrono_1_1collision_1_1_ch_collision_system_bullet_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1collision_1_1_ch_collision_system_bullet_coll__map" id="chrono_1_1collision_1_1_ch_collision_system_bullet_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1collision_1_1_ch_collision_system.html" title="Base class for generic collision engine. " alt="" coords="117,109,252,151"/>
+<area shape="rect" id="node3" href="classchrono_1_1collision_1_1_ch_narrow_phase_callback.html" title="Class to be used as a callback interface for the narrow phase collision system. " alt="" coords="5,5,175,47"/>
+<area shape="rect" id="node4" href="classchrono_1_1collision_1_1_ch_broad_phase_callback.html" title="Class to be used as a callback interface for the broad&#45;phase collision system. " alt="" coords="199,5,360,47"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a9185f60ab5f833bbe54a1e29eb3f1352"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9185f60ab5f833bbe54a1e29eb3f1352"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChCollisionSystemBullet</b> (unsigned int max_objects=16000, double scene_size=500)</td></tr>
+<tr class="separator:a9185f60ab5f833bbe54a1e29eb3f1352"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a930b1060a0f92598985ef4c22c7d155e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a930b1060a0f92598985ef4c22c7d155e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a930b1060a0f92598985ef4c22c7d155e">Clear</a> (void)</td></tr>
+<tr class="memdesc:a930b1060a0f92598985ef4c22c7d155e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all data instanced by this algorithm if any (like persistent contact manifolds) <br /></td></tr>
+<tr class="separator:a930b1060a0f92598985ef4c22c7d155e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a255e84d6181ddc4f638aba32303e07c1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a255e84d6181ddc4f638aba32303e07c1">Add</a> (<a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">ChCollisionModel</a> *model)</td></tr>
+<tr class="memdesc:a255e84d6181ddc4f638aba32303e07c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a collision model to the collision engine (custom data may be allocated).  <a href="#a255e84d6181ddc4f638aba32303e07c1">More...</a><br /></td></tr>
+<tr class="separator:a255e84d6181ddc4f638aba32303e07c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173a0b02a52a9ed81d7a839ec7c66f85"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a173a0b02a52a9ed81d7a839ec7c66f85">Remove</a> (<a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">ChCollisionModel</a> *model)</td></tr>
+<tr class="memdesc:a173a0b02a52a9ed81d7a839ec7c66f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a collision model from the collision engine (custom data may be deallocated).  <a href="#a173a0b02a52a9ed81d7a839ec7c66f85">More...</a><br /></td></tr>
+<tr class="separator:a173a0b02a52a9ed81d7a839ec7c66f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a054dc14b44e562ebbd222a5d069eb859"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a054dc14b44e562ebbd222a5d069eb859">Run</a> ()</td></tr>
+<tr class="memdesc:a054dc14b44e562ebbd222a5d069eb859"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all collision models from the collision engine (custom data may be deallocated).  <a href="#a054dc14b44e562ebbd222a5d069eb859">More...</a><br /></td></tr>
+<tr class="separator:a054dc14b44e562ebbd222a5d069eb859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a154944e695b36d1c563190ed2d58d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a5a154944e695b36d1c563190ed2d58d5">ReportContacts</a> (<a class="el" href="classchrono_1_1_ch_contact_container_base.html">ChContactContainerBase</a> *mcontactcontainer)</td></tr>
+<tr class="memdesc:a5a154944e695b36d1c563190ed2d58d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">After the <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a054dc14b44e562ebbd222a5d069eb859" title="Removes all collision models from the collision engine (custom data may be deallocated). ">Run()</a> has completed, you can call this function to fill a 'contact container', that is an object inherited from class <a class="el" href="classchrono_1_1_ch_contact_container_base.html" title="Class representing a container of many contacts. ">ChContactContainerBase</a>.  <a href="#a5a154944e695b36d1c563190ed2d58d5">More...</a><br /></td></tr>
+<tr class="separator:a5a154944e695b36d1c563190ed2d58d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1691013f0a134572d9ef827e22131543"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a1691013f0a134572d9ef827e22131543">ReportProximities</a> (<a class="el" href="classchrono_1_1_ch_proximity_container_base.html">ChProximityContainerBase</a> *mproximitycontainer)</td></tr>
+<tr class="memdesc:a1691013f0a134572d9ef827e22131543"><td class="mdescLeft">&#160;</td><td class="mdescRight">After the <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a054dc14b44e562ebbd222a5d069eb859" title="Removes all collision models from the collision engine (custom data may be deallocated). ">Run()</a> has completed, you can call this function to fill a 'proximity container' (container of narrow phase pairs), that is an object inherited from class <a class="el" href="classchrono_1_1_ch_proximity_container_base.html" title="Class representing the interface for containers of proximity pairs, that is pairs of collision models...">ChProximityContainerBase</a>.  <a href="#a1691013f0a134572d9ef827e22131543">More...</a><br /></td></tr>
+<tr class="separator:a1691013f0a134572d9ef827e22131543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a187035ec5cc18890f1dd096573f56437"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a187035ec5cc18890f1dd096573f56437"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a187035ec5cc18890f1dd096573f56437">RayHit</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;from, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;to, <a class="el" href="structchrono_1_1collision_1_1_ch_collision_system_1_1_ch_rayhit_result.html">ChRayhitResult</a> &amp;mresult)</td></tr>
+<tr class="memdesc:a187035ec5cc18890f1dd096573f56437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a raycast (ray-hit test with the collision models). <br /></td></tr>
+<tr class="separator:a187035ec5cc18890f1dd096573f56437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a027358b8f41ace1c2c8886d67ec60914"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a027358b8f41ace1c2c8886d67ec60914"></a>
+btCollisionWorld *&#160;</td><td class="memItemRight" valign="bottom"><b>GetBulletCollisionWorld</b> ()</td></tr>
+<tr class="separator:a027358b8f41ace1c2c8886d67ec60914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1collision_1_1_ch_collision_system')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system.html">chrono::collision::ChCollisionSystem</a></td></tr>
+<tr class="memitem:aebe02700b541b1f462e998a7262c82b9 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aebe02700b541b1f462e998a7262c82b9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChCollisionSystem</b> (unsigned int max_objects=16000, double scene_size=500)</td></tr>
+<tr class="separator:aebe02700b541b1f462e998a7262c82b9 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c918e349e82f1ab6f2bbd5c6d9f7225 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_system.html#a6c918e349e82f1ab6f2bbd5c6d9f7225">SetBroadPhaseCallback</a> (<a class="el" href="classchrono_1_1collision_1_1_ch_broad_phase_callback.html">ChBroadPhaseCallback</a> *mcallback)</td></tr>
+<tr class="memdesc:a6c918e349e82f1ab6f2bbd5c6d9f7225 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the user <a class="el" href="classchrono_1_1collision_1_1_ch_broad_phase_callback.html" title="Class to be used as a callback interface for the broad-phase collision system. ">ChBroadPhaseCallback</a> to be used to tell the near-enough pairs found during the <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system.html#ab5f3a82220d15ddcd2cd0821814dc361" title="Removes all collision models from the collision engine (custom data may be deallocated). ">Run()</a> execution.  <a href="#a6c918e349e82f1ab6f2bbd5c6d9f7225">More...</a><br /></td></tr>
+<tr class="separator:a6c918e349e82f1ab6f2bbd5c6d9f7225 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b0e1db1b31fd5d105058d101590e13e inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_system.html#a3b0e1db1b31fd5d105058d101590e13e">SetNarrowPhaseCallback</a> (<a class="el" href="classchrono_1_1collision_1_1_ch_narrow_phase_callback.html">ChNarrowPhaseCallback</a> *mcallback)</td></tr>
+<tr class="memdesc:a3b0e1db1b31fd5d105058d101590e13e inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the used <a class="el" href="classchrono_1_1collision_1_1_ch_narrow_phase_callback.html" title="Class to be used as a callback interface for the narrow phase collision system. ">ChNarrowPhaseCallback</a> to be used to report the contacts found during the <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system.html#ab5f3a82220d15ddcd2cd0821814dc361" title="Removes all collision models from the collision engine (custom data may be deallocated). ">Run()</a> execution.  <a href="#a3b0e1db1b31fd5d105058d101590e13e">More...</a><br /></td></tr>
+<tr class="separator:a3b0e1db1b31fd5d105058d101590e13e inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18095d4020942433841ca5a71165779d inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a18095d4020942433841ca5a71165779d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ArchiveOUT</b> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="separator:a18095d4020942433841ca5a71165779d inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a389ea65aa6e75e8e61fbc1e3062347db inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a389ea65aa6e75e8e61fbc1e3062347db"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ArchiveIN</b> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="separator:a389ea65aa6e75e8e61fbc1e3062347db inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a1b640a6e1f284661555bd5beec55bf96"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1b640a6e1f284661555bd5beec55bf96"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetContactBreakingThreshold</b> (double threshold)</td></tr>
+<tr class="separator:a1b640a6e1f284661555bd5beec55bf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1collision_1_1_ch_collision_system"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1collision_1_1_ch_collision_system')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system.html">chrono::collision::ChCollisionSystem</a></td></tr>
+<tr class="memitem:a568399485614f84024d5f04de8f9f2dc inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_system"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a568399485614f84024d5f04de8f9f2dc"></a>
+<a class="el" href="classchrono_1_1collision_1_1_ch_broad_phase_callback.html">ChBroadPhaseCallback</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>broad_callback</b></td></tr>
+<tr class="separator:a568399485614f84024d5f04de8f9f2dc inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9907795e79b31ec7212f1740390b859f inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_system"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9907795e79b31ec7212f1740390b859f"></a>
+<a class="el" href="classchrono_1_1collision_1_1_ch_narrow_phase_callback.html">ChNarrowPhaseCallback</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>narrow_callback</b></td></tr>
+<tr class="separator:a9907795e79b31ec7212f1740390b859f inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a255e84d6181ddc4f638aba32303e07c1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionSystemBullet::Add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">ChCollisionModel</a> *&#160;</td>
+          <td class="paramname"><em>model</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a collision model to the collision engine (custom data may be allocated). </p>
+
+<p>Implements <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system.html#a8bfdc72b35f843f01bf9131b8239aaa8">chrono::collision::ChCollisionSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a173a0b02a52a9ed81d7a839ec7c66f85"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionSystemBullet::Remove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">ChCollisionModel</a> *&#160;</td>
+          <td class="paramname"><em>model</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes a collision model from the collision engine (custom data may be deallocated). </p>
+
+<p>Implements <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system.html#a906cdbcd73a9e92cda841e283b45a086">chrono::collision::ChCollisionSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5a154944e695b36d1c563190ed2d58d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionSystemBullet::ReportContacts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_contact_container_base.html">ChContactContainerBase</a> *&#160;</td>
+          <td class="paramname"><em>mcontactcontainer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>After the <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a054dc14b44e562ebbd222a5d069eb859" title="Removes all collision models from the collision engine (custom data may be deallocated). ">Run()</a> has completed, you can call this function to fill a 'contact container', that is an object inherited from class <a class="el" href="classchrono_1_1_ch_contact_container_base.html" title="Class representing a container of many contacts. ">ChContactContainerBase</a>. </p>
+<p>For instance <a class="el" href="classchrono_1_1_ch_system.html" title="Physical system. ">ChSystem</a>, after each <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a054dc14b44e562ebbd222a5d069eb859" title="Removes all collision models from the collision engine (custom data may be deallocated). ">Run()</a> collision detection, calls this method multiple times for all contact containers in the system, The basic behavior of the implementation is the following: collision system will call in sequence the functions BeginAddContact(), AddContact() (x n times), EndAddContact() of the contact container. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system.html#a179395cd4fc49d1dd994e8f38d7ce961">chrono::collision::ChCollisionSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1691013f0a134572d9ef827e22131543"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionSystemBullet::ReportProximities </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_proximity_container_base.html">ChProximityContainerBase</a> *&#160;</td>
+          <td class="paramname"><em>mproximitycontainer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>After the <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a054dc14b44e562ebbd222a5d069eb859" title="Removes all collision models from the collision engine (custom data may be deallocated). ">Run()</a> has completed, you can call this function to fill a 'proximity container' (container of narrow phase pairs), that is an object inherited from class <a class="el" href="classchrono_1_1_ch_proximity_container_base.html" title="Class representing the interface for containers of proximity pairs, that is pairs of collision models...">ChProximityContainerBase</a>. </p>
+<p>For instance <a class="el" href="classchrono_1_1_ch_system.html" title="Physical system. ">ChSystem</a>, after each <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system_bullet.html#a054dc14b44e562ebbd222a5d069eb859" title="Removes all collision models from the collision engine (custom data may be deallocated). ">Run()</a> collision detection, calls this method multiple times for all proximity containers in the system, The basic behavior of the implementation is the following: collision system will call in sequence the functions BeginAddProximities(), AddProximity() (x n times), EndAddProximities() of the proximity container. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system.html#a115f3a16d3bc3a1ba6396b332e106729">chrono::collision::ChCollisionSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a054dc14b44e562ebbd222a5d069eb859"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::collision::ChCollisionSystemBullet::Run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes all collision models from the collision engine (custom data may be deallocated). </p>
+<p>Run the algorithm and finds all the contacts. (Contacts will be managed by the Bullet persistent contact cache). </p>
+
+<p>Implements <a class="el" href="classchrono_1_1collision_1_1_ch_collision_system.html#ab5f3a82220d15ddcd2cd0821814dc361">chrono::collision::ChCollisionSystem</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:20 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

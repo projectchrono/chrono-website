@@ -1,0 +1,16 @@
+<map id="chrono::ChShaftsTorqueConverter" name="chrono::ChShaftsTorqueConverter">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="167,524,325,551"/>
+<area shape="rect" id="node5" href="$classchrono_1_1_ch_assembly.html" title="Class for assemblies of items, for example ChBody, ChLink, ChMesh, etc. " alt="" coords="516,524,660,551"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="5,524,112,551"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_system.html" title="Physical system. " alt="" coords="881,296,1012,323"/>
+<area shape="rect" id="node6" href="$classchrono_1_1_ch_integrable_i_iorder.html" title="Special subcase: II&#45;order differential system. " alt="" coords="498,5,678,32"/>
+<area shape="rect" id="node7" href="$classchrono_1_1_ch_integrable.html" title="Interface class for all objects that support time integration. " alt="" coords="175,5,317,32"/>
+<area shape="rect" id="node8" href="$classchrono_1_1_ch_system_descriptor.html" title="Base class for collecting objects inherited from ChConstraint , ChVariables and, optionally ChKblock..." alt="" coords="493,56,683,83"/>
+<area shape="rect" id="node9" href="$classchrono_1_1_ch_timer.html" title="chrono::ChTimer\&lt; double \&gt;" alt="" coords="497,188,679,215"/>
+<area shape="rect" id="node10" href="$classchrono_1_1_ch_system_1_1_ch_custom_collision_point_callback.html" title="Class to be inherited by user and to use in SetCustomCollisionPointCallback() " alt="" coords="487,239,689,281"/>
+<area shape="rect" id="node11" href="$classchrono_1_1_ch_vector.html" title="Definition of general purpose 3d vector variables, such as points in 3D. " alt="" coords="501,305,675,332"/>
+<area shape="rect" id="node12" href="$classchrono_1_1_ch_solver.html" title="Base class for solvers aimed at solving complementarity problems arising from QP optimization problem..." alt="" coords="527,356,649,383"/>
+<area shape="rect" id="node13" href="$classchrono_1_1collision_1_1_ch_collision_system.html" title="Base class for generic collision engine. " alt="" coords="521,407,655,449"/>
+<area shape="rect" id="node14" href="$classchrono_1_1collision_1_1_ch_narrow_phase_callback.html" title="Class to be used as a callback interface for the narrow phase collision system. " alt="" coords="161,350,331,391"/>
+<area shape="rect" id="node15" href="$classchrono_1_1collision_1_1_ch_broad_phase_callback.html" title="Class to be used as a callback interface for the broad&#45;phase collision system. " alt="" coords="165,415,327,457"/>
+</map>

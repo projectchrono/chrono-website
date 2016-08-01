@@ -1,0 +1,438 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChSteeringController Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html">ChSteeringController</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_steering_controller-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChSteeringController Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__utils.html">Utility classes</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for all steering path-following PID controllers. </p>
+<p>The base class implements the basic functionality to control the error between the location of a sentinel point (a point at a look-ahead distance in front of the vehicle) and the current target point.</p>
+<p>The parameters of a steering controller can also be specified through a JSON file; a sample JSON input file is as follows: </p><pre class="fragment"> {
+     "Gains":
+     {
+         "Kp":   0.5,
+             "Ki" : 0.0,
+             "Kd" : 0.0
+     },
+
+     "Lookahead Distance": 20.0
+ }
+</pre><p>Data collection from the steering controller can be started (restarted) and suspended (stopped) as many times as desired. Data collected so far can be written to a file. The tab-separated output ASCII file contains on each line the time, location of the target point, and location of the sentinel point. </p>
+</div>
+<p><code>#include &lt;ChSteeringController.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::ChSteeringController:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_steering_controller__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_steering_controller_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_steering_controller_inherit__map" id="chrono_1_1vehicle_1_1_ch_steering_controller_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_path_steering_controller.html" title="Concrete path&#45;following steering PID controller. " alt="" coords="5,95,216,136"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::vehicle::ChSteeringController:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_steering_controller__coll__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_steering_controller_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_steering_controller_coll__map" id="chrono_1_1vehicle_1_1_ch_steering_controller_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_vector.html" title="Definition of general purpose 3d vector variables, such as points in 3D. " alt="" coords="9,5,184,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af7cf14a5a301a4d0cdcca9f1b0473742"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#af7cf14a5a301a4d0cdcca9f1b0473742">ChSteeringController</a> ()</td></tr>
+<tr class="memdesc:af7cf14a5a301a4d0cdcca9f1b0473742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a steering controller with default parameters.  <a href="#af7cf14a5a301a4d0cdcca9f1b0473742">More...</a><br /></td></tr>
+<tr class="separator:af7cf14a5a301a4d0cdcca9f1b0473742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad17aa315029ac5edbc90d117ef4c24de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad17aa315029ac5edbc90d117ef4c24de"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#ad17aa315029ac5edbc90d117ef4c24de">ChSteeringController</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:ad17aa315029ac5edbc90d117ef4c24de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a steering controller with parameters read from a JSON file. <br /></td></tr>
+<tr class="separator:ad17aa315029ac5edbc90d117ef4c24de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fe3e724c54689f4eacc247e2e7d56ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9fe3e724c54689f4eacc247e2e7d56ea"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a9fe3e724c54689f4eacc247e2e7d56ea">~ChSteeringController</a> ()</td></tr>
+<tr class="memdesc:a9fe3e724c54689f4eacc247e2e7d56ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:a9fe3e724c54689f4eacc247e2e7d56ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae20fac7343a233183c62bd6ed8b8fd43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#ae20fac7343a233183c62bd6ed8b8fd43">SetLookAheadDistance</a> (double dist)</td></tr>
+<tr class="memdesc:ae20fac7343a233183c62bd6ed8b8fd43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the look-ahead distance.  <a href="#ae20fac7343a233183c62bd6ed8b8fd43">More...</a><br /></td></tr>
+<tr class="separator:ae20fac7343a233183c62bd6ed8b8fd43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d9cfb8439701c8302f2feb1957c946"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4d9cfb8439701c8302f2feb1957c946"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#ac4d9cfb8439701c8302f2feb1957c946">SetGains</a> (double Kp, double Ki, double Kd)</td></tr>
+<tr class="memdesc:ac4d9cfb8439701c8302f2feb1957c946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the gains for the PID controller. <br /></td></tr>
+<tr class="separator:ac4d9cfb8439701c8302f2feb1957c946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89678c9de9b8b8d61a7a41e10b158639"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a89678c9de9b8b8d61a7a41e10b158639">GetSentinelLocation</a> () const </td></tr>
+<tr class="memdesc:a89678c9de9b8b8d61a7a41e10b158639"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current location of the sentinel point.  <a href="#a89678c9de9b8b8d61a7a41e10b158639">More...</a><br /></td></tr>
+<tr class="separator:a89678c9de9b8b8d61a7a41e10b158639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b72467546c115e2069bc0ce4d8aff5c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a3b72467546c115e2069bc0ce4d8aff5c">GetTargetLocation</a> () const </td></tr>
+<tr class="memdesc:a3b72467546c115e2069bc0ce4d8aff5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current value of the target point.  <a href="#a3b72467546c115e2069bc0ce4d8aff5c">More...</a><br /></td></tr>
+<tr class="separator:a3b72467546c115e2069bc0ce4d8aff5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262e0db5728663006482ba13aeadea3a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a262e0db5728663006482ba13aeadea3a">Reset</a> (const <a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;vehicle)</td></tr>
+<tr class="memdesc:a262e0db5728663006482ba13aeadea3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the PID controller.  <a href="#a262e0db5728663006482ba13aeadea3a">More...</a><br /></td></tr>
+<tr class="separator:a262e0db5728663006482ba13aeadea3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4245d7b10e1afc24fa6b8e5f63dbddc1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a4245d7b10e1afc24fa6b8e5f63dbddc1">Advance</a> (const <a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;vehicle, double step)</td></tr>
+<tr class="memdesc:a4245d7b10e1afc24fa6b8e5f63dbddc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance the state of the PID controller.  <a href="#a4245d7b10e1afc24fa6b8e5f63dbddc1">More...</a><br /></td></tr>
+<tr class="separator:a4245d7b10e1afc24fa6b8e5f63dbddc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27c9ab1b2d59da5599964b455a725a5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27c9ab1b2d59da5599964b455a725a5e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a27c9ab1b2d59da5599964b455a725a5e">StartDataCollection</a> ()</td></tr>
+<tr class="memdesc:a27c9ab1b2d59da5599964b455a725a5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start/restart data collection. <br /></td></tr>
+<tr class="separator:a27c9ab1b2d59da5599964b455a725a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3513c59a2eb135df19298e9075149d7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3513c59a2eb135df19298e9075149d7c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a3513c59a2eb135df19298e9075149d7c">StopDataCollection</a> ()</td></tr>
+<tr class="memdesc:a3513c59a2eb135df19298e9075149d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspend/stop data collection. <br /></td></tr>
+<tr class="separator:a3513c59a2eb135df19298e9075149d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f8f48f4e7d731b2dc5535bddc72da93"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f8f48f4e7d731b2dc5535bddc72da93"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a8f8f48f4e7d731b2dc5535bddc72da93">IsDataCollectionEnabled</a> () const </td></tr>
+<tr class="memdesc:a8f8f48f4e7d731b2dc5535bddc72da93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if data is being collected. <br /></td></tr>
+<tr class="separator:a8f8f48f4e7d731b2dc5535bddc72da93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9ca672fa86e1a0ca376dfbdf9bc9d64"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9ca672fa86e1a0ca376dfbdf9bc9d64"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#ac9ca672fa86e1a0ca376dfbdf9bc9d64">IsDataAvailable</a> () const </td></tr>
+<tr class="memdesc:ac9ca672fa86e1a0ca376dfbdf9bc9d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if data is available for output. <br /></td></tr>
+<tr class="separator:ac9ca672fa86e1a0ca376dfbdf9bc9d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4587fada1e70cfac036a0e61ae3bd9a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4587fada1e70cfac036a0e61ae3bd9a5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a4587fada1e70cfac036a0e61ae3bd9a5">WriteOutputFile</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:a4587fada1e70cfac036a0e61ae3bd9a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output data collected so far to the specified file. <br /></td></tr>
+<tr class="separator:a4587fada1e70cfac036a0e61ae3bd9a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a07693a22ff461692502d8afee547ea57"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a07693a22ff461692502d8afee547ea57">CalcTargetLocation</a> ()=0</td></tr>
+<tr class="memdesc:a07693a22ff461692502d8afee547ea57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the current target point location.  <a href="#a07693a22ff461692502d8afee547ea57">More...</a><br /></td></tr>
+<tr class="separator:a07693a22ff461692502d8afee547ea57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a2400093e2ebc7063348b26d7a5e00991"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2400093e2ebc7063348b26d7a5e00991"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a2400093e2ebc7063348b26d7a5e00991">m_dist</a></td></tr>
+<tr class="memdesc:a2400093e2ebc7063348b26d7a5e00991"><td class="mdescLeft">&#160;</td><td class="mdescRight">look-ahead distance <br /></td></tr>
+<tr class="separator:a2400093e2ebc7063348b26d7a5e00991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab4b7c89d10251b0dc8fa019072f3168"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aab4b7c89d10251b0dc8fa019072f3168"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#aab4b7c89d10251b0dc8fa019072f3168">m_sentinel</a></td></tr>
+<tr class="memdesc:aab4b7c89d10251b0dc8fa019072f3168"><td class="mdescLeft">&#160;</td><td class="mdescRight">position of sentinel point in global frame <br /></td></tr>
+<tr class="separator:aab4b7c89d10251b0dc8fa019072f3168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d9ba5a5f16d42dc1e167eaa82bde06e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d9ba5a5f16d42dc1e167eaa82bde06e"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a8d9ba5a5f16d42dc1e167eaa82bde06e">m_target</a></td></tr>
+<tr class="memdesc:a8d9ba5a5f16d42dc1e167eaa82bde06e"><td class="mdescLeft">&#160;</td><td class="mdescRight">position of target point in global frame <br /></td></tr>
+<tr class="separator:a8d9ba5a5f16d42dc1e167eaa82bde06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90ea39b76ac1798be7a1e53588e05a7e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90ea39b76ac1798be7a1e53588e05a7e"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>m_Kp</b></td></tr>
+<tr class="separator:a90ea39b76ac1798be7a1e53588e05a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab83dc3d5e3c46d6d0b2251498421dae1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab83dc3d5e3c46d6d0b2251498421dae1"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#ab83dc3d5e3c46d6d0b2251498421dae1">m_Ki</a></td></tr>
+<tr class="memdesc:ab83dc3d5e3c46d6d0b2251498421dae1"><td class="mdescLeft">&#160;</td><td class="mdescRight">PID controller gains. <br /></td></tr>
+<tr class="separator:ab83dc3d5e3c46d6d0b2251498421dae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf48244a76856e1888cc4155b9cb6899"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf48244a76856e1888cc4155b9cb6899"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>m_Kd</b></td></tr>
+<tr class="separator:acf48244a76856e1888cc4155b9cb6899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfb25ae11222b0b72b34b64225a3878c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adfb25ae11222b0b72b34b64225a3878c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#adfb25ae11222b0b72b34b64225a3878c">m_err</a></td></tr>
+<tr class="memdesc:adfb25ae11222b0b72b34b64225a3878c"><td class="mdescLeft">&#160;</td><td class="mdescRight">current error (signed distance to target point) <br /></td></tr>
+<tr class="separator:adfb25ae11222b0b72b34b64225a3878c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77c4c8371aaab390363e4729a5bc3497"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77c4c8371aaab390363e4729a5bc3497"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a77c4c8371aaab390363e4729a5bc3497">m_errd</a></td></tr>
+<tr class="memdesc:a77c4c8371aaab390363e4729a5bc3497"><td class="mdescLeft">&#160;</td><td class="mdescRight">error derivative <br /></td></tr>
+<tr class="separator:a77c4c8371aaab390363e4729a5bc3497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44d3c9715f5cad433ff2d1e14fc72dd5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44d3c9715f5cad433ff2d1e14fc72dd5"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a44d3c9715f5cad433ff2d1e14fc72dd5">m_erri</a></td></tr>
+<tr class="memdesc:a44d3c9715f5cad433ff2d1e14fc72dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">integral of error <br /></td></tr>
+<tr class="separator:a44d3c9715f5cad433ff2d1e14fc72dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57172de6b862ec2e7565d81bb67622e5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57172de6b862ec2e7565d81bb67622e5"></a>
+utils::CSV_writer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a57172de6b862ec2e7565d81bb67622e5">m_csv</a></td></tr>
+<tr class="memdesc:a57172de6b862ec2e7565d81bb67622e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">CSV_writer object for data collection. <br /></td></tr>
+<tr class="separator:a57172de6b862ec2e7565d81bb67622e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a580af1d6b365610993e951c1a93338c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a580af1d6b365610993e951c1a93338c0"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_steering_controller.html#a580af1d6b365610993e951c1a93338c0">m_collect</a></td></tr>
+<tr class="memdesc:a580af1d6b365610993e951c1a93338c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag indicating whether or not data is being collected <br /></td></tr>
+<tr class="separator:a580af1d6b365610993e951c1a93338c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="af7cf14a5a301a4d0cdcca9f1b0473742"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::vehicle::ChSteeringController::ChSteeringController </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a steering controller with default parameters. </p>
+<p>Default values are all gains set to zero (no controller). The user is responsible for calling SetGains and SetLookAheadDistance. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a4245d7b10e1afc24fa6b8e5f63dbddc1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::vehicle::ChSteeringController::Advance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;&#160;</td>
+          <td class="paramname"><em>vehicle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>step</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Advance the state of the PID controller. </p>
+<p>This function performs the required integration for the integral component of the PID controller and returns the calculated steering value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a07693a22ff461692502d8afee547ea57"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::vehicle::ChSteeringController::CalcTargetLocation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the current target point location. </p>
+<p>All derived classes must implement this function to calculate the current location of the target point, expressed in the global frame. The location of the sentinel point at the current time is calculated and available in m_sentinel. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_path_steering_controller.html#abd5aa6542fb2671dc822d89bfa2b66dc">chrono::vehicle::ChPathSteeringController</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a89678c9de9b8b8d61a7a41e10b158639"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&amp; chrono::vehicle::ChSteeringController::GetSentinelLocation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the current location of the sentinel point. </p>
+<p>The return vector is expressed in the global reference frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3b72467546c115e2069bc0ce4d8aff5c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&amp; chrono::vehicle::ChSteeringController::GetTargetLocation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the current value of the target point. </p>
+<p>The return vector is expressed in the global reference frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="a262e0db5728663006482ba13aeadea3a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChSteeringController::Reset </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;&#160;</td>
+          <td class="paramname"><em>vehicle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reset the PID controller. </p>
+<p>This function must be called at a configuration where a valid location for the sentinel point can be calculated. The default implementation in the base class simply calculates the new sentinel point location and sets all errors to 0. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_path_steering_controller.html#ab48e4cc7ad7307c62af1d7fb857241f9">chrono::vehicle::ChPathSteeringController</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae20fac7343a233183c62bd6ed8b8fd43"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChSteeringController::SetLookAheadDistance </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dist</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Specify the look-ahead distance. </p>
+<p>This defines the location of the "sentinel" point (in front of the vehicle, at the given distance from the chassis reference frame). </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:25 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

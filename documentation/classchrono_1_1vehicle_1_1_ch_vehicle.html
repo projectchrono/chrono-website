@@ -1,0 +1,493 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChVehicle Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_vehicle-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChVehicle Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for chrono vehicle systems. </p>
+<p>The reference frame for a vehicle follows the ISO standard: Z-axis up, X-axis pointing forward, and Y-axis towards the left of the vehicle. </p>
+</div>
+<p><code>#include &lt;ChVehicle.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::ChVehicle:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_vehicle__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_vehicle_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_vehicle_inherit__map" id="chrono_1_1vehicle_1_1_ch_vehicle_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_suspension_test_rig.html" title="Definition of a suspension test rig. " alt="" coords="232,5,435,47"/>
+<area shape="rect" id="node3" href="classchrono_1_1vehicle_1_1_ch_tracked_vehicle.html" title="Base class for chrono tracked vehicle systems. " alt="" coords="242,71,425,112"/>
+<area shape="rect" id="node4" href="classchrono_1_1vehicle_1_1_ch_track_test_rig.html" title="Definition of a suspension test rig. " alt="" coords="249,136,417,177"/>
+<area shape="rect" id="node5" href="classchrono_1_1vehicle_1_1_ch_wheeled_vehicle.html" title="Base class for chrono wheeled vehicle systems. " alt="" coords="240,201,427,243"/>
+<area shape="rect" id="node6" href="classchrono_1_1vehicle_1_1_wheeled_vehicle.html" title="Wheeled vehicle model constructed from a JSON specification file. " alt="" coords="483,201,652,243"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::vehicle::ChVehicle:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_vehicle__coll__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_vehicle_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_vehicle_coll__map" id="chrono_1_1vehicle_1_1_ch_vehicle_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_system.html" title="Physical system. " alt="" coords="707,250,837,277"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="961,199,1119,226"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_assembly.html" title="Class for assemblies of items, for example ChBody, ChLink, ChMesh, etc. " alt="" coords="1179,267,1323,294"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="719,170,825,197"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_integrable_i_iorder.html" title="Special subcase: II&#45;order differential system. " alt="" coords="333,6,513,33"/>
+<area shape="rect" id="node7" href="classchrono_1_1_ch_integrable.html" title="Interface class for all objects that support time integration. " alt="" coords="19,6,161,33"/>
+<area shape="rect" id="node8" href="classchrono_1_1_ch_system_descriptor.html" title="Base class for collecting objects inherited from ChConstraint , ChVariables and, optionally ChKblock..." alt="" coords="327,57,518,83"/>
+<area shape="rect" id="node9" href="classchrono_1_1_ch_timer.html" title="chrono::ChTimer\&lt; double \&gt;" alt="" coords="332,191,513,218"/>
+<area shape="rect" id="node10" href="classchrono_1_1_ch_system_1_1_ch_custom_collision_point_callback.html" title="Class to be inherited by user and to use in SetCustomCollisionPointCallback() " alt="" coords="321,243,524,284"/>
+<area shape="rect" id="node11" href="classchrono_1_1_ch_vector.html" title="Definition of general purpose 3d vector variables, such as points in 3D. " alt="" coords="335,309,510,335"/>
+<area shape="rect" id="node12" href="classchrono_1_1_ch_solver.html" title="Base class for solvers aimed at solving complementarity problems arising from QP optimization problem..." alt="" coords="361,359,484,386"/>
+<area shape="rect" id="node13" href="classchrono_1_1collision_1_1_ch_collision_system.html" title="Base class for generic collision engine. " alt="" coords="355,411,490,452"/>
+<area shape="rect" id="node14" href="classchrono_1_1collision_1_1_ch_narrow_phase_callback.html" title="Class to be used as a callback interface for the narrow phase collision system. " alt="" coords="5,377,175,419"/>
+<area shape="rect" id="node15" href="classchrono_1_1collision_1_1_ch_broad_phase_callback.html" title="Class to be used as a callback interface for the broad&#45;phase collision system. " alt="" coords="9,443,171,484"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a7f2add4a9da9850dab76fabe703baac3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f2add4a9da9850dab76fabe703baac3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a7f2add4a9da9850dab76fabe703baac3">ChVehicle</a> (<a class="el" href="classchrono_1_1_ch_material_surface_base.html#a482837bf16924808bfe24fb41a06cdf0">ChMaterialSurfaceBase::ContactMethod</a> contact_method=<a class="el" href="classchrono_1_1_ch_material_surface_base.html#a482837bf16924808bfe24fb41a06cdf0ad2631c435ff2936bf3e80354ab9b4823">ChMaterialSurfaceBase::DVI</a>)</td></tr>
+<tr class="memdesc:a7f2add4a9da9850dab76fabe703baac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a vehicle system with a default <a class="el" href="classchrono_1_1_ch_system.html" title="Physical system. ">ChSystem</a>. <br /></td></tr>
+<tr class="separator:a7f2add4a9da9850dab76fabe703baac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78cfc1318747d1636c5f265574f01458"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78cfc1318747d1636c5f265574f01458"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a78cfc1318747d1636c5f265574f01458">ChVehicle</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *system)</td></tr>
+<tr class="memdesc:a78cfc1318747d1636c5f265574f01458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a vehicle system using the specified <a class="el" href="classchrono_1_1_ch_system.html" title="Physical system. ">ChSystem</a>. <br /></td></tr>
+<tr class="separator:a78cfc1318747d1636c5f265574f01458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50316e4392f295583c6e68ad3d32c15f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a50316e4392f295583c6e68ad3d32c15f"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a50316e4392f295583c6e68ad3d32c15f">~ChVehicle</a> ()</td></tr>
+<tr class="memdesc:a50316e4392f295583c6e68ad3d32c15f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:a50316e4392f295583c6e68ad3d32c15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4f0864f78a1dd6d2202c8170759907a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4f0864f78a1dd6d2202c8170759907a"></a>
+<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#af4f0864f78a1dd6d2202c8170759907a">GetSystem</a> ()</td></tr>
+<tr class="memdesc:af4f0864f78a1dd6d2202c8170759907a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the Chrono <a class="el" href="classchrono_1_1_ch_system.html" title="Physical system. ">ChSystem</a>. <br /></td></tr>
+<tr class="separator:af4f0864f78a1dd6d2202c8170759907a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1822cae36b8411d8ae8773000372d185"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1822cae36b8411d8ae8773000372d185"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a1822cae36b8411d8ae8773000372d185">GetChTime</a> () const </td></tr>
+<tr class="memdesc:a1822cae36b8411d8ae8773000372d185"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current simulation time of the underlying <a class="el" href="classchrono_1_1_ch_system.html" title="Physical system. ">ChSystem</a>. <br /></td></tr>
+<tr class="separator:a1822cae36b8411d8ae8773000372d185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7a9ca4180d595dae15ca08f9ecaaf31"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7a9ca4180d595dae15ca08f9ecaaf31"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#aa7a9ca4180d595dae15ca08f9ecaaf31">GetChassis</a> () const </td></tr>
+<tr class="memdesc:aa7a9ca4180d595dae15ca08f9ecaaf31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the vehicle's chassis body. <br /></td></tr>
+<tr class="separator:aa7a9ca4180d595dae15ca08f9ecaaf31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af829f395b221bf834ca51dd899ce3a5c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af829f395b221bf834ca51dd899ce3a5c"></a>
+const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#af829f395b221bf834ca51dd899ce3a5c">GetChassisPos</a> () const </td></tr>
+<tr class="memdesc:af829f395b221bf834ca51dd899ce3a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the global location of the chassis reference frame origin. <br /></td></tr>
+<tr class="separator:af829f395b221bf834ca51dd899ce3a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac599c733062abf0353b2af1ec4f7c35e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#ac599c733062abf0353b2af1ec4f7c35e">GetChassisRot</a> () const </td></tr>
+<tr class="memdesc:ac599c733062abf0353b2af1ec4f7c35e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the orientation of the chassis reference frame.  <a href="#ac599c733062abf0353b2af1ec4f7c35e">More...</a><br /></td></tr>
+<tr class="separator:ac599c733062abf0353b2af1ec4f7c35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8200318ca7aa30605442e0a55c965253"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8200318ca7aa30605442e0a55c965253"></a>
+const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a8200318ca7aa30605442e0a55c965253">GetChassisPosCOM</a> () const </td></tr>
+<tr class="memdesc:a8200318ca7aa30605442e0a55c965253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the global location of the chassis center of mass. <br /></td></tr>
+<tr class="separator:a8200318ca7aa30605442e0a55c965253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4125a193c13bc34329d8428df66d9a80"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a4125a193c13bc34329d8428df66d9a80">GetChassisRotCOM</a> () const </td></tr>
+<tr class="memdesc:a4125a193c13bc34329d8428df66d9a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the orientation of the chassis centroidal frame.  <a href="#a4125a193c13bc34329d8428df66d9a80">More...</a><br /></td></tr>
+<tr class="separator:a4125a193c13bc34329d8428df66d9a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ee22f29f3377bcfb0804d1c45ff693c"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a6ee22f29f3377bcfb0804d1c45ff693c">GetVehicleMass</a> () const =0</td></tr>
+<tr class="memdesc:a6ee22f29f3377bcfb0804d1c45ff693c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the vehicle total mass.  <a href="#a6ee22f29f3377bcfb0804d1c45ff693c">More...</a><br /></td></tr>
+<tr class="separator:a6ee22f29f3377bcfb0804d1c45ff693c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d015d9de5a23f923d704d420b7c0441"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a5d015d9de5a23f923d704d420b7c0441">GetVehicleSpeed</a> () const </td></tr>
+<tr class="memdesc:a5d015d9de5a23f923d704d420b7c0441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the vehicle speed.  <a href="#a5d015d9de5a23f923d704d420b7c0441">More...</a><br /></td></tr>
+<tr class="separator:a5d015d9de5a23f923d704d420b7c0441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cdbdf64b5227d8446bd168c0fb9c892"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a1cdbdf64b5227d8446bd168c0fb9c892">GetVehicleSpeedCOM</a> () const </td></tr>
+<tr class="memdesc:a1cdbdf64b5227d8446bd168c0fb9c892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the speed of the chassis COM.  <a href="#a1cdbdf64b5227d8446bd168c0fb9c892">More...</a><br /></td></tr>
+<tr class="separator:a1cdbdf64b5227d8446bd168c0fb9c892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f142dcda3e22680ad16ec5136d47204"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a3f142dcda3e22680ad16ec5136d47204">GetVehicleAcceleration</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;locpos) const </td></tr>
+<tr class="memdesc:a3f142dcda3e22680ad16ec5136d47204"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the acceleration at the specified point.  <a href="#a3f142dcda3e22680ad16ec5136d47204">More...</a><br /></td></tr>
+<tr class="separator:a3f142dcda3e22680ad16ec5136d47204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90ee6811a02b6a54e7f90aad7e890e15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90ee6811a02b6a54e7f90aad7e890e15"></a>
+virtual std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_shaft.html">ChShaft</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a90ee6811a02b6a54e7f90aad7e890e15">GetDriveshaft</a> () const =0</td></tr>
+<tr class="memdesc:a90ee6811a02b6a54e7f90aad7e890e15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the vehicle's driveshaft body. <br /></td></tr>
+<tr class="separator:a90ee6811a02b6a54e7f90aad7e890e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada73ddf7df06403f19b2e0d9a2d1cc04"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#ada73ddf7df06403f19b2e0d9a2d1cc04">GetDriveshaftSpeed</a> () const =0</td></tr>
+<tr class="memdesc:ada73ddf7df06403f19b2e0d9a2d1cc04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the angular speed of the driveshaft.  <a href="#ada73ddf7df06403f19b2e0d9a2d1cc04">More...</a><br /></td></tr>
+<tr class="separator:ada73ddf7df06403f19b2e0d9a2d1cc04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04f6b3c373dfe970c8aa480165e67623"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a04f6b3c373dfe970c8aa480165e67623">GetLocalDriverCoordsys</a> () const =0</td></tr>
+<tr class="memdesc:a04f6b3c373dfe970c8aa480165e67623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the local driver position and orientation.  <a href="#a04f6b3c373dfe970c8aa480165e67623">More...</a><br /></td></tr>
+<tr class="separator:a04f6b3c373dfe970c8aa480165e67623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b7ef7fd957d421fc16d74fbf0869023"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b7ef7fd957d421fc16d74fbf0869023"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a4b7ef7fd957d421fc16d74fbf0869023">GetDriverPos</a> () const </td></tr>
+<tr class="memdesc:a4b7ef7fd957d421fc16d74fbf0869023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the global location of the driver. <br /></td></tr>
+<tr class="separator:a4b7ef7fd957d421fc16d74fbf0869023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a915d08f27d16249e78c4991dab4ff0ad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a915d08f27d16249e78c4991dab4ff0ad">Initialize</a> (const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt;&gt; &amp;chassisPos)=0</td></tr>
+<tr class="memdesc:a915d08f27d16249e78c4991dab4ff0ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize this vehicle at the specified global location and orientation.  <a href="#a915d08f27d16249e78c4991dab4ff0ad">More...</a><br /></td></tr>
+<tr class="separator:a915d08f27d16249e78c4991dab4ff0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea8c96db3ec2138f4ed5abddd3e4fe9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abea8c96db3ec2138f4ed5abddd3e4fe9"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#abea8c96db3ec2138f4ed5abddd3e4fe9">Advance</a> (double step)</td></tr>
+<tr class="memdesc:abea8c96db3ec2138f4ed5abddd3e4fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance the state of this vehicle by the specified time step. <br /></td></tr>
+<tr class="separator:abea8c96db3ec2138f4ed5abddd3e4fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e8ed2ce9a5a120391e4d9607ae8858f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e8ed2ce9a5a120391e4d9607ae8858f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a4e8ed2ce9a5a120391e4d9607ae8858f">SetStepsize</a> (double val)</td></tr>
+<tr class="memdesc:a4e8ed2ce9a5a120391e4d9607ae8858f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the integration step size for the vehicle system. <br /></td></tr>
+<tr class="separator:a4e8ed2ce9a5a120391e4d9607ae8858f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c8676eb4fb37033d866d94dddbb6f04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8c8676eb4fb37033d866d94dddbb6f04"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a8c8676eb4fb37033d866d94dddbb6f04">GetStepsize</a> () const </td></tr>
+<tr class="memdesc:a8c8676eb4fb37033d866d94dddbb6f04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current value of the integration step size for the vehicle system. <br /></td></tr>
+<tr class="separator:a8c8676eb4fb37033d866d94dddbb6f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af97b5ff388f418015c3db06820a57023"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af97b5ff388f418015c3db06820a57023"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#af97b5ff388f418015c3db06820a57023">LogConstraintViolations</a> ()=0</td></tr>
+<tr class="memdesc:af97b5ff388f418015c3db06820a57023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log current constraint violations. <br /></td></tr>
+<tr class="separator:af97b5ff388f418015c3db06820a57023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a95d7b7244e2d5a8bf3566ba49eb39a8f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a95d7b7244e2d5a8bf3566ba49eb39a8f"></a>
+<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a95d7b7244e2d5a8bf3566ba49eb39a8f">m_system</a></td></tr>
+<tr class="memdesc:a95d7b7244e2d5a8bf3566ba49eb39a8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer to the Chrono system <br /></td></tr>
+<tr class="separator:a95d7b7244e2d5a8bf3566ba49eb39a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f759cfe8350eaacb74e4a88ee9ef04e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f759cfe8350eaacb74e4a88ee9ef04e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a8f759cfe8350eaacb74e4a88ee9ef04e">m_ownsSystem</a></td></tr>
+<tr class="memdesc:a8f759cfe8350eaacb74e4a88ee9ef04e"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if system created at construction <br /></td></tr>
+<tr class="separator:a8f759cfe8350eaacb74e4a88ee9ef04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41439dcaf32b72170e00fb274a9d5b11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a41439dcaf32b72170e00fb274a9d5b11"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a41439dcaf32b72170e00fb274a9d5b11">m_chassis</a></td></tr>
+<tr class="memdesc:a41439dcaf32b72170e00fb274a9d5b11"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to the chassis body <br /></td></tr>
+<tr class="separator:a41439dcaf32b72170e00fb274a9d5b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e37b060b416fc17a58662684c1c3ba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26e37b060b416fc17a58662684c1c3ba"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html#a26e37b060b416fc17a58662684c1c3ba">m_stepsize</a></td></tr>
+<tr class="memdesc:a26e37b060b416fc17a58662684c1c3ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">integration step-size for the vehicle system <br /></td></tr>
+<tr class="separator:a26e37b060b416fc17a58662684c1c3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac599c733062abf0353b2af1ec4f7c35e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&amp; chrono::vehicle::ChVehicle::GetChassisRot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the orientation of the chassis reference frame. </p>
+<p>The chassis orientation is returned as a quaternion representing a rotation with respect to the global reference frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4125a193c13bc34329d8428df66d9a80"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&amp; chrono::vehicle::ChVehicle::GetChassisRotCOM </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the orientation of the chassis centroidal frame. </p>
+<p>The chassis orientation is returned as a quaternion representing a rotation with respect to the global reference frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="ada73ddf7df06403f19b2e0d9a2d1cc04"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::vehicle::ChVehicle::GetDriveshaftSpeed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the angular speed of the driveshaft. </p>
+<p>This function provides the interface between a vehicle system and a powertrain system. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension_test_rig.html#a51535a055a7edd5cc63433c4b03a8688">chrono::vehicle::ChSuspensionTestRig</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_test_rig.html#a1e72d6df188c5bebd83835cbb081eac4">chrono::vehicle::ChTrackTestRig</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_wheeled_vehicle.html#a7539cd0d6ace066a516cdb948f6a23bc">chrono::vehicle::ChWheeledVehicle</a>, and <a class="el" href="classchrono_1_1vehicle_1_1_ch_tracked_vehicle.html#aba00395002aa858d2c6e8063b4f074be">chrono::vehicle::ChTrackedVehicle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a04f6b3c373dfe970c8aa480165e67623"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a> chrono::vehicle::ChVehicle::GetLocalDriverCoordsys </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the local driver position and orientation. </p>
+<p>This is a coordinate system relative to the chassis reference frame. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension_test_rig.html#a0dd58958f288d7a1c8fd4dcb1d13aa09">chrono::vehicle::ChSuspensionTestRig</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_test_rig.html#af474650d3fccef6d806ec2c2140e7dbd">chrono::vehicle::ChTrackTestRig</a>, and <a class="el" href="classchrono_1_1vehicle_1_1_wheeled_vehicle.html#a02f103d59f858945f4ad998cfe7fade4">chrono::vehicle::WheeledVehicle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3f142dcda3e22680ad16ec5136d47204"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> chrono::vehicle::ChVehicle::GetVehicleAcceleration </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>locpos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the acceleration at the specified point. </p>
+<p>The point is assumed to be given relative to the chassis reference frame. The returned acceleration is expressed in the chassis reference frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6ee22f29f3377bcfb0804d1c45ff693c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::vehicle::ChVehicle::GetVehicleMass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the vehicle total mass. </p>
+<p>This includes the mass of the chassis and all vehicle subsystems. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension_test_rig.html#afd1faf52d3b979a4376f256eae64348d">chrono::vehicle::ChSuspensionTestRig</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_test_rig.html#ae33b4dc32a998ca5c40fcfbfa520e4b5">chrono::vehicle::ChTrackTestRig</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_wheeled_vehicle.html#a846bfe9e18f106452bfb7bd097b45ae6">chrono::vehicle::ChWheeledVehicle</a>, and <a class="el" href="classchrono_1_1vehicle_1_1_ch_tracked_vehicle.html#a499f168a713a88757c4dea2db0c9ea9a">chrono::vehicle::ChTrackedVehicle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5d015d9de5a23f923d704d420b7c0441"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::vehicle::ChVehicle::GetVehicleSpeed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the vehicle speed. </p>
+<p>Return the speed measured at the origin of the chassis reference frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1cdbdf64b5227d8446bd168c0fb9c892"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::vehicle::ChVehicle::GetVehicleSpeedCOM </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the speed of the chassis COM. </p>
+<p>Return the speed measured at the chassis center of mass. </p>
+
+</div>
+</div>
+<a class="anchor" id="a915d08f27d16249e78c4991dab4ff0ad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::vehicle::ChVehicle::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>chassisPos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize this vehicle at the specified global location and orientation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">chassisPos</td><td>initial global position and orientation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_suspension_test_rig.html#a8d77714745b45702b0b39c25c2718fdb">chrono::vehicle::ChSuspensionTestRig</a>, <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_test_rig.html#a6559e44880080794cde8c7e26fbf7767">chrono::vehicle::ChTrackTestRig</a>, and <a class="el" href="classchrono_1_1vehicle_1_1_wheeled_vehicle.html#a8fc9b1e49841e1631ba172a64a4d5ccb">chrono::vehicle::WheeledVehicle</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:25 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

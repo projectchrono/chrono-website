@@ -1,0 +1,16 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classchrono_1_1_ch_load_base.html" title="Base class for loads. " alt="" coords="5,227,149,254"/>
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_load.html" title="chrono::ChLoad\&lt; ChLoader\lBeamWrench \&gt;" alt="" coords="209,5,391,47"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_load.html" title="chrono::ChLoad\&lt; ChLoader\lBeamWrenchDistributed \&gt;" alt="" coords="209,71,391,112"/>
+<area shape="rect" id="node6" href="$classchrono_1_1_ch_load.html" title="chrono::ChLoad\&lt; ChLoader\lXYZnode \&gt;" alt="" coords="209,136,391,177"/>
+<area shape="rect" id="node8" href="$classchrono_1_1_ch_load.html" title="Class for a load acting on a single ChLoadable item, via ChLoader objects. " alt="" coords="209,202,391,229"/>
+<area shape="rect" id="node9" href="$classchrono_1_1_ch_load_body_mesh.html" title="Class for applyings loads to a triangle mesh belonging to a ChBody, as a cluster of forces operating ..." alt="" coords="212,253,388,279"/>
+<area shape="rect" id="node10" href="$classchrono_1_1_ch_load_custom.html" title="Loads acting on a single ChLoadable item. " alt="" coords="220,303,380,330"/>
+<area shape="rect" id="node13" href="$classchrono_1_1_ch_load_custom_multiple.html" title="Loads acting on multiple ChLoadable items. " alt="" coords="197,354,403,381"/>
+<area shape="rect" id="node14" href="$classchrono_1_1fea_1_1_ch_load_contact_surface_mesh.html" title="Class for applyings loads to a contact mesh as a cluster of forces operating on the nodes of the unde..." alt="" coords="207,405,393,447"/>
+<area shape="rect" id="node3" href="$classchrono_1_1fea_1_1_ch_load_beam_wrench.html" title="Atomic wrench (ready to use load) Load for a wrench (force+torque) at a specific position of a beam..." alt="" coords="451,13,669,39"/>
+<area shape="rect" id="node5" href="$classchrono_1_1fea_1_1_ch_load_beam_wrench_distributed.html" title="Distributed constant wrench (ready to use load) Load for a wrench (force+torque) at a specific positi..." alt="" coords="451,71,669,112"/>
+<area shape="rect" id="node7" href="$classchrono_1_1_ch_load_x_y_znode.html" title="Force at XYZ node (ready to use load) " alt="" coords="476,143,644,170"/>
+<area shape="rect" id="node11" href="$classchrono_1_1_ch_load_body_force.html" title="FORCE ON A RIGID BODY Load for a constant force applied at a ChBody. " alt="" coords="471,278,649,305"/>
+<area shape="rect" id="node12" href="$classchrono_1_1_ch_load_body_torque.html" title="TORQUE ON A RIGID BODY Loader for a constant torque applied at a ChBody. " alt="" coords="468,329,652,355"/>
+</map>

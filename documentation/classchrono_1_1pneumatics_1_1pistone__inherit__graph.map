@@ -1,0 +1,4 @@
+<map id="chrono::pneumatics::pistone" name="chrono::pneumatics::pistone">
+<area shape="rect" id="node2" href="$classchrono_1_1pneumatics_1_1pistone__3__2.html" title="A specialized pneumatic piston actuator, with two 3&#45;2 valves. " alt="" coords="5,95,141,136"/>
+<area shape="rect" id="node3" href="$classchrono_1_1pneumatics_1_1pistone__3__2__prop.html" title="Specialized pneumatic piston, exploiting two 3&#45;2 proportional valves. " alt="" coords="165,95,301,136"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="chrono::ChBodyFrame" name="chrono::ChBodyFrame">
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_body.html" title="Class for rigid bodies. " alt="" coords="698,217,814,243"/>
+<area shape="rect" id="node14" href="$classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html" title="Class for a generic ED finite element node, with x,y,z displacement and a 3D rotation. " alt="" coords="653,267,859,294"/>
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_frame_moving.html" title="chrono::ChFrameMoving\l\&lt; double \&gt;" alt="" coords="239,235,404,276"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_frame.html" title="chrono::ChFrame\&lt; double \&gt;" alt="" coords="5,242,191,269"/>
+<area shape="rect" id="node5" href="$classchrono_1_1_ch_body_aux_ref.html" title="Class for rigid bodies with an auxiliary reference that can be used for the collision shapes and mark..." alt="" coords="934,78,1094,105"/>
+<area shape="rect" id="node9" href="$classchrono_1_1_ch_body_easy_box.html" title="Easy&#45;to&#45;use class for quick creation of rigid bodies with a box shape. " alt="" coords="929,129,1099,155"/>
+<area shape="rect" id="node10" href="$classchrono_1_1_ch_body_easy_cluster_of_spheres.html" title="Easy&#45;to&#45;use class for quick creation of rigid bodies with a shape made of a cluster of spheres..." alt="" coords="920,180,1108,221"/>
+<area shape="rect" id="node11" href="$classchrono_1_1_ch_body_easy_convex_hull.html" title="Easy&#45;to&#45;use class for quick creation of rigid bodies with a convex hull shape. " alt="" coords="907,246,1121,273"/>
+<area shape="rect" id="node12" href="$classchrono_1_1_ch_body_easy_cylinder.html" title="Easy&#45;to&#45;use class for quick creation of rigid bodies with a cylindrical shape. " alt="" coords="917,297,1111,323"/>
+<area shape="rect" id="node13" href="$classchrono_1_1_ch_body_easy_sphere.html" title="Easy&#45;to&#45;use class for quick creation of rigid bodies with a spherical shape. " alt="" coords="921,347,1107,374"/>
+<area shape="rect" id="node6" href="$classchrono_1_1cascade_1_1_ch_body_easy_cascade.html" title="Easy&#45;to&#45;use class for quick creation of rigid bodies with a OpenCASCADE shape. " alt="" coords="1169,5,1372,47"/>
+<area shape="rect" id="node7" href="$classchrono_1_1_ch_body_easy_convex_hull_aux_ref.html" title="Easy&#45;to&#45;use class for quick creation of rigid bodies with a convex hull shape, that has a REF csys di..." alt="" coords="1175,71,1366,112"/>
+<area shape="rect" id="node8" href="$classchrono_1_1_ch_body_easy_mesh.html" title="Easy&#45;to&#45;use class for quick creation of rigid bodies with a triangle mesh shape, that has a REF csys ..." alt="" coords="1181,137,1360,163"/>
+</map>

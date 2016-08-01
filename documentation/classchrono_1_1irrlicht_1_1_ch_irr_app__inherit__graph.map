@@ -1,0 +1,6 @@
+<map id="chrono::irrlicht::ChIrrApp" name="chrono::irrlicht::ChIrrApp">
+<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_ch_vehicle_irr_app.html" title="custom event receiver for chase&#45;cam control " alt="" coords="111,169,290,211"/>
+<area shape="rect" id="node2" href="$classchrono_1_1irrlicht_1_1_ch_irr_app_interface.html" title="Class to add some GUI to Irrlicht + Chrono::Engine applications. " alt="" coords="119,5,283,47"/>
+<area shape="rect" id="node4" href="$classchrono_1_1vehicle_1_1_ch_tracked_vehicle_irr_app.html" title="Customized Chrono Irrlicht application for tracked vehicle visualization. " alt="" coords="5,259,188,300"/>
+<area shape="rect" id="node5" href="$classchrono_1_1vehicle_1_1_ch_wheeled_vehicle_irr_app.html" title="Customized Chrono Irrlicht application for wheeled vehicle visualization. " alt="" coords="213,259,399,300"/>
+</map>

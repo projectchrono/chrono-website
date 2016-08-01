@@ -1,0 +1,132 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: Slider crank example (demo_crank.cpp)</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="index.html">Project Chrono API/SDK documentation</a></li><li class="navelem"><a class="el" href="manual_root.html">Reference Manual</a></li><li class="navelem"><a class="el" href="tutorial_root.html">Tutorials</a></li><li class="navelem"><a class="el" href="tutorial_table_of_content_chrono_irrlicht.html">Chrono IRRLICHT module tutorials</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Slider crank example (demo_crank.cpp) </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p>The simpliest way to integrate Chrono::Engine in the Irrlicht 3D visualization library: in fact the coordinates of the joints are simply used as end-points of simple polygonal lines which are drawn in the 3D space for each frame redraw, to show a very simplified 'skeleton' of a slider-crank mechanism. The demo also teaches how to:</p>
+<ul>
+<li>create constraints and 'engine' objects</li>
+<li>make a real-time application, where Chrono::Engine adapts the integration step to the speed of the CPU.</li>
+</ul>
+<div class="fragment"><div class="line"><span class="comment">//</span></div><div class="line"><span class="comment">// PROJECT CHRONO - http://projectchrono.org</span></div><div class="line"><span class="comment">//</span></div><div class="line"><span class="comment">// Copyright (c) 2010-2011 Alessandro Tasora</span></div><div class="line"><span class="comment">// Copyright (c) 2013 Project Chrono</span></div><div class="line"><span class="comment">// All rights reserved.</span></div><div class="line"><span class="comment">//</span></div><div class="line"><span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div><div class="line"><span class="comment">// found in the LICENSE file at the top level of the distribution</span></div><div class="line"><span class="comment">// and at http://projectchrono.org/license-chrono.txt.</span></div><div class="line"><span class="comment">//</span></div><div class="line"></div><div class="line"><span class="comment">//</span></div><div class="line"><span class="comment">//   Demo code about</span></div><div class="line"><span class="comment">//</span></div><div class="line"><span class="comment">//     - constraints and &#39;engine&#39; objects</span></div><div class="line"><span class="comment">//     - using IRRLICHT as a realtime 3D viewer</span></div><div class="line"><span class="comment">//       of a slider-crank mechanism simulated with</span></div><div class="line"><span class="comment">//       Chrono::Engine.</span></div><div class="line"><span class="comment">//     - using the real-time step.</span></div><div class="line"><span class="comment">//       This is just a possible method of integration</span></div><div class="line"><span class="comment">//       of Chrono::Engine + Irrlicht: many others</span></div><div class="line"><span class="comment">//       are possible.</span></div><div class="line"><span class="comment">//</span></div><div class="line"><span class="comment">//       CHRONO</span></div><div class="line"><span class="comment">//   ------</span></div><div class="line"><span class="comment">//   Multibody dinamics engine</span></div><div class="line"><span class="comment">//</span></div><div class="line"><span class="comment">// ------------------------------------------------</span></div><div class="line"><span class="comment">//             http://www.projectchrono.org</span></div><div class="line"><span class="comment">// ------------------------------------------------</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="preprocessor">#include &quot;chrono/core/ChRealtimeStep.h&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;chrono/physics/ChSystem.h&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;chrono_irrlicht/ChIrrApp.h&quot;</span></div><div class="line"></div><div class="line"><span class="comment">// Use the namespaces of Chrono</span></div><div class="line"><span class="keyword">using namespace </span><a class="code" href="namespacechrono.html">chrono</a>;</div><div class="line"><span class="keyword">using namespace </span><a class="code" href="namespacechrono_1_1irrlicht.html">chrono::irrlicht</a>;</div><div class="line"></div><div class="line"><span class="comment">// Use the main namespaces of Irrlicht</span></div><div class="line"><span class="keyword">using namespace </span><a class="code" href="namespaceirr.html">irr</a>;</div><div class="line"><span class="keyword">using namespace </span><a class="code" href="namespaceirr_1_1core.html">irr::core</a>;</div><div class="line"><span class="keyword">using namespace </span><a class="code" href="namespaceirr_1_1scene.html">irr::scene</a>;</div><div class="line"><span class="keyword">using namespace </span>irr::video;</div><div class="line"><span class="keyword">using namespace </span>irr::io;</div><div class="line"><span class="keyword">using namespace </span>irr::gui;</div><div class="line"></div><div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]) {</div><div class="line">    <span class="comment">//</span></div><div class="line">    <span class="comment">// HERE YOU CREATE THE MECHANICAL SYSTEM OF CHRONO...</span></div><div class="line">    <span class="comment">//</span></div><div class="line"></div><div class="line">    <span class="comment">// 1- Create a ChronoENGINE physical system: all bodies and constraints</span></div><div class="line">    <span class="comment">//    will be handled by this ChSystem object.</span></div><div class="line"></div><div class="line">    <a class="code" href="classchrono_1_1_ch_system.html">ChSystem</a> my_system;</div><div class="line"></div><div class="line">    <span class="comment">// 2- Create the rigid bodies of the slider-crank mechanical system</span></div><div class="line">    <span class="comment">//   (a crank, a rod, a truss), maybe setting position/mass/inertias of</span></div><div class="line">    <span class="comment">//   their center of mass (COG) etc.</span></div><div class="line"></div><div class="line">    <span class="comment">// ..the truss</span></div><div class="line">    <span class="keyword">auto</span> my_body_A = std::make_shared&lt;ChBody&gt;();</div><div class="line">    my_system.<a class="code" href="classchrono_1_1_ch_assembly.html#aeb86b4df59dc82ad4d5a969b45e159b1">AddBody</a>(my_body_A);</div><div class="line">    my_body_A-&gt;SetBodyFixed(<span class="keyword">true</span>);  <span class="comment">// truss does not move!</span></div><div class="line">    my_body_A-&gt;SetName(<span class="stringliteral">&quot;Ground-Truss&quot;</span>);</div><div class="line"></div><div class="line">    <span class="comment">// ..the crank</span></div><div class="line">    <span class="keyword">auto</span> my_body_B = std::make_shared&lt;ChBody&gt;();</div><div class="line">    my_system.<a class="code" href="classchrono_1_1_ch_assembly.html#aeb86b4df59dc82ad4d5a969b45e159b1">AddBody</a>(my_body_B);</div><div class="line">    my_body_B-&gt;SetPos(ChVector&lt;&gt;(1, 0, 0));  <span class="comment">// position of COG of crank</span></div><div class="line">    my_body_B-&gt;SetMass(2);</div><div class="line">    my_body_B-&gt;SetName(<span class="stringliteral">&quot;Crank&quot;</span>);</div><div class="line"></div><div class="line">    <span class="comment">// ..the rod</span></div><div class="line">    <span class="keyword">auto</span> my_body_C = std::make_shared&lt;ChBody&gt;();</div><div class="line">    my_system.<a class="code" href="classchrono_1_1_ch_assembly.html#aeb86b4df59dc82ad4d5a969b45e159b1">AddBody</a>(my_body_C);</div><div class="line">    my_body_C-&gt;SetPos(ChVector&lt;&gt;(4, 0, 0));  <span class="comment">// position of COG of rod</span></div><div class="line">    my_body_C-&gt;SetMass(3);</div><div class="line">    my_body_C-&gt;SetName(<span class="stringliteral">&quot;Rod&quot;</span>);</div><div class="line"></div><div class="line">    <span class="comment">// 3- Create constraints: the mechanical joints between the rigid bodies.</span></div><div class="line"></div><div class="line">    <span class="comment">// .. a revolute joint between crank and rod</span></div><div class="line">    <span class="keyword">auto</span> my_link_BC = std::make_shared&lt;ChLinkLockRevolute&gt;();</div><div class="line">    my_link_BC-&gt;SetName(<span class="stringliteral">&quot;RevJointCrankRod&quot;</span>);</div><div class="line">    my_link_BC-&gt;Initialize(my_body_B, my_body_C, <a class="code" href="classchrono_1_1_ch_coordsys.html">ChCoordsys&lt;&gt;</a>(ChVector&lt;&gt;(2, 0, 0)));</div><div class="line">    my_system.<a class="code" href="classchrono_1_1_ch_assembly.html#a5f77de6ceee04f99319b0c8014016083">AddLink</a>(my_link_BC);</div><div class="line"></div><div class="line">    <span class="comment">// .. a slider joint between rod and truss</span></div><div class="line">    <span class="keyword">auto</span> my_link_CA = std::make_shared&lt;ChLinkLockPointLine&gt;();</div><div class="line">    my_link_CA-&gt;SetName(<span class="stringliteral">&quot;TransJointRodGround&quot;</span>);</div><div class="line">    my_link_CA-&gt;Initialize(my_body_C, my_body_A, <a class="code" href="classchrono_1_1_ch_coordsys.html">ChCoordsys&lt;&gt;</a>(ChVector&lt;&gt;(6, 0, 0)));</div><div class="line">    my_system.<a class="code" href="classchrono_1_1_ch_assembly.html#a5f77de6ceee04f99319b0c8014016083">AddLink</a>(my_link_CA);</div><div class="line"></div><div class="line">    <span class="comment">// .. an engine between crank and truss</span></div><div class="line"></div><div class="line">    <span class="keyword">auto</span> my_link_AB = std::make_shared&lt;ChLinkEngine&gt;();</div><div class="line">    my_link_AB-&gt;Initialize(my_body_A, my_body_B, <a class="code" href="classchrono_1_1_ch_coordsys.html">ChCoordsys&lt;&gt;</a>(ChVector&lt;&gt;(0, 0, 0)));</div><div class="line">    my_link_AB-&gt;Set_eng_mode(ChLinkEngine::ENG_MODE_SPEED);</div><div class="line">    my_link_AB-&gt;SetName(<span class="stringliteral">&quot;RevJointEngine&quot;</span>);</div><div class="line">    <span class="keywordflow">if</span> (<span class="keyword">auto</span> mfun = std::dynamic_pointer_cast&lt;ChFunction_Const&gt;(my_link_AB-&gt;Get_spe_funct()))</div><div class="line">        mfun-&gt;Set_yconst(CH_C_PI);  <span class="comment">// speed w=3.145 rad/sec</span></div><div class="line">    my_system.<a class="code" href="classchrono_1_1_ch_assembly.html#a5f77de6ceee04f99319b0c8014016083">AddLink</a>(my_link_AB);</div><div class="line"></div><div class="line">    <span class="comment">// 4- Create the Irrlicht visualization</span></div><div class="line">    <a class="code" href="classchrono_1_1irrlicht_1_1_ch_irr_app.html">ChIrrApp</a> application(&amp;my_system, L<span class="stringliteral">&quot;Simple slider-crank example&quot;</span>, core::dimension2d&lt;u32&gt;(800, 600), <span class="keyword">false</span>);</div><div class="line"></div><div class="line">    <span class="comment">// Easy shortcuts to add camera, lights, logo and sky in Irrlicht scene:</span></div><div class="line">    <a class="code" href="classchrono_1_1irrlicht_1_1_ch_irr_wizard.html#ae185d295a9a02352688166c2c6665234">ChIrrWizard::add_typical_Logo</a>(application.GetDevice());</div><div class="line">    <a class="code" href="classchrono_1_1irrlicht_1_1_ch_irr_wizard.html#ab3087fe4418963f09727a91f43562129">ChIrrWizard::add_typical_Sky</a>(application.GetDevice());</div><div class="line">    <a class="code" href="classchrono_1_1irrlicht_1_1_ch_irr_wizard.html#aa990918e4e1113997fee29ba82083ab1">ChIrrWizard::add_typical_Lights</a>(application.GetDevice());</div><div class="line">    <a class="code" href="classchrono_1_1irrlicht_1_1_ch_irr_wizard.html#add550a0cc283f166db49d39e50f76c0b">ChIrrWizard::add_typical_Camera</a>(application.GetDevice(), core::vector3df(0, 0, -6));</div><div class="line"></div><div class="line">    <span class="comment">// Bind assets</span></div><div class="line">    application.AssetBindAll();</div><div class="line">    application.AssetUpdateAll();</div><div class="line"></div><div class="line"></div><div class="line">    <span class="comment">//</span></div><div class="line">    <span class="comment">// THE SOFT-REAL-TIME CYCLE, SHOWING THE SIMULATION</span></div><div class="line">    <span class="comment">//</span></div><div class="line"></div><div class="line">    <span class="comment">// This will help choosing an integration step which matches the</span></div><div class="line">    <span class="comment">// real-time step of the simulation..</span></div><div class="line">    <a class="code" href="classchrono_1_1_ch_realtime_step_timer.html">ChRealtimeStepTimer</a> m_realtime_timer;</div><div class="line"></div><div class="line">    <span class="keywordtype">bool</span> removed = <span class="keyword">false</span>;</div><div class="line"></div><div class="line">    <span class="keywordflow">while</span> (application.GetDevice()-&gt;run()) {</div><div class="line">        <span class="comment">// Irrlicht must prepare frame to draw</span></div><div class="line">        application.BeginScene(<span class="keyword">true</span>, <span class="keyword">true</span>, SColor(255, 140, 161, 192));</div><div class="line"></div><div class="line">        <span class="comment">// Irrlicht now draws simple lines in 3D world representing a</span></div><div class="line">        <span class="comment">// skeleton of the mechanism, in this instant:</span></div><div class="line">        <span class="comment">//</span></div><div class="line">        <span class="comment">// .. draw items belonging to Irrlicht scene, if any</span></div><div class="line">        application.DrawAll();</div><div class="line">        <span class="comment">// .. draw a grid</span></div><div class="line">        <a class="code" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#aed2fa6dd02297539fa2bf0c08644d90e">ChIrrTools::drawGrid</a>(application.GetVideoDriver(), 0.5, 0.5);</div><div class="line">        <span class="comment">// .. draw GUI items belonging to Irrlicht screen, if any</span></div><div class="line">        application.GetIGUIEnvironment()-&gt;drawAll();</div><div class="line"></div><div class="line">        <span class="comment">// .. draw the rod (from joint BC to joint CA)</span></div><div class="line">        <a class="code" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#ac0844abf707003b0490c37e78de36651">ChIrrTools::drawSegment</a>(application.GetVideoDriver(), my_link_BC-&gt;GetMarker1()-&gt;GetAbsCoord().pos,</div><div class="line">                                my_link_CA-&gt;GetMarker1()-&gt;GetAbsCoord().pos, video::SColor(255, 0, 255, 0));</div><div class="line">        <span class="comment">// .. draw the crank (from joint AB to joint BC)</span></div><div class="line">        <a class="code" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#ac0844abf707003b0490c37e78de36651">ChIrrTools::drawSegment</a>(application.GetVideoDriver(), my_link_AB-&gt;GetMarker1()-&gt;GetAbsCoord().pos,</div><div class="line">                                my_link_BC-&gt;GetMarker1()-&gt;GetAbsCoord().pos, video::SColor(255, 255, 0, 0));</div><div class="line">        <span class="comment">// .. draw a small circle at crank origin</span></div><div class="line">        <a class="code" href="classchrono_1_1irrlicht_1_1_ch_irr_tools.html#af2e27797df2d4453d6ddcdc608180561">ChIrrTools::drawCircle</a>(application.GetVideoDriver(), 0.1, <a class="code" href="classchrono_1_1_ch_coordsys.html">ChCoordsys&lt;&gt;</a>(ChVector&lt;&gt;(0, 0, 0), QUNIT));</div><div class="line"></div><div class="line">        <span class="comment">/* test: delete a link after 10 seconds</span></div><div class="line"><span class="comment">        if (my_system.GetChTime() &gt;10 &amp;&amp; (!removed))</span></div><div class="line"><span class="comment">        {</span></div><div class="line"><span class="comment">                my_system.RemoveLink(my_link_AB);</span></div><div class="line"><span class="comment">                removed = true;</span></div><div class="line"><span class="comment">        }*/</span></div><div class="line"></div><div class="line">        <span class="comment">// HERE CHRONO INTEGRATION IS PERFORMED: THE</span></div><div class="line">        <span class="comment">// TIME OF THE SIMULATION ADVANCES FOR A SINGLE</span></div><div class="line">        <span class="comment">// STEP:</span></div><div class="line"></div><div class="line">        my_system.<a class="code" href="classchrono_1_1_ch_system.html#a552f40a0951fa8dc3c1e00900fd3b48c">DoStepDynamics</a>(m_realtime_timer.<a class="code" href="classchrono_1_1_ch_realtime_step_timer.html#ad8c043d898a7f7da153303aa48b9cf17">SuggestSimulationStep</a>(0.02));</div><div class="line"></div><div class="line">        <span class="comment">// Irrlicht must finish drawing the frame</span></div><div class="line">        application.EndScene();</div><div class="line">    }</div><div class="line"></div><div class="line">    <span class="keywordflow">return</span> 0;</div><div class="line">}</div></div><!-- fragment --> </div></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:10 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

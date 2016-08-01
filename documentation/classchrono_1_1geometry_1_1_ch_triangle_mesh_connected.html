@@ -1,0 +1,746 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::geometry::ChTriangleMeshConnected Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1geometry.html">geometry</a></li><li class="navelem"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html">ChTriangleMeshConnected</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::geometry::ChTriangleMeshConnected Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>A triangle mesh with connectivity info: vertices can be shared between faces. </p>
+</div>
+<p><code>#include &lt;ChTriangleMeshConnected.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::geometry::ChTriangleMeshConnected:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected__inherit__graph.png" border="0" usemap="#chrono_1_1geometry_1_1_ch_triangle_mesh_connected_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1geometry_1_1_ch_triangle_mesh_connected_inherit__map" id="chrono_1_1geometry_1_1_ch_triangle_mesh_connected_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html" title="Base class for triangle meshes. " alt="" coords="5,80,232,107"/>
+<area shape="rect" id="node3" href="classchrono_1_1geometry_1_1_ch_geometry.html" title="Base class for geometric objects used for collisions and visualization. " alt="" coords="16,5,221,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::geometry::ChTriangleMeshConnected:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected__coll__graph.png" border="0" usemap="#chrono_1_1geometry_1_1_ch_triangle_mesh_connected_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1geometry_1_1_ch_triangle_mesh_connected_coll__map" id="chrono_1_1geometry_1_1_ch_triangle_mesh_connected_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html" title="Base class for triangle meshes. " alt="" coords="5,80,232,107"/>
+<area shape="rect" id="node3" href="classchrono_1_1geometry_1_1_ch_geometry.html" title="Base class for geometric objects used for collisions and visualization. " alt="" coords="16,5,221,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected_1_1_ch_refine_edge_criterion.html">ChRefineEdgeCriterion</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to be used optionally in <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a22e95bf3b78b9ac28351b81338c86112" title="Performs mesh refinement using Rivara LEPP long-edge bisection algorithm. ">RefineMeshEdges()</a>  <a href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected_1_1_ch_refine_edge_criterion.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab4a2cf5b16f5c3e80e14ea92744d3543"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab4a2cf5b16f5c3e80e14ea92744d3543"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChTriangleMeshConnected</b> (const <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html">ChTriangleMeshConnected</a> &amp;source)</td></tr>
+<tr class="separator:ab4a2cf5b16f5c3e80e14ea92744d3543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d00b7086fb8f30f6054af953e155d8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0d00b7086fb8f30f6054af953e155d8b"></a>
+virtual <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html">ChTriangleMeshConnected</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a0d00b7086fb8f30f6054af953e155d8b">Clone</a> () const override</td></tr>
+<tr class="memdesc:a0d00b7086fb8f30f6054af953e155d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Virtual" copy constructor (covariant return type). <br /></td></tr>
+<tr class="separator:a0d00b7086fb8f30f6054af953e155d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa95b4766126652aa9f1f4870cb2d363"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa95b4766126652aa9f1f4870cb2d363"></a>
+std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getCoordsVertices</b> ()</td></tr>
+<tr class="separator:afa95b4766126652aa9f1f4870cb2d363"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b3576edbf9295ada4a9a35f722fa1be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b3576edbf9295ada4a9a35f722fa1be"></a>
+std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getCoordsNormals</b> ()</td></tr>
+<tr class="separator:a5b3576edbf9295ada4a9a35f722fa1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af818c062822f08cef3123ccaecac1c54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af818c062822f08cef3123ccaecac1c54"></a>
+std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getCoordsUV</b> ()</td></tr>
+<tr class="separator:af818c062822f08cef3123ccaecac1c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01fc51a0b21210778ebb10adecee0cf4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01fc51a0b21210778ebb10adecee0cf4"></a>
+std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; float &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getCoordsColors</b> ()</td></tr>
+<tr class="separator:a01fc51a0b21210778ebb10adecee0cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23cabc9361260a06cede1850b928fe52"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a23cabc9361260a06cede1850b928fe52"></a>
+std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; int &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getIndicesVertexes</b> ()</td></tr>
+<tr class="separator:a23cabc9361260a06cede1850b928fe52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad391d7d5eec85f09c9caad57a0069031"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad391d7d5eec85f09c9caad57a0069031"></a>
+std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; int &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getIndicesNormals</b> ()</td></tr>
+<tr class="separator:ad391d7d5eec85f09c9caad57a0069031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a839fb34df89187da37a268e239ce1d41"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a839fb34df89187da37a268e239ce1d41"></a>
+std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; int &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getIndicesUV</b> ()</td></tr>
+<tr class="separator:a839fb34df89187da37a268e239ce1d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a5cf0079a10457f84329a3ea99f07f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54a5cf0079a10457f84329a3ea99f07f"></a>
+std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; int &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getIndicesColors</b> ()</td></tr>
+<tr class="separator:a54a5cf0079a10457f84329a3ea99f07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a589c1b6db574f88ff31c516941b81b14"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a589c1b6db574f88ff31c516941b81b14"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadWavefrontMesh</b> (std::string filename, bool load_normals=true, bool load_uv=false)</td></tr>
+<tr class="separator:a589c1b6db574f88ff31c516941b81b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52cca62f737a3222523aebcef10e2f05"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a52cca62f737a3222523aebcef10e2f05">addTriangle</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;vertex0, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;vertex1, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;vertex2) override</td></tr>
+<tr class="memdesc:a52cca62f737a3222523aebcef10e2f05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a triangle to this triangle mesh, by specifying the three coordinates.  <a href="#a52cca62f737a3222523aebcef10e2f05">More...</a><br /></td></tr>
+<tr class="separator:a52cca62f737a3222523aebcef10e2f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9596960f4298b28c80aea97dbe0a4654"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9596960f4298b28c80aea97dbe0a4654"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a9596960f4298b28c80aea97dbe0a4654">addTriangle</a> (const <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle.html">ChTriangle</a> &amp;atriangle) override</td></tr>
+<tr class="memdesc:a9596960f4298b28c80aea97dbe0a4654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a triangle to this triangle mesh, by specifying a <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle.html" title="A triangle geometric shape for collisions and visualization. ">ChTriangle</a>. <br /></td></tr>
+<tr class="separator:a9596960f4298b28c80aea97dbe0a4654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5244bb4b423c391e32cfa10c7b26309e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5244bb4b423c391e32cfa10c7b26309e"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a5244bb4b423c391e32cfa10c7b26309e">getNumTriangles</a> () const </td></tr>
+<tr class="memdesc:a5244bb4b423c391e32cfa10c7b26309e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of triangles already added to this mesh. <br /></td></tr>
+<tr class="separator:a5244bb4b423c391e32cfa10c7b26309e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00a9c1139e8e921b35751194b1a8677a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00a9c1139e8e921b35751194b1a8677a"></a>
+virtual <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle.html">ChTriangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a00a9c1139e8e921b35751194b1a8677a">getTriangle</a> (int index) const </td></tr>
+<tr class="memdesc:a00a9c1139e8e921b35751194b1a8677a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the n-th triangle in mesh. <br /></td></tr>
+<tr class="separator:a00a9c1139e8e921b35751194b1a8677a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bd125295e4d68761cfbc92cc46eaaf1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bd125295e4d68761cfbc92cc46eaaf1"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a0bd125295e4d68761cfbc92cc46eaaf1">Clear</a> ()</td></tr>
+<tr class="memdesc:a0bd125295e4d68761cfbc92cc46eaaf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all data. <br /></td></tr>
+<tr class="separator:a0bd125295e4d68761cfbc92cc46eaaf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a250979f9702c5edcf7a8485158ecdbc1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a250979f9702c5edcf7a8485158ecdbc1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a250979f9702c5edcf7a8485158ecdbc1">ComputeMassProperties</a> (bool bodyCoords, double &amp;mass, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;center, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;inertia)</td></tr>
+<tr class="memdesc:a250979f9702c5edcf7a8485158ecdbc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute barycenter, mass, inertia tensor. <br /></td></tr>
+<tr class="separator:a250979f9702c5edcf7a8485158ecdbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a2e3b24dc8a77354079901dfca6a22a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a2e3b24dc8a77354079901dfca6a22a"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a5a2e3b24dc8a77354079901dfca6a22a">GetFileName</a> ()</td></tr>
+<tr class="memdesc:a5a2e3b24dc8a77354079901dfca6a22a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the filename of the triangle mesh. <br /></td></tr>
+<tr class="separator:a5a2e3b24dc8a77354079901dfca6a22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac114cbc7572b8223df210257ba7c2639"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac114cbc7572b8223df210257ba7c2639"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#ac114cbc7572b8223df210257ba7c2639">Transform</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; displ, const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; rotscale)</td></tr>
+<tr class="memdesc:ac114cbc7572b8223df210257ba7c2639"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform all vertexes, by displacing and rotating (rotation via matrix, so also scaling if needed) <br /></td></tr>
+<tr class="separator:ac114cbc7572b8223df210257ba7c2639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eb75878aaf51fd13d130d98db7b629d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a0eb75878aaf51fd13d130d98db7b629d">ComputeNeighbouringTriangleMap</a> (std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;tri_map) const </td></tr>
+<tr class="memdesc:a0eb75878aaf51fd13d130d98db7b629d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a map of neighbouring triangles, vector of: [Ti TieA TieB TieC] (the free sides have triangle id = -1).  <a href="#a0eb75878aaf51fd13d130d98db7b629d">More...</a><br /></td></tr>
+<tr class="separator:a0eb75878aaf51fd13d130d98db7b629d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66a528ab645aefb889b7d5fa9372ded4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a66a528ab645aefb889b7d5fa9372ded4">ComputeWingedEdges</a> (std::map&lt; std::pair&lt; int, int &gt;, std::pair&lt; int, int &gt;&gt; &amp;winged_edges, bool allow_single_wing=true) const </td></tr>
+<tr class="memdesc:a66a528ab645aefb889b7d5fa9372ded4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a winged edge structure, map of {key, value} as {{edgevertexA, edgevertexB}, {triangleA, triangleB}} If allow_single_wing = false, only edges with at least 2 triangles are returned.  <a href="#a66a528ab645aefb889b7d5fa9372ded4">More...</a><br /></td></tr>
+<tr class="separator:a66a528ab645aefb889b7d5fa9372ded4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3b3518ae21923cdb984c79f8f66a8de"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#aa3b3518ae21923cdb984c79f8f66a8de">RepairDuplicateVertexes</a> (const double tolerance=1e-18)</td></tr>
+<tr class="memdesc:aa3b3518ae21923cdb984c79f8f66a8de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect overlapping vertexes.  <a href="#aa3b3518ae21923cdb984c79f8f66a8de">More...</a><br /></td></tr>
+<tr class="separator:aa3b3518ae21923cdb984c79f8f66a8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4faf1f1fa17e155320cd051c1daadb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#ac4faf1f1fa17e155320cd051c1daadb9">MakeOffset</a> (const double offset)</td></tr>
+<tr class="memdesc:ac4faf1f1fa17e155320cd051c1daadb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset the mesh, by a specified value, orthogonally to the faces.  <a href="#ac4faf1f1fa17e155320cd051c1daadb9">More...</a><br /></td></tr>
+<tr class="separator:ac4faf1f1fa17e155320cd051c1daadb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91376a62e4083db1db4e6d75f5b841fc"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a91376a62e4083db1db4e6d75f5b841fc">GetTriangleEdgeIndexes</a> (const std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; int &gt;&gt; &amp;indexes, int it, int nedge, bool unique)</td></tr>
+<tr class="memdesc:a91376a62e4083db1db4e6d75f5b841fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the indexes of the two vertexes of the i-th edge of the triangle.  <a href="#a91376a62e4083db1db4e6d75f5b841fc">More...</a><br /></td></tr>
+<tr class="separator:a91376a62e4083db1db4e6d75f5b841fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54f00538bfd1ea352e33a1b45f2beddd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a54f00538bfd1ea352e33a1b45f2beddd">SplitEdge</a> (int itA, int itB, int neA, int neB, int &amp;itA_1, int &amp;itA_2, int &amp;itB_1, int &amp;itB_2, std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;tri_map, std::vector&lt; std::vector&lt; double &gt; * &gt; &amp;aux_data_double, std::vector&lt; std::vector&lt; int &gt; * &gt; &amp;aux_data_int, std::vector&lt; std::vector&lt; bool &gt; * &gt; &amp;aux_data_bool, std::vector&lt; std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;&gt; * &gt; &amp;aux_data_vect)</td></tr>
+<tr class="memdesc:a54f00538bfd1ea352e33a1b45f2beddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split a given edge by inserting a vertex in the middle: from two triangles one gets four triangles.  <a href="#a54f00538bfd1ea352e33a1b45f2beddd">More...</a><br /></td></tr>
+<tr class="separator:a54f00538bfd1ea352e33a1b45f2beddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22e95bf3b78b9ac28351b81338c86112"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a22e95bf3b78b9ac28351b81338c86112">RefineMeshEdges</a> (std::vector&lt; int &gt; &amp;marked_tris, double edge_maxlen, <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected_1_1_ch_refine_edge_criterion.html">ChRefineEdgeCriterion</a> *criterion, std::vector&lt; std::array&lt; int, 4 &gt;&gt; *atri_map, std::vector&lt; std::vector&lt; double &gt; * &gt; &amp;aux_data_double, std::vector&lt; std::vector&lt; int &gt; * &gt; &amp;aux_data_int, std::vector&lt; std::vector&lt; bool &gt; * &gt; &amp;aux_data_bool, std::vector&lt; std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;&gt; * &gt; &amp;aux_data_vect)</td></tr>
+<tr class="memdesc:a22e95bf3b78b9ac28351b81338c86112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs mesh refinement using Rivara LEPP long-edge bisection algorithm.  <a href="#a22e95bf3b78b9ac28351b81338c86112">More...</a><br /></td></tr>
+<tr class="separator:a22e95bf3b78b9ac28351b81338c86112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7472a90db6b8145f72da482026fdbcbb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a591868bac82203818b59423b5331efaf">GeometryType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a7472a90db6b8145f72da482026fdbcbb">GetClassType</a> () const override</td></tr>
+<tr class="memdesc:a7472a90db6b8145f72da482026fdbcbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the class type as unique numerical ID (faster than using ChronoRTTI mechanism).  <a href="#a7472a90db6b8145f72da482026fdbcbb">More...</a><br /></td></tr>
+<tr class="separator:a7472a90db6b8145f72da482026fdbcbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e76a98966755b445487b29b697d2ca8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e76a98966755b445487b29b697d2ca8"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ArchiveOUT</b> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive) override</td></tr>
+<tr class="separator:a5e76a98966755b445487b29b697d2ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0c35ceb9516d794ddd7b18b57609653"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0c35ceb9516d794ddd7b18b57609653"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#af0c35ceb9516d794ddd7b18b57609653">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive) override</td></tr>
+<tr class="memdesc:af0c35ceb9516d794ddd7b18b57609653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:af0c35ceb9516d794ddd7b18b57609653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html">chrono::geometry::ChTriangleMesh</a></td></tr>
+<tr class="memitem:a7db90ef3b5361c463d7c41e5aa9e65fc inherit pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7db90ef3b5361c463d7c41e5aa9e65fc"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html#a7db90ef3b5361c463d7c41e5aa9e65fc">Transform</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; displ, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt;&gt; mquat=<a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt;&gt;(1, 0, 0, 0))</td></tr>
+<tr class="memdesc:a7db90ef3b5361c463d7c41e5aa9e65fc inherit pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform all vertexes, by displacing and rotating (rotation via matrix, so also scaling if needed) <br /></td></tr>
+<tr class="separator:a7db90ef3b5361c463d7c41e5aa9e65fc inherit pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aef058fdf2472060b742a4da24ea374 inherit pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html#a8aef058fdf2472060b742a4da24ea374">GetBoundingBox</a> (double &amp;xmin, double &amp;xmax, double &amp;ymin, double &amp;ymax, double &amp;zmin, double &amp;zmax, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *Rot=NULL) const override</td></tr>
+<tr class="memdesc:a8aef058fdf2472060b742a4da24ea374 inherit pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute bounding box.  <a href="#a8aef058fdf2472060b742a4da24ea374">More...</a><br /></td></tr>
+<tr class="separator:a8aef058fdf2472060b742a4da24ea374 inherit pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3725cce9fca8e450fcd213828dd08f78 inherit pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3725cce9fca8e450fcd213828dd08f78"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html#a3725cce9fca8e450fcd213828dd08f78">CovarianceMatrix</a> (<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;C) const override</td></tr>
+<tr class="memdesc:a3725cce9fca8e450fcd213828dd08f78 inherit pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the 3x3 covariance matrix (only the diagonal and upper part) It should be overriden by inherited classes. <br /></td></tr>
+<tr class="separator:a3725cce9fca8e450fcd213828dd08f78 inherit pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a493ae2f4ee8161cb1a02e48517ba174f inherit pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a493ae2f4ee8161cb1a02e48517ba174f"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html#a493ae2f4ee8161cb1a02e48517ba174f">GetManifoldDimension</a> () const override</td></tr>
+<tr class="memdesc:a493ae2f4ee8161cb1a02e48517ba174f inherit pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a surface. <br /></td></tr>
+<tr class="separator:a493ae2f4ee8161cb1a02e48517ba174f inherit pub_methods_classchrono_1_1geometry_1_1_ch_triangle_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1geometry_1_1_ch_geometry')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">chrono::geometry::ChGeometry</a></td></tr>
+<tr class="memitem:ac71f24fadfded49a2958c823d64f24a3 inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac71f24fadfded49a2958c823d64f24a3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChGeometry</b> (const <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">ChGeometry</a> &amp;source)</td></tr>
+<tr class="separator:ac71f24fadfded49a2958c823d64f24a3 inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a03904bae2729cf9c5d11c4a589923a inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a5a03904bae2729cf9c5d11c4a589923a">InflateBoundingBox</a> (double &amp;xmin, double &amp;xmax, double &amp;ymin, double &amp;ymax, double &amp;zmin, double &amp;zmax, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *Rot=NULL) const </td></tr>
+<tr class="memdesc:a5a03904bae2729cf9c5d11c4a589923a inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enlarge a previous existing bounding box.  <a href="#a5a03904bae2729cf9c5d11c4a589923a">More...</a><br /></td></tr>
+<tr class="separator:a5a03904bae2729cf9c5d11c4a589923a inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27019bd4768c85e209524492626815ed inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27019bd4768c85e209524492626815ed"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a27019bd4768c85e209524492626815ed">Size</a> () const </td></tr>
+<tr class="memdesc:a27019bd4768c85e209524492626815ed inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the radius of the sphere which can enclose the geometry. <br /></td></tr>
+<tr class="separator:a27019bd4768c85e209524492626815ed inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed70e443f71a6de05b7d8735c6b716f3 inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#aed70e443f71a6de05b7d8735c6b716f3">Evaluate</a> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos, const double parU, const double parV=0., const double parW=0.) const </td></tr>
+<tr class="memdesc:aed70e443f71a6de05b7d8735c6b716f3 inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates a point on a geometry, given parametric coordinates, if possible.  <a href="#aed70e443f71a6de05b7d8735c6b716f3">More...</a><br /></td></tr>
+<tr class="separator:aed70e443f71a6de05b7d8735c6b716f3 inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dac6dec8a76377ab9ee5412c60d04af inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a6dac6dec8a76377ab9ee5412c60d04af">Derive</a> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;dir, const double parU, const double parV=0., const double parW=0.) const </td></tr>
+<tr class="memdesc:a6dac6dec8a76377ab9ee5412c60d04af inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates a tangent versor on a geometry, given parametric coordinates, if possible.  <a href="#a6dac6dec8a76377ab9ee5412c60d04af">More...</a><br /></td></tr>
+<tr class="separator:a6dac6dec8a76377ab9ee5412c60d04af inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ac545c280bcec655c72f50262ad84d inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6ac545c280bcec655c72f50262ad84d"></a>
+virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#aa6ac545c280bcec655c72f50262ad84d">Baricenter</a> () const </td></tr>
+<tr class="memdesc:aa6ac545c280bcec655c72f50262ad84d inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute center of mass It should be overriden by inherited classes. <br /></td></tr>
+<tr class="separator:aa6ac545c280bcec655c72f50262ad84d inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdf21f22274cb098ffb200f98973cb11 inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#abdf21f22274cb098ffb200f98973cb11">Update</a> ()</td></tr>
+<tr class="memdesc:abdf21f22274cb098ffb200f98973cb11 inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic update of internal data.  <a href="#abdf21f22274cb098ffb200f98973cb11">More...</a><br /></td></tr>
+<tr class="separator:abdf21f22274cb098ffb200f98973cb11 inherit pub_methods_classchrono_1_1geometry_1_1_ch_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classchrono_1_1geometry_1_1_ch_geometry"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classchrono_1_1geometry_1_1_ch_geometry')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">chrono::geometry::ChGeometry</a></td></tr>
+<tr class="memitem:a591868bac82203818b59423b5331efaf inherit pub_types_classchrono_1_1geometry_1_1_ch_geometry"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a591868bac82203818b59423b5331efaf"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a591868bac82203818b59423b5331efaf">GeometryType</a> { <br />
+&#160;&#160;<b>NONE</b>, 
+<b>SPHERE</b>, 
+<b>BOX</b>, 
+<b>CYLINDER</b>, 
+<br />
+&#160;&#160;<b>TRIANGLE</b>, 
+<b>CAPSULE</b>, 
+<b>CONE</b>, 
+<b>LINE</b>, 
+<br />
+&#160;&#160;<b>LINE_ARC</b>, 
+<b>LINE_BEZIER</b>, 
+<b>LINE_CAM</b>, 
+<b>LINE_PATH</b>, 
+<br />
+&#160;&#160;<b>LINE_POLY</b>, 
+<b>LINE_SEGMENT</b>, 
+<b>ROUNDED_BOX</b>, 
+<b>ROUNDED_CYLINDER</b>, 
+<br />
+&#160;&#160;<b>ROUNDED_CONE</b>, 
+<b>TRIANGLEMESH</b>, 
+<b>TRIANGLEMESH_CONNECTED</b>, 
+<b>TRIANGLEMESH_SOUP</b>
+<br />
+ }<tr class="memdesc:a591868bac82203818b59423b5331efaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of geometric objects. <br /></td></tr>
+</td></tr>
+<tr class="separator:a591868bac82203818b59423b5331efaf inherit pub_types_classchrono_1_1geometry_1_1_ch_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a52cca62f737a3222523aebcef10e2f05"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::geometry::ChTriangleMeshConnected::addTriangle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>vertex0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>vertex1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>vertex2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a triangle to this triangle mesh, by specifying the three coordinates. </p>
+<p>This is disconnected - no vertex sharing is used even if it could be.. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html#a3b6082f6db4b3d5455d430c4a5faa08e">chrono::geometry::ChTriangleMesh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0eb75878aaf51fd13d130d98db7b629d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::geometry::ChTriangleMeshConnected::ComputeNeighbouringTriangleMap </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>tri_map</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a map of neighbouring triangles, vector of: [Ti TieA TieB TieC] (the free sides have triangle id = -1). </p>
+<p>Return false if some edge has more than 2 neighbouring triangles </p>
+
+</div>
+</div>
+<a class="anchor" id="a66a528ab645aefb889b7d5fa9372ded4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::geometry::ChTriangleMeshConnected::ComputeWingedEdges </td>
+          <td>(</td>
+          <td class="paramtype">std::map&lt; std::pair&lt; int, int &gt;, std::pair&lt; int, int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>winged_edges</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allow_single_wing</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a winged edge structure, map of {key, value} as {{edgevertexA, edgevertexB}, {triangleA, triangleB}} If allow_single_wing = false, only edges with at least 2 triangles are returned. </p>
+<p>Else, also boundary edges with 1 triangle (the free side has triangle id = -1). Return false if some edge has more than 2 neighbouring triangles. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7472a90db6b8145f72da482026fdbcbb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a591868bac82203818b59423b5331efaf">GeometryType</a> chrono::geometry::ChTriangleMeshConnected::GetClassType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the class type as unique numerical ID (faster than using ChronoRTTI mechanism). </p>
+<p>Each inherited class must return an unique ID. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html#a65396a97a89cab9b7802907136605ff3">chrono::geometry::ChTriangleMesh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a91376a62e4083db1db4e6d75f5b841fc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; int, int &gt; chrono::geometry::ChTriangleMeshConnected::GetTriangleEdgeIndexes </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>indexes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>it</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nedge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>unique</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the indexes of the two vertexes of the i-th edge of the triangle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indexes</td><td>indexes, xyz per each face, ex. getIndicesVertexes() </td></tr>
+    <tr><td class="paramname">it</td><td>triangle index </td></tr>
+    <tr><td class="paramname">nedge</td><td>number of edge: 0,1,2 </td></tr>
+    <tr><td class="paramname">unique</td><td>if true, swaps the pair so that 1st is always &lt; 2nd id, so can test sharing wiht other triangle </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac4faf1f1fa17e155320cd051c1daadb9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::geometry::ChTriangleMeshConnected::MakeOffset </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>offset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offset the mesh, by a specified value, orthogonally to the faces. </p>
+<p>The offset can be inward or outward. Note: self-collisions and inverted faces resulting from excessive offsets are NOT trimmed; so this is mostly meant to be a fast tool for making small offsets. </p>
+
+</div>
+</div>
+<a class="anchor" id="a22e95bf3b78b9ac28351b81338c86112"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::geometry::ChTriangleMeshConnected::RefineMeshEdges </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>marked_tris</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>edge_maxlen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected_1_1_ch_refine_edge_criterion.html">ChRefineEdgeCriterion</a> *&#160;</td>
+          <td class="paramname"><em>criterion</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::array&lt; int, 4 &gt;&gt; *&#160;</td>
+          <td class="paramname"><em>atri_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; double &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>aux_data_double</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; int &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>aux_data_int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; bool &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>aux_data_bool</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;&gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>aux_data_vect</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Performs mesh refinement using Rivara LEPP long-edge bisection algorithm. </p>
+<p>Given a conforming, non-degenerate triangulation, it construct a locally refined triangulation with a prescribed resolution. This algorithm, for increasing resolution, tends to produce triangles with bounded angles even if starting from skewed/skinny triangles in the coarse mesh. Based on "Multithread parallelization of Lepp-bisection algorithms" M.-C. Rivara et al., Applied Numerical Mathematics 62 (2012) 473–488 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">marked_tris</td><td>indexes of triangles to refine (also surrounding triangles might be affected by refinements) </td></tr>
+    <tr><td class="paramname">edge_maxlen</td><td>maximum length of edge (small values give higher resolution) </td></tr>
+    <tr><td class="paramname">criterion</td><td>criterion for computing lenght (or other merit function) of edge, if =0 uses default (euclidean length) </td></tr>
+    <tr><td class="paramname">atri_map</td><td>triangle connectivity map: use and modify it. Optional. If =0, creates a temporary one just for life span of function. </td></tr>
+    <tr><td class="paramname">aux_data_double</td><td>auxiliary buffers to refine (assuming indexed as vertexes: each with same size as vertex buffer) </td></tr>
+    <tr><td class="paramname">aux_data_int</td><td>auxiliary buffers to refine (assuming indexed as vertexes: each with same size as vertex buffer) </td></tr>
+    <tr><td class="paramname">aux_data_bool</td><td>auxiliary buffers to refine (assuming indexed as vertexes: each with same size as vertex buffer) </td></tr>
+    <tr><td class="paramname">aux_data_vect</td><td>auxiliary buffers to refine (assuming indexed as vertexes: each with same size as vertex buffer) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa3b3518ae21923cdb984c79f8f66a8de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int chrono::geometry::ChTriangleMeshConnected::RepairDuplicateVertexes </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>tolerance</em> = <code>1e-18</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connect overlapping vertexes. </p>
+<p>This can beused to attempt to repair a mesh with 'open edges' to transform it into a watertight mesh. Say, if a cube is modeled with 6 faces with 4 distinct vertexes each, it might display properly, but for some algorithms, ex. collision detection, topological information might be needed, hence adjacent faces must be connected. Return the number of merged vertexes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tolerance</td><td>when vertexes are closer than this value, they are merged </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a54f00538bfd1ea352e33a1b45f2beddd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::geometry::ChTriangleMeshConnected::SplitEdge </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>itA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>itB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>neA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>neB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>itA_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>itA_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>itB_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>itB_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>tri_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; double &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>aux_data_double</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; int &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>aux_data_int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; bool &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>aux_data_bool</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;&gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>aux_data_vect</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split a given edge by inserting a vertex in the middle: from two triangles one gets four triangles. </p>
+<p>It also interpolate normals, colors, uv. It also used and modifies the triangle neighbouring map. If the two triangles do not share an edge, returns false. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itA</td><td>triangle A index, </td></tr>
+    <tr><td class="paramname">itB</td><td>triangle B index, -1 if not existing (means free edge on A) </td></tr>
+    <tr><td class="paramname">neA</td><td>n.edge on tri A: 0,1,2 </td></tr>
+    <tr><td class="paramname">neB</td><td>n.edge on tri B: 0,1,2 </td></tr>
+    <tr><td class="paramname">itA_1</td><td>returns the index of split triangle A, part1 </td></tr>
+    <tr><td class="paramname">itA_2</td><td>returns the index of split triangle A, part2 </td></tr>
+    <tr><td class="paramname">itB_1</td><td>returns the index of split triangle B, part1 </td></tr>
+    <tr><td class="paramname">itB_2</td><td>returns the index of split triangle B, part2 </td></tr>
+    <tr><td class="paramname">tri_map</td><td>triangle neighbouring map </td></tr>
+    <tr><td class="paramname">aux_data_double</td><td>auxiliary buffers to interpolate (assuming indexed as vertexes: each with same size as vertex buffer) </td></tr>
+    <tr><td class="paramname">aux_data_int</td><td>auxiliary buffers to interpolate (assuming indexed as vertexes: each with same size as vertex buffer) </td></tr>
+    <tr><td class="paramname">aux_data_bool</td><td>auxiliary buffers to interpolate (assuming indexed as vertexes: each with same size as vertex buffer) </td></tr>
+    <tr><td class="paramname">aux_data_vect</td><td>auxiliary buffers to interpolate (assuming indexed as vertexes: each with same size as vertex buffer) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:22 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

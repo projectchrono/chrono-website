@@ -1,0 +1,304 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChAdaptiveSpeedController Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html">ChAdaptiveSpeedController</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChAdaptiveSpeedController Class Reference<div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__utils.html">Utility classes</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Data collection from the speed controller can be started (restarted) and suspended (stopped) as many times as desired. </p>
+<p>Data collected so far can be written to a file. The tab-separated output ASCII file contains on each line the time, current desired speed, and current actual speed. </p>
+</div>
+<p><code>#include &lt;ChAdaptiveSpeedController.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a486d3af89cc006006da476c93dbb32ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a486d3af89cc006006da476c93dbb32ab">ChAdaptiveSpeedController</a> ()</td></tr>
+<tr class="memdesc:a486d3af89cc006006da476c93dbb32ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a speed controller with default parameters.  <a href="#a486d3af89cc006006da476c93dbb32ab">More...</a><br /></td></tr>
+<tr class="separator:a486d3af89cc006006da476c93dbb32ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac61af2c75bda4e62d49b83e5ff79c2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afac61af2c75bda4e62d49b83e5ff79c2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#afac61af2c75bda4e62d49b83e5ff79c2">ChAdaptiveSpeedController</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:afac61af2c75bda4e62d49b83e5ff79c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a steering controller with parameters read from a JSON file. <br /></td></tr>
+<tr class="separator:afac61af2c75bda4e62d49b83e5ff79c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8792767ed602235cf7302c85db8e80fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8792767ed602235cf7302c85db8e80fe"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a8792767ed602235cf7302c85db8e80fe">~ChAdaptiveSpeedController</a> ()</td></tr>
+<tr class="memdesc:a8792767ed602235cf7302c85db8e80fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:a8792767ed602235cf7302c85db8e80fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46a988ff9fc24e6b641b0f84e733e55d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a46a988ff9fc24e6b641b0f84e733e55d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a46a988ff9fc24e6b641b0f84e733e55d">SetGains</a> (double Kp, double Ki, double Kd)</td></tr>
+<tr class="memdesc:a46a988ff9fc24e6b641b0f84e733e55d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the gains for the PID controller. <br /></td></tr>
+<tr class="separator:a46a988ff9fc24e6b641b0f84e733e55d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e9b28fdb1880a72d874b89bf18167d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e9b28fdb1880a72d874b89bf18167d0"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a4e9b28fdb1880a72d874b89bf18167d0">GetCurrentSpeed</a> () const </td></tr>
+<tr class="memdesc:a4e9b28fdb1880a72d874b89bf18167d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current speed. <br /></td></tr>
+<tr class="separator:a4e9b28fdb1880a72d874b89bf18167d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b0fe70251753707a9eb8b53cff7c2fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b0fe70251753707a9eb8b53cff7c2fb"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a9b0fe70251753707a9eb8b53cff7c2fb">Reset</a> (const <a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;vehicle)</td></tr>
+<tr class="memdesc:a9b0fe70251753707a9eb8b53cff7c2fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the PID controller. <br /></td></tr>
+<tr class="separator:a9b0fe70251753707a9eb8b53cff7c2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42f2b4d5969ec539a6b1ce9ec72f3753"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a42f2b4d5969ec539a6b1ce9ec72f3753">Advance</a> (const <a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;vehicle, double target_speed, double target_following_time, double target_min_distance, double current_distance, double step)</td></tr>
+<tr class="memdesc:a42f2b4d5969ec539a6b1ce9ec72f3753"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance the state of the PID controller.  <a href="#a42f2b4d5969ec539a6b1ce9ec72f3753">More...</a><br /></td></tr>
+<tr class="separator:a42f2b4d5969ec539a6b1ce9ec72f3753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24d5ebb78112d70a760e6fae2b33a48b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a24d5ebb78112d70a760e6fae2b33a48b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a24d5ebb78112d70a760e6fae2b33a48b">StartDataCollection</a> ()</td></tr>
+<tr class="memdesc:a24d5ebb78112d70a760e6fae2b33a48b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start/restart data collection. <br /></td></tr>
+<tr class="separator:a24d5ebb78112d70a760e6fae2b33a48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb07054831c8108d6fb86773a71aec68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb07054831c8108d6fb86773a71aec68"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#aeb07054831c8108d6fb86773a71aec68">StopDataCollection</a> ()</td></tr>
+<tr class="memdesc:aeb07054831c8108d6fb86773a71aec68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspend/stop data collection. <br /></td></tr>
+<tr class="separator:aeb07054831c8108d6fb86773a71aec68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f4e9652bc1a3b8a8964119f520de880"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f4e9652bc1a3b8a8964119f520de880"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a8f4e9652bc1a3b8a8964119f520de880">IsDataCollectionEnabled</a> () const </td></tr>
+<tr class="memdesc:a8f4e9652bc1a3b8a8964119f520de880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if data is being collected. <br /></td></tr>
+<tr class="separator:a8f4e9652bc1a3b8a8964119f520de880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b25cef9b6480b80b12cb3a0718fac0f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b25cef9b6480b80b12cb3a0718fac0f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a6b25cef9b6480b80b12cb3a0718fac0f">IsDataAvailable</a> () const </td></tr>
+<tr class="memdesc:a6b25cef9b6480b80b12cb3a0718fac0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if data is available for output. <br /></td></tr>
+<tr class="separator:a6b25cef9b6480b80b12cb3a0718fac0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57ee13382c4e56b7369e0d96f9153e9e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57ee13382c4e56b7369e0d96f9153e9e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a57ee13382c4e56b7369e0d96f9153e9e">WriteOutputFile</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:a57ee13382c4e56b7369e0d96f9153e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output data collected so far to the specified file. <br /></td></tr>
+<tr class="separator:a57ee13382c4e56b7369e0d96f9153e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a399f07fa3d226d9358674731348d534c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a399f07fa3d226d9358674731348d534c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a399f07fa3d226d9358674731348d534c">m_speed</a></td></tr>
+<tr class="memdesc:a399f07fa3d226d9358674731348d534c"><td class="mdescLeft">&#160;</td><td class="mdescRight">current vehicle speed <br /></td></tr>
+<tr class="separator:a399f07fa3d226d9358674731348d534c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bdbc766dc14412db99e9474e4a3121a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3bdbc766dc14412db99e9474e4a3121a"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>m_Kp</b></td></tr>
+<tr class="separator:a3bdbc766dc14412db99e9474e4a3121a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb69625bd16d9d88e13c46494f970575"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb69625bd16d9d88e13c46494f970575"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#aeb69625bd16d9d88e13c46494f970575">m_Ki</a></td></tr>
+<tr class="memdesc:aeb69625bd16d9d88e13c46494f970575"><td class="mdescLeft">&#160;</td><td class="mdescRight">PID controller gains. <br /></td></tr>
+<tr class="separator:aeb69625bd16d9d88e13c46494f970575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19b864ce0f44a3dc09cec1573b6e1413"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a19b864ce0f44a3dc09cec1573b6e1413"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>m_Kd</b></td></tr>
+<tr class="separator:a19b864ce0f44a3dc09cec1573b6e1413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb3b0a909fc9104fc0c7c7f21b71c11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1fb3b0a909fc9104fc0c7c7f21b71c11"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a1fb3b0a909fc9104fc0c7c7f21b71c11">m_err</a></td></tr>
+<tr class="memdesc:a1fb3b0a909fc9104fc0c7c7f21b71c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">current error (signed distance to target point) <br /></td></tr>
+<tr class="separator:a1fb3b0a909fc9104fc0c7c7f21b71c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a936d38f54a3ebe1c07efd24357942d67"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a936d38f54a3ebe1c07efd24357942d67"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a936d38f54a3ebe1c07efd24357942d67">m_errd</a></td></tr>
+<tr class="memdesc:a936d38f54a3ebe1c07efd24357942d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">error derivative <br /></td></tr>
+<tr class="separator:a936d38f54a3ebe1c07efd24357942d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad340486796e5b794d64b6b1b24bc2723"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad340486796e5b794d64b6b1b24bc2723"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#ad340486796e5b794d64b6b1b24bc2723">m_erri</a></td></tr>
+<tr class="memdesc:ad340486796e5b794d64b6b1b24bc2723"><td class="mdescLeft">&#160;</td><td class="mdescRight">integral of error <br /></td></tr>
+<tr class="separator:ad340486796e5b794d64b6b1b24bc2723"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f81c54181ac6e0558f3eb4295e4513"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9f81c54181ac6e0558f3eb4295e4513"></a>
+utils::CSV_writer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#ab9f81c54181ac6e0558f3eb4295e4513">m_csv</a></td></tr>
+<tr class="memdesc:ab9f81c54181ac6e0558f3eb4295e4513"><td class="mdescLeft">&#160;</td><td class="mdescRight">CSV_writer object for data collection. <br /></td></tr>
+<tr class="separator:ab9f81c54181ac6e0558f3eb4295e4513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec598f346ffd0ac693cb47e76be95bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4ec598f346ffd0ac693cb47e76be95bf"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html#a4ec598f346ffd0ac693cb47e76be95bf">m_collect</a></td></tr>
+<tr class="memdesc:a4ec598f346ffd0ac693cb47e76be95bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag indicating whether or not data is being collected <br /></td></tr>
+<tr class="separator:a4ec598f346ffd0ac693cb47e76be95bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a486d3af89cc006006da476c93dbb32ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::vehicle::ChAdaptiveSpeedController::ChAdaptiveSpeedController </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a speed controller with default parameters. </p>
+<p>Default values are all gains set to zero (no controller). The user is responsible for calling SetGains. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a42f2b4d5969ec539a6b1ce9ec72f3753"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::vehicle::ChAdaptiveSpeedController::Advance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;&#160;</td>
+          <td class="paramname"><em>vehicle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>target_speed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>target_following_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>target_min_distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>current_distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>step</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Advance the state of the PID controller. </p>
+<p>This function performs the required integration for the integral component of the PID controller and returns the calculated controller value. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:23 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

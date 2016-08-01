@@ -1,0 +1,438 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChOptimizerLocal Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_optimizer_local.html">ChOptimizerLocal</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="classchrono_1_1_ch_optimizer_local-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChOptimizerLocal Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for local optimization with the pseudo-Newton method. </p>
+</div>
+<p><code>#include &lt;ChSolvmin.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChOptimizerLocal:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_optimizer_local__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_optimizer_local_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_optimizer_local_inherit__map" id="chrono_1_1_ch_optimizer_local_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_optimizer.html" title="Base class for multi&#45;variable optimization. " alt="" coords="21,80,163,107"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="39,5,145,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::ChOptimizerLocal:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_optimizer_local__coll__graph.png" border="0" usemap="#chrono_1_1_ch_optimizer_local_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1_ch_optimizer_local_coll__map" id="chrono_1_1_ch_optimizer_local_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_optimizer.html" title="Base class for multi&#45;variable optimization. " alt="" coords="51,109,194,136"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_fx.html" title="Abstract interface class for math functions of the type A=f(B) where A and B are vectors of real valu..." alt="" coords="136,5,237,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a414bdb0bc346323f31635808012fc5ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a414bdb0bc346323f31635808012fc5ea"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChOptimizerLocal</b> (const <a class="el" href="classchrono_1_1_ch_optimizer_local.html">ChOptimizerLocal</a> &amp;other)</td></tr>
+<tr class="separator:a414bdb0bc346323f31635808012fc5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa36ef3b7fb985adcf5d0d78690eb0dd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa36ef3b7fb985adcf5d0d78690eb0dd"></a>
+virtual <a class="el" href="classchrono_1_1_ch_optimizer_local.html">ChOptimizerLocal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer_local.html#afa36ef3b7fb985adcf5d0d78690eb0dd">Clone</a> () const override</td></tr>
+<tr class="memdesc:afa36ef3b7fb985adcf5d0d78690eb0dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Virtual" copy constructor (covariant return type). <br /></td></tr>
+<tr class="separator:afa36ef3b7fb985adcf5d0d78690eb0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a948725076568ce19b9884ae4b34fdcf3"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer_local.html#a948725076568ce19b9884ae4b34fdcf3">DoOptimize</a> () override</td></tr>
+<tr class="memdesc:a948725076568ce19b9884ae4b34fdcf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function computes the optimal xv[].  <a href="#a948725076568ce19b9884ae4b34fdcf3">More...</a><br /></td></tr>
+<tr class="separator:a948725076568ce19b9884ae4b34fdcf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_optimizer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_optimizer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_optimizer.html">chrono::ChOptimizer</a></td></tr>
+<tr class="memitem:ac0d85f1b968707d9c0361e58d2f1a277 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0d85f1b968707d9c0361e58d2f1a277"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChOptimizer</b> (const <a class="el" href="classchrono_1_1_ch_optimizer.html">ChOptimizer</a> &amp;other)</td></tr>
+<tr class="separator:ac0d85f1b968707d9c0361e58d2f1a277 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af202ba2a1ffb69a0a605c2cd8fa1dad6 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af202ba2a1ffb69a0a605c2cd8fa1dad6"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#af202ba2a1ffb69a0a605c2cd8fa1dad6">SetObjective</a> (<a class="el" href="classchrono_1_1_ch_fx.html">ChFx</a> *mformula)</td></tr>
+<tr class="memdesc:af202ba2a1ffb69a0a605c2cd8fa1dad6 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the objective function to maximize. <br /></td></tr>
+<tr class="separator:af202ba2a1ffb69a0a605c2cd8fa1dad6 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af60f62542b1526356f344b4499c46641 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af60f62542b1526356f344b4499c46641"></a>
+virtual <a class="el" href="classchrono_1_1_ch_fx.html">ChFx</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetObjective</b> () const </td></tr>
+<tr class="separator:af60f62542b1526356f344b4499c46641 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad10dc4c84d7ca3594858d44dca908f inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a5ad10dc4c84d7ca3594858d44dca908f">SetObjectiveGrad</a> (<a class="el" href="classchrono_1_1_ch_fx.html">ChFx</a> *mformula)</td></tr>
+<tr class="memdesc:a5ad10dc4c84d7ca3594858d44dca908f inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the objective function gradient (not mandatory, because if not set, the default bacward differentiation is used).  <a href="#a5ad10dc4c84d7ca3594858d44dca908f">More...</a><br /></td></tr>
+<tr class="separator:a5ad10dc4c84d7ca3594858d44dca908f inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a685bab4d29bc86cdf2277b558eaf219d inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a685bab4d29bc86cdf2277b558eaf219d"></a>
+virtual <a class="el" href="classchrono_1_1_ch_fx.html">ChFx</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetObjectiveGrad</b> () const </td></tr>
+<tr class="separator:a685bab4d29bc86cdf2277b558eaf219d inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3527402c51e9837e081b8e6e8f9b93d0 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a3527402c51e9837e081b8e6e8f9b93d0">SetNumOfVars</a> (int mv)</td></tr>
+<tr class="memdesc:a3527402c51e9837e081b8e6e8f9b93d0 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of optimization variables.  <a href="#a3527402c51e9837e081b8e6e8f9b93d0">More...</a><br /></td></tr>
+<tr class="separator:a3527402c51e9837e081b8e6e8f9b93d0 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b15b4902054f1a164ce9a5b92fa24a5 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b15b4902054f1a164ce9a5b92fa24a5"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a7b15b4902054f1a164ce9a5b92fa24a5">GetNumOfVars</a> () const </td></tr>
+<tr class="memdesc:a7b15b4902054f1a164ce9a5b92fa24a5 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of optimization variables. <br /></td></tr>
+<tr class="separator:a7b15b4902054f1a164ce9a5b92fa24a5 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a114f7fca9701ab0082a18688cda0337a inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a114f7fca9701ab0082a18688cda0337a"></a>
+double *&#160;</td><td class="memItemRight" valign="bottom"><b>GetXv</b> () const </td></tr>
+<tr class="separator:a114f7fca9701ab0082a18688cda0337a inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab31507b1343060423ccd9c200b36e946 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab31507b1343060423ccd9c200b36e946"></a>
+double *&#160;</td><td class="memItemRight" valign="bottom"><b>GetXv_sup</b> () const </td></tr>
+<tr class="separator:ab31507b1343060423ccd9c200b36e946 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91c67e247ad59c25f1813d837324abee inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a91c67e247ad59c25f1813d837324abee"></a>
+double *&#160;</td><td class="memItemRight" valign="bottom"><b>GetXv_inf</b> () const </td></tr>
+<tr class="separator:a91c67e247ad59c25f1813d837324abee inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf88e639eb8ab72d19bae48897f10e6a inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf88e639eb8ab72d19bae48897f10e6a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetXv</b> (double *mx)</td></tr>
+<tr class="separator:aaf88e639eb8ab72d19bae48897f10e6a inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48aae0e45de4dec0ff650165ceb8096b inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48aae0e45de4dec0ff650165ceb8096b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetXv_sup</b> (double *mx)</td></tr>
+<tr class="separator:a48aae0e45de4dec0ff650165ceb8096b inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e15a04747674fefdac37b2868e5b40c inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e15a04747674fefdac37b2868e5b40c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetXv_inf</b> (double *mx)</td></tr>
+<tr class="separator:a0e15a04747674fefdac37b2868e5b40c inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade5531fe5dbd887acb7d23a35ae5d170 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#ade5531fe5dbd887acb7d23a35ae5d170">Eval_fx</a> (double x[])</td></tr>
+<tr class="memdesc:ade5531fe5dbd887acb7d23a35ae5d170 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the functional, for given state of variables and with the given "database" multibody system.  <a href="#ade5531fe5dbd887acb7d23a35ae5d170">More...</a><br /></td></tr>
+<tr class="separator:ade5531fe5dbd887acb7d23a35ae5d170 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a189e10a2e6199b76469284e39a5a5cb9 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a189e10a2e6199b76469284e39a5a5cb9"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Eval_fx</b> (const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; *x)</td></tr>
+<tr class="separator:a189e10a2e6199b76469284e39a5a5cb9 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a885c7b32a3e9c79c9ac8487615feadca inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a885c7b32a3e9c79c9ac8487615feadca">Eval_grad</a> (double x[], double gr[])</td></tr>
+<tr class="memdesc:a885c7b32a3e9c79c9ac8487615feadca inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the gradient of objective function, for given state of variables.  <a href="#a885c7b32a3e9c79c9ac8487615feadca">More...</a><br /></td></tr>
+<tr class="separator:a885c7b32a3e9c79c9ac8487615feadca inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84adc4c1299dfba514c1215803ac4f88 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84adc4c1299dfba514c1215803ac4f88"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Eval_grad</b> (const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; *x, <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; *gr)</td></tr>
+<tr class="separator:a84adc4c1299dfba514c1215803ac4f88 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52bee6a0aa430e8674438c4b13edf27f inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a52bee6a0aa430e8674438c4b13edf27f">PreOptimize</a> ()</td></tr>
+<tr class="memdesc:a52bee6a0aa430e8674438c4b13edf27f inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the optimization of the <a class="el" href="classchrono_1_1_ch_system.html" title="Physical system. ">ChSystem</a> pointed by "database" (or whatever object which can evaluate the string "function" and the "optvarlist") using the current parameters.  <a href="#a52bee6a0aa430e8674438c4b13edf27f">More...</a><br /></td></tr>
+<tr class="separator:a52bee6a0aa430e8674438c4b13edf27f inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36efb344028a1d6e400fc3f3b329835e inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36efb344028a1d6e400fc3f3b329835e"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a36efb344028a1d6e400fc3f3b329835e">PostOptimize</a> ()</td></tr>
+<tr class="memdesc:a36efb344028a1d6e400fc3f3b329835e inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalization and cleanup. <br /></td></tr>
+<tr class="separator:a36efb344028a1d6e400fc3f3b329835e inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee5c95235ae7822b6ae9cfe6043ef764 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#aee5c95235ae7822b6ae9cfe6043ef764">Optimize</a> ()</td></tr>
+<tr class="memdesc:aee5c95235ae7822b6ae9cfe6043ef764 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the three steps in sequence PreOptimize, DoOptimize, PostOptimize.  <a href="#aee5c95235ae7822b6ae9cfe6043ef764">More...</a><br /></td></tr>
+<tr class="separator:aee5c95235ae7822b6ae9cfe6043ef764 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a344e7e449bde2c8b9fa2c85981ca4278 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a344e7e449bde2c8b9fa2c85981ca4278">DoBreakCheck</a> ()</td></tr>
+<tr class="memdesc:a344e7e449bde2c8b9fa2c85981ca4278 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each break_cycles number of times this fx is called, the function <a class="el" href="classchrono_1_1_ch_optimizer.html#a7d51d5f07c82e176df6037302cdbad64" title="if not null, this function is called each &#39;break_cycles&#39; evaluations ">break_funct()</a> is evaluated (if any) and if positive, the variable user_break becomes true.  <a href="#a344e7e449bde2c8b9fa2c85981ca4278">More...</a><br /></td></tr>
+<tr class="separator:a344e7e449bde2c8b9fa2c85981ca4278 inherit pub_methods_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_obj"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_obj')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_obj.html">chrono::ChObj</a></td></tr>
+<tr class="memitem:a3bcb7a534dd77133ec646dce66f0aec3 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3bcb7a534dd77133ec646dce66f0aec3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChObj</b> (const <a class="el" href="classchrono_1_1_ch_obj.html">ChObj</a> &amp;other)</td></tr>
+<tr class="separator:a3bcb7a534dd77133ec646dce66f0aec3 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2a14a6aa0ed3984c59edec33237be0b inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac2a14a6aa0ed3984c59edec33237be0b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#ac2a14a6aa0ed3984c59edec33237be0b">GetIdentifier</a> () const </td></tr>
+<tr class="memdesc:ac2a14a6aa0ed3984c59edec33237be0b inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the numerical identifier of the object. <br /></td></tr>
+<tr class="separator:ac2a14a6aa0ed3984c59edec33237be0b inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b7cb702661077cd5ba31d9ae8f81ae7 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b7cb702661077cd5ba31d9ae8f81ae7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a5b7cb702661077cd5ba31d9ae8f81ae7">SetIdentifier</a> (int id)</td></tr>
+<tr class="memdesc:a5b7cb702661077cd5ba31d9ae8f81ae7 inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the numerical identifier of the object. <br /></td></tr>
+<tr class="separator:a5b7cb702661077cd5ba31d9ae8f81ae7 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b228cfd939fa5d7417bca15c4e54b6 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16b228cfd939fa5d7417bca15c4e54b6"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a16b228cfd939fa5d7417bca15c4e54b6">GetChTime</a> () const </td></tr>
+<tr class="memdesc:a16b228cfd939fa5d7417bca15c4e54b6 inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the simulation time of this object. <br /></td></tr>
+<tr class="separator:a16b228cfd939fa5d7417bca15c4e54b6 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5846a7dd43ba7287f72e84ebd347075c inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5846a7dd43ba7287f72e84ebd347075c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a5846a7dd43ba7287f72e84ebd347075c">SetChTime</a> (double m_time)</td></tr>
+<tr class="memdesc:a5846a7dd43ba7287f72e84ebd347075c inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the simulation time of this object. <br /></td></tr>
+<tr class="separator:a5846a7dd43ba7287f72e84ebd347075c inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada888ab00f5590206e69d39750cb81b5 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada888ab00f5590206e69d39750cb81b5"></a>
+const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#ada888ab00f5590206e69d39750cb81b5">GetName</a> () const </td></tr>
+<tr class="memdesc:ada888ab00f5590206e69d39750cb81b5 inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of the object as C Ascii null-terminated string -for reading only! <br /></td></tr>
+<tr class="separator:ada888ab00f5590206e69d39750cb81b5 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a9ac3581a87befea9551e31feedfb5 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42a9ac3581a87befea9551e31feedfb5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a42a9ac3581a87befea9551e31feedfb5">SetName</a> (const char myname[])</td></tr>
+<tr class="memdesc:a42a9ac3581a87befea9551e31feedfb5 inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the name of this object, as ascii string. <br /></td></tr>
+<tr class="separator:a42a9ac3581a87befea9551e31feedfb5 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99b0c0a81cc30c53e9817a4de4bfe4cf inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99b0c0a81cc30c53e9817a4de4bfe4cf"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a99b0c0a81cc30c53e9817a4de4bfe4cf">GetNameString</a> () const </td></tr>
+<tr class="memdesc:a99b0c0a81cc30c53e9817a4de4bfe4cf inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of the object as C Ascii null-terminated string. <br /></td></tr>
+<tr class="separator:a99b0c0a81cc30c53e9817a4de4bfe4cf inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1623ac30e060c3fd053c62139199e3f inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad1623ac30e060c3fd053c62139199e3f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#ad1623ac30e060c3fd053c62139199e3f">SetNameString</a> (const std::string &amp;myname)</td></tr>
+<tr class="memdesc:ad1623ac30e060c3fd053c62139199e3f inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the name of this object, as std::string. <br /></td></tr>
+<tr class="separator:ad1623ac30e060c3fd053c62139199e3f inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adff8948176e374ff9f87dbb5ec82d299 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adff8948176e374ff9f87dbb5ec82d299"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MFlagsSetAllOFF</b> (int &amp;mflag)</td></tr>
+<tr class="separator:adff8948176e374ff9f87dbb5ec82d299 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa47f99fa69334ef3a5c83f59a7fb4072 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa47f99fa69334ef3a5c83f59a7fb4072"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MFlagsSetAllON</b> (int &amp;mflag)</td></tr>
+<tr class="separator:aa47f99fa69334ef3a5c83f59a7fb4072 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2a88edbfad8ebecafe5bde528e5918a inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2a88edbfad8ebecafe5bde528e5918a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MFlagSetON</b> (int &amp;mflag, int mask)</td></tr>
+<tr class="separator:ab2a88edbfad8ebecafe5bde528e5918a inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecf512c1e80abcd793587e51ae3b825e inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecf512c1e80abcd793587e51ae3b825e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MFlagSetOFF</b> (int &amp;mflag, int mask)</td></tr>
+<tr class="separator:aecf512c1e80abcd793587e51ae3b825e inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab96b3dc3aab7507a2c778373b741bed3 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab96b3dc3aab7507a2c778373b741bed3"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>MFlagGet</b> (int &amp;mflag, int mask)</td></tr>
+<tr class="separator:ab96b3dc3aab7507a2c778373b741bed3 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e7f3a68c9aafa33e1cba9fbca030011 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e7f3a68c9aafa33e1cba9fbca030011"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a8e7f3a68c9aafa33e1cba9fbca030011">ArchiveOUT</a> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a8e7f3a68c9aafa33e1cba9fbca030011 inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow serialization of transient data in archives. <br /></td></tr>
+<tr class="separator:a8e7f3a68c9aafa33e1cba9fbca030011 inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb3ec9ec347d201072e377370922a42c inherit pub_methods_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb3ec9ec347d201072e377370922a42c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#abb3ec9ec347d201072e377370922a42c">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="memdesc:abb3ec9ec347d201072e377370922a42c inherit pub_methods_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:abb3ec9ec347d201072e377370922a42c inherit pub_methods_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aa80832b32685742cf5261af120bb9472"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa80832b32685742cf5261af120bb9472"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>initial_step</b></td></tr>
+<tr class="separator:aa80832b32685742cf5261af120bb9472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81ad085e85ce62cfb42d2c17f6496b2e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81ad085e85ce62cfb42d2c17f6496b2e"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>arg_tol</b></td></tr>
+<tr class="separator:a81ad085e85ce62cfb42d2c17f6496b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a487b44f34320db52de34104f4e50da3f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a487b44f34320db52de34104f4e50da3f"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>fun_tol</b></td></tr>
+<tr class="separator:a487b44f34320db52de34104f4e50da3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac44677f87cf93418500893a64a80f45d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac44677f87cf93418500893a64a80f45d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>maxiters</b></td></tr>
+<tr class="separator:ac44677f87cf93418500893a64a80f45d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b6be12025d05803dbdca42e6048e4d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1b6be12025d05803dbdca42e6048e4d1"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>maxevaluations</b></td></tr>
+<tr class="separator:a1b6be12025d05803dbdca42e6048e4d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f8cf15569dcc7bb2ba97de4f5e60ca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21f8cf15569dcc7bb2ba97de4f5e60ca"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>gamma</b></td></tr>
+<tr class="separator:a21f8cf15569dcc7bb2ba97de4f5e60ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13086796f8597ba493db827b6bd8b8e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13086796f8597ba493db827b6bd8b8e0"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>dilation</b></td></tr>
+<tr class="separator:a13086796f8597ba493db827b6bd8b8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9134f884acfb23a9299aa283533536"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a9134f884acfb23a9299aa283533536"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>gradstep</b></td></tr>
+<tr class="separator:a9a9134f884acfb23a9299aa283533536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4b9e805bf45a0982f679b4ad12d859a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4b9e805bf45a0982f679b4ad12d859a"></a>
+long&#160;</td><td class="memItemRight" valign="bottom"><b>iters_done</b></td></tr>
+<tr class="separator:ad4b9e805bf45a0982f679b4ad12d859a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classchrono_1_1_ch_optimizer"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classchrono_1_1_ch_optimizer')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classchrono_1_1_ch_optimizer.html">chrono::ChOptimizer</a></td></tr>
+<tr class="memitem:a284db236e51d13e70c279e0de1bff346 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a284db236e51d13e70c279e0de1bff346"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a284db236e51d13e70c279e0de1bff346">minimize</a></td></tr>
+<tr class="memdesc:a284db236e51d13e70c279e0de1bff346 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">default = false; just maximize <br /></td></tr>
+<tr class="separator:a284db236e51d13e70c279e0de1bff346 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88bb6d795ea5b3d274f821757b7e44ee inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88bb6d795ea5b3d274f821757b7e44ee"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a88bb6d795ea5b3d274f821757b7e44ee">grad_step</a></td></tr>
+<tr class="memdesc:a88bb6d795ea5b3d274f821757b7e44ee inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">default = 1.e-12; step size for evaluation of gradient <br /></td></tr>
+<tr class="separator:a88bb6d795ea5b3d274f821757b7e44ee inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a406be39898632321dcb6f8204a5b2098 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a406be39898632321dcb6f8204a5b2098"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a406be39898632321dcb6f8204a5b2098">opt_fx</a></td></tr>
+<tr class="memdesc:a406be39898632321dcb6f8204a5b2098 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">best resulting value of objective function <br /></td></tr>
+<tr class="separator:a406be39898632321dcb6f8204a5b2098 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a860c43c2417e3cc77c3915f4b39a69af inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a860c43c2417e3cc77c3915f4b39a69af"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a860c43c2417e3cc77c3915f4b39a69af">err_message</a> [200]</td></tr>
+<tr class="memdesc:a860c43c2417e3cc77c3915f4b39a69af inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">the ok/warning/error messages are written here <br /></td></tr>
+<tr class="separator:a860c43c2417e3cc77c3915f4b39a69af inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a670079056ec588a93b9b47e12ec647b4 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a670079056ec588a93b9b47e12ec647b4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>error_code</b></td></tr>
+<tr class="separator:a670079056ec588a93b9b47e12ec647b4 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b6f381ceb65c824a1d5ce34a31ac068 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b6f381ceb65c824a1d5ce34a31ac068"></a>
+long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a6b6f381ceb65c824a1d5ce34a31ac068">fx_evaluations</a></td></tr>
+<tr class="memdesc:a6b6f381ceb65c824a1d5ce34a31ac068 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of function evaluations <br /></td></tr>
+<tr class="separator:a6b6f381ceb65c824a1d5ce34a31ac068 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c02e1e5bb113ef78a45663822b7aeb inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38c02e1e5bb113ef78a45663822b7aeb"></a>
+long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a38c02e1e5bb113ef78a45663822b7aeb">grad_evaluations</a></td></tr>
+<tr class="memdesc:a38c02e1e5bb113ef78a45663822b7aeb inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of gradient evaluations <br /></td></tr>
+<tr class="separator:a38c02e1e5bb113ef78a45663822b7aeb inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d51d5f07c82e176df6037302cdbad64 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d51d5f07c82e176df6037302cdbad64"></a>
+int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a7d51d5f07c82e176df6037302cdbad64">break_funct</a> )()</td></tr>
+<tr class="memdesc:a7d51d5f07c82e176df6037302cdbad64 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not null, this function is called each 'break_cycles' evaluations <br /></td></tr>
+<tr class="separator:a7d51d5f07c82e176df6037302cdbad64 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e08da132902fae26ba779d66dbd925f inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e08da132902fae26ba779d66dbd925f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a4e08da132902fae26ba779d66dbd925f">break_cycles</a></td></tr>
+<tr class="memdesc:a4e08da132902fae26ba779d66dbd925f inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many fx evaluations per check <br /></td></tr>
+<tr class="separator:a4e08da132902fae26ba779d66dbd925f inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25400c332d5f70e9eca360ef305b122d inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25400c332d5f70e9eca360ef305b122d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a25400c332d5f70e9eca360ef305b122d">user_break</a></td></tr>
+<tr class="memdesc:a25400c332d5f70e9eca360ef305b122d inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <a class="el" href="classchrono_1_1_ch_optimizer.html#a7d51d5f07c82e176df6037302cdbad64" title="if not null, this function is called each &#39;break_cycles&#39; evaluations ">break_funct()</a> reported TRUE, this flag is ON, and optimizers should exit all cycles <br /></td></tr>
+<tr class="separator:a25400c332d5f70e9eca360ef305b122d inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c9e826102687d2d12b6d53f8a67e024 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2c9e826102687d2d12b6d53f8a67e024"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a2c9e826102687d2d12b6d53f8a67e024">break_cyclecounter</a></td></tr>
+<tr class="memdesc:a2c9e826102687d2d12b6d53f8a67e024 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal <br /></td></tr>
+<tr class="separator:a2c9e826102687d2d12b6d53f8a67e024 inherit pub_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_optimizer"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_optimizer')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_optimizer.html">chrono::ChOptimizer</a></td></tr>
+<tr class="memitem:adaabe2ec7a24d1494c74daa9ddb4d37d inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adaabe2ec7a24d1494c74daa9ddb4d37d"></a>
+<a class="el" href="classchrono_1_1_ch_fx.html">ChFx</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#adaabe2ec7a24d1494c74daa9ddb4d37d">afunction</a></td></tr>
+<tr class="memdesc:adaabe2ec7a24d1494c74daa9ddb4d37d inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">the function to be maximized <br /></td></tr>
+<tr class="separator:adaabe2ec7a24d1494c74daa9ddb4d37d inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3765c8f6ab6103d6a148df6c11e8fa2d inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3765c8f6ab6103d6a148df6c11e8fa2d"></a>
+<a class="el" href="classchrono_1_1_ch_fx.html">ChFx</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a3765c8f6ab6103d6a148df6c11e8fa2d">afunctionGrad</a></td></tr>
+<tr class="memdesc:a3765c8f6ab6103d6a148df6c11e8fa2d inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">the gradient of the function to be maximized, or null for default BDF. <br /></td></tr>
+<tr class="separator:a3765c8f6ab6103d6a148df6c11e8fa2d inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a433916bf00246729519bcbcd2017a3e9 inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a433916bf00246729519bcbcd2017a3e9"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a433916bf00246729519bcbcd2017a3e9">C_vars</a></td></tr>
+<tr class="memdesc:a433916bf00246729519bcbcd2017a3e9 inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of input variables <br /></td></tr>
+<tr class="separator:a433916bf00246729519bcbcd2017a3e9 inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a392f776874fed3e3db8ea02c600338ea inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a392f776874fed3e3db8ea02c600338ea"></a>
+double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a392f776874fed3e3db8ea02c600338ea">xv</a></td></tr>
+<tr class="memdesc:a392f776874fed3e3db8ea02c600338ea inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of variables, also 1st approximation. <br /></td></tr>
+<tr class="separator:a392f776874fed3e3db8ea02c600338ea inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70c80ff97f2f159e9bfd0c69ec50f714 inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70c80ff97f2f159e9bfd0c69ec50f714"></a>
+double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a70c80ff97f2f159e9bfd0c69ec50f714">xv_sup</a></td></tr>
+<tr class="memdesc:a70c80ff97f2f159e9bfd0c69ec50f714 inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">These are the hi/lo limits for the variables,. <br /></td></tr>
+<tr class="separator:a70c80ff97f2f159e9bfd0c69ec50f714 inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ca5fab9d66cffe0711d99bab0b74a4e inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ca5fab9d66cffe0711d99bab0b74a4e"></a>
+double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_optimizer.html#a9ca5fab9d66cffe0711d99bab0b74a4e">xv_inf</a></td></tr>
+<tr class="memdesc:a9ca5fab9d66cffe0711d99bab0b74a4e inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="mdescLeft">&#160;</td><td class="mdescRight">these are not used by all optimizer, and can be NULL for gradient, but needed for genetic. <br /></td></tr>
+<tr class="separator:a9ca5fab9d66cffe0711d99bab0b74a4e inherit pro_attribs_classchrono_1_1_ch_optimizer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_obj"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_obj')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_obj.html">chrono::ChObj</a></td></tr>
+<tr class="memitem:a5b53ca5737e905210ab41f55c6b37cbf inherit pro_attribs_classchrono_1_1_ch_obj"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b53ca5737e905210ab41f55c6b37cbf"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_obj.html#a5b53ca5737e905210ab41f55c6b37cbf">ChTime</a></td></tr>
+<tr class="memdesc:a5b53ca5737e905210ab41f55c6b37cbf inherit pro_attribs_classchrono_1_1_ch_obj"><td class="mdescLeft">&#160;</td><td class="mdescRight">the time of simulation for the object <br /></td></tr>
+<tr class="separator:a5b53ca5737e905210ab41f55c6b37cbf inherit pro_attribs_classchrono_1_1_ch_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a948725076568ce19b9884ae4b34fdcf3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int chrono::ChOptimizerLocal::DoOptimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function computes the optimal xv[]. </p>
+<p>It must be implemented by derived classes </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_optimizer.html#a0619bcba4dfe0d0c101715662cab54a3">chrono::ChOptimizer</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:17 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

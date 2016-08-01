@@ -1,0 +1,419 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::collision::ChModelSphereSetBody Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1collision.html">collision</a></li><li class="navelem"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set_body.html">ChModelSphereSetBody</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1collision_1_1_ch_model_sphere_set_body-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::collision::ChModelSphereSetBody Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for the collision model to be used in <a class="el" href="classchrono_1_1_ch_indexed_particles.html" title="Interface class for clusters of particles that can be accessed with an index. ">ChIndexedParticles</a> shapes, that are collections of point-like nodes (each with 3 DOFs) using features of the Bullet library. </p>
+</div>
+<p><code>#include &lt;ChCModelSphereSetBody.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::collision::ChModelSphereSetBody:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1collision_1_1_ch_model_sphere_set_body__inherit__graph.png" border="0" usemap="#chrono_1_1collision_1_1_ch_model_sphere_set_body_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1collision_1_1_ch_model_sphere_set_body_inherit__map" id="chrono_1_1collision_1_1_ch_model_sphere_set_body_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html" title="A wrapper to use the Bullet collision detection library. " alt="" coords="21,95,155,136"/>
+<area shape="rect" id="node3" href="classchrono_1_1collision_1_1_ch_collision_model.html" title="Class containing the geometric model ready for collision detection. " alt="" coords="26,5,150,47"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::collision::ChModelSphereSetBody:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1collision_1_1_ch_model_sphere_set_body__coll__graph.png" border="0" usemap="#chrono_1_1collision_1_1_ch_model_sphere_set_body_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1collision_1_1_ch_model_sphere_set_body_coll__map" id="chrono_1_1collision_1_1_ch_model_sphere_set_body_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html" title="A wrapper to use the Bullet collision detection library. " alt="" coords="145,243,280,284"/>
+<area shape="rect" id="node3" href="classchrono_1_1collision_1_1_ch_collision_model.html" title="Class containing the geometric model ready for collision detection. " alt="" coords="21,95,145,136"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_contactable.html" title="Interface for objects that generate contacts One should inherit from ChContactable_1vars, ChContactable_2vars etc. " alt="" coords="5,5,161,32"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_vector.html" title="chrono::ChVector\&lt; float \&gt;" alt="" coords="170,102,343,129"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a49a4bb55b20e3997bf7daedacb57005f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49a4bb55b20e3997bf7daedacb57005f"></a>
+<a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set_body.html#a49a4bb55b20e3997bf7daedacb57005f">GetBody</a> () const </td></tr>
+<tr class="memdesc:a49a4bb55b20e3997bf7daedacb57005f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the pointer to the client owner rigid body. <br /></td></tr>
+<tr class="separator:a49a4bb55b20e3997bf7daedacb57005f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a111edd94a422bda33965df36be1a2622"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a111edd94a422bda33965df36be1a2622"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set_body.html#a111edd94a422bda33965df36be1a2622">SetBody</a> (<a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> *mbo)</td></tr>
+<tr class="memdesc:a111edd94a422bda33965df36be1a2622"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the pointer to the client owner rigid body. <br /></td></tr>
+<tr class="separator:a111edd94a422bda33965df36be1a2622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae13499342a983c04b169647fde2162c3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae13499342a983c04b169647fde2162c3"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set_body.html#ae13499342a983c04b169647fde2162c3">SyncPosition</a> ()</td></tr>
+<tr class="memdesc:ae13499342a983c04b169647fde2162c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the position and orientation of the collision model as the current position of the corresponding <a class="el" href="classchrono_1_1_ch_body.html" title="Class for rigid bodies. ">ChBody</a>. <br /></td></tr>
+<tr class="separator:ae13499342a983c04b169647fde2162c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55015b6f1e1639c95a01fee40f2b195c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55015b6f1e1639c95a01fee40f2b195c"></a>
+virtual <a class="el" href="classchrono_1_1_ch_physics_item.html">ChPhysicsItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set_body.html#a55015b6f1e1639c95a01fee40f2b195c">GetPhysicsItem</a> ()</td></tr>
+<tr class="memdesc:a55015b6f1e1639c95a01fee40f2b195c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the pointer to the client owner <a class="el" href="classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies...">ChPhysicsItem</a>. <br /></td></tr>
+<tr class="separator:a55015b6f1e1639c95a01fee40f2b195c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html">chrono::collision::ChModelSphereSet</a></td></tr>
+<tr class="memitem:abef9cd5b8decff073fd3f6d5ae419683 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#abef9cd5b8decff073fd3f6d5ae419683">ClearModel</a> ()</td></tr>
+<tr class="memdesc:abef9cd5b8decff073fd3f6d5ae419683 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all inserted geometries.  <a href="#abef9cd5b8decff073fd3f6d5ae419683">More...</a><br /></td></tr>
+<tr class="separator:abef9cd5b8decff073fd3f6d5ae419683 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e699c93c4ca556ea57fb06442cf08dd inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a3e699c93c4ca556ea57fb06442cf08dd">BuildModel</a> ()</td></tr>
+<tr class="memdesc:a3e699c93c4ca556ea57fb06442cf08dd inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the BV hierarchy.  <a href="#a3e699c93c4ca556ea57fb06442cf08dd">More...</a><br /></td></tr>
+<tr class="separator:a3e699c93c4ca556ea57fb06442cf08dd inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86aa8788cb0614d4ba6cdb73c9023cc0 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a86aa8788cb0614d4ba6cdb73c9023cc0"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a86aa8788cb0614d4ba6cdb73c9023cc0">AddSphere</a> (double radius, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; *pos=0)</td></tr>
+<tr class="memdesc:a86aa8788cb0614d4ba6cdb73c9023cc0 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a sphere shape to this model, for collision purposes. <br /></td></tr>
+<tr class="separator:a86aa8788cb0614d4ba6cdb73c9023cc0 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3af7ef965bc72bcba765ffef216a1f5 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3af7ef965bc72bcba765ffef216a1f5"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>AddCompoundBody</b> (int numSpheres, std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; float &gt; &gt; *posLocal, std::vector&lt; float &gt; *rads)</td></tr>
+<tr class="separator:ac3af7ef965bc72bcba765ffef216a1f5 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0866f4e5c31d397f670c39467ad894d2 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0866f4e5c31d397f670c39467ad894d2"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a0866f4e5c31d397f670c39467ad894d2">AddEllipsoid</a> (double rx, double ry, double rz, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; *pos=0, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *rot=0)</td></tr>
+<tr class="memdesc:a0866f4e5c31d397f670c39467ad894d2 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an ellipsoid shape to this model, for collision purposes. <br /></td></tr>
+<tr class="separator:a0866f4e5c31d397f670c39467ad894d2 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9a71f77e78bc936de3674bbc518f1c7 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9a71f77e78bc936de3674bbc518f1c7"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#af9a71f77e78bc936de3674bbc518f1c7">AddBox</a> (double hx, double hy, double hz, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; *pos=0, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *rot=0)</td></tr>
+<tr class="memdesc:af9a71f77e78bc936de3674bbc518f1c7 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a box shape to this model, for collision purposes. <br /></td></tr>
+<tr class="separator:af9a71f77e78bc936de3674bbc518f1c7 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6826641a6561915063ea0860de67b813 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6826641a6561915063ea0860de67b813"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a6826641a6561915063ea0860de67b813">AddCylinder</a> (double rx, double rz, double hy, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; *pos=0, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *rot=0)</td></tr>
+<tr class="memdesc:a6826641a6561915063ea0860de67b813 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a cylinder to this model (default axis on Y direction), for collision purposes. <br /></td></tr>
+<tr class="separator:a6826641a6561915063ea0860de67b813 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808eae63fcd1d0b8066ee75761610e5a inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a808eae63fcd1d0b8066ee75761610e5a">AddConvexHull</a> (std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &gt; &amp;pointlist, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; *pos=0, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *rot=0)</td></tr>
+<tr class="memdesc:a808eae63fcd1d0b8066ee75761610e5a inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a convex hull to this model.  <a href="#a808eae63fcd1d0b8066ee75761610e5a">More...</a><br /></td></tr>
+<tr class="separator:a808eae63fcd1d0b8066ee75761610e5a inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fc1f1f2ca3f9126851d000217f4e6a6 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a5fc1f1f2ca3f9126851d000217f4e6a6">AddTriangleMesh</a> (const <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html">geometry::ChTriangleMesh</a> &amp;trimesh, bool is_static, bool is_convex, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; *pos=0, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *rot=0, double sphereswept_thickness=0.0)</td></tr>
+<tr class="memdesc:a5fc1f1f2ca3f9126851d000217f4e6a6 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a triangle mesh to this model, passing a triangle mesh (do not delete the triangle mesh until the collision model, because depending on the implementation of inherited <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html" title="Class containing the geometric model ready for collision detection. ">ChCollisionModel</a> classes, maybe the triangle is referenced via a striding interface or just copied) Note: if possible, in sake of high performance, avoid triangle meshes and prefer simplified representations as compounds of convex shapes of boxes/spheres/etc.  <a href="#a5fc1f1f2ca3f9126851d000217f4e6a6">More...</a><br /></td></tr>
+<tr class="separator:a5fc1f1f2ca3f9126851d000217f4e6a6 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa30e566f02b648011976c50185e109cd inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#aa30e566f02b648011976c50185e109cd">AddTriangleMeshConcave</a> (const <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html">geometry::ChTriangleMesh</a> &amp;trimesh, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; *pos=0, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *rot=0)</td></tr>
+<tr class="memdesc:aa30e566f02b648011976c50185e109cd inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">CUSTOM for this class only: add a concave triangle mesh that will be managed by GImpact mesh-mesh algorithm.  <a href="#aa30e566f02b648011976c50185e109cd">More...</a><br /></td></tr>
+<tr class="separator:aa30e566f02b648011976c50185e109cd inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b9bb43578c928b0ca6e92a36e129dd3 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a3b9bb43578c928b0ca6e92a36e129dd3">AddTriangleMeshConcaveDecomposed</a> (<a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html">ChConvexDecomposition</a> &amp;mydecomposition, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; *pos=0, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *rot=0)</td></tr>
+<tr class="memdesc:a3b9bb43578c928b0ca6e92a36e129dd3 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">CUSTOM for this class only: add a concave triangle mesh that will be decomposed into a compound of convex shapes.  <a href="#a3b9bb43578c928b0ca6e92a36e129dd3">More...</a><br /></td></tr>
+<tr class="separator:a3b9bb43578c928b0ca6e92a36e129dd3 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9708d42af0e39ad8ca3602a2b78acaa7 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a9708d42af0e39ad8ca3602a2b78acaa7">AddBarrel</a> (double Y_low, double Y_high, double R_vert, double R_hor, double R_offset, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; *pos=0, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *rot=0)</td></tr>
+<tr class="memdesc:a9708d42af0e39ad8ca3602a2b78acaa7 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a barrel-like shape to this model (main axis on Y direction), for collision purposes.  <a href="#a9708d42af0e39ad8ca3602a2b78acaa7">More...</a><br /></td></tr>
+<tr class="separator:a9708d42af0e39ad8ca3602a2b78acaa7 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ed04ab80fe9fdfb2886a82d86b5000f inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a3ed04ab80fe9fdfb2886a82d86b5000f">AddCopyOfAnotherModel</a> (<a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">ChCollisionModel</a> *another)</td></tr>
+<tr class="memdesc:a3ed04ab80fe9fdfb2886a82d86b5000f inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add all shapes already contained in another model.  <a href="#a3ed04ab80fe9fdfb2886a82d86b5000f">More...</a><br /></td></tr>
+<tr class="separator:a3ed04ab80fe9fdfb2886a82d86b5000f inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96562884557192847c473e2db4772c59 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a96562884557192847c473e2db4772c59">SetFamily</a> (int mfamily)</td></tr>
+<tr class="memdesc:a96562884557192847c473e2db4772c59 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">By default, all collsion objects belong to family n.0, but you can set family in range 0..15.  <a href="#a96562884557192847c473e2db4772c59">More...</a><br /></td></tr>
+<tr class="separator:a96562884557192847c473e2db4772c59 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27f4052c5e037070f31bf8f47e872e7c inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27f4052c5e037070f31bf8f47e872e7c"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>GetFamily</b> ()</td></tr>
+<tr class="separator:a27f4052c5e037070f31bf8f47e872e7c inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d0226f85bcccc1f54aed68bec93c742 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a8d0226f85bcccc1f54aed68bec93c742">SetFamilyMaskNoCollisionWithFamily</a> (int mfamily)</td></tr>
+<tr class="memdesc:a8d0226f85bcccc1f54aed68bec93c742 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">By default, family mask is all turned on, so all families can collide with this object, but you can turn on-off some bytes of this mask so that some families do not collide.  <a href="#a8d0226f85bcccc1f54aed68bec93c742">More...</a><br /></td></tr>
+<tr class="separator:a8d0226f85bcccc1f54aed68bec93c742 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affa557492a501f835bcf792ddc360d48 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="affa557492a501f835bcf792ddc360d48"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFamilyMaskDoCollisionWithFamily</b> (int mfamily)</td></tr>
+<tr class="separator:affa557492a501f835bcf792ddc360d48 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a543a19ace20226d29a00dc29503584ab inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a543a19ace20226d29a00dc29503584ab">GetFamilyMaskDoesCollisionWithFamily</a> (int mfamily)</td></tr>
+<tr class="memdesc:a543a19ace20226d29a00dc29503584ab inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells if the family mask of this collision object allows for the collision with another collision object belonging to a given family.  <a href="#a543a19ace20226d29a00dc29503584ab">More...</a><br /></td></tr>
+<tr class="separator:a543a19ace20226d29a00dc29503584ab inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9d14efe770487c1c5e1a1d2f04af25b inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#ae9d14efe770487c1c5e1a1d2f04af25b">GetAABB</a> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;bbmin, <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;bbmax) const </td></tr>
+<tr class="memdesc:ae9d14efe770487c1c5e1a1d2f04af25b inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the axis aligned bounding box (AABB) of the collision model, i.e.  <a href="#ae9d14efe770487c1c5e1a1d2f04af25b">More...</a><br /></td></tr>
+<tr class="separator:ae9d14efe770487c1c5e1a1d2f04af25b inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1347fc0a6706e694f50cbaa3766417cf inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a1347fc0a6706e694f50cbaa3766417cf">StreamIN</a> (<a class="el" href="classchrono_1_1_ch_stream_in_binary.html">ChStreamInBinary</a> &amp;mstream)</td></tr>
+<tr class="memdesc:a1347fc0a6706e694f50cbaa3766417cf inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow deserializing a persistent binary archive (ex: a file) into transient data.  <a href="#a1347fc0a6706e694f50cbaa3766417cf">More...</a><br /></td></tr>
+<tr class="separator:a1347fc0a6706e694f50cbaa3766417cf inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa392497909e7bdb095c41bc5d491f728 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#aa392497909e7bdb095c41bc5d491f728">StreamOUT</a> (<a class="el" href="classchrono_1_1_ch_stream_out_binary.html">ChStreamOutBinary</a> &amp;mstream)</td></tr>
+<tr class="memdesc:aa392497909e7bdb095c41bc5d491f728 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow serializing transient data into a persistent binary archive (ex: a file).  <a href="#aa392497909e7bdb095c41bc5d491f728">More...</a><br /></td></tr>
+<tr class="separator:aa392497909e7bdb095c41bc5d491f728 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bca7edcc5a8636f1308552b4fe266a0 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bca7edcc5a8636f1308552b4fe266a0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#a6bca7edcc5a8636f1308552b4fe266a0">GetGlobalSpherePos</a> (thrust::host_vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; float &gt; &gt; &amp;globalPos)</td></tr>
+<tr class="memdesc:a6bca7edcc5a8636f1308552b4fe266a0 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the global positions of the spheres. <br /></td></tr>
+<tr class="separator:a6bca7edcc5a8636f1308552b4fe266a0 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1510fb41531d087435bb33ea4b67984 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1510fb41531d087435bb33ea4b67984"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html#ae1510fb41531d087435bb33ea4b67984">GetSphereRad</a> (thrust::host_vector&lt; float &gt; &amp;rad)</td></tr>
+<tr class="memdesc:ae1510fb41531d087435bb33ea4b67984 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the global positions of the spheres. <br /></td></tr>
+<tr class="separator:ae1510fb41531d087435bb33ea4b67984 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184eca422b28e21263f3eeb7518ec2e8 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a184eca422b28e21263f3eeb7518ec2e8"></a>
+uint&#160;</td><td class="memItemRight" valign="bottom"><b>getNSpheres</b> ()</td></tr>
+<tr class="separator:a184eca422b28e21263f3eeb7518ec2e8 inherit pub_methods_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1collision_1_1_ch_collision_model')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">chrono::collision::ChCollisionModel</a></td></tr>
+<tr class="memitem:a20bb30ee505dcec212f0d74f5be5e7f8 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a20bb30ee505dcec212f0d74f5be5e7f8">AddSphere</a> (double radius, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;())=0</td></tr>
+<tr class="memdesc:a20bb30ee505dcec212f0d74f5be5e7f8 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a sphere shape to this model, for collision purposes.  <a href="#a20bb30ee505dcec212f0d74f5be5e7f8">More...</a><br /></td></tr>
+<tr class="separator:a20bb30ee505dcec212f0d74f5be5e7f8 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa42f4d06ba9603cc675863d72afbd8e7 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#aa42f4d06ba9603cc675863d72afbd8e7">AddEllipsoid</a> (double rx, double ry, double rz, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:aa42f4d06ba9603cc675863d72afbd8e7 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an ellipsoid shape to this model, for collision purposes.  <a href="#aa42f4d06ba9603cc675863d72afbd8e7">More...</a><br /></td></tr>
+<tr class="separator:aa42f4d06ba9603cc675863d72afbd8e7 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af62fb76a4750b4865120a99d9cce4715 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#af62fb76a4750b4865120a99d9cce4715">AddBox</a> (double hx, double hy, double hz, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:af62fb76a4750b4865120a99d9cce4715 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a box shape to this model, for collision purposes.  <a href="#af62fb76a4750b4865120a99d9cce4715">More...</a><br /></td></tr>
+<tr class="separator:af62fb76a4750b4865120a99d9cce4715 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaf8ee4bb32afde7536311ab6e5ba264 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afaf8ee4bb32afde7536311ab6e5ba264"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#afaf8ee4bb32afde7536311ab6e5ba264">AddCylinder</a> (double rx, double rz, double hy, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:afaf8ee4bb32afde7536311ab6e5ba264 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a cylinder to this model (default axis on Y direction), for collision purposes. <br /></td></tr>
+<tr class="separator:afaf8ee4bb32afde7536311ab6e5ba264 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b6f58734337273dfe603091332325e inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4b6f58734337273dfe603091332325e"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#af4b6f58734337273dfe603091332325e">AddCone</a> (double rx, double rz, double hy, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:af4b6f58734337273dfe603091332325e inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a cone to this model (default axis on Y direction), for collision purposes. <br /></td></tr>
+<tr class="separator:af4b6f58734337273dfe603091332325e inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58377b8bf43917fba9aa0b668dd564c7 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a58377b8bf43917fba9aa0b668dd564c7">AddCapsule</a> (double radius, double hlen, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:a58377b8bf43917fba9aa0b668dd564c7 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a capsule to this model (default axis in Y direction), for collision purposes.  <a href="#a58377b8bf43917fba9aa0b668dd564c7">More...</a><br /></td></tr>
+<tr class="separator:a58377b8bf43917fba9aa0b668dd564c7 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d10ab2dabca81b36fe070c2bac1eb3 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9d10ab2dabca81b36fe070c2bac1eb3"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#af9d10ab2dabca81b36fe070c2bac1eb3">AddRoundedBox</a> (double hx, double hy, double hz, double sphere_r, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:af9d10ab2dabca81b36fe070c2bac1eb3 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a rounded box shape to this model, for collision purposes. <br /></td></tr>
+<tr class="separator:af9d10ab2dabca81b36fe070c2bac1eb3 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81294793e40189802aca511ee56baf98 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81294793e40189802aca511ee56baf98"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a81294793e40189802aca511ee56baf98">AddRoundedCylinder</a> (double rx, double rz, double hy, double sphere_r, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:a81294793e40189802aca511ee56baf98 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a rounded cylinder to this model (default axis on Y direction), for collision purposes. <br /></td></tr>
+<tr class="separator:a81294793e40189802aca511ee56baf98 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ebaf04c91aeb25062e7b0405cc5ac4c inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ebaf04c91aeb25062e7b0405cc5ac4c"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a3ebaf04c91aeb25062e7b0405cc5ac4c">AddRoundedCone</a> (double rx, double rz, double hy, double sphere_r, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:a3ebaf04c91aeb25062e7b0405cc5ac4c inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a rounded cone to this model (default axis on Y direction), for collision purposes. <br /></td></tr>
+<tr class="separator:a3ebaf04c91aeb25062e7b0405cc5ac4c inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaace9e3cd95745078b9cda587e4e293e inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#aaace9e3cd95745078b9cda587e4e293e">AddConvexHull</a> (std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &gt; &amp;pointlist, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:aaace9e3cd95745078b9cda587e4e293e inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a convex hull to this model.  <a href="#aaace9e3cd95745078b9cda587e4e293e">More...</a><br /></td></tr>
+<tr class="separator:aaace9e3cd95745078b9cda587e4e293e inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a2422c82a4fd5780f795fb0f3890a7 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#af1a2422c82a4fd5780f795fb0f3890a7">AddTriangleMesh</a> (const <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html">geometry::ChTriangleMesh</a> &amp;trimesh, bool is_static, bool is_convex, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1), double sphereswept_thickness=0.0)=0</td></tr>
+<tr class="memdesc:af1a2422c82a4fd5780f795fb0f3890a7 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a triangle mesh to this model, passing a triangle mesh (do not delete the triangle mesh until the collision model, because depending on the implementation of inherited <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html" title="Class containing the geometric model ready for collision detection. ">ChCollisionModel</a> classes, maybe the triangle is referenced via a striding interface or just copied) Note: if possible, in sake of high performance, avoid triangle meshes and prefer simplified representations as compounds of convex shapes of boxes/spheres/etc.  <a href="#af1a2422c82a4fd5780f795fb0f3890a7">More...</a><br /></td></tr>
+<tr class="separator:af1a2422c82a4fd5780f795fb0f3890a7 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdb4570bb97da2d70a2ed0f2b259222f inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#acdb4570bb97da2d70a2ed0f2b259222f">AddBarrel</a> (double Y_low, double Y_high, double R_vert, double R_hor, double R_offset, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))=0</td></tr>
+<tr class="memdesc:acdb4570bb97da2d70a2ed0f2b259222f inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a barrel-like shape to this model (main axis on Y direction), for collision purposes.  <a href="#acdb4570bb97da2d70a2ed0f2b259222f">More...</a><br /></td></tr>
+<tr class="separator:acdb4570bb97da2d70a2ed0f2b259222f inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ea08e445847f4e9efb93c863c0ecf1 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a59ea08e445847f4e9efb93c863c0ecf1">Add2Dpath</a> (<a class="el" href="classchrono_1_1geometry_1_1_ch_line_path.html">geometry::ChLinePath</a> &amp;mpath, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1), const double thickness=0.001)</td></tr>
+<tr class="memdesc:a59ea08e445847f4e9efb93c863c0ecf1 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a 2D closed line, defined on the XY plane passing by pos and alinged as rot, that defines a 2D collision shape that will collide with another 2D line of the same type if aligned on the same plane.  <a href="#a59ea08e445847f4e9efb93c863c0ecf1">More...</a><br /></td></tr>
+<tr class="separator:a59ea08e445847f4e9efb93c863c0ecf1 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17775278e20338007a5be0dc5cc19155 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a17775278e20338007a5be0dc5cc19155">AddPoint</a> (double radius=0, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;())</td></tr>
+<tr class="memdesc:a17775278e20338007a5be0dc5cc19155 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a point-like sphere, that will collide with other geometries, but won't ever create contacts between them.  <a href="#a17775278e20338007a5be0dc5cc19155">More...</a><br /></td></tr>
+<tr class="separator:a17775278e20338007a5be0dc5cc19155 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fcca732e4c5c96d3bcf1bb25091374c inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a4fcca732e4c5c96d3bcf1bb25091374c">AddConvexHullsFromFile</a> (<a class="el" href="classchrono_1_1_ch_stream_in_ascii.html">ChStreamInAscii</a> &amp;mstream, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos=<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt;(), const <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;rot=<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt;(1))</td></tr>
+<tr class="memdesc:a4fcca732e4c5c96d3bcf1bb25091374c inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a cluster of convex hulls by a '.chulls' file description.  <a href="#a4fcca732e4c5c96d3bcf1bb25091374c">More...</a><br /></td></tr>
+<tr class="separator:a4fcca732e4c5c96d3bcf1bb25091374c inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a048eac79ad8d71893c81d5eb0b942131 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a048eac79ad8d71893c81d5eb0b942131"></a>
+<a class="el" href="classchrono_1_1_ch_contactable.html">ChContactable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a048eac79ad8d71893c81d5eb0b942131">GetContactable</a> ()</td></tr>
+<tr class="memdesc:a048eac79ad8d71893c81d5eb0b942131 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the pointer to the contactable object. <br /></td></tr>
+<tr class="separator:a048eac79ad8d71893c81d5eb0b942131 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e1cb3959b3c923cb58d67492d7af850 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a8e1cb3959b3c923cb58d67492d7af850">SetContactable</a> (<a class="el" href="classchrono_1_1_ch_contactable.html">ChContactable</a> *mc)</td></tr>
+<tr class="memdesc:a8e1cb3959b3c923cb58d67492d7af850 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the pointer to the contactable object.  <a href="#a8e1cb3959b3c923cb58d67492d7af850">More...</a><br /></td></tr>
+<tr class="separator:a8e1cb3959b3c923cb58d67492d7af850 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2c6e1d92cd916803232f9eb7363f073 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual short int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#ab2c6e1d92cd916803232f9eb7363f073">GetFamilyGroup</a> () const </td></tr>
+<tr class="memdesc:ab2c6e1d92cd916803232f9eb7363f073 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the collision family group of this model.  <a href="#ab2c6e1d92cd916803232f9eb7363f073">More...</a><br /></td></tr>
+<tr class="separator:ab2c6e1d92cd916803232f9eb7363f073 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcc039ce6c3bbf299c26edececc893ff inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#afcc039ce6c3bbf299c26edececc893ff">SetFamilyGroup</a> (short int group)</td></tr>
+<tr class="memdesc:afcc039ce6c3bbf299c26edececc893ff inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the collision family group of this model.  <a href="#afcc039ce6c3bbf299c26edececc893ff">More...</a><br /></td></tr>
+<tr class="separator:afcc039ce6c3bbf299c26edececc893ff inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9019b1d929079176cf801cb4ab5496ed inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual short int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a9019b1d929079176cf801cb4ab5496ed">GetFamilyMask</a> () const </td></tr>
+<tr class="memdesc:a9019b1d929079176cf801cb4ab5496ed inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the collision mask for this model.  <a href="#a9019b1d929079176cf801cb4ab5496ed">More...</a><br /></td></tr>
+<tr class="separator:a9019b1d929079176cf801cb4ab5496ed inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab505a5c5b14973775f881e4ef18de231 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#ab505a5c5b14973775f881e4ef18de231">SetFamilyMask</a> (short int mask)</td></tr>
+<tr class="memdesc:ab505a5c5b14973775f881e4ef18de231 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the collision mask for this model.  <a href="#ab505a5c5b14973775f881e4ef18de231">More...</a><br /></td></tr>
+<tr class="separator:ab505a5c5b14973775f881e4ef18de231 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67c91cf1ee2b023a2403cf912156b9a3 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a67c91cf1ee2b023a2403cf912156b9a3">SetSafeMargin</a> (double amargin)</td></tr>
+<tr class="memdesc:a67c91cf1ee2b023a2403cf912156b9a3 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the suggested collision 'inward safe margin' for the shapes to be added from now on, using the AddBox, AddCylinder etc (where, if this margin is too high for some thin or small shapes, it may be clamped).  <a href="#a67c91cf1ee2b023a2403cf912156b9a3">More...</a><br /></td></tr>
+<tr class="separator:a67c91cf1ee2b023a2403cf912156b9a3 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66d446c3f77fa79c33fce3fc25a52dfc inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66d446c3f77fa79c33fce3fc25a52dfc"></a>
+virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a66d446c3f77fa79c33fce3fc25a52dfc">GetSafeMargin</a> ()</td></tr>
+<tr class="memdesc:a66d446c3f77fa79c33fce3fc25a52dfc inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the inward safe margin (see <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a67c91cf1ee2b023a2403cf912156b9a3" title="Sets the suggested collision &#39;inward safe margin&#39; for the shapes to be added from now on...">SetSafeMargin()</a> ) <br /></td></tr>
+<tr class="separator:a66d446c3f77fa79c33fce3fc25a52dfc inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991003cc6ec95e3db61c2f61b55578e8 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a991003cc6ec95e3db61c2f61b55578e8">SetEnvelope</a> (double amargin)</td></tr>
+<tr class="memdesc:a991003cc6ec95e3db61c2f61b55578e8 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the suggested collision outward 'envelope' (used from shapes added, from now on, to this collision model).  <a href="#a991003cc6ec95e3db61c2f61b55578e8">More...</a><br /></td></tr>
+<tr class="separator:a991003cc6ec95e3db61c2f61b55578e8 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa10e2b58bbc8a3572f4186e31f9f6b55 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa10e2b58bbc8a3572f4186e31f9f6b55"></a>
+virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#aa10e2b58bbc8a3572f4186e31f9f6b55">GetEnvelope</a> ()</td></tr>
+<tr class="memdesc:aa10e2b58bbc8a3572f4186e31f9f6b55 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the outward safe margin (see <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a991003cc6ec95e3db61c2f61b55578e8" title="Sets the suggested collision outward &#39;envelope&#39; (used from shapes added, from now on...">SetEnvelope()</a> ) <br /></td></tr>
+<tr class="separator:aa10e2b58bbc8a3572f4186e31f9f6b55 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0d7cdadf6a69506d0e6cc247ac906e6 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0d7cdadf6a69506d0e6cc247ac906e6"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ArchiveOUT</b> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="separator:ad0d7cdadf6a69506d0e6cc247ac906e6 inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87da1ca2a15f1a7c8b204d55b77f72bc inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87da1ca2a15f1a7c8b204d55b77f72bc"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a87da1ca2a15f1a7c8b204d55b77f72bc">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a87da1ca2a15f1a7c8b204d55b77f72bc inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:a87da1ca2a15f1a7c8b204d55b77f72bc inherit pub_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classchrono_1_1collision_1_1_ch_collision_model"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classchrono_1_1collision_1_1_ch_collision_model')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">chrono::collision::ChCollisionModel</a></td></tr>
+<tr class="memitem:a1f0e40b1c695d5f785bca7187552db76 inherit pub_static_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a1f0e40b1c695d5f785bca7187552db76">SetDefaultSuggestedEnvelope</a> (double menv)</td></tr>
+<tr class="memdesc:a1f0e40b1c695d5f785bca7187552db76 inherit pub_static_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using this function BEFORE you start creating collision shapes, it will make all following collision shapes to take this collision envelope (safe outward layer) as default.  <a href="#a1f0e40b1c695d5f785bca7187552db76">More...</a><br /></td></tr>
+<tr class="separator:a1f0e40b1c695d5f785bca7187552db76 inherit pub_static_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34510afcfc5b3b5e72ab8b61b8e3adbb inherit pub_static_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html#a34510afcfc5b3b5e72ab8b61b8e3adbb">SetDefaultSuggestedMargin</a> (double mmargin)</td></tr>
+<tr class="memdesc:a34510afcfc5b3b5e72ab8b61b8e3adbb inherit pub_static_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using this function BEFORE you start creating collision shapes, it will make all following collision shapes to take this collision margin (inward penetration layer) as default.  <a href="#a34510afcfc5b3b5e72ab8b61b8e3adbb">More...</a><br /></td></tr>
+<tr class="separator:a34510afcfc5b3b5e72ab8b61b8e3adbb inherit pub_static_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f75132a9dac27460f77daa260351058 inherit pub_static_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f75132a9dac27460f77daa260351058"></a>
+static double&#160;</td><td class="memItemRight" valign="bottom"><b>GetDefaultSuggestedEnvelope</b> ()</td></tr>
+<tr class="separator:a5f75132a9dac27460f77daa260351058 inherit pub_static_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b6faca8e6a5419a82d5ba296c9694f0 inherit pub_static_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1b6faca8e6a5419a82d5ba296c9694f0"></a>
+static double&#160;</td><td class="memItemRight" valign="bottom"><b>GetDefaultSuggestedMargin</b> ()</td></tr>
+<tr class="separator:a1b6faca8e6a5419a82d5ba296c9694f0 inherit pub_static_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classchrono_1_1collision_1_1_ch_collision_model"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classchrono_1_1collision_1_1_ch_collision_model')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">chrono::collision::ChCollisionModel</a></td></tr>
+<tr class="memitem:a8e95212d6ee967bd4c42c72b4aec6758 inherit pro_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e95212d6ee967bd4c42c72b4aec6758"></a>
+virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>GetSuggestedFullMargin</b> ()</td></tr>
+<tr class="separator:a8e95212d6ee967bd4c42c72b4aec6758 inherit pro_methods_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1collision_1_1_ch_model_sphere_set.html">chrono::collision::ChModelSphereSet</a></td></tr>
+<tr class="memitem:a6ee9cc9a101f53ed8f5d08babf618c97 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ee9cc9a101f53ed8f5d08babf618c97"></a>
+uint&#160;</td><td class="memItemRight" valign="bottom"><b>nSpheres</b></td></tr>
+<tr class="separator:a6ee9cc9a101f53ed8f5d08babf618c97 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20a780950fbbc95c03eba05992d5a42f inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20a780950fbbc95c03eba05992d5a42f"></a>
+thrust::host_vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sphPosLocal</b></td></tr>
+<tr class="separator:a20a780950fbbc95c03eba05992d5a42f inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a8a9aab00b724ab22a3a38cfb831e23 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a8a9aab00b724ab22a3a38cfb831e23"></a>
+thrust::host_vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sphPosGlobal</b></td></tr>
+<tr class="separator:a7a8a9aab00b724ab22a3a38cfb831e23 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5877cdad28c8ef75e258f00a0f78097 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab5877cdad28c8ef75e258f00a0f78097"></a>
+thrust::host_vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sphRad</b></td></tr>
+<tr class="separator:ab5877cdad28c8ef75e258f00a0f78097 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6954ce6ea29ff51fce7b35b5365c4082 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6954ce6ea29ff51fce7b35b5365c4082"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>myBBminLocal</b></td></tr>
+<tr class="separator:a6954ce6ea29ff51fce7b35b5365c4082 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd13bd66583420993155c55edc44328 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7fd13bd66583420993155c55edc44328"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>myBBmaxLocal</b></td></tr>
+<tr class="separator:a7fd13bd66583420993155c55edc44328 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0480577c8bf2cae3c0b75cdec9c51493 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0480577c8bf2cae3c0b75cdec9c51493"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>myBBminGlobal</b></td></tr>
+<tr class="separator:a0480577c8bf2cae3c0b75cdec9c51493 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a091a1cd7fd26086f89a7ba1cd55c7317 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a091a1cd7fd26086f89a7ba1cd55c7317"></a>
+<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>myBBmaxGlobal</b></td></tr>
+<tr class="separator:a091a1cd7fd26086f89a7ba1cd55c7317 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecb9e1ef3463cf54e7853deed658056a inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecb9e1ef3463cf54e7853deed658056a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>colFam</b></td></tr>
+<tr class="separator:aecb9e1ef3463cf54e7853deed658056a inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c338b28a622e06ebab001b965767430 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c338b28a622e06ebab001b965767430"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>noCollWith</b></td></tr>
+<tr class="separator:a9c338b28a622e06ebab001b965767430 inherit pro_attribs_classchrono_1_1collision_1_1_ch_model_sphere_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1collision_1_1_ch_collision_model"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1collision_1_1_ch_collision_model')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">chrono::collision::ChCollisionModel</a></td></tr>
+<tr class="memitem:a488b1b2f73974eb80d5ce6b15fdf9660 inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a488b1b2f73974eb80d5ce6b15fdf9660"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>model_envelope</b></td></tr>
+<tr class="separator:a488b1b2f73974eb80d5ce6b15fdf9660 inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab2d721f76e55603f8ffe2a87d8a8f4 inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adab2d721f76e55603f8ffe2a87d8a8f4"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>model_safe_margin</b></td></tr>
+<tr class="separator:adab2d721f76e55603f8ffe2a87d8a8f4 inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3859404b102621fd2c81751d795be948 inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3859404b102621fd2c81751d795be948"></a>
+<a class="el" href="classchrono_1_1_ch_contactable.html">ChContactable</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>mcontactable</b></td></tr>
+<tr class="separator:a3859404b102621fd2c81751d795be948 inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6afb43d7df000c668d70f6658eb36254 inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6afb43d7df000c668d70f6658eb36254"></a>
+short int&#160;</td><td class="memItemRight" valign="bottom"><b>family_group</b></td></tr>
+<tr class="separator:a6afb43d7df000c668d70f6658eb36254 inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5f7cb99df39dd23bcac8f39764dab3f inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_model"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5f7cb99df39dd23bcac8f39764dab3f"></a>
+short int&#160;</td><td class="memItemRight" valign="bottom"><b>family_mask</b></td></tr>
+<tr class="separator:ad5f7cb99df39dd23bcac8f39764dab3f inherit pro_attribs_classchrono_1_1collision_1_1_ch_collision_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:20 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

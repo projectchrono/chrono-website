@@ -1,0 +1,5 @@
+<map id="chrono::ChLoadCustom" name="chrono::ChLoadCustom">
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_load_body_force.html" title="FORCE ON A RIGID BODY Load for a constant force applied at a ChBody. " alt="" coords="5,155,183,181"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_load_body_torque.html" title="TORQUE ON A RIGID BODY Loader for a constant torque applied at a ChBody. " alt="" coords="207,155,391,181"/>
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_load_base.html" title="Base class for loads. " alt="" coords="125,5,269,32"/>
+</map>

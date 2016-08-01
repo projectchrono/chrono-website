@@ -1,0 +1,7 @@
+<map id="chrono::ChStreamOutBinaryFile" name="chrono::ChStreamOutBinaryFile">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_stream_file.html" title="This is a base class for typical output on system&#39;s file, on a disk, using the typical C++ &#39;fstream&#39; ..." alt="" coords="5,155,155,181"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_stream_out_binary.html" title="This is a base class for all BINARY OUTPUT streams, in a way such that the stream is platform indepen..." alt="" coords="179,155,365,181"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_stream_out.html" title="This is a base class for all OUTPUT streams. " alt="" coords="105,80,255,107"/>
+<area shape="rect" id="node5" href="$classchrono_1_1_ch_stream.html" title="This is a base class for input/output (streaming) " alt="" coords="116,5,244,32"/>
+<area shape="rect" id="node6" href="$classchrono_1_1_ch_binary_archive.html" title="Base class for streams (either in or out) based on binary formats. " alt="" coords="279,80,446,107"/>
+</map>

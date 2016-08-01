@@ -1,0 +1,4 @@
+<map id="chrono::vehicle::BrakeSimple" name="chrono::vehicle::BrakeSimple">
+<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_brake_simple.html" title="Template for a simple brake subsystem. " alt="" coords="17,80,186,121"/>
+<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_ch_brake.html" title="Base class for a brake subsystem. " alt="" coords="17,5,186,32"/>
+</map>

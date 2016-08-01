@@ -1,0 +1,4 @@
+<map id="chrono::vehicle::ChIdler" name="chrono::vehicle::ChIdler">
+<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_double_idler.html" title="Base class for a double idler (template definition). " alt="" coords="5,80,181,121"/>
+<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_ch_single_idler.html" title="Base class for a single idler (template definition). " alt="" coords="205,80,376,121"/>
+</map>

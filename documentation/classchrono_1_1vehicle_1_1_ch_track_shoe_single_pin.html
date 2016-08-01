@@ -1,0 +1,482 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChTrackShoeSinglePin Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html">ChTrackShoeSinglePin</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChTrackShoeSinglePin Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__tracked.html">Tracked vehicles</a> &raquo; <a class="el" href="group__vehicle__tracked__shoe.html">Track-shoe subsystem</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for a single-pin track shoe (template definition). </p>
+<p>A single-pin track shoe can be either of CENTRAL_PIN or LATERAL_PIN type. </p>
+</div>
+<p><code>#include &lt;ChTrackShoeSinglePin.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::ChTrackShoeSinglePin:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_track_shoe_single_pin_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_track_shoe_single_pin_inherit__map" id="chrono_1_1vehicle_1_1_ch_track_shoe_single_pin_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html" title="Base class for a track shoe. " alt="" coords="5,5,204,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::vehicle::ChTrackShoeSinglePin:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin__coll__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_track_shoe_single_pin_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_track_shoe_single_pin_coll__map" id="chrono_1_1vehicle_1_1_ch_track_shoe_single_pin_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html" title="Base class for a track shoe. " alt="" coords="5,5,204,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab2e16195f36d013a1c6882043f2e12a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html#ab2e16195f36d013a1c6882043f2e12a6">ChTrackShoeSinglePin</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:ab2e16195f36d013a1c6882043f2e12a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba26328396fc5b65bf50f83c4493936e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba26328396fc5b65bf50f83c4493936e"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html#aba26328396fc5b65bf50f83c4493936e">GetMass</a> () const override</td></tr>
+<tr class="memdesc:aba26328396fc5b65bf50f83c4493936e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mass of the track shoe. <br /></td></tr>
+<tr class="separator:aba26328396fc5b65bf50f83c4493936e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b6d012bc228e5fa25c49ea9a62f0681"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html#a6b6d012bc228e5fa25c49ea9a62f0681">Initialize</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt; chassis, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;location, const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt;&gt; &amp;rotation) override</td></tr>
+<tr class="memdesc:a6b6d012bc228e5fa25c49ea9a62f0681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize this track shoe subsystem.  <a href="#a6b6d012bc228e5fa25c49ea9a62f0681">More...</a><br /></td></tr>
+<tr class="separator:a6b6d012bc228e5fa25c49ea9a62f0681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1658f88047c66e961a2c09a7e0d37085"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html#a1658f88047c66e961a2c09a7e0d37085">Connect</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html">ChTrackShoe</a> &gt; next) override</td></tr>
+<tr class="memdesc:a1658f88047c66e961a2c09a7e0d37085"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect this track shoe to the specified neighbor.  <a href="#a1658f88047c66e961a2c09a7e0d37085">More...</a><br /></td></tr>
+<tr class="separator:a1658f88047c66e961a2c09a7e0d37085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html">chrono::vehicle::ChTrackShoe</a></td></tr>
+<tr class="memitem:a5dda8f0aa8df65f7aea2e1ec90adf668 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a5dda8f0aa8df65f7aea2e1ec90adf668">ChTrackShoe</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a5dda8f0aa8df65f7aea2e1ec90adf668 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00349c781513b08d227307e8739bc5d6 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__vehicle.html#gaf1bd6107e3bad71f37ba01e55d08ef7e">GuidePinType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a00349c781513b08d227307e8739bc5d6">GetType</a> () const =0</td></tr>
+<tr class="memdesc:a00349c781513b08d227307e8739bc5d6 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the type of track shoe (guiding pin).  <a href="#a00349c781513b08d227307e8739bc5d6">More...</a><br /></td></tr>
+<tr class="separator:a00349c781513b08d227307e8739bc5d6 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d37a17c2b16658fcf8551f528720606 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d37a17c2b16658fcf8551f528720606"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a8d37a17c2b16658fcf8551f528720606">GetName</a> () const </td></tr>
+<tr class="memdesc:a8d37a17c2b16658fcf8551f528720606 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name identifier for this track shoe subsystem. <br /></td></tr>
+<tr class="separator:a8d37a17c2b16658fcf8551f528720606 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27a901c39f5425f4b8774ccba39a9616 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27a901c39f5425f4b8774ccba39a9616"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a27a901c39f5425f4b8774ccba39a9616">SetName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a27a901c39f5425f4b8774ccba39a9616 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the name identifier for this track shoe subsystem. <br /></td></tr>
+<tr class="separator:a27a901c39f5425f4b8774ccba39a9616 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9350ddede47f1d60276777d64347e7b inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae9350ddede47f1d60276777d64347e7b"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#ae9350ddede47f1d60276777d64347e7b">GetShoeBody</a> () const </td></tr>
+<tr class="memdesc:ae9350ddede47f1d60276777d64347e7b inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the shoe body. <br /></td></tr>
+<tr class="separator:ae9350ddede47f1d60276777d64347e7b inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad719d666eb1bf449fd7591a4c5df65d9 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad719d666eb1bf449fd7591a4c5df65d9"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#ad719d666eb1bf449fd7591a4c5df65d9">GetHeight</a> () const =0</td></tr>
+<tr class="memdesc:ad719d666eb1bf449fd7591a4c5df65d9 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the height of the track shoe. <br /></td></tr>
+<tr class="separator:ad719d666eb1bf449fd7591a4c5df65d9 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8176c3ac48887ee76cbdcfecd59f8b1a inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a8176c3ac48887ee76cbdcfecd59f8b1a">GetPitch</a> () const =0</td></tr>
+<tr class="memdesc:a8176c3ac48887ee76cbdcfecd59f8b1a inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the pitch length of the track shoe.  <a href="#a8176c3ac48887ee76cbdcfecd59f8b1a">More...</a><br /></td></tr>
+<tr class="separator:a8176c3ac48887ee76cbdcfecd59f8b1a inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeed46d575407915cc5f48309fdb05de inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaeed46d575407915cc5f48309fdb05de"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#aaeed46d575407915cc5f48309fdb05de">GetIndex</a> () const </td></tr>
+<tr class="memdesc:aaeed46d575407915cc5f48309fdb05de inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of this track shoe within its containing track assembly. <br /></td></tr>
+<tr class="separator:aaeed46d575407915cc5f48309fdb05de inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a130a297c5a21ce590df6ecb1bdb09e7b inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a130a297c5a21ce590df6ecb1bdb09e7b">SetContactMaterial</a> (float friction_coefficient, float restitution_coefficient, float young_modulus, float poisson_ratio)</td></tr>
+<tr class="memdesc:a130a297c5a21ce590df6ecb1bdb09e7b inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set contact material properties.  <a href="#a130a297c5a21ce590df6ecb1bdb09e7b">More...</a><br /></td></tr>
+<tr class="separator:a130a297c5a21ce590df6ecb1bdb09e7b inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a512514acb575abdec98ac891c7d19572 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a512514acb575abdec98ac891c7d19572"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a512514acb575abdec98ac891c7d19572">SetCollide</a> (bool val)</td></tr>
+<tr class="memdesc:a512514acb575abdec98ac891c7d19572 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on/off collision flag for the shoe body. <br /></td></tr>
+<tr class="separator:a512514acb575abdec98ac891c7d19572 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:aea1daa03b3cae8e67549f0e7124b2585"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea1daa03b3cae8e67549f0e7124b2585"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html#aea1daa03b3cae8e67549f0e7124b2585">GetShoeMass</a> () const =0</td></tr>
+<tr class="memdesc:aea1daa03b3cae8e67549f0e7124b2585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mass of the shoe body. <br /></td></tr>
+<tr class="separator:aea1daa03b3cae8e67549f0e7124b2585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affa793de42962aa80dafa9d479886144"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="affa793de42962aa80dafa9d479886144"></a>
+virtual const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html#affa793de42962aa80dafa9d479886144">GetShoeInertia</a> () const =0</td></tr>
+<tr class="memdesc:affa793de42962aa80dafa9d479886144"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the moments of inertia of the shoe body. <br /></td></tr>
+<tr class="separator:affa793de42962aa80dafa9d479886144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47b0fe229ef816ef98f981385b112e5c"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html#a47b0fe229ef816ef98f981385b112e5c">GetFrontCylinderLoc</a> () const =0</td></tr>
+<tr class="memdesc:a47b0fe229ef816ef98f981385b112e5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the location of the front contact cylinder.  <a href="#a47b0fe229ef816ef98f981385b112e5c">More...</a><br /></td></tr>
+<tr class="separator:a47b0fe229ef816ef98f981385b112e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1df60d7aa491bf5600040cd7063bdd0"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html#af1df60d7aa491bf5600040cd7063bdd0">GetRearCylinderLoc</a> () const =0</td></tr>
+<tr class="memdesc:af1df60d7aa491bf5600040cd7063bdd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the location of the rear contact cylinder.  <a href="#af1df60d7aa491bf5600040cd7063bdd0">More...</a><br /></td></tr>
+<tr class="separator:af1df60d7aa491bf5600040cd7063bdd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a911ee2e4f8a473a7d334d1f06d411328"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a911ee2e4f8a473a7d334d1f06d411328"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html#a911ee2e4f8a473a7d334d1f06d411328">GetCylinderRadius</a> () const =0</td></tr>
+<tr class="memdesc:a911ee2e4f8a473a7d334d1f06d411328"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the radius of the contact cylinders. <br /></td></tr>
+<tr class="separator:a911ee2e4f8a473a7d334d1f06d411328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88bdc40a7ca945bdae500cecefb2969b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88bdc40a7ca945bdae500cecefb2969b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html#a88bdc40a7ca945bdae500cecefb2969b">AddShoeVisualization</a> ()=0</td></tr>
+<tr class="memdesc:a88bdc40a7ca945bdae500cecefb2969b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add visualization of the track shoe. <br /></td></tr>
+<tr class="separator:a88bdc40a7ca945bdae500cecefb2969b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1be806a321d3222c0e6c7922f8025c02"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html#a1be806a321d3222c0e6c7922f8025c02">AddShoeContact</a> ()=0</td></tr>
+<tr class="memdesc:a1be806a321d3222c0e6c7922f8025c02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add contact geometry for the track shoe.  <a href="#a1be806a321d3222c0e6c7922f8025c02">More...</a><br /></td></tr>
+<tr class="separator:a1be806a321d3222c0e6c7922f8025c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classchrono_1_1vehicle_1_1_ch_track_shoe')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html">chrono::vehicle::ChTrackShoe</a></td></tr>
+<tr class="memitem:a2dc264a9fb46cc4c46e3d568689c5e10 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2dc264a9fb46cc4c46e3d568689c5e10"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a2dc264a9fb46cc4c46e3d568689c5e10">SetIndex</a> (size_t index)</td></tr>
+<tr class="memdesc:a2dc264a9fb46cc4c46e3d568689c5e10 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the index of this track shoe within its containing track assembly. <br /></td></tr>
+<tr class="separator:a2dc264a9fb46cc4c46e3d568689c5e10 inherit pro_methods_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a6d68186d0da7340f8cd86afab109a77f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d68186d0da7340f8cd86afab109a77f"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_lock_revolute.html">ChLinkLockRevolute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe_single_pin.html#a6d68186d0da7340f8cd86afab109a77f">m_revolute</a></td></tr>
+<tr class="memdesc:a6d68186d0da7340f8cd86afab109a77f"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to revolute joint connection to next shoe <br /></td></tr>
+<tr class="separator:a6d68186d0da7340f8cd86afab109a77f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html">chrono::vehicle::ChTrackShoe</a></td></tr>
+<tr class="memitem:a94f3509c5a5054f57521bbc8394745d0 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94f3509c5a5054f57521bbc8394745d0"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a94f3509c5a5054f57521bbc8394745d0">m_name</a></td></tr>
+<tr class="memdesc:a94f3509c5a5054f57521bbc8394745d0 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of the subsystem <br /></td></tr>
+<tr class="separator:a94f3509c5a5054f57521bbc8394745d0 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a222e86eaae4844cc56faa989936cfb inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a222e86eaae4844cc56faa989936cfb"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a9a222e86eaae4844cc56faa989936cfb">m_index</a></td></tr>
+<tr class="memdesc:a9a222e86eaae4844cc56faa989936cfb inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">index of this track shoe within its containing track assembly <br /></td></tr>
+<tr class="separator:a9a222e86eaae4844cc56faa989936cfb inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1849ed09b3152c572eb4d31f10c694ad inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1849ed09b3152c572eb4d31f10c694ad"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a1849ed09b3152c572eb4d31f10c694ad">m_shoe</a></td></tr>
+<tr class="memdesc:a1849ed09b3152c572eb4d31f10c694ad inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to the shoe body <br /></td></tr>
+<tr class="separator:a1849ed09b3152c572eb4d31f10c694ad inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a105375e55e6f24d90b2ddf1d96e559b1 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a105375e55e6f24d90b2ddf1d96e559b1"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a105375e55e6f24d90b2ddf1d96e559b1">m_friction</a></td></tr>
+<tr class="memdesc:a105375e55e6f24d90b2ddf1d96e559b1 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">coefficient of friction <br /></td></tr>
+<tr class="separator:a105375e55e6f24d90b2ddf1d96e559b1 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5870df8c87985082e0089c91be16885 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5870df8c87985082e0089c91be16885"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#ac5870df8c87985082e0089c91be16885">m_restitution</a></td></tr>
+<tr class="memdesc:ac5870df8c87985082e0089c91be16885 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">coefficient of restitution <br /></td></tr>
+<tr class="separator:ac5870df8c87985082e0089c91be16885 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae16ea54786bc1f1e13a5c1a918e687cf inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae16ea54786bc1f1e13a5c1a918e687cf"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#ae16ea54786bc1f1e13a5c1a918e687cf">m_young_modulus</a></td></tr>
+<tr class="memdesc:ae16ea54786bc1f1e13a5c1a918e687cf inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Young's modulus. <br /></td></tr>
+<tr class="separator:ae16ea54786bc1f1e13a5c1a918e687cf inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07d3ad044b3c572b32c56b007a209408 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07d3ad044b3c572b32c56b007a209408"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a07d3ad044b3c572b32c56b007a209408">m_poisson_ratio</a></td></tr>
+<tr class="memdesc:a07d3ad044b3c572b32c56b007a209408 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Poisson ratio. <br /></td></tr>
+<tr class="separator:a07d3ad044b3c572b32c56b007a209408 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_track_shoe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:ac9b8da81a92d1444fbc92490c6470c85"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9b8da81a92d1444fbc92490c6470c85"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>ChSprocketSinglePin</b></td></tr>
+<tr class="separator:ac9b8da81a92d1444fbc92490c6470c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a620d709207011a50653e5be15b437ccf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a620d709207011a50653e5be15b437ccf"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>ChTrackAssemblySinglePin</b></td></tr>
+<tr class="separator:a620d709207011a50653e5be15b437ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ab2e16195f36d013a1c6882043f2e12a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::vehicle::ChTrackShoeSinglePin::ChTrackShoeSinglePin </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>name of the subsystem </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a1be806a321d3222c0e6c7922f8025c02"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::vehicle::ChTrackShoeSinglePin::AddShoeContact </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add contact geometry for the track shoe. </p>
+<p>Note that this is for contact with wheels, idler, and ground only. This contact geometry does not affect contact with the sprocket. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1658f88047c66e961a2c09a7e0d37085"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChTrackShoeSinglePin::Connect </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html">ChTrackShoe</a> &gt;&#160;</td>
+          <td class="paramname"><em>next</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Connect this track shoe to the specified neighbor. </p>
+<p>This function must be called only after both track shoes have been initialized. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">next</td><td>handle to the neighbor track shoe </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a1c43fa5e5c2e618f0fa4a6053fc2f16f">chrono::vehicle::ChTrackShoe</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a47b0fe229ef816ef98f981385b112e5c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::vehicle::ChTrackShoeSinglePin::GetFrontCylinderLoc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the location of the front contact cylinder. </p>
+<p>This location is relative to the shoe reference frame (in the positive x direction) </p>
+
+</div>
+</div>
+<a class="anchor" id="af1df60d7aa491bf5600040cd7063bdd0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::vehicle::ChTrackShoeSinglePin::GetRearCylinderLoc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the location of the rear contact cylinder. </p>
+<p>This location is relative to the shoe reference frame (in the negative x direction) </p>
+
+</div>
+</div>
+<a class="anchor" id="a6b6d012bc228e5fa25c49ea9a62f0681"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChTrackShoeSinglePin::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt;&#160;</td>
+          <td class="paramname"><em>chassis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>location</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_quaternion.html">ChQuaternion</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>rotation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize this track shoe subsystem. </p>
+<p>The track shoe is created within the specified system and initialized at the specified location and orientation (expressed in the global frame). A derived class must extend this default implementation and specify the contact geometry for the track shoe body. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">chassis</td><td>handle to the chassis body </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">location</td><td>location relative to the chassis frame </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rotation</td><td>orientation relative to the chassis frame </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchrono_1_1vehicle_1_1_ch_track_shoe.html#a3c313f7308c0da5977f220245378755b">chrono::vehicle::ChTrackShoe</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:25 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

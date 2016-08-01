@@ -1,0 +1,545 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::geometry::ChGeometry Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1geometry.html">geometry</a></li><li class="navelem"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">ChGeometry</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1geometry_1_1_ch_geometry-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::geometry::ChGeometry Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__chrono.html">Chrono::Engine</a> &raquo; <a class="el" href="group__chrono__geometry.html">Geometric objects</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for geometric objects used for collisions and visualization. </p>
+</div>
+<p><code>#include &lt;ChGeometry.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::geometry::ChGeometry:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1geometry_1_1_ch_geometry__inherit__graph.png" border="0" usemap="#chrono_1_1geometry_1_1_ch_geometry_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1geometry_1_1_ch_geometry_inherit__map" id="chrono_1_1geometry_1_1_ch_geometry_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1geometry_1_1_ch_box.html" title="A box geometric object for collisions and visualization. " alt="" coords="289,5,459,32"/>
+<area shape="rect" id="node3" href="classchrono_1_1geometry_1_1_ch_capsule.html" title="A capsule geometric object for collision and visualization. " alt="" coords="276,56,472,83"/>
+<area shape="rect" id="node4" href="classchrono_1_1geometry_1_1_ch_cone.html" title="A conical geometric object for collisions and visualization. " alt="" coords="285,107,463,133"/>
+<area shape="rect" id="node5" href="classchrono_1_1geometry_1_1_ch_cylinder.html" title="A cylindrical geometric object for collisions and visualization. " alt="" coords="276,157,472,184"/>
+<area shape="rect" id="node6" href="classchrono_1_1geometry_1_1_ch_ellipsoid.html" title="An ellipsoid geometric object for collisions and such. " alt="" coords="275,208,473,235"/>
+<area shape="rect" id="node7" href="classchrono_1_1geometry_1_1_ch_line.html" title="Base class for all geometric objects representing lines in 3D space. " alt="" coords="288,259,460,285"/>
+<area shape="rect" id="node14" href="classchrono_1_1geometry_1_1_ch_rounded_box.html" title="A rounded box (sphere&#45;swept box) geometric object for collisions and visualization. " alt="" coords="263,309,485,336"/>
+<area shape="rect" id="node15" href="classchrono_1_1geometry_1_1_ch_rounded_cone.html" title="A rounded cone (sphere&#45;swept cone) geometric object for collisions and visualization. " alt="" coords="259,360,489,387"/>
+<area shape="rect" id="node16" href="classchrono_1_1geometry_1_1_ch_rounded_cylinder.html" title="A rounded cylinder (sphere&#45;swept cylinder) geometric object for collision and visualization. " alt="" coords="274,411,474,453"/>
+<area shape="rect" id="node17" href="classchrono_1_1geometry_1_1_ch_sphere.html" title="A spherical geometric object for collisions and visualization. " alt="" coords="279,477,469,504"/>
+<area shape="rect" id="node18" href="classchrono_1_1geometry_1_1_ch_triangle.html" title="A triangle geometric shape for collisions and visualization. " alt="" coords="277,528,471,555"/>
+<area shape="rect" id="node19" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html" title="Base class for triangle meshes. " alt="" coords="261,579,487,605"/>
+<area shape="rect" id="node8" href="classchrono_1_1geometry_1_1_ch_line_arc.html" title="Geometric object representing an arc or a circle in 3D space. " alt="" coords="541,116,733,143"/>
+<area shape="rect" id="node9" href="classchrono_1_1geometry_1_1_ch_line_bezier.html" title="Geometric object representing a piecewise cubic Bezier curve in 3D. " alt="" coords="551,167,723,209"/>
+<area shape="rect" id="node10" href="classchrono_1_1geometry_1_1_ch_line_cam.html" title="Geometric object describing the profile of a cam. " alt="" coords="537,233,737,260"/>
+<area shape="rect" id="node11" href="classchrono_1_1geometry_1_1_ch_line_path.html" title="Geometric object representing an sequence of other ChLine objects, The ChLine objects are assumed to ..." alt="" coords="538,284,737,311"/>
+<area shape="rect" id="node12" href="classchrono_1_1geometry_1_1_ch_line_poly.html" title="Geometric object representing a polygonal line in 3D space, controlled by control points..." alt="" coords="538,335,737,361"/>
+<area shape="rect" id="node13" href="classchrono_1_1geometry_1_1_ch_line_segment.html" title="Geometric object representing a segment in 3D space with two end points. " alt="" coords="551,386,723,427"/>
+<area shape="rect" id="node20" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html" title="A triangle mesh with connectivity info: vertices can be shared between faces. " alt="" coords="540,538,735,579"/>
+<area shape="rect" id="node21" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_soup.html" title="A basic triangle mesh: just a list of triangles (no edge connectivity info). " alt="" coords="540,603,735,645"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a591868bac82203818b59423b5331efaf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a591868bac82203818b59423b5331efaf"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a591868bac82203818b59423b5331efaf">GeometryType</a> { <br />
+&#160;&#160;<b>NONE</b>, 
+<b>SPHERE</b>, 
+<b>BOX</b>, 
+<b>CYLINDER</b>, 
+<br />
+&#160;&#160;<b>TRIANGLE</b>, 
+<b>CAPSULE</b>, 
+<b>CONE</b>, 
+<b>LINE</b>, 
+<br />
+&#160;&#160;<b>LINE_ARC</b>, 
+<b>LINE_BEZIER</b>, 
+<b>LINE_CAM</b>, 
+<b>LINE_PATH</b>, 
+<br />
+&#160;&#160;<b>LINE_POLY</b>, 
+<b>LINE_SEGMENT</b>, 
+<b>ROUNDED_BOX</b>, 
+<b>ROUNDED_CYLINDER</b>, 
+<br />
+&#160;&#160;<b>ROUNDED_CONE</b>, 
+<b>TRIANGLEMESH</b>, 
+<b>TRIANGLEMESH_CONNECTED</b>, 
+<b>TRIANGLEMESH_SOUP</b>
+<br />
+ }<tr class="memdesc:a591868bac82203818b59423b5331efaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of geometric objects. <br /></td></tr>
+</td></tr>
+<tr class="separator:a591868bac82203818b59423b5331efaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac71f24fadfded49a2958c823d64f24a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac71f24fadfded49a2958c823d64f24a3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChGeometry</b> (const <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">ChGeometry</a> &amp;source)</td></tr>
+<tr class="separator:ac71f24fadfded49a2958c823d64f24a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3474459a2842eda966f096a57c93e805"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3474459a2842eda966f096a57c93e805"></a>
+virtual <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html">ChGeometry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a3474459a2842eda966f096a57c93e805">Clone</a> () const =0</td></tr>
+<tr class="memdesc:a3474459a2842eda966f096a57c93e805"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Virtual" copy constructor. <br /></td></tr>
+<tr class="separator:a3474459a2842eda966f096a57c93e805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5cef95598377219aed9109974d30c2f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a591868bac82203818b59423b5331efaf">GeometryType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#ae5cef95598377219aed9109974d30c2f">GetClassType</a> () const </td></tr>
+<tr class="memdesc:ae5cef95598377219aed9109974d30c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the class type as unique numerical ID (faster than using ChronoRTTI mechanism).  <a href="#ae5cef95598377219aed9109974d30c2f">More...</a><br /></td></tr>
+<tr class="separator:ae5cef95598377219aed9109974d30c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5a9c58d23c135020f0c89693f41db19"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#af5a9c58d23c135020f0c89693f41db19">GetBoundingBox</a> (double &amp;xmin, double &amp;xmax, double &amp;ymin, double &amp;ymax, double &amp;zmin, double &amp;zmax, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *Rot=NULL) const </td></tr>
+<tr class="memdesc:af5a9c58d23c135020f0c89693f41db19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute bounding box.  <a href="#af5a9c58d23c135020f0c89693f41db19">More...</a><br /></td></tr>
+<tr class="separator:af5a9c58d23c135020f0c89693f41db19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a03904bae2729cf9c5d11c4a589923a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a5a03904bae2729cf9c5d11c4a589923a">InflateBoundingBox</a> (double &amp;xmin, double &amp;xmax, double &amp;ymin, double &amp;ymax, double &amp;zmin, double &amp;zmax, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *Rot=NULL) const </td></tr>
+<tr class="memdesc:a5a03904bae2729cf9c5d11c4a589923a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enlarge a previous existing bounding box.  <a href="#a5a03904bae2729cf9c5d11c4a589923a">More...</a><br /></td></tr>
+<tr class="separator:a5a03904bae2729cf9c5d11c4a589923a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27019bd4768c85e209524492626815ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27019bd4768c85e209524492626815ed"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a27019bd4768c85e209524492626815ed">Size</a> () const </td></tr>
+<tr class="memdesc:a27019bd4768c85e209524492626815ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the radius of the sphere which can enclose the geometry. <br /></td></tr>
+<tr class="separator:a27019bd4768c85e209524492626815ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed70e443f71a6de05b7d8735c6b716f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#aed70e443f71a6de05b7d8735c6b716f3">Evaluate</a> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;pos, const double parU, const double parV=0., const double parW=0.) const </td></tr>
+<tr class="memdesc:aed70e443f71a6de05b7d8735c6b716f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates a point on a geometry, given parametric coordinates, if possible.  <a href="#aed70e443f71a6de05b7d8735c6b716f3">More...</a><br /></td></tr>
+<tr class="separator:aed70e443f71a6de05b7d8735c6b716f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dac6dec8a76377ab9ee5412c60d04af"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a6dac6dec8a76377ab9ee5412c60d04af">Derive</a> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;dir, const double parU, const double parV=0., const double parW=0.) const </td></tr>
+<tr class="memdesc:a6dac6dec8a76377ab9ee5412c60d04af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates a tangent versor on a geometry, given parametric coordinates, if possible.  <a href="#a6dac6dec8a76377ab9ee5412c60d04af">More...</a><br /></td></tr>
+<tr class="separator:a6dac6dec8a76377ab9ee5412c60d04af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ac545c280bcec655c72f50262ad84d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6ac545c280bcec655c72f50262ad84d"></a>
+virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#aa6ac545c280bcec655c72f50262ad84d">Baricenter</a> () const </td></tr>
+<tr class="memdesc:aa6ac545c280bcec655c72f50262ad84d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute center of mass It should be overriden by inherited classes. <br /></td></tr>
+<tr class="separator:aa6ac545c280bcec655c72f50262ad84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0506e37859eafdd64353fb4f4d8a6c8a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0506e37859eafdd64353fb4f4d8a6c8a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a0506e37859eafdd64353fb4f4d8a6c8a">CovarianceMatrix</a> (<a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;C) const </td></tr>
+<tr class="memdesc:a0506e37859eafdd64353fb4f4d8a6c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the 3x3 covariance matrix (only the diagonal and upper part) It should be overriden by inherited classes. <br /></td></tr>
+<tr class="separator:a0506e37859eafdd64353fb4f4d8a6c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84d779f5d05fb17d044c58ca3f7a63cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84d779f5d05fb17d044c58ca3f7a63cf"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a84d779f5d05fb17d044c58ca3f7a63cf">GetManifoldDimension</a> () const </td></tr>
+<tr class="memdesc:a84d779f5d05fb17d044c58ca3f7a63cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the dimension of the geometry (0=point, 1=line, 2=surface, 3=solid) <br /></td></tr>
+<tr class="separator:a84d779f5d05fb17d044c58ca3f7a63cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdf21f22274cb098ffb200f98973cb11"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#abdf21f22274cb098ffb200f98973cb11">Update</a> ()</td></tr>
+<tr class="memdesc:abdf21f22274cb098ffb200f98973cb11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic update of internal data.  <a href="#abdf21f22274cb098ffb200f98973cb11">More...</a><br /></td></tr>
+<tr class="separator:abdf21f22274cb098ffb200f98973cb11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cadc347eca2abd4604c9584c4cc5d70"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2cadc347eca2abd4604c9584c4cc5d70"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ArchiveOUT</b> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="separator:a2cadc347eca2abd4604c9584c4cc5d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a9cc7dbbbd6be0410b4858d774caa8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42a9cc7dbbbd6be0410b4858d774caa8"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a42a9cc7dbbbd6be0410b4858d774caa8">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a42a9cc7dbbbd6be0410b4858d774caa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:a42a9cc7dbbbd6be0410b4858d774caa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a6dac6dec8a76377ab9ee5412c60d04af"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::geometry::ChGeometry::Derive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>parU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>parV</em> = <code>0.</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>parW</em> = <code>0.</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Evaluates a tangent versor on a geometry, given parametric coordinates, if possible. </p>
+<p>Parameters U,V,W should be usually in 0..1 range. For a line, only U parameter is needed, for a surface also V. Computed value goes into the 'pos' reference. It could be overriden by inherited classes if a precise solution is known (otherwise it defaults to numerical BDF using the <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#aed70e443f71a6de05b7d8735c6b716f3" title="Evaluates a point on a geometry, given parametric coordinates, if possible. ">Evaluate()</a> function. </p>
+
+</div>
+</div>
+<a class="anchor" id="aed70e443f71a6de05b7d8735c6b716f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::geometry::ChGeometry::Evaluate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>parU</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>parV</em> = <code>0.</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>parW</em> = <code>0.</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Evaluates a point on a geometry, given parametric coordinates, if possible. </p>
+<p>Parameters U,V,W should be usually in 0..1 range. For a line, only U parameter is needed, for a surface also V. Computed value goes into the 'pos' reference. It should be overriden by inherited classes. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1geometry_1_1_ch_line_cam.html#a4f50caaf74cd0ddff88171cd16ef44d7">chrono::geometry::ChLineCam</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_rounded_box.html#ad12be14469d5e45bca864601e9a95d90">chrono::geometry::ChRoundedBox</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_box.html#ae012d118e97f4d2bca1400824d1f7e25">chrono::geometry::ChBox</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_line_arc.html#a7293938674ff90c7617ee6bb80409226">chrono::geometry::ChLineArc</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_line_path.html#ad2b34746a0c043c607c264f2c11addc4">chrono::geometry::ChLinePath</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_line_bezier.html#a850173d293bf984bb5d97634ca3cbd29">chrono::geometry::ChLineBezier</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_line_poly.html#aa25bf8261974f04013d8d5614afd3f14">chrono::geometry::ChLinePoly</a>, and <a class="el" href="classchrono_1_1geometry_1_1_ch_line_segment.html#a8098ee08c03c9a43e6659a30398fae87">chrono::geometry::ChLineSegment</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af5a9c58d23c135020f0c89693f41db19"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::geometry::ChGeometry::GetBoundingBox </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>xmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>xmax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>ymin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>ymax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>zmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>zmax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *&#160;</td>
+          <td class="paramname"><em>Rot</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute bounding box. </p>
+<p>If a matrix Rot is not null, it should compute bounding box along the rotated directions represented by that transformation matrix Rot. It must be overridden by inherited classes. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html#a8aef058fdf2472060b742a4da24ea374">chrono::geometry::ChTriangleMesh</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle.html#acec8e174669098515f93cfdb0d2c4c28">chrono::geometry::ChTriangle</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_rounded_box.html#a3430ec2341542a6952c65d8e4e74bd4a">chrono::geometry::ChRoundedBox</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_box.html#a2a3c0781ad7439052cffac4f463dbe49">chrono::geometry::ChBox</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_rounded_cylinder.html#a91fa366a400c519c548dc12249bfe4c4">chrono::geometry::ChRoundedCylinder</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_capsule.html#aac890230193b8de95f54180f3856bc97">chrono::geometry::ChCapsule</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_cylinder.html#a2bd032e0a4fdcad67d1c7353981623f9">chrono::geometry::ChCylinder</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_cone.html#aedcd194dfe8e042310bfa940015f2d59">chrono::geometry::ChCone</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_ellipsoid.html#a2f23bcbaec44d342a2c548318631e18e">chrono::geometry::ChEllipsoid</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_sphere.html#a2c854d8730259c2175ab2bbd258c71fb">chrono::geometry::ChSphere</a>, and <a class="el" href="classchrono_1_1geometry_1_1_ch_rounded_cone.html#a6a0ffea8fc6e2d5d506f18939459dbdf">chrono::geometry::ChRoundedCone</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae5cef95598377219aed9109974d30c2f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#a591868bac82203818b59423b5331efaf">GeometryType</a> chrono::geometry::ChGeometry::GetClassType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the class type as unique numerical ID (faster than using ChronoRTTI mechanism). </p>
+<p>Each inherited class must return an unique ID. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html#a7472a90db6b8145f72da482026fdbcbb">chrono::geometry::ChTriangleMeshConnected</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_line_cam.html#ae2a9ebc7672b2f125f68a6950343bdf2">chrono::geometry::ChLineCam</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh_soup.html#a047c778b976a34c7979a6c8d8e42ff1c">chrono::geometry::ChTriangleMeshSoup</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html#a65396a97a89cab9b7802907136605ff3">chrono::geometry::ChTriangleMesh</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_line_arc.html#aa2960eb0ef455889f9bab5572f36911a">chrono::geometry::ChLineArc</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle.html#a2bb3fd85ba19323fd318182f6a556c5f">chrono::geometry::ChTriangle</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_rounded_box.html#a5ebfee3a780d9b3d90b5788248fbc37e">chrono::geometry::ChRoundedBox</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_line.html#a0c0b9b8bcd087aaeaf80a717183bd32c">chrono::geometry::ChLine</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_box.html#a704dca71a5f199f728059f520b12814b">chrono::geometry::ChBox</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_line_path.html#a68be2805e0e6f34edfbfc684087a61b7">chrono::geometry::ChLinePath</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_rounded_cylinder.html#ac3c6280c60cc159c4fce990e2d716f36">chrono::geometry::ChRoundedCylinder</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_capsule.html#a6ff17ec172f60d4137950a1fdb5e81ef">chrono::geometry::ChCapsule</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_cylinder.html#a178d3f1dc86128a0a821d81a0c0611c9">chrono::geometry::ChCylinder</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_line_bezier.html#a17a46816f6dc2e22c28c02c28d86eb6e">chrono::geometry::ChLineBezier</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_line_poly.html#a4776c3786c59d83e9dec4fb8d7fea155">chrono::geometry::ChLinePoly</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_line_segment.html#ab52b525bd17ade56c346d0b74d8a9f68">chrono::geometry::ChLineSegment</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_cone.html#af92032f680176a3069b63af7cf98be2d">chrono::geometry::ChCone</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_ellipsoid.html#a27c3b345bf9636c27ef85d44cacea7c6">chrono::geometry::ChEllipsoid</a>, <a class="el" href="classchrono_1_1geometry_1_1_ch_sphere.html#a81c5458f5cd8fec6b3e09c9bb35fcc29">chrono::geometry::ChSphere</a>, and <a class="el" href="classchrono_1_1geometry_1_1_ch_rounded_cone.html#a4bf41c30a2cbefbe371f25d9077a9d79">chrono::geometry::ChRoundedCone</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5a03904bae2729cf9c5d11c4a589923a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::geometry::ChGeometry::InflateBoundingBox </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>xmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>xmax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>ymin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>ymax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>zmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>zmax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; *&#160;</td>
+          <td class="paramname"><em>Rot</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enlarge a previous existing bounding box. </p>
+<p>Usually it does not need to be overriden: base function uses <a class="el" href="classchrono_1_1geometry_1_1_ch_geometry.html#af5a9c58d23c135020f0c89693f41db19" title="Compute bounding box. ">GetBoundingBox()</a> If Rot is not null, the bounding box axes are considered rotated. </p>
+
+</div>
+</div>
+<a class="anchor" id="abdf21f22274cb098ffb200f98973cb11"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::geometry::ChGeometry::Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generic update of internal data. </p>
+<p>Default, does nothing. Most often it is not needed to implement this method, but some inherited classes may implement it (ex. to update references to external data. etc.). </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:22 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

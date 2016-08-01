@@ -1,0 +1,8 @@
+<map id="chrono::vehicle::ChDriver" name="chrono::vehicle::ChDriver">
+<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_data_driver.html" title="Driver inputs from data file. " alt="" coords="230,5,429,32"/>
+<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_ch_irr_gui_driver.html" title="Interactive driver model using keyboard inputs. " alt="" coords="246,57,413,98"/>
+<area shape="rect" id="node6" href="$classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html" title="Closed&#45;loop path&#45;follower driver model. " alt="" coords="224,122,435,163"/>
+<area shape="rect" id="node7" href="$classchrono_1_1vehicle_1_1_ch_path_follower_driver.html" title="Closed&#45;loop path&#45;follower driver model. " alt="" coords="224,187,435,229"/>
+<area shape="rect" id="node4" href="$classchrono_1_1vehicle_1_1_ch_irr_gui_driver_s_t_r.html" title="Irrlicht&#45;based GUI driver for the a suspension test rig. " alt="" coords="483,25,649,66"/>
+<area shape="rect" id="node5" href="$classchrono_1_1vehicle_1_1_ch_irr_gui_driver_t_t_r.html" title="Irrlicht&#45;based GUI driver for the a track test rig. " alt="" coords="483,90,649,131"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="chrono::collision::ChCollisionModel" name="chrono::collision::ChCollisionModel">
+<area shape="rect" id="node2" href="$classchrono_1_1collision_1_1_ch_collision_model_parallel.html" title="A wrapper to uses GPU collision detection. " alt="" coords="177,5,344,47"/>
+<area shape="rect" id="node3" href="$classchrono_1_1collision_1_1_ch_model_bullet.html" title="A wrapper to use the Bullet collision detection library. " alt="" coords="199,71,323,112"/>
+<area shape="rect" id="node4" href="$classchrono_1_1collision_1_1_ch_model_sphere_set.html" title="A wrapper to use the Bullet collision detection library. " alt="" coords="193,136,328,177"/>
+<area shape="rect" id="node5" href="$classchrono_1_1collision_1_1_ch_model_sphere_set_body.html" title="Class for the collision model to be used in ChIndexedParticles shapes, that are collections of point&#45;..." alt="" coords="392,103,557,144"/>
+<area shape="rect" id="node6" href="$classchrono_1_1collision_1_1_ch_model_sphere_set_d_e_m.html" title="Class for the collision model to be used in ChIndexedParticles shapes, that are collections of point&#45;..." alt="" coords="392,168,557,209"/>
+</map>

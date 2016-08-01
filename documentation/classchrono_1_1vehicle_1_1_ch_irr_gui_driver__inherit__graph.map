@@ -1,0 +1,5 @@
+<map id="chrono::vehicle::ChIrrGuiDriver" name="chrono::vehicle::ChIrrGuiDriver">
+<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_ch_irr_gui_driver_s_t_r.html" title="Irrlicht&#45;based GUI driver for the a suspension test rig. " alt="" coords="5,169,172,211"/>
+<area shape="rect" id="node4" href="$classchrono_1_1vehicle_1_1_ch_irr_gui_driver_t_t_r.html" title="Irrlicht&#45;based GUI driver for the a track test rig. " alt="" coords="196,169,363,211"/>
+<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_driver.html" title="Base class for a vehicle driver system. " alt="" coords="98,5,269,32"/>
+</map>

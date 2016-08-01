@@ -1,0 +1,6 @@
+<map id="FEA module" name="FEA module">
+<area shape="rect" id="node1" href="$group__fea__constraints.html" title="Constraints" alt="" coords="177,5,266,32"/>
+<area shape="rect" id="node2" href="$group__fea__math.html" title="Mathematical support" alt="" coords="148,56,295,83"/>
+<area shape="rect" id="node3" href="$group__fea__elements.html" title="Elements" alt="" coords="183,107,260,133"/>
+<area shape="rect" id="node4" href="$group__fea__nodes.html" title="Nodes" alt="" coords="191,157,251,184"/>
+</map>

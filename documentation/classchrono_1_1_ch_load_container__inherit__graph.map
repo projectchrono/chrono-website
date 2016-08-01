@@ -1,0 +1,5 @@
+<map id="chrono::ChLoadContainer" name="chrono::ChLoadContainer">
+<area shape="rect" id="node4" href="$classchrono_1_1vehicle_1_1_deformable_soil.html" title="This class implements a terrain with variable heightmap, but differently from RigidTerrain, the vertical coordinates of this terrain mesh can be deformed because of vertical interaction with wheeled vehicles. " alt="" coords="5,229,212,256"/>
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="29,80,188,107"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="55,5,162,32"/>
+</map>

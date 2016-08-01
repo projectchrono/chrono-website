@@ -1,0 +1,432 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::collision::ChConvexDecomposition Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1collision.html">collision</a></li><li class="navelem"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html">ChConvexDecomposition</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1collision_1_1_ch_convex_decomposition-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::collision::ChConvexDecomposition Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base interface class for convex decomposition. </p>
+<p>There are some inherited classes that can be instanced to perform different algorithms of decomposition. </p>
+</div>
+<p><code>#include &lt;ChCConvexDecomposition.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::collision::ChConvexDecomposition:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1collision_1_1_ch_convex_decomposition__inherit__graph.png" border="0" usemap="#chrono_1_1collision_1_1_ch_convex_decomposition_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1collision_1_1_ch_convex_decomposition_inherit__map" id="chrono_1_1collision_1_1_ch_convex_decomposition_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_d.html" title="Class for wrapping the HACD convex decomposition code by Khaled Mamou (in the convexdecomposition/ di..." alt="" coords="231,5,441,47"/>
+<area shape="rect" id="node3" href="classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_dv2.html" title="Class for wrapping the HACD convex decomposition code revisited by John Ratcliff. ..." alt="" coords="224,71,448,112"/>
+<area shape="rect" id="node4" href="classchrono_1_1collision_1_1_ch_convex_decomposition_j_r.html" title="Class for wrapping the NvConvexDecomposition code by John W. " alt="" coords="242,136,430,177"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aab39056f8d1e6cd0f348657aa3d1ef31"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aab39056f8d1e6cd0f348657aa3d1ef31"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html#aab39056f8d1e6cd0f348657aa3d1ef31">ChConvexDecomposition</a> ()</td></tr>
+<tr class="memdesc:aab39056f8d1e6cd0f348657aa3d1ef31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic constructor. <br /></td></tr>
+<tr class="separator:aab39056f8d1e6cd0f348657aa3d1ef31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a369dcd8cb6e3dbf8e92be640cd57b14a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a369dcd8cb6e3dbf8e92be640cd57b14a"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html#a369dcd8cb6e3dbf8e92be640cd57b14a">~ChConvexDecomposition</a> ()</td></tr>
+<tr class="memdesc:a369dcd8cb6e3dbf8e92be640cd57b14a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:a369dcd8cb6e3dbf8e92be640cd57b14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c37b074db079327e184ab8fdc6fb02f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c37b074db079327e184ab8fdc6fb02f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html#a9c37b074db079327e184ab8fdc6fb02f">Reset</a> (void)=0</td></tr>
+<tr class="memdesc:a9c37b074db079327e184ab8fdc6fb02f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the input mesh data. <br /></td></tr>
+<tr class="separator:a9c37b074db079327e184ab8fdc6fb02f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18848e7cb43af3af9cb212c4ce7ccae5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html#a18848e7cb43af3af9cb212c4ce7ccae5">AddTriangle</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;v1, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;v2, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;v3)=0</td></tr>
+<tr class="memdesc:a18848e7cb43af3af9cb212c4ce7ccae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a triangle, by passing three points for vertexes.  <a href="#a18848e7cb43af3af9cb212c4ce7ccae5">More...</a><br /></td></tr>
+<tr class="separator:a18848e7cb43af3af9cb212c4ce7ccae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae779b4f0a93736827cfe36a718e39b9b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html#ae779b4f0a93736827cfe36a718e39b9b">AddTriangle</a> (const <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle.html">geometry::ChTriangle</a> &amp;t1)</td></tr>
+<tr class="memdesc:ae779b4f0a93736827cfe36a718e39b9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a triangle, by passing a ChTriangle object (that will be copied, not referenced).  <a href="#ae779b4f0a93736827cfe36a718e39b9b">More...</a><br /></td></tr>
+<tr class="separator:ae779b4f0a93736827cfe36a718e39b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeca6c6cff589e63130f79b507b6ef20e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html#aeca6c6cff589e63130f79b507b6ef20e">AddTriangleMesh</a> (const <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html">geometry::ChTriangleMesh</a> &amp;tm)</td></tr>
+<tr class="memdesc:aeca6c6cff589e63130f79b507b6ef20e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a triangle mesh, by passing an entire ChTriangleMesh object.  <a href="#aeca6c6cff589e63130f79b507b6ef20e">More...</a><br /></td></tr>
+<tr class="separator:aeca6c6cff589e63130f79b507b6ef20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f4fb750534efddf0cd28d5598938ecd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f4fb750534efddf0cd28d5598938ecd"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html#a2f4fb750534efddf0cd28d5598938ecd">ComputeConvexDecomposition</a> ()=0</td></tr>
+<tr class="memdesc:a2f4fb750534efddf0cd28d5598938ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the convex decomposition. <br /></td></tr>
+<tr class="separator:a2f4fb750534efddf0cd28d5598938ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424544ae486416d131ec44634189d54c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a424544ae486416d131ec44634189d54c"></a>
+virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html#a424544ae486416d131ec44634189d54c">GetHullCount</a> ()=0</td></tr>
+<tr class="memdesc:a424544ae486416d131ec44634189d54c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of computed hulls after the convex decomposition. <br /></td></tr>
+<tr class="separator:a424544ae486416d131ec44634189d54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9deb44c21b334c75794a3d6e99839155"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html#a9deb44c21b334c75794a3d6e99839155">GetConvexHullResult</a> (unsigned int hullIndex, <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html">geometry::ChTriangleMesh</a> &amp;convextrimesh)=0</td></tr>
+<tr class="memdesc:a9deb44c21b334c75794a3d6e99839155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the n-th computed convex hull, by filling a ChTriangleMesh object that is passed as a parameter.  <a href="#a9deb44c21b334c75794a3d6e99839155">More...</a><br /></td></tr>
+<tr class="separator:a9deb44c21b334c75794a3d6e99839155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac4f94340a3cb1ded15f68fa7f52fbda"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html#aac4f94340a3cb1ded15f68fa7f52fbda">GetConvexHullResult</a> (unsigned int hullIndex, std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &gt; &amp;convexhull)=0</td></tr>
+<tr class="memdesc:aac4f94340a3cb1ded15f68fa7f52fbda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the n-th computed convex hull, by filling a vector of points of the vertexes of the n-th hull that is passed as a parameter.  <a href="#aac4f94340a3cb1ded15f68fa7f52fbda">More...</a><br /></td></tr>
+<tr class="separator:aac4f94340a3cb1ded15f68fa7f52fbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3705dc3f6beea7a1980abe4a22d8767"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html#ac3705dc3f6beea7a1980abe4a22d8767">WriteConvexHullsAsChullsFile</a> (<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;mstream)</td></tr>
+<tr class="memdesc:ac3705dc3f6beea7a1980abe4a22d8767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the convex decomposition to a ".chulls" file, where each hull is a sequence of x y z coords.  <a href="#ac3705dc3f6beea7a1980abe4a22d8767">More...</a><br /></td></tr>
+<tr class="separator:ac3705dc3f6beea7a1980abe4a22d8767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18e83abb563c48b8b42d67834e65fdaa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition.html#a18e83abb563c48b8b42d67834e65fdaa">WriteConvexHullsAsWavefrontObj</a> (<a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;mstream)=0</td></tr>
+<tr class="memdesc:a18e83abb563c48b8b42d67834e65fdaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the computed convex hulls as a Wavefront file using the '.obj' fileformat, with each hull as a separate group.  <a href="#a18e83abb563c48b8b42d67834e65fdaa">More...</a><br /></td></tr>
+<tr class="separator:a18e83abb563c48b8b42d67834e65fdaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a18848e7cb43af3af9cb212c4ce7ccae5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChConvexDecomposition::AddTriangle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>v2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>v3</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a triangle, by passing three points for vertexes. </p>
+<p>Note: the vertexes must be properly ordered (oriented triangle, normal pointing outside) </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_dv2.html#a6bff1e97a07c7ae954bcb1ef91ee163b">chrono::collision::ChConvexDecompositionHACDv2</a>, <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_j_r.html#aab894749afb1f7b4edbb6a6bd9a8a2f3">chrono::collision::ChConvexDecompositionJR</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_d.html#a16fd1e4154b0c8c56752e1568a4a3113">chrono::collision::ChConvexDecompositionHACD</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae779b4f0a93736827cfe36a718e39b9b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::collision::ChConvexDecomposition::AddTriangle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle.html">geometry::ChTriangle</a> &amp;&#160;</td>
+          <td class="paramname"><em>t1</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a triangle, by passing a ChTriangle object (that will be copied, not referenced). </p>
+<p>Note: the vertexes must be properly ordered (oriented triangle, normal pointing outside) </p>
+
+</div>
+</div>
+<a class="anchor" id="aeca6c6cff589e63130f79b507b6ef20e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::collision::ChConvexDecomposition::AddTriangleMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html">geometry::ChTriangleMesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>tm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a triangle mesh, by passing an entire ChTriangleMesh object. </p>
+<p>Note: the triangles must define closed volumes (holes, gaps in edges, etc. may trouble the decomposition) </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_dv2.html#a320f9291088cf0efea3fc80f1ca96bf3">chrono::collision::ChConvexDecompositionHACDv2</a>, <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_j_r.html#ae829ae95fff890a3ef7350f9a1950509">chrono::collision::ChConvexDecompositionJR</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_d.html#ab3f948d6b516357793c63593189bc967">chrono::collision::ChConvexDecompositionHACD</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9deb44c21b334c75794a3d6e99839155"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChConvexDecomposition::GetConvexHullResult </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>hullIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1geometry_1_1_ch_triangle_mesh.html">geometry::ChTriangleMesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>convextrimesh</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the n-th computed convex hull, by filling a ChTriangleMesh object that is passed as a parameter. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_dv2.html#ab950e9fc685978c683a9aec6d70f4fa8">chrono::collision::ChConvexDecompositionHACDv2</a>, <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_j_r.html#a2e06c4e3de9a8b90fcf88855fc622939">chrono::collision::ChConvexDecompositionJR</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_d.html#afe126622448132a161dcd6fedadd0270">chrono::collision::ChConvexDecompositionHACD</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac4f94340a3cb1ded15f68fa7f52fbda"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::collision::ChConvexDecomposition::GetConvexHullResult </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>hullIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt; double &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>convexhull</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the n-th computed convex hull, by filling a vector of points of the vertexes of the n-th hull that is passed as a parameter. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_dv2.html#a4052216a15d8aa831ddb079e75fb7baf">chrono::collision::ChConvexDecompositionHACDv2</a>, <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_j_r.html#ab241054f6299153b5ad8245dc3357803">chrono::collision::ChConvexDecompositionJR</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_d.html#a915d34d285473ad24b4d92b8d0eb5a2d">chrono::collision::ChConvexDecompositionHACD</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac3705dc3f6beea7a1980abe4a22d8767"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::collision::ChConvexDecomposition::WriteConvexHullsAsChullsFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td>
+          <td class="paramname"><em>mstream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write the convex decomposition to a ".chulls" file, where each hull is a sequence of x y z coords. </p>
+<p>Can throw exceptions. </p>
+
+</div>
+</div>
+<a class="anchor" id="a18e83abb563c48b8b42d67834e65fdaa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::collision::ChConvexDecomposition::WriteConvexHullsAsWavefrontObj </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_stream_out_ascii.html">ChStreamOutAscii</a> &amp;&#160;</td>
+          <td class="paramname"><em>mstream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save the computed convex hulls as a Wavefront file using the '.obj' fileformat, with each hull as a separate group. </p>
+<p>May throw exceptions if file locked etc. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_dv2.html#ace825afd941aed5abb6f28f9e69765e8">chrono::collision::ChConvexDecompositionHACDv2</a>, <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_j_r.html#a5cc3e2efd8f494202f937823992f5fd5">chrono::collision::ChConvexDecompositionJR</a>, and <a class="el" href="classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_d.html#a9633682e33be13ebcdeac1efcd36fbbb">chrono::collision::ChConvexDecompositionHACD</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:20 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

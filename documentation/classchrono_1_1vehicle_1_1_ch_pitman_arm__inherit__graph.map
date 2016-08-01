@@ -1,0 +1,4 @@
+<map id="chrono::vehicle::ChPitmanArm" name="chrono::vehicle::ChPitmanArm">
+<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_pitman_arm.html" title="Pitman arm steering model constructed with data from file (JSON format). " alt="" coords="14,155,197,181"/>
+<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_steering.html" title="Base class for a steering subsystem. " alt="" coords="14,5,197,32"/>
+</map>

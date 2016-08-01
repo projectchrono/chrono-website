@@ -1,0 +1,4 @@
+<map id="chrono::ChBoxShape" name="chrono::ChBoxShape">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_visualization.html" title="Base class for assets that define something about visualization (rendering, post processing, etc.) It contains basic information about position, color, and visibility. " alt="" coords="5,80,165,107"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_asset.html" title="Classes for adding user data (such as rendering shapes, reference to files) to ChPhysicsItem objects..." alt="" coords="25,5,145,32"/>
+</map>

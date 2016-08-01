@@ -1,0 +1,479 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChPathFollowerACCDriver Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html">ChPathFollowerACCDriver</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChPathFollowerACCDriver Class Reference<div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__driver.html">Driver models</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Closed-loop path-follower driver model. </p>
+<p>A driver model that uses a path steering controller and a speed controller. The steering controller adjusts the steering input to follow the prescribed path. The output from the speed controller is used to adjust throttle and braking inputs in order to maintain the prescribed constant vehicle speed.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_steering_controller.html" title="Concrete path-following steering PID controller. ">ChPathSteeringController</a> </dd>
+<dd>
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html" title="Data collection from the speed controller can be started (restarted) and suspended (stopped) as many ...">ChAdaptiveSpeedController</a> </dd></dl>
+</div>
+<p><code>#include &lt;ChPathFollowerACCDriver.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::ChPathFollowerACCDriver:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver_inherit__map" id="chrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_driver.html" title="Base class for a vehicle driver system. " alt="" coords="25,5,196,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::vehicle::ChPathFollowerACCDriver:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver__coll__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver_coll__map" id="chrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_driver.html" title="Base class for a vehicle driver system. " alt="" coords="1241,301,1412,327"/>
+<area shape="rect" id="node3" href="classchrono_1_1vehicle_1_1_ch_vehicle.html" title="Base class for chrono vehicle systems. " alt="" coords="951,301,1129,327"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_system.html" title="Physical system. " alt="" coords="707,250,837,277"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="961,199,1119,226"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_assembly.html" title="Class for assemblies of items, for example ChBody, ChLink, ChMesh, etc. " alt="" coords="1255,234,1399,261"/>
+<area shape="rect" id="node7" href="classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="719,171,825,198"/>
+<area shape="rect" id="node8" href="classchrono_1_1_ch_integrable_i_iorder.html" title="Special subcase: II&#45;order differential system. " alt="" coords="333,6,513,33"/>
+<area shape="rect" id="node9" href="classchrono_1_1_ch_integrable.html" title="Interface class for all objects that support time integration. " alt="" coords="19,6,161,33"/>
+<area shape="rect" id="node10" href="classchrono_1_1_ch_system_descriptor.html" title="Base class for collecting objects inherited from ChConstraint , ChVariables and, optionally ChKblock..." alt="" coords="327,57,518,83"/>
+<area shape="rect" id="node11" href="classchrono_1_1_ch_timer.html" title="chrono::ChTimer\&lt; double \&gt;" alt="" coords="332,191,513,218"/>
+<area shape="rect" id="node12" href="classchrono_1_1_ch_system_1_1_ch_custom_collision_point_callback.html" title="Class to be inherited by user and to use in SetCustomCollisionPointCallback() " alt="" coords="321,243,524,284"/>
+<area shape="rect" id="node13" href="classchrono_1_1_ch_vector.html" title="Definition of general purpose 3d vector variables, such as points in 3D. " alt="" coords="335,309,510,335"/>
+<area shape="rect" id="node14" href="classchrono_1_1_ch_solver.html" title="Base class for solvers aimed at solving complementarity problems arising from QP optimization problem..." alt="" coords="361,359,484,386"/>
+<area shape="rect" id="node15" href="classchrono_1_1collision_1_1_ch_collision_system.html" title="Base class for generic collision engine. " alt="" coords="355,411,490,452"/>
+<area shape="rect" id="node16" href="classchrono_1_1collision_1_1_ch_narrow_phase_callback.html" title="Class to be used as a callback interface for the narrow phase collision system. " alt="" coords="5,443,175,484"/>
+<area shape="rect" id="node17" href="classchrono_1_1collision_1_1_ch_broad_phase_callback.html" title="Class to be used as a callback interface for the broad&#45;phase collision system. " alt="" coords="9,377,171,419"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a9e3b205b3f1b78de3e44545229828eed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html#a9e3b205b3f1b78de3e44545229828eed">ChPathFollowerACCDriver</a> (<a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;vehicle, <a class="el" href="classchrono_1_1_ch_bezier_curve.html">ChBezierCurve</a> *path, const std::string &amp;path_name, double target_speed, double target_following_time, double target_min_distance, double current_distance, bool isClosedPath=false)</td></tr>
+<tr class="memdesc:a9e3b205b3f1b78de3e44545229828eed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct using the specified Bezier curve.  <a href="#a9e3b205b3f1b78de3e44545229828eed">More...</a><br /></td></tr>
+<tr class="separator:a9e3b205b3f1b78de3e44545229828eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286f028ffbcd65c28fa6a062b4465af0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html#a286f028ffbcd65c28fa6a062b4465af0">ChPathFollowerACCDriver</a> (<a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;vehicle, const std::string &amp;steering_filename, const std::string &amp;speed_filename, <a class="el" href="classchrono_1_1_ch_bezier_curve.html">ChBezierCurve</a> *path, const std::string &amp;path_name, double target_speed, double target_following_time, double target_min_distance, double current_distance, bool isClosedPath=false)</td></tr>
+<tr class="memdesc:a286f028ffbcd65c28fa6a062b4465af0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct using JSON specification files.  <a href="#a286f028ffbcd65c28fa6a062b4465af0">More...</a><br /></td></tr>
+<tr class="separator:a286f028ffbcd65c28fa6a062b4465af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a061e183b64b35dbbe75e21483be1bbd0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a061e183b64b35dbbe75e21483be1bbd0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html#a061e183b64b35dbbe75e21483be1bbd0">SetDesiredSpeed</a> (double val)</td></tr>
+<tr class="memdesc:a061e183b64b35dbbe75e21483be1bbd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the desired vehicle speed. <br /></td></tr>
+<tr class="separator:a061e183b64b35dbbe75e21483be1bbd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8da66995f240df334aade71174af3b0d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8da66995f240df334aade71174af3b0d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html#a8da66995f240df334aade71174af3b0d">SetDesiredFollowingTime</a> (double val)</td></tr>
+<tr class="memdesc:a8da66995f240df334aade71174af3b0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the desired number of seconds of following distance. <br /></td></tr>
+<tr class="separator:a8da66995f240df334aade71174af3b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6c2caff1cf862a1751e7d5309891488"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6c2caff1cf862a1751e7d5309891488"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html#ad6c2caff1cf862a1751e7d5309891488">SetDesiredFollowingMinDistance</a> (double val)</td></tr>
+<tr class="memdesc:ad6c2caff1cf862a1751e7d5309891488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the desired min distance to the vehicle in front This comes into play especially at low to zero speeds. <br /></td></tr>
+<tr class="separator:ad6c2caff1cf862a1751e7d5309891488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dc0c636306779a178aa7e47f92ea33d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8dc0c636306779a178aa7e47f92ea33d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html#a8dc0c636306779a178aa7e47f92ea33d">SetCurrentDistance</a> (double val)</td></tr>
+<tr class="memdesc:a8dc0c636306779a178aa7e47f92ea33d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the distance to the vehicle in front that the control will track Typically this will be called at each time step. <br /></td></tr>
+<tr class="separator:a8dc0c636306779a178aa7e47f92ea33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3f20ab1f156bc29a53afcb607103b6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html#ac3f20ab1f156bc29a53afcb607103b6c">SetThreshholdThrottle</a> (double val)</td></tr>
+<tr class="memdesc:ac3f20ab1f156bc29a53afcb607103b6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the throttle value below which braking is enabled.  <a href="#ac3f20ab1f156bc29a53afcb607103b6c">More...</a><br /></td></tr>
+<tr class="separator:ac3f20ab1f156bc29a53afcb607103b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20f0c6d756261314f2ef94b40b2363f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20f0c6d756261314f2ef94b40b2363f1"></a>
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_path_steering_controller.html">ChPathSteeringController</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html#a20f0c6d756261314f2ef94b40b2363f1">GetSteeringController</a> ()</td></tr>
+<tr class="memdesc:a20f0c6d756261314f2ef94b40b2363f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the underlying steering controller object. <br /></td></tr>
+<tr class="separator:a20f0c6d756261314f2ef94b40b2363f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af79cf397be6adde4cec9950730aaea88"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af79cf397be6adde4cec9950730aaea88"></a>
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_adaptive_speed_controller.html">ChAdaptiveSpeedController</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html#af79cf397be6adde4cec9950730aaea88">GetSpeedController</a> ()</td></tr>
+<tr class="memdesc:af79cf397be6adde4cec9950730aaea88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the underlying speed controller object. <br /></td></tr>
+<tr class="separator:af79cf397be6adde4cec9950730aaea88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9563cd6dd3119453b73fdfb5f4099cb9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9563cd6dd3119453b73fdfb5f4099cb9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html#a9563cd6dd3119453b73fdfb5f4099cb9">Reset</a> ()</td></tr>
+<tr class="memdesc:a9563cd6dd3119453b73fdfb5f4099cb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the underlying controllers. <br /></td></tr>
+<tr class="separator:a9563cd6dd3119453b73fdfb5f4099cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb779a0f0dba8edd7f182ce7a0ad6dfc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb779a0f0dba8edd7f182ce7a0ad6dfc"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html#acb779a0f0dba8edd7f182ce7a0ad6dfc">Advance</a> (double step) override</td></tr>
+<tr class="memdesc:acb779a0f0dba8edd7f182ce7a0ad6dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance the state of this driver system by the specified duration. <br /></td></tr>
+<tr class="separator:acb779a0f0dba8edd7f182ce7a0ad6dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e134e6b5087ae3124198cc630e61ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9e134e6b5087ae3124198cc630e61ec"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_path_follower_a_c_c_driver.html#aa9e134e6b5087ae3124198cc630e61ec">ExportPathPovray</a> (const std::string &amp;out_dir)</td></tr>
+<tr class="memdesc:aa9e134e6b5087ae3124198cc630e61ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Export the Bezier curve for POV-Ray postprocessing. <br /></td></tr>
+<tr class="separator:aa9e134e6b5087ae3124198cc630e61ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1vehicle_1_1_ch_driver')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html">chrono::vehicle::ChDriver</a></td></tr>
+<tr class="memitem:a20a15c5e9231f451bc15664c06b71b41 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#a20a15c5e9231f451bc15664c06b71b41">ChDriver</a> (<a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;vehicle)</td></tr>
+<tr class="separator:a20a15c5e9231f451bc15664c06b71b41 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1155e6d1126e0485dad246fbffda96f0 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1155e6d1126e0485dad246fbffda96f0"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#a1155e6d1126e0485dad246fbffda96f0">GetThrottle</a> () const </td></tr>
+<tr class="memdesc:a1155e6d1126e0485dad246fbffda96f0 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the driver throttle input (in the range [0,1]) <br /></td></tr>
+<tr class="separator:a1155e6d1126e0485dad246fbffda96f0 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a112d34e60225c9d6ab48628057569a99 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a112d34e60225c9d6ab48628057569a99"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#a112d34e60225c9d6ab48628057569a99">GetSteering</a> () const </td></tr>
+<tr class="memdesc:a112d34e60225c9d6ab48628057569a99 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the driver steering input (in the range [-1,+1]) <br /></td></tr>
+<tr class="separator:a112d34e60225c9d6ab48628057569a99 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9516bea20533e59b818ee4127977d9 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a9516bea20533e59b818ee4127977d9"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#a5a9516bea20533e59b818ee4127977d9">GetBraking</a> () const </td></tr>
+<tr class="memdesc:a5a9516bea20533e59b818ee4127977d9 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the driver braking input (in the range [0,1]) <br /></td></tr>
+<tr class="separator:a5a9516bea20533e59b818ee4127977d9 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a351f6f2b89e586195353bd6919d2b7ab inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a351f6f2b89e586195353bd6919d2b7ab"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#a351f6f2b89e586195353bd6919d2b7ab">Initialize</a> ()</td></tr>
+<tr class="memdesc:a351f6f2b89e586195353bd6919d2b7ab inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize this driver system. <br /></td></tr>
+<tr class="separator:a351f6f2b89e586195353bd6919d2b7ab inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f72b1a3e3c9d992656c6659f68ca91f inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f72b1a3e3c9d992656c6659f68ca91f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#a3f72b1a3e3c9d992656c6659f68ca91f">Synchronize</a> (double time)</td></tr>
+<tr class="memdesc:a3f72b1a3e3c9d992656c6659f68ca91f inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the state of this driver system at the current time. <br /></td></tr>
+<tr class="separator:a3f72b1a3e3c9d992656c6659f68ca91f inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac457a36bab64ab79019a47e018487f94 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac457a36bab64ab79019a47e018487f94"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#ac457a36bab64ab79019a47e018487f94">LogInit</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:ac457a36bab64ab79019a47e018487f94 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize output file for recording driver inputs. <br /></td></tr>
+<tr class="separator:ac457a36bab64ab79019a47e018487f94 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a8694c42286fe76fb463a3defcfc3a inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2a8694c42286fe76fb463a3defcfc3a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#ae2a8694c42286fe76fb463a3defcfc3a">Log</a> (double time)</td></tr>
+<tr class="memdesc:ae2a8694c42286fe76fb463a3defcfc3a inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Record the current driver inputs to the log file. <br /></td></tr>
+<tr class="separator:ae2a8694c42286fe76fb463a3defcfc3a inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c7b8d76b2b7c676494c88b5bd7609d6 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c7b8d76b2b7c676494c88b5bd7609d6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#a0c7b8d76b2b7c676494c88b5bd7609d6">SetSteering</a> (double val, double min_val=-1, double max_val=1)</td></tr>
+<tr class="memdesc:a0c7b8d76b2b7c676494c88b5bd7609d6 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrite the value for the driver steering input. <br /></td></tr>
+<tr class="separator:a0c7b8d76b2b7c676494c88b5bd7609d6 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dbb045cf645db817ec1cb4beea872c8 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6dbb045cf645db817ec1cb4beea872c8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#a6dbb045cf645db817ec1cb4beea872c8">SetThrottle</a> (double val, double min_val=0, double max_val=1)</td></tr>
+<tr class="memdesc:a6dbb045cf645db817ec1cb4beea872c8 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrite the value for the driver throttle input. <br /></td></tr>
+<tr class="separator:a6dbb045cf645db817ec1cb4beea872c8 inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13cb04d068cecc248216b481541b5cce inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13cb04d068cecc248216b481541b5cce"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#a13cb04d068cecc248216b481541b5cce">SetBraking</a> (double val, double min_val=0, double max_val=1)</td></tr>
+<tr class="memdesc:a13cb04d068cecc248216b481541b5cce inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrite the value for the driver braking input. <br /></td></tr>
+<tr class="separator:a13cb04d068cecc248216b481541b5cce inherit pub_methods_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1vehicle_1_1_ch_driver')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html">chrono::vehicle::ChDriver</a></td></tr>
+<tr class="memitem:a874ce1d97f20d6b526f0969cf8756176 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a874ce1d97f20d6b526f0969cf8756176"></a>
+<a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#a874ce1d97f20d6b526f0969cf8756176">m_vehicle</a></td></tr>
+<tr class="memdesc:a874ce1d97f20d6b526f0969cf8756176 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference to associated vehicle <br /></td></tr>
+<tr class="separator:a874ce1d97f20d6b526f0969cf8756176 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add35d24c5e284c66130d24c7b4431c42 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add35d24c5e284c66130d24c7b4431c42"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#add35d24c5e284c66130d24c7b4431c42">m_throttle</a></td></tr>
+<tr class="memdesc:add35d24c5e284c66130d24c7b4431c42 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">current value of throttle input <br /></td></tr>
+<tr class="separator:add35d24c5e284c66130d24c7b4431c42 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5de9728d613fc6ccf2135e95e7de4230 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5de9728d613fc6ccf2135e95e7de4230"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#a5de9728d613fc6ccf2135e95e7de4230">m_steering</a></td></tr>
+<tr class="memdesc:a5de9728d613fc6ccf2135e95e7de4230 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">current value of steering input <br /></td></tr>
+<tr class="separator:a5de9728d613fc6ccf2135e95e7de4230 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa57d70be1aa1f750f96d134b4db682c3 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa57d70be1aa1f750f96d134b4db682c3"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_driver.html#aa57d70be1aa1f750f96d134b4db682c3">m_braking</a></td></tr>
+<tr class="memdesc:aa57d70be1aa1f750f96d134b4db682c3 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">current value of braking input <br /></td></tr>
+<tr class="separator:aa57d70be1aa1f750f96d134b4db682c3 inherit pro_attribs_classchrono_1_1vehicle_1_1_ch_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a9e3b205b3f1b78de3e44545229828eed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::vehicle::ChPathFollowerACCDriver::ChPathFollowerACCDriver </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;&#160;</td>
+          <td class="paramname"><em>vehicle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_bezier_curve.html">ChBezierCurve</a> *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>target_speed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>target_following_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>target_min_distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>current_distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isClosedPath</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct using the specified Bezier curve. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vehicle</td><td>associated vehicle </td></tr>
+    <tr><td class="paramname">path</td><td>Bezier curve with target path </td></tr>
+    <tr><td class="paramname">path_name</td><td>name of the path curve </td></tr>
+    <tr><td class="paramname">target_speed</td><td>constant target speed </td></tr>
+    <tr><td class="paramname">target_following_time</td><td>seconds of following time </td></tr>
+    <tr><td class="paramname">target_min_distance</td><td>min following distance </td></tr>
+    <tr><td class="paramname">current_distance</td><td>current distance to the vehicle in front </td></tr>
+    <tr><td class="paramname">isClosedPath</td><td>Treat the path as a closed loop </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a286f028ffbcd65c28fa6a062b4465af0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::vehicle::ChPathFollowerACCDriver::ChPathFollowerACCDriver </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1vehicle_1_1_ch_vehicle.html">ChVehicle</a> &amp;&#160;</td>
+          <td class="paramname"><em>vehicle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>steering_filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>speed_filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_bezier_curve.html">ChBezierCurve</a> *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>target_speed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>target_following_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>target_min_distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>current_distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isClosedPath</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct using JSON specification files. </p>
+<p>The two files must contain specification for the path-follower steering controller and the constant-speed controller, respectively. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vehicle</td><td>associated vehicle </td></tr>
+    <tr><td class="paramname">steering_filename</td><td>JSON file with steering controller specification </td></tr>
+    <tr><td class="paramname">speed_filename</td><td>JSON file with speed controller specification </td></tr>
+    <tr><td class="paramname">path</td><td>Bezier curve with target path </td></tr>
+    <tr><td class="paramname">path_name</td><td>name of the path curve </td></tr>
+    <tr><td class="paramname">target_speed</td><td>constant target speed </td></tr>
+    <tr><td class="paramname">target_following_time</td><td>seconds of following time </td></tr>
+    <tr><td class="paramname">target_min_distance</td><td>min following distance </td></tr>
+    <tr><td class="paramname">current_distance</td><td>current distance to the vehicle in front </td></tr>
+    <tr><td class="paramname">isClosedPath</td><td>Treat the path as a closed loop </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac3f20ab1f156bc29a53afcb607103b6c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChPathFollowerACCDriver::SetThreshholdThrottle </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Specify the throttle value below which braking is enabled. </p>
+<p>If the vehicle is moving faster than the set speed, the controller attempts to reduce speed either by reducing the throttle input (if the current throttle input is above the threshold value) or by applying brakes (otherwise). </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:24 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

@@ -1,0 +1,835 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChConstraint Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_constraint.html">ChConstraint</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1_ch_constraint-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChConstraint Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for representing constraints to be used with variational inequality solvers, used with Linear/CCP/LCP problems including inequalities, equalities, nonlinearities, etc. </p>
+<p>The matrices define the variational inequality VI(Z*x-d,K):</p>
+<p>| M -Cq'|*|q|- | f|= |0| , l  Y, C  Ny, normal cone to Y | Cq -E | |l| |-b| |c|</p>
+<p>Also Z symmetric by flipping sign of l_i: |M Cq'|*| q|-| f|=|0| |Cq E | |-l| |-b| |c|</p><ul>
+<li>case linear problem: all Y_i = R, Ny=0, ex. all bilaterals)</li>
+<li>case LCP: all Y_i = R+: c&gt;=0, l&gt;=0, l*c=0)</li>
+<li>case CCP: Y_i are friction cones) The jacobian matrix [Cq] is built row by row by jacobians [Cq_i] of the constraints. [E] optionally includes 'cfm_i' terms on the diagonal. In general, typical bilateral constraints must be solved to have residual the residual c_i = 0 (unilaterals: c_i&gt;0) where the following linearization is introduced: c_i= [Cq_i]*q + b_i</li>
+</ul>
+<p>The base class introduces just the minimum requirements for the solver, that is the basic methods which will be called by the solver. It is up to the derived classes to implement these methods, and to add further features.. </p>
+</div>
+<p><code>#include &lt;ChConstraint.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChConstraint:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_constraint__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_constraint_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_constraint_inherit__map" id="chrono_1_1_ch_constraint_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_constraint_two_tuples.html" title="chrono::ChConstraintTwoTuples\l\&lt; typecarr_a, typecarr_b \&gt;" alt="" coords="200,136,411,177"/>
+<area shape="rect" id="node7" href="classchrono_1_1_ch_constraint_three.html" title="This class is inherited by the base ChConstraint(), which does almost nothing. " alt="" coords="216,339,395,366"/>
+<area shape="rect" id="node10" href="classchrono_1_1_ch_constraint_two.html" title="This class is inherited by the base ChConstraint(), which does almost nothing. " alt="" coords="220,398,391,425"/>
+<area shape="rect" id="node16" href="classchrono_1_1_ch_constraint_two_tuples.html" title="This constraint is built on top of two ChConstraintTuple objects, each with a tuple of 1 or 2 or 3 di..." alt="" coords="200,565,411,607"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_constraint_two_tuples_contact_n.html" title="chrono::ChConstraintTwoTuples\lContactN\&lt; typecarr_a, typecarr_b \&gt;" alt="" coords="459,5,691,47"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_constraint_two_tuples_friction_t.html" title="chrono::ChConstraintTwoTuples\lFrictionT\&lt; typecarr_a, typecarr_b \&gt;" alt="" coords="461,71,688,112"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_constraint_two_tuples_rolling_n.html" title="chrono::ChConstraintTwoTuples\lRollingN\&lt; typecarr_a, typecarr_b \&gt;" alt="" coords="461,136,688,177"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_constraint_two_tuples_rolling_t.html" title="chrono::ChConstraintTwoTuples\lRollingT\&lt; typecarr_a, typecarr_b \&gt;" alt="" coords="463,201,687,243"/>
+<area shape="rect" id="node8" href="classchrono_1_1_ch_constraint_three_b_b_shaft.html" title="A class for representing a constraint between two bodies (2x6dof in space) and a 1D dof (a shaft) ..." alt="" coords="485,267,664,308"/>
+<area shape="rect" id="node9" href="classchrono_1_1_ch_constraint_three_generic.html" title="This class is inherited by the base ChConstraintThree(), which is a base for triple constraints..." alt="" coords="485,332,664,373"/>
+<area shape="rect" id="node11" href="classchrono_1_1_ch_constraint_two_bodies.html" title="This class inherits from the base ChConstraintTwo(), that implements the functionality for a constrai..." alt="" coords="469,398,680,425"/>
+<area shape="rect" id="node12" href="classchrono_1_1_ch_constraint_two_generic.html" title="This class is inherited from the base ChConstraintTwo(), which is a base for pairwise constraints..." alt="" coords="467,449,683,475"/>
+<area shape="rect" id="node13" href="classchrono_1_1_ch_constraint_node_contact_n.html" title="It is used to represent the normal reaction between a 3DOF node and a 6 DOF body, only when also two ..." alt="" coords="758,376,935,417"/>
+<area shape="rect" id="node14" href="classchrono_1_1_ch_constraint_node_friction_t.html" title="Class used to represent friction constraint between a 3DOF node and a 6DOF body. " alt="" coords="758,441,935,483"/>
+<area shape="rect" id="node15" href="classchrono_1_1_ch_constraint_two_generic_boxed.html" title="This class is inherited from the base ChConstraintTwoGeneric, which can be used for most pairwise con..." alt="" coords="739,507,955,548"/>
+<area shape="rect" id="node17" href="classchrono_1_1_ch_constraint_two_tuples_contact_n.html" title="This class is inherited from the ChConstraintTwoTuples, It is used to represent the normal reaction b..." alt="" coords="469,500,680,541"/>
+<area shape="rect" id="node18" href="classchrono_1_1_ch_constraint_two_tuples_friction_t.html" title="Base class for friction constraints between two objects, each represented by a tuple of ChVariables o..." alt="" coords="469,565,680,607"/>
+<area shape="rect" id="node19" href="classchrono_1_1_ch_constraint_two_tuples_rolling_n.html" title="This class is inherited from ChConstraintTwoTuples, It is used to represent the normal reaction betwe..." alt="" coords="469,631,680,672"/>
+<area shape="rect" id="node20" href="classchrono_1_1_ch_constraint_two_tuples_rolling_t.html" title="Base class for friction constraints between two objects, each represented by a tuple of ChVariables o..." alt="" coords="469,696,680,737"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a59edac84d6552656db12f3c8943618f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59edac84d6552656db12f3c8943618f6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a59edac84d6552656db12f3c8943618f6">ChConstraint</a> ()</td></tr>
+<tr class="memdesc:a59edac84d6552656db12f3c8943618f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
+<tr class="separator:a59edac84d6552656db12f3c8943618f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa359879bc4723930360a4094c136f2be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa359879bc4723930360a4094c136f2be"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#aa359879bc4723930360a4094c136f2be">ChConstraint</a> (const <a class="el" href="classchrono_1_1_ch_constraint.html">ChConstraint</a> &amp;other)</td></tr>
+<tr class="memdesc:aa359879bc4723930360a4094c136f2be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. <br /></td></tr>
+<tr class="separator:aa359879bc4723930360a4094c136f2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb450e5943c8871852462b002b6e74f9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb450e5943c8871852462b002b6e74f9"></a>
+virtual <a class="el" href="classchrono_1_1_ch_constraint.html">ChConstraint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#acb450e5943c8871852462b002b6e74f9">Clone</a> () const =0</td></tr>
+<tr class="memdesc:acb450e5943c8871852462b002b6e74f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Virtual" copy constructor. <br /></td></tr>
+<tr class="separator:acb450e5943c8871852462b002b6e74f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae855a7d20b7553d8f30264d1aa3cec7a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae855a7d20b7553d8f30264d1aa3cec7a"></a>
+<a class="el" href="classchrono_1_1_ch_constraint.html">ChConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#ae855a7d20b7553d8f30264d1aa3cec7a">operator=</a> (const <a class="el" href="classchrono_1_1_ch_constraint.html">ChConstraint</a> &amp;other)</td></tr>
+<tr class="memdesc:ae855a7d20b7553d8f30264d1aa3cec7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator: copy from other object. <br /></td></tr>
+<tr class="separator:ae855a7d20b7553d8f30264d1aa3cec7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e74df8d94846a28625018f450b8c5d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58e74df8d94846a28625018f450b8c5d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a58e74df8d94846a28625018f450b8c5d">operator==</a> (const <a class="el" href="classchrono_1_1_ch_constraint.html">ChConstraint</a> &amp;other) const </td></tr>
+<tr class="memdesc:a58e74df8d94846a28625018f450b8c5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison (compares anly flags, not the jacobians etc.) <br /></td></tr>
+<tr class="separator:a58e74df8d94846a28625018f450b8c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4b951727ce04fca0444ffcfb41ffc64"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4b951727ce04fca0444ffcfb41ffc64"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#ad4b951727ce04fca0444ffcfb41ffc64">IsValid</a> () const </td></tr>
+<tr class="memdesc:ad4b951727ce04fca0444ffcfb41ffc64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells if the constraint data is currently valid. <br /></td></tr>
+<tr class="separator:ad4b951727ce04fca0444ffcfb41ffc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78c4728f8dd1d7978fd079f7b7719de8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78c4728f8dd1d7978fd079f7b7719de8"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a78c4728f8dd1d7978fd079f7b7719de8">SetValid</a> (bool mon)</td></tr>
+<tr class="memdesc:a78c4728f8dd1d7978fd079f7b7719de8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this function to set the valid state (child class Children classes must use this function depending on the result of their implementations of RestoreReference();. <br /></td></tr>
+<tr class="separator:a78c4728f8dd1d7978fd079f7b7719de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfb9af0857195a45d7b64199be2b9fd3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adfb9af0857195a45d7b64199be2b9fd3"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#adfb9af0857195a45d7b64199be2b9fd3">IsDisabled</a> () const </td></tr>
+<tr class="memdesc:adfb9af0857195a45d7b64199be2b9fd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells if the constraint is currently turned on or off by the user. <br /></td></tr>
+<tr class="separator:adfb9af0857195a45d7b64199be2b9fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa92f009ce0f977db63f5a701def5010c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa92f009ce0f977db63f5a701def5010c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#aa92f009ce0f977db63f5a701def5010c">SetDisabled</a> (bool mon)</td></tr>
+<tr class="memdesc:aa92f009ce0f977db63f5a701def5010c"><td class="mdescLeft">&#160;</td><td class="mdescRight">User can use this to enable/disable the constraint as desired. <br /></td></tr>
+<tr class="separator:aa92f009ce0f977db63f5a701def5010c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae189062d0f3b8381e6ffa3644fc912eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae189062d0f3b8381e6ffa3644fc912eb"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#ae189062d0f3b8381e6ffa3644fc912eb">IsRedundant</a> () const </td></tr>
+<tr class="memdesc:ae189062d0f3b8381e6ffa3644fc912eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells if the constraint is redundant or singular. <br /></td></tr>
+<tr class="separator:ae189062d0f3b8381e6ffa3644fc912eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac10797d71faf10087799b86a792f63ba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac10797d71faf10087799b86a792f63ba"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#ac10797d71faf10087799b86a792f63ba">SetRedundant</a> (bool mon)</td></tr>
+<tr class="memdesc:ac10797d71faf10087799b86a792f63ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solvers may use the following to mark a constraint as redundant. <br /></td></tr>
+<tr class="separator:ac10797d71faf10087799b86a792f63ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af40cdcda40995c70597771e4e24f368c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af40cdcda40995c70597771e4e24f368c"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#af40cdcda40995c70597771e4e24f368c">IsBroken</a> () const </td></tr>
+<tr class="memdesc:af40cdcda40995c70597771e4e24f368c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells if the constraint is broken, for eccess of pulling/pushing. <br /></td></tr>
+<tr class="separator:af40cdcda40995c70597771e4e24f368c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af29721afda7dd0ae13685d8eb7dbb5b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af29721afda7dd0ae13685d8eb7dbb5b1"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#af29721afda7dd0ae13685d8eb7dbb5b1">SetBroken</a> (bool mon)</td></tr>
+<tr class="memdesc:af29721afda7dd0ae13685d8eb7dbb5b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">3rd party software can set the 'broken' status via this method (by default, constraints never break); <br /></td></tr>
+<tr class="separator:af29721afda7dd0ae13685d8eb7dbb5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2105905742a8356c0af629624a74053"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#ad2105905742a8356c0af629624a74053">IsUnilateral</a> () const </td></tr>
+<tr class="memdesc:ad2105905742a8356c0af629624a74053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells if the constraint is unilateral (typical complementarity constraint).  <a href="#ad2105905742a8356c0af629624a74053">More...</a><br /></td></tr>
+<tr class="separator:ad2105905742a8356c0af629624a74053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43f95e1454297d535488d017d55016da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43f95e1454297d535488d017d55016da"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a43f95e1454297d535488d017d55016da">IsLinear</a> () const </td></tr>
+<tr class="memdesc:a43f95e1454297d535488d017d55016da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells if the constraint is linear (if non linear, returns false). <br /></td></tr>
+<tr class="separator:a43f95e1454297d535488d017d55016da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f6557dfc1441f7934eccc339bbdd9c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacechrono.html#abfb18c9473320d1f465e3f3a355519ab">eChConstraintMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a7f6557dfc1441f7934eccc339bbdd9c7">GetMode</a> () const </td></tr>
+<tr class="memdesc:a7f6557dfc1441f7934eccc339bbdd9c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the mode of the constraint: free / lock / complementary A typical constraint has 'lock = true' by default.  <a href="#a7f6557dfc1441f7934eccc339bbdd9c7">More...</a><br /></td></tr>
+<tr class="separator:a7f6557dfc1441f7934eccc339bbdd9c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6631b3e0b8ce42700b40b2574ae8237f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6631b3e0b8ce42700b40b2574ae8237f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a6631b3e0b8ce42700b40b2574ae8237f">SetMode</a> (<a class="el" href="namespacechrono.html#abfb18c9473320d1f465e3f3a355519ab">eChConstraintMode</a> mmode)</td></tr>
+<tr class="memdesc:a6631b3e0b8ce42700b40b2574ae8237f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the mode of the constraint: free / lock / complementary. <br /></td></tr>
+<tr class="separator:a6631b3e0b8ce42700b40b2574ae8237f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302516f42ba9725df544cc59b11d0871"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a302516f42ba9725df544cc59b11d0871">IsActive</a> () const </td></tr>
+<tr class="memdesc:a302516f42ba9725df544cc59b11d0871"><td class="mdescLeft">&#160;</td><td class="mdescRight">A VERY IMPORTANT function! Tells if the constraint is currently active, in general, that is tells if it must be included into the system solver or not.  <a href="#a302516f42ba9725df544cc59b11d0871">More...</a><br /></td></tr>
+<tr class="separator:a302516f42ba9725df544cc59b11d0871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab5229ee227edf209a464e5886c92ddb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aab5229ee227edf209a464e5886c92ddb"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#aab5229ee227edf209a464e5886c92ddb">SetActive</a> (bool isactive)</td></tr>
+<tr class="memdesc:aab5229ee227edf209a464e5886c92ddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the status of the constraint to active. <br /></td></tr>
+<tr class="separator:aab5229ee227edf209a464e5886c92ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf8b536242b51183b8b799a19320aed3"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#aaf8b536242b51183b8b799a19320aed3">Compute_c_i</a> ()</td></tr>
+<tr class="memdesc:aaf8b536242b51183b8b799a19320aed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the residual of the constraint using the LINEAR expression c_i= [Cq_i]*q + cfm_i*l_i + b_i .  <a href="#aaf8b536242b51183b8b799a19320aed3">More...</a><br /></td></tr>
+<tr class="separator:aaf8b536242b51183b8b799a19320aed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bd743d90bd072b11f8426952cb3a01a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4bd743d90bd072b11f8426952cb3a01a"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a4bd743d90bd072b11f8426952cb3a01a">Get_c_i</a> () const </td></tr>
+<tr class="memdesc:a4bd743d90bd072b11f8426952cb3a01a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the residual 'c_i' of this constraint. // CURRENTLY NOT USED. <br /></td></tr>
+<tr class="separator:a4bd743d90bd072b11f8426952cb3a01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0228c8bfa32bbf3721c79be6b84a9029"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0228c8bfa32bbf3721c79be6b84a9029"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a0228c8bfa32bbf3721c79be6b84a9029">Set_b_i</a> (const double mb)</td></tr>
+<tr class="memdesc:a0228c8bfa32bbf3721c79be6b84a9029"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the known term b_i in [Cq_i]*q + b_i =0, where: c_i = [Cq_i]*q + b_i = 0. <br /></td></tr>
+<tr class="separator:a0228c8bfa32bbf3721c79be6b84a9029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41950ae3962279429d2a35ae435a1de5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a41950ae3962279429d2a35ae435a1de5"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a41950ae3962279429d2a35ae435a1de5">Get_b_i</a> () const </td></tr>
+<tr class="memdesc:a41950ae3962279429d2a35ae435a1de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the known term b_i in [Cq_i]*q + b_i =0, where: c_i= [Cq_i]*q + b_i = 0. <br /></td></tr>
+<tr class="separator:a41950ae3962279429d2a35ae435a1de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f766f835e81a617228629fe6ab1dc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a83f766f835e81a617228629fe6ab1dc8">Set_cfm_i</a> (const double mcfm)</td></tr>
+<tr class="memdesc:a83f766f835e81a617228629fe6ab1dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the constraint force mixing term (default=0).  <a href="#a83f766f835e81a617228629fe6ab1dc8">More...</a><br /></td></tr>
+<tr class="separator:a83f766f835e81a617228629fe6ab1dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc567c596c2db2ab8c86c88b2e3c418"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4dc567c596c2db2ab8c86c88b2e3c418"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a4dc567c596c2db2ab8c86c88b2e3c418">Get_cfm_i</a> () const </td></tr>
+<tr class="memdesc:a4dc567c596c2db2ab8c86c88b2e3c418"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the constraint force mixing term. <br /></td></tr>
+<tr class="separator:a4dc567c596c2db2ab8c86c88b2e3c418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a555aa66c5a2f664478a0e3cd7f700585"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a555aa66c5a2f664478a0e3cd7f700585"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a555aa66c5a2f664478a0e3cd7f700585">Set_l_i</a> (double ml_i)</td></tr>
+<tr class="memdesc:a555aa66c5a2f664478a0e3cd7f700585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the 'l_i' value (constraint reaction, see 'l' vector) <br /></td></tr>
+<tr class="separator:a555aa66c5a2f664478a0e3cd7f700585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ecc47ba5d3b0b35dbd0b7ad34ea37aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ecc47ba5d3b0b35dbd0b7ad34ea37aa"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a1ecc47ba5d3b0b35dbd0b7ad34ea37aa">Get_l_i</a> () const </td></tr>
+<tr class="memdesc:a1ecc47ba5d3b0b35dbd0b7ad34ea37aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the 'l_i' value (constraint reaction, see 'l' vector) <br /></td></tr>
+<tr class="separator:a1ecc47ba5d3b0b35dbd0b7ad34ea37aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a152f0c3ff09b73d6ece883f9f90ff99c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a152f0c3ff09b73d6ece883f9f90ff99c">Update_auxiliary</a> ()</td></tr>
+<tr class="memdesc:a152f0c3ff09b73d6ece883f9f90ff99c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function must update jacobians and auxiliary data such as the 'g_i' product.  <a href="#a152f0c3ff09b73d6ece883f9f90ff99c">More...</a><br /></td></tr>
+<tr class="separator:a152f0c3ff09b73d6ece883f9f90ff99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16fe0ff51578699c3c621bbb0f64e61c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16fe0ff51578699c3c621bbb0f64e61c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a16fe0ff51578699c3c621bbb0f64e61c">Get_g_i</a> () const </td></tr>
+<tr class="memdesc:a16fe0ff51578699c3c621bbb0f64e61c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the 'g_i' product , that is [Cq_i]*[invM_i]*[Cq_i]' (+cfm) <br /></td></tr>
+<tr class="separator:a16fe0ff51578699c3c621bbb0f64e61c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac66b9e4186494c497944e4f31446f469"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#ac66b9e4186494c497944e4f31446f469">Set_g_i</a> (double m_g_i)</td></tr>
+<tr class="memdesc:ac66b9e4186494c497944e4f31446f469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Usually you should not use the Set_g_i function, because g_i should be automatically computed during the <a class="el" href="classchrono_1_1_ch_constraint.html#a152f0c3ff09b73d6ece883f9f90ff99c" title="This function must update jacobians and auxiliary data such as the &#39;g_i&#39; product. ...">Update_auxiliary()</a> .  <a href="#ac66b9e4186494c497944e4f31446f469">More...</a><br /></td></tr>
+<tr class="separator:ac66b9e4186494c497944e4f31446f469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a438f46ab8ce5171ac809e24ab95c55"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a3a438f46ab8ce5171ac809e24ab95c55">Compute_Cq_q</a> ()=0</td></tr>
+<tr class="memdesc:a3a438f46ab8ce5171ac809e24ab95c55"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function must computes the product between the row-jacobian of this constraint '[Cq_i]' and the vector of variables, 'q', that is, Cq_q=[Cq_i]*q.  <a href="#a3a438f46ab8ce5171ac809e24ab95c55">More...</a><br /></td></tr>
+<tr class="separator:a3a438f46ab8ce5171ac809e24ab95c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a672fee16cae8c5d93a8ecfe4ec0161f6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a672fee16cae8c5d93a8ecfe4ec0161f6">Increment_q</a> (const double deltal)=0</td></tr>
+<tr class="memdesc:a672fee16cae8c5d93a8ecfe4ec0161f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function must increment the vector of variables 'q' with the quantity [invM]*[Cq_i]'<em>deltal,that is q+=[invM]</em>[Cq_i]'*deltal This is used for some iterative solvers.  <a href="#a672fee16cae8c5d93a8ecfe4ec0161f6">More...</a><br /></td></tr>
+<tr class="separator:a672fee16cae8c5d93a8ecfe4ec0161f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb06ce303f139c226b692b6fdcd2762"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a1bb06ce303f139c226b692b6fdcd2762">MultiplyAndAdd</a> (double &amp;result, const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;vect) const =0</td></tr>
+<tr class="memdesc:a1bb06ce303f139c226b692b6fdcd2762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the product of the corresponding block in the system matrix by 'vect', and add to 'result'.  <a href="#a1bb06ce303f139c226b692b6fdcd2762">More...</a><br /></td></tr>
+<tr class="separator:a1bb06ce303f139c226b692b6fdcd2762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2f68b0251b5e515cac4cce2566af434"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#ab2f68b0251b5e515cac4cce2566af434">MultiplyTandAdd</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;result, double l)=0</td></tr>
+<tr class="memdesc:ab2f68b0251b5e515cac4cce2566af434"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the product of the corresponding transposed block in the system matrix (ie.  <a href="#ab2f68b0251b5e515cac4cce2566af434">More...</a><br /></td></tr>
+<tr class="separator:ab2f68b0251b5e515cac4cce2566af434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a3dc428f899398173398a02546dbbe2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a2a3dc428f899398173398a02546dbbe2">Project</a> ()</td></tr>
+<tr class="memdesc:a2a3dc428f899398173398a02546dbbe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">For iterative solvers: project the value of a possible 'l_i' value of constraint reaction onto admissible orthant/set.  <a href="#a2a3dc428f899398173398a02546dbbe2">More...</a><br /></td></tr>
+<tr class="separator:a2a3dc428f899398173398a02546dbbe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b381ad1603e7b781fcf55e33765acd3"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a4b381ad1603e7b781fcf55e33765acd3">Violation</a> (double mc_i)</td></tr>
+<tr class="memdesc:a4b381ad1603e7b781fcf55e33765acd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given the residual of the constraint computed as the linear map mc_i = [Cq]*q + b_i + cfm*l_i , returns the violation of the constraint, considering inequalities, etc.  <a href="#a4b381ad1603e7b781fcf55e33765acd3">More...</a><br /></td></tr>
+<tr class="separator:a4b381ad1603e7b781fcf55e33765acd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeae6b009c297a1391ccf85e55dbfb54"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#abeae6b009c297a1391ccf85e55dbfb54">Build_Cq</a> (<a class="el" href="classchrono_1_1_ch_sparse_matrix.html">ChSparseMatrix</a> &amp;storage, int insrow)=0</td></tr>
+<tr class="memdesc:abeae6b009c297a1391ccf85e55dbfb54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts the jacobian portions into the 'insrow' row of a sparse matrix, where each portion of jacobian is shifted in order to match the offset of the corresponding ChVariable.  <a href="#abeae6b009c297a1391ccf85e55dbfb54">More...</a><br /></td></tr>
+<tr class="separator:abeae6b009c297a1391ccf85e55dbfb54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a2a3f971fd38ad0fe6c8a1d5115554c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a2a3f971fd38ad0fe6c8a1d5115554c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a0a2a3f971fd38ad0fe6c8a1d5115554c">Build_CqT</a> (<a class="el" href="classchrono_1_1_ch_sparse_matrix.html">ChSparseMatrix</a> &amp;storage, int inscol)=0</td></tr>
+<tr class="memdesc:a0a2a3f971fd38ad0fe6c8a1d5115554c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as Build_Cq, but puts the <em>transposed</em> jacobian row as a column. <br /></td></tr>
+<tr class="separator:a0a2a3f971fd38ad0fe6c8a1d5115554c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e5516bbbd0a13ae9bfcb2e5f1bdee6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1e5516bbbd0a13ae9bfcb2e5f1bdee6e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a1e5516bbbd0a13ae9bfcb2e5f1bdee6e">SetOffset</a> (int moff)</td></tr>
+<tr class="memdesc:a1e5516bbbd0a13ae9bfcb2e5f1bdee6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set offset in global q vector (set automatically by <a class="el" href="classchrono_1_1_ch_system_descriptor.html" title="Base class for collecting objects inherited from ChConstraint , ChVariables and, optionally ChKblock...">ChSystemDescriptor</a>) <br /></td></tr>
+<tr class="separator:a1e5516bbbd0a13ae9bfcb2e5f1bdee6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a967a1a415f7594ecfb2f89d5732b80"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a967a1a415f7594ecfb2f89d5732b80"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a9a967a1a415f7594ecfb2f89d5732b80">GetOffset</a> () const </td></tr>
+<tr class="memdesc:a9a967a1a415f7594ecfb2f89d5732b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get offset in global q vector. <br /></td></tr>
+<tr class="separator:a9a967a1a415f7594ecfb2f89d5732b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5f9feeefe19c5c27646ca6819e10d59"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#ae5f9feeefe19c5c27646ca6819e10d59">StreamIN</a> (<a class="el" href="classchrono_1_1_ch_stream_in_binary.html">ChStreamInBinary</a> &amp;mstream)</td></tr>
+<tr class="memdesc:ae5f9feeefe19c5c27646ca6819e10d59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow deserializing a persistent binary archive (ex: a file) into transient data.  <a href="#ae5f9feeefe19c5c27646ca6819e10d59">More...</a><br /></td></tr>
+<tr class="separator:ae5f9feeefe19c5c27646ca6819e10d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c555fcd1de5420685b55b4999cd0526"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a1c555fcd1de5420685b55b4999cd0526">StreamOUT</a> (<a class="el" href="classchrono_1_1_ch_stream_out_binary.html">ChStreamOutBinary</a> &amp;mstream)</td></tr>
+<tr class="memdesc:a1c555fcd1de5420685b55b4999cd0526"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow serializing transient data into a persistent binary archive (ex: a file).  <a href="#a1c555fcd1de5420685b55b4999cd0526">More...</a><br /></td></tr>
+<tr class="separator:a1c555fcd1de5420685b55b4999cd0526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a21074c9ab922c3b87446eaf4ff3783aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21074c9ab922c3b87446eaf4ff3783aa"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a21074c9ab922c3b87446eaf4ff3783aa">c_i</a></td></tr>
+<tr class="memdesc:a21074c9ab922c3b87446eaf4ff3783aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The 'c_i' residual of the constraint (if satisfied, c must be =0) <br /></td></tr>
+<tr class="separator:a21074c9ab922c3b87446eaf4ff3783aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03ed70a071493295edf399bb29a2b4cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03ed70a071493295edf399bb29a2b4cd"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a03ed70a071493295edf399bb29a2b4cd">l_i</a></td></tr>
+<tr class="memdesc:a03ed70a071493295edf399bb29a2b4cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The 'l_i' lagrangian multiplier (reaction) <br /></td></tr>
+<tr class="separator:a03ed70a071493295edf399bb29a2b4cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81ba1dd0593db660925329b5a6535a63"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a81ba1dd0593db660925329b5a6535a63">b_i</a></td></tr>
+<tr class="memdesc:a81ba1dd0593db660925329b5a6535a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">The 'b_i' right term in [Cq_i]*q+b_i=0 , note: c_i= [Cq_i]*q.  <a href="#a81ba1dd0593db660925329b5a6535a63">More...</a><br /></td></tr>
+<tr class="separator:a81ba1dd0593db660925329b5a6535a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a869baa4aeace05c8bc8319d52ada74ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a869baa4aeace05c8bc8319d52ada74ce"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a869baa4aeace05c8bc8319d52ada74ce">cfm_i</a></td></tr>
+<tr class="memdesc:a869baa4aeace05c8bc8319d52ada74ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constraint force mixing, if needed (usually is zero) to add some numerical 'compliance' in the constraint, that is the equation becomes: c_i= [Cq_i]*q + b_i + cfm*l_i =0; Example, it could be cfm = [k * h^2](^-1) where k is stiffness. <br /></td></tr>
+<tr class="separator:a869baa4aeace05c8bc8319d52ada74ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f65c2dbbdf2f5b3ec013f8b2ff6e4f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f65c2dbbdf2f5b3ec013f8b2ff6e4f1"></a>
+<a class="el" href="namespacechrono.html#abfb18c9473320d1f465e3f3a355519ab">eChConstraintMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#a3f65c2dbbdf2f5b3ec013f8b2ff6e4f1">mode</a></td></tr>
+<tr class="memdesc:a3f65c2dbbdf2f5b3ec013f8b2ff6e4f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">mode of the constraint: free / lock / complementar <br /></td></tr>
+<tr class="separator:a3f65c2dbbdf2f5b3ec013f8b2ff6e4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af92fb18c981700fc781ca0c8a16f88d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af92fb18c981700fc781ca0c8a16f88d0"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#af92fb18c981700fc781ca0c8a16f88d0">g_i</a></td></tr>
+<tr class="memdesc:af92fb18c981700fc781ca0c8a16f88d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">'g_i' product [Cq_i]*[invM_i]*[Cq_i]' (+cfm) <br /></td></tr>
+<tr class="separator:af92fb18c981700fc781ca0c8a16f88d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3ffb70f102954134f2abaafb625fa2c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae3ffb70f102954134f2abaafb625fa2c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_constraint.html#ae3ffb70f102954134f2abaafb625fa2c">offset</a></td></tr>
+<tr class="memdesc:ae3ffb70f102954134f2abaafb625fa2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset in global "l" state vector (needed by some solvers) <br /></td></tr>
+<tr class="separator:ae3ffb70f102954134f2abaafb625fa2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="abeae6b009c297a1391ccf85e55dbfb54"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChConstraint::Build_Cq </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_sparse_matrix.html">ChSparseMatrix</a> &amp;&#160;</td>
+          <td class="paramname"><em>storage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>insrow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Puts the jacobian portions into the 'insrow' row of a sparse matrix, where each portion of jacobian is shifted in order to match the offset of the corresponding ChVariable. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_constraint_three_generic.html#a8f088ee73195fe679a1ea82c307a275d">chrono::ChConstraintThreeGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples.html#aee70e428f638c8c6b1f92185d102f455">chrono::ChConstraintTwoTuples&lt; Ta, Tb &gt;</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples.html#aee70e428f638c8c6b1f92185d102f455">chrono::ChConstraintTwoTuples&lt; typecarr_a, typecarr_b &gt;</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_generic.html#a5a57018c78160c09f70950d974ddad01">chrono::ChConstraintTwoGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_three_b_b_shaft.html#aae578d7fa38adefb62cf923d679471f2">chrono::ChConstraintThreeBBShaft</a>, and <a class="el" href="classchrono_1_1_ch_constraint_two_bodies.html#ab21d2af2fdc459ae79b2607b9d1902fd">chrono::ChConstraintTwoBodies</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaf8b536242b51183b8b799a19320aed3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::ChConstraint::Compute_c_i </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute the residual of the constraint using the LINEAR expression c_i= [Cq_i]*q + cfm_i*l_i + b_i . </p>
+<p>For a satisfied bilateral constraint, this residual must be near zero. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3a438f46ab8ce5171ac809e24ab95c55"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::ChConstraint::Compute_Cq_q </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function must computes the product between the row-jacobian of this constraint '[Cq_i]' and the vector of variables, 'q', that is, Cq_q=[Cq_i]*q. </p>
+<p>This is used for some iterative solvers. *** This function MUST BE OVERRIDDEN by specialized inherited classes! (since it will be called frequently, when iterative solvers are used, the implementation of the [Cq_i]*q product must be AS FAST AS POSSIBLE!). It returns the result of the computation. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_constraint_three_generic.html#a3b8b6cec1f8fe3f9295a4c8d64b98e62">chrono::ChConstraintThreeGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_generic.html#a862ee81ac7e395f9e142853cd27c9bdb">chrono::ChConstraintTwoGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_three_b_b_shaft.html#a6f001d3cd4e603f0a69c79b0d2ae577c">chrono::ChConstraintThreeBBShaft</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_bodies.html#a2554a2a4bc1f6bdc880e6ad9e303fc8a">chrono::ChConstraintTwoBodies</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples.html#acb9c20bc4f54ec9f1ed82f7b0b2e13ca">chrono::ChConstraintTwoTuples&lt; Ta, Tb &gt;</a>, and <a class="el" href="classchrono_1_1_ch_constraint_two_tuples.html#acb9c20bc4f54ec9f1ed82f7b0b2e13ca">chrono::ChConstraintTwoTuples&lt; typecarr_a, typecarr_b &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7f6557dfc1441f7934eccc339bbdd9c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacechrono.html#abfb18c9473320d1f465e3f3a355519ab">eChConstraintMode</a> chrono::ChConstraint::GetMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the mode of the constraint: free / lock / complementary A typical constraint has 'lock = true' by default. </p>
+
+</div>
+</div>
+<a class="anchor" id="a672fee16cae8c5d93a8ecfe4ec0161f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChConstraint::Increment_q </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>deltal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function must increment the vector of variables 'q' with the quantity [invM]*[Cq_i]'<em>deltal,that is q+=[invM]</em>[Cq_i]'*deltal This is used for some iterative solvers. </p>
+<p>*** This function MUST BE OVERRIDDEN by specialized inherited classes! </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_constraint_three_generic.html#a5476a72f1e9e3b29b342d7d7022b2294">chrono::ChConstraintThreeGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_generic.html#a982ea7a0c3af9b584b53f919d65927a3">chrono::ChConstraintTwoGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_three_b_b_shaft.html#a96f120b3a92086c9872ece57276b9407">chrono::ChConstraintThreeBBShaft</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_bodies.html#a4a881766df8eaa8307e1e0f7e7d7e693">chrono::ChConstraintTwoBodies</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples.html#ad6a6e91a3b10e5c3a4078d7e0323eaf1">chrono::ChConstraintTwoTuples&lt; Ta, Tb &gt;</a>, and <a class="el" href="classchrono_1_1_ch_constraint_two_tuples.html#ad6a6e91a3b10e5c3a4078d7e0323eaf1">chrono::ChConstraintTwoTuples&lt; typecarr_a, typecarr_b &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a302516f42ba9725df544cc59b11d0871"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::ChConstraint::IsActive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A VERY IMPORTANT function! Tells if the constraint is currently active, in general, that is tells if it must be included into the system solver or not. </p>
+<p>This method cumulates the effect of all flags (so a constraint may be not active either because 'disabled', or 'broken', o 'redundant', or not 'valid'.) </p>
+
+</div>
+</div>
+<a class="anchor" id="ad2105905742a8356c0af629624a74053"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::ChConstraint::IsUnilateral </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tells if the constraint is unilateral (typical complementarity constraint). </p>
+
+</div>
+</div>
+<a class="anchor" id="a1bb06ce303f139c226b692b6fdcd2762"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChConstraint::MultiplyAndAdd </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vect</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the product of the corresponding block in the system matrix by 'vect', and add to 'result'. </p>
+<p>NOTE: the 'vect' vector must already have the size of the total variables&amp;constraints in the system; the procedure will use the ChVariable offsets (that must be already updated) to know the indexes in result and vect; </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_constraint_three_generic.html#ab023851231e4cdfc09774870a70e9716">chrono::ChConstraintThreeGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_generic.html#ab83d79fecdfb3c85e1d17103aa06145d">chrono::ChConstraintTwoGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_three_b_b_shaft.html#a0badf9fc4ce864f431f75102726d1e1f">chrono::ChConstraintThreeBBShaft</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_bodies.html#abd503aa52fe886eb79428f1fcae74a2d">chrono::ChConstraintTwoBodies</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples.html#a458f2ec204e7e304f57c4e7cfe089805">chrono::ChConstraintTwoTuples&lt; Ta, Tb &gt;</a>, and <a class="el" href="classchrono_1_1_ch_constraint_two_tuples.html#a458f2ec204e7e304f57c4e7cfe089805">chrono::ChConstraintTwoTuples&lt; typecarr_a, typecarr_b &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab2f68b0251b5e515cac4cce2566af434"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChConstraint::MultiplyTandAdd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>l</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the product of the corresponding transposed block in the system matrix (ie. </p>
+<p>the TRANSPOSED jacobian matrix C_q') by 'l', and add to 'result'. NOTE: the 'result' vectors must already have the size of the total variables&amp;constraints in the system; the procedure will use the ChVariable offsets (that must be already updated) to know the indexes in result and vect; </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_constraint_three_generic.html#a1ec836bb3235dd525ed11ae23fb5016a">chrono::ChConstraintThreeGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_generic.html#ab3f39935074ca18c7141bb52afef3942">chrono::ChConstraintTwoGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_three_b_b_shaft.html#a591626698db4eb60b60838de8d1831fa">chrono::ChConstraintThreeBBShaft</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples.html#acdbf07c45721d7705ce4d0162f5a0dee">chrono::ChConstraintTwoTuples&lt; Ta, Tb &gt;</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples.html#acdbf07c45721d7705ce4d0162f5a0dee">chrono::ChConstraintTwoTuples&lt; typecarr_a, typecarr_b &gt;</a>, and <a class="el" href="classchrono_1_1_ch_constraint_two_bodies.html#a85e84c084089e911a170c149af999bff">chrono::ChConstraintTwoBodies</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2a3dc428f899398173398a02546dbbe2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChConstraint::Project </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>For iterative solvers: project the value of a possible 'l_i' value of constraint reaction onto admissible orthant/set. </p>
+<p>Default behavior: if constraint is unilateral and l_i&lt;0, reset l_i=0 *** This function MAY BE OVERRIDDEN by specialized inherited classes! For example, a bilateral constraint can do nothing, a monolateral: l_i= ChMax(0., l_i); a 'boxed constraint': l_i= ChMin(ChMax(min., l_i), max); etc. etc. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_constraint_two_tuples_rolling_n.html#addd4176461eaf58599e4e11ce93cc24c">chrono::ChConstraintTwoTuplesRollingN&lt; Ta, Tb &gt;</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples_rolling_n.html#addd4176461eaf58599e4e11ce93cc24c">chrono::ChConstraintTwoTuplesRollingN&lt; typecarr_a, typecarr_b &gt;</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples_contact_n.html#a2311b6c0403342932d9f22da214c0401">chrono::ChConstraintTwoTuplesContactN&lt; Ta, Tb &gt;</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples_contact_n.html#a2311b6c0403342932d9f22da214c0401">chrono::ChConstraintTwoTuplesContactN&lt; typecarr_a, typecarr_b &gt;</a>, <a class="el" href="classchrono_1_1_ch_constraint_node_contact_n.html#a78dd82219984a3b97e9528587b91267e">chrono::ChConstraintNodeContactN</a>, and <a class="el" href="classchrono_1_1_ch_constraint_two_generic_boxed.html#a775e2b07bfc93e802e714da78fdef1eb">chrono::ChConstraintTwoGenericBoxed</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a83f766f835e81a617228629fe6ab1dc8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChConstraint::Set_cfm_i </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>mcfm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the constraint force mixing term (default=0). </p>
+<p>Adds artificial 'elasticity' to the constraint, as: c_i= [Cq_i]*q + b_i + cfm*l_i =0; </p>
+
+</div>
+</div>
+<a class="anchor" id="ac66b9e4186494c497944e4f31446f469"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChConstraint::Set_g_i </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>m_g_i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Usually you should not use the Set_g_i function, because g_i should be automatically computed during the <a class="el" href="classchrono_1_1_ch_constraint.html#a152f0c3ff09b73d6ece883f9f90ff99c" title="This function must update jacobians and auxiliary data such as the &#39;g_i&#39; product. ...">Update_auxiliary()</a> . </p>
+
+</div>
+</div>
+<a class="anchor" id="ae5f9feeefe19c5c27646ca6819e10d59"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChConstraint::StreamIN </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_stream_in_binary.html">ChStreamInBinary</a> &amp;&#160;</td>
+          <td class="paramname"><em>mstream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Method to allow deserializing a persistent binary archive (ex: a file) into transient data. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_constraint_three_generic.html#a4fd806cc8997c8c07b660d0ba29d5369">chrono::ChConstraintThreeGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_generic.html#af4456e7db50fff79da9e7ad8fc59429f">chrono::ChConstraintTwoGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_three_b_b_shaft.html#ad42d35b560252730c92f6e9a356cd8b5">chrono::ChConstraintThreeBBShaft</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_bodies.html#a9e877437545331855f6bdf8a57cdc126">chrono::ChConstraintTwoBodies</a>, <a class="el" href="classchrono_1_1_ch_constraint_node_contact_n.html#a91ef39ba3386ac40d7b3a62108049de3">chrono::ChConstraintNodeContactN</a>, <a class="el" href="classchrono_1_1_ch_constraint_three.html#a74a7f7d3f62eca076776d5bf217c93c0">chrono::ChConstraintThree</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_generic_boxed.html#a5803a928d1093319852bcdcb3d839fab">chrono::ChConstraintTwoGenericBoxed</a>, <a class="el" href="classchrono_1_1_ch_constraint_two.html#acba9e2f0807047dc8daae86515e7a7d4">chrono::ChConstraintTwo</a>, and <a class="el" href="classchrono_1_1_ch_constraint_node_friction_t.html#a289b40271aa9fd785f194ee1f865d9b3">chrono::ChConstraintNodeFrictionT</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1c555fcd1de5420685b55b4999cd0526"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChConstraint::StreamOUT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_stream_out_binary.html">ChStreamOutBinary</a> &amp;&#160;</td>
+          <td class="paramname"><em>mstream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Method to allow serializing transient data into a persistent binary archive (ex: a file). </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_constraint_three_generic.html#a347085e86bf928f45b8fcc86ea44ef4f">chrono::ChConstraintThreeGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_generic.html#ae779999e4fbf2fa1219b3a885bc45915">chrono::ChConstraintTwoGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_three_b_b_shaft.html#ad8b70a52cd9c28215764a1c7bed15140">chrono::ChConstraintThreeBBShaft</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_bodies.html#a1e36e115a9e3d1ec6fbee202125cd442">chrono::ChConstraintTwoBodies</a>, <a class="el" href="classchrono_1_1_ch_constraint_node_contact_n.html#a429efb624d4f041baae18b70fe295775">chrono::ChConstraintNodeContactN</a>, <a class="el" href="classchrono_1_1_ch_constraint_three.html#a6d0e32126c29fd645538028a4e698836">chrono::ChConstraintThree</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_generic_boxed.html#a811ea2e99b5ace58e8a1e27d3e504dc5">chrono::ChConstraintTwoGenericBoxed</a>, <a class="el" href="classchrono_1_1_ch_constraint_two.html#a2d4105b3f4ab6cae258a267e1506f931">chrono::ChConstraintTwo</a>, and <a class="el" href="classchrono_1_1_ch_constraint_node_friction_t.html#af7ca06da86ec0338b652cfb1e3df8b67">chrono::ChConstraintNodeFrictionT</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a152f0c3ff09b73d6ece883f9f90ff99c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChConstraint::Update_auxiliary </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function must update jacobians and auxiliary data such as the 'g_i' product. </p>
+<p>This function is often called by solvers at the beginning of the solution process. *** This function MUST BE OVERRIDDEN by specialized inherited classes, which have some jacobians! </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_constraint_three_generic.html#a0788d00bbafd704c960d4f2959549a39">chrono::ChConstraintThreeGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_generic.html#a654641b9ff933727e6d062a793ff64a0">chrono::ChConstraintTwoGeneric</a>, <a class="el" href="classchrono_1_1_ch_constraint_three_b_b_shaft.html#a36198b2e3cac4c0278bb9cf9e46dfaa8">chrono::ChConstraintThreeBBShaft</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_bodies.html#a48ff2417d47ad637ef976d04433bdbe6">chrono::ChConstraintTwoBodies</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples.html#a7c8fb54acf86a17c217ac0e9d83d2d9f">chrono::ChConstraintTwoTuples&lt; Ta, Tb &gt;</a>, and <a class="el" href="classchrono_1_1_ch_constraint_two_tuples.html#a7c8fb54acf86a17c217ac0e9d83d2d9f">chrono::ChConstraintTwoTuples&lt; typecarr_a, typecarr_b &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4b381ad1603e7b781fcf55e33765acd3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::ChConstraint::Violation </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mc_i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Given the residual of the constraint computed as the linear map mc_i = [Cq]*q + b_i + cfm*l_i , returns the violation of the constraint, considering inequalities, etc. </p>
+<p>For bilateral constraint, violation = mc_i. For unilateral constraint, violation = min(mc_i, 0), For boxed constraints or such, inherited class MAY OVERRIDE THIS! </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_constraint_two_generic_boxed.html#a5a3c45d2eb2c545d6c18774a7b394bbd">chrono::ChConstraintTwoGenericBoxed</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples_friction_t.html#ad653680dfc58e238474df55e3bd5e6a6">chrono::ChConstraintTwoTuplesFrictionT&lt; Ta, Tb &gt;</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples_friction_t.html#ad653680dfc58e238474df55e3bd5e6a6">chrono::ChConstraintTwoTuplesFrictionT&lt; typecarr_a, typecarr_b &gt;</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples_rolling_t.html#ade3091540a7426096d4e189351d2c518">chrono::ChConstraintTwoTuplesRollingT&lt; Ta, Tb &gt;</a>, <a class="el" href="classchrono_1_1_ch_constraint_two_tuples_rolling_t.html#ade3091540a7426096d4e189351d2c518">chrono::ChConstraintTwoTuplesRollingT&lt; typecarr_a, typecarr_b &gt;</a>, and <a class="el" href="classchrono_1_1_ch_constraint_node_friction_t.html#acfd33ec445e5bd453f87ad69ca828c36">chrono::ChConstraintNodeFrictionT</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a81ba1dd0593db660925329b5a6535a63"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::ChConstraint::b_i</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The 'b_i' right term in [Cq_i]*q+b_i=0 , note: c_i= [Cq_i]*q. </p>
+<ul>
+<li>b_i </li>
+</ul>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:13 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

@@ -1,0 +1,302 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChSolver Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_solver.html">ChSolver</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1_ch_solver-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChSolver Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__chrono.html">Chrono::Engine</a> &raquo; <a class="el" href="group__chrono__solver.html">Solver</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for solvers aimed at solving complementarity problems arising from QP optimization problems. </p>
+<p>This is an abstract class and specific solution methods are implemented in derived classes (e.g., SOR, APGD, etc.) The problem is described by a variational inequality VI(Z*x-d,K):</p>
+<p>| M -Cq'|*|q|- | f|= |0| , l  Y, C  Ny, normal cone to Y | Cq -E | |l| |-b| |c|</p>
+<p>Also Z symmetric by flipping sign of l_i: |M Cq'|*| q|-| f|=|0| |Cq E | |-l| |-b| |c|</p><ul>
+<li>case linear problem: all Y_i = R, Ny=0, ex. all bilaterals</li>
+<li>case LCP: all Y_i = R+: c&gt;=0, l&gt;=0, l*c=0</li>
+<li>case CCP: Y_i are friction cones </li>
+</ul>
+</div>
+<p><code>#include &lt;ChSolver.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChSolver:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_solver__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_solver_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_solver_inherit__map" id="chrono_1_1_ch_solver_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_iterative_solver.html" title="Base class for ITERATIVE solvers aimed at solving complementarity problems arising from QP optimizati..." alt="" coords="176,208,347,235"/>
+<area shape="rect" id="node12" href="classchrono_1_1_ch_solver_matlab.html" title="Class for using Matlab from Chrono programs. " alt="" coords="180,259,343,285"/>
+<area shape="rect" id="node13" href="classchrono_1_1_ch_solver_m_k_l.html" title="Class that wraps the Intel MKL Pardiso parallel direct solver. " alt="" coords="186,310,337,351"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_solver_a_p_g_d.html" title="An iterative solver based on Nesterov&#39;s Projected Gradient Descent. " alt="" coords="409,5,571,32"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_solver_b_b.html" title="An iterative solver based on modified Krylov iteration of spectral projected gradients with Borzilai&#45;..." alt="" coords="419,56,561,83"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_solver_d_e_m.html" title="A solver for problems arising in penalty formulations. " alt="" coords="413,107,567,133"/>
+<area shape="rect" id="node6" href="classchrono_1_1_ch_solver_jacobi.html" title="An iterative solver for VI (VI/CCP/LCP/linear problems,..) based on projective fixed point method..." alt="" coords="409,157,571,184"/>
+<area shape="rect" id="node7" href="classchrono_1_1_ch_solver_m_i_n_r_e_s.html" title="An iterative solver based on modified Krylov iteration of MINRES type alternated with gradient projec..." alt="" coords="402,208,578,235"/>
+<area shape="rect" id="node8" href="classchrono_1_1_ch_solver_p_c_g.html" title="An iterative solver based on modified Krylov iteration of projected conjugate gradient. " alt="" coords="414,259,566,285"/>
+<area shape="rect" id="node9" href="classchrono_1_1_ch_solver_p_m_i_n_r_e_s.html" title="An iterative solver based on modified Krylov iteration of MINRES type with gradient projections (simi..." alt="" coords="397,309,583,336"/>
+<area shape="rect" id="node10" href="classchrono_1_1_ch_solver_s_o_r.html" title="An iterative solver based on projective fixed point method, with overrelaxation and immediate variabl..." alt="" coords="414,360,566,387"/>
+<area shape="rect" id="node11" href="classchrono_1_1_ch_solver_symm_s_o_r.html" title="An iterative solver based on symmetric projective fixed point method, with overrelaxation and immedia..." alt="" coords="395,411,585,437"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a12a91d5632444543662947576cd6bab0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver.html#a12a91d5632444543662947576cd6bab0">SolveRequiresMatrix</a> () const =0</td></tr>
+<tr class="memdesc:a12a91d5632444543662947576cd6bab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate whether or not the <a class="el" href="classchrono_1_1_ch_solver.html#a9b12f7808ac12d0768a4989d725abee7" title="Performs the solution of the problem. ">Solve()</a> phase requires an up-to-date problem matrix.  <a href="#a12a91d5632444543662947576cd6bab0">More...</a><br /></td></tr>
+<tr class="separator:a12a91d5632444543662947576cd6bab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b12f7808ac12d0768a4989d725abee7"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver.html#a9b12f7808ac12d0768a4989d725abee7">Solve</a> (<a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;sysd)=0</td></tr>
+<tr class="memdesc:a9b12f7808ac12d0768a4989d725abee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the solution of the problem.  <a href="#a9b12f7808ac12d0768a4989d725abee7">More...</a><br /></td></tr>
+<tr class="separator:a9b12f7808ac12d0768a4989d725abee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12b6aefbd0c14c733450a71db4e756c4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver.html#a12b6aefbd0c14c733450a71db4e756c4">Setup</a> (<a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;sysd)</td></tr>
+<tr class="memdesc:a12b6aefbd0c14c733450a71db4e756c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function does the setup operations for the solver.  <a href="#a12b6aefbd0c14c733450a71db4e756c4">More...</a><br /></td></tr>
+<tr class="separator:a12b6aefbd0c14c733450a71db4e756c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa50796bd69702ef5cbb18684b25052c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa50796bd69702ef5cbb18684b25052c4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver.html#aa50796bd69702ef5cbb18684b25052c4">SetVerbose</a> (bool mv)</td></tr>
+<tr class="memdesc:aa50796bd69702ef5cbb18684b25052c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set verbose output from solver. <br /></td></tr>
+<tr class="separator:aa50796bd69702ef5cbb18684b25052c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea6813a7d389429e96fab65f6164e26d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea6813a7d389429e96fab65f6164e26d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetVerbose</b> () const </td></tr>
+<tr class="separator:aea6813a7d389429e96fab65f6164e26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7581ad6d83a7a3f20c4a263c855fc07a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7581ad6d83a7a3f20c4a263c855fc07a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver.html#a7581ad6d83a7a3f20c4a263c855fc07a">ArchiveOUT</a> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a7581ad6d83a7a3f20c4a263c855fc07a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow serialization of transient data to archives. <br /></td></tr>
+<tr class="separator:a7581ad6d83a7a3f20c4a263c855fc07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10256d4a7a49caed15d020a4a168c23d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a10256d4a7a49caed15d020a4a168c23d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_solver.html#a10256d4a7a49caed15d020a4a168c23d">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a10256d4a7a49caed15d020a4a168c23d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:a10256d4a7a49caed15d020a4a168c23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ab745e1abcf285583f3fdc1a0df99989a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab745e1abcf285583f3fdc1a0df99989a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>verbose</b></td></tr>
+<tr class="separator:ab745e1abcf285583f3fdc1a0df99989a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a12b6aefbd0c14c733450a71db4e756c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::ChSolver::Setup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;&#160;</td>
+          <td class="paramname"><em>sysd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function does the setup operations for the solver. </p>
+<p>The purpose of this function is to prepare the solver for subsequent calls to the solve function. This function is called only as frequently it is determined that it is appropriate to perform the setup phase. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sysd</td><td>system description with constraints and variables </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_solver_m_k_l.html#abd92934c6d9ee5c14df04179185a9b27">chrono::ChSolverMKL&lt; Matrix &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9b12f7808ac12d0768a4989d725abee7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double chrono::ChSolver::Solve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;&#160;</td>
+          <td class="paramname"><em>sysd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs the solution of the problem. </p>
+<p>This function MUST be implemented in children classes, with specialized methods such as iterative or direct solvers. Returns true if it successfully solves the problem and false otherwise. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sysd</td><td>system description with constraints and variables </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_solver_m_k_l.html#a230dcc07eebf45abd1f00da4753c246c">chrono::ChSolverMKL&lt; Matrix &gt;</a>, <a class="el" href="classchrono_1_1_ch_solver_m_i_n_r_e_s.html#a985d54e35cc5059120ca9d20c6fe2a54">chrono::ChSolverMINRES</a>, <a class="el" href="classchrono_1_1_ch_solver_b_b.html#acf3350ab6945c904a475ff417da74a19">chrono::ChSolverBB</a>, <a class="el" href="classchrono_1_1_ch_solver_p_m_i_n_r_e_s.html#a836117c751344b8b0affe5bc064b9d38">chrono::ChSolverPMINRES</a>, <a class="el" href="classchrono_1_1_ch_solver_jacobi.html#a4d27fef6b559b8e1ee758378f815653e">chrono::ChSolverJacobi</a>, <a class="el" href="classchrono_1_1_ch_solver_s_o_r.html#aabfe7d61202e12e6680f1d24d584d3cc">chrono::ChSolverSOR</a>, <a class="el" href="classchrono_1_1_ch_solver_symm_s_o_r.html#a615da34e87eabe11fecd6def7b6f10db">chrono::ChSolverSymmSOR</a>, <a class="el" href="classchrono_1_1_ch_solver_a_p_g_d.html#a3a5fbf3333e0b329bc42248b7002e7b3">chrono::ChSolverAPGD</a>, <a class="el" href="classchrono_1_1_ch_solver_d_e_m.html#a6764e2e5ed6050c11b64a2c2b14db7eb">chrono::ChSolverDEM</a>, <a class="el" href="classchrono_1_1_ch_solver_p_c_g.html#a8c161040b5ca38fd3f55b8c157cfa524">chrono::ChSolverPCG</a>, and <a class="el" href="classchrono_1_1_ch_solver_matlab.html#aa45dd60e3133851ddff654ff247fe926">chrono::ChSolverMatlab</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a12a91d5632444543662947576cd6bab0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::ChSolver::SolveRequiresMatrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Indicate whether or not the <a class="el" href="classchrono_1_1_ch_solver.html#a9b12f7808ac12d0768a4989d725abee7" title="Performs the solution of the problem. ">Solve()</a> phase requires an up-to-date problem matrix. </p>
+<p>Typically, direct solvers only need the matrix for the <a class="el" href="classchrono_1_1_ch_solver.html#a12b6aefbd0c14c733450a71db4e756c4" title="This function does the setup operations for the solver. ">Setup()</a> phase. However, iterative solvers likely require the matrix to perform the necessary matrix-vector operations. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1_ch_solver_m_k_l.html#a1279194f408cfb2998887ac33c69e62d">chrono::ChSolverMKL&lt; Matrix &gt;</a>, <a class="el" href="classchrono_1_1_ch_iterative_solver.html#a3cc5ac766debfe5cc6a8f7cdade91d4a">chrono::ChIterativeSolver</a>, and <a class="el" href="classchrono_1_1_ch_solver_matlab.html#a4dd3a94c087148f56aa451edb841379a">chrono::ChSolverMatlab</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:18 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

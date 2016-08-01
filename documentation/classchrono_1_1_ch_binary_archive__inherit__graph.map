@@ -1,0 +1,10 @@
+<map id="chrono::ChBinaryArchive" name="chrono::ChBinaryArchive">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_stream_in_binary.html" title="This is a base class for all BINARY INPUT streams, in a way such that the stream is platform indepent..." alt="" coords="225,97,401,124"/>
+<area shape="rect" id="node6" href="$classchrono_1_1_ch_stream_out_binary.html" title="This is a base class for all BINARY OUTPUT streams, in a way such that the stream is platform indepen..." alt="" coords="220,217,407,244"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_stream_in_binary_file.html" title="This is a specialized class for BINARY input on system&#39;s file,. " alt="" coords="459,5,657,32"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_stream_in_binary_stream.html" title="This is a specialized class for BINARY input from wrapped std::istream,. " alt="" coords="470,57,646,98"/>
+<area shape="rect" id="node5" href="$classchrono_1_1_ch_stream_in_binary_vector.html" title="This is a specialized class for BINARY input from wrapped std::vector&lt;char&gt;,. " alt="" coords="470,122,646,163"/>
+<area shape="rect" id="node7" href="$classchrono_1_1_ch_stream_out_binary_file.html" title="This is a specialized class for BINARY output on system&#39;s file,. " alt="" coords="455,188,661,215"/>
+<area shape="rect" id="node8" href="$classchrono_1_1_ch_stream_out_binary_stream.html" title="This is a specialized class for BINARY output to wrapped std::ostream,. " alt="" coords="465,239,651,281"/>
+<area shape="rect" id="node9" href="$classchrono_1_1_ch_stream_out_binary_vector.html" title="This is a specialized class for BINARY output to wrapped std::vector&lt;char&gt;,. " alt="" coords="465,305,651,346"/>
+</map>

@@ -1,0 +1,281 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChCubicSpline Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_cubic_spline.html">ChCubicSpline</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1_ch_cubic_spline-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChCubicSpline Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Implementation of 1-D piece-wise cubic spline curves. </p>
+</div>
+<p><code>#include &lt;ChCubicSpline.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:acfa44129a2ea3d2260fbacd88f86d4dd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_cubic_spline.html#acfa44129a2ea3d2260fbacd88f86d4dd">BCType</a> { <a class="el" href="classchrono_1_1_ch_cubic_spline.html#acfa44129a2ea3d2260fbacd88f86d4dda2a7e86783a73933893ad3b9f1f9c0232">DEFAULT_BC</a>, 
+<a class="el" href="classchrono_1_1_ch_cubic_spline.html#acfa44129a2ea3d2260fbacd88f86d4dda5b3eb926c5b83c2b85002870cb8747fb">FIRST_BC</a>, 
+<a class="el" href="classchrono_1_1_ch_cubic_spline.html#acfa44129a2ea3d2260fbacd88f86d4dda817f2fdfc161e0543162e41a8a5af4dc">SECOND_BC</a>
+ }</td></tr>
+<tr class="separator:acfa44129a2ea3d2260fbacd88f86d4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab31ed6ce78886fcecee5aad77a214e8a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_cubic_spline.html#ab31ed6ce78886fcecee5aad77a214e8a">ChCubicSpline</a> (const std::vector&lt; double &gt; &amp;t, const std::vector&lt; double &gt; &amp;y)</td></tr>
+<tr class="memdesc:ab31ed6ce78886fcecee5aad77a214e8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a cubic spline y = y(t).  <a href="#ab31ed6ce78886fcecee5aad77a214e8a">More...</a><br /></td></tr>
+<tr class="separator:ab31ed6ce78886fcecee5aad77a214e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c689c2af210ae0dd0006f3cad0db7a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_cubic_spline.html#a5c689c2af210ae0dd0006f3cad0db7a1">SetLeftBC</a> (<a class="el" href="classchrono_1_1_ch_cubic_spline.html#acfa44129a2ea3d2260fbacd88f86d4dd">BCType</a> type, double val)</td></tr>
+<tr class="memdesc:a5c689c2af210ae0dd0006f3cad0db7a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the boundary condition at the left endpoint.  <a href="#a5c689c2af210ae0dd0006f3cad0db7a1">More...</a><br /></td></tr>
+<tr class="separator:a5c689c2af210ae0dd0006f3cad0db7a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa888269610bcc12768ea26ac390f2759"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_cubic_spline.html#aa888269610bcc12768ea26ac390f2759">SetRightBC</a> (<a class="el" href="classchrono_1_1_ch_cubic_spline.html#acfa44129a2ea3d2260fbacd88f86d4dd">BCType</a> type, double val)</td></tr>
+<tr class="memdesc:aa888269610bcc12768ea26ac390f2759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the boundary condition at the right endpoint.  <a href="#aa888269610bcc12768ea26ac390f2759">More...</a><br /></td></tr>
+<tr class="separator:aa888269610bcc12768ea26ac390f2759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a236776c8fac6a7151b73b1e19cacc3ff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a236776c8fac6a7151b73b1e19cacc3ff"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_cubic_spline.html#a236776c8fac6a7151b73b1e19cacc3ff">Evaluate</a> (double t, double &amp;y, double &amp;yp, double &amp;ypp)</td></tr>
+<tr class="memdesc:a236776c8fac6a7151b73b1e19cacc3ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the cubic spline at the specified value t. <br /></td></tr>
+<tr class="separator:a236776c8fac6a7151b73b1e19cacc3ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="acfa44129a2ea3d2260fbacd88f86d4dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classchrono_1_1_ch_cubic_spline.html#acfa44129a2ea3d2260fbacd88f86d4dd">chrono::ChCubicSpline::BCType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="acfa44129a2ea3d2260fbacd88f86d4dda2a7e86783a73933893ad3b9f1f9c0232"></a>DEFAULT_BC&#160;</td><td class="fielddoc">
+<p>quadratic function over corresponding interval (first/last) </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="acfa44129a2ea3d2260fbacd88f86d4dda5b3eb926c5b83c2b85002870cb8747fb"></a>FIRST_BC&#160;</td><td class="fielddoc">
+<p>imposed first derivative at corresponding endpoint (left/right) </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="acfa44129a2ea3d2260fbacd88f86d4dda817f2fdfc161e0543162e41a8a5af4dc"></a>SECOND_BC&#160;</td><td class="fielddoc">
+<p>imposed second derivative at corresponding endpoint (left/right) </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ab31ed6ce78886fcecee5aad77a214e8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::ChCubicSpline::ChCubicSpline </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a cubic spline y = y(t). </p>
+<p>It is assumed that the t values are sorted in ascending order. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a5c689c2af210ae0dd0006f3cad0db7a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChCubicSpline::SetLeftBC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_cubic_spline.html#acfa44129a2ea3d2260fbacd88f86d4dd">BCType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the boundary condition at the left endpoint. </p>
+<p>The specified value is ignored if type = DEFAULT_BC. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa888269610bcc12768ea26ac390f2759"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChCubicSpline::SetRightBC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_cubic_spline.html#acfa44129a2ea3d2260fbacd88f86d4dd">BCType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the boundary condition at the right endpoint. </p>
+<p>The specified value is ignored if type = DEFAULT_BC. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:13 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

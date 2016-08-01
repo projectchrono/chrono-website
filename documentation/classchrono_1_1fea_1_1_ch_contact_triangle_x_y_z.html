@@ -1,0 +1,567 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::fea::ChContactTriangleXYZ Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1fea.html">fea</a></li><li class="navelem"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html">ChContactTriangleXYZ</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::fea::ChContactTriangleXYZ Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Contact element of triangular type. </p>
+<p>This can be used to 'tesselate' a generic surface like the outer of tetrahedral meshes </p>
+</div>
+<p><code>#include &lt;ChContactSurfaceMesh.h&gt;</code></p>
+
+<p>Inherits chrono::ChContactable_3vars&lt; T1, T2, T3 &gt;.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac730c1c6259b459d2b43447442066344"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac730c1c6259b459d2b43447442066344"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChContactTriangleXYZ</b> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; n1, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; n2, std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; n3, <a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface.html">ChContactSurface</a> *acontainer=0)</td></tr>
+<tr class="separator:ac730c1c6259b459d2b43447442066344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c9e5af4d12dc5ead0cec95956959240"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1c9e5af4d12dc5ead0cec95956959240"></a>
+<a class="el" href="classchrono_1_1collision_1_1_ch_collision_model.html">collision::ChCollisionModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetCollisionModel</b> ()</td></tr>
+<tr class="separator:a1c9e5af4d12dc5ead0cec95956959240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32d6c643d0b728c376173c6c409131ef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32d6c643d0b728c376173c6c409131ef"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a32d6c643d0b728c376173c6c409131ef">GetNode1</a> ()</td></tr>
+<tr class="memdesc:a32d6c643d0b728c376173c6c409131ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the FEA node to whom this is a proxy as triangle vertex. <br /></td></tr>
+<tr class="separator:a32d6c643d0b728c376173c6c409131ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d3e32bcc4e95c202697acbfffc13710"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d3e32bcc4e95c202697acbfffc13710"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a9d3e32bcc4e95c202697acbfffc13710">GetNode2</a> ()</td></tr>
+<tr class="memdesc:a9d3e32bcc4e95c202697acbfffc13710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the FEA node to whom this is a proxy as triangle vertex. <br /></td></tr>
+<tr class="separator:a9d3e32bcc4e95c202697acbfffc13710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27636ff0c4ee7bea43141de48c6f25e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27636ff0c4ee7bea43141de48c6f25e0"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a27636ff0c4ee7bea43141de48c6f25e0">GetNode3</a> ()</td></tr>
+<tr class="memdesc:a27636ff0c4ee7bea43141de48c6f25e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the FEA node to whom this is a proxy as triangle vertex. <br /></td></tr>
+<tr class="separator:a27636ff0c4ee7bea43141de48c6f25e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad34a5db80c4497dd12d45c1db26ccd07"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad34a5db80c4497dd12d45c1db26ccd07"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#ad34a5db80c4497dd12d45c1db26ccd07">SetNode1</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; mn)</td></tr>
+<tr class="memdesc:ad34a5db80c4497dd12d45c1db26ccd07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the FEA node to whom this is a proxy. <br /></td></tr>
+<tr class="separator:ad34a5db80c4497dd12d45c1db26ccd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06f9e1a7c59085a286e951fa3c895652"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a06f9e1a7c59085a286e951fa3c895652"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a06f9e1a7c59085a286e951fa3c895652">SetNode2</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; mn)</td></tr>
+<tr class="memdesc:a06f9e1a7c59085a286e951fa3c895652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the FEA node to whom this is a proxy. <br /></td></tr>
+<tr class="separator:a06f9e1a7c59085a286e951fa3c895652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e8439b8ea6d7d5b61a0b27f4c493f51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2e8439b8ea6d7d5b61a0b27f4c493f51"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a2e8439b8ea6d7d5b61a0b27f4c493f51">SetNode3</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz.html">ChNodeFEAxyz</a> &gt; mn)</td></tr>
+<tr class="memdesc:a2e8439b8ea6d7d5b61a0b27f4c493f51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the FEA node to whom this is a proxy. <br /></td></tr>
+<tr class="separator:a2e8439b8ea6d7d5b61a0b27f4c493f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa08d43e66e12c4595d43ae437b5853b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa08d43e66e12c4595d43ae437b5853b4"></a>
+<a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface.html">ChContactSurface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#aa08d43e66e12c4595d43ae437b5853b4">GetContactSurface</a> () const </td></tr>
+<tr class="memdesc:aa08d43e66e12c4595d43ae437b5853b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the contact surface container. <br /></td></tr>
+<tr class="separator:aa08d43e66e12c4595d43ae437b5853b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f84be865a65d50c68aaea42f77bd237"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f84be865a65d50c68aaea42f77bd237"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a2f84be865a65d50c68aaea42f77bd237">SetContactSurface</a> (<a class="el" href="classchrono_1_1fea_1_1_ch_contact_surface.html">ChContactSurface</a> *mc)</td></tr>
+<tr class="memdesc:a2f84be865a65d50c68aaea42f77bd237"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the contact surface container. <br /></td></tr>
+<tr class="separator:a2f84be865a65d50c68aaea42f77bd237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bd0811ef98e99e338f21753eb544a2f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bd0811ef98e99e338f21753eb544a2f"></a>
+virtual <a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a0bd0811ef98e99e338f21753eb544a2f">GetVariables1</a> () override</td></tr>
+<tr class="memdesc:a0bd0811ef98e99e338f21753eb544a2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access variables for node 1. <br /></td></tr>
+<tr class="separator:a0bd0811ef98e99e338f21753eb544a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f717e808aef3f8c0334d86217952c03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f717e808aef3f8c0334d86217952c03"></a>
+virtual <a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a1f717e808aef3f8c0334d86217952c03">GetVariables2</a> () override</td></tr>
+<tr class="memdesc:a1f717e808aef3f8c0334d86217952c03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access variables for node 2. <br /></td></tr>
+<tr class="separator:a1f717e808aef3f8c0334d86217952c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c143528dff522470f24a563ed56a483"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c143528dff522470f24a563ed56a483"></a>
+virtual <a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a0c143528dff522470f24a563ed56a483">GetVariables3</a> () override</td></tr>
+<tr class="memdesc:a0c143528dff522470f24a563ed56a483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access variables for node 3. <br /></td></tr>
+<tr class="separator:a0c143528dff522470f24a563ed56a483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1298d679c2bdab944c9ffd8ffa11cbdf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1298d679c2bdab944c9ffd8ffa11cbdf"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a1298d679c2bdab944c9ffd8ffa11cbdf">IsContactActive</a> () override</td></tr>
+<tr class="memdesc:a1298d679c2bdab944c9ffd8ffa11cbdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell if the object must be considered in collision detection. <br /></td></tr>
+<tr class="separator:a1298d679c2bdab944c9ffd8ffa11cbdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63c09afd3faa4242a6c5ab7f02fe085e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63c09afd3faa4242a6c5ab7f02fe085e"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a63c09afd3faa4242a6c5ab7f02fe085e">ContactableGet_ndof_x</a> () override</td></tr>
+<tr class="memdesc:a63c09afd3faa4242a6c5ab7f02fe085e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of DOFs affected by this object (position part) <br /></td></tr>
+<tr class="separator:a63c09afd3faa4242a6c5ab7f02fe085e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86cdc112b2b24a028f8b2ce38fe9f79d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a86cdc112b2b24a028f8b2ce38fe9f79d"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a86cdc112b2b24a028f8b2ce38fe9f79d">ContactableGet_ndof_w</a> () override</td></tr>
+<tr class="memdesc:a86cdc112b2b24a028f8b2ce38fe9f79d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of DOFs affected by this object (speed part) <br /></td></tr>
+<tr class="separator:a86cdc112b2b24a028f8b2ce38fe9f79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63478f82e85fa912449a25738419ff38"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63478f82e85fa912449a25738419ff38"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a63478f82e85fa912449a25738419ff38">ContactableGetStateBlock_x</a> (<a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x) override</td></tr>
+<tr class="memdesc:a63478f82e85fa912449a25738419ff38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the DOFs packed in a single vector (position part) <br /></td></tr>
+<tr class="separator:a63478f82e85fa912449a25738419ff38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaecab308b2dcc8cef039c76bb0649106"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaecab308b2dcc8cef039c76bb0649106"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#aaecab308b2dcc8cef039c76bb0649106">ContactableGetStateBlock_w</a> (<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;w) override</td></tr>
+<tr class="memdesc:aaecab308b2dcc8cef039c76bb0649106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the DOFs packed in a single vector (speed part) <br /></td></tr>
+<tr class="separator:aaecab308b2dcc8cef039c76bb0649106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af985b8706850d1710fccf892f187d758"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#af985b8706850d1710fccf892f187d758">ContactableIncrementState</a> (const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;dw, <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x_new) override</td></tr>
+<tr class="memdesc:af985b8706850d1710fccf892f187d758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment the provided state of this object by the given state-delta increment.  <a href="#af985b8706850d1710fccf892f187d758">More...</a><br /></td></tr>
+<tr class="separator:af985b8706850d1710fccf892f187d758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a333b9763b1c8d8ec3b0a3427178f875e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a333b9763b1c8d8ec3b0a3427178f875e"></a>
+virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a333b9763b1c8d8ec3b0a3427178f875e">GetContactPoint</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;loc_point, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;state_x) override</td></tr>
+<tr class="memdesc:a333b9763b1c8d8ec3b0a3427178f875e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Express the local point in absolute frame, for the given state position. <br /></td></tr>
+<tr class="separator:a333b9763b1c8d8ec3b0a3427178f875e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58382eeb492dedf551e0b0bbb544cc37"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a58382eeb492dedf551e0b0bbb544cc37">GetContactPointSpeed</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;loc_point, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;state_x, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;state_w) override</td></tr>
+<tr class="memdesc:a58382eeb492dedf551e0b0bbb544cc37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the absolute speed of a local point attached to the contactable.  <a href="#a58382eeb492dedf551e0b0bbb544cc37">More...</a><br /></td></tr>
+<tr class="separator:a58382eeb492dedf551e0b0bbb544cc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f604fe13a4f02d13971ff6e3b590cb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a17f604fe13a4f02d13971ff6e3b590cb">GetContactPointSpeed</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;abs_point) override</td></tr>
+<tr class="memdesc:a17f604fe13a4f02d13971ff6e3b590cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the absolute speed of point abs_point if attached to the surface.  <a href="#a17f604fe13a4f02d13971ff6e3b590cb">More...</a><br /></td></tr>
+<tr class="separator:a17f604fe13a4f02d13971ff6e3b590cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a764f43ce26c648395177e0c37e2c16"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a1a764f43ce26c648395177e0c37e2c16">GetCsysForCollisionModel</a> () override</td></tr>
+<tr class="memdesc:a1a764f43ce26c648395177e0c37e2c16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the coordinate system for the associated collision model.  <a href="#a1a764f43ce26c648395177e0c37e2c16">More...</a><br /></td></tr>
+<tr class="separator:a1a764f43ce26c648395177e0c37e2c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9f6b996eb4430453cffefbb395fed58"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#ac9f6b996eb4430453cffefbb395fed58">ContactForceLoadResidual_F</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;F, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;abs_point, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R) override</td></tr>
+<tr class="memdesc:ac9f6b996eb4430453cffefbb395fed58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the force, expressed in absolute reference, applied in pos, to the coordinates of the variables.  <a href="#ac9f6b996eb4430453cffefbb395fed58">More...</a><br /></td></tr>
+<tr class="separator:ac9f6b996eb4430453cffefbb395fed58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8eea757cc71b57000c24e099c19dd10"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#ac8eea757cc71b57000c24e099c19dd10">ContactForceLoadQ</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;F, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;point, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;state_x, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;Q, int offset) override</td></tr>
+<tr class="memdesc:ac8eea757cc71b57000c24e099c19dd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the given force at the given point and load the generalized force array.  <a href="#ac8eea757cc71b57000c24e099c19dd10">More...</a><br /></td></tr>
+<tr class="separator:ac8eea757cc71b57000c24e099c19dd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce6f63369b9180415625c966db54851"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a1ce6f63369b9180415625c966db54851">ComputeJacobianForContactPart</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;abs_point, <a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;contact_plane, type_constraint_tuple &amp;jacobian_tuple_N, type_constraint_tuple &amp;jacobian_tuple_U, type_constraint_tuple &amp;jacobian_tuple_V, bool second) override</td></tr>
+<tr class="memdesc:a1ce6f63369b9180415625c966db54851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the jacobian(s) part(s) for this contactable item.  <a href="#a1ce6f63369b9180415625c966db54851">More...</a><br /></td></tr>
+<tr class="separator:a1ce6f63369b9180415625c966db54851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e622e714d664d655bb2a12b27eed394"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e622e714d664d655bb2a12b27eed394"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a6e622e714d664d655bb2a12b27eed394">GetContactableMass</a> () override</td></tr>
+<tr class="memdesc:a6e622e714d664d655bb2a12b27eed394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Might be needed by some DEM models. <br /></td></tr>
+<tr class="separator:a6e622e714d664d655bb2a12b27eed394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0d01c5ae7cd450a6dffefe37b798b23"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0d01c5ae7cd450a6dffefe37b798b23"></a>
+virtual std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_material_surface_base.html">ChMaterialSurfaceBase</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#af0d01c5ae7cd450a6dffefe37b798b23">GetMaterialSurfaceBase</a> () override</td></tr>
+<tr class="memdesc:af0d01c5ae7cd450a6dffefe37b798b23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the pointer to the surface material. <br /></td></tr>
+<tr class="separator:af0d01c5ae7cd450a6dffefe37b798b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a821e3d593a2c5bc74eead5ed6831a05a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a821e3d593a2c5bc74eead5ed6831a05a"></a>
+virtual <a class="el" href="classchrono_1_1_ch_physics_item.html">ChPhysicsItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_contact_triangle_x_y_z.html#a821e3d593a2c5bc74eead5ed6831a05a">GetPhysicsItem</a> () override</td></tr>
+<tr class="memdesc:a821e3d593a2c5bc74eead5ed6831a05a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is only for backward compatibility. <br /></td></tr>
+<tr class="separator:a821e3d593a2c5bc74eead5ed6831a05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a1ce6f63369b9180415625c966db54851"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChContactTriangleXYZ::ComputeJacobianForContactPart </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>abs_point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix33.html">ChMatrix33</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>contact_plane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type_constraint_tuple &amp;&#160;</td>
+          <td class="paramname"><em>jacobian_tuple_N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type_constraint_tuple &amp;&#160;</td>
+          <td class="paramname"><em>jacobian_tuple_U</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type_constraint_tuple &amp;&#160;</td>
+          <td class="paramname"><em>jacobian_tuple_V</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute the jacobian(s) part(s) for this contactable item. </p>
+<p>For example, if the contactable is a <a class="el" href="classchrono_1_1_ch_body.html" title="Class for rigid bodies. ">ChBody</a>, this should update the corresponding 1x6 jacobian. </p>
+
+</div>
+</div>
+<a class="anchor" id="af985b8706850d1710fccf892f187d758"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChContactTriangleXYZ::ContactableIncrementState </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>dw</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>x_new</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Increment the provided state of this object by the given state-delta increment. </p>
+<p>Compute: x_new = x + dw. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_contactable.html#a7e3f88b77cecf11618fb5820ce01e5b4">chrono::ChContactable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac8eea757cc71b57000c24e099c19dd10"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChContactTriangleXYZ::ContactForceLoadQ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>F</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>state_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>Q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Apply the given force at the given point and load the generalized force array. </p>
+<p>The force and its application point are specified in the gloabl frame. Each object must set the entries in Q corresponding to its variables, starting at the specified offset. If needed, the object states must be extracted from the provided state position. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_contactable.html#a51fa7840e2fcae7884666a0b70f53530">chrono::ChContactable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac9f6b996eb4430453cffefbb395fed58"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChContactTriangleXYZ::ContactForceLoadResidual_F </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>F</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>abs_point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>R</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Apply the force, expressed in absolute reference, applied in pos, to the coordinates of the variables. </p>
+<p>Force for example could come from a penalty model. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_contactable.html#add76534d6a8bf66bd758b5fc1768d18e">chrono::ChContactable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a58382eeb492dedf551e0b0bbb544cc37"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> chrono::fea::ChContactTriangleXYZ::GetContactPointSpeed </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>loc_point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>state_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>state_w</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the absolute speed of a local point attached to the contactable. </p>
+<p>The given point is assumed to be expressed in the local frame of this object. This function must use the provided states. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_contactable.html#a13b6f0285fdb628e826e4368ff7c15a1">chrono::ChContactable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a17f604fe13a4f02d13971ff6e3b590cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> chrono::fea::ChContactTriangleXYZ::GetContactPointSpeed </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>abs_point</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the absolute speed of point abs_point if attached to the surface. </p>
+<p>Easy in this case because there are no roations.. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_contactable.html#a4729be59ee1b7c1453b6a4dcfe933733">chrono::ChContactable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1a764f43ce26c648395177e0c37e2c16"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classchrono_1_1_ch_coordsys.html">ChCoordsys</a> chrono::fea::ChContactTriangleXYZ::GetCsysForCollisionModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the coordinate system for the associated collision model. </p>
+<p>ChCollisionModel might call this to get the position of the contact model (when rigid) and sync it. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_contactable.html#a42156df2e9ccbbe8d489963cb4a9c567">chrono::ChContactable</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:20 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

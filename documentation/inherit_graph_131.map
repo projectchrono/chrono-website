@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classchrono_1_1fea_1_1_ch_beam_section.html" title="Base class for properties of beam sections. " alt="" coords="5,46,196,73"/>
+<area shape="rect" id="node2" href="$classchrono_1_1fea_1_1_ch_beam_section_basic.html" title="Basic geometry for a beam section in 3D, along with basic material properties (zz and yy moments of i..." alt="" coords="244,5,435,47"/>
+<area shape="rect" id="node4" href="$classchrono_1_1fea_1_1_ch_beam_section_cable.html" title="Simplified geometry for a &#39;cable&#39; beam section in 3D, that is a beam without torsional stiffness and ..." alt="" coords="244,71,435,112"/>
+<area shape="rect" id="node3" href="$classchrono_1_1fea_1_1_ch_beam_section_advanced.html" title="Geometry for a beam section in 3D, along with basic material properties. " alt="" coords="483,5,673,47"/>
+</map>

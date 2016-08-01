@@ -1,0 +1,584 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::fea::ChElementBase Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1fea.html">fea</a></li><li class="navelem"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html">ChElementBase</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1fea_1_1_ch_element_base-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::fea::ChElementBase Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__fea__module.html">FEA module</a> &raquo; <a class="el" href="group__fea__elements.html">Elements</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for all finite elements, that can be used in the <a class="el" href="classchrono_1_1fea_1_1_ch_mesh.html" title="Class which defines a mesh of finite elements of class ChFelem, between nodes of class ChFnode...">ChMesh</a> physics item. </p>
+</div>
+<p><code>#include &lt;ChElementBase.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::fea::ChElementBase:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_element_base__inherit__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_element_base_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_element_base_inherit__map" id="chrono_1_1fea_1_1_ch_element_base_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1fea_1_1_ch_element_generic.html" title="Class for all elements whose stiffness matrix can be seen as a NxN block&#45;matrix to be splitted betwee..." alt="" coords="244,273,449,300"/>
+<area shape="rect" id="node3" href="classchrono_1_1fea_1_1_ch_element3_d.html" title="Class for all 3&#45;Dimensional elements. " alt="" coords="511,121,688,148"/>
+<area shape="rect" id="node11" href="classchrono_1_1fea_1_1_ch_element_bar.html" title="Simple finite element with two nodes and a bar that connects them. " alt="" coords="509,172,689,199"/>
+<area shape="rect" id="node12" href="classchrono_1_1fea_1_1_ch_element_beam.html" title="Base class for most structral elements of &#39;beam&#39; type. " alt="" coords="502,223,697,249"/>
+<area shape="rect" id="node15" href="classchrono_1_1fea_1_1_ch_element_brick.html" title="Brick element with 8 nodes (with EAS). " alt="" coords="504,273,695,300"/>
+<area shape="rect" id="node16" href="classchrono_1_1fea_1_1_ch_element_brick__9.html" title="Brick element with 9 nodes. " alt="" coords="497,324,701,351"/>
+<area shape="rect" id="node17" href="classchrono_1_1fea_1_1_ch_element_shell.html" title="Base class for most structral elements of &#39;shell&#39; type. " alt="" coords="505,375,694,401"/>
+<area shape="rect" id="node20" href="classchrono_1_1fea_1_1_ch_element_spring.html" title="Simple finite element with two nodes and a spring/damper between the two nodes. " alt="" coords="501,425,698,452"/>
+<area shape="rect" id="node4" href="classchrono_1_1fea_1_1_ch_element_hexahedron.html" title="Class for hexahedral elements. " alt="" coords="749,56,980,83"/>
+<area shape="rect" id="node7" href="classchrono_1_1fea_1_1_ch_element_tetrahedron.html" title="Class for tetrahedral elements. " alt="" coords="750,132,979,159"/>
+<area shape="rect" id="node5" href="classchrono_1_1fea_1_1_ch_element_hexa__20.html" title="Class for FEA elements of hexahedron type (isoparametric 3D bricks) with 20 nodes. " alt="" coords="1032,5,1244,32"/>
+<area shape="rect" id="node6" href="classchrono_1_1fea_1_1_ch_element_hexa__8.html" title="Class for FEA elements of hexahedron type (isoparametric 3D bricks) with 8 nodes. ..." alt="" coords="1035,56,1241,83"/>
+<area shape="rect" id="node8" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html" title="Tetahedron FEA element with 10 nodes. " alt="" coords="1033,107,1243,133"/>
+<area shape="rect" id="node9" href="classchrono_1_1fea_1_1_ch_element_tetra__4.html" title="Tetahedron FEA element with 4 nodes. " alt="" coords="1036,157,1240,184"/>
+<area shape="rect" id="node10" href="classchrono_1_1fea_1_1_ch_element_tetra__4___p.html" title="Tetahedron FEM element with 4 nodes for scalar fields (for Poisson&#45;like problems). " alt="" coords="1028,208,1248,235"/>
+<area shape="rect" id="node13" href="classchrono_1_1fea_1_1_ch_element_beam_a_n_c_f.html" title="Simple beam element with two nodes and ANCF gradient&#45;deficient formulation. " alt="" coords="749,192,980,219"/>
+<area shape="rect" id="node14" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html" title="Simple beam element with two nodes and Euler&#45;Bernoulli formulation. " alt="" coords="767,243,962,285"/>
+<area shape="rect" id="node18" href="classchrono_1_1fea_1_1_ch_element_shell_a_n_c_f.html" title="ANCF laminated shell element with four nodes. " alt="" coords="751,328,978,355"/>
+<area shape="rect" id="node19" href="classchrono_1_1fea_1_1_ch_element_shell_reissner4.html" title="Shell with geometrically exact kinematics, with 4 nodes. " alt="" coords="770,379,959,421"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aedeca21f9317e064e3073d6387cb1d97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aedeca21f9317e064e3073d6387cb1d97"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#aedeca21f9317e064e3073d6387cb1d97">GetNnodes</a> ()=0</td></tr>
+<tr class="memdesc:aedeca21f9317e064e3073d6387cb1d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of nodes used by this element. <br /></td></tr>
+<tr class="separator:aedeca21f9317e064e3073d6387cb1d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41f0651dc8d6a218a3d00a0028b9f3cf"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a41f0651dc8d6a218a3d00a0028b9f3cf">GetNdofs</a> ()=0</td></tr>
+<tr class="memdesc:a41f0651dc8d6a218a3d00a0028b9f3cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of coordinates in the field used by the referenced nodes.  <a href="#a41f0651dc8d6a218a3d00a0028b9f3cf">More...</a><br /></td></tr>
+<tr class="separator:a41f0651dc8d6a218a3d00a0028b9f3cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ff4c93c77488c602f5a3d24a9644c7d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a5ff4c93c77488c602f5a3d24a9644c7d">GetNodeNdofs</a> (int n)=0</td></tr>
+<tr class="memdesc:a5ff4c93c77488c602f5a3d24a9644c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of coordinates from the n-th node that are used by this element.  <a href="#a5ff4c93c77488c602f5a3d24a9644c7d">More...</a><br /></td></tr>
+<tr class="separator:a5ff4c93c77488c602f5a3d24a9644c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b3df58d8e577077d03e12cc600cbe95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b3df58d8e577077d03e12cc600cbe95"></a>
+virtual std::shared_ptr&lt; <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html">ChNodeFEAbase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a6b3df58d8e577077d03e12cc600cbe95">GetNodeN</a> (int n)=0</td></tr>
+<tr class="memdesc:a6b3df58d8e577077d03e12cc600cbe95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the nth node. <br /></td></tr>
+<tr class="separator:a6b3df58d8e577077d03e12cc600cbe95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac41d184892cb3296030a4236c01b30ef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#ac41d184892cb3296030a4236c01b30ef">GetStateBlock</a> (<a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &amp;mD)=0</td></tr>
+<tr class="memdesc:ac41d184892cb3296030a4236c01b30ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the D vector (column matrix) with the current field values at the nodes of the element, with proper ordering.  <a href="#ac41d184892cb3296030a4236c01b30ef">More...</a><br /></td></tr>
+<tr class="separator:ac41d184892cb3296030a4236c01b30ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e9d92c59f2033c16835f7ed9a2b5bde"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a8e9d92c59f2033c16835f7ed9a2b5bde">ComputeMmatrixGlobal</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;M)=0</td></tr>
+<tr class="memdesc:a8e9d92c59f2033c16835f7ed9a2b5bde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets M as the mass matrix.  <a href="#a8e9d92c59f2033c16835f7ed9a2b5bde">More...</a><br /></td></tr>
+<tr class="separator:a8e9d92c59f2033c16835f7ed9a2b5bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad569dd917bb66c0fa556bd9095918cb7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad569dd917bb66c0fa556bd9095918cb7"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#ad569dd917bb66c0fa556bd9095918cb7">ComputeNodalMass</a> ()</td></tr>
+<tr class="memdesc:ad569dd917bb66c0fa556bd9095918cb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute element's nodal masses. <br /></td></tr>
+<tr class="separator:ad569dd917bb66c0fa556bd9095918cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e679b7026bab571b615374c5b0313bf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a1e679b7026bab571b615374c5b0313bf">ComputeKRMmatricesGlobal</a> (<a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;H, double Kfactor, double Rfactor=0, double Mfactor=0)=0</td></tr>
+<tr class="memdesc:a1e679b7026bab571b615374c5b0313bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets H as the stiffness matrix K, scaled by Kfactor.  <a href="#a1e679b7026bab571b615374c5b0313bf">More...</a><br /></td></tr>
+<tr class="separator:a1e679b7026bab571b615374c5b0313bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a975ea7097b93df139090ed26301c7ee6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a975ea7097b93df139090ed26301c7ee6">ComputeInternalForces</a> (<a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &amp;Fi)=0</td></tr>
+<tr class="memdesc:a975ea7097b93df139090ed26301c7ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the internal forces (ex.  <a href="#a975ea7097b93df139090ed26301c7ee6">More...</a><br /></td></tr>
+<tr class="separator:a975ea7097b93df139090ed26301c7ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae172f3e59d3950ca16e2a970b2f5b5d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#ae172f3e59d3950ca16e2a970b2f5b5d5">SetupInitial</a> (<a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *system)</td></tr>
+<tr class="memdesc:ae172f3e59d3950ca16e2a970b2f5b5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial setup: This is used mostly to precompute matrices that do not change during the simulation, i.e.  <a href="#ae172f3e59d3950ca16e2a970b2f5b5d5">More...</a><br /></td></tr>
+<tr class="separator:ae172f3e59d3950ca16e2a970b2f5b5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51fcdf1e224cc6b1e67a4e97f6963988"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a51fcdf1e224cc6b1e67a4e97f6963988">Update</a> ()</td></tr>
+<tr class="memdesc:a51fcdf1e224cc6b1e67a4e97f6963988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update: this is called at least at each time step.  <a href="#a51fcdf1e224cc6b1e67a4e97f6963988">More...</a><br /></td></tr>
+<tr class="separator:a51fcdf1e224cc6b1e67a4e97f6963988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e98f30f1145dc0fac87b050b1f94bba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1e98f30f1145dc0fac87b050b1f94bba"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a1e98f30f1145dc0fac87b050b1f94bba">EleIntLoadResidual_F</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const double c)</td></tr>
+<tr class="memdesc:a1e98f30f1145dc0fac87b050b1f94bba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the internal forces (pasted at global nodes offsets) into a global vector R, multiplied by a scaling factor c, as R += forces * c. <br /></td></tr>
+<tr class="separator:a1e98f30f1145dc0fac87b050b1f94bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad64a1d1b1386ad079ca029fa0f1518dc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad64a1d1b1386ad079ca029fa0f1518dc"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#ad64a1d1b1386ad079ca029fa0f1518dc">EleIntLoadResidual_Mv</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;w, const double c)</td></tr>
+<tr class="memdesc:ad64a1d1b1386ad079ca029fa0f1518dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the product of element mass M by a vector w (pasted at global nodes offsets) into a global vector R, multiplied by a scaling factor c, as R += M * v * c. <br /></td></tr>
+<tr class="separator:ad64a1d1b1386ad079ca029fa0f1518dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add520619480b8916e08549ac1fa2e875"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#add520619480b8916e08549ac1fa2e875">InjectKRMmatrices</a> (<a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;mdescriptor)=0</td></tr>
+<tr class="memdesc:add520619480b8916e08549ac1fa2e875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell to a system descriptor that there are item(s) of type <a class="el" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block-sparse matrices, that is blocks that connect ...">ChKblock</a> in this object (for further passing it to a solver) Basically does nothing, but inherited classes must specialize this.  <a href="#add520619480b8916e08549ac1fa2e875">More...</a><br /></td></tr>
+<tr class="separator:add520619480b8916e08549ac1fa2e875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ea709327b4e843a61e59dd4ddc44ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a20ea709327b4e843a61e59dd4ddc44ea">KRMmatricesLoad</a> (double Kfactor, double Rfactor, double Mfactor)=0</td></tr>
+<tr class="memdesc:a20ea709327b4e843a61e59dd4ddc44ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the current stiffness K and damping R and mass M matrices in encapsulated <a class="el" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block-sparse matrices, that is blocks that connect ...">ChKblock</a> item(s), if any.  <a href="#a20ea709327b4e843a61e59dd4ddc44ea">More...</a><br /></td></tr>
+<tr class="separator:a20ea709327b4e843a61e59dd4ddc44ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad74695fc75c3d76d096a49794e0e3246"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad74695fc75c3d76d096a49794e0e3246"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#ad74695fc75c3d76d096a49794e0e3246">VariablesFbLoadInternalForces</a> (double factor=1.)</td></tr>
+<tr class="memdesc:ad74695fc75c3d76d096a49794e0e3246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the internal forces, expressed as nodal forces, into the encapsulated <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a>, in the 'fb' part: qf+=forces*factor WILL BE DEPRECATED - see EleIntLoadResidual_F. <br /></td></tr>
+<tr class="separator:ad74695fc75c3d76d096a49794e0e3246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39de7b88f653c53c11ce4b8b6bc46192"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a39de7b88f653c53c11ce4b8b6bc46192">VariablesFbIncrementMq</a> ()</td></tr>
+<tr class="memdesc:a39de7b88f653c53c11ce4b8b6bc46192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds M*q (internal masses multiplied current 'qb') to Fb, ex.  <a href="#a39de7b88f653c53c11ce4b8b6bc46192">More...</a><br /></td></tr>
+<tr class="separator:a39de7b88f653c53c11ce4b8b6bc46192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a975ea7097b93df139090ed26301c7ee6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementBase::ComputeInternalForces </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>Fi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the internal forces (ex. </p>
+<p>the actual position of nodes is not in relaxed reference position) and set values in the Fi vector, whith n.rows = n.of dof of element. CHLDREN CLASSES MUST IMPLEMENT THIS!!! </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexa__20.html#a875dc6ffa4c9e8c7048f76504a50ff0f">chrono::fea::ChElementHexa_20</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html#abc41b7fd375d1c83f0cf314867e8b18e">chrono::fea::ChElementBeamEuler</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4___p.html#acd7c30251cce5b935cbe2b359547716b">chrono::fea::ChElementTetra_4_P</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a3e14273ca888f510ad1cc9dc05438806">chrono::fea::ChElementTetra_10</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_a_n_c_f.html#aefdfcc1a8a71a5b3400e859af38c39e7">chrono::fea::ChElementBeamANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_reissner4.html#afe0a49062a0107c1bf246037423e58ca">chrono::fea::ChElementShellReissner4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexa__8.html#aa0e83d6911ab1f1ec4fe61275cf2346d">chrono::fea::ChElementHexa_8</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4.html#a8d09c08dcc3ad3bab1b2782243a0efd1">chrono::fea::ChElementTetra_4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_a_n_c_f.html#a2ad89a4e8f2d7d10023a59010d21acbb">chrono::fea::ChElementShellANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_bar.html#a000466d81dee7df430cc62bd180fa921">chrono::fea::ChElementBar</a>, and <a class="el" href="classchrono_1_1fea_1_1_ch_element_spring.html#adf50ae9e09ef9d8b5fe07c1cedd8b5b6">chrono::fea::ChElementSpring</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1e679b7026bab571b615374c5b0313bf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementBase::ComputeKRMmatricesGlobal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>H</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Kfactor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Rfactor</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Mfactor</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets H as the stiffness matrix K, scaled by Kfactor. </p>
+<p>Optionally, also superimposes global damping matrix R, scaled by Rfactor, and mass matrix M, scaled by Mfactor. Matrices are expressed in global reference. Corotational elements can take the local Kl &amp; Rl matrices and rotate them. CHLDREN CLASSES MUST IMPLEMENT THIS!!! </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexa__20.html#aad880e1054074792e4ec6b0f5c9ec72c">chrono::fea::ChElementHexa_20</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4___p.html#ae4d43515d482c3053f206ce2a0b84c84">chrono::fea::ChElementTetra_4_P</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a78d7019af78accf39a827f0ce0865636">chrono::fea::ChElementTetra_10</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_a_n_c_f.html#aac600e737266d50ef440290f851829ef">chrono::fea::ChElementBeamANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html#ad20dc362275faa87040222ba26ee5f4a">chrono::fea::ChElementBeamEuler</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_reissner4.html#ab2ecec7612034f5e04a42a52183f5988">chrono::fea::ChElementShellReissner4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexa__8.html#a7232b517e7e3d63c8e64f9d432b4bcb6">chrono::fea::ChElementHexa_8</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_a_n_c_f.html#afdae887d55dbf6df1e41910c0b12a1ea">chrono::fea::ChElementShellANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4.html#a37f7d741f5b8267b43249bfccea6278f">chrono::fea::ChElementTetra_4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_bar.html#a455c4da8943ec7f27bf7f11c4e3e26d0">chrono::fea::ChElementBar</a>, and <a class="el" href="classchrono_1_1fea_1_1_ch_element_spring.html#a83bb0c0acf2a1da034239e2513f0682f">chrono::fea::ChElementSpring</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8e9d92c59f2033c16835f7ed9a2b5bde"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementBase::ComputeMmatrixGlobal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix.html">ChMatrix</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>M</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets M as the mass matrix. </p>
+<p>The matrix is expressed in global reference. CHLDREN CLASSES MUST IMPLEMENT THIS!!! </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_a_n_c_f.html#a7df0af0b23d274a6cf57da56042f7204">chrono::fea::ChElementBeamANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_reissner4.html#a68a7c528c38500017cd65df2478af06d">chrono::fea::ChElementShellReissner4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_a_n_c_f.html#a416468222c7a7b62dca5786fd1d6e101">chrono::fea::ChElementShellANCF</a>, and <a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html#a6147d30ab40c8396693bec5c646b5913">chrono::fea::ChElementGeneric</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a41f0651dc8d6a218a3d00a0028b9f3cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int chrono::fea::ChElementBase::GetNdofs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the number of coordinates in the field used by the referenced nodes. </p>
+<p>This is for example the size (n.of rows/columns) of the local stiffness matrix. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4___p.html#a2fc7af146d2980282ea2e2284e3c846d">chrono::fea::ChElementTetra_4_P</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_brick.html#aaa6d1bcd88c2e355f13169b589a42cd2">chrono::fea::ChElementBrick</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_a_n_c_f.html#a4a7a94bdde28489fe6ba13503c3a78f7">chrono::fea::ChElementShellANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_reissner4.html#ad96d3432c102957c885d4fbe02379501">chrono::fea::ChElementShellReissner4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html#a80b11a23eb41bfe37306b47ccb506766">chrono::fea::ChElementBeamEuler</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_a_n_c_f.html#aabd194bedf1d32e0066c6ad289fd3605">chrono::fea::ChElementBeamANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4.html#a167f176e5995603892982839f8796e1c">chrono::fea::ChElementTetra_4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#acab4571f7eddfd137980c302d20baca4">chrono::fea::ChElementTetra_10</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_bar.html#a6ddc6cc2be632abaf340faec495b74b3">chrono::fea::ChElementBar</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexa__8.html#a8bafd491bc1350358b8f9f7b09a644c4">chrono::fea::ChElementHexa_8</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_brick__9.html#a106364c1b779d3de61e2d48793ca700e">chrono::fea::ChElementBrick_9</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexa__20.html#aa4248b8d80cc4d5c6b2102cc0e405794">chrono::fea::ChElementHexa_20</a>, and <a class="el" href="classchrono_1_1fea_1_1_ch_element_spring.html#a26e54c787c909cee10a595f8c6b067cc">chrono::fea::ChElementSpring</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5ff4c93c77488c602f5a3d24a9644c7d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int chrono::fea::ChElementBase::GetNodeNdofs </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the number of coordinates from the n-th node that are used by this element. </p>
+<p>Note that this may be different from the value returned by GetNodeN(n)-&gt;Get_ndof_w(); </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4___p.html#a1e1ef8b7c2c40d35923ece20d6068aa3">chrono::fea::ChElementTetra_4_P</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_brick.html#ac4831e0e59b9c0b3a4db601caf128879">chrono::fea::ChElementBrick</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_a_n_c_f.html#a3c3b39ccc57fc58aec3c9c077aa50472">chrono::fea::ChElementShellANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_reissner4.html#acba83c188675a1c3c626c9d3b64f2bea">chrono::fea::ChElementShellReissner4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html#ade22a1c69a98fa38872b8c400b67cbff">chrono::fea::ChElementBeamEuler</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_a_n_c_f.html#a6d455736114865ce8b2746925070668b">chrono::fea::ChElementBeamANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4.html#a0ad0e67e585d31e909e11e595cdcd3ef">chrono::fea::ChElementTetra_4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#ae47f90e599902d85d82a2b35c6385770">chrono::fea::ChElementTetra_10</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_bar.html#a7b6185f5b2d06654cf8090e9bcfa8278">chrono::fea::ChElementBar</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_brick__9.html#ac8f4ea46050db971b1ee0116a4c8fbab">chrono::fea::ChElementBrick_9</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexa__8.html#a6cb207508cc179ebdf53898f8e649b79">chrono::fea::ChElementHexa_8</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexa__20.html#aea92614dbddaa8786824c335f50bedf5">chrono::fea::ChElementHexa_20</a>, and <a class="el" href="classchrono_1_1fea_1_1_ch_element_spring.html#ada34e3a2b04c46ead78dca82d796cbd9">chrono::fea::ChElementSpring</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac41d184892cb3296030a4236c01b30ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementBase::GetStateBlock </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_matrix_dynamic.html">ChMatrixDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>mD</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fills the D vector (column matrix) with the current field values at the nodes of the element, with proper ordering. </p>
+<p>If the D vector has not the size of this-&gt;<a class="el" href="classchrono_1_1fea_1_1_ch_element_base.html#a41f0651dc8d6a218a3d00a0028b9f3cf" title="Gets the number of coordinates in the field used by the referenced nodes. ">GetNdofs()</a>, it will be resized. For corotational elements, field is assumed in local reference! CHLDREN CLASSES MUST IMPLEMENT THIS!!! </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4___p.html#a82632c4322957a70b76787efee41198b">chrono::fea::ChElementTetra_4_P</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_reissner4.html#aa214c5dfa56504f1abe14ecab493a782">chrono::fea::ChElementShellReissner4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_a_n_c_f.html#a232a54b26716354516516227ac2fc2d8">chrono::fea::ChElementShellANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html#a32920622c7101caaad90271b349b16fa">chrono::fea::ChElementBeamEuler</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexa__20.html#ac4082655750577ab384c53f376136223">chrono::fea::ChElementHexa_20</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_a_n_c_f.html#a5944ccd0f5a8286e418aeabb35fdbe84">chrono::fea::ChElementBeamANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#aa6de74117ca8683ebf755fbb746a57bb">chrono::fea::ChElementTetra_10</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexa__8.html#a8a42879a5f3915e1d9a94db8cbf73f2f">chrono::fea::ChElementHexa_8</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4.html#a0af01b9158a1c6d884c3c0b2ac9d091b">chrono::fea::ChElementTetra_4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_bar.html#a4e3252cd3ed75e6566fcd0b758933e6d">chrono::fea::ChElementBar</a>, and <a class="el" href="classchrono_1_1fea_1_1_ch_element_spring.html#a7d16cedfc15693ae0ca4c8618b0fde62">chrono::fea::ChElementSpring</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add520619480b8916e08549ac1fa2e875"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementBase::InjectKRMmatrices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;&#160;</td>
+          <td class="paramname"><em>mdescriptor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tell to a system descriptor that there are item(s) of type <a class="el" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block-sparse matrices, that is blocks that connect ...">ChKblock</a> in this object (for further passing it to a solver) Basically does nothing, but inherited classes must specialize this. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html#abfe1e50aa31758ad12421e8aed5ef439">chrono::fea::ChElementGeneric</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a20ea709327b4e843a61e59dd4ddc44ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementBase::KRMmatricesLoad </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Kfactor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Rfactor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Mfactor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds the current stiffness K and damping R and mass M matrices in encapsulated <a class="el" href="classchrono_1_1_ch_kblock.html" title="Base class for representing items which introduce block-sparse matrices, that is blocks that connect ...">ChKblock</a> item(s), if any. </p>
+<p>The K, R, M matrices are added with scaling values Kfactor, Rfactor, Mfactor. </p>
+
+<p>Implemented in <a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html#a504166d3ebca09a3d076156c0eec606d">chrono::fea::ChElementGeneric</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae172f3e59d3950ca16e2a970b2f5b5d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementBase::SetupInitial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_system.html">ChSystem</a> *&#160;</td>
+          <td class="paramname"><em>system</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initial setup: This is used mostly to precompute matrices that do not change during the simulation, i.e. </p>
+<p>the local stiffness of each element, if any, the mass, etc. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexa__20.html#ad3d618aae839376cbb37c469d20c5cbc">chrono::fea::ChElementHexa_20</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4___p.html#a7ddfb59aacfcb728fa2dfd3ed4620289">chrono::fea::ChElementTetra_4_P</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__10.html#a8e3a3b787de71437d27e875b07c0127b">chrono::fea::ChElementTetra_10</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_a_n_c_f.html#a1c49bf398caa28baf2ee8ba0f801a698">chrono::fea::ChElementBeamANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html#a6558735cd197f96e6b5a0fb353cfaf2d">chrono::fea::ChElementBeamEuler</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_reissner4.html#a921117aa82d47c65b1ae72e2733c4610">chrono::fea::ChElementShellReissner4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexa__8.html#afde12af8b54dcadd96a650048550957c">chrono::fea::ChElementHexa_8</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_a_n_c_f.html#a3d231e72b399c47434df4dff2107a986">chrono::fea::ChElementShellANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetra__4.html#a3745dacedda8e2b5370633cc59385093">chrono::fea::ChElementTetra_4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_spring.html#a7f3f96c2a4262ee8db78c76e19226a32">chrono::fea::ChElementSpring</a>, and <a class="el" href="classchrono_1_1fea_1_1_ch_element_bar.html#aeb3ad7c3e23046fb7a2066976667db4d">chrono::fea::ChElementBar</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a51fcdf1e224cc6b1e67a4e97f6963988"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementBase::Update </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update: this is called at least at each time step. </p>
+<p>If the element has to keep updated some auxiliary data, such as the rotation matrices for corotational approach, this is the proper place. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_reissner4.html#a1435dc7c858aaaee5bf7787673e87293">chrono::fea::ChElementShellReissner4</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_shell_a_n_c_f.html#ab5dcdf3cdf13391d3ea430da48b3df24">chrono::fea::ChElementShellANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_euler.html#a55f08373a1c6678921ae28457abdbf8b">chrono::fea::ChElementBeamEuler</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_beam_a_n_c_f.html#a57205fa28a72685b068819f504eb2dfd">chrono::fea::ChElementBeamANCF</a>, <a class="el" href="classchrono_1_1fea_1_1_ch_element_hexahedron.html#a8d81a71a45114af5a073a69efcede941">chrono::fea::ChElementHexahedron</a>, and <a class="el" href="classchrono_1_1fea_1_1_ch_element_tetrahedron.html#aac750ee1b0cbae6f308c00548b7a0be0">chrono::fea::ChElementTetrahedron</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a39de7b88f653c53c11ce4b8b6bc46192"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChElementBase::VariablesFbIncrementMq </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds M*q (internal masses multiplied current 'qb') to Fb, ex. </p>
+<p>if qb is initialized with v_old using VariablesQbLoadSpeed, this method can be used in timestepping schemes that do: M*v_new = M*v_old + forces*dt WILL BE DEPRECATED </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1fea_1_1_ch_element_generic.html#a7b5a0c73847fd050a6c474acbac94f8e">chrono::fea::ChElementGeneric</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:21 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<map id="chrono::collision::ChConvexDecomposition" name="chrono::collision::ChConvexDecomposition">
+<area shape="rect" id="node2" href="$classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_d.html" title="Class for wrapping the HACD convex decomposition code by Khaled Mamou (in the convexdecomposition/ di..." alt="" coords="231,5,441,47"/>
+<area shape="rect" id="node3" href="$classchrono_1_1collision_1_1_ch_convex_decomposition_h_a_c_dv2.html" title="Class for wrapping the HACD convex decomposition code revisited by John Ratcliff. ..." alt="" coords="224,71,448,112"/>
+<area shape="rect" id="node4" href="$classchrono_1_1collision_1_1_ch_convex_decomposition_j_r.html" title="Class for wrapping the NvConvexDecomposition code by John W. " alt="" coords="242,136,430,177"/>
+</map>

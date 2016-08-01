@@ -1,0 +1,215 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChLinkForce Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_link_force.html">ChLinkForce</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1_ch_link_force-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChLinkForce Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for forces in link joints of type ChLink(). </p>
+</div>
+<p><code>#include &lt;ChLinkForce.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a83f0167c769b30e01c19e09134606a31"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a83f0167c769b30e01c19e09134606a31"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChLinkForce</b> (const <a class="el" href="classchrono_1_1_ch_link_force.html">ChLinkForce</a> &amp;other)</td></tr>
+<tr class="separator:a83f0167c769b30e01c19e09134606a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bf345d00ec240751ebacaeb280a631f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5bf345d00ec240751ebacaeb280a631f"></a>
+<a class="el" href="classchrono_1_1_ch_link_force.html">ChLinkForce</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_link_force.html#a5bf345d00ec240751ebacaeb280a631f">Clone</a> () const </td></tr>
+<tr class="memdesc:a5bf345d00ec240751ebacaeb280a631f"><td class="mdescLeft">&#160;</td><td class="mdescRight">"Virtual" copy constructor (covariant return type). <br /></td></tr>
+<tr class="separator:a5bf345d00ec240751ebacaeb280a631f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3519da8fe7a485bbe04ebd2b1e2c06a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3519da8fe7a485bbe04ebd2b1e2c06a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Get_active</b> () const </td></tr>
+<tr class="separator:ad3519da8fe7a485bbe04ebd2b1e2c06a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5a2594ab5ec919ee76313c8f0ac517c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab5a2594ab5ec919ee76313c8f0ac517c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_active</b> (bool m_a)</td></tr>
+<tr class="separator:ab5a2594ab5ec919ee76313c8f0ac517c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae64fba28bd66776a9c8feaa0a019e868"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae64fba28bd66776a9c8feaa0a019e868"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_iforce</b> () const </td></tr>
+<tr class="separator:ae64fba28bd66776a9c8feaa0a019e868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a6fc18672461202945435dc790d40a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a10a6fc18672461202945435dc790d40a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_iforce</b> (double m_f)</td></tr>
+<tr class="separator:a10a6fc18672461202945435dc790d40a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02ae766347c31374653a14818303e640"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02ae766347c31374653a14818303e640"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_K</b> () const </td></tr>
+<tr class="separator:a02ae766347c31374653a14818303e640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00ec30184bd3f4d29aa23e6297402f2c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00ec30184bd3f4d29aa23e6297402f2c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_K</b> (double m_K)</td></tr>
+<tr class="separator:a00ec30184bd3f4d29aa23e6297402f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c2647036fe2de0f7bab53c2760d4c65"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2c2647036fe2de0f7bab53c2760d4c65"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_R</b> () const </td></tr>
+<tr class="separator:a2c2647036fe2de0f7bab53c2760d4c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af542360093811d0bbe0cdb58ff0cef7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af542360093811d0bbe0cdb58ff0cef7c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_R</b> (double m_R)</td></tr>
+<tr class="separator:af542360093811d0bbe0cdb58ff0cef7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d56947762c755d118053a20d6fd89a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d56947762c755d118053a20d6fd89a5"></a>
+<a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Get_modul_iforce</b> () const </td></tr>
+<tr class="separator:a6d56947762c755d118053a20d6fd89a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a491ce37276270d6e887bad5e70926a20"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a491ce37276270d6e887bad5e70926a20"></a>
+<a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Get_modul_K</b> () const </td></tr>
+<tr class="separator:a491ce37276270d6e887bad5e70926a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4787828829289adc7761b402ea1979a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4787828829289adc7761b402ea1979a0"></a>
+<a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Get_modul_R</b> () const </td></tr>
+<tr class="separator:a4787828829289adc7761b402ea1979a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ce0aefe72f36b9d2e2b8117ed09ced"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75ce0aefe72f36b9d2e2b8117ed09ced"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_modul_iforce</b> (<a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> *m_funct)</td></tr>
+<tr class="separator:a75ce0aefe72f36b9d2e2b8117ed09ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af49d9c5fbaf9893500d9342a74ba4dcf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af49d9c5fbaf9893500d9342a74ba4dcf"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_modul_K</b> (<a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> *m_funct)</td></tr>
+<tr class="separator:af49d9c5fbaf9893500d9342a74ba4dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa032449289599b98f20a0281e48631e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa032449289599b98f20a0281e48631e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Set_modul_R</b> (<a class="el" href="classchrono_1_1_ch_function.html">ChFunction</a> *m_funct)</td></tr>
+<tr class="separator:aaa032449289599b98f20a0281e48631e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5676ac1f6544b89f0c91da9a9c2ae72f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5676ac1f6544b89f0c91da9a9c2ae72f"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Kcurrent</b> (double x, double x_dt, double t) const </td></tr>
+<tr class="separator:a5676ac1f6544b89f0c91da9a9c2ae72f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa32dfb880d3ff3a04e838d2b36c6bcbf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa32dfb880d3ff3a04e838d2b36c6bcbf"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Rcurrent</b> (double x, double x_dt, double t) const </td></tr>
+<tr class="separator:aa32dfb880d3ff3a04e838d2b36c6bcbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a9cc256056821fccb49404d68e73fcf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a9cc256056821fccb49404d68e73fcf"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_iFcurrent</b> (double x, double x_dt, double t) const </td></tr>
+<tr class="separator:a3a9cc256056821fccb49404d68e73fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc9f13643720c5ae19f7c99c15ee625b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc9f13643720c5ae19f7c99c15ee625b"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Get_Force</b> (double x, double x_dt, double t) const </td></tr>
+<tr class="separator:abc9f13643720c5ae19f7c99c15ee625b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14213c704263ea1d1ddfa17d40aab637"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14213c704263ea1d1ddfa17d40aab637"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_link_force.html#a14213c704263ea1d1ddfa17d40aab637">ArchiveOUT</a> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a14213c704263ea1d1ddfa17d40aab637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow serialization of transient data to archives. <br /></td></tr>
+<tr class="separator:a14213c704263ea1d1ddfa17d40aab637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a328830cee5e116e50bad07f989081e6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a328830cee5e116e50bad07f989081e6e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_link_force.html#a328830cee5e116e50bad07f989081e6e">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive)</td></tr>
+<tr class="memdesc:a328830cee5e116e50bad07f989081e6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow deserialization of transient data from archives. <br /></td></tr>
+<tr class="separator:a328830cee5e116e50bad07f989081e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:14 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

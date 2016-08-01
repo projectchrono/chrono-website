@@ -1,0 +1,6 @@
+<map id="chrono::ChStreamInAsciiFile" name="chrono::ChStreamInAsciiFile">
+<area shape="rect" id="node2" href="$classchrono_1_1_ch_stream_file.html" title="This is a base class for typical output on system&#39;s file, on a disk, using the typical C++ &#39;fstream&#39; ..." alt="" coords="5,155,155,181"/>
+<area shape="rect" id="node3" href="$classchrono_1_1_ch_stream_in_ascii.html" title="This is a base class for all ASCII INPUT streams, in the sense that number are formatted into readabl..." alt="" coords="179,155,347,181"/>
+<area shape="rect" id="node4" href="$classchrono_1_1_ch_stream_in.html" title="This is a base class for all INPUT streams. " alt="" coords="193,80,332,107"/>
+<area shape="rect" id="node5" href="$classchrono_1_1_ch_stream.html" title="This is a base class for input/output (streaming) " alt="" coords="199,5,327,32"/>
+</map>

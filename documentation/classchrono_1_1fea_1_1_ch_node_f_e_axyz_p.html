@@ -1,0 +1,542 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::fea::ChNodeFEAxyzP Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1fea.html">fea</a></li><li class="navelem"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html">ChNodeFEAxyzP</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::fea::ChNodeFEAxyzP Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Class for a generic finite element node in 3D space, with scalar field P. </p>
+<p>This can be used for typical Poisson-type problems (ex. thermal, if the scalar field is temperature T, or electrostatics if the scalar field is electric potential V) </p>
+</div>
+<p><code>#include &lt;ChNodeFEAxyzP.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::fea::ChNodeFEAxyzP:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p__inherit__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_node_f_e_axyz_p_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_node_f_e_axyz_p_inherit__map" id="chrono_1_1fea_1_1_ch_node_f_e_axyz_p_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html" title="Base class for a generic finite element node that can be stored in ChMesh containers. " alt="" coords="6,80,203,107"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_node_base.html" title="Class for a node, that has some degrees of freedom and that contain a proxy to the solver..." alt="" coords="31,5,178,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::fea::ChNodeFEAxyzP:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p__coll__graph.png" border="0" usemap="#chrono_1_1fea_1_1_ch_node_f_e_axyz_p_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1fea_1_1_ch_node_f_e_axyz_p_coll__map" id="chrono_1_1fea_1_1_ch_node_f_e_axyz_p_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html" title="Base class for a generic finite element node that can be stored in ChMesh containers. " alt="" coords="6,80,203,107"/>
+<area shape="rect" id="node3" href="classchrono_1_1_ch_node_base.html" title="Class for a node, that has some degrees of freedom and that contain a proxy to the solver..." alt="" coords="31,5,178,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a5e4d71d9349afaf0356dd17b99767c73"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e4d71d9349afaf0356dd17b99767c73"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChNodeFEAxyzP</b> (<a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; initial_pos=VNULL)</td></tr>
+<tr class="separator:a5e4d71d9349afaf0356dd17b99767c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee027556fcb587373841ce12ee16cdd2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee027556fcb587373841ce12ee16cdd2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChNodeFEAxyzP</b> (const <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html">ChNodeFEAxyzP</a> &amp;other)</td></tr>
+<tr class="separator:aee027556fcb587373841ce12ee16cdd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7645cf13d9a23c9dc7e68a6c4ba1a5d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7645cf13d9a23c9dc7e68a6c4ba1a5d"></a>
+<a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html">ChNodeFEAxyzP</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html">ChNodeFEAxyzP</a> &amp;other)</td></tr>
+<tr class="separator:aa7645cf13d9a23c9dc7e68a6c4ba1a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30679caa6f035571eae22232f59c0e64"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30679caa6f035571eae22232f59c0e64"></a>
+virtual <a class="el" href="classchrono_1_1_ch_variables.html">ChVariables</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Variables</b> ()</td></tr>
+<tr class="separator:a30679caa6f035571eae22232f59c0e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4a08bf3acb252f514b3599712136888"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4a08bf3acb252f514b3599712136888"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#af4a08bf3acb252f514b3599712136888">Relax</a> () override</td></tr>
+<tr class="memdesc:af4a08bf3acb252f514b3599712136888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the rest position as the actual position. <br /></td></tr>
+<tr class="separator:af4a08bf3acb252f514b3599712136888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f192ac6de2317b27ace501ab297194e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f192ac6de2317b27ace501ab297194e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#a5f192ac6de2317b27ace501ab297194e">SetNoSpeedNoAcceleration</a> () override</td></tr>
+<tr class="memdesc:a5f192ac6de2317b27ace501ab297194e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset to no speed and acceleration. <br /></td></tr>
+<tr class="separator:a5f192ac6de2317b27ace501ab297194e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae11937d54c82ba4ae4cbb624a172d89a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#ae11937d54c82ba4ae4cbb624a172d89a">SetFixed</a> (bool mev) override</td></tr>
+<tr class="memdesc:ae11937d54c82ba4ae4cbb624a172d89a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the 'fixed' state of the node.  <a href="#ae11937d54c82ba4ae4cbb624a172d89a">More...</a><br /></td></tr>
+<tr class="separator:ae11937d54c82ba4ae4cbb624a172d89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12045ae98fe653f10d9e0e8b185b3aa7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#a12045ae98fe653f10d9e0e8b185b3aa7">GetFixed</a> () override</td></tr>
+<tr class="memdesc:a12045ae98fe653f10d9e0e8b185b3aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the 'fixed' state of the node.  <a href="#a12045ae98fe653f10d9e0e8b185b3aa7">More...</a><br /></td></tr>
+<tr class="separator:a12045ae98fe653f10d9e0e8b185b3aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ebc91cf987df885562a2d3aa3fb2583"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ebc91cf987df885562a2d3aa3fb2583"></a>
+const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#a1ebc91cf987df885562a2d3aa3fb2583">GetPos</a> () const </td></tr>
+<tr class="memdesc:a1ebc91cf987df885562a2d3aa3fb2583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position of the node - in absolute csys. <br /></td></tr>
+<tr class="separator:a1ebc91cf987df885562a2d3aa3fb2583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a214511eb15432185d7a1cc01edafc092"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a214511eb15432185d7a1cc01edafc092"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#a214511eb15432185d7a1cc01edafc092">SetPos</a> (const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;mpos)</td></tr>
+<tr class="memdesc:a214511eb15432185d7a1cc01edafc092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position of the node - in absolute csys. <br /></td></tr>
+<tr class="separator:a214511eb15432185d7a1cc01edafc092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58273b447654c53486764ac3be6a0a9d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58273b447654c53486764ac3be6a0a9d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#a58273b447654c53486764ac3be6a0a9d">SetP</a> (double mp)</td></tr>
+<tr class="memdesc:a58273b447654c53486764ac3be6a0a9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the scalar field at node. <br /></td></tr>
+<tr class="separator:a58273b447654c53486764ac3be6a0a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaf4207ee6f34ff20d06f87fe6070803"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abaf4207ee6f34ff20d06f87fe6070803"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#abaf4207ee6f34ff20d06f87fe6070803">GetP</a> () const </td></tr>
+<tr class="memdesc:abaf4207ee6f34ff20d06f87fe6070803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the scalar field at node. <br /></td></tr>
+<tr class="separator:abaf4207ee6f34ff20d06f87fe6070803"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6d4b2e70b0544c9242b0719c97db0fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6d4b2e70b0544c9242b0719c97db0fc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#ad6d4b2e70b0544c9242b0719c97db0fc">SetP_dt</a> (double mp)</td></tr>
+<tr class="memdesc:ad6d4b2e70b0544c9242b0719c97db0fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the scalar field time derivative at node. <br /></td></tr>
+<tr class="separator:ad6d4b2e70b0544c9242b0719c97db0fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b21dce2eed1973915614aebeac01003"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b21dce2eed1973915614aebeac01003"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#a9b21dce2eed1973915614aebeac01003">GetP_dt</a> () const </td></tr>
+<tr class="memdesc:a9b21dce2eed1973915614aebeac01003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the scalar field time derivative at node. <br /></td></tr>
+<tr class="separator:a9b21dce2eed1973915614aebeac01003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe8a7581657079e3ba255d6436ccebf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0fe8a7581657079e3ba255d6436ccebf"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#a0fe8a7581657079e3ba255d6436ccebf">SetF</a> (double mf)</td></tr>
+<tr class="memdesc:a0fe8a7581657079e3ba255d6436ccebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the applied term (right hand term in Poisson formulations). <br /></td></tr>
+<tr class="separator:a0fe8a7581657079e3ba255d6436ccebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd2e8ceb6227d0b14f62cdd6710b58c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd2e8ceb6227d0b14f62cdd6710b58c0"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#acd2e8ceb6227d0b14f62cdd6710b58c0">GetF</a> () const </td></tr>
+<tr class="memdesc:acd2e8ceb6227d0b14f62cdd6710b58c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the applied term (right hand term in Poisson formulations). <br /></td></tr>
+<tr class="separator:acd2e8ceb6227d0b14f62cdd6710b58c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad03486379c62cdb59c6e8e39ff81fc2f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#ad03486379c62cdb59c6e8e39ff81fc2f">GetMass</a> ()</td></tr>
+<tr class="memdesc:ad03486379c62cdb59c6e8e39ff81fc2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mass of the node.  <a href="#ad03486379c62cdb59c6e8e39ff81fc2f">More...</a><br /></td></tr>
+<tr class="separator:ad03486379c62cdb59c6e8e39ff81fc2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f33fa0f83389bff1d59a0e5a7dab24a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#a0f33fa0f83389bff1d59a0e5a7dab24a">SetMass</a> (double mm)</td></tr>
+<tr class="memdesc:a0f33fa0f83389bff1d59a0e5a7dab24a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set mass of the node.  <a href="#a0f33fa0f83389bff1d59a0e5a7dab24a">More...</a><br /></td></tr>
+<tr class="separator:a0f33fa0f83389bff1d59a0e5a7dab24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73a5b1bb6589c577ef71eebd50bc9b90"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a73a5b1bb6589c577ef71eebd50bc9b90"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#a73a5b1bb6589c577ef71eebd50bc9b90">Get_ndof_x</a> () const override</td></tr>
+<tr class="memdesc:a73a5b1bb6589c577ef71eebd50bc9b90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of degrees of freedom. <br /></td></tr>
+<tr class="separator:a73a5b1bb6589c577ef71eebd50bc9b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27a9803d69568a956eb88caa535533f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27a9803d69568a956eb88caa535533f4"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntStateGather</b> (const unsigned int off_x, <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, const unsigned int off_v, <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v, double &amp;T) override</td></tr>
+<tr class="separator:a27a9803d69568a956eb88caa535533f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91ff43418b4bff5d90315e375883c7cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a91ff43418b4bff5d90315e375883c7cd"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntStateScatter</b> (const unsigned int off_x, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, const unsigned int off_v, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v, const double T) override</td></tr>
+<tr class="separator:a91ff43418b4bff5d90315e375883c7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71755fec602ffa2a11c823e58e0175a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab71755fec602ffa2a11c823e58e0175a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntStateGatherAcceleration</b> (const unsigned int off_a, <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;a) override</td></tr>
+<tr class="separator:ab71755fec602ffa2a11c823e58e0175a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0930a65ec9fb52ae9b57cc7f32377807"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0930a65ec9fb52ae9b57cc7f32377807"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntStateScatterAcceleration</b> (const unsigned int off_a, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;a) override</td></tr>
+<tr class="separator:a0930a65ec9fb52ae9b57cc7f32377807"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac94fc32c0e447015edba6218423cf6a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac94fc32c0e447015edba6218423cf6a9"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntLoadResidual_F</b> (const unsigned int off, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const double c) override</td></tr>
+<tr class="separator:ac94fc32c0e447015edba6218423cf6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2235288d9ab179a0505e320056986d4b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2235288d9ab179a0505e320056986d4b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntLoadResidual_Mv</b> (const unsigned int off, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;w, const double c) override</td></tr>
+<tr class="separator:a2235288d9ab179a0505e320056986d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f0e00191fa2826ff9b31d3f494a5461"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f0e00191fa2826ff9b31d3f494a5461"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntToDescriptor</b> (const unsigned int off_v, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R) override</td></tr>
+<tr class="separator:a4f0e00191fa2826ff9b31d3f494a5461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66124e95bb8cb976bc8566464cbb97ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66124e95bb8cb976bc8566464cbb97ea"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntFromDescriptor</b> (const unsigned int off_v, <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v) override</td></tr>
+<tr class="separator:a66124e95bb8cb976bc8566464cbb97ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac770c364182552f34ee03c0e5be647"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaac770c364182552f34ee03c0e5be647"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#aaac770c364182552f34ee03c0e5be647">InjectVariables</a> (<a class="el" href="classchrono_1_1_ch_system_descriptor.html">ChSystemDescriptor</a> &amp;mdescriptor) override</td></tr>
+<tr class="memdesc:aaac770c364182552f34ee03c0e5be647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell to a system descriptor that there are variables of type <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> in this object (for further passing it to a solver) <br /></td></tr>
+<tr class="separator:aaac770c364182552f34ee03c0e5be647"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e72edd84585dcd1889a02e4e2a25b64"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e72edd84585dcd1889a02e4e2a25b64"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#a6e72edd84585dcd1889a02e4e2a25b64">VariablesFbReset</a> () override</td></tr>
+<tr class="memdesc:a6e72edd84585dcd1889a02e4e2a25b64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the 'fb' part (the known term) of the encapsulated <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> to zero. <br /></td></tr>
+<tr class="separator:a6e72edd84585dcd1889a02e4e2a25b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23075b42fa181351307f69fdfa634643"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a23075b42fa181351307f69fdfa634643"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#a23075b42fa181351307f69fdfa634643">VariablesFbLoadForces</a> (double factor=1) override</td></tr>
+<tr class="memdesc:a23075b42fa181351307f69fdfa634643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the current forces (applied to node) into the encapsulated <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a>, in the 'fb' part: qf+=forces*factor. <br /></td></tr>
+<tr class="separator:a23075b42fa181351307f69fdfa634643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5b9c9c81fc51846f23a5905484f669b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#aa5b9c9c81fc51846f23a5905484f669b">VariablesQbLoadSpeed</a> () override</td></tr>
+<tr class="memdesc:aa5b9c9c81fc51846f23a5905484f669b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the 'qb' part of the <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> with the current value of speeds.  <a href="#aa5b9c9c81fc51846f23a5905484f669b">More...</a><br /></td></tr>
+<tr class="separator:aa5b9c9c81fc51846f23a5905484f669b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4407ecfd8c16ab4a11234f982b099d2a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#a4407ecfd8c16ab4a11234f982b099d2a">VariablesQbSetSpeed</a> (double step=0) override</td></tr>
+<tr class="memdesc:a4407ecfd8c16ab4a11234f982b099d2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetches the item speed (ex.  <a href="#a4407ecfd8c16ab4a11234f982b099d2a">More...</a><br /></td></tr>
+<tr class="separator:a4407ecfd8c16ab4a11234f982b099d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7fb5c7a124d4cfcc89cacf1f2cb03b1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#ac7fb5c7a124d4cfcc89cacf1f2cb03b1">VariablesFbIncrementMq</a> () override</td></tr>
+<tr class="memdesc:ac7fb5c7a124d4cfcc89cacf1f2cb03b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds M*q (masses multiplied current 'qb') to Fb, ex.  <a href="#ac7fb5c7a124d4cfcc89cacf1f2cb03b1">More...</a><br /></td></tr>
+<tr class="separator:ac7fb5c7a124d4cfcc89cacf1f2cb03b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad9d63e8218122877c2b118463d67132"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#aad9d63e8218122877c2b118463d67132">VariablesQbIncrementPosition</a> (double step) override</td></tr>
+<tr class="memdesc:aad9d63e8218122877c2b118463d67132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment node positions by the 'qb' part of the <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a>, multiplied by a 'step' factor.  <a href="#aad9d63e8218122877c2b118463d67132">More...</a><br /></td></tr>
+<tr class="separator:aad9d63e8218122877c2b118463d67132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1337e626719aff26f9d44aa9e80eb55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1337e626719aff26f9d44aa9e80eb55"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ArchiveOUT</b> (<a class="el" href="classchrono_1_1_ch_archive_out.html">ChArchiveOut</a> &amp;marchive) override</td></tr>
+<tr class="separator:ae1337e626719aff26f9d44aa9e80eb55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbab37a7bd79aadf3be162b6d6f4d2d2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acbab37a7bd79aadf3be162b6d6f4d2d2"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html#acbab37a7bd79aadf3be162b6d6f4d2d2">ArchiveIN</a> (<a class="el" href="classchrono_1_1_ch_archive_in.html">ChArchiveIn</a> &amp;marchive) override</td></tr>
+<tr class="memdesc:acbab37a7bd79aadf3be162b6d6f4d2d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow de serialization of transient data from archives. <br /></td></tr>
+<tr class="separator:acbab37a7bd79aadf3be162b6d6f4d2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_node_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_node_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_node_base.html">chrono::ChNodeBase</a></td></tr>
+<tr class="memitem:a0bef52b4bc9f9bb1c2752973d02aea22 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bef52b4bc9f9bb1c2752973d02aea22"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ChNodeBase</b> (const <a class="el" href="classchrono_1_1_ch_node_base.html">ChNodeBase</a> &amp;other)</td></tr>
+<tr class="separator:a0bef52b4bc9f9bb1c2752973d02aea22 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa75c13f2d3b949ea986637a0244dea inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafa75c13f2d3b949ea986637a0244dea"></a>
+<a class="el" href="classchrono_1_1_ch_node_base.html">ChNodeBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classchrono_1_1_ch_node_base.html">ChNodeBase</a> &amp;other)</td></tr>
+<tr class="separator:aafa75c13f2d3b949ea986637a0244dea inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee86eb1bf62fa805c7e7c2170e9c8534 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#aee86eb1bf62fa805c7e7c2170e9c8534">Get_ndof_w</a> () const </td></tr>
+<tr class="memdesc:aee86eb1bf62fa805c7e7c2170e9c8534 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of degrees of freedom, derivative This might be different from ndof if quaternions are used for rotations, as derivative might be angular velocity.  <a href="#aee86eb1bf62fa805c7e7c2170e9c8534">More...</a><br /></td></tr>
+<tr class="separator:aee86eb1bf62fa805c7e7c2170e9c8534 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d3ac9c6920e3007664d76c9958ec6fe inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d3ac9c6920e3007664d76c9958ec6fe"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#a8d3ac9c6920e3007664d76c9958ec6fe">NodeGetOffset_x</a> ()</td></tr>
+<tr class="memdesc:a8d3ac9c6920e3007664d76c9958ec6fe inherit pub_methods_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get offset in the state vector (position part) <br /></td></tr>
+<tr class="separator:a8d3ac9c6920e3007664d76c9958ec6fe inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81db7e5d9fdb4c31e840b2dee2637331 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81db7e5d9fdb4c31e840b2dee2637331"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#a81db7e5d9fdb4c31e840b2dee2637331">NodeGetOffset_w</a> ()</td></tr>
+<tr class="memdesc:a81db7e5d9fdb4c31e840b2dee2637331 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get offset in the state vector (speed part) <br /></td></tr>
+<tr class="separator:a81db7e5d9fdb4c31e840b2dee2637331 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a396ecb39169bfb09d76c71469c517b27 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a396ecb39169bfb09d76c71469c517b27"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#a396ecb39169bfb09d76c71469c517b27">NodeSetOffset_x</a> (const unsigned int moff)</td></tr>
+<tr class="memdesc:a396ecb39169bfb09d76c71469c517b27 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set offset in the state vector (position part) <br /></td></tr>
+<tr class="separator:a396ecb39169bfb09d76c71469c517b27 inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a449109b1ccbb6b3c77e5be629d43d60e inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a449109b1ccbb6b3c77e5be629d43d60e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#a449109b1ccbb6b3c77e5be629d43d60e">NodeSetOffset_w</a> (const unsigned int moff)</td></tr>
+<tr class="memdesc:a449109b1ccbb6b3c77e5be629d43d60e inherit pub_methods_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set offset in the state vector (speed part) <br /></td></tr>
+<tr class="separator:a449109b1ccbb6b3c77e5be629d43d60e inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb09ad15c54d1ce9fa267d73e50f3ed inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6fb09ad15c54d1ce9fa267d73e50f3ed"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NodeIntStateIncrement</b> (const unsigned int off_x, <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x_new, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, const unsigned int off_v, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;Dv)</td></tr>
+<tr class="separator:a6fb09ad15c54d1ce9fa267d73e50f3ed inherit pub_methods_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_attribs_classchrono_1_1fea_1_1_ch_node_f_e_abase"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classchrono_1_1fea_1_1_ch_node_f_e_abase')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html">chrono::fea::ChNodeFEAbase</a></td></tr>
+<tr class="memitem:a2f0a8472c73915cd94bc79d8b572cd8d inherit pub_attribs_classchrono_1_1fea_1_1_ch_node_f_e_abase"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f0a8472c73915cd94bc79d8b572cd8d"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html#a2f0a8472c73915cd94bc79d8b572cd8d">m_TotalMass</a></td></tr>
+<tr class="memdesc:a2f0a8472c73915cd94bc79d8b572cd8d inherit pub_attribs_classchrono_1_1fea_1_1_ch_node_f_e_abase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nodal mass obtained from element masss matrix. <br /></td></tr>
+<tr class="separator:a2f0a8472c73915cd94bc79d8b572cd8d inherit pub_attribs_classchrono_1_1fea_1_1_ch_node_f_e_abase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classchrono_1_1_ch_node_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classchrono_1_1_ch_node_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classchrono_1_1_ch_node_base.html">chrono::ChNodeBase</a></td></tr>
+<tr class="memitem:ae0adb6b7920c50a629a87919c0432311 inherit pro_attribs_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0adb6b7920c50a629a87919c0432311"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#ae0adb6b7920c50a629a87919c0432311">offset_x</a></td></tr>
+<tr class="memdesc:ae0adb6b7920c50a629a87919c0432311 inherit pro_attribs_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset in vector of state (position part) <br /></td></tr>
+<tr class="separator:ae0adb6b7920c50a629a87919c0432311 inherit pro_attribs_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61454ad50b090ac8942927687856d830 inherit pro_attribs_classchrono_1_1_ch_node_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a61454ad50b090ac8942927687856d830"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_node_base.html#a61454ad50b090ac8942927687856d830">offset_w</a></td></tr>
+<tr class="memdesc:a61454ad50b090ac8942927687856d830 inherit pro_attribs_classchrono_1_1_ch_node_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset in vector of state (speed part) <br /></td></tr>
+<tr class="separator:a61454ad50b090ac8942927687856d830 inherit pro_attribs_classchrono_1_1_ch_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a12045ae98fe653f10d9e0e8b185b3aa7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::fea::ChNodeFEAxyzP::GetFixed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the 'fixed' state of the node. </p>
+<p>If true, its current field value is not changed by solver. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html#a0b0b48f8a126c0d93af6dd83d27decdf">chrono::fea::ChNodeFEAbase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad03486379c62cdb59c6e8e39ff81fc2f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double chrono::fea::ChNodeFEAxyzP::GetMass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get mass of the node. </p>
+<p>Not meaningful except for transients. Meaning of 'mass' changes depending on the problem type. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae11937d54c82ba4ae4cbb624a172d89a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::fea::ChNodeFEAxyzP::SetFixed </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the 'fixed' state of the node. </p>
+<p>If true, its current field value is not changed by solver. </p>
+
+<p>Implements <a class="el" href="classchrono_1_1fea_1_1_ch_node_f_e_abase.html#af7d96ba8951ebb67168a5d28512e56da">chrono::fea::ChNodeFEAbase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0f33fa0f83389bff1d59a0e5a7dab24a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChNodeFEAxyzP::SetMass </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set mass of the node. </p>
+<p>Not meaningful except for transients. Meaning of 'mass' changes depending on the problem type. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac7fb5c7a124d4cfcc89cacf1f2cb03b1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChNodeFEAxyzP::VariablesFbIncrementMq </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds M*q (masses multiplied current 'qb') to Fb, ex. </p>
+<p>if qb is initialized with v_old using VariablesQbLoadSpeed, this method can be used in timestepping schemes that do: M*v_new = M*v_old + forces*dt </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_node_base.html#aca441a1c1a18da5702fcaad1e4c2b4ef">chrono::ChNodeBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aad9d63e8218122877c2b118463d67132"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChNodeFEAxyzP::VariablesQbIncrementPosition </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>step</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Increment node positions by the 'qb' part of the <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a>, multiplied by a 'step' factor. </p>
+<p>pos+=qb*step If qb is a speed, this behaves like a single step of 1-st order numerical integration (Eulero integration). </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_node_base.html#a2f905cf2333c3e8ba5ef3cf5fac05636">chrono::ChNodeBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa5b9c9c81fc51846f23a5905484f669b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChNodeFEAxyzP::VariablesQbLoadSpeed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize the 'qb' part of the <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> with the current value of speeds. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_node_base.html#a0a83f345b2195a12c1a291b524dea710">chrono::ChNodeBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4407ecfd8c16ab4a11234f982b099d2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::fea::ChNodeFEAxyzP::VariablesQbSetSpeed </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>step</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fetches the item speed (ex. </p>
+<p>linear velocity, in xyz nodes) from the 'qb' part of the <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a> and sets it as the current item speed. If 'step' is not 0, also should compute the approximate acceleration of the item using backward differences, that is accel=(new_speed-old_speed)/step. Mostly used after the solver provided the solution in <a class="el" href="classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ...">ChVariables</a>. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_node_base.html#a320a0b9bb784235b50c70c4a1fa3d2d8">chrono::ChNodeBase</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:22 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

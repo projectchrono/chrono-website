@@ -1,0 +1,358 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::vehicle::ChRoadWheel Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="namespacechrono_1_1vehicle.html">vehicle</a></li><li class="navelem"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html">ChRoadWheel</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="classchrono_1_1vehicle_1_1_ch_road_wheel-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::vehicle::ChRoadWheel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__vehicle.html">VEHICLE module</a> &raquo; <a class="el" href="group__vehicle__tracked.html">Tracked vehicles</a> &raquo; <a class="el" href="group__vehicle__tracked__suspension.html">Suspension subsystem</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Base class for a road wheel subsystem. </p>
+</div>
+<p><code>#include &lt;ChRoadWheel.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::vehicle::ChRoadWheel:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1vehicle_1_1_ch_road_wheel__inherit__graph.png" border="0" usemap="#chrono_1_1vehicle_1_1_ch_road_wheel_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1vehicle_1_1_ch_road_wheel_inherit__map" id="chrono_1_1vehicle_1_1_ch_road_wheel_inherit__map">
+<area shape="rect" id="node2" href="classchrono_1_1vehicle_1_1_ch_double_road_wheel.html" title="Base class for a double road wheel (template definition). " alt="" coords="5,80,181,121"/>
+<area shape="rect" id="node3" href="classchrono_1_1vehicle_1_1_ch_single_road_wheel.html" title="Base class for a single road wheel (template definition). " alt="" coords="205,80,376,121"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab415886a3f9486e12f79a7de59f27a41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#ab415886a3f9486e12f79a7de59f27a41">ChRoadWheel</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:ab415886a3f9486e12f79a7de59f27a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b006b7a7bbc53b2f8a328fc5f017eb3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b006b7a7bbc53b2f8a328fc5f017eb3"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#a3b006b7a7bbc53b2f8a328fc5f017eb3">GetName</a> () const </td></tr>
+<tr class="memdesc:a3b006b7a7bbc53b2f8a328fc5f017eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name identifier for this road wheel subsystem. <br /></td></tr>
+<tr class="separator:a3b006b7a7bbc53b2f8a328fc5f017eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb57a4db0ae75164ca9dead339ca63eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb57a4db0ae75164ca9dead339ca63eb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#aeb57a4db0ae75164ca9dead339ca63eb">SetName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:aeb57a4db0ae75164ca9dead339ca63eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the name identifier for this road wheel subsystem. <br /></td></tr>
+<tr class="separator:aeb57a4db0ae75164ca9dead339ca63eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12515e7aab1b59bc4c1024964197cfda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12515e7aab1b59bc4c1024964197cfda"></a>
+virtual <a class="el" href="group__vehicle.html#gaf1bd6107e3bad71f37ba01e55d08ef7e">GuidePinType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#a12515e7aab1b59bc4c1024964197cfda">GetType</a> () const =0</td></tr>
+<tr class="memdesc:a12515e7aab1b59bc4c1024964197cfda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the type of track shoe consistent with this road wheel. <br /></td></tr>
+<tr class="separator:a12515e7aab1b59bc4c1024964197cfda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac4e57785a95e897efd660376931f5bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac4e57785a95e897efd660376931f5bc"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#aac4e57785a95e897efd660376931f5bc">GetWheelBody</a> () const </td></tr>
+<tr class="memdesc:aac4e57785a95e897efd660376931f5bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the road wheel body. <br /></td></tr>
+<tr class="separator:aac4e57785a95e897efd660376931f5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79b4a8b031c222cf1d3e582203dff15f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a79b4a8b031c222cf1d3e582203dff15f"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_lock_revolute.html">ChLinkLockRevolute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#a79b4a8b031c222cf1d3e582203dff15f">GetRevolute</a> () const </td></tr>
+<tr class="memdesc:a79b4a8b031c222cf1d3e582203dff15f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to the revolute joint. <br /></td></tr>
+<tr class="separator:a79b4a8b031c222cf1d3e582203dff15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37590ee2de14a2c889e04fc2028d414c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37590ee2de14a2c889e04fc2028d414c"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#a37590ee2de14a2c889e04fc2028d414c">GetWheelMass</a> () const =0</td></tr>
+<tr class="memdesc:a37590ee2de14a2c889e04fc2028d414c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mass of the road wheel body. <br /></td></tr>
+<tr class="separator:a37590ee2de14a2c889e04fc2028d414c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea209d866fe1733d3ac03b02bac0dac2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea209d866fe1733d3ac03b02bac0dac2"></a>
+virtual const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#aea209d866fe1733d3ac03b02bac0dac2">GetWheelInertia</a> ()=0</td></tr>
+<tr class="memdesc:aea209d866fe1733d3ac03b02bac0dac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the moments of inertia of the road wheel body. <br /></td></tr>
+<tr class="separator:aea209d866fe1733d3ac03b02bac0dac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0466b0f19c70c471b0ba79c86c771220"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0466b0f19c70c471b0ba79c86c771220"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#a0466b0f19c70c471b0ba79c86c771220">GetWheelRadius</a> () const =0</td></tr>
+<tr class="memdesc:a0466b0f19c70c471b0ba79c86c771220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the radius of the road wheel. <br /></td></tr>
+<tr class="separator:a0466b0f19c70c471b0ba79c86c771220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af46cc37c05828c23fa555f3606d845f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#af46cc37c05828c23fa555f3606d845f8">SetContactMaterial</a> (float friction_coefficient, float restitution_coefficient, float young_modulus, float poisson_ratio)</td></tr>
+<tr class="memdesc:af46cc37c05828c23fa555f3606d845f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set contact material properties.  <a href="#af46cc37c05828c23fa555f3606d845f8">More...</a><br /></td></tr>
+<tr class="separator:af46cc37c05828c23fa555f3606d845f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec4701b046f4fc1b6f443401db2dabbd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec4701b046f4fc1b6f443401db2dabbd"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#aec4701b046f4fc1b6f443401db2dabbd">SetCollide</a> (bool val)</td></tr>
+<tr class="memdesc:aec4701b046f4fc1b6f443401db2dabbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on/off collision flag for the road wheel. <br /></td></tr>
+<tr class="separator:aec4701b046f4fc1b6f443401db2dabbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae17a1f4f65116dc8c5b68ba3f05e3401"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#ae17a1f4f65116dc8c5b68ba3f05e3401">Initialize</a> (std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt; chassis, std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt; carrier, const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;location)</td></tr>
+<tr class="memdesc:ae17a1f4f65116dc8c5b68ba3f05e3401"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize this road wheel subsystem.  <a href="#ae17a1f4f65116dc8c5b68ba3f05e3401">More...</a><br /></td></tr>
+<tr class="separator:ae17a1f4f65116dc8c5b68ba3f05e3401"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ce225bbad424a2963ec2396dfd0b08"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26ce225bbad424a2963ec2396dfd0b08"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#a26ce225bbad424a2963ec2396dfd0b08">LogConstraintViolations</a> ()</td></tr>
+<tr class="memdesc:a26ce225bbad424a2963ec2396dfd0b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log current constraint violations. <br /></td></tr>
+<tr class="separator:a26ce225bbad424a2963ec2396dfd0b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a73e11b17f06031d9f2bbb4ff918d81f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a73e11b17f06031d9f2bbb4ff918d81f8"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#a73e11b17f06031d9f2bbb4ff918d81f8">m_name</a></td></tr>
+<tr class="memdesc:a73e11b17f06031d9f2bbb4ff918d81f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of the subsystem <br /></td></tr>
+<tr class="separator:a73e11b17f06031d9f2bbb4ff918d81f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9013582c62e996f839ae8356305d2641"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9013582c62e996f839ae8356305d2641"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#a9013582c62e996f839ae8356305d2641">m_wheel</a></td></tr>
+<tr class="memdesc:a9013582c62e996f839ae8356305d2641"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to the road wheel body <br /></td></tr>
+<tr class="separator:a9013582c62e996f839ae8356305d2641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e255560a840fdbaac0f3991c1306455"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e255560a840fdbaac0f3991c1306455"></a>
+std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_link_lock_revolute.html">ChLinkLockRevolute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#a8e255560a840fdbaac0f3991c1306455">m_revolute</a></td></tr>
+<tr class="memdesc:a8e255560a840fdbaac0f3991c1306455"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle to wheel revolute joint <br /></td></tr>
+<tr class="separator:a8e255560a840fdbaac0f3991c1306455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16cf729ca3c791ce6909845ac898f9c5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16cf729ca3c791ce6909845ac898f9c5"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_friction</b></td></tr>
+<tr class="separator:a16cf729ca3c791ce6909845ac898f9c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ae855261f906b3e6fff2e50f5007ae0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ae855261f906b3e6fff2e50f5007ae0"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_restitution</b></td></tr>
+<tr class="separator:a9ae855261f906b3e6fff2e50f5007ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fa54111ba0a85139d2e5d08c36caaca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2fa54111ba0a85139d2e5d08c36caaca"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_young_modulus</b></td></tr>
+<tr class="separator:a2fa54111ba0a85139d2e5d08c36caaca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a485c396bb5d82b301a8bc2affcb009a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a485c396bb5d82b301a8bc2affcb009a4"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_poisson_ratio</b></td></tr>
+<tr class="separator:a485c396bb5d82b301a8bc2affcb009a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ab415886a3f9486e12f79a7de59f27a41"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono::vehicle::ChRoadWheel::ChRoadWheel </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>name of the subsystem </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ae17a1f4f65116dc8c5b68ba3f05e3401"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChRoadWheel::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body_aux_ref.html">ChBodyAuxRef</a> &gt;&#160;</td>
+          <td class="paramname"><em>chassis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classchrono_1_1_ch_body.html">ChBody</a> &gt;&#160;</td>
+          <td class="paramname"><em>carrier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector.html">ChVector</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>location</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize this road wheel subsystem. </p>
+<p>The road wheel subsystem is initialized by attaching it to the specified carrier body at the specified location (with respect to and expressed in the reference frame of the chassis). It is assumed that the road wheel subsystem reference frame is always aligned with the chassis reference frame. A derived road wheel subsystem template class must extend this default implementation and specify contact geometry for the road wheel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">chassis</td><td>handle to the chassis body </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">carrier</td><td>handle to the carrier body </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">location</td><td>location relative to the chassis frame </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1vehicle_1_1_ch_double_road_wheel.html#aece586fe16f05a98727489e875bf9cb9">chrono::vehicle::ChDoubleRoadWheel</a>, and <a class="el" href="classchrono_1_1vehicle_1_1_ch_single_road_wheel.html#a07fa51ea1124f41019b011cd206d037d">chrono::vehicle::ChSingleRoadWheel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af46cc37c05828c23fa555f3606d845f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::vehicle::ChRoadWheel::SetContactMaterial </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>friction_coefficient</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>restitution_coefficient</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>young_modulus</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>poisson_ratio</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set contact material properties. </p>
+<p>This function must be called before <a class="el" href="classchrono_1_1vehicle_1_1_ch_road_wheel.html#ae17a1f4f65116dc8c5b68ba3f05e3401" title="Initialize this road wheel subsystem. ">Initialize()</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">friction_coefficient</td><td>coefficient of friction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">restitution_coefficient</td><td>coefficient of restitution </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">young_modulus</td><td>Young's modulus of elasticity </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">poisson_ratio</td><td>Poisson ratio </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:24 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>

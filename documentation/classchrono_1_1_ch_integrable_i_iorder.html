@@ -1,0 +1,1230 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta name="generator" content="Doxygen 1.8.11"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Exo+2:400,200,700' type='text/css'>
+    <title>Project Chrono: chrono::ChIntegrableIIorder Class Reference</title>
+    <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="dynsections.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="doxy-boot.js"></script>
+    <script type="text/javascript" src="bootstrap-hover-dropdown.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://projectchrono.org">
+            <span class="logo first">PROJECT</span><span class="logo second">CHRONO</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://projectchrono.org/download">Download</a></li>
+        <li class="dropdown">
+            <a href="http://api.chrono.projectchrono.org" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://api.chrono.projectchrono.org/faq_root.html">FAQ</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html">Install Guide</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/tutorial_root.html">Examples/Tutorials</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/model_root.html">Model Library</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/validation_studies_root.html">Validation Studies</a></li>
+                <li><a href="http://api.chrono.projectchrono.org/whitepaper_root.html">White Papers</a></li>
+                <li><a href="http://projectchrono.org/docpdf">PDF Version</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="http://projectchrono.org/gallery/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" style="dropdown:hover" aria-haspopup="true" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/gallery/">Gallery</a></li>
+                <li><a href="http://sbel.wisc.edu/Animations/">SBEL</a></li>
+                <li><a href="https://vimeo.com/uwsbel">On Vimeo</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/news/">News</a></li>
+        <li><a href="http://projectchrono.org/forum">Forum</a></li>
+		<li class="dropdown">
+            <a href="http://projectchrono.org/about/" class="dropdown-toggle disabled" data-hover="dropdown" data-toggle="dropdown" data-delay="100" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://projectchrono.org/about/">What is ProjectChrono</a></li>
+                <li><a href="http://projectchrono.org/testimonials/">Users</a></li>
+            </ul>
+        </li>
+        <li><a href="http://projectchrono.org/status">Status</a></li>            
+            <li>
+              <form method="get" action="http://projectchrono.org/search" id="search_bar_triggered">
+                          <input type="submit" value="Search">
+                <input type="text" id="search_bar" name="query" value="" />
+              </form> 
+            </li>
+    </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+      </ul> -->
+  </div><!--/.navbar-collapse -->
+</div>
+</nav>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div class="content" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                    <div style="margin-bottom: 15px;">
+                        <!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacechrono.html">chrono</a></li><li class="navelem"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html">ChIntegrableIIorder</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classchrono_1_1_ch_integrable_i_iorder-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">chrono::ChIntegrableIIorder Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Special subcase: II-order differential system. </p>
+<p>Interface class for all objects that support time integration with state y that is second order: y = {x, v} , dy/dt={v, a} with positions x, speeds v=dx/dt, and accelerations a=ddx/dtdt. Such systems permit the use of special integrators that can exploit the particular system structure. </p>
+</div>
+<p><code>#include &lt;ChIntegrable.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chrono::ChIntegrableIIorder:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_integrable_i_iorder__inherit__graph.png" border="0" usemap="#chrono_1_1_ch_integrable_i_iorder_inherit__map" alt="Inheritance graph"/></div>
+<map name="chrono_1_1_ch_integrable_i_iorder_inherit__map" id="chrono_1_1_ch_integrable_i_iorder_inherit__map">
+<area shape="rect" id="node3" href="classchrono_1_1_ch_system.html" title="Physical system. " alt="" coords="127,155,258,181"/>
+<area shape="rect" id="node2" href="classchrono_1_1_ch_integrable.html" title="Interface class for all objects that support time integration. " alt="" coords="121,5,264,32"/>
+<area shape="rect" id="node4" href="classchrono_1_1_ch_suspension_test.html" title="Base class for suspension and steering tester This class provides the interface between the systems..." alt="" coords="5,229,185,256"/>
+<area shape="rect" id="node5" href="classchrono_1_1_ch_system_d_e_m.html" title="Class for a physical system in which contact is modeled using a Penalty Method. " alt="" coords="209,229,371,256"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for chrono::ChIntegrableIIorder:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchrono_1_1_ch_integrable_i_iorder__coll__graph.png" border="0" usemap="#chrono_1_1_ch_integrable_i_iorder_coll__map" alt="Collaboration graph"/></div>
+<map name="chrono_1_1_ch_integrable_i_iorder_coll__map" id="chrono_1_1_ch_integrable_i_iorder_coll__map">
+<area shape="rect" id="node2" href="classchrono_1_1_ch_integrable.html" title="Interface class for all objects that support time integration. " alt="" coords="24,5,167,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a55d323c3497c4606f050990a104990f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55d323c3497c4606f050990a104990f5"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a55d323c3497c4606f050990a104990f5">GetNcoords_x</a> ()=0</td></tr>
+<tr class="memdesc:a55d323c3497c4606f050990a104990f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of position coordinates x in y = {x, v}. <br /></td></tr>
+<tr class="separator:a55d323c3497c4606f050990a104990f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba56f091633efc43c3d51ba0a1d3300"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a6ba56f091633efc43c3d51ba0a1d3300">GetNcoords_v</a> ()</td></tr>
+<tr class="memdesc:a6ba56f091633efc43c3d51ba0a1d3300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of speed coordinates of v in y = {x, v} and dy/dt={v, a} This is a base implementation that works in many cases where dim(v) = dim(x), but might be less ex.  <a href="#a6ba56f091633efc43c3d51ba0a1d3300">More...</a><br /></td></tr>
+<tr class="separator:a6ba56f091633efc43c3d51ba0a1d3300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74e125988c767493f234659d9c7fdb6c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a74e125988c767493f234659d9c7fdb6c"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a74e125988c767493f234659d9c7fdb6c">GetNcoords_a</a> ()</td></tr>
+<tr class="memdesc:a74e125988c767493f234659d9c7fdb6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of acceleration coordinates of a in dy/dt={v, a} This is a default implementation that works in almost all cases, as dim(a) = dim(v),. <br /></td></tr>
+<tr class="separator:a74e125988c767493f234659d9c7fdb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47d95448c3152192ae834fa5107c1840"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a47d95448c3152192ae834fa5107c1840"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a47d95448c3152192ae834fa5107c1840">StateSetup</a> (<a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v, <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;a)</td></tr>
+<tr class="memdesc:a47d95448c3152192ae834fa5107c1840"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up the system state with separate II order components x, v, a for y = {x, v} and dy/dt={v, a}. <br /></td></tr>
+<tr class="separator:a47d95448c3152192ae834fa5107c1840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0e5df4da094f2fe46af4dda838b2c07"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0e5df4da094f2fe46af4dda838b2c07"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#ac0e5df4da094f2fe46af4dda838b2c07">StateGather</a> (<a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v, double &amp;T)</td></tr>
+<tr class="memdesc:ac0e5df4da094f2fe46af4dda838b2c07"><td class="mdescLeft">&#160;</td><td class="mdescRight">From system to state y={x,v} Optionally, they will copy system private state, if any, to y={x,v}. <br /></td></tr>
+<tr class="separator:ac0e5df4da094f2fe46af4dda838b2c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2804163ac41089b3b570f7fa1d25d96"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#ad2804163ac41089b3b570f7fa1d25d96">StateScatter</a> (const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v, const double T)</td></tr>
+<tr class="memdesc:ad2804163ac41089b3b570f7fa1d25d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scatter the states from the provided arrays to the system.  <a href="#ad2804163ac41089b3b570f7fa1d25d96">More...</a><br /></td></tr>
+<tr class="separator:ad2804163ac41089b3b570f7fa1d25d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b7575ce3e6b198b955bdd8c26eea23e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a7b7575ce3e6b198b955bdd8c26eea23e">StateGatherAcceleration</a> (<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;a)</td></tr>
+<tr class="memdesc:a7b7575ce3e6b198b955bdd8c26eea23e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gather from the system the acceleration in specified array.  <a href="#a7b7575ce3e6b198b955bdd8c26eea23e">More...</a><br /></td></tr>
+<tr class="separator:a7b7575ce3e6b198b955bdd8c26eea23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad863f19a163a2c9c905bf2f7c0ed4dc1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#ad863f19a163a2c9c905bf2f7c0ed4dc1">StateScatterAcceleration</a> (const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;a)</td></tr>
+<tr class="memdesc:ad863f19a163a2c9c905bf2f7c0ed4dc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scatter the acceleration from the provided array to the system.  <a href="#ad863f19a163a2c9c905bf2f7c0ed4dc1">More...</a><br /></td></tr>
+<tr class="separator:ad863f19a163a2c9c905bf2f7c0ed4dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e859e49d6b652343e6b6290e7304d88"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a7e859e49d6b652343e6b6290e7304d88">StateSolveA</a> (<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;Dvdt, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;L, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v, const double T, const double dt, bool force_state_scatter=true)</td></tr>
+<tr class="memdesc:a7e859e49d6b652343e6b6290e7304d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve for accelerations: a = f(x,v,t) Given current state y={x,v} , computes acceleration a in the state derivative dy/dt={v,a} and lagrangian multipliers L (if any).  <a href="#a7e859e49d6b652343e6b6290e7304d88">More...</a><br /></td></tr>
+<tr class="separator:a7e859e49d6b652343e6b6290e7304d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c6819f1932de099e6f961bb82863e6c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a5c6819f1932de099e6f961bb82863e6c">StateIncrementX</a> (<a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x_new, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;Dx)</td></tr>
+<tr class="memdesc:a5c6819f1932de099e6f961bb82863e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment state array: x_new = x + dx for x in Y = {x, dx/dt} This is a base implementation that works in many cases, but it can be overridden in the case that x contains quaternions for rotations NOTE: the system is not updated automatically after the state increment, so one might need to call <a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#ad2804163ac41089b3b570f7fa1d25d96" title="Scatter the states from the provided arrays to the system. ">StateScatter()</a> if needed.  <a href="#a5c6819f1932de099e6f961bb82863e6c">More...</a><br /></td></tr>
+<tr class="separator:a5c6819f1932de099e6f961bb82863e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a244a5d7247790d85d3b13b690f06f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a51a244a5d7247790d85d3b13b690f06f">StateSolveCorrection</a> (<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;Dv, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;L, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;Qc, const double c_a, const double c_v, const double c_x, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;x, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;v, const double T, bool force_state_scatter=true, bool force_setup=true)</td></tr>
+<tr class="memdesc:a51a244a5d7247790d85d3b13b690f06f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assuming an explicit ODE in the form M*a = F(x,v,t) Assuming an explicit DAE in the form M*a = F(x,v,t) + Cq'*L C(x,t) = 0 this must compute the solution of the change Du (in a or v or x) for a Newton iteration within an implicit integration scheme.  <a href="#a51a244a5d7247790d85d3b13b690f06f">More...</a><br /></td></tr>
+<tr class="separator:a51a244a5d7247790d85d3b13b690f06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af40f80d8eba1ef823d0534acebc49a1c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#af40f80d8eba1ef823d0534acebc49a1c">LoadResidual_F</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const double c)</td></tr>
+<tr class="memdesc:af40f80d8eba1ef823d0534acebc49a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assuming M*a = F(x,v,t) + Cq'*L C(x,t) = 0 increment a vector R (usually the residual in a Newton Raphson iteration for solving an implicit integration step) with the term c*F: R += c*F.  <a href="#af40f80d8eba1ef823d0534acebc49a1c">More...</a><br /></td></tr>
+<tr class="separator:af40f80d8eba1ef823d0534acebc49a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b00be8b0b109b69c90635da26ddc770"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a1b00be8b0b109b69c90635da26ddc770">LoadResidual_Mv</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;w, const double c)</td></tr>
+<tr class="memdesc:a1b00be8b0b109b69c90635da26ddc770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assuming M*a = F(x,v,t) + Cq'*L C(x,t) = 0 increment a vector R (usually the residual in a Newton Raphson iteration for solving an implicit integration step) with a term that has M multiplied a given vector w: R += c*M*w.  <a href="#a1b00be8b0b109b69c90635da26ddc770">More...</a><br /></td></tr>
+<tr class="separator:a1b00be8b0b109b69c90635da26ddc770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eba46d2633fcbcc9f73e799e6afeca5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a2eba46d2633fcbcc9f73e799e6afeca5">LoadResidual_CqL</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;L, const double c)</td></tr>
+<tr class="memdesc:a2eba46d2633fcbcc9f73e799e6afeca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assuming M*a = F(x,v,t) + Cq'*L C(x,t) = 0 increment a vectorR (usually the residual in a Newton Raphson iteration for solving an implicit integration step) with the term Cq'*L: R += c*Cq'*L.  <a href="#a2eba46d2633fcbcc9f73e799e6afeca5">More...</a><br /></td></tr>
+<tr class="separator:a2eba46d2633fcbcc9f73e799e6afeca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0fa32e9b27b4c2d37a466405ab69c3e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#ab0fa32e9b27b4c2d37a466405ab69c3e">LoadConstraint_C</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;Qc, const double c, const bool do_clamp=false, const double mclam=1e30)</td></tr>
+<tr class="memdesc:ab0fa32e9b27b4c2d37a466405ab69c3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assuming M*a = F(x,v,t) + Cq'*L C(x,t) = 0 Increment a vector Qc (usually the residual in a Newton Raphson iteration for solving an implicit integration step, constraint part) with the term C: Qc += c*C.  <a href="#ab0fa32e9b27b4c2d37a466405ab69c3e">More...</a><br /></td></tr>
+<tr class="separator:ab0fa32e9b27b4c2d37a466405ab69c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b28afb0d5dfa2c456863ff209cd16b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a16b28afb0d5dfa2c456863ff209cd16b">LoadConstraint_Ct</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;Qc, const double c)</td></tr>
+<tr class="memdesc:a16b28afb0d5dfa2c456863ff209cd16b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assuming M*a = F(x,v,t) + Cq'*L C(x,t) = 0 Increment a vector Qc (usually the residual in a Newton Raphson iteration for solving an implicit integration step, constraint part) with the term Ct = partial derivative dC/dt: Qc += c*Ct.  <a href="#a16b28afb0d5dfa2c456863ff209cd16b">More...</a><br /></td></tr>
+<tr class="separator:a16b28afb0d5dfa2c456863ff209cd16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a823e116e72b2fbb66f5fc52894229de0"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a823e116e72b2fbb66f5fc52894229de0">GetNcoords_y</a> () override</td></tr>
+<tr class="memdesc:a823e116e72b2fbb66f5fc52894229de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of coordinates in the state Y.  <a href="#a823e116e72b2fbb66f5fc52894229de0">More...</a><br /></td></tr>
+<tr class="separator:a823e116e72b2fbb66f5fc52894229de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d3a4f4b042e2a745996eb07fee564a"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a03d3a4f4b042e2a745996eb07fee564a">GetNcoords_dy</a> () override</td></tr>
+<tr class="memdesc:a03d3a4f4b042e2a745996eb07fee564a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of coordinates in the state increment.  <a href="#a03d3a4f4b042e2a745996eb07fee564a">More...</a><br /></td></tr>
+<tr class="separator:a03d3a4f4b042e2a745996eb07fee564a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f528f8ce6ba37c097f033af4683f459"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a2f528f8ce6ba37c097f033af4683f459">StateGather</a> (<a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;y, double &amp;T) override</td></tr>
+<tr class="memdesc:a2f528f8ce6ba37c097f033af4683f459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gather system state in specified array.  <a href="#a2f528f8ce6ba37c097f033af4683f459">More...</a><br /></td></tr>
+<tr class="separator:a2f528f8ce6ba37c097f033af4683f459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8efc5549c50954fbda41a78238c1b5de"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a8efc5549c50954fbda41a78238c1b5de">StateScatter</a> (const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;y, const double T) override</td></tr>
+<tr class="memdesc:a8efc5549c50954fbda41a78238c1b5de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scatter the states from the provided array to the system.  <a href="#a8efc5549c50954fbda41a78238c1b5de">More...</a><br /></td></tr>
+<tr class="separator:a8efc5549c50954fbda41a78238c1b5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b6c556c5efc9cd1db10c1033b72f74c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a5b6c556c5efc9cd1db10c1033b72f74c">StateGatherDerivative</a> (<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;Dydt) override</td></tr>
+<tr class="memdesc:a5b6c556c5efc9cd1db10c1033b72f74c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gather from the system the state derivatives in specified array.  <a href="#a5b6c556c5efc9cd1db10c1033b72f74c">More...</a><br /></td></tr>
+<tr class="separator:a5b6c556c5efc9cd1db10c1033b72f74c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82a0704b4809379b7c26a927cd93ec82"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a82a0704b4809379b7c26a927cd93ec82">StateScatterDerivative</a> (const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;Dydt) override</td></tr>
+<tr class="memdesc:a82a0704b4809379b7c26a927cd93ec82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scatter the state derivatives from the provided array to the system.  <a href="#a82a0704b4809379b7c26a927cd93ec82">More...</a><br /></td></tr>
+<tr class="separator:a82a0704b4809379b7c26a927cd93ec82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f81b77b5cab4945267e6156e7cf696c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a2f81b77b5cab4945267e6156e7cf696c">StateIncrement</a> (<a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;y_new, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;y, const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;Dy) override</td></tr>
+<tr class="memdesc:a2f81b77b5cab4945267e6156e7cf696c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment state array: y_new = y + Dy.  <a href="#a2f81b77b5cab4945267e6156e7cf696c">More...</a><br /></td></tr>
+<tr class="separator:a2f81b77b5cab4945267e6156e7cf696c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca990dca1f1cfafb3b2a10f3305bb829"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#aca990dca1f1cfafb3b2a10f3305bb829">StateSolve</a> (<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;dydt, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;L, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;y, const double T, const double dt, bool force_state_scatter=true) override</td></tr>
+<tr class="memdesc:aca990dca1f1cfafb3b2a10f3305bb829"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve for state derivatives: dy/dt = f(y,t).  <a href="#aca990dca1f1cfafb3b2a10f3305bb829">More...</a><br /></td></tr>
+<tr class="separator:aca990dca1f1cfafb3b2a10f3305bb829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1162832b86141570ea05c3143be17936"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1162832b86141570ea05c3143be17936"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a1162832b86141570ea05c3143be17936">StateSolveCorrection</a> (<a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;Dy, <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;L, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;Qc, const double a, const double b, const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;y, const double T, const double dt, bool force_state_scatter=true, bool force_setup=true) override</td></tr>
+<tr class="memdesc:a1162832b86141570ea05c3143be17936"><td class="mdescLeft">&#160;</td><td class="mdescRight">This was for Ist order implicit integrators, but here we disable it. <br /></td></tr>
+<tr class="separator:a1162832b86141570ea05c3143be17936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchrono_1_1_ch_integrable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchrono_1_1_ch_integrable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchrono_1_1_ch_integrable.html">chrono::ChIntegrable</a></td></tr>
+<tr class="memitem:ae22b905719816ca5e2ce277cf8dd17f2 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable.html#ae22b905719816ca5e2ce277cf8dd17f2">GetNconstr</a> ()</td></tr>
+<tr class="memdesc:ae22b905719816ca5e2ce277cf8dd17f2 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of lagrangian multipliers (constraints).  <a href="#ae22b905719816ca5e2ce277cf8dd17f2">More...</a><br /></td></tr>
+<tr class="separator:ae22b905719816ca5e2ce277cf8dd17f2 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b08e8025682ebf6f20c539053d1c21 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07b08e8025682ebf6f20c539053d1c21"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable.html#a07b08e8025682ebf6f20c539053d1c21">StateSetup</a> (<a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;y, <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;dy)</td></tr>
+<tr class="memdesc:a07b08e8025682ebf6f20c539053d1c21 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up the system state. <br /></td></tr>
+<tr class="separator:a07b08e8025682ebf6f20c539053d1c21 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a976c7e0ee56c8fabe3dea221900b9712 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable.html#a976c7e0ee56c8fabe3dea221900b9712">StateGatherReactions</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;L)</td></tr>
+<tr class="memdesc:a976c7e0ee56c8fabe3dea221900b9712 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gather from the system the Lagrange multipliers in specified array.  <a href="#a976c7e0ee56c8fabe3dea221900b9712">More...</a><br /></td></tr>
+<tr class="separator:a976c7e0ee56c8fabe3dea221900b9712 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4583818139a98a2b6ab410dd28e63d30 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable.html#a4583818139a98a2b6ab410dd28e63d30">StateScatterReactions</a> (const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;L)</td></tr>
+<tr class="memdesc:a4583818139a98a2b6ab410dd28e63d30 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scatter the Lagrange multipliers from the provided array to the system.  <a href="#a4583818139a98a2b6ab410dd28e63d30">More...</a><br /></td></tr>
+<tr class="separator:a4583818139a98a2b6ab410dd28e63d30 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9a5e3ecd785562073e111997f85c604 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchrono_1_1_ch_integrable.html#aa9a5e3ecd785562073e111997f85c604">LoadResidual_Hv</a> (<a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;R, const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;v, const double c)</td></tr>
+<tr class="memdesc:aa9a5e3ecd785562073e111997f85c604 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment a vector R (usually the residual in a Newton Raphson iteration for solving an implicit integration step) with a term that has H multiplied a given vector w: R += c*H*w.  <a href="#aa9a5e3ecd785562073e111997f85c604">More...</a><br /></td></tr>
+<tr class="separator:aa9a5e3ecd785562073e111997f85c604 inherit pub_methods_classchrono_1_1_ch_integrable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a03d3a4f4b042e2a745996eb07fee564a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int chrono::ChIntegrableIIorder::GetNcoords_dy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of coordinates in the state increment. </p>
+<p>(overrides base - just a fallback to enable using with plain 1st order timesteppers) </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_integrable.html#ac737e1dd3f8639ff99852cabddf8e2d4">chrono::ChIntegrable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6ba56f091633efc43c3d51ba0a1d3300"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int chrono::ChIntegrableIIorder::GetNcoords_v </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of speed coordinates of v in y = {x, v} and dy/dt={v, a} This is a base implementation that works in many cases where dim(v) = dim(x), but might be less ex. </p>
+<p>if x uses quaternions and v uses angular vel. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_system.html#a508c73b9d11e4df3633f5c3cf648c354">chrono::ChSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a823e116e72b2fbb66f5fc52894229de0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int chrono::ChIntegrableIIorder::GetNcoords_y </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of coordinates in the state Y. </p>
+<p>(overrides base - just a fallback to enable using with plain 1st order timesteppers) </p>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_integrable.html#a96d933ead77340d712d9d95150f31acd">chrono::ChIntegrable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab0fa32e9b27b4c2d37a466405ab69c3e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChIntegrableIIorder::LoadConstraint_C </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>Qc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>do_clamp</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>mclam</em> = <code>1e30</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assuming M*a = F(x,v,t) + Cq'*L C(x,t) = 0 Increment a vector Qc (usually the residual in a Newton Raphson iteration for solving an implicit integration step, constraint part) with the term C: Qc += c*C. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Qc</td><td>result: the Qc residual, Qc += c*C </td></tr>
+    <tr><td class="paramname">c</td><td>a scaling factor </td></tr>
+    <tr><td class="paramname">do_clamp</td><td>enable optional clamping of Qc </td></tr>
+    <tr><td class="paramname">mclam</td><td>clamping value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_integrable.html#a4a3b302e01fac024f8c518cb032f2a9f">chrono::ChIntegrable</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_system.html#a993829915c8bf2b772af2bd2317416cc">chrono::ChSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a16b28afb0d5dfa2c456863ff209cd16b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChIntegrableIIorder::LoadConstraint_Ct </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>Qc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assuming M*a = F(x,v,t) + Cq'*L C(x,t) = 0 Increment a vector Qc (usually the residual in a Newton Raphson iteration for solving an implicit integration step, constraint part) with the term Ct = partial derivative dC/dt: Qc += c*Ct. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Qc</td><td>result: the Qc residual, Qc += c*Ct </td></tr>
+    <tr><td class="paramname">c</td><td>a scaling factor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_integrable.html#acdb640c75974416a55b2d853b0c9032a">chrono::ChIntegrable</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_system.html#ad3050806136e796013aeeed17b14e72d">chrono::ChSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2eba46d2633fcbcc9f73e799e6afeca5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChIntegrableIIorder::LoadResidual_CqL </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>R</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>L</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assuming M*a = F(x,v,t) + Cq'*L C(x,t) = 0 increment a vectorR (usually the residual in a Newton Raphson iteration for solving an implicit integration step) with the term Cq'*L: R += c*Cq'*L. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">R</td><td>result: the R residual, R += c*Cq'*L </td></tr>
+    <tr><td class="paramname">L</td><td>the L vector </td></tr>
+    <tr><td class="paramname">c</td><td>a scaling factor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_integrable.html#a6396579ec17ae18b934bc30be0c6247c">chrono::ChIntegrable</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_system.html#a3f255bd0f4edcd707868a89689107236">chrono::ChSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af40f80d8eba1ef823d0534acebc49a1c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChIntegrableIIorder::LoadResidual_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>R</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assuming M*a = F(x,v,t) + Cq'*L C(x,t) = 0 increment a vector R (usually the residual in a Newton Raphson iteration for solving an implicit integration step) with the term c*F: R += c*F. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">R</td><td>result: the R residual, R += c*F </td></tr>
+    <tr><td class="paramname">c</td><td>a scaling factor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_integrable.html#aa73956ab96033bdfb90b96126f306a2b">chrono::ChIntegrable</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_system.html#accc351bd2f8160f70a5b499fd70eeb0a">chrono::ChSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1b00be8b0b109b69c90635da26ddc770"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChIntegrableIIorder::LoadResidual_Mv </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>R</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assuming M*a = F(x,v,t) + Cq'*L C(x,t) = 0 increment a vector R (usually the residual in a Newton Raphson iteration for solving an implicit integration step) with a term that has M multiplied a given vector w: R += c*M*w. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">R</td><td>result: the R residual, R += c*M*v </td></tr>
+    <tr><td class="paramname">w</td><td>the w vector </td></tr>
+    <tr><td class="paramname">c</td><td>a scaling factor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_system.html#afcaef35f2e4185ddea61984389f0576b">chrono::ChSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2f528f8ce6ba37c097f033af4683f459"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChIntegrableIIorder::StateGather </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>T</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gather system state in specified array. </p>
+<p>(overrides base - just a fallback to enable using with plain 1st order timesteppers) PERFORMANCE WARNING! temporary vectors allocated on heap. This is only to support compatibility with 1st order integrators. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_integrable.html#a43967e052942db92ebdbe173a1d4b4f8">chrono::ChIntegrable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7b7575ce3e6b198b955bdd8c26eea23e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChIntegrableIIorder::StateGatherAcceleration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gather from the system the acceleration in specified array. </p>
+<p>Optional: the integrable object might contain last computed state derivative, some integrators might use it. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_system.html#af1dc19440d000b68be66682e9f018d02">chrono::ChSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b6c556c5efc9cd1db10c1033b72f74c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChIntegrableIIorder::StateGatherDerivative </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>Dydt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gather from the system the state derivatives in specified array. </p>
+<p>The integrable object might contain last computed state derivative, some integrators might reuse it. (overrides base - just a fallback to enable using with plain 1st order timesteppers) PERFORMANCE WARNING! temporary vectors allocated on heap. This is only to support compatibility with 1st order integrators. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_integrable.html#a439b93d058e63c35183ada69c2aa7527">chrono::ChIntegrable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2f81b77b5cab4945267e6156e7cf696c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChIntegrableIIorder::StateIncrement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>y_new</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>Dy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Increment state array: y_new = y + Dy. </p>
+<p>This is a base implementation that works in many cases. It calls <a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a5c6819f1932de099e6f961bb82863e6c" title="Increment state array: x_new = x + dx for x in Y = {x, dx/dt} This is a base implementation that work...">StateIncrementX()</a> if used on x in y={x, dx/dt}. It calls <a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#a5c6819f1932de099e6f961bb82863e6c" title="Increment state array: x_new = x + dx for x in Y = {x, dx/dt} This is a base implementation that work...">StateIncrementX()</a> for x, and a normal sum for dx/dt if used on y in y={x, dx/dt} </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">y_new</td><td>resulting y_new = y + Dy </td></tr>
+    <tr><td class="paramname">y</td><td>initial state y </td></tr>
+    <tr><td class="paramname">Dy</td><td>state increment Dy </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_integrable.html#a6f6b051de918bec4ae1f0a6bae92f9c7">chrono::ChIntegrable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5c6819f1932de099e6f961bb82863e6c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChIntegrableIIorder::StateIncrementX </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>x_new</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>Dx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Increment state array: x_new = x + dx for x in Y = {x, dx/dt} This is a base implementation that works in many cases, but it can be overridden in the case that x contains quaternions for rotations NOTE: the system is not updated automatically after the state increment, so one might need to call <a class="el" href="classchrono_1_1_ch_integrable_i_iorder.html#ad2804163ac41089b3b570f7fa1d25d96" title="Scatter the states from the provided arrays to the system. ">StateScatter()</a> if needed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x_new</td><td>resulting x_new = x + Dx </td></tr>
+    <tr><td class="paramname">x</td><td>initial state x </td></tr>
+    <tr><td class="paramname">Dx</td><td>state increment Dx </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_system.html#a0a71e2c96ade11f1faa982714e3b229c">chrono::ChSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad2804163ac41089b3b570f7fa1d25d96"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChIntegrableIIorder::StateScatter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>T</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Scatter the states from the provided arrays to the system. </p>
+<p>This function is called by time integrators all times they modify the Y state. In some cases, the <a class="el" href="classchrono_1_1_ch_integrable.html" title="Interface class for all objects that support time integration. ">ChIntegrable</a> object might contain dependent data structures that might need an update at each change of Y. If so, this function must be overridden. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_system.html#a0bcc5cc727bc0ef37f9b8897bd9469e6">chrono::ChSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8efc5549c50954fbda41a78238c1b5de"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChIntegrableIIorder::StateScatter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>T</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Scatter the states from the provided array to the system. </p>
+<p>(overrides base - just a fallback to enable using with plain 1st order timesteppers) PERFORMANCE WARNING! temporary vectors allocated on heap. This is only to support compatibility with 1st order integrators. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_integrable.html#a3d2d06c3096826f18f9d5ddb69312dad">chrono::ChIntegrable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad863f19a163a2c9c905bf2f7c0ed4dc1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chrono::ChIntegrableIIorder::StateScatterAcceleration </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Scatter the acceleration from the provided array to the system. </p>
+<p>Optional: the integrable object might contain last computed state derivative, some integrators might use it. </p>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_system.html#aa414cae773d35d892c32640879f62884">chrono::ChSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a82a0704b4809379b7c26a927cd93ec82"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chrono::ChIntegrableIIorder::StateScatterDerivative </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>Dydt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Scatter the state derivatives from the provided array to the system. </p>
+<p>The integrable object might need to store last computed state derivative, ex. for plotting etc. NOTE! the velocity in dsdt={v,a} is not scattered to the II order integrable, only acceleration is scattered! (overrides base - just a fallback to enable using with plain 1st order timesteppers) PERFORMANCE WARNING! temporary vectors allocated on heap. This is only to support compatibility with 1st order integrators. </p>
+
+<p>Reimplemented from <a class="el" href="classchrono_1_1_ch_integrable.html#a622dbd767af84870eb77ac8bec401a43">chrono::ChIntegrable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aca990dca1f1cfafb3b2a10f3305bb829"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::ChIntegrableIIorder::StateSolve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>dydt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>L</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>T</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>dt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>force_state_scatter</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Solve for state derivatives: dy/dt = f(y,t). </p>
+<p>(overrides base - just a fallback to enable using with plain 1st order timesteppers) PERFORMANCE WARNING! temporary vectors allocated on heap. This is only to support compatibility with 1st order integrators. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dydt</td><td>result: computed dydt </td></tr>
+    <tr><td class="paramname">L</td><td>result: computed lagrangian multipliers, if any </td></tr>
+    <tr><td class="paramname">y</td><td>current state y </td></tr>
+    <tr><td class="paramname">T</td><td>current time T </td></tr>
+    <tr><td class="paramname">dt</td><td>timestep (if needed, ex. in DVI) </td></tr>
+    <tr><td class="paramname">force_state_scatter</td><td>if false, y and T are not scattered to the system </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchrono_1_1_ch_integrable.html#a243faf6e170774a2b57adf3ce69dc94b">chrono::ChIntegrable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7e859e49d6b652343e6b6290e7304d88"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chrono::ChIntegrableIIorder::StateSolveA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>Dvdt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>L</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>T</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>dt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>force_state_scatter</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Solve for accelerations: a = f(x,v,t) Given current state y={x,v} , computes acceleration a in the state derivative dy/dt={v,a} and lagrangian multipliers L (if any). </p>
+<p>NOTES</p><ul>
+<li>some solvers (ex in DVI) cannot compute a classical derivative dy/dt when v is a function of bounded variation, and f or L are distributions (e.g., when there are impulses and discontinuities), so they compute a finite Dv through a finite dt. This is the reason why this function has an optional parameter dt. In a DVI setting, one computes Dv, and returns Dv*(1/dt) here in Dvdt parameter; if the original Dv has to be known, just multiply Dvdt*dt later. The same for impulses: a DVI would compute impulses I, and return L=I*(1/dt).</li>
+</ul>
+<p>derived classes must take care of calling StateScatter(y,T) before computing Dy, only if force_state_scatter = true (otherwise it is assumed state is already in sync)</p><ul>
+<li>derived classes must take care of resizing Dv if needed.</li>
+</ul>
+<p>This function must return true if successful and false otherwise.</p>
+<p>This default implementation uses the same functions already used for implicit integration. WARNING: this implementation avoids the computation of the analytical expression for Qc, but at the cost of three StateScatter updates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Dvdt</td><td>result: computed a for a=dv/dt </td></tr>
+    <tr><td class="paramname">L</td><td>result: computed lagrangian multipliers, if any </td></tr>
+    <tr><td class="paramname">x</td><td>current state, x </td></tr>
+    <tr><td class="paramname">v</td><td>current state, v </td></tr>
+    <tr><td class="paramname">T</td><td>current time T </td></tr>
+    <tr><td class="paramname">dt</td><td>timestep (if needed) </td></tr>
+    <tr><td class="paramname">force_state_scatter</td><td>if false, x,v and T are not scattered to the system </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a51a244a5d7247790d85d3b13b690f06f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chrono::ChIntegrableIIorder::StateSolveCorrection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>Dv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>L</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>R</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_vector_dynamic.html">ChVectorDynamic</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>Qc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>c_a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>c_v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>c_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state.html">ChState</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classchrono_1_1_ch_state_delta.html">ChStateDelta</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>T</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>force_state_scatter</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>force_setup</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assuming an explicit ODE in the form M*a = F(x,v,t) Assuming an explicit DAE in the form M*a = F(x,v,t) + Cq'*L C(x,t) = 0 this must compute the solution of the change Du (in a or v or x) for a Newton iteration within an implicit integration scheme. </p>
+<p>If in ODE case: Du = [ c_a*M + c_v*dF/dv + c_x*dF/dx ]^-1 * R Du = [ G ]^-1 * R If with DAE constraints: |Du| = [ G Cq' ]^-1 * | R | |DL| [ Cq 0 ] | Qc| where R is a given residual, dF/dv and dF/dx, dF/dv are jacobians (that are also -R and -K, damping and stiffness (tangent) matrices in many mechanical problems, note the minus sign!). It is up to the derived class how to solve such linear system.</p>
+<p>This function must return true if successful and false otherwise. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Dv</td><td>result: computed Dv </td></tr>
+    <tr><td class="paramname">L</td><td>result: computed lagrangian multipliers, if any </td></tr>
+    <tr><td class="paramname">R</td><td>the R residual </td></tr>
+    <tr><td class="paramname">Qc</td><td>the Qc residual </td></tr>
+    <tr><td class="paramname">c_a</td><td>the factor in c_a*M </td></tr>
+    <tr><td class="paramname">c_v</td><td>the factor in c_v*dF/dv </td></tr>
+    <tr><td class="paramname">c_x</td><td>the factor in c_x*dF/dv </td></tr>
+    <tr><td class="paramname">x</td><td>current state, x part </td></tr>
+    <tr><td class="paramname">v</td><td>current state, v part </td></tr>
+    <tr><td class="paramname">T</td><td>current time T </td></tr>
+    <tr><td class="paramname">force_state_scatter</td><td>if false, x,v and T are not scattered to the system </td></tr>
+    <tr><td class="paramname">force_setup</td><td>if true, call the solver's Setup() function </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classchrono_1_1_ch_system.html#ad97b849f88e58b9b93d615aa2acb8755">chrono::ChSystem</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Aug 1 2016 15:43:14 for Project Chrono by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11 . <a href="mailto:info@projectchrono.org">Contact us</a> for issues related to this page. 
+</small></address>
+</body>
+</html>
