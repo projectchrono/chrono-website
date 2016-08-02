@@ -1,5 +1,0 @@
-<map id="chrono::fea::ChLinkPointFrame" name="chrono::fea::ChLinkPointFrame">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_link_base.html" title="Base class for all types of constraints that act like mechanical joints (&#39;links&#39;) in 3D space..." alt="" coords="19,155,159,181"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="9,80,168,107"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="35,5,142,32"/>
-</map>

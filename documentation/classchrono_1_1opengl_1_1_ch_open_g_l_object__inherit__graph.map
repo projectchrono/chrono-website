@@ -1,6 +1,0 @@
-<map id="chrono::opengl::ChOpenGLObject" name="chrono::opengl::ChOpenGLObject">
-<area shape="rect" id="node3" href="$classchrono_1_1opengl_1_1_ch_open_g_l_cloud.html" title="Generic renderable point cloud. " alt="" coords="531,5,745,32"/>
-<area shape="rect" id="node4" href="$classchrono_1_1opengl_1_1_ch_open_g_l_text.html" title="Generic renderable text class that uses an atlas stored in the FontData.h file. " alt="" coords="535,56,741,83"/>
-<area shape="rect" id="node5" href="$classchrono_1_1opengl_1_1_ch_open_g_l_wires.html" title="Renders a wireframe view for triangles. " alt="" coords="531,107,745,133"/>
-<area shape="rect" id="node2" href="$classchrono_1_1opengl_1_1_ch_open_g_l_base.html" title="Base class for all OpenGL related classes. " alt="" coords="5,56,216,83"/>
-</map>

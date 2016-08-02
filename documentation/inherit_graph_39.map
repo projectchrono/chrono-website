@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchrono_1_1_ch_fx.html" title="Abstract interface class for math functions of the type A=f(B) where A and B are vectors of real valu..." alt="" coords="5,31,107,57"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_fx_cfunction.html" title="Class for A=f(B) math functions, where the function is defined by wrapping a C function of the &#39;old&#39; ..." alt="" coords="159,5,317,32"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_fx_cfunction_s.html" title="Class for A=f(B) math functions, where the function is defined by wrapping a C function of the &#39;old&#39; ..." alt="" coords="155,56,321,83"/>
-</map>

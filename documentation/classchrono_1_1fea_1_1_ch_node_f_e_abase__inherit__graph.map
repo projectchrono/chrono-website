@@ -1,8 +1,0 @@
-<map id="chrono::fea::ChNodeFEAbase" name="chrono::fea::ChNodeFEAbase">
-<area shape="rect" id="node3" href="$classchrono_1_1fea_1_1_ch_node_f_e_acurv.html" title="Generic finite element node with 9 degrees of freedom representing curvature. " alt="" coords="451,5,645,32"/>
-<area shape="rect" id="node4" href="$classchrono_1_1fea_1_1_ch_node_f_e_axyz.html" title="Class for a generic 3D finite element node, with x,y,z displacement. " alt="" coords="453,56,643,83"/>
-<area shape="rect" id="node6" href="$classchrono_1_1fea_1_1_ch_node_f_e_axyz_p.html" title="Class for a generic finite element node in 3D space, with scalar field P. " alt="" coords="449,107,647,133"/>
-<area shape="rect" id="node7" href="$classchrono_1_1fea_1_1_ch_node_f_e_axyzrot.html" title="Class for a generic ED finite element node, with x,y,z displacement and a 3D rotation. " alt="" coords="445,157,651,184"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_node_base.html" title="Class for a node, that has some degrees of freedom and that contain a proxy to the solver..." alt="" coords="5,81,152,108"/>
-<area shape="rect" id="node5" href="$classchrono_1_1fea_1_1_ch_node_f_e_axyz_d.html" title="Class for a generic 3D finite element node, with x,y,z displacement and a direction. " alt="" coords="699,56,899,83"/>
-</map>

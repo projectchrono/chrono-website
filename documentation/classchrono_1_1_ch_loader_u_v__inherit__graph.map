@@ -1,6 +1,0 @@
-<map id="chrono::ChLoaderUV" name="chrono::ChLoaderUV">
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_loader_u_vatomic.html" title="Class of loaders for ChLoadableUV objects (which support surface loads) of atomic type..." alt="" coords="5,155,188,181"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_loader_u_vdistributed.html" title="Class of loaders for ChLoadableUV objects (which support surface loads), for loads of distributed typ..." alt="" coords="212,155,416,181"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_loader.html" title="Class for loads applied to a single ChLoadable object. " alt="" coords="142,5,267,32"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_loader_pressure.html" title="A very usual type of surface loader: the constant pressure load, a 3D per&#45;area force that is aligned ..." alt="" coords="225,229,403,256"/>
-</map>

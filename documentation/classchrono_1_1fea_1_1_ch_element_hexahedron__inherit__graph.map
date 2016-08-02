@@ -1,8 +1,0 @@
-<map id="chrono::fea::ChElementHexahedron" name="chrono::fea::ChElementHexahedron">
-<area shape="rect" id="node6" href="$classchrono_1_1fea_1_1_ch_element_hexa__20.html" title="Class for FEA elements of hexahedron type (isoparametric 3D bricks) with 20 nodes. " alt="" coords="5,304,217,331"/>
-<area shape="rect" id="node7" href="$classchrono_1_1fea_1_1_ch_element_hexa__8.html" title="Class for FEA elements of hexahedron type (isoparametric 3D bricks) with 8 nodes. ..." alt="" coords="242,304,447,331"/>
-<area shape="rect" id="node2" href="$classchrono_1_1fea_1_1_ch_element3_d.html" title="Class for all 3&#45;Dimensional elements. " alt="" coords="25,155,203,181"/>
-<area shape="rect" id="node3" href="$classchrono_1_1fea_1_1_ch_element_generic.html" title="Class for all elements whose stiffness matrix can be seen as a NxN block&#45;matrix to be splitted betwee..." alt="" coords="11,80,217,107"/>
-<area shape="rect" id="node4" href="$classchrono_1_1fea_1_1_ch_element_base.html" title="Base class for all finite elements, that can be used in the ChMesh physics item. " alt="" coords="19,5,209,32"/>
-<area shape="rect" id="node5" href="$classchrono_1_1fea_1_1_ch_element_corotational.html" title="Class for corotational elements (elements with rotation matrices that follow the global motion of the..." alt="" coords="227,155,457,181"/>
-</map>

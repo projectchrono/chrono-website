@@ -1,6 +1,0 @@
-<map id="chrono::fea::ChElementShell" name="chrono::fea::ChElementShell">
-<area shape="rect" id="node4" href="$classchrono_1_1fea_1_1_ch_element_shell_a_n_c_f.html" title="ANCF laminated shell element with four nodes. " alt="" coords="5,237,232,263"/>
-<area shape="rect" id="node5" href="$classchrono_1_1fea_1_1_ch_element_shell_reissner4.html" title="Shell with geometrically exact kinematics, with 4 nodes. " alt="" coords="256,229,445,271"/>
-<area shape="rect" id="node2" href="$classchrono_1_1fea_1_1_ch_element_generic.html" title="Class for all elements whose stiffness matrix can be seen as a NxN block&#45;matrix to be splitted betwee..." alt="" coords="132,80,337,107"/>
-<area shape="rect" id="node3" href="$classchrono_1_1fea_1_1_ch_element_base.html" title="Base class for all finite elements, that can be used in the ChMesh physics item. " alt="" coords="139,5,330,32"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="chrono::ChOptimizerGenetic" name="chrono::ChOptimizerGenetic">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_optimizer.html" title="Base class for multi&#45;variable optimization. " alt="" coords="113,125,255,152"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_fx.html" title="Abstract interface class for math functions of the type A=f(B) where A and B are vectors of real valu..." alt="" coords="136,5,237,32"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_matrix.html" title="ChMatrix: " alt="" coords="264,5,437,32"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_genotype.html" title="Class for individuals of the population; for the ChOptimizerGenetic optimization engine. " alt="" coords="418,125,561,152"/>
-</map>

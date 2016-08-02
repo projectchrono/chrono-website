@@ -1,5 +1,0 @@
-<map id="chrono::ChLoaderUVWatomic" name="chrono::ChLoaderUVWatomic">
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_loader_x_y_znode.html" title="FORCE AT XYZ NODE Loader for a constant force applied at a XYZ node. " alt="" coords="14,229,193,256"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_loader_u_v_w.html" title="Class of loaders for ChLoadableUVW objects (which support volume loads). " alt="" coords="25,80,182,107"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_loader.html" title="Class for loads applied to a single ChLoadable object. " alt="" coords="41,5,166,32"/>
-</map>

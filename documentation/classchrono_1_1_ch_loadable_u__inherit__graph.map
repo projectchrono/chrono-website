@@ -1,5 +1,0 @@
-<map id="chrono::ChLoadableU" name="chrono::ChLoadableU">
-<area shape="rect" id="node3" href="$classchrono_1_1fea_1_1_ch_element_beam_a_n_c_f.html" title="Simple beam element with two nodes and ANCF gradient&#45;deficient formulation. " alt="" coords="5,162,236,189"/>
-<area shape="rect" id="node4" href="$classchrono_1_1fea_1_1_ch_element_beam_euler.html" title="Simple beam element with two nodes and Euler&#45;Bernoulli formulation. " alt="" coords="261,155,455,196"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_loadable.html" title="Interface for objects that can be subject to loads (forces) Forces can be distributed on UV surfaces..." alt="" coords="170,5,309,32"/>
-</map>

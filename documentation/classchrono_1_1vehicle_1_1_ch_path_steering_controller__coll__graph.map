@@ -1,4 +1,0 @@
-<map id="chrono::vehicle::ChPathSteeringController" name="chrono::vehicle::ChPathSteeringController">
-<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_steering_controller.html" title="Base class for all steering path&#45;following PID controllers. " alt="" coords="19,109,202,151"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_vector.html" title="Definition of general purpose 3d vector variables, such as points in 3D. " alt="" coords="23,5,198,32"/>
-</map>

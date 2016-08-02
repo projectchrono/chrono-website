@@ -1,7 +1,0 @@
-<map id="chrono::ChIndexedNodes" name="chrono::ChIndexedNodes">
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_matter_s_p_h.html" title="Class for clusters of point nodes that can simulate a fluid or an elastic/plastic solid with the Smoo..." alt="" coords="5,229,156,256"/>
-<area shape="rect" id="node5" href="$classchrono_1_1fea_1_1_ch_matter_meshless.html" title="Class for clusters of nodes that can simulate a visco&#45;elasto&#45;plastic deformable solid using the appro..." alt="" coords="181,229,386,256"/>
-<area shape="rect" id="node6" href="$classchrono_1_1fea_1_1_ch_mesh.html" title="Class which defines a mesh of finite elements of class ChFelem, between nodes of class ChFnode..." alt="" coords="410,229,554,256"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="204,80,363,107"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="230,5,337,32"/>
-</map>

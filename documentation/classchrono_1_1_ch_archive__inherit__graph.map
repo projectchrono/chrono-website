@@ -1,9 +1,0 @@
-<map id="chrono::ChArchive" name="chrono::ChArchive">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_archive_in.html" title="This is a base class for serializing from archives. " alt="" coords="189,56,330,83"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_archive_out.html" title="This is a base class for serializing into archives. " alt="" coords="184,132,335,159"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_archive_in_binary.html" title="This is a class for for serializing from binary archives. " alt="" coords="391,5,569,32"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_archive_in_j_s_o_n.html" title="This is a class for for deserializing from JSON archives. " alt="" coords="391,56,569,83"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_archive_ascii_dump.html" title="ASCII &#39;LOG&#39; ARCHIVES (only output, for debugging etc.) " alt="" coords="383,107,577,133"/>
-<area shape="rect" id="node7" href="$classchrono_1_1_ch_archive_out_binary.html" title="This is a class for serializing to binary archives. " alt="" coords="386,157,574,184"/>
-<area shape="rect" id="node8" href="$classchrono_1_1_ch_archive_out_j_s_o_n.html" title="ASCII &#39;LOG&#39; ARCHIVES (only output, for debugging etc.) " alt="" coords="387,208,573,235"/>
-</map>

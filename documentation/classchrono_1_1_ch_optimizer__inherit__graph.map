@@ -1,7 +1,0 @@
-<map id="chrono::ChOptimizer" name="chrono::ChOptimizer">
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_optimizer_genetic.html" title="Class for global optimization with the genetic method (evolutive simulation). " alt="" coords="353,5,539,32"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_optimizer_gradient.html" title="Class for local optimization with the cheap method of gradient and bisection. " alt="" coords="351,56,541,83"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_optimizer_hybrid.html" title="Class for genetic optimization followed by a refinement with the method of gradient, one after the other. " alt="" coords="356,107,536,133"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_optimizer_local.html" title="Class for local optimization with the pseudo&#45;Newton method. " alt="" coords="359,157,533,184"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="5,81,112,108"/>
-</map>

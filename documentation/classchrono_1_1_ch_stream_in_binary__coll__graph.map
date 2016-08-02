@@ -1,5 +1,0 @@
-<map id="chrono::ChStreamInBinary" name="chrono::ChStreamInBinary">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_stream_in.html" title="This is a base class for all INPUT streams. " alt="" coords="5,80,144,107"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_stream.html" title="This is a base class for input/output (streaming) " alt="" coords="11,5,139,32"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_binary_archive.html" title="Base class for streams (either in or out) based on binary formats. " alt="" coords="169,80,335,107"/>
-</map>

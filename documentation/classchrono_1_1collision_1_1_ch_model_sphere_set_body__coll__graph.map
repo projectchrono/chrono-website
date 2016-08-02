@@ -1,6 +1,0 @@
-<map id="chrono::collision::ChModelSphereSetBody" name="chrono::collision::ChModelSphereSetBody">
-<area shape="rect" id="node2" href="$classchrono_1_1collision_1_1_ch_model_sphere_set.html" title="A wrapper to use the Bullet collision detection library. " alt="" coords="145,243,280,284"/>
-<area shape="rect" id="node3" href="$classchrono_1_1collision_1_1_ch_collision_model.html" title="Class containing the geometric model ready for collision detection. " alt="" coords="21,95,145,136"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_contactable.html" title="Interface for objects that generate contacts One should inherit from ChContactable_1vars, ChContactable_2vars etc. " alt="" coords="5,5,161,32"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_vector.html" title="chrono::ChVector\&lt; float \&gt;" alt="" coords="170,102,343,129"/>
-</map>

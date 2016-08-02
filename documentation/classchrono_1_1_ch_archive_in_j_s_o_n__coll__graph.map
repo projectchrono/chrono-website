@@ -1,9 +1,0 @@
-<map id="chrono::ChArchiveInJSON" name="chrono::ChArchiveInJSON">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_archive_in.html" title="This is a base class for serializing from archives. " alt="" coords="5,233,147,260"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_archive.html" title="This is a base class for archives with pointers to shared objects. " alt="" coords="11,157,141,184"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_stream_in_ascii_file.html" title="This is a specialized class for ASCII input on system&#39;s file,. " alt="" coords="171,233,360,260"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_stream_file.html" title="This is a base class for typical output on system&#39;s file, on a disk, using the typical C++ &#39;fstream&#39; ..." alt="" coords="177,157,327,184"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_stream_in_ascii.html" title="This is a base class for all ASCII INPUT streams, in the sense that number are formatted into readabl..." alt="" coords="351,157,519,184"/>
-<area shape="rect" id="node7" href="$classchrono_1_1_ch_stream_in.html" title="This is a base class for all INPUT streams. " alt="" coords="365,81,504,108"/>
-<area shape="rect" id="node8" href="$classchrono_1_1_ch_stream.html" title="This is a base class for input/output (streaming) " alt="" coords="371,5,499,32"/>
-</map>

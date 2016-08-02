@@ -1,4 +1,0 @@
-<map id="chrono::vehicle::ChBrake" name="chrono::vehicle::ChBrake">
-<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_brake_simple.html" title="Template for a simple brake subsystem. " alt="" coords="17,80,186,121"/>
-<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_brake_simple.html" title="Vehicle simple brake model constructed with data from file (JSON format). " alt="" coords="5,169,197,196"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="chrono::ChArchiveOut" name="chrono::ChArchiveOut">
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_archive_ascii_dump.html" title="ASCII &#39;LOG&#39; ARCHIVES (only output, for debugging etc.) " alt="" coords="5,155,200,181"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_archive_out_binary.html" title="This is a class for serializing to binary archives. " alt="" coords="225,155,413,181"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_archive_out_j_s_o_n.html" title="ASCII &#39;LOG&#39; ARCHIVES (only output, for debugging etc.) " alt="" coords="437,155,624,181"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_archive.html" title="This is a base class for archives with pointers to shared objects. " alt="" coords="253,5,384,32"/>
-</map>

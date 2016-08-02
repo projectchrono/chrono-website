@@ -1,4 +1,0 @@
-<map id="chrono::ChVariablesBodySharedMass" name="chrono::ChVariablesBodySharedMass">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_variables_body.html" title="Specialized class for representing a 6&#45;DOF item for a system, that is a 3D rigid body, with mass matrix and associate variables (a 6 element vector, ex.speed) This is an abstract class, specialized for example in ChVariablesBodyOwnMass and ChVariablesBodySharedMass. " alt="" coords="41,80,212,107"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_variables.html" title="Base class for representing items which introduce &#39;variables&#39;, that is variables &#39;v&#39; (and associated ..." alt="" coords="57,5,197,32"/>
-</map>

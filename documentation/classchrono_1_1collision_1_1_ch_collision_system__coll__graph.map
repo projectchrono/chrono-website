@@ -1,4 +1,0 @@
-<map id="chrono::collision::ChCollisionSystem" name="chrono::collision::ChCollisionSystem">
-<area shape="rect" id="node2" href="$classchrono_1_1collision_1_1_ch_narrow_phase_callback.html" title="Class to be used as a callback interface for the narrow phase collision system. " alt="" coords="5,5,175,47"/>
-<area shape="rect" id="node3" href="$classchrono_1_1collision_1_1_ch_broad_phase_callback.html" title="Class to be used as a callback interface for the broad&#45;phase collision system. " alt="" coords="199,5,360,47"/>
-</map>

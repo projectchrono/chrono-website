@@ -1,7 +1,0 @@
-<map id="chrono::ChArchiveAsciiDump" name="chrono::ChArchiveAsciiDump">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_archive_out.html" title="This is a base class for serializing into archives. " alt="" coords="5,157,156,184"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_archive.html" title="This is a base class for archives with pointers to shared objects. " alt="" coords="15,81,146,108"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_stream_out_ascii.html" title="This is a base class for all ASCII OUTPUT streams, in the sense that number are formatted into readab..." alt="" coords="181,157,359,184"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_stream_out.html" title="This is a base class for all OUTPUT streams. " alt="" coords="195,81,345,108"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_stream.html" title="This is a base class for input/output (streaming) " alt="" coords="206,5,334,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="chrono::fea::ChContinuumDruckerPrager" name="chrono::fea::ChContinuumDruckerPrager">
-<area shape="rect" id="node2" href="$classchrono_1_1fea_1_1_ch_continuum_elastoplastic.html" title="Class for all elastic materials that can undergo plastic flow. " alt="" coords="5,184,180,225"/>
-<area shape="rect" id="node3" href="$classchrono_1_1fea_1_1_ch_continuum_elastic.html" title="Class for the basic properties of materials in an elastic continuum. " alt="" coords="5,95,180,136"/>
-<area shape="rect" id="node4" href="$classchrono_1_1fea_1_1_ch_continuum_material.html" title="Base class for properties of materials in a continuum. " alt="" coords="5,5,180,47"/>
-</map>

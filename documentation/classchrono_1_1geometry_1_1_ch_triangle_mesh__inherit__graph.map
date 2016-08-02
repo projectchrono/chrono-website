@@ -1,5 +1,0 @@
-<map id="chrono::geometry::ChTriangleMesh" name="chrono::geometry::ChTriangleMesh">
-<area shape="rect" id="node3" href="$classchrono_1_1geometry_1_1_ch_triangle_mesh_connected.html" title="A triangle mesh with connectivity info: vertices can be shared between faces. " alt="" coords="5,155,200,196"/>
-<area shape="rect" id="node4" href="$classchrono_1_1geometry_1_1_ch_triangle_mesh_soup.html" title="A basic triangle mesh: just a list of triangles (no edge connectivity info). " alt="" coords="224,155,419,196"/>
-<area shape="rect" id="node2" href="$classchrono_1_1geometry_1_1_ch_geometry.html" title="Base class for geometric objects used for collisions and visualization. " alt="" coords="109,5,315,32"/>
-</map>

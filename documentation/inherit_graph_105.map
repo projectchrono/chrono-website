@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchrono_1_1_ch_timer.html" title="chrono::ChTimer\&lt; double \&gt;" alt="" coords="5,5,187,32"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_realtime_step_timer.html" title="Class for a timer which measure the time spent in VR or game&#45;like simulation loops, and suggests a dt integration step for the physical simulation for the next step. " alt="" coords="235,5,433,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="chrono::ChLoaderUVWdistributed" name="chrono::ChLoaderUVWdistributed">
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_loader_gravity.html" title="A very usual type of volume loader: the constant gravitational load on Y. " alt="" coords="31,229,197,256"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_loader_u_v_w.html" title="Class of loaders for ChLoadableUVW objects (which support volume loads). " alt="" coords="35,80,193,107"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_loader.html" title="Class for loads applied to a single ChLoadable object. " alt="" coords="51,5,177,32"/>
-</map>

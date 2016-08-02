@@ -1,7 +1,0 @@
-<map id="chrono::ChLoaderU" name="chrono::ChLoaderU">
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_loader_uatomic.html" title="Class of loaders for ChLoadableU objects (which support line loads) of atomic type, that is, with a concentrated load in a point Pu. " alt="" coords="11,155,185,181"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_loader_udistributed.html" title="Class of loaders for ChLoadableU objects (which support line loads), for loads of distributed type..." alt="" coords="210,155,405,181"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_loader.html" title="Class for loads applied to a single ChLoadable object. " alt="" coords="139,5,265,32"/>
-<area shape="rect" id="node4" href="$classchrono_1_1fea_1_1_ch_loader_beam_wrench.html" title="Atomic wrench. " alt="" coords="5,229,191,271"/>
-<area shape="rect" id="node6" href="$classchrono_1_1fea_1_1_ch_loader_beam_wrench_distributed.html" title="Distributed constant wrench. " alt="" coords="215,229,400,271"/>
-</map>

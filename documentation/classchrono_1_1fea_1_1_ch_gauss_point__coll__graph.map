@@ -1,8 +1,0 @@
-<map id="chrono::fea::ChGaussPoint" name="chrono::fea::ChGaussPoint">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_matrix_dynamic.html" title="ChMatrixDynamic. " alt="" coords="395,5,569,47"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_matrix.html" title="ChMatrix: " alt="" coords="5,35,179,62"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_matrix_n_m.html" title="chrono::ChMatrixNM\l\&lt; Real, 6, 1 \&gt;" alt="" coords="228,64,371,105"/>
-<area shape="rect" id="node4" href="$classchrono_1_1fea_1_1_ch_stress_tensor.html" title="Class for stress tensors, in compact Voight notation that is with 6 components in a column..." alt="" coords="871,64,1061,105"/>
-<area shape="rect" id="node5" href="$classchrono_1_1fea_1_1_ch_voight_tensor.html" title="Base class for stress and strain tensors, in compact Voight notation that is with 6 components in a c..." alt="" coords="593,64,783,105"/>
-<area shape="rect" id="node7" href="$classchrono_1_1fea_1_1_ch_strain_tensor.html" title="Class for strain tensors, in compact Voight notation that is with 6 components in a column..." alt="" coords="873,129,1059,171"/>
-</map>

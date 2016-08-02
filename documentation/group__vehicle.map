@@ -1,8 +1,0 @@
-<map id="VEHICLE module" name="VEHICLE module">
-<area shape="rect" id="node1" href="$group__vehicle__wheeled.html" title="Wheeled vehicles" alt="" coords="183,5,308,32"/>
-<area shape="rect" id="node3" href="$group__vehicle__tracked.html" title="Tracked vehicles" alt="" coords="185,56,306,83"/>
-<area shape="rect" id="node4" href="$group__vehicle__terrain.html" title="Terrain models" alt="" coords="191,107,299,133"/>
-<area shape="rect" id="node5" href="$group__vehicle__powertrain.html" title="Powertrain models" alt="" coords="180,157,311,184"/>
-<area shape="rect" id="node6" href="$group__vehicle__utils.html" title="Utility classes" alt="" coords="193,208,298,235"/>
-<area shape="rect" id="node7" href="$group__vehicle__driver.html" title="Driver models" alt="" coords="194,259,297,285"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="chrono::vehicle::ChShaftsDriveline2WD" name="chrono::vehicle::ChShaftsDriveline2WD">
-<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_shafts_driveline2_w_d.html" title="2WD driveline model template based on ChShaft objects using data from file (JSON format). " alt="" coords="5,169,243,196"/>
-<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_driveline.html" title="Base class for a driveline subsystem. " alt="" coords="31,5,217,32"/>
-</map>

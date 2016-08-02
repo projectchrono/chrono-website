@@ -1,6 +1,0 @@
-<map id="chrono::ChProximityContainerBase" name="chrono::ChProximityContainerBase">
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_proximity_container_meshless.html" title="Class for container of many proximity pairs for a meshless deformable continuum (necessary for inter&#45;..." alt="" coords="5,229,203,271"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_proximity_container_s_p_h.html" title="Class for container of many proximity pairs for SPH (Smooth Particle Hydrodinamics and similar meshle..." alt="" coords="227,237,453,263"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="142,80,301,107"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="168,5,275,32"/>
-</map>

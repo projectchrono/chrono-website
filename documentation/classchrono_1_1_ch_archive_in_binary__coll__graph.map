@@ -1,8 +1,0 @@
-<map id="chrono::ChArchiveInBinary" name="chrono::ChArchiveInBinary">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_archive_in.html" title="This is a base class for serializing from archives. " alt="" coords="5,157,147,184"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_archive.html" title="This is a base class for archives with pointers to shared objects. " alt="" coords="11,81,141,108"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_stream_in_binary.html" title="This is a base class for all BINARY INPUT streams, in a way such that the stream is platform indepent..." alt="" coords="171,157,347,184"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_stream_in.html" title="This is a base class for all INPUT streams. " alt="" coords="177,81,316,108"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_stream.html" title="This is a base class for input/output (streaming) " alt="" coords="183,5,311,32"/>
-<area shape="rect" id="node7" href="$classchrono_1_1_ch_binary_archive.html" title="Base class for streams (either in or out) based on binary formats. " alt="" coords="341,81,507,108"/>
-</map>

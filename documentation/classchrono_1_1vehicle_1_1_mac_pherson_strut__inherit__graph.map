@@ -1,4 +1,0 @@
-<map id="chrono::vehicle::MacPhersonStrut" name="chrono::vehicle::MacPhersonStrut">
-<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_mac_pherson_strut.html" title="Base class for a MacPherson strut modeled with bodies and constraints. " alt="" coords="5,80,213,121"/>
-<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_ch_suspension.html" title="Base class for a suspension subsystem. " alt="" coords="8,5,211,32"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchrono_1_1particlefactory_1_1_ch_particle_process_event.html" title="BASE class for all event processors of single particles You can directly use the ready&#45;to&#45;use process..." alt="" coords="5,136,179,177"/>
-<area shape="rect" id="node2" href="$classchrono_1_1particlefactory_1_1_ch_particle_process_event_count.html" title="Processed particle will be counted. " alt="" coords="243,5,451,47"/>
-<area shape="rect" id="node3" href="$classchrono_1_1particlefactory_1_1_ch_particle_process_event_do_nothing.html" title="Simpliest case: no event processing Just an example. " alt="" coords="229,71,464,112"/>
-<area shape="rect" id="node4" href="$classchrono_1_1particlefactory_1_1_ch_particle_process_event_mass_count.html" title="Processed particle will increment a mass counter . " alt="" coords="227,136,467,177"/>
-<area shape="rect" id="node5" href="$classchrono_1_1particlefactory_1_1_ch_particle_process_event_mass_distribution.html" title="Processed particle will increment a NxM matrix mass counter, so that a statistical distribution of fl..." alt="" coords="244,201,449,257"/>
-<area shape="rect" id="node6" href="$classchrono_1_1particlefactory_1_1_ch_particle_process_event_remove.html" title="Processed particle will be removed. " alt="" coords="235,280,458,321"/>
-</map>

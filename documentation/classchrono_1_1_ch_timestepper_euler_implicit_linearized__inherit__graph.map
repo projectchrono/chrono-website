@@ -1,5 +1,0 @@
-<map id="chrono::ChTimestepperEulerImplicitLinearized" name="chrono::ChTimestepperEulerImplicitLinearized">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_timestepper_i_iorder.html" title="Base class for 2nd order timesteppers, i.e., a time integrator for a ChIntegrableIIorder. " alt="" coords="5,80,200,107"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_timestepper.html" title="Base class for timesteppers, i.e., time integrators that can advance a system state. " alt="" coords="23,5,182,32"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_implicit_timestepper.html" title="Base class for implicit solvers (double inheritance) " alt="" coords="224,80,424,107"/>
-</map>

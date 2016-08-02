@@ -1,8 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchrono_1_1_ch_generic_constraint.html" title="Class for basic algebraic constraints (not to be confused with ChLink objects, which are complex kine..." alt="" coords="5,111,196,138"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_generic_constraint___chf.html" title="Constraint between parameters in a ChFunction. " alt="" coords="244,111,463,138"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_generic_constraint___chf___continuity.html" title="Algebraic constraint on ChFunctions, Impose continuity between two function segments. " alt="" coords="511,5,701,47"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_generic_constraint___chf___hor_distance.html" title="Algebraic constraint on ChFunctions. " alt="" coords="511,71,701,112"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_generic_constraint___chf___impose_val.html" title="Algebraic constraint on ChFunctions, of the type y(T)=A Impose a value of the function (or its deriva..." alt="" coords="511,136,701,177"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_generic_constraint___chf___vert_distance.html" title="Algebraic constraint on ChFunctions. " alt="" coords="511,201,701,243"/>
-</map>

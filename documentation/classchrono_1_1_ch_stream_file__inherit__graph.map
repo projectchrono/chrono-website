@@ -1,7 +1,0 @@
-<map id="chrono::ChStreamFile" name="chrono::ChStreamFile">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_stream_in_ascii_file.html" title="This is a specialized class for ASCII input on system&#39;s file,. " alt="" coords="211,5,401,32"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_stream_in_binary_file.html" title="This is a specialized class for BINARY input on system&#39;s file,. " alt="" coords="207,56,405,83"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_stream_out_ascii_file.html" title="This is a specialized class for ASCII output on system&#39;s file,. " alt="" coords="207,107,405,133"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_stream_out_binary_file.html" title="This is a specialized class for BINARY output on system&#39;s file,. " alt="" coords="203,157,409,184"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_file__ps.html" title="Class for postScript(TM) output. " alt="" coords="457,107,585,133"/>
-</map>

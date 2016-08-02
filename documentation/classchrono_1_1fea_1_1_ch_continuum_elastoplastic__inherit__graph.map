@@ -1,6 +1,0 @@
-<map id="chrono::fea::ChContinuumElastoplastic" name="chrono::fea::ChContinuumElastoplastic">
-<area shape="rect" id="node4" href="$classchrono_1_1fea_1_1_ch_continuum_drucker_prager.html" title="Class for the basic properties of elastoplastic materials of Drucker&#45;Prager type, that are useful for..." alt="" coords="5,273,180,315"/>
-<area shape="rect" id="node5" href="$classchrono_1_1fea_1_1_ch_continuum_plastic_von_mises.html" title="Class for the basic properties of materials in an elastoplastic continuum, with strain yeld limit bas..." alt="" coords="204,273,379,315"/>
-<area shape="rect" id="node2" href="$classchrono_1_1fea_1_1_ch_continuum_elastic.html" title="Class for the basic properties of materials in an elastic continuum. " alt="" coords="104,95,279,136"/>
-<area shape="rect" id="node3" href="$classchrono_1_1fea_1_1_ch_continuum_material.html" title="Base class for properties of materials in a continuum. " alt="" coords="104,5,279,47"/>
-</map>

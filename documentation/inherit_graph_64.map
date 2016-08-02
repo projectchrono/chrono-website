@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchrono_1_1_ch_material_surface_base.html" title="Base class for specifying material properties for contact force generation. " alt="" coords="5,31,212,57"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_material_surface.html" title="Material data for a surface: friction, compliance, etc. " alt="" coords="275,5,452,32"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_material_surface_d_e_m.html" title="Class for material surface data for DEM contact. " alt="" coords="260,56,467,83"/>
-</map>

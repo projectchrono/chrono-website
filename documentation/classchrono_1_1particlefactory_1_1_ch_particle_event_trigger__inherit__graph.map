@@ -1,5 +1,0 @@
-<map id="chrono::particlefactory::ChParticleEventTrigger" name="chrono::particlefactory::ChParticleEventTrigger">
-<area shape="rect" id="node2" href="$classchrono_1_1particlefactory_1_1_ch_particle_event_flow_in_rectangle.html" title="Trigger an event each time a particle flows into a rectangle. " alt="" coords="219,5,441,47"/>
-<area shape="rect" id="node3" href="$classchrono_1_1particlefactory_1_1_ch_particle_event_trigger_box.html" title="This can be used to trigger events when particles are inside a box volume. " alt="" coords="236,71,424,112"/>
-<area shape="rect" id="node4" href="$classchrono_1_1particlefactory_1_1_ch_particle_event_trigger_never.html" title="Simpliest case: never trigger. " alt="" coords="230,136,430,177"/>
-</map>

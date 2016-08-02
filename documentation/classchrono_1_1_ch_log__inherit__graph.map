@@ -1,6 +1,0 @@
-<map id="chrono::ChLog" name="chrono::ChLog">
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_log_console.html" title="Specialized class for logging errors in std::cout. " alt="" coords="17,304,172,331"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_stream_out_ascii.html" title="This is a base class for all ASCII OUTPUT streams, in the sense that number are formatted into readab..." alt="" coords="5,155,184,181"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_stream_out.html" title="This is a base class for all OUTPUT streams. " alt="" coords="20,80,169,107"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_stream.html" title="This is a base class for input/output (streaming) " alt="" coords="31,5,159,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="chrono::fea::ChBeamSection" name="chrono::fea::ChBeamSection">
-<area shape="rect" id="node2" href="$classchrono_1_1fea_1_1_ch_beam_section_basic.html" title="Basic geometry for a beam section in 3D, along with basic material properties (zz and yy moments of i..." alt="" coords="5,80,196,121"/>
-<area shape="rect" id="node4" href="$classchrono_1_1fea_1_1_ch_beam_section_cable.html" title="Simplified geometry for a &#39;cable&#39; beam section in 3D, that is a beam without torsional stiffness and ..." alt="" coords="220,80,411,121"/>
-<area shape="rect" id="node3" href="$classchrono_1_1fea_1_1_ch_beam_section_advanced.html" title="Geometry for a beam section in 3D, along with basic material properties. " alt="" coords="5,169,196,211"/>
-</map>

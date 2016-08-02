@@ -1,6 +1,0 @@
-<map id="chrono::ChNodeXYZ" name="chrono::ChNodeXYZ">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_node_base.html" title="Class for a node, that has some degrees of freedom and that contain a proxy to the solver..." alt="" coords="5,81,152,108"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_loadable_u_v_w.html" title="Interface for objects that can be subject to volume loads, distributed along UVW coordinates of the o..." alt="" coords="176,81,347,108"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_loadable.html" title="Interface for objects that can be subject to loads (forces) Forces can be distributed on UV surfaces..." alt="" coords="192,5,331,32"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_vector.html" title="Definition of general purpose 3d vector variables, such as points in 3D. " alt="" coords="371,81,546,108"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="chrono::ChLinkMateFix" name="chrono::ChLinkMateFix">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_link_mate_generic.html" title="Generic mate constraint, where one can select which DOFs must be constrained between two frames attac..." alt="" coords="5,379,189,405"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_link_mate.html" title="Base class for all &#39;simple&#39; constraints between two frames attached to two bodies. " alt="" coords="28,304,167,331"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_link.html" title="Base class for joints betwenn two ChBodyFrame objects. " alt="" coords="42,229,153,256"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_link_base.html" title="Base class for all types of constraints that act like mechanical joints (&#39;links&#39;) in 3D space..." alt="" coords="27,155,167,181"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="18,80,177,107"/>
-<area shape="rect" id="node7" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="44,5,151,32"/>
-</map>

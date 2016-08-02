@@ -1,5 +1,0 @@
-<map id="chrono::opengl::ChOpenGLText" name="chrono::opengl::ChOpenGLText">
-<area shape="rect" id="node2" href="$classchrono_1_1opengl_1_1_ch_open_g_l_object.html" title="Base class for all drawable objects. " alt="" coords="5,171,224,197"/>
-<area shape="rect" id="node3" href="$classchrono_1_1opengl_1_1_ch_open_g_l_base.html" title="Base class for all OpenGL related classes. " alt="" coords="33,5,244,32"/>
-<area shape="rect" id="node4" href="$classchrono_1_1opengl_1_1_ch_open_g_l_shader.html" title="Sample shader class that loads and compiles the vertex and fragment shaders. " alt="" coords="131,81,352,108"/>
-</map>

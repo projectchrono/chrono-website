@@ -1,9 +1,0 @@
-<map id="chrono::ChLinkEngine" name="chrono::ChLinkEngine">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_link_lock.html" title="ChLinkLock class. " alt="" coords="15,453,154,480"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_link_masked.html" title="Base class for all link joints which use a &#39;six degrees of freedom&#39; mask and auxiliary matrices to st..." alt="" coords="7,379,163,405"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_link_markers.html" title="Class for links which connect two &#39;markers&#39;. " alt="" coords="6,304,163,331"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_link.html" title="Base class for joints betwenn two ChBodyFrame objects. " alt="" coords="29,229,140,256"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_link_base.html" title="Base class for all types of constraints that act like mechanical joints (&#39;links&#39;) in 3D space..." alt="" coords="15,155,155,181"/>
-<area shape="rect" id="node7" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="5,80,164,107"/>
-<area shape="rect" id="node8" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="31,5,138,32"/>
-</map>

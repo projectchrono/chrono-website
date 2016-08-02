@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchrono_1_1fea_1_1_ch_contact_node_x_y_z.html" title="Proxy to FEA nodes, to grant them the features needed for collision detection. " alt="" coords="5,13,220,39"/>
-<area shape="rect" id="node2" href="$classchrono_1_1fea_1_1_ch_contact_node_x_y_zsphere.html" title="Proxy to FEA nodes for collisions, with spheres associated to nodes, for point&#45;cloud type of collisio..." alt="" coords="268,5,457,47"/>
-</map>

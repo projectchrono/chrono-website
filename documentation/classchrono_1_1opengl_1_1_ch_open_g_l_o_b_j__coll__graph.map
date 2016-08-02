@@ -1,4 +1,0 @@
-<map id="chrono::opengl::ChOpenGLOBJ" name="chrono::opengl::ChOpenGLOBJ">
-<area shape="rect" id="node2" href="$classchrono_1_1opengl_1_1_ch_open_g_l_base.html" title="Base class for all OpenGL related classes. " alt="" coords="30,5,241,32"/>
-<area shape="rect" id="node3" href="$classchrono_1_1opengl_1_1_ch_open_g_l_o_b_j_loader.html" title="Uses the tiny_obj_loader library to load an OBJ file in the proper format. " alt="" coords="125,81,370,108"/>
-</map>

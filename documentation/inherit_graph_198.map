@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchrono_1_1vehicle_1_1_ch_brake.html" title="Base class for a brake subsystem. " alt="" coords="5,13,175,39"/>
-<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_brake_simple.html" title="Template for a simple brake subsystem. " alt="" coords="223,5,392,47"/>
-<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_brake_simple.html" title="Vehicle simple brake model constructed with data from file (JSON format). " alt="" coords="440,13,632,39"/>
-</map>

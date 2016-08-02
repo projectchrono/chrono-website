@@ -1,6 +1,0 @@
-<map id="chrono::fea::ChVoightTensor&lt; Real &gt;" name="chrono::fea::ChVoightTensor&lt; Real &gt;">
-<area shape="rect" id="node4" href="$classchrono_1_1fea_1_1_ch_strain_tensor.html" title="Class for strain tensors, in compact Voight notation that is with 6 components in a column..." alt="" coords="5,259,192,300"/>
-<area shape="rect" id="node5" href="$classchrono_1_1fea_1_1_ch_stress_tensor.html" title="Class for stress tensors, in compact Voight notation that is with 6 components in a column..." alt="" coords="217,259,407,300"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_matrix_n_m.html" title="chrono::ChMatrixNM\l\&lt; Real, 6, 1 \&gt;" alt="" coords="134,80,277,121"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_matrix.html" title="ChMatrix: " alt="" coords="119,5,292,32"/>
-</map>

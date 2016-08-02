@@ -1,4 +1,0 @@
-<map id="chrono::particlefactory::ChRandomShapeCreatorCylinders" name="chrono::particlefactory::ChRandomShapeCreatorCylinders">
-<area shape="rect" id="node2" href="$classchrono_1_1particlefactory_1_1_ch_random_shape_creator.html" title="BASE class for generators of random ChBody shapes. " alt="" coords="33,109,209,151"/>
-<area shape="rect" id="node3" href="$classchrono_1_1particlefactory_1_1_ch_callback_post_creation.html" title="Inherit from this class and pass an object to the PostCreation() functions of particle creator..." alt="" coords="33,5,208,47"/>
-</map>

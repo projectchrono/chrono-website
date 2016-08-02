@@ -1,5 +1,0 @@
-<map id="chrono::ChArchiveIn" name="chrono::ChArchiveIn">
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_archive_in_binary.html" title="This is a class for for serializing from binary archives. " alt="" coords="5,155,184,181"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_archive_in_j_s_o_n.html" title="This is a class for for deserializing from JSON archives. " alt="" coords="209,155,386,181"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_archive.html" title="This is a base class for archives with pointers to shared objects. " alt="" coords="131,5,261,32"/>
-</map>

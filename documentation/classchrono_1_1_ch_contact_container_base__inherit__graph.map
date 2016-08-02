@@ -1,7 +1,0 @@
-<map id="chrono::ChContactContainerBase" name="chrono::ChContactContainerBase">
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_contact_container_d_e_m.html" title="Class representing a container of many penalty contacts. " alt="" coords="633,5,852,32"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_contact_container_d_v_i.html" title="Class representing a container of many complementarity contacts. " alt="" coords="637,56,848,83"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_contact_container_parallel.html" title="Class representing a container of many contacts, implemented as a linked list of contact tuples..." alt="" coords="649,107,837,149"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_physics_item.html" title="Base class for items that can contain objects of ChVariables or ChConstraints, such as rigid bodies..." alt="" coords="160,56,319,83"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_obj.html" title="Base class for items which can be named, deleted, copied. etc. as in the editor of a 3d modeler..." alt="" coords="5,56,112,83"/>
-</map>

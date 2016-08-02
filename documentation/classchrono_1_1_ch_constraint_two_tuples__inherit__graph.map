@@ -1,7 +1,0 @@
-<map id="chrono::ChConstraintTwoTuples&lt; Ta, Tb &gt;" name="chrono::ChConstraintTwoTuples&lt; Ta, Tb &gt;">
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_constraint_two_tuples_contact_n.html" title="This class is inherited from the ChConstraintTwoTuples, It is used to represent the normal reaction b..." alt="" coords="459,5,669,47"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_constraint_two_tuples_friction_t.html" title="Base class for friction constraints between two objects, each represented by a tuple of ChVariables o..." alt="" coords="459,71,669,112"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_constraint_two_tuples_rolling_n.html" title="This class is inherited from ChConstraintTwoTuples, It is used to represent the normal reaction betwe..." alt="" coords="459,136,669,177"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_constraint_two_tuples_rolling_t.html" title="Base class for friction constraints between two objects, each represented by a tuple of ChVariables o..." alt="" coords="459,201,669,243"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_constraint.html" title="Base class for representing constraints to be used with variational inequality solvers, used with Linear/CCP/LCP problems including inequalities, equalities, nonlinearities, etc. " alt="" coords="5,111,152,138"/>
-</map>

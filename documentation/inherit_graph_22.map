@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchrono_1_1_ch_contact_tuple.html" title="Base class for contact between two generic ChContactable objects. " alt="" coords="5,39,169,80"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_contact_d_e_m.html" title="Class for penalty&#45;based contact between two generic contactable objects. " alt="" coords="217,5,380,47"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_contact_d_v_i.html" title="Class for DVI contact between two generic ChContactable objects. " alt="" coords="221,71,376,112"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_contact_d_v_irolling.html" title="Class for DVI contact between two generic ChContactable objects. " alt="" coords="428,71,617,112"/>
-</map>

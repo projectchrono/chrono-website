@@ -1,9 +1,0 @@
-<map id="chrono::vehicle::ChDeformableTire" name="chrono::vehicle::ChDeformableTire">
-<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_ch_a_n_c_f_tire.html" title="ANCF tire template. " alt="" coords="490,5,685,32"/>
-<area shape="rect" id="node5" href="$classchrono_1_1vehicle_1_1_ch_f_e_a_tire.html" title="Co&#45;rotational FEA tire template. " alt="" coords="496,56,679,83"/>
-<area shape="rect" id="node7" href="$classchrono_1_1vehicle_1_1_ch_reissner_tire.html" title="Tire template for tires based on Reissner shells This tire is modeled as a mesh composed of Reissner&#45;..." alt="" coords="483,107,692,133"/>
-<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_tire.html" title="Base class for a tire system. " alt="" coords="5,56,163,83"/>
-<area shape="rect" id="node4" href="$classchrono_1_1vehicle_1_1_a_n_c_f_tire.html" title="ANCF tire constructed with data from file (JSON format). " alt="" coords="747,5,925,32"/>
-<area shape="rect" id="node6" href="$classchrono_1_1vehicle_1_1_f_e_a_tire.html" title="ANCF tire constructed with data from file (JSON format). " alt="" coords="753,56,919,83"/>
-<area shape="rect" id="node8" href="$classchrono_1_1vehicle_1_1_reissner_tire.html" title="Tire with Reissner shells, constructed with data from file (JSON format). " alt="" coords="740,107,932,133"/>
-</map>

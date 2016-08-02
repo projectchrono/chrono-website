@@ -1,4 +1,0 @@
-<map id="chrono::vehicle::ChTrackDriveline" name="chrono::vehicle::ChTrackDriveline">
-<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_simple_track_driveline.html" title="Simple driveline model for a tracked vehicle. " alt="" coords="5,95,180,136"/>
-<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_ch_track_driveline_b_d_s.html" title="Track driveline model template based on ChShaft objects. " alt="" coords="205,95,373,136"/>
-</map>

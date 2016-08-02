@@ -1,7 +1,0 @@
-<map id="chrono::fea::ChLoaderBeamWrenchDistributed" name="chrono::fea::ChLoaderBeamWrenchDistributed">
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_loader_udistributed.html" title="Class of loaders for ChLoadableU objects (which support line loads), for loads of distributed type..." alt="" coords="5,337,200,364"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_loader_u.html" title="Class of loaders for ChLoadableU objects (which support line loads). " alt="" coords="35,261,170,288"/>
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_loader.html" title="Class for loads applied to a single ChLoadable object. " alt="" coords="40,185,165,212"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_vector_dynamic.html" title="ChVectorDynamic. " alt="" coords="15,81,191,123"/>
-<area shape="rect" id="node6" href="$classchrono_1_1_ch_matrix.html" title="ChMatrix: " alt="" coords="16,5,189,32"/>
-</map>

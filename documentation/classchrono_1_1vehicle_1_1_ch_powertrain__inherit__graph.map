@@ -1,4 +1,0 @@
-<map id="chrono::vehicle::ChPowertrain" name="chrono::vehicle::ChPowertrain">
-<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_shafts_powertrain.html" title="Template for a powertrain model using shaft elements. " alt="" coords="5,80,179,121"/>
-<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_ch_simple_powertrain.html" title="Template for simplified powertrain model. " alt="" coords="203,80,378,121"/>
-</map>

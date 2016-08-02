@@ -1,5 +1,0 @@
-<map id="chrono::vehicle::ChTerrain" name="chrono::vehicle::ChTerrain">
-<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_deformable_terrain.html" title="Deformable terrain model. " alt="" coords="229,5,415,47"/>
-<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_flat_terrain.html" title="Concrete class for a flat horizontal terrain. " alt="" coords="232,71,412,98"/>
-<area shape="rect" id="node4" href="$classchrono_1_1vehicle_1_1_rigid_terrain.html" title="Rigid terrain model. " alt="" coords="228,122,416,149"/>
-</map>

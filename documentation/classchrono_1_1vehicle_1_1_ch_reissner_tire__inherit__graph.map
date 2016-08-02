@@ -1,5 +1,0 @@
-<map id="chrono::vehicle::ChReissnerTire" name="chrono::vehicle::ChReissnerTire">
-<area shape="rect" id="node4" href="$classchrono_1_1vehicle_1_1_reissner_tire.html" title="Tire with Reissner shells, constructed with data from file (JSON format). " alt="" coords="21,229,213,256"/>
-<area shape="rect" id="node2" href="$classchrono_1_1vehicle_1_1_ch_deformable_tire.html" title="Base class for a deformable tire model. " alt="" coords="5,80,229,107"/>
-<area shape="rect" id="node3" href="$classchrono_1_1vehicle_1_1_ch_tire.html" title="Base class for a tire system. " alt="" coords="39,5,196,32"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="chrono::ChStreamInAscii" name="chrono::ChStreamInAscii">
-<area shape="rect" id="node4" href="$classchrono_1_1_ch_stream_in_ascii_file.html" title="This is a specialized class for ASCII input on system&#39;s file,. " alt="" coords="5,229,195,256"/>
-<area shape="rect" id="node5" href="$classchrono_1_1_ch_stream_in_ascii_vector.html" title="This is a specialized class for ASCII input from wrapped std::vector&lt;char&gt;,. " alt="" coords="219,229,426,256"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_stream_in.html" title="This is a base class for all INPUT streams. " alt="" coords="141,80,280,107"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_stream.html" title="This is a base class for input/output (streaming) " alt="" coords="147,5,275,32"/>
-</map>

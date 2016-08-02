@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchrono_1_1_ch_class_register_common.html" title="ChClassRegisterCommon is a base abstract class which allows a common management of all template class..." alt="" coords="5,5,228,32"/>
-<area shape="rect" id="node2" href="$classchrono_1_1_ch_class_register_a_b_s_t_r_a_c_t.html" title="ChClassRegisterABSTRACT&lt;t&gt; is like the more specialized ChClassRegister&lt;t&gt;, which you will use more o..." alt="" coords="276,5,545,32"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_class_register.html" title="ChClassRegister&lt;t&gt; is responsable for registration of C++ classes at compile time (each class name ID..." alt="" coords="593,5,791,32"/>
-</map>
