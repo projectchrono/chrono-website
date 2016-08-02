@@ -24,7 +24,7 @@ main:
          url: 'http://api.chrono.projectchrono.org/whitepaper_root.html'
        -
          title: PDF Version
-         url: '/docpdf/'
+         url: 'http://api.chrono.projectchrono.org/refman.pdf'
     - title: Movies
       url: '/gallery/'
       sub:
