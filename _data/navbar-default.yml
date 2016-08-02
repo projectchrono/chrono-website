@@ -45,10 +45,10 @@ main:
       url: '/about/'
       sub:
        -
-         title: Quick facts
+         title: Quick Facts
          url: '/about/'
        -
-         title: Current/Past users
+         title: Current/Past Users
          url: '/testimonials/'
     # - title: Old Website
     #   url: 'http://old.projectchrono.org'
