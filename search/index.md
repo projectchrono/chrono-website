@@ -28,7 +28,8 @@ Search results are case-sensitive.
         var param = location.search;
         qstart = param.search("query=");
         qend = qstart + "query=".length;
-        var res = param.slice(qend);
+        var res = param.slice(qend).replace("+"," ").replace("%20"," ");
+
         $("#search_box").val(res);
         $("#site_search").trigger("submit");
     };
