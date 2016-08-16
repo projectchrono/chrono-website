@@ -5,6 +5,9 @@ main:
       url: 'http://api.chrono.projectchrono.org'
       sub:
        -
+         title: API
+         url: 'http://api.chrono.projectchrono.org'
+       -
          title: FAQ
          url: 'http://api.chrono.projectchrono.org/faq_root.html'
        -
