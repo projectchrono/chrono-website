@@ -27,23 +27,7 @@ To zoom in on a chart, click and drag your mouse across the area of interest. Ri
     <option value="default"> Tests Loading! </option>
 </select>
 
-<div id="metrics">
-Legend
-    <table>
-        <tr>
-            <td style="background-color:#0101DF">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td> Linux_builder </td>
-        </tr>
-        <tr>
-            <td style="background-color:#01DF01">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td> Windows_builder </td>
-        </tr>
-                <tr>
-            <td style="background-color:#B40404">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td> OSX_builder </td>
-        </tr>
-    </table>
-</div>
+<div id="metrics"></div>
 <script src="/js/plot_charts.js"></script>
 </body>
 </html>

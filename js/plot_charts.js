@@ -54,6 +54,9 @@ function showlegend(run_names) {
         tr.appendChild(buildername);
         table.appendChild(tr);
     }
+    legendtitle = document.createElement("div");
+    legendtitle.innerHTML="<br> Legend <br>";
+    document.getElementById("metrics").appendChild(legendtitle);
     document.getElementById("metrics").appendChild(table);
 
 }
