@@ -54,10 +54,9 @@ function makeChart(data, prop_name) {
                 height: "50%",
                 width: "90%"
             },
+            colors: ['#0101DF','#01DF01','#B40404']
+            
         };
-        if (prop_name == "Execution Times"){
-            options['legend'] = "top";
-        }
 
     var div = document.createElement("div");
     div.setAttribute("id", prop_name); 
