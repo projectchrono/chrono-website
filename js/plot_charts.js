@@ -2,6 +2,7 @@ var HTML_base = "http://projectchrono.org/metrics/api";
 google.charts.load("current", {"packages":["corechart"]});
 
 var charts = [];
+var color_list = ['#0101DF','#01DF01','#B40404'];
 
 // Shows dropdown menu of all tests available
 function showTestNames(test_list) {
@@ -38,10 +39,28 @@ function drawCharts(test_runs) {
     plotProps(metrics, run_names, runs);
 
 }
+function showlegend(run_names) {
+    var table = document.createElement("table");
+    for (var n = 0; n < run_names.length; n++) {
+        var tr = document.createElement("tr");
+        var colorbox = document.createElement("td");
+        colorbox.setAttribute("style", "background-color:" + color_list[n]);
+        colorbox.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;";
+        tr.appendChild(colorbox);
+
+        var buildername = document.createElement("td");
+        buildername.innerHTML = run_names[n];
+
+        tr.appendChild(buildername);
+        table.appendChild(tr);
+    }
+    document.getElementById("metrics").appendChild(table);
+
+}
 function makeChart(data, prop_name) {
     var options = { 
-            title: prop_name, 
-            legend: "none",
+        title: prop_name, 
+        legend: "none",
             // vAxis: {title: metric_name},
             // hAxis: {title: "timestamp"},
             explorer: {
@@ -54,18 +73,17 @@ function makeChart(data, prop_name) {
                 height: "50%",
                 width: "90%"
             },
-            colors: ['#0101DF','#01DF01','#B40404']
-            
+            colors: color_list
         };
 
-    var div = document.createElement("div");
-    div.setAttribute("id", prop_name); 
-    div.setAttribute("class", "metric");
-    document.getElementById("metrics").appendChild(div);
-    var chart = new google.visualization.ScatterChart(document.getElementById(prop_name));
-    chart.draw(data, options);
-    charts.push(chart);
-}
+        var div = document.createElement("div");
+        div.setAttribute("id", prop_name); 
+        div.setAttribute("class", "metric");
+        document.getElementById("metrics").appendChild(div);
+        var chart = new google.visualization.ScatterChart(document.getElementById(prop_name));
+        chart.draw(data, options);
+        charts.push(chart);
+    }
 
 // Plots charts for each property (metrics and execution time) of a given test
 function plotProps(metrics, run_names, runs) {
@@ -126,20 +144,20 @@ function plotProps(metrics, run_names, runs) {
             }
         }
             // console.log(table);
-    data = google.visualization.arrayToDataTable(table);
-    makeChart(data, metric);
+            data = google.visualization.arrayToDataTable(table);
+            makeChart(data, metric);
+        }
+
     }
 
-}
-
-function getObjectIndex(obj, arr) {
-    for (var test_idx = 0; test_idx < arr.length; test_idx++) {
-        if (arr[test_idx].valueOf() == obj.valueOf()) {
-            return test_idx;
-        }
-    } 
-    return -1;
-}
+    function getObjectIndex(obj, arr) {
+        for (var test_idx = 0; test_idx < arr.length; test_idx++) {
+            if (arr[test_idx].valueOf() == obj.valueOf()) {
+                return test_idx;
+            }
+        } 
+        return -1;
+    }
 
 
 // Sets up authentication info
@@ -155,20 +173,20 @@ $.ajaxSetup({
 });
 // Gets list of test names
 $.ajax({
-        url: HTML_base + "/tests",
-        method: "GET",
-        data: "{};",
-        dataType:"json",
-        success: function (response, status, xhr) {
-            console.log(response);
+    url: HTML_base + "/tests",
+    method: "GET",
+    data: "{};",
+    dataType:"json",
+    success: function (response, status, xhr) {
+        console.log(response);
             // Changes "Test Loading!" text
             $("#test_names option:selected").html(" --- Select A Test --- ");
             showTestNames(response);
-            },
+        },
         error: function (xhr, status, error_code) {
             console.log("Error:" + status + ": " + error_code);
         }
-})
+    })
 
 // Shows a test when selected from the dropdown menu
 function showTest(test_name) {
