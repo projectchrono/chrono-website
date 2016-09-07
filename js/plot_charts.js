@@ -103,21 +103,21 @@ function plotProps(metrics, run_names, runs) {
             table[index + 1][n + 1] = test_run["execution_time"];
         }
     }
-    console.log(table);
+    // console.log(table);
     var data = google.visualization.arrayToDataTable(table);
 
     makeChart(data, "Execution Times");
-    console.log(metrics);
+    // console.log(metrics);
     for (var i = 0; i < metrics.length; i++) {
         var metric = metrics[i];
-        console.log(i + ": " + metric);
+        // console.log(i + ": " + metric);
         table = base_table;
         // Plots a chart for each metric
         for (var n = 0; n < run_names.length; n++) {
             // Iterate through each run for that name
             for (var m = 0; m < runs[n].length; m++) {
                 var test_run = runs[n][m];
-                console.log(test_run['metrics'][metric]);
+                // console.log(test_run['metrics'][metric]);
                 var ts = new Date(test_run["timestamp"]);
                 var index = getObjectIndex(ts, timestamps);
                 table[index + 1][n + 1] = test_run["metrics"][metric];
