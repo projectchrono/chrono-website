@@ -41,7 +41,7 @@ function drawCharts(test_runs) {
 function makeChart(data, prop_name) {
     var options = { 
             title: prop_name, 
-            legend: "bottom",
+            legend: "none",
             // vAxis: {title: metric_name},
             // hAxis: {title: "timestamp"},
             explorer: {
@@ -55,6 +55,9 @@ function makeChart(data, prop_name) {
                 width: "90%"
             },
         };
+        if (prop_name == "Execution Times"){
+            options['legend'] = "top";
+        }
 
     var div = document.createElement("div");
     div.setAttribute("id", prop_name); 
