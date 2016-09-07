@@ -35,7 +35,7 @@ function drawCharts(test_runs) {
         metrics.push(metric);
     }  
     console.log(run_names, runs, metrics);
-    
+    showlegend(run_names);
     plotProps(metrics, run_names, runs);
 
 }
