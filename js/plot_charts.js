@@ -2,7 +2,7 @@ var HTML_base = "http://projectchrono.org/metrics/api";
 google.charts.load("current", {"packages":["corechart"]});
 
 var charts = [];
-var color_list = ['#0101DF','#01DF01','#B40404'];
+var color_list = ['#274EC0','#D12411','#1E8E1B'];
 
 // Shows dropdown menu of all tests available
 function showTestNames(test_list) {
