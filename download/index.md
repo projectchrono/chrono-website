@@ -6,8 +6,11 @@ permalink: /download/
 
 {::options parse_block_html="true" /}
 
+## Windows users:
+A Project Chrono installer package is available from our [repositories](http://projectchrono.org/repos/chrono/projectchrono-2_installer-20160911.exe).
+
 ## CentOS/RedHat/Fedora users:
-Project Chrono release RPMs are available from our [repositories](http://projectchrono.org/repos/projectchrono-repo-0.1.0-1.noarch.rpm).
+Project Chrono release RPMs are also available from our [repositories](http://projectchrono.org/repos/projectchrono-repo-0.1.0-1.noarch.rpm).
 
 ## Other Users:
 Project Chrono should be **cloned** from the public [GIT repository](https://github.com/projectchrono/chrono) and **compiled** from its C++ source code as described below.
