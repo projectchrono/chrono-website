@@ -5,7 +5,7 @@ main:
       url: 'http://api.chrono.projectchrono.org'
       sub:
        -
-         title: API
+         title: API main page
          url: 'http://api.chrono.projectchrono.org'
        -
          title: FAQ
@@ -14,8 +14,11 @@ main:
          title: Install Guide
          url: 'http://api.chrono.projectchrono.org/tutorial_table_of_content_install.html'
        -
-         title: Examples/Tutorials
+         title: Tutorials
          url: 'http://api.chrono.projectchrono.org/tutorial_root.html'
+       -
+         title: Reference manual
+         url: 'http://api.chrono.projectchrono.org/manual_root.html'
        -
          title: Model Library
          url: 'http://api.chrono.projectchrono.org/model_root.html'
@@ -53,6 +56,9 @@ main:
        -
          title: Current/Past Users
          url: '/testimonials/'
+       -
+         title: Consulting
+         url: '/consulting/'
     # - title: Old Website
     #   url: 'http://old.projectchrono.org'
     - title: Status
