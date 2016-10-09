@@ -4,7 +4,7 @@ title: Project Chrono - An Open-Source Physics Engine
 ---
 
 
-
+	<a id="top"></a>
 	
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
@@ -174,3 +174,108 @@ title: Project Chrono - An Open-Source Physics Engine
 		  </div> <!-- col-md-4 -->
 	  </div>  <!-- row -->
 	</div> <!-- container -->
+	
+	<style type="text/css">
+    .chfeature {
+		border-radius: 15px 50px 15px 15px;
+		border-width: 3px;
+		border-style: solid;
+		border-color: #FF8800;
+		overflow: hidden;
+		margin-bottom: 35px;
+		padding-right: 15px;
+		background-color: #FCFCFC;
+		height: 180px;
+		font-size: 80%;
+	}
+	.chfeature img {
+		width: 60px;
+		margin-right: 15px;
+		float: left;
+		object-fit: cover;
+		height: 100%;
+		min-height: 180px;
+		filter: grayscale(100%);
+		opacity: 0.5;
+	}
+    </style>
+	
+	<a id="features"></a>
+	<div class="row">
+	  <div class="col-md-1"></div>
+	  <div class="col-md-10"><hr/></div>
+	  <div class="col-md-1" style="margin-top:10px">
+		<a href='#top'><small>Top</small><span class="glyphicon glyphicon-arrow-up"></span></a>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="col-md-12 text-center">
+		<h1>Features</h1>
+	  </div>
+	</div>
+	
+	
+	<div class="row">
+		<div class="col-md-4">
+			<div class="chfeature">
+				<img src="images/feature_badges/feature_multibody.jpg" alt="">
+				<h3>Multibody dynamics</h3>
+				Run simulations of mechanisms made of rigid bodies. 
+				Apply constraint to parts using a wide set of joints. 
+				Add engines, linear actuators, springs and dampers.
+				Apply forces and torques.
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="chfeature">
+				<img src="images/feature_badges/feature_fea.jpg" alt="">
+				<h3>Finite elements</h3>
+				Use the FEA module to create finite elements and model flexible parts.
+				Beams, cables, shells, solid tetrahedrons and hexahedrons.
+				Apply local or distributed loads.
+				Perform non-linear analysis with large deformations.
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="chfeature">
+				<img src="images/feature_badges/feature_vehicle.jpg" alt="">
+				<h3>Vehicle dynamics</h3>
+				Use the Vehicle module to model wheeled or tracked vehicles.
+				Leverage on a wide set of suspension templates. Use various soil and tire models.
+				Add powertrains using 1D elements: clutches, brakes, reducers, torque converters etc.
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-4">
+			<div class="chfeature">
+				<img src="images/feature_badges/feature_largescale.jpg" alt="">
+				<h3>Large scale simulations</h3>
+				Exploit the parallel version of Chrono to simulate large scenarios:
+				granular flows, vehicle-soil interaction, etc.
+				Perform co-simulation with other software: CFD, FEA, etc.
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="chfeature">
+				<img src="images/feature_badges/feature_collision.jpg" alt="">
+				<h3>Collision detection</h3>
+				Define collision shapes using meshes or primitives. 
+				Compute frictional contacts automatically using state-of-the-art collision detection algorithms.
+				Define surface properties and surface families.
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="chfeature">
+				<img src="images/feature_badges/feature_api.jpg" alt="">
+				<h3>Open API design</h3>
+				All features can be extended or modified using C++ inheritance.
+				Embed Chrono simulation in your software. 
+				Plug-in optional modules for post-processing, real-time visualization, etc.
+				Chrono is cross-platform, open source, and free.
+			</div>
+		</div>
+	</div>
+	
+	
