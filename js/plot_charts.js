@@ -111,6 +111,7 @@ function plotProps(metrics, run_names, runs) {
     for (var n = 0; n < base_table.length; n++) {
         base_table[n].length = run_names.length + 2;
     }
+    base_table[run_names.length + 1] = "Commit_id"; 
     var table = base_table;
     // Plots execution times
     for (var n = 0; n < run_names.length; n++) {
