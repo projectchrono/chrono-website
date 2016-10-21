@@ -26,9 +26,8 @@ function drawCharts(test_runs) {
     var len = run_names.length;
 
     /* Load runs for each machine */
-    for (var i = 0; i < len; i++){
-        run = run_names[i];
-        runs.push(test_runs[run]);
+    for (run_name in run_names){
+        runs.push(test_runs[run_name]);
     }
     /* Load metric names */
     for (metric in runs[0][0]["metrics"]) {
@@ -45,7 +44,7 @@ function showlegend(run_names) {
         var tr = document.createElement("tr");
         var colorbox = document.createElement("td");
         colorbox.setAttribute("style", "background-color:" + color_list[n]);
-        colorbox.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;";
+        colorbox.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;<br>";
         tr.appendChild(colorbox);
 
         var buildername = document.createElement("td");
@@ -91,7 +90,10 @@ function makeChart(data, prop_name) {
 // Plots charts for each property (metrics and execution time) of a given test
 function plotProps(metrics, run_names, runs) {
     var timestamps = [];
+    var commit_ids = [];
     var base_table = [["x"]];
+    console.log(base_table);
+
     // Sets up table of timestamps
     for (var n = 0; n < run_names.length; n++) {
         // Iterate through each run for that name
@@ -126,7 +128,7 @@ function plotProps(metrics, run_names, runs) {
             table[index + 1][n + 1] = test_run["execution_time"];
         }
     }
-    // console.log(table);
+    console.log(table);
     var data = google.visualization.arrayToDataTable(table);
 
     makeChart(data, "Execution Times");
@@ -153,6 +155,7 @@ function plotProps(metrics, run_names, runs) {
 
     }
 
+    // Finds index of specified object in an array 
     function getObjectIndex(obj, arr) {
         for (var test_idx = 0; test_idx < arr.length; test_idx++) {
             if (arr[test_idx].valueOf() == obj.valueOf()) {
