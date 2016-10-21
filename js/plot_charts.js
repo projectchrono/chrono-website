@@ -119,13 +119,13 @@ function plotProps(metrics, run_names, runs) {
             var test_run = runs[n][m];
             var ts = new Date(test_run["timestamp"]);
             var index = getObjectIndex(ts, timestamps);
-            table[index + 1][n + 1] = test_run["commit_id"];
+            table[index + 1][run_names.length + 1] = test_run["commit_id"];
             table[index + 1][n + 2] = test_run["execution_time"];
         }
     }
     console.log(table);
     var data = google.visualization.arrayToDataTable(table);
-    data.setColumnProperty(1, 'role', 'tooltip');
+    data.setColumnProperty(run_names.length + 1, 'role', 'tooltip');
     makeChart(data, "Execution Times");
     // console.log(metrics);
     for (var i = 0; i < metrics.length; i++) {
@@ -140,7 +140,7 @@ function plotProps(metrics, run_names, runs) {
                 // console.log(test_run['metrics'][metric]);
                 var ts = new Date(test_run["timestamp"]);
                 var index = getObjectIndex(ts, timestamps);
-                table[index + 1][n + 1] = test_run["commit_id"];
+                table[index + 1][run_names.length + 1] = test_run["commit_id"];
                 table[index + 1][n + 2] = test_run["metrics"][metric];
             }
         }
