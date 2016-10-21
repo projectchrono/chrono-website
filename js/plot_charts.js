@@ -1,9 +1,9 @@
 var HTML_base = "http://projectchrono.org/metrics/api";
-google.charts.load("current", {"packages":["corechart"]});
-
+google.charts.load("current", {
+    "packages": ["corechart"]
+});
 var charts = [];
-var color_list = ['#274EC0','#D12411','#1E8E1B'];
-
+var color_list = ['#274EC0', '#D12411', '#1E8E1B'];
 // Shows dropdown menu of all tests available
 function showTestNames(test_list) {
     for (i = 0; i < test_list.length; i++) {
@@ -20,24 +20,22 @@ function showTestNames(test_list) {
 function drawCharts(test_runs) {
     var run_names = []; // Number of machines + name
     var runs = []; //  2D Array containing. Cols =  Number of machines, Rows = Run
-    var metrics =[];
-
+    var metrics = [];
     run_names = test_runs["run_names"];
     var len = run_names.length;
-
     /* Load runs for each machine */
-    for (var i = 0; i < len; i++){
+    for (var i = 0; i < len; i++) {
         runs.push(test_runs[run_names[i]]);
     }
     /* Load metric names */
     for (metric in runs[0][0]["metrics"]) {
         metrics.push(metric);
-    }  
+    }
     console.log(run_names, runs, metrics);
     showlegend(run_names);
     plotProps(metrics, run_names, runs);
-
 }
+
 function showlegend(run_names) {
     var table = document.createElement("table");
     for (var n = 0; n < run_names.length; n++) {
@@ -46,54 +44,51 @@ function showlegend(run_names) {
         colorbox.setAttribute("style", "background-color:" + color_list[n]);
         colorbox.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;<br>";
         tr.appendChild(colorbox);
-
         var buildername = document.createElement("td");
         buildername.innerHTML = run_names[n];
-
         tr.appendChild(buildername);
         table.appendChild(tr);
     }
     legendtitle = document.createElement("div");
-    legendtitle.innerHTML="<br> Legend <br>";
+    legendtitle.innerHTML = "<br> Legend <br>";
     document.getElementById("metrics").appendChild(legendtitle);
     document.getElementById("metrics").appendChild(table);
-
 }
+
 function makeChart(data, prop_name) {
-    var options = { 
-        title: prop_name, 
+    var options = {
+        title: prop_name,
         legend: "none",
-            // vAxis: {title: metric_name},
-            // hAxis: {title: "timestamp"},
-            explorer: {
-                axis: "horizontal",
-                actions: ["dragToZoom","rightClickToReset"],
-                keepInBounds: true,
-                maxZoomIn: .1
-            },
-            chartArea: {
-                height: "50%",
-                width: "90%"
-            },
-            colors: color_list
-        };
-
-        var div = document.createElement("div");
-        div.setAttribute("id", prop_name); 
-        div.setAttribute("class", "metric");
-        document.getElementById("metrics").appendChild(div);
-        var chart = new google.visualization.ScatterChart(document.getElementById(prop_name));
-        chart.draw(data, options);
-        charts.push(chart);
-    }
-
+        // vAxis: {title: metric_name},
+        // hAxis: {title: "timestamp"},
+        explorer: {
+            axis: "horizontal",
+            actions: ["dragToZoom", "rightClickToReset"],
+            keepInBounds: true,
+            maxZoomIn: .1
+        },
+        chartArea: {
+            height: "50%",
+            width: "90%"
+        },
+        colors: color_list
+    };
+    var div = document.createElement("div");
+    div.setAttribute("id", prop_name);
+    div.setAttribute("class", "metric");
+    document.getElementById("metrics").appendChild(div);
+    var chart = new google.visualization.ScatterChart(document.getElementById(prop_name));
+    chart.draw(data, options);
+    charts.push(chart);
+}
 // Plots charts for each property (metrics and execution time) of a given test
 function plotProps(metrics, run_names, runs) {
     var timestamps = [];
     var commit_ids = [];
-    var base_table = [["x"]];
+    var base_table = [
+        ["x"]
+    ];
     console.log(base_table);
-
     // Sets up table of timestamps
     for (var n = 0; n < run_names.length; n++) {
         // Iterate through each run for that name
@@ -103,16 +98,15 @@ function plotProps(metrics, run_names, runs) {
             var ts = new Date(test_run["timestamp"]);
             // Adds timestamp to list of timestamps iff not already in array
             var index = getObjectIndex(ts, timestamps);
-            if ( index == -1) {
+            if (index == -1) {
                 timestamps.push(ts);
                 base_table.push([ts]);
                 // table[timestamps.length][n + 1] = test_run["metrics"][metric_name];
             } //else {
-                // table[index + 1][n + 1].push(test_run["metrics"][metric_name]);
+            // table[index + 1][n + 1].push(test_run["metrics"][metric_name]);
             // }            
         }
     }
-
     // Ensures each row has same length
     for (var n = 0; n < base_table.length; n++) {
         base_table[n].length = run_names.length + 1;
@@ -125,12 +119,13 @@ function plotProps(metrics, run_names, runs) {
             var test_run = runs[n][m];
             var ts = new Date(test_run["timestamp"]);
             var index = getObjectIndex(ts, timestamps);
-            table[index + 1][n + 1] = test_run["execution_time"];
+            table[index + 1][n + 1] = test_run["commit_id"];
+            table[index + 1][n + 2] = test_run["execution_time"];
         }
     }
     console.log(table);
     var data = google.visualization.arrayToDataTable(table);
-
+    data.setColumnProperty(1, 'role', 'tooltip');
     makeChart(data, "Execution Times");
     // console.log(metrics);
     for (var i = 0; i < metrics.length; i++) {
@@ -145,27 +140,25 @@ function plotProps(metrics, run_names, runs) {
                 // console.log(test_run['metrics'][metric]);
                 var ts = new Date(test_run["timestamp"]);
                 var index = getObjectIndex(ts, timestamps);
-                table[index + 1][n + 1] = test_run["metrics"][metric];
+                table[index + 1][n + 1] = test_run["commit_id"];
+                table[index + 1][n + 2] = test_run["metrics"][metric];
             }
         }
-            // console.log(table);
-            data = google.visualization.arrayToDataTable(table);
-            makeChart(data, metric);
+        // console.log(table);
+        data = google.visualization.arrayToDataTable(table);
+        data.setColumnProperty(1, 'role', 'tooltip');
+        makeChart(data, metric);
+    }
+}
+// Finds index of specified object in an array 
+function getObjectIndex(obj, arr) {
+    for (var test_idx = 0; test_idx < arr.length; test_idx++) {
+        if (arr[test_idx].valueOf() == obj.valueOf()) {
+            return test_idx;
         }
-
     }
-
-    // Finds index of specified object in an array 
-    function getObjectIndex(obj, arr) {
-        for (var test_idx = 0; test_idx < arr.length; test_idx++) {
-            if (arr[test_idx].valueOf() == obj.valueOf()) {
-                return test_idx;
-            }
-        } 
-        return -1;
-    }
-
-
+    return -1;
+}
 // Sets up authentication info
 $.ajaxSetup({
     crossDomain: true,
@@ -179,22 +172,21 @@ $.ajaxSetup({
 });
 // Gets list of test names
 $.ajax({
-    url: HTML_base + "/tests",
-    method: "GET",
-    data: "{};",
-    dataType:"json",
-    success: function (response, status, xhr) {
-        console.log(response);
+        url: HTML_base + "/tests",
+        method: "GET",
+        data: "{};",
+        dataType: "json",
+        success: function(response, status, xhr) {
+            console.log(response);
             // Changes "Test Loading!" text
             $("#test_names option:selected").html(" --- Select A Test --- ");
             showTestNames(response);
         },
-        error: function (xhr, status, error_code) {
+        error: function(xhr, status, error_code) {
             console.log("Error:" + status + ": " + error_code);
         }
     })
-
-// Shows a test when selected from the dropdown menu
+    // Shows a test when selected from the dropdown menu
 function showTest(test_name) {
     $("#metrics").empty(); // Clears metrics div so new charts can be shown
     if (test_name == "default") {
@@ -215,12 +207,12 @@ function showTest(test_name) {
         url: HTML_base + "/tests/" + test_name,
         method: "GET",
         data: "{};",
-        dataType:"json",
-        success: function (response, status, xhr) {
+        dataType: "json",
+        success: function(response, status, xhr) {
             console.log(response);
             google.charts.setOnLoadCallback(drawCharts(response));
         },
-        error: function (xhr, status, error_code) {
+        error: function(xhr, status, error_code) {
             console.log("Error:" + status + ": " + error_code);
         }
     })
