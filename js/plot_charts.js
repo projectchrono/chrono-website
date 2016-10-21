@@ -56,6 +56,7 @@ function showlegend(run_names) {
 }
 
 function makeChart(data, prop_name) {
+    console.log(data);
     var options = {
         title: prop_name,
         legend: "none",
@@ -86,7 +87,7 @@ function plotProps(metrics, run_names, runs) {
     var timestamps = [];
     var commit_ids = [];
     var base_table = [
-        ["x"]
+        ["timestamp"]
     ];
     console.log(base_table);
     // Sets up table of timestamps
@@ -111,7 +112,7 @@ function plotProps(metrics, run_names, runs) {
     for (var n = 0; n < base_table.length; n++) {
         base_table[n].length = run_names.length + 2;
     }
-    base_table[0][run_names.length + 1] = "Commit_id"; 
+    base_table[0][run_names.length + 1] = "Commit_id";
     var table = base_table;
     // Plots execution times
     for (var n = 0; n < run_names.length; n++) {
@@ -147,7 +148,7 @@ function plotProps(metrics, run_names, runs) {
         }
         // console.log(table);
         data = google.visualization.arrayToDataTable(table);
-        data.setColumnProperty(1, 'role', 'tooltip');
+        data.setColumnProperty(run_names.length + 1, 'role', 'tooltip');
         makeChart(data, metric);
     }
 }
