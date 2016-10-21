@@ -26,8 +26,8 @@ function drawCharts(test_runs) {
     var len = run_names.length;
 
     /* Load runs for each machine */
-    for (run_name in run_names){
-        runs.push(test_runs[run_name]);
+    for (var i = 0; i < len; i++){
+        runs.push(test_runs[run_names[i]]);
     }
     /* Load metric names */
     for (metric in runs[0][0]["metrics"]) {
