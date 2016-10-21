@@ -109,7 +109,7 @@ function plotProps(metrics, run_names, runs) {
     }
     // Ensures each row has same length
     for (var n = 0; n < base_table.length; n++) {
-        base_table[n].length = run_names.length + 1;
+        base_table[n].length = run_names.length + 2;
     }
     var table = base_table;
     // Plots execution times
