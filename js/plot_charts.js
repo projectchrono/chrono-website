@@ -120,7 +120,7 @@ function plotProps(metrics, run_names, runs) {
             var ts = new Date(test_run["timestamp"]);
             var index = getObjectIndex(ts, timestamps);
             table[index + 1][run_names.length + 1] = test_run["commit_id"];
-            table[index + 1][n + 2] = test_run["execution_time"];
+            table[index + 1][n + 1] = test_run["execution_time"];
         }
     }
     console.log(table);
@@ -141,7 +141,7 @@ function plotProps(metrics, run_names, runs) {
                 var ts = new Date(test_run["timestamp"]);
                 var index = getObjectIndex(ts, timestamps);
                 table[index + 1][run_names.length + 1] = test_run["commit_id"];
-                table[index + 1][n + 2] = test_run["metrics"][metric];
+                table[index + 1][n + 1] = test_run["metrics"][metric];
             }
         }
         // console.log(table);
