@@ -56,7 +56,7 @@ function showlegend(run_names) {
 }
 
 function makeChart(data, prop_name) {
-    console.log(data);
+    // console.log(data);
     var options = {
         title: prop_name,
         legend: "none",
@@ -89,7 +89,7 @@ function plotProps(metrics, run_names, runs) {
     var base_table = [
         ["timestamp"]
     ];
-    console.log(base_table);
+    // console.log(base_table);
     // Sets up table of timestamps
     for (var n = 0; n < run_names.length; n++) {
         // Iterate through each run for that name
@@ -169,7 +169,7 @@ $.ajaxSetup({
     },
     headers: {
         "Access-Control-Allow-Credentials": true,
-        "Authorization": "Basic " + btoa("User:Password")
+        "Access-Control-Allow-Origin": "*"
     }
 });
 // Gets list of test names
@@ -177,12 +177,13 @@ $.ajax({
         url: HTML_base + "/tests",
         method: "GET",
         data: "{};",
-        dataType: "json",
+        dataType: "jsonp",
+        jsonpCallback: "tests",
         success: function(response, status, xhr) {
-            console.log(response);
+            console.log($.trim(response));
             // Changes "Test Loading!" text
             $("#test_names option:selected").html(" --- Select A Test --- ");
-            showTestNames(response);
+            showTestNames(JSON.parse(response));
         },
         error: function(xhr, status, error_code) {
             console.log("Error:" + status + ": " + error_code);
@@ -201,7 +202,7 @@ function showTest(test_name) {
         },
         headers: {
             "Access-Control-Allow-Credentials": true,
-            "Authorization": "Basic " + btoa("User:Password")
+            "Access-Control-Allow-Origin": "*"
         }
     });
     // Gets all test data for a given test
@@ -209,7 +210,8 @@ function showTest(test_name) {
         url: HTML_base + "/tests/" + test_name,
         method: "GET",
         data: "{};",
-        dataType: "json",
+        dataType: "jsonp",
+        jsonpCallback: "test",
         success: function(response, status, xhr) {
             console.log(response);
             google.charts.setOnLoadCallback(drawCharts(response));
