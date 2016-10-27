@@ -56,8 +56,11 @@ function showlegend(run_names) {
 }
 
 function makeChart(data, prop_name) {
-    // console.log(data);
+    console.log(data);
     var options = {
+        tooltip: {
+            isHtml: true
+        },
         title: prop_name,
         legend: "none",
         // vAxis: {title: metric_name},
@@ -93,7 +96,7 @@ function plotProps(metrics, run_names, runs) {
     // Sets up table of timestamps
     for (var n = 0; n < run_names.length; n++) {
         // Iterate through each run for that name
-        base_table[0].push(run_names[n]);
+        base_table[0][(2 * n) + 1] = run_names[n];
         for (var m = 0; m < runs[n].length; m++) {
             var test_run = runs[n][m];
             var ts = new Date(test_run["timestamp"]);
@@ -110,24 +113,36 @@ function plotProps(metrics, run_names, runs) {
     }
     // Ensures each row has same length
     for (var n = 0; n < base_table.length; n++) {
-        base_table[n].length = run_names.length + 2;
+        base_table[n].length = 2 * run_names.length + 1;
     }
-    base_table[0][run_names.length + 1] = "Commit_id";
+    for (var n = 0; n < run_names.length; n++) {
+        base_table[0][2 * n + 2] = "Commit_id";
+    }
     var table = base_table;
     // Plots execution times
     for (var n = 0; n < run_names.length; n++) {
+        var run_name = run_names[n];
         // Iterate through each run for that name
         for (var m = 0; m < runs[n].length; m++) {
             var test_run = runs[n][m];
             var ts = new Date(test_run["timestamp"]);
             var index = getObjectIndex(ts, timestamps);
-            table[index + 1][run_names.length + 1] = test_run["commit_id"];
-            table[index + 1][n + 1] = test_run["execution_time"];
+            table[index + 1][2 * n + 2] = (
+                "<b>" + run_name + "</b> &nbsp;<br>" +
+                "<b>Commit&nbsp;Id:&nbsp;</b>" + test_run["commit_id"] + "&nbsp;<br>" + 
+                "<b>Timestamp:&nbsp;</b>" + ts + "&nbsp;<br>" +
+                "<b>Execution time:&nbsp;</b>" + test_run["execution_time"]
+               );
+            // table[index + 1][(2 * n) + 2] = "tooltip";
+            table[index + 1][(2 * n) + 1] = test_run["execution_time"];
         }
     }
     console.log(table);
     var data = google.visualization.arrayToDataTable(table);
-    data.setColumnProperty(run_names.length + 1, 'role', 'tooltip');
+    for (var n = 0; n < run_names.length; n++) {
+        data.setColumnProperty(2 * n + 2, 'role', 'tooltip');
+        data.setColumnProperty(2 * n + 2, 'html', true);
+    }
     makeChart(data, "Execution Times");
     // console.log(metrics);
     for (var i = 0; i < metrics.length; i++) {
@@ -142,13 +157,21 @@ function plotProps(metrics, run_names, runs) {
                 // console.log(test_run['metrics'][metric]);
                 var ts = new Date(test_run["timestamp"]);
                 var index = getObjectIndex(ts, timestamps);
-                table[index + 1][run_names.length + 1] = test_run["commit_id"];
-                table[index + 1][n + 1] = test_run["metrics"][metric];
+                table[index + 1][2 * n + 2] = (
+                "<b>" + run_name + "</b> &nbsp;<br>" +
+                "<b>Commit&nbsp;Id:&nbsp;</b>" + test_run["commit_id"] + "&nbsp;<br>" + 
+                "<b>Timestamp:&nbsp;</b>" + ts + "&nbsp;<br>" +
+                "<b>Result:&nbsp;</b>" + test_run["metrics"][metric]
+               );
+                table[index + 1][2 * n + 1] = test_run["metrics"][metric];
             }
         }
         // console.log(table);
         data = google.visualization.arrayToDataTable(table);
-        data.setColumnProperty(run_names.length + 1, 'role', 'tooltip');
+        for (var n = 0; n < run_names.length; n++) {
+            data.setColumnProperty(2 * n + 2, 'role', 'tooltip');
+            data.setColumnProperty(2 * n + 2, 'html', true);
+        }
         makeChart(data, metric);
     }
 }
