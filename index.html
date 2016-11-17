@@ -162,28 +162,26 @@ title: Project Chrono - An Open-Source Physics Engine
 	  <div class="row">
 		  <div class="col-md-4">
 			<h2>Why {% include module.html first="PROJECT" second="CHRONO" %}?</h2>
-			<p>Chrono is a physics-based modelling and simulation infrastructure based on a platform-independent, open-source design, entirely written in C++. You can embed this library in your software projects if you need to simulate mechanical systems such as a vehicles, robots, suspension systems, automatic devices, mechatronic systems and so on. 
-			Systems can be made of rigid parts with constraints, motors and contacts; parts can have three-dimensional shapes for collision detection.
-			Optional advanced modules can be used to simulate also flexible parts, fluids, power trains, etc.</p>
+			<p>Chrono is a physics-based modelling and simulation infrastructure based on a platform-independent open-source design implemented in C++. A {% include module.html first="PROJECT" second="CHRONO" %} library can be embedded in a software project to simulate, for instance, wheeled and tracked vehicles operating on deformable terrains, robots, mechatronic systems, compliant mechanisms, and fluid solid interaction phenomena. 
+			Systems can be made of rigid and flexible/compliant parts with constraints, motors and contacts; parts can have three-dimensional shapes for collision detection.</p>
 		  </div> <!-- col-md-4 -->
 		  
 		  <div class="col-md-4">
-			<h2>Applications</h2>
+			<h2>Select {% include module.html first="PROJECT" second="CHRONO" %} applications</h2>
 			<ul>
 			<li>Robotics</li>
-			<li>Vehicle dynamics</li>
-			<li>Mechanical engineering</li>
+			<li>Wheeled vehicle dynamics</li>
+			<li>Tracked vehicle  dynamics</li>
+			<li>Nonlinear finite element analysis</li>
 			<li>Mechatronics</li>
+			<li>Off-road vehicle mobility</li>
+			<li>Terramechanics</li>
 			<li>Virtual reality</li>
 			<li>Granular flows</li>
-			<li>Embedded simulators</li>
 			<li>Collision detection</li>
 			<li>Autonomous vehicles</li>
-			<li>Teaching and research</li>
 			<li>Seismic engineering</li>
 			<li>Augmented reality</li>
-			<li>Large-scale multibody</li>
-			<li>...</li>
 			</ul>
 		  </div> <!-- col-md-4 -->
 		  
@@ -268,7 +266,7 @@ title: Project Chrono - An Open-Source Physics Engine
 				<h3>Multibody dynamics</h3>
 				Run simulations of mechanisms made of rigid bodies. 
 				Apply constraint to parts using a wide set of joints. 
-				Add engines, linear actuators, springs and dampers.
+				Add motors, linear actuators, springs and dampers.
 				Apply forces and torques.
 			</div>
 		</div>
@@ -286,8 +284,8 @@ title: Project Chrono - An Open-Source Physics Engine
 			<div class="chfeature">
 				<img src="images/feature_badges/feature_vehicle.jpg" alt="">
 				<h3>Vehicle dynamics</h3>
-				Use the Vehicle module to model wheeled or tracked vehicles.
-				Leverage on a wide set of suspension templates. Use various soil and tire models.
+				Use the Chrono::Vehicle module to model wheeled or tracked vehicles using a template-based approach.
+				Leverage a wide set of suspension templates. Use various soil and tire models.
 				Add powertrains using 1D elements: clutches, brakes, reducers, torque converters etc.
 			</div>
 		</div>
@@ -298,9 +296,9 @@ title: Project Chrono - An Open-Source Physics Engine
 			<div class="chfeature">
 				<img src="images/feature_badges/feature_largescale.jpg" alt="">
 				<h3>Large scale simulations</h3>
-				Exploit the parallel version of Chrono to simulate large scenarios:
-				granular flows, vehicle-soil interaction, etc.
-				Perform co-simulation with other software: CFD, FEA, etc.
+				Exploit the parallel version of Chrono to simulate large scenarios such as
+				granular flows, vehicle-soil interaction, and fluid-solid interaction.
+				Perform co-simulation with other CFD FEA software packages.
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -308,7 +306,7 @@ title: Project Chrono - An Open-Source Physics Engine
 				<img src="images/feature_badges/feature_collision.jpg" alt="">
 				<h3>Collision detection</h3>
 				Define collision shapes using meshes or primitives. 
-				Compute frictional contacts automatically using state-of-the-art collision detection algorithms.
+				Compute frictional contact forces using state-of-the-art collision detection algorithms.
 				Define surface properties and surface families.
 			</div>
 		</div>
@@ -316,10 +314,9 @@ title: Project Chrono - An Open-Source Physics Engine
 			<div class="chfeature">
 				<img src="images/feature_badges/feature_api.jpg" alt="">
 				<h3>Open API design</h3>
-				All features can be extended or modified using C++ inheritance.
-				Embed Chrono simulation in your software. 
-				Plug-in optional modules for post-processing, real-time visualization, etc.
-				Chrono is cross-platform, open source, and free.
+				All features can be extended or modified using C++ inheritance. Chrono is middleware, designed from ground up to be embedded in other simulation software. 
+				Plug-in optional modules available for post-processing and real-time visualization.
+				Chrono is cross-platform, open source, and release under a BSD3 license.
 			</div>
 		</div>
 	</div>
