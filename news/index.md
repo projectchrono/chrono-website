@@ -8,6 +8,63 @@ permalink: /news/
 
 
 <div class = "well">
+	<p>9-13 January 2017 -- Tutorial </p>
+	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<div class="media-body"> 
+	A [http://outreach.sbel.wisc.edu/ChronoTutorials/2017/UW-january/ ProjectChrono tutorial]  will take
+    place at the Universtity of Wisconsin-Madison, USA, from 9 to 13 January 2017. 
+	Registration is open to participants from the industry, from federal/state organizations and from the academia.
+	</div>
+</div>
+<div class = "well">
+
+
+<div class = "well">
+	<p>23 November 2016 -- Call for papers </p>
+	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<div class="media-body"> 
+	The [http://www.inderscience.com/ijvp International Journal of Vehicle Performance (IJVP)] will publish the special issue "Vehicle Simulation with the Project Chrono Open Source Platform".
+    This special issue will bring together recent applications of the open-source Project Chrono software in the field of vehicle simulation.
+    Topics include, but are not limited to, the following:
+     Vehicle dynamics, Numerical models for tires, Soil models, Multibody methods, Multi-physics, Finite elements, Non-linear dynamics, ProjectChrono, Off-road mobility, Co-simulation, High Performance Computing. <br>
+    There are no charges for publishing on IJVP.<br> 
+    All papers can be submitted electronically via the online submission system at
+    [http://www.inderscience.com/info/inauthors/author_submit.php the editorial system of IJVP].<br> 
+    Important Dates:<br> 
+	<ul>
+		<li>Papers must be sumbitted before 1st July 2017.</li>
+		<li>Final acceptance:  estimated 1st August 2017.</li>
+		<li>Final version due:  estimated 25st September 2017.</li>
+	</ul>
+	</div>
+</div>
+<div class = "well">
+
+
+<div class = "well">
+	<p>14-18 November 2016 -- TARDEC workshop</p>
+	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<div class="media-body"> 
+	A [http://outreach.sbel.wisc.edu/ChronoTutorials/2016/TARDEC/ ProjectChrono tutorial]  has been presented at  
+	US Army TARDEC, Warren, Michigan, November 14-18, 2016.
+	</div>
+</div>
+<div class = "well">
+
+
+<div class = "well">
+	<p>3-4 August 2016 -- MaGIC workshop</p>
+	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<div class="media-body"> 
+	ProjectChrono has been presented at the 2016 
+	[http://outreach.sbel.wisc.edu/MAGIC_August_2016/ Machine-Ground Interaction Consortium (MaGIC) Workshop]  
+	at the University of Wisconsin-Madison, 3-4 August 2015.
+	</div>
+</div>
+<div class = "well">
+
+
+<div class = "well">
 	<p>28 February 2015 -- New template project</p>
 	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body"> We added a new template project that helps generating third-party projects based on Chrono::Engine using the [http://www.cmake.org CMake] tool. The documenta<p>tion is [[ChronoEngine:Develop_a_new_program_using_CMake  -- here]]. Note that for the moment the template is only in the '''develop''' branch of the GIT. </p>
