@@ -23,13 +23,13 @@ permalink: /news/
 	<p>23 November 2016 -- Call for papers </p>
 	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body"> 
-	The [http://www.inderscience.com/ijvp International Journal of Vehicle Performance (IJVP)] will publish the special issue "Vehicle Simulation with the Project Chrono Open Source Platform".
+	The <a href="http://www.inderscience.com/ijvp">International Journal of Vehicle Performance (IJVP)</a> will publish the special issue "Vehicle Simulation with the Project Chrono Open Source Platform".
     This special issue will bring together recent applications of the open-source Project Chrono software in the field of vehicle simulation.
     Topics include, but are not limited to, the following:
      Vehicle dynamics, Numerical models for tires, Soil models, Multibody methods, Multi-physics, Finite elements, Non-linear dynamics, ProjectChrono, Off-road mobility, Co-simulation, High Performance Computing. <br>
     There are no charges for publishing on IJVP.<br> 
     All papers can be submitted electronically via the online submission system at
-    [http://www.inderscience.com/info/inauthors/author_submit.php the editorial system of IJVP].<br> 
+    <a href="http://www.inderscience.com/info/inauthors/author_submit.php">the editorial system of IJVP</a>.<br> 
     Important Dates:<br> 
 	<ul>
 		<li>Papers must be sumbitted before 1st July 2017.</li>
@@ -45,7 +45,7 @@ permalink: /news/
 	<p>14-18 November 2016 -- TARDEC workshop</p>
 	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body"> 
-	A [http://outreach.sbel.wisc.edu/ChronoTutorials/2016/TARDEC/ ProjectChrono tutorial]  has been presented at  
+	A <a href="http://outreach.sbel.wisc.edu/ChronoTutorials/2016/TARDEC/">ProjectChrono tutorial</a> has been presented at  
 	US Army TARDEC, Warren, Michigan, November 14-18, 2016.
 	</div>
 </div>
@@ -57,7 +57,7 @@ permalink: /news/
 	<a class="media-left" href="#"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
 	<div class="media-body"> 
 	ProjectChrono has been presented at the 2016 
-	[http://outreach.sbel.wisc.edu/MAGIC_August_2016/ Machine-Ground Interaction Consortium (MaGIC) Workshop]  
+	<a href="http://outreach.sbel.wisc.edu/MAGIC_August_2016/">Machine-Ground Interaction Consortium (MaGIC) Workshop</a>  
 	at the University of Wisconsin-Madison, 3-4 August 2015.
 	</div>
 </div>
@@ -67,7 +67,9 @@ permalink: /news/
 <div class = "well">
 	<p>28 February 2015 -- New template project</p>
 	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
-	<div class="media-body"> We added a new template project that helps generating third-party projects based on Chrono::Engine using the [http://www.cmake.org CMake] tool. The documenta<p>tion is [[ChronoEngine:Develop_a_new_program_using_CMake  -- here]]. Note that for the moment the template is only in the '''develop''' branch of the GIT. </p>
+	<div class="media-body"> 
+	We added a new template project that helps generating third-party projects based on Chrono::Engine using the 
+	<a href="http://www.cmake.org">CMake</a> tool. Note that for the moment the template is only in the '''develop''' branch of the GIT. </p>
 	</div>
 </div>
 <div class = "well">
@@ -75,7 +77,7 @@ permalink: /news/
 
 	<p>7 December 2014 -- New manual</p>
 	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
-	<div class="media-body"> We added a new type of documentation that can be read like a book. This will be considered the 'user manual' of Chrono::Engine. You can find the first release here: [[Chronoengine:Manual -- Manual]].
+	<div class="media-body"> We added a new type of documentation that can be read like a book. This will be considered the 'user manual' of Chrono::Engine.
 	</div>
 </div>
 <div class = "well">
@@ -83,7 +85,8 @@ permalink: /news/
 
 	<p>9-11 December 2014 -- Machine-Ground Interaction Consortium</p>
 	<a class="media-left" href="#"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
-	<div class="media-body"> The [http://machine-ground2014.splashthat.com/ Machine-Ground Interaction Consortium (MAGIC)] December meeting will Take place at the University of Wisconsin, Madison. There will be an update about ongoing research on vehicle-ground interaction, with a focus on trends in high-performance computing, granular materials, terrain modeling and simulation, and virtual prototyping.  The meeting will highlight Project Chrono software: participants will get an overview of the software's modeling and simulation capablities, plus a hands-on demo of Chrono for vehicle dynamics.
+	<div class="media-body"> The 
+	<a href="http://machine-ground2014.splashthat.com/">Machine-Ground Interaction Consortium (MAGIC)</a> December meeting will Take place at the University of Wisconsin, Madison. There will be an update about ongoing research on vehicle-ground interaction, with a focus on trends in high-performance computing, granular materials, terrain modeling and simulation, and virtual prototyping.  The meeting will highlight Project Chrono software: participants will get an overview of the software's modeling and simulation capablities, plus a hands-on demo of Chrono for vehicle dynamics.
 	</div>
 </div>
 <div class = "well">
@@ -91,7 +94,8 @@ permalink: /news/
 
 	<p>13-14 May 2014 -- Chrono user group meeting</p>
 	<a class="media-left" href="#"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
-	<div class="media-body"> The first meeting of Chrono::Engine users took place at the University of Wisconsin, USA, within the [http://w-face.splashthat.com/ W-FACE] initiative. The Chrono Interest Group Meeting was attended by researchers from universities (University of Iowa, University of Wisconsin, University of Parma) and companies such as Caterpillar, Harley-Davidson, Statoil-ASA, Oshkosh, MSC, SimLab Soft, Open Source Robotics Foundation, WACC and others. Future development of Chrono::Engine has been discussed.
+	<div class="media-body"> The first meeting of Chrono::Engine users took place at the University of Wisconsin, USA, within the 
+	<a href="http://w-face.splashthat.com/">W-FACE</a> initiative. The Chrono Interest Group Meeting was attended by researchers from universities (University of Iowa, University of Wisconsin, University of Parma) and companies such as Caterpillar, Harley-Davidson, Statoil-ASA, Oshkosh, MSC, SimLab Soft, Open Source Robotics Foundation, WACC and others. Future development of Chrono::Engine has been discussed.
 	</div>
 </div>
 <div class = "well">
@@ -116,7 +120,7 @@ permalink: /news/
 
 	<p>13 September 2013 -- New tutorials</p>
 	<a class="media-left" href="#"> <img src="/images/news/logo_chronoengine_small.png" style="width=100px"> </a>
-	<div class="media-body"> New tutorials have been added to the Wiki, for instance [[demo_irr_assets]], [[demo_import_solidworks]], and for the PyChrono::Engine there are [[demo_solidworks]] and [[demo_masonry]]. 
+	<div class="media-body"> New tutorials have been added to the Wiki, for instance demo_irr_assets, demo_import_solidworks, and for the PyChrono::Engine there are demo_solidworks and demo_masonry. 
 		By the way: the new release of Chrono::Engine is almost ready.
 	</div>
 </div>
@@ -125,8 +129,8 @@ permalink: /news/
 
 	<p>11 June 2013 -- New mailing list</p>
 	<a class="media-left" href="#"> <img src="/images/news/logo_chronoengine_small.png" style="width=100px"> </a>
-	<div class="media-body"> We created a new [https://groups.google.com/forum/#!forum/chronoengine forum] using Google Groups. This will serve also as a mailing list for the development team.
-		There is also an embedded version [http://www.chronoengine.info/chronoengine/forum.html here].
+	<div class="media-body"> We created a new 
+	<a href="https://groups.google.com/forum/#!forum/chronoengine">forum</a> using Google Groups. This will serve also as a mailing list for the development team.
 	</div>
 </div>
 <div class = "well">
@@ -134,7 +138,7 @@ permalink: /news/
 
 	<p>27 November 2012 -- New co-simulation unit</p>
 	<a class="media-left" href="#"> <img src="/images/news/simulink_ico.png" style="width=100px"> </a>
-	<div class="media-body"> A new [[Unit_COSIMULATION|co-simulation unit]] has been developed. This allows Chrono::Engine to cooperate with another simulation software. In detail, we use Simulink to simulate hydraulic systems, electrical power systems and controls, that can interact with Chrono::Engine mechanisms by running in parallel.
+	<div class="media-body"> A new co-simulation unit has been developed. This allows Chrono::Engine to cooperate with another simulation software. In detail, we use Simulink to simulate hydraulic systems, electrical power systems and controls, that can interact with Chrono::Engine mechanisms by running in parallel.
 	</div>
 </div>
 <div class = "well">
@@ -150,7 +154,7 @@ permalink: /news/
 
 	<p>18 July 2012 -- PyChrono::Engine v.1.6.0</p>
 	<a class="media-left" href="#"> <img src="/images/news/Python_icon.png" style="width=100px"> </a>
-	<div class="media-body"> The beta release of [[Python_scripting  -- PyChrono::Engine]] has been released. An installer if freely available at the [[Download]] page. The PyChrono::Engine is a set of Python modules that install over your Python environment, and allow to use Chrono::Engine v.1.6.0 via the Python programming language, without the need of using C++.
+	<div class="media-body"> The beta release of Python_scripting  -- Chrono::PyEngine has been released. An installer if freely available at the Download page. The Chrono::PyEngine is a set of Python modules that install over your Python environment, and allow to use Chrono::Engine v.1.6.0 via the Python programming language, without the need of using C++.
 	</div>
 </div>
 <div class = "well">
@@ -158,7 +162,7 @@ permalink: /news/
 
 	<p>18 July 2012 -- Chrono::Engine Add-in v.1.6.0 for SolidWorks</p>
 	<a class="media-left" href="#"> <img src="/images/news/SW_icon.jpg" style="width=100px"> </a>
-	<div class="media-body"> The beta release v.1.6.0 of the [[SolidWorks_exporter_add-in  -- Chrono::Engine Add-In for SolidWorks]] has been released and it is available for download. Users will be able to model mechanisms within SolidWorks, then they can export a Chrono::Engine file (in Python language) that can be later load in C++ or Python programs, for performing simulations.
+	<div class="media-body"> The beta release v.1.6.0 of the SolidWorks add-in  has been released and it is available for download. Users will be able to model mechanisms within SolidWorks, then they can export a Chrono::Engine file (in Python language) that can be later load in C++ or Python programs, for performing simulations.
 	</div>
 </div>
 <div class = "well">
