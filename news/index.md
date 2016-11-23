@@ -9,7 +9,7 @@ permalink: /news/
 
 <div class = "well">
 	<p>9-13 January 2017 -- Tutorial </p>
-	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<a class="media-left" href="#"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
 	<div class="media-body"> 
 	A [http://outreach.sbel.wisc.edu/ChronoTutorials/2017/UW-january/ ProjectChrono tutorial]  will take
     place at the Universtity of Wisconsin-Madison, USA, from 9 to 13 January 2017. 
@@ -54,7 +54,7 @@ permalink: /news/
 
 <div class = "well">
 	<p>3-4 August 2016 -- MaGIC workshop</p>
-	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<a class="media-left" href="#"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
 	<div class="media-body"> 
 	ProjectChrono has been presented at the 2016 
 	[http://outreach.sbel.wisc.edu/MAGIC_August_2016/ Machine-Ground Interaction Consortium (MaGIC) Workshop]  
