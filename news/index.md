@@ -9,19 +9,18 @@ permalink: /news/
 
 <div class = "well">
 	<p>9-13 January 2017 -- Tutorial </p>
-	<a class="media-left" href="#"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
+	<a class="media-left" href="http://sbel.wisc.edu"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
 	<div class="media-body"> 
-	A [http://outreach.sbel.wisc.edu/ChronoTutorials/2017/UW-january/ ProjectChrono tutorial]  will take
+	A <a href="http://outreach.sbel.wisc.edu/ChronoTutorials/2017/UW-january/">ProjectChrono tutorial</a>  will take
     place at the Universtity of Wisconsin-Madison, USA, from 9 to 13 January 2017. 
 	Registration is open to participants from the industry, from federal/state organizations and from the academia.
 	</div>
 </div>
-<div class = "well">
 
 
 <div class = "well">
 	<p>23 November 2016 -- Call for papers </p>
-	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body"> 
 	The <a href="http://www.inderscience.com/ijvp">International Journal of Vehicle Performance (IJVP)</a> will publish the special issue "Vehicle Simulation with the Project Chrono Open Source Platform".
     This special issue will bring together recent applications of the open-source Project Chrono software in the field of vehicle simulation.
@@ -38,88 +37,85 @@ permalink: /news/
 	</ul>
 	</div>
 </div>
-<div class = "well">
 
 
 <div class = "well">
 	<p>14-18 November 2016 -- TARDEC workshop</p>
-	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body"> 
 	A <a href="http://outreach.sbel.wisc.edu/ChronoTutorials/2016/TARDEC/">ProjectChrono tutorial</a> has been presented at  
 	US Army TARDEC, Warren, Michigan, November 14-18, 2016.
 	</div>
 </div>
-<div class = "well">
 
 
 <div class = "well">
 	<p>3-4 August 2016 -- MaGIC workshop</p>
-	<a class="media-left" href="#"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
+	<a class="media-left" href="http://sbel.wisc.edu"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
 	<div class="media-body"> 
 	ProjectChrono has been presented at the 2016 
 	<a href="http://outreach.sbel.wisc.edu/MAGIC_August_2016/">Machine-Ground Interaction Consortium (MaGIC) Workshop</a>  
 	at the University of Wisconsin-Madison, 3-4 August 2015.
 	</div>
 </div>
-<div class = "well">
 
 
 <div class = "well">
 	<p>28 February 2015 -- New template project</p>
-	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body"> 
 	We added a new template project that helps generating third-party projects based on Chrono::Engine using the 
 	<a href="http://www.cmake.org">CMake</a> tool. Note that for the moment the template is only in the '''develop''' branch of the GIT. </p>
 	</div>
 </div>
+
+
 <div class = "well">
-
-
 	<p>7 December 2014 -- New manual</p>
-	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body"> We added a new type of documentation that can be read like a book. This will be considered the 'user manual' of Chrono::Engine.
 	</div>
 </div>
+
+
 <div class = "well">
-
-
 	<p>9-11 December 2014 -- Machine-Ground Interaction Consortium</p>
-	<a class="media-left" href="#"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
+	<a class="media-left" href="http://sbel.wisc.edu"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
 	<div class="media-body"> The 
 	<a href="http://machine-ground2014.splashthat.com/">Machine-Ground Interaction Consortium (MAGIC)</a> December meeting will Take place at the University of Wisconsin, Madison. There will be an update about ongoing research on vehicle-ground interaction, with a focus on trends in high-performance computing, granular materials, terrain modeling and simulation, and virtual prototyping.  The meeting will highlight Project Chrono software: participants will get an overview of the software's modeling and simulation capablities, plus a hands-on demo of Chrono for vehicle dynamics.
 	</div>
 </div>
+
+
 <div class = "well">
-
-
 	<p>13-14 May 2014 -- Chrono user group meeting</p>
-	<a class="media-left" href="#"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
+	<a class="media-left" href="http://sbel.wisc.edu"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
 	<div class="media-body"> The first meeting of Chrono::Engine users took place at the University of Wisconsin, USA, within the 
 	<a href="http://w-face.splashthat.com/">W-FACE</a> initiative. The Chrono Interest Group Meeting was attended by researchers from universities (University of Iowa, University of Wisconsin, University of Parma) and companies such as Caterpillar, Harley-Davidson, Statoil-ASA, Oshkosh, MSC, SimLab Soft, Open Source Robotics Foundation, WACC and others. Future development of Chrono::Engine has been discussed.
 	</div>
 </div>
+
+
 <div class = "well">
-
-
 	<p>25 November 2013 -- New web site layout</p>
-	<a class="media-left" href="#"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body"> The www.projectchrono.org website has been redesigned with new logos and a new structure for documentation and indexes. 
 		Most important, the website reflects the new architecture of the ProjectChrono initiative: ProjectChrono becomes a container for sub-projects as Chrono::Engine, Chrono::SolidWorks, Chrono::PyEngine, etc.
 	</div>
 </div>
+
+
 <div class = "well">
-
-
 	<a>15 September 2013 -- GIT repository</a>
-	<a class="media-left" href="#"> <img src="/images/news/gitLogo.png" style="width=100px"> </a>
+	<a class="media-left" href="https://github.com/projectchrono"> <img src="/images/news/gitLogo.png" style="width=100px"> </a>
 	<div class="media-body"> The porting to the new GIT repository on https://github.com/projectchrono has been completed. Now ProjectChrono is OpenSource.
 	</div>
 </div>
+
+
 <div class = "well">
-
-
-	<p>13 September 2013 -- New tutorials</p>
-	<a class="media-left" href="#"> <img src="/images/news/logo_chronoengine_small.png" style="width=100px"> </a>
+    <p>13 September 2013 -- New tutorials</p>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/logo_chronoengine_small.png" style="width=100px"> </a>
 	<div class="media-body"> New tutorials have been added to the Wiki, for instance demo_irr_assets, demo_import_solidworks, and for the PyChrono::Engine there are demo_solidworks and demo_masonry. 
 		By the way: the new release of Chrono::Engine is almost ready.
 	</div>
@@ -128,7 +124,7 @@ permalink: /news/
 
 
 	<p>11 June 2013 -- New mailing list</p>
-	<a class="media-left" href="#"> <img src="/images/news/logo_chronoengine_small.png" style="width=100px"> </a>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/logo_chronoengine_small.png" style="width=100px"> </a>
 	<div class="media-body"> We created a new 
 	<a href="https://groups.google.com/forum/#!forum/chronoengine">forum</a> using Google Groups. This will serve also as a mailing list for the development team.
 	</div>
@@ -145,7 +141,7 @@ permalink: /news/
 
 
 	<p>20 October 2012 -- New build system under development</p>
-	<a class="media-left" href="#"> <img src="/images/news/chronoengine_clock_small.jpg" style="width=100px"> </a>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/chronoengine_clock_small.jpg" style="width=100px"> </a>
 	<div class="media-body"> The build system of Chrono::Engine has been modified: after compilation, the binaries (.exe, .dll, etc.) won't be placed in the ChronoEngine/bin/ directory, as before, but they will be generated in the output directory that you choose in CMake. This makes the support of new platforms easier. A new nightly build system is under development, so that precompiled binaries and libraries will be periodically generated for free download for everyone. 
 	</div>
 </div>
