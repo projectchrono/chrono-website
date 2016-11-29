@@ -2,7 +2,7 @@ var HTML_base = "http://projectchrono.org/metrics/api";
 google.charts.load("current", {
     "packages": ["corechart"]
 });
-var charts = [];
+var charts = []; // not entirely sure what this does
 var color_list = ['#274EC0', '#D12411', '#1E8E1B'];
 // Shows dropdown menu of all tests available
 function showTestNames(test_list) {
@@ -37,26 +37,34 @@ function drawCharts(test_runs) {
 }
 
 function showlegend(run_names) {
+    // Makes table of colors and names for build machines
     var table = document.createElement("table");
+    table.style.borderCollapse = "separate";
+    table.style.borderSpacing = "3px";
     for (var n = 0; n < run_names.length; n++) {
+        // Create table row and colorbox 
         var tr = document.createElement("tr");
         var colorbox = document.createElement("td");
+        // Set up colorbox
         colorbox.setAttribute("style", "background-color:" + color_list[n]);
         colorbox.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;<br>";
         tr.appendChild(colorbox);
+        // Put buildername next to color box
         var buildername = document.createElement("td");
         buildername.innerHTML = run_names[n];
         tr.appendChild(buildername);
         table.appendChild(tr);
     }
+    // Create legend title and put it above the table
     legendtitle = document.createElement("div");
     legendtitle.innerHTML = "<br> Legend <br>";
     document.getElementById("metrics").appendChild(legendtitle);
     document.getElementById("metrics").appendChild(table);
 }
-
+// Creates a chart from a given data table and property name to chart
 function makeChart(data, prop_name) {
-    console.log(data);
+    // console.log(data);
+    // Set up chart
     var options = {
         tooltip: {
             isHtml: true
@@ -77,6 +85,7 @@ function makeChart(data, prop_name) {
         },
         colors: color_list
     };
+    // Place chart in page
     var div = document.createElement("div");
     div.setAttribute("id", prop_name);
     div.setAttribute("class", "metric");
@@ -127,12 +136,7 @@ function plotProps(metrics, run_names, runs) {
             var test_run = runs[n][m];
             var ts = new Date(test_run["timestamp"]);
             var index = getObjectIndex(ts, timestamps);
-            table[index + 1][2 * n + 2] = (
-                "<b>" + run_name + "</b> &nbsp;<br>" +
-                "<b>Commit&nbsp;Id:&nbsp;</b>" + test_run["commit_id"] + "&nbsp;<br>" + 
-                "<b>Timestamp:&nbsp;</b>" + ts + "&nbsp;<br>" +
-                "<b>Execution time:&nbsp;</b>" + test_run["execution_time"]
-               );
+            table[index + 1][2 * n + 2] = ("<b>" + run_name + "</b> &nbsp;<br>" + "<b>Commit&nbsp;Id:&nbsp;</b>" + test_run["commit_id"] + "&nbsp;<br>" + "<b>Timestamp:&nbsp;</b>" + ts + "&nbsp;<br>" + "<b>Execution time:&nbsp;</b>" + test_run["execution_time"]);
             // table[index + 1][(2 * n) + 2] = "tooltip";
             table[index + 1][(2 * n) + 1] = test_run["execution_time"];
         }
@@ -157,12 +161,7 @@ function plotProps(metrics, run_names, runs) {
                 // console.log(test_run['metrics'][metric]);
                 var ts = new Date(test_run["timestamp"]);
                 var index = getObjectIndex(ts, timestamps);
-                table[index + 1][2 * n + 2] = (
-                "<b>" + run_name + "</b> &nbsp;<br>" +
-                "<b>Commit&nbsp;Id:&nbsp;</b>" + test_run["commit_id"] + "&nbsp;<br>" + 
-                "<b>Timestamp:&nbsp;</b>" + ts + "&nbsp;<br>" +
-                "<b>Result:&nbsp;</b>" + test_run["metrics"][metric]
-               );
+                table[index + 1][2 * n + 2] = ("<b>" + run_name + "</b> &nbsp;<br>" + "<b>Commit&nbsp;Id:&nbsp;</b>" + test_run["commit_id"] + "&nbsp;<br>" + "<b>Timestamp:&nbsp;</b>" + ts + "&nbsp;<br>" + "<b>Result:&nbsp;</b>" + test_run["metrics"][metric]);
                 table[index + 1][2 * n + 1] = test_run["metrics"][metric];
             }
         }
