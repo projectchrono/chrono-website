@@ -3,15 +3,15 @@ main:
       url:  'l55AlySZOA4'
       description: 'Simulation of a complex masonry structure. The model has been created using a 3D CAD, then it has been converted to a proprietary format that has been load into Chrono.'
       host: 'youtube'
-	- title: Particle flows
+    - title: Particle flows
       url:  'NTzoaeXu36A'
       description: 'Demonstration of advanced features for the stochastic generation of particle flows in Chrono. The C++ API provides an extensive set of classes for defining granular matters with different shapes, properties, sizes and mixtures, according to complex user-defined probability distributions.'
       host: 'youtube'
-	- title: Six legged robot
+    - title: Six legged robot
       url: 'XxDo-SKiULo'
       description: 'Simulation of a six-legged crawling robot. The model of the robot has been developed in the 3D CAD sofware SolidWorks, then exported to a .py file using the Chrono::SolidWorks add-in, and finally simulated using the Python version of Chrono, that is Chrono::PyEngine'
-      host: 'youtube'
-	- title: Waste processing
+      host: 'youtube' 
+    - title: Waste processing
       url: 'FXKg1KFTKc0'
       description: 'Simulation of a CES Corona Electrostatic Separator. This is part of a device for waste processing (it separates plastic particles from metal particles using high-potential electric fields). Particles are created from statistical distributions of size, density, shape, etc. The Chrono::Engine simulation is rendered with POVray.'
       host: 'youtube'
