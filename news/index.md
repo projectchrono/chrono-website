@@ -20,7 +20,7 @@ permalink: /news/
 	<p>22 December 2016 -- New Chrono::PyEngine installer and spider demo</p>
 	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body"> 
-	Look at <a href="http://projectchrono.org/download/">the download page</a>: we uploaded a new installer for the precompiled Chrono::PyEngine. the Chrono::PyEngine wrapper allows using Python as a programming language for making easy Chrono simulations. In the Tutorials section for the Chrono::PyEngine you can find a new demo about the simulation of a 6-legged crawling robot - it uses the SolidWorks add-in. By the way, we uploaded a new Chrono::SolidWorks installer.  
+	Look at <a href="http://projectchrono.org/download/">the download page</a>: we uploaded a new installer for the precompiled Chrono::PyEngine. The Chrono::PyEngine wrapper allows using Python as a programming language for making easy Chrono simulations. In the Tutorials section for the Chrono::PyEngine you can find a new demo about the simulation of a <a href="http://api.chrono.projectchrono.org/tutorial_chrono_pyengine_demo_spider_robot.html">6-legged crawling robot</a>. This demo uses the Chrono::SolidWorks add-in; by the way, we uploaded a new Chrono::SolidWorks installer.  
 	</div>
 </div>
 
