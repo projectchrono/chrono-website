@@ -174,7 +174,11 @@ the 64 bit version of Python is currently supported with this installer.
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download PyChrono for Python</h4>
 
-<a href="http://www.projectchrono.org/assets/installers/PyChronoEngine_v2.0.0.exe"> Download Chrono::PyEngine v.2.0.0 module for Python v.3.3 64bit</a><br />
+<a href="http://www.projectchrono.org/assets/installers/PyChronoEngine_v2.0.7.exe"> Download Chrono::PyEngine v.2.0.7 module for Python v.3.3 64bit</a><br />
+
+<h5> older versions:</h5>
+
+<a href="http://www.projectchrono.org/assets/installers/PyChronoEngine_v2.0.0.exe"> Download Chrono::PyEngine v.2.0.0 module for Python v.3.3 64bit</a>
 
 </div>
 
@@ -211,10 +215,11 @@ Chrono add-in.
 		  
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download Chrono::SolidWorks add-in for SolidWorks</h4>
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.05.exe"> Download Chrono::SolidWorks v.2.0.5 add-in for SolidWorks 2013 and higher (beta!)</a><br />
+<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.07.exe"> Download Chrono::SolidWorks v.2.0.7 add-in for SolidWorks 2013 and higher (beta!)</a><br />
 
 <h5> older versions:</h5>
 
+<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.05.exe"> Download Chrono::SolidWorks v.2.0.5 add-in for SolidWorks 2013 and higher (beta!)</a><br />
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.01.exe"> Download Chrono::SolidWorks v.2.0.1 add-in for SolidWorks 2012</a><br />
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v1.70.exe"> Download Chrono::SolidWorks v.1.7.0 add-in for SolidWorks 2011</a><br />
 
