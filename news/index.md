@@ -6,6 +6,24 @@ permalink: /news/
 
 <h2> News</h2>
 
+<div class = "well">
+	<p>19-21 April 2017 -- TARDEC workshop</p>
+	<a class="media-left" href="http://multibodymeeting.org"> <img src="/images/news/meeting.png" style="width=100px"> </a>
+	<div class="media-body"> 
+	The First Joint <a href="http://multibodymeeting.org">Chrono + MBDyn user meeting</a> will take place in Parma, Italy, 19-21 April 2017. This will be an interesting opportunity to exchange ideas, discuss future roadmaps for Chrono, do hands-on sessions and tutorials organized by our programmers. All users are invited to participate. <br>
+	Look at the <a href="http://multibodymeeting.org">http://multibodymeeting.org</a> website for additional information. <br>
+	You are welcome!
+	</div>
+</div>
+
+<div class = "well">
+	<p>22 December 2016 -- New Chrono::PyEngine installer and spider demo</p>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<div class="media-body"> 
+	Look at <a href="http://projectchrono.org/download/">the download page</a>: we uploaded a new installer for the precompiled Chrono::PyEngine. the Chrono::PyEngine wrapper allows using Python as a programming language for making easy Chrono simulations. In the Tutorials section for the Chrono::PyEngine you can find a new demo about the simulation of a 6-legged crawling robot - it uses the SolidWorks add-in. By the way, we uploaded a new Chrono::SolidWorks installer.  
+	</div>
+</div>
+
 
 <div class = "well">
 	<p>9-13 January 2017 -- Tutorial </p>
