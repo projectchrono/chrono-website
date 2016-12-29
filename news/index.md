@@ -7,7 +7,7 @@ permalink: /news/
 <h2> News</h2>
 
 <div class = "well">
-	<p>19-21 April 2017 -- TARDEC workshop</p>
+	<p>19-21 April 2017 -- Chrono user meeting</p>
 	<a class="media-left" href="http://multibodymeeting.org"> <img src="/images/news/meeting.png" style="width=100px"> </a>
 	<div class="media-body"> 
 	The First Joint <a href="http://multibodymeeting.org">Chrono + MBDyn user meeting</a> will take place in Parma, Italy, 19-21 April 2017. This will be an interesting opportunity to exchange ideas, discuss future roadmaps for Chrono, do hands-on sessions and tutorials organized by our programmers. All users are invited to participate. <br>
