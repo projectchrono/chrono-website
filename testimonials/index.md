@@ -13,10 +13,12 @@ A list of several past and current Chrono users is provided below. Please let us
 - University of Parma (Italy): Chrono has been used in robotics, controls, waste management, etc. [link](http://www.chronoengine.info/tasora/)
 - Multibody dynamics support in [GPUSPH](http://www.gpusph.org/about/)
 - Georgia Tech University (USA): robotics, bio-inspired robots (Dan Goldman) [link](http://crablab.gatech.edu/)
+- Technical University of Berlin (Germany): QBlade: aero-elastic wind turbine design and simulation tool development (David Marten) [link](https://sourceforge.net/projects/qblade/) [paper](https://www.researchgate.net/publication/312254454_Validation_and_comparison_of_a_newly_developed_aeroelastic_design_code_for_VAWT)
 - Politecnico di Milano (Italy): planet formation, waste management, etc. (Pierangelo Masarati) [link](https://home.aero.polimi.it/masarati/)
 - Politecnico di Milano (Italy): 2018 landing of MASCOT on asteroid Ryugu; MASCOT lander currently onboard the JAXA Hayabusa 2 mission (Pierluigi Di Lizia) [link](http://www.aero.polimi.it/index.php?id=304&L=0&uid=25)
 - University of Washington (USA): shock wave propagation in granular media (Nicholas Boechler) [link](http://faculty.washington.edu/boechler/)
 - Aarhus University (Denmark): wheel/terrain interaction, agroecology (Ole Balling) [link](http://pure.au.dk/portal/en/oba@iha.dk)
+- Marquette University (USA): autonomous vehicle simulation (J. Fleischmann) [link](http://www.marquette.edu/mechanical-engineering/fleischmann-jonathan.php)
 - Muroran Institute of Technology (Japan): robotics and synchronization control of multiple systems (Assoc. Prof. Hidekazu Kajiwara)
 
 ### Industry:
