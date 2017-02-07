@@ -56,18 +56,14 @@ slower than C++).
 The installer automatically detects your Python installation and adds
 the Chrono module.
 
-Note! currently only Python versions from 3.3 are supported. Versions 2.x are not supported. Also, only
+Note! currently only Python versions from 3.3 are supported. Versions 2.x are not officially supported. Also, only
 the 64 bit version of Python is currently supported with this installer.
 
 
 <div class="well">
-<h4> <span class="glyphicon glyphicon-download-alt"></span> Download PyChrono for Python</h4>
+<h4> <span class="glyphicon glyphicon-download-alt"></span> Download Chrono for Python</h4>
 
-<a href="http://www.projectchrono.org/assets/installers/PyChronoEngine_v2.0.7.exe"> Download Chrono::PyEngine v.2.0.7 module for Python v.3.3 64bit</a><br />
-
-<h5> older versions:</h5>
-
-<a href="http://www.projectchrono.org/assets/installers/PyChronoEngine_v2.0.0.exe"> Download Chrono::PyEngine v.2.0.0 module for Python v.3.3 64bit</a>
+<a href="http://www.projectchrono.org/assets/installers/ChronoPyEngine_v2.0.8.exe"> Download Chrono::PyEngine v.2.0.8 module for Python v.3.x 64bit</a><br />
 
 </div>
 
