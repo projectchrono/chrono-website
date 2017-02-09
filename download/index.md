@@ -14,11 +14,11 @@ so the preferred way for installing it is to **clone** the source code from our 
 However we provide also precompiled binaries if you want skip the build process:
 
 ## Windows users:
-A Project Chrono installer package is available from our repositories.
+A Project Chrono installer package is available from our repositories. The latest version features a more stable backend and a GUI for a friendlier user experience. If you have installed Project Chrono from the previous text-based installer, it is recommended to uninstall that version first. This installer will not interfere with manual builds of Project Chrono.
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-[Precompiled Project Chrono for Windows](http://projectchrono.org/repos/chrono/projectchrono-2_installer-20160911.exe).
+[Precompiled Project Chrono for Windows](http://projectchrono.org/repos/chrono/ChronoEngine-installer-2-20170207.exe).
 </div>
 
 
