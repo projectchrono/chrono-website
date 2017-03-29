@@ -18,7 +18,7 @@ A Project Chrono installer package is available from our repositories. The lates
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-[Precompiled Project Chrono for Windows](http://projectchrono.org/repos/windows/ChronoEngine-installer-2-20170207.exe).
+[Precompiled Project Chrono for Windows](http://projectchrono.org/repos/windows/ChronoEngine-installer-2-20170327.exe).
 </div>
 
 
