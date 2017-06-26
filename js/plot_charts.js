@@ -1,4 +1,4 @@
-var HTML_base = "http://projectchrono.org/metrics/api";
+var HTML_base = "https://projectchrono.org/metrics/api";
 google.charts.load("current", {
     "packages": ["corechart"]
 });
@@ -196,22 +196,22 @@ $.ajaxSetup({
 });
 // Gets list of test names
 $.ajax({
-        url: HTML_base + "/tests",
-        method: "GET",
-        data: "{};",
-        dataType: "jsonp",
-        jsonpCallback: "tests",
-        success: function(response, status, xhr) {
-            console.log($.trim(response));
-            // Changes "Test Loading!" text
-            $("#test_names option:selected").html(" --- Select A Test --- ");
-            showTestNames(JSON.parse(response));
-        },
-        error: function(xhr, status, error_code) {
-            console.log("Error:" + status + ": " + error_code);
-        }
-    })
-    // Shows a test when selected from the dropdown menu
+    url: HTML_base + "/tests",
+    method: "GET",
+    data: "{};",
+    dataType: "jsonp",
+    jsonpCallback: "tests",
+    success: function (response, status, xhr) {
+        console.log($.trim(response));
+        // Changes "Test Loading!" text
+        $("#test_names option:selected").html(" --- Select A Test --- ");
+        showTestNames(JSON.parse(response));
+    },
+    error: function (xhr, status, error_code) {
+        console.log("Error:" + status + ": " + error_code);
+    }
+})
+// Shows a test when selected from the dropdown menu
 function showTest(test_name) {
     $("#metrics").empty(); // Clears metrics div so new charts can be shown
     if (test_name == "default") {
@@ -234,11 +234,11 @@ function showTest(test_name) {
         data: "{};",
         dataType: "jsonp",
         jsonpCallback: "test",
-        success: function(response, status, xhr) {
+        success: function (response, status, xhr) {
             console.log(response);
             google.charts.setOnLoadCallback(drawCharts(response));
         },
-        error: function(xhr, status, error_code) {
+        error: function (xhr, status, error_code) {
             console.log("Error:" + status + ": " + error_code);
         }
     })
