@@ -14,6 +14,10 @@ permalink: /status/
 ### Project Chrono Benchmark Test Results:
 A set of tests are run on Project Chrono every time a push is made to our [GIT repository](https://github.com/projectchrono/chrono). The results of those tests are pushed to a database and posted here.
 
+The Linux build machine runs Arch Linux on an Intel Core i7-5960@3GHz 8-core with an Nvidia GTX 770 GPU, 32 GB RAM, and 128GB SSD.
+The Windows build machine uses the same hardware and runs Windows 10 Enterprise.
+The OSX build machine runs MacOS 10 on an Intel Core i5-4278U@2.6GHz dual-core with Intel Iris Graphics, 8GB RAM, and 1T HDD.
+
 To zoom in on a chart, click and drag your mouse across the area of interest. Right click on the chart to reset to its original size.
 
 <html>
