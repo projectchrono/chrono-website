@@ -29,6 +29,7 @@ Among the other components of the {% include module.html first="PROJECT" second=
 - <a href="http://sbel.wisc.edu/People/">Dario Mangoni</a> - PhD Student, Univeristy of Parma, Italy
 - <a href="http://sbel.wisc.edu/People/">Mike Taylor</a> - PhD Student, University of Wisconsin-Madison, USA
 - <a href="http://sbel.wisc.edu/People/">Milad Rakhsha</a> - PhD Student, University of Wisconsin-Madison, USA
+- <a href="http://sbel.wisc.edu/People/">Colin Vanden Heuvel</a> - Staff, University of Wisconsin-Madison, USA
 - <a href="http://sbel.wisc.edu/People/">Conlain Kelly</a> - Student, University of Wisconsin-Madison, USA
 - <a href="http://sbel.wisc.edu/People/">Nic Olsen</a> - Student, University of Wisconsin-Madison, USA
 - <a href="http://sbel.wisc.edu/People/">Asher Elmquist</a> - Student, University of Wisconsin-Madison, USA
