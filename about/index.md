@@ -7,7 +7,7 @@ permalink: /about/
 
 <h3>What is {% include module.html first="PROJECT" second="CHRONO" %}?</h3>
 
-{% include module.html first="PROJECT" second="CHRONO" %} is a physics-based modelling and simulation infrastructure based on a platform-independent, open-source design. 
+{% include module.html first="PROJECT" second="CHRONO" %} is a multi-physics modelling and simulation infrastructure based on a platform-independent, open-source design. 
 The core of {% include module.html first="PROJECT" second="CHRONO" %} is the Chrono::Engine middleware, an object-oriented library whose C++ API can be used to perform multi-physics simulations. 
 Among the other components of the {% include module.html first="PROJECT" second="CHRONO" %} ecosystems are: 
 
