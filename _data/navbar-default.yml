@@ -5,8 +5,10 @@ main:
       url: 'http://api.projectchrono.org'
       sub:
        -
-         title: API main page
+         title: Chrono Development Branch
          url: 'http://api.projectchrono.org'
+       -
+         title: (Coming Soon) Chrono 3.0.0
        -
          title: FAQ
          url: '/faq/'
