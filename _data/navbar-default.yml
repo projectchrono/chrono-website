@@ -21,9 +21,6 @@ main:
        -
          title: White Papers
          url: '/whitepapers/'
-       -
-         title: PDF Version
-         url: 'http://api.projectchrono.org/refman.pdf'
     - title: Movies
       url: '/gallery/'
       sub:
