@@ -45,7 +45,7 @@ Project Chrono release RPMs are also available from our repositories.
 
 
 ## Other Users:
-Precompiled binaries for other platforms are not provided. Project Chrono should be **cloned** from the public [GIT repository](https://github.com/projectchrono/chrono) and **compiled** from its C++ source code as described in the  [installation page](http://api.chrono.projectchrono.org/tutorial_install_chrono.html).
+Precompiled binaries for other platforms are not provided. Project Chrono should be **cloned** from the public [GIT repository](https://github.com/projectchrono/chrono) and **compiled** from its C++ source code as described in the  [installation page](http://api.projectchrono.org/tutorial_install_chrono.html).
 
 
 
@@ -82,7 +82,7 @@ the 64 bit version of Python is currently supported with this installer.
 
 {:warning: .ce-warning} 
 This stand-alone Chrono::PyEngine installer has been discontinued sice 29/12/2016, as we plan to distribute all the Chrono::PyEngine material together with the precompiled binaries of Chrono::Engine. There will be a single installer (the one that can be downloaded at the top of this page). Otherwise, just build the Python module by yourself as
-explained in [this page](http://api.chrono.projectchrono.org/module_python_installation.html).
+explained in [this page](http://api.projectchrono.org/module_python_installation.html).
 {:warning}
 
 {:info: .ce-info}
