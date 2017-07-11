@@ -16,22 +16,9 @@ However we provide also precompiled binaries if you want skip the build process:
 ## Windows users:
 A Project Chrono installer package is available from our repositories. The latest version features a more stable backend and a GUI for a friendlier user experience. If you have installed Project Chrono from the previous text-based installer, it is recommended to uninstall that version first. This installer will not interfere with manual builds of Project Chrono.
 
-<script type="text/javascript">
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("windows_link").href = "http://projectchrono.org/repos/windows/" + JSON.parse(this.responseText)["windows"];
-     console.log(this.responseText);
-     console.log(JSON.parse(this.responseText));
-    }
-  };
-  xhttp.open("GET", "http://projectchrono.org/repos/windows/latest.json", true);  
-  xhttp.send();
-</script>
-
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-<a href="http://projectchrono.org/repos/windows/latest" id="windows_link">Precompiled Project Chrono for Windows</a>
+<a href="http://projectchrono.org/repos/windows/ChronoEngine-installer-3.0.exe" id="windows_link">Precompiled Project Chrono 3.0.0 for Windows</a>
 </div>
 
 
