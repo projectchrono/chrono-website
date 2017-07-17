@@ -9,8 +9,8 @@ permalink: /download/
 Download precompiled binaries
 =============================
 
-Project Chrono is distributed as open source, 
-so the preferred way for installing it is to **clone** the source code from our [GIT repository](https://github.com/projectchrono/chrono) and to build the binaries by **compiling** the source code. 
+Project Chrono is distributed as open source,
+so the preferred way for installing it is to **clone** the source code from our [GIT repository](https://github.com/projectchrono/chrono) and to build the binaries by **compiling** the source code.
 However we provide also precompiled binaries if you want skip the build process:
 
 ## Windows users:
@@ -27,7 +27,8 @@ Project Chrono release RPMs are also available from our repositories.
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-[Precompiled Project Chrono for CentOS/RedHat/Fedora](http://projectchrono.org/repos/projectchrono-repo-0.1.0-1.noarch.rpm).
+<!-- [Precompiled Project Chrono for CentOS/RedHat/Fedora](http://projectchrono.org/repos/projectchrono-repo-0.1.0-1.noarch.rpm). -->
+Chrono 3.0.0 RPM Coming soon!
 </div>
 
 
@@ -67,15 +68,15 @@ the 64 bit version of Python is currently supported with this installer.
 
 </div>
 
-{:warning: .ce-warning} 
+{:warning: .ce-warning}
 This stand-alone Chrono::PyEngine installer has been discontinued sice 29/12/2016, as we plan to distribute all the Chrono::PyEngine material together with the precompiled binaries of Chrono::Engine. There will be a single installer (the one that can be downloaded at the top of this page). Otherwise, just build the Python module by yourself as
 explained in [this page](http://api.projectchrono.org/module_python_installation.html).
 {:warning}
 
 {:info: .ce-info}
-If you need to plot graphs in Python, we suggest you to consider also the installation of both 
-[MatplotLib](http://matplotlib.org/downloads.html) and 
-[Numpy](http://www.numpy.org) 
+If you need to plot graphs in Python, we suggest you to consider also the installation of both
+[MatplotLib](http://matplotlib.org/downloads.html) and
+[Numpy](http://www.numpy.org)
 Python packages.
 {:info}
 
@@ -101,7 +102,7 @@ The installer automatically detects your SolidWorks installation (v.2011,
 v.2012, v.2013 64bit supported and tested, for the moment) and adds the
 Chrono add-in.
 
-		  
+
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download Chrono::SolidWorks add-in for SolidWorks</h4>
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.08.exe"> Download Chrono::SolidWorks v.2.0.8 add-in for SolidWorks 2013 and higher (beta!)</a><br />
@@ -119,57 +120,57 @@ Chrono add-in.
 ---
 
 
-Useful tools 
+Useful tools
 =============================
 
 In the following we list download links for useful third-party tools and libraries that you might need if you want to build/use Project Chrono. If you plan to build Project Chrono from the source code in the GIT repository, some of them are mandatory (ex. the GIT client, the CMake tool, the compiler, etc.) but if you install the precompiled Project Chrono binaries, most are optional.
 
 
-### C++ compiler 
+### C++ compiler
 
-A C++ compiler is **required** in order to build 
+A C++ compiler is **required** in order to build
 Chrono libraries and demos. Chrono requires a C++11 compliant compiler. The Chrono building process has been tested with Microsoft compilers (required version Visual Studio v.2013 or later), GNU compilers, and Intel compilers.
 
 <div class="ce-info">
 
 In case you do not have a C++ compiler already installed on your computer, you can download one of these free tools:
 
-* Windows 
+* Windows
 
   * [Microsoft C++, in Visual Studio](https://www.visualstudio.com)  (suggested; the Community edition is also free)
-  
+
   * [MingW GNU C++](http://www.mingw.org/wiki/InstallationHOWTOforMinGW)
-  
-* Linux 
+
+* Linux
 
   * On most distributions, the GNU gcc compiler should be already installed by default. If not, install with:  
 	```
-	sudo apt-get install gcc build-essential 
+	sudo apt-get install gcc build-essential
 	```  
-    (assuming you have Ubuntu) 
-   
+    (assuming you have Ubuntu)
+
   * or download from [http://gcc.gnu.org](http://gcc.gnu.org)
 </div>
 
 <div class="ce-danger">
-The initial release of Visual Studio 2015 gives an 
-error when compiling Chrono. Using **update 2** of Visual Studio 2015 fixes this problem (download it from 
+The initial release of Visual Studio 2015 gives an
+error when compiling Chrono. Using **update 2** of Visual Studio 2015 fixes this problem (download it from
 [this page](https://www.visualstudio.com/en-us/news/vs2015-update2-vs.aspx). )
 </div>
 
 
 ### GIT client
 
-A GIT client compiler is **required** in order to build 
+A GIT client compiler is **required** in order to build
 Chrono libraries and demos.
-The C++ source code of Chrono is hosted on a GIT versioning system. 
-You need a GIT client that allows you to clone and pull the most recent release from GIThub. 
+The C++ source code of Chrono is hosted on a GIT versioning system.
+You need a GIT client that allows you to clone and pull the most recent release from GIThub.
 There are many alternatives, but we suggest [SourceTree](https://www.sourcetreeapp.com/).
 
-	
+
 ### CMake
 
-The CMake tool is **required** in order to in order to build 
+The CMake tool is **required** in order to in order to build
 Chrono libraries and demos. CMake is cross-platform and available
 for many operating systems (choose the one that you need, ex. Windows,
 Linux, etc.). Download it from [this site](http://www.cmake.org/cmake/resources/software.html).
@@ -214,8 +215,6 @@ site](http://www.povray.org).
 ### GNUplot
 
 The *optional* **POSTPROCESSING module** in Chrono provides
-functionality for exporting simulation data. One of the output file formats 
+functionality for exporting simulation data. One of the output file formats
 is for plotting graphs with the free GNUplot tool. Download it from [this
 site](http://www.gnuplot.info).
-
-
