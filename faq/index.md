@@ -83,3 +83,63 @@ One can think of Chrono as having five foundational components that provide supp
 ![](http://www.projectchrono.org/assets/manual/chronoStructure2016.png)
 
 
+#### How do I cite Chrono?
+
+To cite this website, use this: 
+
+
+Project Chrono. **Chrono: An Open Source Framework for the Physics-Based Simulation of Dynamic 
+Systems.** http://projectchrono.org. Accessed: 2016-03-07.
+
+
+Bibtex:
+```
+@misc{projectChronoWebSite,
+  author = {\relax {Project Chrono},
+  title = {Chrono: {An Open Source Framework for the Physics-Based Simulation of Dynamic Systems}},
+  howpublished = {\url{http://projectchrono.org}},
+  note = {Accessed: 2016-03-07}
+}
+```
+\\
+To cite the [Project Chrono GitHub](https://github.com/projectchrono/chrono):
+
+
+Project Chrono. **Chrono: An Open Source Framework for the Physics-Based Simulation of Dynamic 
+Systems.** https://github.com/projectchrono/chrono. Accessed: 2017-05-07.
+
+
+Bibtex:
+```
+@misc{projectChronoGithub,
+  author = {\relax {Project Chrono} Development Team},
+  title = {Chrono: {An Open Source Framework for the Physics-Based Simulation of Dynamic Systems}},
+  howpublished = {\url{https://github.com/projectchrono/chrono}},
+  note = {Accessed: 2017-05-07}
+}
+```
+\\
+To cite the latest paper describing Chrono:
+
+
+A. Tasora, R. Serban, H. Mazhar, A. Pazouki, D. Melanz, J. Fleischmann, M. Taylor, H. Sugiyama,
+and D. Negrut. **Chrono: An open source multi-physics dynamics engine**. In T. Kozubek, editor, *High
+Performance Computing in Science and Engineering – Lecture Notes in Computer Science*, pages 19–49.
+Springer, 2016.
+
+
+Bibtex:
+```
+@InCollection{Chrono2016,
+  Title                    = {Chrono: An open source multi-physics dynamics engine},
+  Author                   = {Tasora, A. and Serban, R. and Mazhar, H. and Pazouki, A. and Melanz, D. and Fleischmann, J. and Taylor, M. and Sugiyama, H. and Negrut, D.},
+  Booktitle                = {{High Performance Computing in Science and Engineering -- Lecture Notes in Computer Science}},
+  Publisher                = {Springer},
+  Year                     = {2016},
+  Editor                   = {Kozubek, T.},
+  Pages                    = {19--49}
+}
+```
+
+
+

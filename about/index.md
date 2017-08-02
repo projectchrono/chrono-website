@@ -20,9 +20,9 @@ Among the other components of the {% include module.html first="PROJECT" second=
 
 
 <h4>Technical Leads</h4>
-- Associate Professor Alessandro Tasora: <a href="http://dynamics.eng.unipr.it/tasora">Alessandro Tasora</a>, University of Parma, Italy
-- Associate Scientist Radu Serban: <a href="http://sbel.wisc.edu/People/">Radu Serban</a>, University of Wisconsin-Madison, USA
-- Professor Dan Negrut: <a href="http://homepages.cae.wisc.edu/~negrut/">Dan Negrut</a>, University of Wisconsin-Madison, USA
+- Associate Professor <a href="http://dynamics.eng.unipr.it/tasora">Alessandro Tasora</a> - University of Parma, Italy
+- Associate Scientist <a href="http://sbel.wisc.edu/People/">Radu Serban</a> - University of Wisconsin-Madison, USA
+- Professor <a href="http://homepages.cae.wisc.edu/~negrut/">Dan Negrut</a> - University of Wisconsin-Madison, USA
 
 
 <h4>Key Project Chrono Developers</h4>
@@ -42,8 +42,8 @@ Among the other components of the {% include module.html first="PROJECT" second=
 - <a href="http://sbel.wisc.edu/People/heyn/index.htm ">Toby Heyn, PhD</a> - former UW-Madison student, currently at Epic Systems
 - <a href="http://sbel.wisc.edu/People/">Arman Pazouki</a> - former UW-Madison Assistant Scientist, now at Cal State University - Los Angeles
 - <a href="http://melanz.us/ ">Dan Melanz</a> - former UW-Madison student, now at Energid
-- <a href="http://sbel.wisc.edu/People/">Antonio Recuero</a> - former Assistant Scientist, now at Goodyear Tire
-- <a href="https://andrewseidl.com/">Andrew Seidl</a> - Former University of Wisconsin-Madison student, now at MapD
+- <a href="http://sbel.wisc.edu/People/">Antonio Recuero</a> - former UW-Madison Assistant Scientist, now at Goodyear Tire
+- <a href="https://andrewseidl.com/">Andrew Seidl</a> - Former UW-Madison student, now at MapD
 
 
 ### HISTORY
