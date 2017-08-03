@@ -4,7 +4,7 @@ title: Whitepapers
 permalink: /whitepapers/
 ---
 
-White Papers 
+White Papers
 ---
 ---
 
@@ -13,23 +13,29 @@ White Papers
 - **Handling of rotations in Chrono**
   [PDF](http://www.projectchrono.org/assets/white_papers/ChronoCore/rotations.pdf)
 
-- **Frame kinematics in Chrono** 
+- **Frame kinematics in Chrono**
   [PDF](http://www.projectchrono.org/assets/white_papers/ChronoCore/frame_kinematics.pdf)
 
-- **Time integrators** 
+- **Time integrators**
   [PDF](http://www.projectchrono.org/assets/white_papers/ChronoCore/integrator.pdf)
-  
-- **Support for nonlinear finite element analysis via ANCF** 
+
+- **Support for nonlinear finite element analysis via ANCF**
   [PDF](http://www.projectchrono.org/assets/white_papers/FEA/WP_ANCF.pdf)
-  
-- **Corotational Euler-Bernoulli beams** 
+
+- **Corotational Euler-Bernoulli beams**
   [PDF1](http://www.projectchrono.org/assets/white_papers/FEA/euler_beams.pdf)   [download PDF2](http://www.projectchrono.org/assets/white_papers/FEA/WhitePaper_Co-rotational.pdf)
 
 
 ## Journal papers
 
+- A. Tasora, R. Serban, H. Mazhar, A. Pazouki, D. Melanz, J. Fleischmann, M. Taylor, H. Sugiyama, and D. Negrut. <br>
+  **Chrono: An open source multi-physics dynamics engine**, <br>
+  In T. Kozubek, editor, *High Performance Computing in Science and Engineering – Lecture Notes in Computer Science*, pages 19–49.
+  Springer, 2016, <br>
+  [download PDF](http://projectchrono.org/assets/white_papers/chronoSpringer.pdf)
+
 - H. Mazhar, T. Heyn, D. Negrut, A. Tasora,  <br>
-  **Using Nesterov's Method to Accelerate Multibody Dynamics with Friction and Contact** <br>
+  **Using Nesterov's Method to Accelerate Multibody Dynamics with Friction and Contact**, <br>
   ACM Transactions on Graphics, vol.34(3), 2015,  <br>
   [download PDF](http://dx.doi.org/10.1145/2735627)
 
@@ -55,7 +61,7 @@ White Papers
 
 - Tasora, A., Anitescu, M. <br>
   **A convex complementarity approach for simulating large granular flows**,  <br>
-  Journal of Computational and Nonlinear Dynamics, 2010, 5, 1-10 
+  Journal of Computational and Nonlinear Dynamics, 2010, 5, 1-10
 
 - Tasora, A., Negrut, D., & Anitescu, M., <br>
   **Large-scale parallel multi-body dynamics with frictional contact on the graphical processing unit**. <br>
@@ -65,4 +71,3 @@ White Papers
   **A parallel algorithm for solving complex multibody problems with streaming processors**,  <br>
   International Journal for Computational Vision and Biomechanics, Professional Engineering Publishing, 2009, 1(2), 131-143   <br>
   [preprint](http://ied.unipr.it/tasora/pubblicazioni/paper_IJCV.pdf)
-
