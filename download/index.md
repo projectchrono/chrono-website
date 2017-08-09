@@ -18,17 +18,16 @@ A Project Chrono installer package is available from our repositories. The lates
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-<a href="http://projectchrono.org/repos/windows/ChronoEngine-installer-3.0.exe" id="windows_link">Precompiled Project Chrono 3.0.0 for Windows</a>
+[Precompiled Project Chrono 3.0.0 for Windows](href="http://projectchrono.org/repos/windows/ChronoEngine-installer-3.0.exe).
 </div>
 
 
-## CentOS/RedHat/Fedora users:
+## CentOS/RHEL users:
 Project Chrono release RPMs are also available from our repositories.
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-<!-- [Precompiled Project Chrono for CentOS/RedHat/Fedora](http://projectchrono.org/repos/projectchrono-repo-0.1.0-1.noarch.rpm). -->
-Chrono 3.0.0 RPM Coming soon!
+[Precompiled Project Chrono 3.0.0 CentOS/RedHat](http://projectchrono.org/repos/projectchrono-repo-0.1.0-1.noarch.rpm). 
 </div>
 
 
