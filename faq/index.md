@@ -29,7 +29,7 @@ Chrono is a simulation tool that can be used to understand how physical systems 
 Robotics, vehicle dynamics (wheeled and tracked), terramechanics, granular dynamics, mechanism design, farming, food processing, building collapse, connected autonomous vehicles.
 <br><br>
 
-#### Why shouldn't I use Bullet@copy, or ODE@copy, or Physx@copy? They too look at how systems change in time and for some problems they do it many times faster than Chrono.
+#### Why shouldn't I use Bullet&copy;, or ODE&copy;, or Physx&copy;? They too look at how systems change in time and for some problems they do it many times faster than Chrono.
 Chrono takes a physics-based approach to the modeling and simulation of complex dynamic systems.  As such, we are paying a price for trying to stay faithful to the underlying physics governing the time evolution of the system of interest. We are committing a significant chunk of our effort to validate the modeling and simulation techniques we rely upon in Chrono. Many of these validation activities are reported in several [technical reports and theses](http://sbel.wisc.edu/Publications/).
 <br><br>
 
@@ -47,7 +47,7 @@ You can contribute in many ways:
 <br><br>
 
 #### Can Chrono be compiled on platform X with compiler Y?
-Currently we build Chrono under Windows&copy (32 and 64 bit with the MingW GNU&copy compiler,  Microsoft VisualC++&copy, and Intel&copy compilers) and Linux&copy (32 and 64 bit, GNU and Intel&copy compilers).
+Currently we build Chrono under Windows&copy; (32 and 64 bit with the MingW GNU&copy; compiler,  Microsoft VisualC++&copy;, and Intel&copy; compilers) and Linux&copy; (32 and 64 bit, GNU and Intel&copy; compilers).
 <br><br>
 
 #### How is Chrono organized?
