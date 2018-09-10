@@ -7,6 +7,22 @@ permalink: /news/
 <h2> News</h2>
 
 <div class = "well">
+	<p>9 September 2018 -- Isymtec cloud-based GUI</p>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<div class="media-body">
+	The ISYMTEC company <a href="https://www.isymtec.ai"> https://www.isymtec.ai </a> 
+	has released a first demo of its web GUI for Multi-body System Simulation in Cloud. They use
+	Chrono as a simulation library, run in the cloud. 
+
+	Thanks to the cloud technology, no installation is needed – sign up and build a MBS model in your browser, download and save it.
+	It work from anywhere – all you need is internet connection and a browser.
+    In future you’ll be able to perform scalable calculations in the cloud.
+
+	They kindly released their code for the serialization and parsing of the models at:
+    <a href = "https://github.com/IsymtecAi/isymtecai-chrono-parser">https://github.com/IsymtecAi/isymtecai-chrono-parser</a>.
+	</div>
+</div>
+
 
 <div class = "well">
 	<p>17 July 2017 -- Chrono 3.0.0 released</p>
