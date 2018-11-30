@@ -77,7 +77,7 @@ function makeChart(data, prop_name) {
             axis: "horizontal",
             actions: ["dragToZoom", "rightClickToReset"],
             keepInBounds: true,
-            maxZoomIn: .1
+            maxZoomIn: .01
         },
         chartArea: {
             height: "50%",
