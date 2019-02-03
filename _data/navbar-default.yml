@@ -14,8 +14,8 @@ main:
          title: FAQ
          url: '/faq/'
        -
-         title: Model Library
-         url: '/models/'
+         title: PyChrono
+         url: '/pychrono/'
        -
          title: Validation Studies
          url: '/validation/'

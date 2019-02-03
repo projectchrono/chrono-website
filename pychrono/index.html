@@ -1,0 +1,241 @@
+---
+layout: default
+title: PyChrono - An Open-Source Physics Engine
+path: "assets/Images"
+
+---
+
+<style type="text/css">
+	
+	.carousel-inner > .item > img {
+		object-fit: cover;
+		height: 550px;
+		width: 100%;
+	}
+	.carousel-control.left {
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+		opacity: 1;
+	}
+	.carousel-control.right {
+		background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+		opacity: 1;
+	}
+
+	.carousel-caption {
+		padding-left: 30px;
+		left: 0px;
+		top: 0px;
+		text-align: left;
+		font-size:120%;
+		font-weight: bold;
+		text-shadow: none;
+	}
+	.credits {
+		position: absolute;
+		color : #404040;
+		padding-left: 30px;
+		left: 0px;
+		top: 0px;
+		text-align: left;
+		font-size:100%;
+	}
+
+    .chfeature {
+		border-radius: 15px 50px 15px 15px;
+		border-width: 3px;
+		border-style: solid;
+		border-color: #FF8800;
+		overflow: hidden;
+		margin-bottom: 35px;
+		padding-right: 15px;
+		background-color: #FCFCFC;
+		height: 180px;
+		font-size: 80%;
+	}
+	.chfeature img {
+		width: 60px;
+		margin-right: 15px;
+		float: left;
+		object-fit: cover;
+		height: 100%;
+		min-height: 180px;
+		filter: grayscale(100%);
+		opacity: 0.5;
+	}
+    </style>
+	
+
+	<a id="top"></a>
+	
+
+
+</div>
+
+<div class="container-flow" style="overflow:hidden; position: relative; top:-4px; height:100%; text-align: center; justify-content: center; display: flex; flex-direction: column;">
+<div style="width: 100%; z-index: 20;background: rgba(255, 255, 255, 0.8); margin-top:10em; padding-top: 1em; padding-bottom: 1em">
+  <img src="logo_pychrono.svg" alt="PYCHRONO" style="width:50%;">
+  <h2 style="color:rgb(0.4,0.4,0.4); padding-top:1em"> A Multi-physics Simulation Engine</h2>
+</div>
+<div style="z-index: 21;background: rgba(50, 50, 50, 0.8); padding-top:2em; padding-bottom:3em">
+  <h3 style="color:white">PyChrono is a Python library that wraps the Chrono C++ simulation library</h3>
+  <h3 style="color:white; padding-bottom:1em">Explore robotics and AI using PyChrono in the Python ecosystem</h3>
+  <img src="logo_python.png" alt="Python" style="height:100px; z-index:22">
+  <img src="logo_anaconda.png" style="height:100px" alt="Anaconda">
+  <img src="logo_tensorflow.png" style="height:100px" alt="TensorFlow">
+</div>
+<video autoplay="" muted="" loop="" id="myVideo" style="height=auto; min-width:100%; position: absolute; top:0px; left: 0px; z-index:18">
+  <source src="Smoke_low.mp4" type="video/mp4">
+</video>
+</div>
+
+
+<div class="container" style="padding-top:4em; padding-bottom:4em">
+
+	<div class="row">
+		  <div class="col-md-4" style="overflow:hidden;">
+			<img src="Tutorial_escapement_square.jpg" style="width:90%; z-index:1; border-radius:50%">
+		  </div>
+		  
+		  <div class="col-md-4" style="overflow:hidden;">
+			<img src="Tutorial_robot_square.jpg" style="width:90%; z-index:1; border-radius:50%">
+		  </div>  
+		  
+		  <div class="col-md-4" style="overflow:hidden;">
+			<img src="Tutorial_spider_robot_square.jpg" style="width:90%; z-index:1; border-radius:50%">
+		  </div>
+	</div> 
+	
+	<div class="row">
+		<div class="col-md-4">
+			<h3>Simulation with Python language</h3>
+			<p>PyChrono is the Python version of the <a href="http://projectchrono.org">Chrono</a> simulation library. It is cross-platform, open source, and 
+			released under a <a href="https://projectchrono.org/license-chrono.txt">BSD-3 license</a>.</p>
+			<p>Use PyChrono together with many other Python 
+			libraries. For example, do plots using MayaVi, do postprocessing with NumPy, train AI neural networks
+			with TensorFlow, etc.</p>
+		  </div> 
+		  <div class="col-md-4">
+			<h3>Engineering-level results</h3>
+			<p>Add rigid bodies, collision shapes, engines, linear actuators, springs, torsional springs,
+			joints with limited rotations, bushings, markers, forces, motion laws, curved glyphs, 
+			imposed trajectories, FEA shells, beams and volumes.</p>
+			<p>Objects can have collision shapes for frictional contacts. A
+			non-smooth dynamics time integrator allows a fast and robust simulation of contacts.</p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Robotics and AI</h3>
+			<p>Use a Python-based AI framework such as TensorFlow to 
+			train an AI via Deep Reinforcement Learning, where episodes
+			are PyChrono simulations.</p>
+			<p>For example, make a legged robot learn how to 
+			walk in an unstructured environment.</p>
+			<p>Thanks to the engineering-level features of Chrono, robots can be
+			modeled as similar as possible to the real systems.</p>
+		  </div>
+	 </div> 
+</div>
+ 
+ 
+<div class="container-flow" style="background-image: url('anaconda_green.jpg'); background-size: cover; padding-top:5em; padding-bottom:5em; text-align: center; justify-content: center;">
+	<h2>
+		Install with <a href="https://www.anaconda.com">Anaconda</a>:
+	</h2>
+	<div style="margin-bottom:1em; margin-top:1em">
+		<code style="padding:0.2em; border-style: solid; border-width: 3px; border-color:rgb(240,240,200); background:rgb(240,240,240); margin-bottom:3em; margin-top:1em">
+			conda install -c projectchrono pychrono
+		</code>
+	</div>
+	<div>
+		<a href="https://anaconda.org/projectchrono/pychrono"> <img src="https://anaconda.org/projectchrono/pychrono/badges/platforms.svg" /> </a>
+		<a href="https://anaconda.org/projectchrono/pychrono"> <img src="https://anaconda.org/projectchrono/pychrono/badges/license.svg" /> </a>
+		<a href="https://anaconda.org/projectchrono/pychrono"> <img src="https://anaconda.org/projectchrono/pychrono/badges/latest_release_date.svg" /> </a>
+		<a href="https://anaconda.org/projectchrono/pychrono"> <img src="https://anaconda.org/projectchrono/pychrono/badges/installer/conda.svg" /> </a>
+	</div>
+</div>
+
+
+<div class="container" style="padding-top:4em; padding-bottom:4em">
+	<div class="row">
+		  <div class="col-md-4" style="overflow:hidden;">
+			<img src="Tutorial_masonry.jpg" style="width:100%; border-radius: 50%;">
+		  </div>
+		  
+		  <div class="col-md-8">
+			
+			<div class="row">
+			  <div class="col-md-2 col-xs-2">
+				 <i class="fa fa-sign-in fa-2x" style="color:#40BB40;"></i>
+			  </div> <!-- col-md-2 col-xs-2 -->
+			  <div class="col-md-10 col-xs-10 usefullink-item">
+				<h4><a href="http://api.projectchrono.org/development/pychrono_installation.html">Install</a></h4>
+				<p>Detailed instructions on PyChrono installation</p>
+			  </div> <!-- col-md-10 col-xs-10 -->
+			</div> <!-- row -->
+			
+			<div class="row">
+			  <div class="col-md-2 col-xs-2">
+				<i class="fa fa-info-circle fa-2x" style="color:#40BB40;"></i>
+			  </div>
+			  <div class="col-md-10 col-xs-10 usefullink-item">
+				<h4><a href="http://api.projectchrono.org/development/pychrono_introduction">Introduction</a></h4>
+				<p>Introduction and first steps with PyChrono</p>
+			  </div>
+			</div>
+			
+			<div class="row">
+			  <div class="col-md-2 col-xs-2">
+				<i class="fa fa-puzzle-piece fa-2x" style="color:#40BB40;"></i>
+			  </div>
+			  <div class="col-md-10 col-xs-10 usefullink-item">
+				<h4><a href="http://api.projectchrono.org/development/tutorial_table_of_content_pychrono.html">Tutorials</a></h4>
+				<p>Tutorials for learning PyChrono</p>
+			  </div>
+			</div>
+			
+			<div class="row">
+			  <div class="col-md-2 col-xs-2">
+				<i class="fa fa-map fa-2x" style="color:#40BB40;"></i>
+			  </div>
+			  <div class="col-md-10 col-xs-10 usefullink-item">
+				<h4><a href="http://api.projectchrono.org/development/manual_root.html">Reference</a></h4>
+				<p>Reference manual on Chrono system modeling</p>
+			  </div>
+			</div>
+			
+			<div class="row">
+			  <div class="col-md-2 col-xs-2">
+				 <i class="fa fa-circle-o fa-2x" style="color:#40BB40;"></i>
+			  </div>
+			  <div class="col-md-10 col-xs-10 usefullink-item">
+				<h4><a href="https://anaconda.org/projectchrono/pychrono">Anaconda PyChrono package</a></h4>
+				<p>Repository with ready-to-install pre-built Anaconda packages</p>
+			  </div>
+			</div>
+			
+			<div class="row">
+			  <div class="col-md-2 col-xs-2">
+				 <i class="fa fa-github-square fa-2x" style="color:#40BB40;"></i>
+			  </div>
+			  <div class="col-md-10 col-xs-10 usefullink-item">
+				<h4><a href="https://github.com/projectchrono/chrono">GitHub repository</a></h4>
+				<p>Repository with the full {% include module.html first="PROJECT" second="CHRONO" %} C++ source code.</p>
+			  </div>
+			</div>
+			
+			<div class="row">
+			  <div class="col-md-2 col-xs-2" style="color:#40BB40;">
+				<i class="fa fa-comments-o fa-2x"></i>
+			  </div>
+			  <div class="col-md-10 col-xs-10 usefullink-item">
+				<h4><a href="/forum/">Forum</a></h4>
+				<p>Find answers to your questions.</p>
+			  </div>
+			</div>
+			
+		  </div>
+	 </div> 
+</div>
+ 
+ 
+	
+
