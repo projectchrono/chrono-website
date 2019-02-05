@@ -15,7 +15,7 @@ Among the other components of the {% include module.html first="PROJECT" second=
 - Chrono::Vehicle, which provides support for vehicle dynamics simulation
 - Chrono::FEA, which provides support for linear and nonlinear Finite Element Analysis
 - Chrono::FSI, which provides support for Fluid-Solid Interaction problems
-- PyChrono, which ports Chrono::Engine to Python
+- <a href="http://projectchrono.org/pychrono">PyChrono</a>, which ports Chrono::Engine to Python
 - Chrono::SolidWorks, an add-in for SolidWorks&copy;, which can be used to export 3D models and geometries from a  CAD file into Chrono
 
 
