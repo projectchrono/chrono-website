@@ -31,6 +31,7 @@ A list of several past and current Chrono users is provided below. Please let us
 - [Motesque](http://www.motesque.com) (USA)
 - [D-ICE Engineering](http://www.dice-engineering.com) (France)
 - [Isymtec.ai](https://www.isymtec.ai) (Germany)
+- Danfoss (Denmark)
 
 ### Government labs: 
 - US Army Tank Automotive Research, Development and Engineering Center (USA)
