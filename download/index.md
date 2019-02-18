@@ -42,38 +42,23 @@ Precompiled binaries for other platforms are not provided. Project Chrono should
 ---
 
 
-Chrono::PyEngine
-================
+PyChrono
+========
 
-This is the ready-to-use Chrono::PyEngine for Python. It is a module
+[PyChrono](http://projectchrono.org/pychrono/) is Chrono for Python. It is a module
 that can be installed in your Python environment so that you can access
 the functions of Chrono via the [Python
 language](http://www.python.org). This can be an easier way to use
-Chrono because Python is more friendly than C++ (but remember
-that not all C++ functions are mapped to Python, moreover Python is
-slower than C++).
+Chrono because Python is more friendly than C++.
 
-The installer automatically detects your Python installation and adds
-the Chrono module.
+We support installation of PyChrono via the **conda** installer:
 
-Note! currently only Python versions from 3.3 are supported. Versions 2.x are not officially supported. Also, only
-the 64 bit version of Python is currently supported with this installer.
+```
+conda install -c projectchrono pychrono
+```
 
-
-<div class="well">
-<h4> <span class="glyphicon glyphicon-download-alt"></span> Download Chrono for Python</h4>
-
-<a href="http://www.projectchrono.org/assets/installers/ChronoPyEngine_v3.0.0.exe"> Download Chrono::PyEngine v.3.0.0 module for Python v.3.x 64bit</a><br />
-<a href="http://www.projectchrono.org/assets/installers/ChronoPyEngine_v2.0.8.exe"> Download Chrono::PyEngine v.2.0.8 module for Python v.3.x 64bit</a><br />
-
-</div>
-
-{:warning: .ce-warning}
-This stand-alone Chrono::PyEngine installer has been discontinued sice 29/12/2016, as we prefer to distribute all the Chrono::PyEngine material together with the precompiled binaries of Chrono::Engine. There will be a single installer (the one that can be downloaded at the top of this page). Otherwise, just build the Python module by yourself as
-explained in [this page](http://api.projectchrono.org/module_python_installation.html).
-{:warning}
-
-
+For more details on the installation, refer to the 
+[PyChrono installation page](http://api.projectchrono.org/pychrono_installation.html).
 
 
 <br>
