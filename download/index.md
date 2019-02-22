@@ -6,50 +6,48 @@ permalink: /download/
 
 {::options parse_block_html="true" /}
 
+Get the source
+==============
+
+Project Chrono is distributed as open source, so the preferred way for installing it is to **clone** the source code from our [GIT repository](https://github.com/projectchrono/chrono) and to build the libraries by **compiling** the source code.
+
+Instructions for configuring and building the Chrono libraries are provided on the [installation page](http://api.projectchrono.org/development/tutorial_table_of_content_install.html).
+
+<br>
+
+---
+
 Download precompiled binaries
 =============================
 
-Project Chrono is distributed as open source,
-so the preferred way for installing it is to **clone** the source code from our [GIT repository](https://github.com/projectchrono/chrono) and to build the binaries by **compiling** the source code.
-However we provide also precompiled binaries if you want skip the build process:
+We also provide precompiled binaries if you want skip the build process:
 
-## Windows users:
-A Project Chrono installer package is available from our repositories. The latest version features a more stable backend and a GUI for a friendlier user experience. If you have installed Project Chrono from the previous text-based installer, it is recommended to uninstall that version first. This installer will not interfere with manual builds of Project Chrono.
+### Windows users:
+The latest version of the installer features a more stable backend and a GUI for a friendlier user experience. If you have installed Project Chrono from the previous text-based installer, it is recommended to uninstall that version first. This installer will not interfere with manual builds of Project Chrono.
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
+[Precompiled Project Chrono 4.0.0 for Windows](http://projectchrono.org/repos/windows/ChronoEngine-installer-4.0.exe).
+<br>
 [Precompiled Project Chrono 3.0.0 for Windows](http://projectchrono.org/repos/windows/ChronoEngine-installer-3.0.exe).
 </div>
 
 
-## CentOS/RHEL users:
-Project Chrono release RPMs are also available from our repositories.
+### CentOS/RHEL users:
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
 [Precompiled Project Chrono 3.0.0 CentOS/RedHat](http://projectchrono.org/repos/projectchrono-repo-0.1.0-1.noarch.rpm). 
 </div>
 
-
-## Other Users:
-Precompiled binaries for other platforms are not provided. Project Chrono should be **cloned** from the public [GIT repository](https://github.com/projectchrono/chrono) and **compiled** from its C++ source code as described in the  [installation page](http://api.projectchrono.org/tutorial_install_chrono.html).
-
-
-
-<br>
 <br>
 
 ---
 
-
 PyChrono
 ========
 
-[PyChrono](http://projectchrono.org/pychrono/) is Chrono for Python. It is a module
-that can be installed in your Python environment so that you can access
-the functions of Chrono via the [Python
-language](http://www.python.org). This can be an easier way to use
-Chrono because Python is more friendly than C++.
+[PyChrono](http://projectchrono.org/pychrono/) is Chrono for Python. It is a module that can be installed in your Python environment so that you can access the functions of Chrono via the [Python language](http://www.python.org). This can be an easier way to use Chrono because Python is more friendly than C++.
 
 We support installation of PyChrono via the **conda** installer:
 
