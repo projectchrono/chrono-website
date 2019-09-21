@@ -17,6 +17,7 @@ Among the other components of the {% include module.html first="PROJECT" second=
 - Chrono::MKL and Chrono::MUMPS, which provide interfaces to the PARDISO and MUMPS sparse direct linear solvers
 - Chrono::Parallel, a library for enabling multi-core parallel computation in Chrono
 - Chrono::Distributed, a library for enabling MPI distributed parallel computation in Chrono
+- Chrono::Granular, a library for GPU-enabled granular dynamics simulation in Chrono
 - Chrono::Cascade, a library which provides CAD interoperability
 - Chrono::SolidWorks, an add-in for SolidWorks&copy;, which can be used to export 3D models and geometries from a  CAD file into Chrono
 
@@ -29,24 +30,24 @@ Among the other components of the {% include module.html first="PROJECT" second=
 
 <h4>Key Project Chrono Developers</h4>
 - Dario Mangoni - PhD Student, University of Parma, Italy
-- <a href="http://sbel.wisc.edu/People/">Mike Taylor</a> - PhD Student, University of Wisconsin-Madison, USA
 - <a href="http://sbel.wisc.edu/People/">Milad Rakhsha</a> - PhD Student, University of Wisconsin-Madison, USA
-- <a href="http://sbel.wisc.edu/People/">Colin Vanden Heuvel</a> - Staff, University of Wisconsin-Madison, USA
-- <a href="http://sbel.wisc.edu/People/">Conlain Kelly</a> - Student, University of Wisconsin-Madison, USA
-- <a href="http://sbel.wisc.edu/People/">Nic Olsen</a> - Student, University of Wisconsin-Madison, USA
 - <a href="http://sbel.wisc.edu/People/">Asher Elmquist</a> - Student, University of Wisconsin-Madison, USA
-- <a href="http://sbel.wisc.edu/People/">Zubin Lal</a> - Student, University of Wisconsin-Madison, USA
+- <a href="http://sbel.wisc.edu/People/">Colin Vanden Heuvel</a> - Staff, University of Wisconsin-Madison, USA
+- <a href="http://sbel.wisc.edu/People/">Mike Taylor</a> - PhD Student, University of Wisconsin-Madison, USA
+- <a href="http://sbel.wisc.edu/People/">Nic Olsen</a> - Student, University of Wisconsin-Madison, USA
 - Simone Benatti - PhD Student, University of Parma, Italy
 
 
 <h4>Past developers</h4>
-- <a href="http://hamelot.co.uk/">Hammad Mazhar</a> - former UW-Madison student, now at NVIDIA
-- <a href="http://sbel.wisc.edu/People/madsen/sbel.html ">Justin Madsen, PhD</a> - former UW-Madison student, now at Oshkosh Corporation
-- <a href="http://sbel.wisc.edu/People/heyn/index.htm ">Toby Heyn, PhD</a> - former UW-Madison student, currently at Epic Systems
-- <a href="http://sbel.wisc.edu/People/">Arman Pazouki</a> - former UW-Madison Assistant Scientist, now at Cal State University - Los Angeles
-- <a href="http://melanz.us/ ">Dan Melanz</a> - former UW-Madison student, now at Energid
-- <a href="http://sbel.wisc.edu/People/">Antonio Recuero</a> - former UW-Madison Assistant Scientist, now at Goodyear Tire
+- <a href="http://hamelot.co.uk/">Dr. Hammad Mazhar</a> - former UW-Madison PhD student, now at NVIDIA
+- <a href="http://melanz.us/ ">Dr. Dan Melanz</a> - former UW-Madison student, now at Energid
 - <a href="https://andrewseidl.com/">Andrew Seidl</a> - Former UW-Madison student, now at MapD
+- Dr. Justin Madsen - former UW-Madison PhD student, now at Oshkosh Corporation
+- Dr. Toby Heyn - former UW-Madison PhD student, currently at Epic Systems
+- Dr. Arman Pazouki - former UW-Madison Assistant Scientist, now at Cal State University - Los Angeles
+- Dr. Antonio Recuero - former UW-Madison Assistant Scientist, now at Idaho National Lab
+- Conlain Kelly - UW-Madison undergraduate student, now grad student at Georgia Tech
+- Dylan Hatch - UW-Madison CS undergraduate student, now at Google
 
 
 ### HISTORY
@@ -58,7 +59,9 @@ Until 2002, Chrono::Engine was tightly linked to the Realsoft3D modeller. In 200
 
 [Professor Dan Negrut](http://homepages.cae.wisc.edu/~negrut/index.htm) joined the Project Chrono effort in 2007. The members of Simulation-Based Engineering Lab [\(SBEL\)](http://sbel.wisc.edu) at the University of Wisconsin-Madison have been active in its development ever since. 
 
-We took the decision to release Chrono as open source in 2013, when we started to use the name {% include module.html first="PROJECT" second="CHRONO" %} to recognize the fact that this software infrastructure had become a multi-physics simulation engine. In 2014, the US Army decided to invest US $1.8 million over a two year period to further develop Chrono as an open source platform for physics-based modelling and simulation. Chrono development is going strong with the next release planned for August 15, 2016. 
+Senior Scientist Radu Serban starting working on Project Chrono effort in 2013, at the time he joined the Simulation-Based Engineering Lab. 
+
+We took the decision to release Chrono as open source in 2013, when we started to use the name {% include module.html first="PROJECT" second="CHRONO" %} to recognize the fact that this software infrastructure had become a multi-physics simulation engine. In 2014, the US Army decided to invest US $1.8 million over a two year period to further develop Chrono as an open source platform for physics-based modelling and simulation. Recent investments that will augment Chrono include US $1.0 million from National Science Foundation (2019-2023), US $0.4 million from US Army Research Office (2019-2023), US $0.32 million from US Army (2019). The current version of Chrono is 4.0 and it was released in July of 2019.
 
 ### Copyright and License
 Chrono is copyrighted by {% include module.html first="PROJECT" second="CHRONO" %} and is released under a <a href="https://projectchrono.org/license-chrono.txt">BSD-3 license</a>.

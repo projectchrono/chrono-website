@@ -35,7 +35,7 @@ A list of several past and current Chrono users is provided below. Please let us
 - Danfoss (Denmark)
 
 ### Government labs: 
-- US Army Tank Automotive Research, Development and Engineering Center (USA)
+- US Army Ground Vehicle Systems Center (USA)
 - U.S. Army Engineer Research and Development Center (USA)
 - Argonne National Lab (USA)
 - Jet Propulsion Lab (JPL, USA)
