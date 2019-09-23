@@ -8,14 +8,17 @@ main:
          title: Chrono Development Branch
          url: 'http://api.projectchrono.org/development'
        -
+         title: Chrono 4.0.0
+         url: 'http://api.projectchrono.org/4.0.0'
+       -
          title: Chrono 3.0.0
          url: 'http://api.projectchrono.org/3.0.0'
        -
          title: FAQ
          url: '/faq/'
        -
-         title: Model Library
-         url: '/models/'
+         title: PyChrono
+         url: '/pychrono/'
        -
          title: Validation Studies
          url: '/validation/'

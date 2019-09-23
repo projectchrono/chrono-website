@@ -19,6 +19,7 @@ The entire Chrono software infrastructure is open source and released under a [B
 #### Does Chrono have a graphical user interface?
 No, it doesn't. However, if you need a CAD-like interface, consider the use of the 
 [Chrono::SolidWorks](@ref tutorial_table_of_content_chrono_solidworks) plug-in. It supports a work flow in which you can develop an assembly in SolidWorks&copy; and then export it as a model that can be subsequently imported and simulated in Chrono. Another alternative is the use of a third party [commercial tool](http://www.simlab-soft.com/technologies/simlab-simulation.aspx) that embeds Chrono and which provides a GUI.
+Another solution, under development by a third party, is <a href="https://www.isymtec.ai"> https://www.isymtec.ai </a>.
 <br><br>
 
 #### What sort of problems is Chrono positioned to solve?

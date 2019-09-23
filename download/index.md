@@ -6,78 +6,57 @@ permalink: /download/
 
 {::options parse_block_html="true" /}
 
+Get the source
+==============
+
+Project Chrono is distributed as open source, so the preferred way for installing it is to **clone** the source code from our [GIT repository](https://github.com/projectchrono/chrono) and to build the libraries by **compiling** the source code.
+
+Instructions for configuring and building the Chrono libraries are provided on the [installation page](http://api.projectchrono.org/development/tutorial_table_of_content_install.html).
+
+<br>
+
+---
+
 Download precompiled binaries
 =============================
 
-Project Chrono is distributed as open source,
-so the preferred way for installing it is to **clone** the source code from our [GIT repository](https://github.com/projectchrono/chrono) and to build the binaries by **compiling** the source code.
-However we provide also precompiled binaries if you want skip the build process:
+We also provide precompiled binaries if you want skip the build process:
 
-## Windows users:
-A Project Chrono installer package is available from our repositories. The latest version features a more stable backend and a GUI for a friendlier user experience. If you have installed Project Chrono from the previous text-based installer, it is recommended to uninstall that version first. This installer will not interfere with manual builds of Project Chrono.
+### Windows users:
+The latest version of the installer features a more stable backend and a GUI for a friendlier user experience. If you have installed Project Chrono from the previous text-based installer, it is recommended to uninstall that version first. This installer will not interfere with manual builds of Project Chrono.
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
+[Precompiled Project Chrono 4.0.0 for Windows](http://projectchrono.org/repos/windows/Chrono-installer-4.0.exe).
+<br>
 [Precompiled Project Chrono 3.0.0 for Windows](http://projectchrono.org/repos/windows/ChronoEngine-installer-3.0.exe).
 </div>
 
 
-## CentOS/RHEL users:
-Project Chrono release RPMs are also available from our repositories.
+### CentOS/RHEL users:
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
 [Precompiled Project Chrono 3.0.0 CentOS/RedHat](http://projectchrono.org/repos/projectchrono-repo-0.1.0-1.noarch.rpm). 
 </div>
 
-
-## Other Users:
-Precompiled binaries for other platforms are not provided. Project Chrono should be **cloned** from the public [GIT repository](https://github.com/projectchrono/chrono) and **compiled** from its C++ source code as described in the  [installation page](http://api.projectchrono.org/tutorial_install_chrono.html).
-
-
-
-<br>
 <br>
 
 ---
 
+PyChrono
+========
 
-Chrono::PyEngine
-================
+[PyChrono](http://projectchrono.org/pychrono/) is Chrono for Python. It is a module that can be installed in your Python environment so that you can access the functions of Chrono via the [Python language](http://www.python.org). This can be an easier way to use Chrono because Python is more friendly than C++.
 
-This is the ready-to-use Chrono::PyEngine for Python. It is a module
-that can be installed in your Python environment so that you can access
-the functions of Chrono via the [Python
-language](http://www.python.org). This can be an easier way to use
-Chrono because Python is more friendly than C++ (but remember
-that not all C++ functions are mapped to Python, moreover Python is
-slower than C++).
+We support installation of PyChrono via the **conda** installer:
 
-The installer automatically detects your Python installation and adds
-the Chrono module.
+```
+conda install -c projectchrono pychrono
+```
 
-Note! currently only Python versions from 3.3 are supported. Versions 2.x are not officially supported. Also, only
-the 64 bit version of Python is currently supported with this installer.
-
-
-<div class="well">
-<h4> <span class="glyphicon glyphicon-download-alt"></span> Download Chrono for Python</h4>
-
-<a href="http://www.projectchrono.org/assets/installers/ChronoPyEngine_v2.0.8.exe"> Download Chrono::PyEngine v.2.0.8 module for Python v.3.x 64bit</a><br />
-
-</div>
-
-{:warning: .ce-warning}
-This stand-alone Chrono::PyEngine installer has been discontinued sice 29/12/2016, as we plan to distribute all the Chrono::PyEngine material together with the precompiled binaries of Chrono::Engine. There will be a single installer (the one that can be downloaded at the top of this page). Otherwise, just build the Python module by yourself as
-explained in [this page](http://api.projectchrono.org/module_python_installation.html).
-{:warning}
-
-{:info: .ce-info}
-If you need to plot graphs in Python, we suggest you to consider also the installation of both
-[MatplotLib](http://matplotlib.org/downloads.html) and
-[Numpy](http://www.numpy.org)
-Python packages.
-{:info}
+For more details on the installation, refer to the 
+[PyChrono installation page](http://api.projectchrono.org/pychrono_installation.html).
 
 
 <br>
@@ -104,10 +83,10 @@ Chrono add-in.
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download Chrono::SolidWorks add-in for SolidWorks</h4>
+<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v4.02.exe"> Download Chrono::SolidWorks v.4.0.1 add-in for SolidWorks 2014 and higher. Chrono 4.0 compatible.</a><br />
+
+<h5> older versions (note: Chrono v.3.0 or less)</h5>
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.08.exe"> Download Chrono::SolidWorks v.2.0.8 add-in for SolidWorks 2013 and higher (beta!)</a><br />
-
-<h5> older versions:</h5>
-
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.07.exe"> Download Chrono::SolidWorks v.2.0.7 add-in for SolidWorks 2013 and higher (beta!)</a><br />
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.05.exe"> Download Chrono::SolidWorks v.2.0.5 add-in for SolidWorks 2013 and higher (beta!)</a><br />
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.01.exe"> Download Chrono::SolidWorks v.2.0.1 add-in for SolidWorks 2012</a><br />

@@ -6,7 +6,44 @@ permalink: /news/
 
 <h2> News</h2>
 
+
 <div class = "well">
+	<p>5 February 2019 -- PyChrono</p>
+	<a class="media-left" href="http://projectchrono.org/pychrono"> <img src="../pychrono/logo_pychrono.svg" alt="PYCHRONO" style="height:40px"> </a>
+	<div class="media-body">
+	The new Python wrapper for Chrono is called <a href="http://projectchrono.org/pychrono">PyChrono</a>
+
+	The PyChrono library replaces the old Chrono::PyEngine library. 
+
+	The most relevant feature is that PyChrono is available as a precompiled Anaconda package. This means that an
+	automated nightly build system will continuosly build the most recent C++ library, it will generate the Python 
+	wrapper, then it will upload it onto the pychrono channell of Anaconda cloud. This happens for Windows and Linux 
+	platforms, for Python 3.5 or 3.6 or 3.7, etc. Automatically. The installation on your system is managed by Anaconda,
+	that also takes care of all dependencies.
+	
+	After the installation, you can import different modules of PyChrono, such as pychrono.postprocess, pychrono.irrlicht, 
+	pychrono.fea, pychrono.mkl, etc.
+	</div>
+</div>
+
+
+<div class = "well">
+	<p>9 September 2018 -- Isymtec cloud-based GUI</p>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<div class="media-body">
+	The ISYMTEC company <a href="https://www.isymtec.ai"> https://www.isymtec.ai </a> 
+	has released a first demo of its web GUI for Multi-body System Simulation in Cloud. They use
+	Chrono as a simulation library, run in the cloud. 
+
+	Thanks to the cloud technology, no installation is needed – sign up and build a MBS model in your browser, download and save it.
+	It work from anywhere – all you need is internet connection and a browser.
+    In future you’ll be able to perform scalable calculations in the cloud.
+
+	They kindly released their code for the serialization and parsing of the models at:
+    <a href = "https://github.com/IsymtecAi/isymtecai-chrono-parser">https://github.com/IsymtecAi/isymtecai-chrono-parser</a>.
+	</div>
+</div>
+
 
 <div class = "well">
 	<p>17 July 2017 -- Chrono 3.0.0 released</p>
