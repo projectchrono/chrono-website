@@ -21,7 +21,7 @@ A list of several past and current Chrono users is provided below. Please let us
 - Aarhus University (Denmark): wheel/terrain interaction, agroecology (Ole Balling) [link](http://pure.au.dk/portal/en/oba@iha.dk)
 - Marquette University (USA): autonomous vehicle simulation (J. Fleischmann) [link](http://www.marquette.edu/mechanical-engineering/fleischmann-jonathan.php)
 - Muroran Institute of Technology (Japan): robotics and synchronization control of multiple systems (Assoc. Prof. Hidekazu Kajiwara)
-- Kobe University (Japan): fluid simulation as in studying aerodynamics effects on car motion (Nomoto Yataro, Tsubokura Laboratory)[link](http://www.lab.kobe-u.ac.jp/csi-cfd/index_e.html)
+- Kobe University (Japan): fluid simulation as in studying aerodynamics effects on car motion (Nomoto Yotaro, Tsubokura Laboratory)[link](http://www.lab.kobe-u.ac.jp/csi-cfd/index_e.html)
 
 ### Industry:
 - Intuitive Machines (USA)
