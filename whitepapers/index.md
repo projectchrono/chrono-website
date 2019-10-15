@@ -39,7 +39,7 @@ White Papers
 - A. Tasora, S. Benatti, D. Mangoni, R. Garziera  <br>
   **A geometrically exact isogeometric beam for large displacements and contacts**, <br>
   Computer Methods in Applied Mechanics and Engineering, Vol.358, pag. 112635, 2020  <br>
-  [doi: 10.1016/j.cma.2019.112635](http://http://dx.doi.org/10.1016/j.cma.2019.112635)
+  [doi: 10.1016/j.cma.2019.112635](https://doi.org/10.1016/j.cma.2019.112635)
 
 - H. Mazhar, T. Heyn, D. Negrut, A. Tasora,  <br>
   **Using Nesterov's Method to Accelerate Multibody Dynamics with Friction and Contact**, <br>
