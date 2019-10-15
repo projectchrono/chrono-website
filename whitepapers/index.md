@@ -25,7 +25,9 @@ White Papers
 - **Corotational Euler-Bernoulli beams**
   [PDF1](http://www.projectchrono.org/assets/white_papers/FEA/euler_beams.pdf)   [download PDF2](http://www.projectchrono.org/assets/white_papers/FEA/WhitePaper_Co-rotational.pdf)
 
-
+- **IGA beams**
+  [PDF](http://www.projectchrono.org/assets/white_papers/FEA/iga_beams.pdf)
+  
 ## Journal papers
 
 - A. Tasora, R. Serban, H. Mazhar, A. Pazouki, D. Melanz, J. Fleischmann, M. Taylor, H. Sugiyama, and D. Negrut. <br>
@@ -33,6 +35,11 @@ White Papers
   In T. Kozubek, editor, *High Performance Computing in Science and Engineering – Lecture Notes in Computer Science*, pages 19–49.
   Springer, 2016, <br>
   [download PDF](http://projectchrono.org/assets/white_papers/chronoSpringer.pdf)
+
+- A. Tasora, S. Benatti, D. Mangoni, R. Garziera  <br>
+  **A geometrically exact isogeometric beam for large displacements and contacts**, <br>
+  Computer Methods in Applied Mechanics and Engineering, Vol.358, pag. 112635, 2020  <br>
+  [doi: 10.1016/j.cma.2019.112635](http://http://dx.doi.org/10.1016/j.cma.2019.112635)
 
 - H. Mazhar, T. Heyn, D. Negrut, A. Tasora,  <br>
   **Using Nesterov's Method to Accelerate Multibody Dynamics with Friction and Contact**, <br>
