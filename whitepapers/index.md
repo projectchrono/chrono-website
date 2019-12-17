@@ -41,6 +41,11 @@ White Papers
   Computer Methods in Applied Mechanics and Engineering, Vol.358, pag. 112635, 2020  <br>
   [doi: 10.1016/j.cma.2019.112635](https://doi.org/10.1016/j.cma.2019.112635)
 
+- R. Serban, M. Taylor, D. Negrut, and A. Tasora. <br>
+  **Chrono::Vehicle -- Template-based Ground Vehicle Modeling and Simulation**,
+  International Journal on Vehicle Performance, 5(1), pp. 18-39, doi: 10.1504/IJVP.2019.097096, 2019 <br>
+  [download PDF](http://projectchrono.org/assets/white_papers/chronoVehicle_IJVP.pdf)
+
 - H. Mazhar, T. Heyn, D. Negrut, A. Tasora,  <br>
   **Using Nesterov's Method to Accelerate Multibody Dynamics with Friction and Contact**, <br>
   ACM Transactions on Graphics, vol.34(3), 2015,  <br>
