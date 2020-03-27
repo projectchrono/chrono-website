@@ -18,7 +18,7 @@ The entire Chrono software infrastructure is open source and released under a [B
 
 #### Does Chrono have a graphical user interface?
 No, it doesn't. However, if you need a CAD-like interface, consider the use of the 
-[Chrono::SolidWorks](@ref tutorial_table_of_content_chrono_solidworks) plug-in. It supports a work flow in which you can develop an assembly in SolidWorks&copy; and then export it as a model that can be subsequently imported and simulated in Chrono. Another alternative is the use of a third party [commercial tool](http://www.simlab-soft.com/technologies/simlab-simulation.aspx) that embeds Chrono and which provides a GUI.
+[Chrono::SolidWorks](http://api.projectchrono.org/tutorial_table_of_content_chrono_solidworks.html) plug-in. It supports a work flow in which you can develop an assembly in SolidWorks&copy; and then export it as a model that can be subsequently imported and simulated in Chrono. Another alternative is the use of a third party [commercial tool](http://www.simlab-soft.com/technologies/simlab-simulation.aspx) that embeds Chrono and which provides a GUI.
 Another solution, under development by a third party, is <a href="https://www.isymtec.ai"> https://www.isymtec.ai </a>.
 <br><br>
 
@@ -35,13 +35,13 @@ Chrono takes a physics-based approach to the modeling and simulation of complex 
 <br><br>
 
 #### I want to use Chrono. Do I have to be a good programmer?
-No. You only need to be able to install the software and go through a couple of [examples/tutorials](@ref tutorial_root) to get the gist of it. Moreover, if you need a jump start to your project you might want to take a look at the [Chrono model repository](@ref model_root). If you are lucky, you'll find a model close to what you need, in which case you'll get a jump start to your project. Finally, there is also a [consulting](http://projectchrono.org/consulting/) avenue.
+No. You only need to be able to install the software and go through a couple of [examples/tutorials](http://api.projectchrono.org/tutorial_root.html) to get the gist of it. Moreover, if you need a jump start to your project you might want to take a look at the [Chrono model repository](http://api.projectchrono.org/group__chrono__models.html). If you are lucky, you'll find a model close to what you need, in which case you'll get a jump start to your project. Finally, there is also a [consulting](http://projectchrono.org/consulting/) avenue.
 <br><br>
 
 #### How can I contribute?
 You can contribute in many ways:
 - If you want to add to the Chrono software infrastructure, make a pull request in [GitHub](https://github.com/projectchrono/chrono)
-- If you put together a model and want to make it part of the [Chrono model repository](@ref model_root) you can make a pull request in [GitHub](https://github.com/projectchrono/chrono)
+- If you put together a model and want to make it part of the [Chrono model repository](http://api.projectchrono.org/group__chrono__models.html) you can make a pull request in [GitHub](https://github.com/projectchrono/chrono)
 - If you put together a tutorial or generated a well documented Chrono example, follow the same [GitHub](https://github.com/projectchrono/chrono) pull request path
 - If you feel like Chrono is the best thing since slice bread and you want to support its development, make a tax deductible donation to the University of Wisconsin-Madison or University of Parma, Italy. Let us know if you follow this  path since we want to  channel your financial contribution into our labs to fund the development of Chrono.
 - If you can't make a donation but still like Chrono, you can still contribute by letting us know you used Chrono and sharing your experience with us
@@ -52,7 +52,7 @@ Currently we build Chrono under Windows&copy; (32 and 64 bit with the MingW GNU&
 <br><br>
 
 #### How is Chrono organized?
-Chrono is designed with Chrono::Engine at its core. Beyond that, it has several [modules](@ref introduction_chrono) that augment core Chrono::Engine functionality. For instance, Chrono::Parallel adds support for parallel computing when handling large systems; Chrono::FEA enables the analysis of systems with flexible bodies; Chrono::FSI provides support for fluid-solid interaction simulations, etc. In general, we use "::" to denote a component of Chrono that under the hood; i.e., at a level that is not immediately visible to the user, provides the software implementation needed to support a class of services associated with an important feature of Chrono. We use these module names in a rather lax way since to identify parts of the code. In practice, it is actually hard to pinpoint where Chrono::Engine ends and Chrono::FEA starts.
+Chrono is designed with Chrono::Engine at its core. Beyond that, it has several [modules](http://api.projectchrono.org/introduction_chrono.html) that augment core Chrono::Engine functionality. For instance, Chrono::Parallel adds support for parallel computing when handling large systems; Chrono::FEA enables the analysis of systems with flexible bodies; Chrono::FSI provides support for fluid-solid interaction simulations, etc. In general, we use "::" to denote a component of Chrono that under the hood; i.e., at a level that is not immediately visible to the user, provides the software implementation needed to support a class of services associated with an important feature of Chrono. We use these module names in a rather lax way since to identify parts of the code. In practice, it is actually hard to pinpoint where Chrono::Engine ends and Chrono::FEA starts.
 <br><br>
 
 #### What is the difference between Chrono::Engine and Chrono::Parallel?
