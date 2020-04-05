@@ -83,7 +83,8 @@ Chrono add-in.
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download Chrono::SolidWorks add-in for SolidWorks</h4>
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v4.02.exe"> Download Chrono::SolidWorks v.4.0.1 add-in for SolidWorks 2014 and higher. Chrono 4.0 compatible.</a><br />
+<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_dev.exe"> Download Chrono::SolidWorks add-in for SolidWorks 2018 and higher. Compatible with the develop branch of chrono.</a><br />
+<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v4.02.exe"> Download Chrono::SolidWorks v.4.0.1 add-in for SolidWorks 2014 and higher. Chrono 4.0 and 5.0 compatible.</a><br />
 
 <h5> older versions (note: Chrono v.3.0 or less)</h5>
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.08.exe"> Download Chrono::SolidWorks v.2.0.8 add-in for SolidWorks 2013 and higher (beta!)</a><br />
