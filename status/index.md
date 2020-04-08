@@ -4,6 +4,11 @@ title: Status
 permalink: /status/
 ---
 
+### Build
+
+A continuous integration (CI) is running [on this GITlab page]{https://gitlab.com/uwsbel/chrono/pipelines}, where you can find the results of the latest automatic cross-platform builds for all platforms.
+
+
 ### Basic Stats
 
 <script type="text/javascript" src="https://www.openhub.net/p/projectchrono/widgets/project_languages?format=js"></script>
