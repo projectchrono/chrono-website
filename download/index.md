@@ -33,11 +33,24 @@ The latest version of the installer features a more stable backend and a GUI for
 </div>
 
 
-### CentOS/RHEL users:
-
+### Linux users:
+The latest release of Project Chrono is available as a Linux [Docker](https://www.docker.com/products/docker-desktop) image.
+<div class="well">
+<h4>Get the latest version</h4> with:
+```sh
+docker pull uwsbel/projectchrono:latest
+```
+</div>
+Or pull a specific version using its release tag, e.g.:
+```sh
+docker pull uwsbel/projectchrono:5.0.1
+```
+See the [Project Chrono Docker Repository](https://hub.docker.com/repository/docker/uwsbel/projectchrono) for more information. 
+<br />
+A discontinued release of Chrono 3.0.0 for CentOS and RHEL systems is still available at for legacy reasons:
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-[Precompiled Project Chrono 3.0.0 CentOS/RedHat](http://projectchrono.org/repos/projectchrono-repo-0.1.0-1.noarch.rpm). 
+[Precompiled Project Chrono 3.0.0 CentOS/RedHat](http://projectchrono.org/repos/projectchrono-repo-0.1.0-1.noarch.rpm) (unsupported). 
 </div>
 
 <br>
