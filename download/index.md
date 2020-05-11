@@ -105,7 +105,7 @@ Chrono add-in.
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.08.exe"> Download Chrono::SolidWorks v.2.0.8 add-in for SolidWorks 2013 and higher (beta!)</a><br />
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.07.exe"> Download Chrono::SolidWorks v.2.0.7 add-in for SolidWorks 2013 and higher (beta!)</a><br />
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.05.exe"> Download Chrono::SolidWorks v.2.0.5 add-in for SolidWorks 2013 and higher (beta!)</a><br />
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v2.01.exe"> Download Chrono::SolidWorks v.2.0.1 add-in for SolidWorks 2012</a><br />
+Download Chrono::SolidWorks v.2.0.1 add-in for SolidWorks 2012<br />
 </div>
 
 <br>

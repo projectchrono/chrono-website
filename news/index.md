@@ -71,7 +71,7 @@ permalink: /news/
 	Development will continue in the 'develop' branch.
 	<br>
 	Documentation for the 3.0.0 release can be accessed at
-	<a href="http://api.projectchrono.org/3.0.0/"> http://api.projectchrono.org/3.0.0 </a>.
+	http://api.projectchrono.org/3.0.0/.
 	Documentation for the 'develop' branch (automatically generated with
 	each push to GitHub) is now at <a href = "http://api.projectchrono.org/development/">http://api.projectchrono.org/development</a>.
 	</div>
@@ -91,7 +91,7 @@ permalink: /news/
 	<p>22 December 2016 -- New Chrono::PyEngine installer and spider demo</p>
 	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body">
-	Look at <a href="http://projectchrono.org/download/">the download page</a>: we uploaded a new installer for the precompiled Chrono::PyEngine. The Chrono::PyEngine wrapper allows using Python as a programming language for making easy Chrono simulations. In the Tutorials section for the Chrono::PyEngine you can find a new demo about the simulation of a <a href="http://api.projectchrono.org/tutorial_chrono_pyengine_demo_spider_robot.html">6-legged crawling robot</a>. This demo uses the Chrono::SolidWorks add-in; by the way, we uploaded a new Chrono::SolidWorks installer.  
+	Look at <a href="http://projectchrono.org/download/">the download page</a>: we uploaded a new installer for the precompiled Chrono::PyEngine. The Chrono::PyEngine wrapper allows using Python as a programming language for making easy Chrono simulations. In the Tutorials section for the Chrono::PyEngine you can find a new demo about the simulation of a <a href="http://api.projectchrono.org/tutorial_pychrono_demo_spider_robot.html">6-legged crawling robot</a>. This demo uses the Chrono::SolidWorks add-in; by the way, we uploaded a new Chrono::SolidWorks installer.  
 	</div>
 </div>
 
@@ -100,7 +100,7 @@ permalink: /news/
 	<p>9-13 January 2017 -- Tutorial </p>
 	<a class="media-left" href="http://sbel.wisc.edu"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
 	<div class="media-body">
-	A <a href="http://outreach.sbel.wisc.edu/ChronoTutorials/2017/UW-january/">ProjectChrono tutorial</a>  will take
+	A ProjectChrono tutorial will take
     place at the Universtity of Wisconsin-Madison, USA, from 9 to 13 January 2017.
 	Registration is open to participants from the industry, from federal/state organizations and from the academia.
 	</div>
@@ -132,7 +132,7 @@ permalink: /news/
 	<p>14-18 November 2016 -- TARDEC workshop</p>
 	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body">
-	A <a href="http://outreach.sbel.wisc.edu/ChronoTutorials/2016/TARDEC/">ProjectChrono tutorial</a> has been presented at  
+	A ProjectChrono tutorial has been presented at  
 	US Army TARDEC, Warren, Michigan, November 14-18, 2016.
 	</div>
 </div>
@@ -143,7 +143,7 @@ permalink: /news/
 	<a class="media-left" href="http://sbel.wisc.edu"> <img src="/images/news/Wacc.png" style="width=100px"> </a>
 	<div class="media-body">
 	ProjectChrono has been presented at the 2016
-	<a href="http://outreach.sbel.wisc.edu/MAGIC_August_2016/">Machine-Ground Interaction Consortium (MaGIC) Workshop</a>  
+	<a href="https://sbel.wisc.edu/magic-2016/">Machine-Ground Interaction Consortium (MaGIC) Workshop</a>  
 	at the University of Wisconsin-Madison, 3-4 August 2015.
 	</div>
 </div>
@@ -196,7 +196,7 @@ permalink: /news/
 
 <div class = "well">
 	<a>15 September 2013 -- GIT repository</a>
-	<a class="media-left" href="https://github.com/projectchrono"> <img src="/images/news/gitLogo.png" style="width=100px"> </a>
+	<a class="media-left" href="https://github.com/projectchrono"> 
 	<div class="media-body"> The porting to the new GIT repository on https://github.com/projectchrono has been completed. Now ProjectChrono is OpenSource.
 	</div>
 </div>
@@ -222,7 +222,6 @@ permalink: /news/
 
 
 	<p>27 November 2012 -- New co-simulation unit</p>
-	<a class="media-left" href="#"> <img src="/images/news/simulink_ico.png" style="width=100px"> </a>
 	<div class="media-body"> A new co-simulation unit has been developed. This allows Chrono::Engine to cooperate with another simulation software. In detail, we use Simulink to simulate hydraulic systems, electrical power systems and controls, that can interact with Chrono::Engine mechanisms by running in parallel.
 	</div>
 </div>
@@ -476,8 +475,7 @@ permalink: /news/
 </div>
 <div class = "well">
 	<p>10 July 2009 -- New Chrono::Engine release v.0.8</p>
-
-	<a class="media-left" href="#"><img src="/images/tutorials/ico_matlab.jpg" style="width=100px"></a> <div class="media-body">  The new release v.0.8 introduces many bug fixes and new features. This is a major release. Since the previous releases v.0.5, v.0.6 and v.0.7 were available only to developers, please read the new features introduced also in those releases. Among the main new features introduced in the latest v.0.8:
+	The new release v.0.8 introduces many bug fixes and new features. This is a major release. Since the previous releases v.0.5, v.0.6 and v.0.7 were available only to developers, please read the new features introduced also in those releases. Among the main new features introduced in the latest v.0.8:
 	<ul>
 		<li>Rolling friction and spinning friction.</li>
 		<li>Support of Matlab, to plot data or exploit co-simulation, etc.</li>
@@ -494,8 +492,7 @@ permalink: /news/
 </div>
 <div class = "well">
 	<p>10 May 2009 -- New Chrono::Engine release v.0.7</p>
-
-	<a class="media-left" href="#"><img src="/images/tutorials/ico_mecanum.jpg" style="width=100px"></a> <div class="media-body">  The new release v.0.7 introduces the following features:
+	<div class="media-body">  The new release v.0.7 introduces the following features:
 	<ul>
 		<li> object picking: press the middle-mouse-wheel and drag objects in Irrlicht demos.</li>
 		<li> various bug fixes in collision system and GPU solver.</li>
@@ -506,7 +503,7 @@ permalink: /news/
 <div class = "well">
 	<p>6 March 2009 -- New Chrono::Engine release v.0.6</p>
 
-	<a class="media-left" href="#"><img src="/images/tutorials/ico_tracks.jpg" style="width=100px"></a> <div class="media-body">  The new release v.0.6 introduces the following features:
+	<div class="media-body"> The new release v.0.6 introduces the following features:
 	<ul>
 		<li>improved GPU -- CUDA solver (not released in the base package).</li>
 		<li>rigid body sleeping.</li>
@@ -520,7 +517,7 @@ permalink: /news/
 <div class = "well">
 	<p>25 December 2008 -- New Chrono::Engine release v.0.5</p>
 
-	<a class="media-left" href="#"><img src="/images/tutorials/ico_oscillator.jpg" style="width=100px"></a> <div class="media-body">  The new release v.0.5 introduces many bug fixes and new features, among them:
+	<div class="media-body">  The new release v.0.5 introduces many bug fixes and new features, among them:
 	<ul>
 		<li> complete refactoring and speed improvement of the ChMatrix class, that is splitted in more specialized sub classes,</li>
 		<li> support of VisualStudio 2008. Support of VisualStudio 2005 is dropped.</li>
@@ -624,7 +621,7 @@ permalink: /news/
 <div class = "well">
 	<p>30 November -- New tutorials on-line</p>
 
-	<a class="media-left" href="#"><img src="/images/tutorials/ico_bricks.jpg" style="width=100px"></a> <div class="media-body">  We updated the page with the [tutorials](tutorials.php), now you can browse also the tutorials about the Chrono::Engine integration in the Irrlicht 3D realtime visualization library.
+	We updated the page with the [tutorials](tutorials.php), now you can browse also the tutorials about the Chrono::Engine integration in the Irrlicht 3D realtime visualization library.
 </div>
 </div>
 <div class = "well">

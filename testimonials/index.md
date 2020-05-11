@@ -17,7 +17,7 @@ A list of several past and current Chrono users is provided below. Please let us
 - Politecnico di Milano (Italy): planet formation, waste management, etc. (Pierangelo Masarati) [link](https://home.aero.polimi.it/masarati/)
 - Politecnico di Milano (Italy): 2018 landing of MASCOT on asteroid Ryugu; MASCOT lander currently onboard the JAXA Hayabusa 2 mission (Pierluigi Di Lizia)
 - Politecnico di Milano (Italy): miniaturized mechanisms for watches (Nicolò Robuschi, Francesco Braghin) 
-- University of Washington (USA): shock wave propagation in granular media (Nicholas Boechler) [link](http://faculty.washington.edu/boechler/)
+- University of Washington (USA): shock wave propagation in granular media (Nicholas Boechler) [link](https://www.engr.washington.edu/facresearch/newfaculty/2013/nicholasboechler.html)
 - Aarhus University (Denmark): wheel/terrain interaction, agroecology (Ole Balling) [link](http://pure.au.dk/portal/en/oba@iha.dk)
 - Marquette University (USA): autonomous vehicle simulation (J. Fleischmann) [link](http://www.marquette.edu/mechanical-engineering/fleischmann-jonathan.php)
 - Muroran Institute of Technology (Japan): robotics and synchronization control of multiple systems (Assoc. Prof. Hidekazu Kajiwara)

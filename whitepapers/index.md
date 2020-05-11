@@ -82,4 +82,4 @@ White Papers
 - Tasora, A., Negrut, D., <br>
   **A parallel algorithm for solving complex multibody problems with streaming processors**,  <br>
   International Journal for Computational Vision and Biomechanics, Professional Engineering Publishing, 2009, 1(2), 131-143   <br>
-  [preprint](http://ied.unipr.it/tasora/pubblicazioni/paper_IJCV.pdf)
+  [preprint](https://www.researchgate.net/publication/228350928_A_Parallel_Algorithm_for_Solving_Complex_Multibody_Problems_With_Stream_Processors)

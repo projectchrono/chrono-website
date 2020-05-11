@@ -23,7 +23,7 @@ Among the other components of the {% include module.html first="PROJECT" second=
 
 
 <h4>Technical Leads</h4>
-- Associate Professor <a href="http://dynamics.eng.unipr.it/tasora">Alessandro Tasora</a> - University of Parma, Italy
+- Associate Professor <a href="/tasora/">Alessandro Tasora</a> - University of Parma, Italy
 - Senior Scientist <a href="http://sbel.wisc.edu/People/">Radu Serban</a> - University of Wisconsin-Madison, USA
 - Professor <a href="http://homepages.cae.wisc.edu/~negrut/">Dan Negrut</a> - University of Wisconsin-Madison, USA
 
@@ -39,8 +39,8 @@ Among the other components of the {% include module.html first="PROJECT" second=
 
 
 <h4>Past developers</h4>
-- <a href="http://hamelot.co.uk/">Dr. Hammad Mazhar</a> - former UW-Madison PhD student, now at NVIDIA
-- <a href="http://melanz.us/ ">Dr. Dan Melanz</a> - former UW-Madison student, now at Energid
+- Dr. Hammad Mazhar - former UW-Madison PhD student, now at NVIDIA
+- Dr. Dan Melanz - former UW-Madison student, now at Energid
 - <a href="https://andrewseidl.com/">Andrew Seidl</a> - Former UW-Madison student, now at MapD
 - Dr. Justin Madsen - former UW-Madison PhD student, now at Oshkosh Corporation
 - Dr. Toby Heyn - former UW-Madison PhD student, currently at Epic Systems

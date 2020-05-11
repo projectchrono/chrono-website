@@ -13,7 +13,7 @@ permalink: /consulting/
 - If you are in academia:
   - Let us help you with using Chrono in your research projects
   - Work with us by making Chrono part of your proposal. We'd be very happy to provide a collaboration letter
-  - Join us at a training course in US (University of Wisconsin-Madison) or Europe (University of Parma, Italy). Next opportunity: December 2016, Madison, Wisconsin.
+  - Join us at a training course in US (University of Wisconsin-Madison) or Europe (University of Parma, Italy).
   
 <br>
   
