@@ -8,3 +8,4 @@ build_chrono_website.sh
 refman.pdf
 documentation
 documentation/*
+.jekyll-cache/*
