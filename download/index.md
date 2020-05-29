@@ -27,9 +27,9 @@ The latest version of the installer features a more stable backend and a GUI for
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-[Precompiled Project Chrono 4.0.0 for Windows](http://projectchrono.org/repos/windows/Chrono-installer-4.0.exe).
-<br>
-[Precompiled Project Chrono 3.0.0 for Windows](http://projectchrono.org/repos/windows/ChronoEngine-installer-3.0.exe).
+[Precompiled Project Chrono 5.0.1 for Windows](https://projectchrono.org/repos/windows/projectchrono-installer-5.0.1.exe) (Release Candidate 1)
+<br />
+[Precompiled Project Chrono 4.0.0 for Windows](https://projectchrono.org/repos/windows/Chrono-installer-4.0.exe)
 </div>
 
 
