@@ -12,6 +12,7 @@ A list of several past and current Chrono users is provided below. Please let us
 - University of Wisconsin-Madison (USA): Chrono has been use in a variety of applications, see Simulation-Based Engineering Lab web site [link](http://sbel.wisc.edu/)
 - University of Parma (Italy): Chrono has been used in robotics, controls, waste management, masonry structures, etc. [link](http://www.chronoengine.info/tasora/)
 - Multibody dynamics support in [GPUSPH](http://www.gpusph.org/about/)
+- Multibody dynamics support in [DualSPHysics](https://dual.sphysics.org/)
 - Georgia Tech University (USA): robotics, bio-inspired robots (Dan Goldman) [link](http://crablab.gatech.edu/)
 - Technical University of Berlin (Germany): QBlade: aero-elastic wind turbine design and simulation tool development (David Marten) [link](https://sourceforge.net/projects/qblade/) [paper](https://www.researchgate.net/publication/312254454_Validation_and_comparison_of_a_newly_developed_aeroelastic_design_code_for_VAWT)
 - Politecnico di Milano (Italy): planet formation, waste management, etc. (Pierangelo Masarati) [link](https://home.aero.polimi.it/masarati/)
