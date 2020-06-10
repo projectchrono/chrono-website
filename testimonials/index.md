@@ -33,6 +33,7 @@ A list of several past and current Chrono users is provided below. Please let us
 - [D-ICE Engineering](http://www.dice-engineering.com) (France)
 - [Isymtec.ai](https://www.isymtec.ai) (Germany)
 - Danfoss (Denmark)
+- GoldWind (China)
 
 ### Government labs: 
 - US Army Ground Vehicle Systems Center (USA)
