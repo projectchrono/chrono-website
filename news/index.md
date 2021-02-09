@@ -7,6 +7,25 @@ permalink: /news/
 <h2> News</h2>
 
 <div class = "well">
+	<p>10 February 2021 -- Chrono 6.0.0 released</p>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<div class="media-body">
+	We have recently released version 6.0.0 of the Chrono package.
+
+	The code for the release can be obtained from GitHub under the <a href="https://github.com/projectchrono/chrono/tree/6.0.0" > 6.0.0 tag</a>.
+	Development will continue in the 'develop' branch.
+	<br>
+	For a list of the main changes in release 6.0.0, consult the <a href="https://github.com/projectchrono/chrono/blob/develop/CHANGELOG.md">Change Log</div>a> page.
+	<br>
+	Documentation for the 6.0.0 release can be accessed at
+	<a href="http://api.projectchrono.org/6.0.0/"> http://api.projectchrono.org/6.0.0 </a> and for the previous 5.0.0 release at
+	<a href="http://api.projectchrono.org/5.0.0/"> http://api.projectchrono.org/5.0.0 </a>
+	Documentation for the 'develop' branch (automatically generated with
+	each push to GitHub) is at <a href = "http://api.projectchrono.org/development/">http://api.projectchrono.org/development</a>.
+	</div>
+</div>
+
+<div class = "well">
 	<p>24 February 2020 -- Chrono 5.0.0 released</p>
 	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body">
