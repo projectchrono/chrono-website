@@ -15,7 +15,7 @@ permalink: /news/
 	The code for the release can be obtained from GitHub under the <a href="https://github.com/projectchrono/chrono/tree/6.0.0" > 6.0.0 tag</a>.
 	Development will continue in the 'develop' branch.
 	<br>
-	For a list of the main changes in release 6.0.0, consult the <a href="https://github.com/projectchrono/chrono/blob/develop/CHANGELOG.md">Change Log</div>a> page.
+	For a list of the main changes in release 6.0.0, consult the <a href="https://github.com/projectchrono/chrono/blob/develop/CHANGELOG.md">Change Log</a> page.
 	<br>
 	Documentation for the 6.0.0 release can be accessed at
 	<a href="http://api.projectchrono.org/6.0.0/"> http://api.projectchrono.org/6.0.0 </a> and for the previous 5.0.0 release at
