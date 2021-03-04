@@ -26,9 +26,12 @@ We also provide precompiled binaries if you want skip the build process:
 The latest version of the installer features a more stable backend and a GUI for a friendlier user experience. If you have installed Project Chrono from the previous text-based installer, it is recommended to uninstall that version first. This installer will not interfere with manual builds of Project Chrono.
 
 <div class="well">
-<h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
+
+#### <span class="glyphicon glyphicon-download-alt"></span> Download
+
 [Precompiled Project Chrono 5.0.1 for Windows](https://projectchrono.org/repos/windows/projectchrono-installer-5.0.1.exe) (Release Candidate 3)
 <br />
+
 [Precompiled Project Chrono 4.0.0 for Windows](https://projectchrono.org/repos/windows/Chrono-installer-4.0.exe)
 </div>
 
@@ -36,26 +39,23 @@ The latest version of the installer features a more stable backend and a GUI for
 ### Linux users:
 The latest release of Project Chrono is available as a Linux [Docker](https://www.docker.com/products/docker-desktop) image.
 <div class="well">
-<h4>Get the latest version</h4> 
+
+#### Get the latest version
+
 ```sh
 docker pull uwsbel/projectchrono:latest
 ```
-</div>
-Or pull a specific version using its release tag, e.g.:
-```sh
-docker pull uwsbel/projectchrono:5.0.1
-```
-See the [Project Chrono Docker Repository](https://hub.docker.com/repository/docker/uwsbel/projectchrono) for more information. 
-<br />
-<br />
-<br />
-A discontinued release of Chrono 3.0.0 for CentOS and RHEL systems is still available at for legacy reasons:
-<div class="well">
-<h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-[Precompiled Project Chrono 3.0.0 CentOS/RedHat](http://projectchrono.org/repos/projectchrono-repo-0.1.0-1.noarch.rpm) (unsupported). 
-</div>
 
-<br>
+#### Pull a specific release
+```sh
+docker pull uwsbel/projectchrono:6.0.0
+docker pull uwsbel/projectchrono:6.0.0-cuda11.2
+```
+
+See the [Project Chrono Docker Repository](https://hub.docker.com/repository/docker/uwsbel/projectchrono) for more information. 
+</div>
+<br />
+<br />
 
 ---
 
