@@ -22,13 +22,13 @@ jekyll will keep watching and regenerating the website until it is closed
 
 For projectchrono.org and api.projectchrono.org:
 
-hookshot is running under sbel_bot
-'forever list' to check, look at the listed log file to see whats up
+hookshot is running under a systemd script on projectchrono.org
+`systemctl status hookshot.service` to check
 
 To reset the hook:
 
-forever restart hookshot.js
+systemctl restart hookshot.service
 
-hookshot.js will execute build_chrono_website.sh which will pull the latest changes, compile the website and then copy it to the site directory. build_chrono_website.sh will also run doxygen and update that on every push to the repository. Note that only the "develop" branch is currently watched
+hookshot.js will execute a script which will pull the latest changes, compile the website and then copy it to the site directory. Note that only the "develop" branch is currently watched
 
 For more information see [here](http://hamelot.co.uk/other/jekyll-github-hook/)
