@@ -10,7 +10,7 @@ Demo animations showing the main features of Chrono.
 <div class="media">
 	{% if link.host =='youtube' %}
 		<a class="media-left" href="#"> 
-			<iframe width="420" height="315" src="http://www.youtube.com/embed/{{ link.url }}" frameborder="0" allowfullscreen></iframe>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/{{ link.url }}" frameborder="0" allowfullscreen></iframe>
 		</a>
 	{% elsif link.host =='vimeo' %}
 	<a class="media-left" href="#"> 
