@@ -40,7 +40,7 @@ main:
     - title: News
       url: '/news/'
     - title: Forum
-      url: '/forum/'
+      url: 'https://groups.google.com/g/projectchrono'
     - title: About
       url: '/about/'
       sub:
