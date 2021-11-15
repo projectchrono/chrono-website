@@ -8,11 +8,11 @@ main:
          title: Chrono Development Branch
          url: 'http://api.projectchrono.org/development'
        -
+         title: Chrono 7.0.0
+         url: 'http://api.projectchrono.org/7.0.0'
+       -
          title: Chrono 6.0.0
          url: 'http://api.projectchrono.org/6.0.0'
-       -
-         title: Chrono 5.0.0
-         url: 'http://api.projectchrono.org/5.0.0'
        -
          title: FAQ
          url: '/faq/'

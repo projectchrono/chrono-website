@@ -7,6 +7,26 @@ permalink: /news/
 <h2> News</h2>
 
 <div class = "well">
+	<p>15 November 2021 -- Chrono 7.0.0 released</p>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<div class="media-body">
+	We have recently released version 7.0.0 of the Chrono package.
+
+	The code for the release can be obtained from GitHub under the <a href="https://github.com/projectchrono/chrono/release/7.0" > release/7.0 branch</a>.
+	Note that moving forward, new releases will be maintained under a corresponding <tt>release/M.m</tt> branch.  The main release will be tagged with <tt>M.m</tt> and a release branch may include release patches (with an <tt>M.m.P</tt> tag).
+	Development will continue in the 'develop' branch.
+	<br>
+	For a list of the main changes in release 7.0.0, consult the <a href="https://github.com/projectchrono/chrono/blob/develop/CHANGELOG.md">Change Log</a> page.
+	<br>
+	Documentation for the 7.0.0 release can be accessed at
+	<a href="http://api.projectchrono.org/7.0.0/"> http://api.projectchrono.org/7.0.0 </a> and for the previous 6.0.0 release at
+	<a href="http://api.projectchrono.org/6.0.0/"> http://api.projectchrono.org/6.0.0 </a>
+	Documentation for the 'develop' branch (automatically generated with
+	each push to GitHub) is at <a href = "http://api.projectchrono.org/development/">http://api.projectchrono.org/development</a>.
+	</div>
+</div>
+
+<div class = "well">
 	<p>10 February 2021 -- Chrono 6.0.0 released</p>
 	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body">
