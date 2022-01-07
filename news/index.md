@@ -23,6 +23,8 @@ permalink: /news/
 	<a href="http://api.projectchrono.org/6.0.0/"> http://api.projectchrono.org/6.0.0 </a>
 	Documentation for the 'develop' branch (automatically generated with
 	each push to GitHub) is at <a href = "http://api.projectchrono.org/development/">http://api.projectchrono.org/development</a>.
+	<br><br>
+	A minor release 7.0.1 was made available on 7 January 2022 with several low-level bug fixes (see <a href="https://github.com/projectchrono/chrono/blob/release/7.0/CHANGELOG.md">Change Log</a>).
 	</div>
 </div>
 
