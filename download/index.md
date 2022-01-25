@@ -20,21 +20,10 @@ Instructions for configuring and building the Chrono libraries are provided on t
 Download precompiled binaries
 =============================
 
-We also provide precompiled binaries if you want skip the build process:
+We also provide both container images and precompiled binaries if you want to skip the build process:
 
-### Windows users:
-The latest version of the installer features a more stable backend and a GUI for a friendlier user experience. If you have installed Project Chrono from the previous text-based installer, it is recommended to uninstall that version first. This installer will not interfere with manual builds of Project Chrono.
-
-<div class="well">
-
-#### <span class="glyphicon glyphicon-download-alt"></span> Download
-
-[Precompiled Project Chrono 6.0.0 for Windows](https://github.com/projectchrono/chrono/releases/download/6.0.0/projectchrono-installer-6.0.0.exe)
-</div>
-
-
-### Linux users:
-The latest release of Project Chrono is available as a Linux [Docker](https://www.docker.com/products/docker-desktop) image.
+### Windows, Mac, and Linux users:
+The latest release of Project Chrono is available as a [Docker](https://www.docker.com/products/docker-desktop) image.
 <div class="well">
 
 #### Get the latest version
@@ -45,12 +34,31 @@ docker pull uwsbel/projectchrono:latest
 
 #### Pull a specific release
 ```sh
-docker pull uwsbel/projectchrono:6.0.0
+docker pull uwsbel/projectchrono:7.0.1-cuda11.5
+```
+Or, for an older release
+```sh
 docker pull uwsbel/projectchrono:6.0.0-cuda11.2
 ```
 
 See the [Project Chrono Docker Repository](https://hub.docker.com/repository/docker/uwsbel/projectchrono) for more information. 
 </div>
+
+### Windows users:
+The latest version of the installer features a GUI for a friendlier user experience. If you have previously used the installer package for Project Chrono, it is recommended to uninstall that version first. This installer will not interfere with manual builds of Project Chrono.
+
+<div class="well">
+
+#### <span class="glyphicon glyphicon-download-alt"></span> Download
+
+_Precompiled Project Chrono 7.0.1 for Windows_ is in the works and will be available soon. 
+
+[Precompiled Project Chrono 6.0.0 for Windows](https://github.com/projectchrono/chrono/releases/download/6.0.0/projectchrono-installer-6.0.0.exe)
+
+</div>
+
+
+
 <br />
 <br />
 
