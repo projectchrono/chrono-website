@@ -23,18 +23,19 @@ A list of several past and current Chrono users is provided below. Please let us
 - Marquette University (USA): autonomous vehicle simulation (J. Fleischmann) [link](http://www.marquette.edu/mechanical-engineering/fleischmann-jonathan.php)
 - Muroran Institute of Technology (Japan): robotics and synchronization control of multiple systems (Assoc. Prof. Hidekazu Kajiwara)
 - Kobe University (Japan): fluid simulation as in studying aerodynamics effects on car motion (Nomoto Yotaro, Tsubokura Laboratory)[link](http://www.lab.kobe-u.ac.jp/csi-cfd/index_e.html)
+- Universidad Austral de Chile: rotating machine dynamics (Luis Medina) [link](https://www.vrkproject.org/)
 
 ### Industry:
-- Intuitive Machines (USA)
-- Oshkosh Corporation (USA)
-- Statoil (Norway)
-- Simlab (Jordan)
-- Simertis (Germany)
+- [Intuitive Machines](https://www.intuitivemachines.com/) (USA)
+- [Oshkosh Corporation](https://www.oshkoshcorp.com/) (USA)
+- [Simlab Soft](https://www.simlab-soft.com/) (Jordan)
+- [Simertis](https://simertis.de/?lang=en) (Germany)
 - [Motesque](http://www.motesque.com) (USA)
 - [D-ICE Engineering](http://www.dice-engineering.com) (France)
 - [Isymtec.ai](https://www.isymtec.ai) (Germany)
-- Danfoss (Denmark)
-- GoldWind (China)
+- [Agrointelli](https://www.agrointelli.com/) (Denmark)
+- [Danfoss](https://www.danfoss.com/en/) (Denmark)
+- [GoldWind](https://www.goldwind.com/en/) (China)
 
 ### Government labs: 
 - US Army Ground Vehicle Systems Center (USA)
