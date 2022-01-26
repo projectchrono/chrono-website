@@ -32,14 +32,14 @@ Among the other components of the {% include module.html first="PROJECT" second=
 
 
 <h4>Key Project Chrono Developers</h4>
-- <a href="https://sbel.wisc.edu/people-2/">Asher Elmquist</a> - PhD Student, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/people-2/">Luning Fang</a> - PhD Student, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/people-2/">Wei Hu</a> - Assistant Scientist, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/people-2/">Mike Taylor</a> - PhD Student, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/people-2/">Colin Vanden Heuvel</a> - Staff, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/people-2/">Aaron Young</a> - Student, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/people-2/">Ruochun Zhang</a> - PhD Student, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/people-2/">Jason Zhou</a> - Student, University of Wisconsin-Madison, USA
+- <a href="https://sbel.wisc.edu/staff/elmquist-asher/">Asher Elmquist</a> - PhD Student, University of Wisconsin-Madison, USA
+- <a href="https://sbel.wisc.edu/staff/fang-luning/">Luning Fang</a> - PhD Student, University of Wisconsin-Madison, USA
+- <a href="https://sbel.wisc.edu/staff/hu-wei/">Wei Hu</a> - Assistant Scientist, University of Wisconsin-Madison, USA
+- <a href="https://sbel.wisc.edu/staff/taylor-mike/">Mike Taylor</a> - PhD Student, University of Wisconsin-Madison, USA
+- <a href="https://sbel.wisc.edu/staff/vanden-heuvel-colin/">Colin Vanden Heuvel</a> - Staff, University of Wisconsin-Madison, USA
+- <a href="https://sbel.wisc.edu/staff/young-aaron/">Aaron Young</a> - Student, University of Wisconsin-Madison, USA
+- <a href="https://sbel.wisc.edu/staff/zhang-ruochun/">Ruochun Zhang</a> - PhD Student, University of Wisconsin-Madison, USA
+- <a href="https://sbel.wisc.edu/staff/zhou-jason/">Jason Zhou</a> - Student, University of Wisconsin-Madison, USA
 
 
 <h4>Past developers</h4>
@@ -68,7 +68,7 @@ Until 2002, Chrono::Engine was tightly linked to the Realsoft3D modeller. In 200
 
 [Prof. Dan Negrut](https://sbel.wisc.edu/staff/negrut-dan/) joined the Project Chrono effort in 2007. The members of Simulation-Based Engineering Lab [\(SBEL\)](http://sbel.wisc.edu) at the University of Wisconsin-Madison have been active in its development ever since. 
 
-[Dr. Radu Serban](https://sbel.wisc.edu/staff/serban-radu/) starting working on the Project Chrono effort in 2013, at the time he joined the Simulation-Based Engineering Lab. 
+[Dr. Radu Serban](https://sbel.wisc.edu/staff/serban-radu/) started working on the Project Chrono effort in 2013, at the time he joined UW-Madison and the Simulation-Based Engineering Lab. 
 
 We took the decision to release Chrono as open source in 2013, when we started to use the name {% include module.html first="PROJECT" second="CHRONO" %} to recognize the fact that this software infrastructure had become a multi-physics simulation engine. In 2014, the US Army decided to invest US $1.8 million over a two year period to further develop Chrono as an open source platform for physics-based modelling and simulation. Recent investments that will augment Chrono include US $1.0 million from National Science Foundation (2019-2023), US $0.4 million from US Army Research Office (2019-2023), US $1.5 million from U.S Army GVSC and ERDC (2019-2022). The current version of Chrono is 7.0.1 and it was released in November of 2021.
 
