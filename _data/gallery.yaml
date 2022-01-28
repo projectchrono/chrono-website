@@ -23,14 +23,14 @@ main:
       url: 'h-Yri_n9fRI'
       description: 'Simulation of a `Swiss lever escapement`. Constraints, shapes and collision surfaces have been created using SolidWorks. The Chrono::Engine SolidWorks Add-In tool has been used to export the model to a python file. The model has been imported by a C++ program for the simulation; this is a recording of a real-time visualization, using the Irrlicht unit.'
       host: 'youtube'
-    - title: Four cylinders engine
-      url: 'ieSk-NLeLx4'
-      description: 'Simulation of a 4 cylinder engine. Constraints and shapes have been created using SolidWorks. The Chrono::Engine SolidWorks Add-In tool has been used to export the model to a python file, for the following simulation. Rendering has been done with POV-Ray.'
-      host: 'youtube'
-    - title: Temple with earthquake
-      url: 'CHNKYMMXdEM'
-      description: 'Simulation of a small building with an earthquake. This is a simple test, where marble pieces are considered to be undeformable and undestructible. The simulation runs in real time.'
-      host: 'youtube'
+    #- title: Four cylinders engine
+    #  url: 'ieSk-NLeLx4'
+    #  description: 'Simulation of a 4 cylinder engine. Constraints and shapes have been created using SolidWorks. The Chrono::Engine SolidWorks Add-In tool has been used to export the model to a python file, for the following simulation. Rendering has been done with POV-Ray.'
+    #  host: 'youtube'
+    #- title: Temple with earthquake
+    #  url: 'CHNKYMMXdEM'
+    #  description: 'Simulation of a small building with an earthquake. This is a simple test, where marble pieces are considered to be undeformable and undestructible. The simulation runs in real time.'
+    #  host: 'youtube'
     - title: Tire
       url: 'P-1VZoBnD_c'
       description: 'Tire interacting with granular material. Particles are created with varying granulometry.'
