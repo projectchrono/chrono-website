@@ -13,7 +13,7 @@ install the octokit ruby gem
 you may also have to install jekyll-lunr-js-search
 - "gem install jekyll-lunr-js-search"
 
-in this directory run "jekyll serve", this does several things:
+in this directory run "bundle exec jekyll serve", this does several things:
 - compiles the website into a "_site" directory (DO NOT COMMIT THIS INTO GIT, the .gitignore should take care of this)
 - executes a webserver at "localhost:4000" that you can see in your web browser
 - watches this directory for any changes and regenerates the website as needed
