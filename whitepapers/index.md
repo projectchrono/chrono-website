@@ -4,6 +4,7 @@ title: Whitepapers
 permalink: /whitepapers/
 ---
 
+<br>
 White Papers
 ---
 ---
@@ -87,3 +88,11 @@ White Papers
 - Tasora, A., Negrut, D., & Anitescu, M., <br>
   **Large-scale parallel multi-body dynamics with frictional contact on the graphical processing unit**. <br>
   Journal of Multi-body Dynamics, 2008, 222, 315-32
+
+## Conference Papers
+
+- **Modeling granular material dynamics and its two-way coupling with moving solid     bodies using a continuum representation and the SPH method**<br>
+  Computer Methods in Applied Mechanics and Engineering, Volume 385, 114022, November 2021<br>
+  W Hu, M Rakhsha, L Yang, K Kamrin, D Negrut  
+  [download PDF](https://reader.elsevier.com/reader/sd/pii/S0045782521003534?token=CB9F73911C99C93F693A03A11FE3FFE8FE61C95841BF57F458486B8C588C2B9BA55F9DA7C04C7E472EEF9CA0E95BA327&originRegion=us-east-1&originCreation=20220222174531)
+
