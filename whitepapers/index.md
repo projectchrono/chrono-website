@@ -98,6 +98,7 @@ White Papers
   Processes, Volume 9 Issue 10, 1813<br>
   L Fang, R Zhang, C Vanden Heuvel, R Serban, D Negrut<br>
   [download PDF](https://www.mdpi.com/2227-9717/9/10/1813/pdf)
+
 ## Conference Papers
 
 - **Enabling Artificial Intelligence Studies in Off-Road Mobility Through Physics-Based Simulation of Multi-Agent Scenarios**<br>
