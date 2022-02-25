@@ -114,6 +114,19 @@ White Papers
   M Rakhsha, C Kelly, N Olsen, R Serban, D Negrut<br>
   [Download PDF](https://watermark.silverchair.com/cnd_015_09_091009.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAABDEwggQtBgkqhkiG9w0BBwagggQeMIIEGgIBADCCBBMGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM7LPUhWGviGpt5SACAgEQgIID5LowPcWp1-IV3_tx1dCUZOsT-rTjVyvTZxSnPzGdMKj1ir-IEhz8Wkuc4nlsqTprEH61C8Q5T5cnqmQ_EtpQZ9rHqHN-djjxj8NdERFgiO8FRMOI5D3ZobG9JUWwlE2-XwoEdTslRIPg3HQqjo9vk-axc8ocWZTtCBTohAos7mODCF6GygQ1rKYFsID94iCCLvaiFDLd5xHQ2gWI3RZhxAAH0fiYv9111GtHl30btycUOleXCr1MaZOgHAZ26AIwnZF5-gtZTAlDJvgHJA3vu01r7xY6aUcJyyYE_yuiY1s-8_Ih4LrMeHuOtT1_lAhYQ0mssLwfPm6E3Ly4KmN9M4guylkRPu1-oxACWL72hQgSvpBukqORJzfqma9M-F7_YaKq29PkWBh9DRY84OgfEogQRuka-ajfnNDsBIkRWurWMgMmkY_rDqcQSpxfJ-YXTq-op3Hn2TLuZF19utGG3H2RICCKwLqGtURTsiJ0Zhuhs8P7G6vVKGz5fleT-y6DGNwo_N7rsZVo1LNHruCJzN4eAva471oI557ZKZy8_0wdRVFL1ZjPjRUbfAoBIFRsTRWjdJr9U9jdFLc1-mk8krkk87l1Rfku0lL7zuaGQ9MbLH46bdHbCTwnwWRMG92HTeuaMBKt9B-5ab4Y0Hx0XQdubra-NzHzDPVepNiYIk-sF2kX9W263FmZPZ_ASVJKbTjerekQXGqtKyA1roV3eDN5NraZCwgnrvHEPP37HjdCN-Jy0XJpivH4Bo3GjE5nPsKzBCM917ytQLuIh2i368KrUhGUZ4pPALxL0NAcoVEdrQqWIev-_-MrKbEGIuOtdTTFpAzxwvmEeX6uGf3HhrrSQEVPscTpLW4DAQDHRWzbhUOHXazss-oEx8ojVxXl-GjGZ3EprMIbrFiIhhApR8gEXqYFGzRvD5PsvQ7FVcq24Jx1k2DYroIxRO5P2DX_gFxwLd19RfY5Y8I8nr2FJ2D5QfQlsenhEnMkGJEWTFuEPjjuY1DZLhe8kCQaiLeWp5U7FOAMd7Y2SeVKIHxlWixoCcI6SfPffzhPPbPyCxeqlehpH0VgM6HbvBIRN9uLCmOTZHSvYhX6CGsHCNt05d0rsCMwLwHbEJPP6NIwoAvtwbhz0aYBaGNVsMOA9M128xAe1qoIjSbsWZ31EyX43USvtt-xRkgHA9tdC1_PkBKyvYRlQaL_fItYmEYqn_sFTrC1sAi681-KGgriHu2fgiTViPcqZ2gEvLz5TZtGJ_trFL3yHsekoHWs7VnzOR-nz7BPQ3UKRt6_CLhE-qN-8OA0ULGUBSfpkEieA3eBN_neNtnAEw)
 
+- **Validation of the Chrono soft-sphere collision model for granular DEM simulations**<br>
+  EPSC-DPS Joint Meeting 2019, Page EPSC-DPS2019-1215<br>
+  [Download PDF](https://meetingorganizer.copernicus.org/EPSC-DPS2019/EPSC-DPS2019-1215-1.pdf)
+
+- **Developing an Open-Source Multi-Agent Simulation Environment for Connected Autonomous Vehicles**<br>
+  Safety Research Using Simulation (SAFER-SIM) University Transportation Center<br>
+  D Negrut, R Serban, A Elmquist<br>
+  [Download PDF](http://safersim.nads-sc.uiowa.edu/final_reports/UW%201%20Y2%20Final%20Report.pdf)
+
+- **An integrated framework for high-performance, high-fidelity simulation of ground vehicle-tyre-terrain interaction**<br>
+  International journal of vehicle performance, Volume 5 Issue 3, Page 233-259<br>
+  R Serban, D Negrut, A Recuero, P Jayakumar<br>
+  [Preview Abstract](https://www.inderscienceonline.com/doi/pdf/10.1504/IJVP.2019.100698)
 
 ## Conference Papers
 
