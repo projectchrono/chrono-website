@@ -1,4 +1,8 @@
 main:
+    - title: Autonomy Research Testbed (ART) | Demonstration
+      url: 'M8m3DGBdbQQ'
+      description: 'Demonstration of an Autonomous Research Testbed (ART) for testing and understanding autonomy algorithms in simulation and reality.' 
+      host: 'youtube'
     - title: Bulldozing simulation of Moon VIPER with low V-shaped blade
       url: 'rDK4ZNB3yKg'
       description: 'In this simulation, a Moon VIPER rover moves over granular material terrain with a V-shape blade that is set close to the ground as it cuts through the material.'
