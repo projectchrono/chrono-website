@@ -20,42 +20,47 @@ Instructions for configuring and building the Chrono libraries are provided on t
 Download precompiled binaries
 =============================
 
-We also provide precompiled binaries if you want skip the build process:
+We also provide both container images and precompiled binaries if you want to skip the build process:
 
-### Windows users:
-The latest version of the installer features a more stable backend and a GUI for a friendlier user experience. If you have installed Project Chrono from the previous text-based installer, it is recommended to uninstall that version first. This installer will not interfere with manual builds of Project Chrono.
-
+### Windows, Mac, and Linux users:
+The latest release of Project Chrono is available as a [Docker](https://www.docker.com/products/docker-desktop) image.
 <div class="well">
-<h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-[Precompiled Project Chrono 5.0.1 for Windows](https://projectchrono.org/repos/windows/projectchrono-installer-5.0.1.exe) (Release Candidate 3)
-<br />
-[Precompiled Project Chrono 4.0.0 for Windows](https://projectchrono.org/repos/windows/Chrono-installer-4.0.exe)
-</div>
 
+#### Get the latest version
 
-### Linux users:
-The latest release of Project Chrono is available as a Linux [Docker](https://www.docker.com/products/docker-desktop) image.
-<div class="well">
-<h4>Get the latest version</h4> 
 ```sh
 docker pull uwsbel/projectchrono:latest
 ```
-</div>
-Or pull a specific version using its release tag, e.g.:
+
+#### Pull a specific release
 ```sh
-docker pull uwsbel/projectchrono:5.0.1
+docker pull uwsbel/projectchrono:7.0.1-cuda11.5
 ```
+Or, for an older release
+```sh
+docker pull uwsbel/projectchrono:6.0.0-cuda11.2
+```
+
 See the [Project Chrono Docker Repository](https://hub.docker.com/repository/docker/uwsbel/projectchrono) for more information. 
-<br />
-<br />
-<br />
-A discontinued release of Chrono 3.0.0 for CentOS and RHEL systems is still available at for legacy reasons:
-<div class="well">
-<h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-[Precompiled Project Chrono 3.0.0 CentOS/RedHat](http://projectchrono.org/repos/projectchrono-repo-0.1.0-1.noarch.rpm) (unsupported). 
 </div>
 
-<br>
+### Windows users:
+The latest version of the installer features a GUI for a friendlier user experience. If you have previously used the installer package for Project Chrono, it is recommended to uninstall that version first. This installer will not interfere with manual builds of Project Chrono.
+
+<div class="well">
+
+#### <span class="glyphicon glyphicon-download-alt"></span> Download
+
+_Precompiled Project Chrono 7.0.1 for Windows_ is in the works and will be available soon. 
+
+[Precompiled Project Chrono 6.0.0 for Windows](https://github.com/projectchrono/chrono/releases/download/6.0.0/projectchrono-installer-6.0.0.exe)
+
+</div>
+
+
+
+<br />
+<br />
 
 ---
 
@@ -91,14 +96,14 @@ a new exporter tool in the right panel of SolidWorks: this can be used
 to generate .py files with PyChrono scene descriptions
 containing masses, constraints, etc.
 
-The installer automatically detects your SolidWorks installation (SolidWorks V.2021 is tested
-and known to work at the moment, but also more recent or older could work) and adds the
+The installer automatically detects your SolidWorks installation (v.2011,
+v.2012, v.2013 64bit supported and tested, for the moment) and adds the
 Chrono add-in.
 
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v7.00.exe"> Chrono::SolidWorks add-in for SolidWorks 2021 and higher. Compatible with the develop branch of chrono.</a><br />
+<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_dev.exe"> Chrono::SolidWorks add-in for SolidWorks 2018 and higher. Compatible with Chrono 6.0 and the develop branch of Chrono.</a><br />
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v5.01.exe"> Chrono::SolidWorks 5.0 add-in for SolidWorks 2018 and higher. Compatible with Chrono 5.0.</a><br />
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v4.02.exe"> Chrono::SolidWorks 4.0 add-in for SolidWorks 2014 and higher. Compatible with Chrono 4.0.</a><br />
 </div>

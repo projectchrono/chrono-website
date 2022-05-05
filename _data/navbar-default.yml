@@ -8,11 +8,11 @@ main:
          title: Chrono Development Branch
          url: 'http://api.projectchrono.org/development'
        -
-         title: Chrono 5.0.0
-         url: 'http://api.projectchrono.org/5.0.0'
+         title: Chrono 7.0.0
+         url: 'http://api.projectchrono.org/7.0.0'
        -
-         title: Chrono 4.0.0
-         url: 'http://api.projectchrono.org/4.0.0'
+         title: Chrono 6.0.0
+         url: 'http://api.projectchrono.org/6.0.0'
        -
          title: FAQ
          url: '/faq/'
@@ -35,12 +35,12 @@ main:
          title: SBEL
          url: 'http://sbel.wisc.edu/Animations/'
        -
-         title: On Vimeo
-         url: 'https://vimeo.com/uwsbel'
+         title: YouTube
+         url: 'https://www.youtube.com/channel/UCpIhnh9HvfNzBtBcNRecUKw'
     - title: News
       url: '/news/'
     - title: Forum
-      url: '/forum/'
+      url: 'https://groups.google.com/g/projectchrono'
     - title: About
       url: '/about/'
       sub:

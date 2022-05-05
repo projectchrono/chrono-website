@@ -10,7 +10,7 @@ A list of several past and current Chrono users is provided below. Please let us
 
 ### Universities:
 - University of Wisconsin-Madison (USA): Chrono has been use in a variety of applications, see Simulation-Based Engineering Lab web site [link](http://sbel.wisc.edu/)
-- University of Parma (Italy): Chrono has been used in robotics, controls, waste management, masonry structures, etc. [link](http://www.chronoengine.info/tasora/)
+- University of Parma (Italy): Chrono has been used in robotics, controls, waste management, masonry structures, etc. [link](http://digitaldynamicslab.unipr.it/index.html)
 - Multibody dynamics support in [GPUSPH](http://www.gpusph.org/about/)
 - Multibody dynamics support in [DualSPHysics](https://dual.sphysics.org/)
 - Georgia Tech University (USA): robotics, bio-inspired robots (Dan Goldman) [link](http://crablab.gatech.edu/)
@@ -20,21 +20,23 @@ A list of several past and current Chrono users is provided below. Please let us
 - Politecnico di Milano (Italy): miniaturized mechanisms for watches (Nicolò Robuschi, Francesco Braghin) 
 - University of Washington (USA): shock wave propagation in granular media (Nicholas Boechler) [link](https://www.engr.washington.edu/facresearch/newfaculty/2013/nicholasboechler.html)
 - Aarhus University (Denmark): wheel/terrain interaction, agroecology (Ole Balling) [link](http://pure.au.dk/portal/en/oba@iha.dk)
-- Marquette University (USA): autonomous vehicle simulation (J. Fleischmann) [link](http://www.marquette.edu/mechanical-engineering/fleischmann-jonathan.php)
+- Marquette University (USA): autonomous vehicle simulation (J. Fleischmann)
 - Muroran Institute of Technology (Japan): robotics and synchronization control of multiple systems (Assoc. Prof. Hidekazu Kajiwara)
 - Kobe University (Japan): fluid simulation as in studying aerodynamics effects on car motion (Nomoto Yotaro, Tsubokura Laboratory)[link](http://www.lab.kobe-u.ac.jp/csi-cfd/index_e.html)
+- Universidad Austral de Chile: rotating machine dynamics (Luis Medina) [link](https://www.vrkproject.org/)
+- University of Iowa: co-simulation of wheeled vehicles on deformable terrain (Hiroyuki Sugiyama)
 
 ### Industry:
-- Intuitive Machines (USA)
-- Oshkosh Corporation (USA)
-- Statoil (Norway)
-- Simlab (Jordan)
-- Simertis (Germany)
+- [Intuitive Machines](https://www.intuitivemachines.com/) (USA)
+- [Oshkosh Corporation](https://www.oshkoshcorp.com/) (USA)
+- [Simlab Soft](https://www.simlab-soft.com/) (Jordan)
+- [Simertis](https://simertis.de/?lang=en) (Germany)
+- [Statoil](https://www.equinor.com/en.html) (Norway)
 - [Motesque](http://www.motesque.com) (USA)
 - [D-ICE Engineering](http://www.dice-engineering.com) (France)
-- [Isymtec.ai](https://www.isymtec.ai) (Germany)
-- Danfoss (Denmark)
-- GoldWind (China)
+- [Agrointelli](https://www.agrointelli.com/) (Denmark)
+- [Danfoss](https://www.danfoss.com/en/) (Denmark)
+- [GoldWind](https://www.goldwind.com/en/) (China)
 
 ### Government labs: 
 - US Army Ground Vehicle Systems Center (USA)
@@ -42,7 +44,4 @@ A list of several past and current Chrono users is provided below. Please let us
 - Argonne National Lab (USA)
 - Jet Propulsion Lab (JPL, USA)
 - German Bundeswehr's WTD-41 land mobility simulation, evaluation process [link](http://www.baainbw.de/portal/a/baain/!ut/p/c4/04_SB8K8xLLM9MSSzPy8xBz9CP3I5EyrpHK9pMTEzDy9lMzUvOKSYr3ykhQTQ72C_KKSosRM_YJsR0UALcHk4A!!/)
-
-
-
 
