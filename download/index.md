@@ -91,14 +91,14 @@ a new exporter tool in the right panel of SolidWorks: this can be used
 to generate .py files with PyChrono scene descriptions
 containing masses, constraints, etc.
 
-The installer automatically detects your SolidWorks installation (v.2011,
-v.2012, v.2013 64bit supported and tested, for the moment) and adds the
+The installer automatically detects your SolidWorks installation (SolidWorks V.2021 is tested
+and known to work at the moment, but also more recent or older could work) and adds the
 Chrono add-in.
 
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_dev.exe"> Chrono::SolidWorks add-in for SolidWorks 2018 and higher. Compatible with the develop branch of chrono.</a><br />
+<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v7.00.exe"> Chrono::SolidWorks add-in for SolidWorks 2021 and higher. Compatible with the develop branch of chrono.</a><br />
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v5.01.exe"> Chrono::SolidWorks 5.0 add-in for SolidWorks 2018 and higher. Compatible with Chrono 5.0.</a><br />
 <a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v4.02.exe"> Chrono::SolidWorks 4.0 add-in for SolidWorks 2014 and higher. Compatible with Chrono 4.0.</a><br />
 </div>
