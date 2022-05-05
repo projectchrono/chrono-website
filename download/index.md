@@ -96,7 +96,7 @@ a new exporter tool in the right panel of SolidWorks: this can be used
 to generate .py files with PyChrono scene descriptions
 containing masses, constraints, etc.
 
-The installer automatically detects your SolidWorks installation (SolidWorks V.2021 is tested
+The installer automatically detects your SolidWorks installation (SolidWorks v.2021 is tested
 and known to work at the moment, but also more recent or older could work) and adds the
 Chrono add-in.
 
