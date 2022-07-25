@@ -51,7 +51,7 @@ main:
          title: Current/Past Users
          url: '/testimonials/'
        -
-         title: Consulting
+         title: Contact
          url: '/consulting/'
     # - title: Old Website
     #   url: 'http://old.projectchrono.org'

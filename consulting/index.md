@@ -24,6 +24,10 @@ permalink: /consulting/
   - Assist you with interfacing Chrono with other third party CAD/CAE tools such as MATLAB&copy;, Simulink&copy;, SolidWorks&copy;, etc.
   - Run one to three days long Chrono tutorials at your organization
   
-  
-  
-Contact us at <info@projectchrono.org> for additional consulting-related information.
+<br>  
+
+Contact us at <info@projectchrono.org> for additional collaboration or consulting-related information.
+<br>
+For technical questions, please use the Chrono user mailing list on [Google Groups](https://groups.google.com/g/projectchrono).
+<br>
+For bug and issue reports or to request additional features, please use the project GitHub [issue tracker](https://github.com/projectchrono/chrono/issues).
