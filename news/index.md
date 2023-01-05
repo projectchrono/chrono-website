@@ -7,6 +7,26 @@ permalink: /news/
 <h2> News</h2>
 
 <div class = "well">
+	<p>5 January 2023 -- Chrono 8.0.0 released</p>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<div class="media-body">
+	We have recently released version 8.0.0 of the Chrono package.
+
+	The code for the release can be obtained from GitHub under the <a href="https://github.com/projectchrono/chrono/tree/release/8.0" > release/8.0 branch</a>.
+	Development will continue in the 'main' branch.
+	<br>
+	For a list of the main changes in release 8.0.0, consult the <a href="https://github.com/projectchrono/chrono/blob/release/8.0/CHANGELOG.md">Change Log</a> page.
+	<br>
+	Documentation for the 8.0.0 release can be accessed at
+	<a href="http://api.projectchrono.org/8.0.0/"> http://api.projectchrono.org/8.0.0 </a> and for the previous 7.0.0 release at
+	<a href="http://api.projectchrono.org/7.0.0/"> http://api.projectchrono.org/7.0.0 </a>
+	Documentation for the 'main' branch (automatically generated with
+	each push to GitHub) is at <a href = "http://api.projectchrono.org/development/">http://api.projectchrono.org/development</a>.
+	<br><br>
+	</div>
+</div>
+
+<div class = "well">
 	<p>15 November 2021 -- Chrono 7.0.0 released</p>
 	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body">
