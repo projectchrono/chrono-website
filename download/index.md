@@ -89,25 +89,20 @@ For more details on the installation, refer to the
 Chrono::SolidWorks
 ==================
 
-This optional tool can be installed as an add-in for the
-[SolidWorks](http://www.SolidWorks.com) 3D CAD, that is widely used by
-many engineering companies. After you install this add-in, you will find
-a new exporter tool in the right panel of SolidWorks: this can be used
-to generate .py files with PyChrono scene descriptions
-containing masses, constraints, etc.
+This optional tool can be installed as an add-in for the [SolidWorks](http://www.SolidWorks.com) CAD software.
+After installation of this add-in, a new exporter tool is availabnle in the right panel of SolidWorks: this can be used to generate .py files with PyChrono scene descriptions containing masses, constraints, etc.
 
-The installer automatically detects your SolidWorks installation (SolidWorks v.2021 is tested
-and known to work at the moment, but also more recent or older could work) and adds the
+The installer automatically detects the SolidWorks installation (SolidWorks v.2021 is tested and known to work at the moment, but other version may also work) and adds the
 Chrono add-in.
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v7.03.exe"> Chrono::SolidWorks 7.03 add-in for SolidWorks 2021 and higher. Compatible with the develop branch of Chrono.</a><br />
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v7.02.exe"> Chrono::SolidWorks 7.02 add-in for SolidWorks 2021 and higher. Compatible with the develop branch of Chrono.</a><br />
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v7.01.exe"> Chrono::SolidWorks 7.01 add-in for SolidWorks 2021 and higher. Compatible with the develop branch of Chrono.</a><br />
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_dev.exe"> Chrono::SolidWorks 6.0 add-in for SolidWorks 2021 and higher. Compatible with Chrono 6.0 and Chrono 7.0.</a><br />
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v5.01.exe"> Chrono::SolidWorks 5.0 add-in for SolidWorks 2018 and higher. Compatible with Chrono 5.0.</a><br />
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v4.02.exe"> Chrono::SolidWorks 4.0 add-in for SolidWorks 2014 and higher. Compatible with Chrono 4.0.</a><br />
+<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v9.0.exe"> Chrono::SolidWorks 9.0 add-in for SolidWorks 2021 and higher. Compatible with develop branch of Chrono</a><br />
+
+---
+
+<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v8.0.exe"> Chrono::SolidWorks 8.0 add-in for SolidWorks 2021 and higher. Compatible with Chrono 8.0.</a><br />
+<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v6.0.exe"> Chrono::SolidWorks 6.0 add-in for SolidWorks 2021 and higher. Compatible with Chrono 6.0 and Chrono 7.0.</a><br />
 </div>
 
 <br>
@@ -119,7 +114,7 @@ Chrono add-in.
 Useful tools
 =============================
 
-In the following we list download links for useful third-party tools and libraries that you might need if you want to build/use Project Chrono. If you plan to build Project Chrono from the source code in the GIT repository, some of them are mandatory (ex. the GIT client, the CMake tool, the compiler, etc.) but if you install the precompiled Project Chrono binaries, most are optional.
+The following list contains useful third-party tools and libraries for building and/or using Chrono. If building Chrono from source, some of them are required/recommended (e.g., a GIT client, CMake for configuration, a compiler, etc.). If using preinstalled binaries, most of these are optional.
 
 
 ### C++ compiler
