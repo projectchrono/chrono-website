@@ -34,27 +34,10 @@ docker pull uwsbel/projectchrono:latest
 
 #### Pull a specific release
 ```sh
-docker pull uwsbel/projectchrono:7.0.1-cuda11.5
-```
-Or, for an older release
-```sh
-docker pull uwsbel/projectchrono:6.0.0-cuda11.2
+docker pull uwsbel/projectchrono:8.0-vnc
 ```
 
 See the [Project Chrono Docker Repository](https://hub.docker.com/repository/docker/uwsbel/projectchrono) for more information. 
-</div>
-
-### Windows users:
-The latest version of the installer features a GUI for a friendlier user experience. If you have previously used the installer package for Project Chrono, it is recommended to uninstall that version first. This installer will not interfere with manual builds of Project Chrono.
-
-<div class="well">
-
-#### <span class="glyphicon glyphicon-download-alt"></span> Download
-
-_Precompiled Project Chrono 7.0.1 for Windows_ is in the works and will be available soon. 
-
-[Precompiled Project Chrono 6.0.0 for Windows](https://github.com/projectchrono/chrono/releases/download/6.0.0/projectchrono-installer-6.0.0.exe)
-
 </div>
 
 
@@ -95,14 +78,14 @@ After installation of this add-in, a new exporter tool is availabnle in the righ
 The installer automatically detects the SolidWorks installation (SolidWorks v.2021 is tested and known to work at the moment, but other version may also work) and adds the
 Chrono add-in.
 
+
 <div class="well">
-<h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-<a href="https://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v9.2.exe"> Chrono::SolidWorks 9.2 add-in for SolidWorks 2021 and higher. Compatible with develop branch of Chrono</a><br />
 
----
+#### <span class="glyphicon glyphicon-download-alt"></span> Download
 
-<a href="https://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v8.0.exe"> Chrono::SolidWorks 8.0 add-in for SolidWorks 2021 and higher. Compatible with Chrono 8.0.</a><br />
-<a href="https://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v6.0.exe"> Chrono::SolidWorks 6.0 add-in for SolidWorks 2021 and higher. Compatible with Chrono 6.0 and Chrono 7.0.</a><br />
+[Chrono::SolidWorks add-in](https://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v9.2.exe) compatible with the current development branch of Chrono.
+
+Versions of the Chrono::SolidWorks add-in compatible with previous Chrono releases can be downloaded from the [GiHub Releases](https://github.com/projectchrono/chrono/releases) page.<br>
 </div>
 
 <br>
