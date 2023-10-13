@@ -40,10 +40,7 @@ docker pull uwsbel/projectchrono:8.0-vnc
 See the [Project Chrono Docker Repository](https://hub.docker.com/repository/docker/uwsbel/projectchrono) for more information. 
 </div>
 
-
-
-<br />
-<br />
+<br>
 
 ---
 
@@ -61,13 +58,9 @@ conda install -c projectchrono pychrono
 For more details on the installation, refer to the 
 [PyChrono installation page](http://api.projectchrono.org/pychrono_installation.html).
 
-
 <br>
-<br>
-
 
 ---
-
 
 Chrono::SolidWorks
 ==================
@@ -77,7 +70,6 @@ After installation of this add-in, a new exporter tool is availabnle in the righ
 
 The installer automatically detects the SolidWorks installation (SolidWorks v.2021 is tested and known to work at the moment, but other version may also work) and adds the
 Chrono add-in.
-
 
 <div class="well">
 
@@ -89,10 +81,8 @@ Versions of the Chrono::SolidWorks add-in compatible with previous Chrono releas
 </div>
 
 <br>
-<br>
 
 ---
-
 
 Useful tools
 =============================
