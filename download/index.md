@@ -97,12 +97,12 @@ Chrono add-in.
 
 <div class="well">
 <h4> <span class="glyphicon glyphicon-download-alt"></span> Download</h4>
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v9.2.exe"> Chrono::SolidWorks 9.2 add-in for SolidWorks 2021 and higher. Compatible with develop branch of Chrono</a><br />
+<a href="https://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v9.2.exe"> Chrono::SolidWorks 9.2 add-in for SolidWorks 2021 and higher. Compatible with develop branch of Chrono</a><br />
 
 ---
 
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v8.0.exe"> Chrono::SolidWorks 8.0 add-in for SolidWorks 2021 and higher. Compatible with Chrono 8.0.</a><br />
-<a href="http://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v6.0.exe"> Chrono::SolidWorks 6.0 add-in for SolidWorks 2021 and higher. Compatible with Chrono 6.0 and Chrono 7.0.</a><br />
+<a href="https://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v8.0.exe"> Chrono::SolidWorks 8.0 add-in for SolidWorks 2021 and higher. Compatible with Chrono 8.0.</a><br />
+<a href="https://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v6.0.exe"> Chrono::SolidWorks 6.0 add-in for SolidWorks 2021 and higher. Compatible with Chrono 6.0 and Chrono 7.0.</a><br />
 </div>
 
 <br>
