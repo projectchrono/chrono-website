@@ -83,7 +83,7 @@ Chrono add-in.
 
 #### <span class="glyphicon glyphicon-download-alt"></span> Download
 
-[Chrono::SolidWorks add-in](https://www.projectchrono.org/assets/installers/ChronoEngine_SolidWorks_v9.2.exe) compatible with the current development branch of Chrono.
+[Chrono::SolidWorks add-in](https://www.projectchrono.org/assets/installers/Chrono_SolidWorks_current.exe) compatible with the current development branch of Chrono.
 
 Versions of the Chrono::SolidWorks add-in compatible with previous Chrono releases can be downloaded from the [GiHub Releases](https://github.com/projectchrono/chrono/releases) page.<br>
 </div>
