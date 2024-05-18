@@ -77,6 +77,8 @@ Chrono add-in.
 
 [Chrono::SolidWorks add-in](https://www.projectchrono.org/assets/installers/Chrono_SolidWorks_current.exe) compatible with the current development branch of Chrono.
 
+[Chrono::SolidWorks add-in](https://www.projectchrono.org/assets/installers/Chrono_SolidWorks_previous.exe) compatible with the development branch of Chrono up to and including commit [#37ef79d](https://github.com/projectchrono/chrono/tree/37ef79d3801db3d8ef16a21cd9495bacbfbd8701).
+
 Versions of the Chrono::SolidWorks add-in compatible with previous Chrono releases can be downloaded from the [GiHub Releases](https://github.com/projectchrono/chrono/releases) page.<br>
 </div>
 

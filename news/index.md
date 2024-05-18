@@ -7,6 +7,33 @@ permalink: /news/
 <h2> News</h2>
 
 <div class = "well">
+	<p>20 May 2024 -- Chrono 9.0.0 released</p>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<div class="media-body">
+	We have recently released version 9.0.0 of the Chrono package.
+
+	The code for the release can be obtained from GitHub under the <a href="https://github.com/projectchrono/chrono/tree/release/9.0" > release/9.0 branch</a>.
+	Development will continue in the 'main' branch.
+	<br>
+	For a list of the main changes in release 9.0.0, consult the <a href="https://github.com/projectchrono/chrono/blob/release/9.0/CHANGELOG.md">Change Log</a> page.  New capabilities include:
+	- direct integration of ROS2 with Chrono
+	- parsers for URDF (Unified Robot Defintion Format) files
+	- support for exporting and importing co-simulation FMUs for the Functional Mock-Up Interface standard 2.0
+	- new run-time visualization module based on Vulkan and VulkanSceneGraph
+	- Blender add-on for importing Chrono simulations for post-processing and rendering
+	<br>
+	The entire Chrono code base has undergone a comprehensive refactoring. For consistency and uniformity, many classes and functions were renamed, modified, replaced, or removed. Note that this represents a major public API change.
+	<br>
+	Documentation for the 9.0.0 release can be accessed at
+	<a href="http://api.projectchrono.org/8.0.0/"> http://api.projectchrono.org/9.0.0 </a> and for the previous 8.0.0 release at
+	<a href="http://api.projectchrono.org/8.0.0/"> http://api.projectchrono.org/8.0.0 </a>
+	Documentation for the 'main' branch (automatically generated with
+	each push to GitHub) is at <a href = "http://api.projectchrono.org/development/">http://api.projectchrono.org/development</a>.
+	<br><br>
+	</div>
+</div>
+
+<div class = "well">
 	<p>5 January 2023 -- Chrono 8.0.0 released</p>
 	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body">
