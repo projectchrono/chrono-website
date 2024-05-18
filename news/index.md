@@ -22,7 +22,7 @@ permalink: /news/
 	- new run-time visualization module based on Vulkan and VulkanSceneGraph<br>
 	- Blender add-on for importing Chrono simulations for post-processing and rendering<br>
 	<br>
-	This release includes a major API refactoring. Consult the corresponding <a href="https://github.com/projectchrono/chrono/blob/release/9.0/CHANGELOG.md#changed-refactoring-of-class-and-function-names">Change Log entry<a/> for a list of all public API changes.
+	This release includes a major API refactoring. Consult the corresponding <a href="https://github.com/projectchrono/chrono/blob/release/9.0/CHANGELOG.md#changed-refactoring-of-class-and-function-names">Change Log entry</a> for a list of all public API changes.
 	<br><br>
 	Documentation for the 9.0.0 release can be accessed at
 	<a href="http://api.projectchrono.org/9.0.0/"> http://api.projectchrono.org/9.0.0 </a> and for the previous 8.0.0 release at
