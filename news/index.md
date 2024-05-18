@@ -15,14 +15,13 @@ permalink: /news/
 	The code for the release can be obtained from GitHub under the <a href="https://github.com/projectchrono/chrono/tree/release/9.0" > release/9.0 branch</a>.
 	Development will continue in the 'main' branch.
 	<br><br>
-	For a list of the main changes in release 9.0.0, consult the <a href="https://github.com/projectchrono/chrono/blob/release/9.0/CHANGELOG.md">Change Log</a> page.  New capabilities include:
-
-	- direct integration of ROS2 with Chrono
-	- parsers for URDF (Unified Robotics Description Format) specificatoin files
-	- support for exporting and importing co-simulation FMUs for the Functional Mock-Up Interface standard 2.0
-	- new run-time visualization module based on Vulkan and VulkanSceneGraph
-	- Blender add-on for importing Chrono simulations for post-processing and rendering
-	
+	For a list of the main changes in release 9.0.0, consult the <a href="https://github.com/projectchrono/chrono/blob/release/9.0/CHANGELOG.md">Change Log</a> page.  New capabilities include:<br>
+	- direct integration of ROS2 with Chrono<br>
+	- parsers for URDF (Unified Robotics Description Format) specification files<br>
+	- support for exporting and importing co-simulation FMUs for the Functional Mock-Up Interface standard 2.0<br>
+	- new run-time visualization module based on Vulkan and VulkanSceneGraph<br>
+	- Blender add-on for importing Chrono simulations for post-processing and rendering<br>
+	<br><br>
 	The entire Chrono code base has undergone a comprehensive refactoring. For consistency and uniformity, many classes and functions were renamed, modified, replaced, or removed. Note that this represents a major public API change.
 	<br><br>
 	Documentation for the 9.0.0 release can be accessed at
