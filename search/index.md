@@ -21,7 +21,7 @@ Search results are case-sensitive.
 <ul id="doc_results"></ul>
 
 <script src="/js/lunr.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="/js/search.js"></script>
 <script> 
     window.onload = function() {
