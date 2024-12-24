@@ -27,31 +27,33 @@ Among the other components of the {% include module.html first="PROJECT" second=
 
 <h4>Technical Leads</h4>
 - <a href="/tasora/">Alessandro Tasora</a> - Associate Professor, University of Parma, Italy
-- <a href="https://sbel.wisc.edu/staff/serban-radu/">Radu Serban</a> - Senior Scientist, University of Wisconsin-Madison, USA
+- <a href="https://sbel.wisc.edu/staff/serban-radu/">Radu Serban</a> - Distinguished Scientist, University of Wisconsin-Madison, USA
 - <a href="https://sbel.wisc.edu/staff/negrut-dan/">Dan Negrut</a> - Professor, University of Wisconsin-Madison, USA
 
 
 <h4>Key Project Chrono Developers</h4>
-- <a href="https://sbel.wisc.edu/staff/elmquist-asher/">Asher Elmquist</a> - PhD Student, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/staff/fang-luning/">Luning Fang</a> - PhD Student, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/staff/hu-wei/">Wei Hu</a> - Assistant Scientist, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/staff/taylor-mike/">Mike Taylor</a> - PhD Student, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/staff/vanden-heuvel-colin/">Colin Vanden Heuvel</a> - Staff, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/staff/young-aaron/">Aaron Young</a> - Student, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/staff/zhang-ruochun/">Ruochun Zhang</a> - PhD Student, University of Wisconsin-Madison, USA
-- <a href="https://sbel.wisc.edu/staff/zhou-jason/">Jason Zhou</a> - Student, University of Wisconsin-Madison, USA
+- <a href="https://sbel.wisc.edu/staff/fang-luning/">Luning Fang</a> - Assistant Scientist, University of Wisconsin-Madison, USA
+- <a href="https://sbel.wisc.edu/staff/zhou-jason/">Jason Zhou</a> - PhD Student, University of Wisconsin-Madison, USA
+- <a href="https://sbel.wisc.edu/staff/unjhawala-huzaifa-mustafa/">Huzaifa Mustafa Unjhawala</a> - PhD Student, University of Wisconsin-Madison, USA
+- <a href="https://www.linkedin.com/in/dario-mangoni/?originalSubdomain=it">Dario Mangoni - Postdoc, University of Parma, Italy
+- <a href="https://www.linkedin.com/in/dario-fusai-989268143/?originalSubdomain=it">Dario Fusai - Postdoc, University of Parma, Italy
 
 
 <h4>Past developers</h4>
-- Dr. Simone Benatti - former University of Parma student and UW-Madison postdoc, now at VisLab
+- Dr. Asher Elmquist - former UW-Madison student, now at JPL
+- Dr. Ruochun Zhang - former UW-Madison student, now at Hexagon
+- Dr. Mike Taylor - former UW-Madison student, now at Harley-Davidson
+- Dr. Wei Hu - Former SBEL Assistant Scientist, now at Shanghai Jiao Tong University
+- Dr. Simone Benatti - former University of Parma student and UW-Madison postdoc, now at Hexagon
 - Dr. Toby Heyn - former UW-Madison student, now at Epic Systems
 - Dr. Justin Madsen - former UW-Madison student, now at Oshkosh Corporation
-- Dr. Dario Mangoni - former University of Parma student, now at Altair
 - Dr. Hammad Mazhar - former UW-Madison student, now at NVIDIA
 - Dr. Dan Melanz - former UW-Madison student, now at Energid
-- Dr. Arman Pazouki - former UW-Madison Assistant Scientist, now at Northwestern University 
-- Dr. Milad Rakhsha - former UW-Madison PhD student, now at Roblox
-- Dr. Antonio Recuero - former UW-Madison Assistant Scientist, now at Idaho National Lab
+- Dr. Arman Pazouki - former UW-Madison Assistant Scientist, now at Purdue University 
+- Dr. Milad Rakhsha - former UW-Madison PhD student, now at NVIDIA
+- Dr. Antonio Recuero - former UW-Madison Assistant Scientist, now at LLNL
+- Aaron Young - former UW-Madison student, now at MIT
+- Colin Vanden Heuvel - former SBEL staff, now at CAE, UW-Madison
 - Dylan Hatch - former UW-Madison CS undergraduate student, now at Google
 - Conlain Kelly - former UW-Madison undergraduate student, now grad student at Georgia Tech
 - Nic Olsen - former UW-Madison student, now at Oshkosh Corporation

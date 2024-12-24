@@ -9,8 +9,8 @@ permalink: /testimonials/
 A list of several past and current Chrono users is provided below. Please let us know if you have used Chrono - a growing list of users increases our chances of keeping Chrono going as an open source and free multi-physics simulation framework.
 
 ### Universities:
-- University of Wisconsin-Madison (USA): Chrono has been use in a variety of applications, see Simulation-Based Engineering Lab web site [link](http://sbel.wisc.edu/)
-- University of Parma (Italy): Chrono has been used in robotics, controls, waste management, masonry structures, etc. [link](http://digitaldynamicslab.unipr.it/index.html)
+- University of Wisconsin-Madison (USA): Chrono is beeing used in vehicle dynamics and terramechanics, autonomous vehicles, extra-terrestrial rover simulation, offshore energy systems, ML and AI, etc. See [Simulation-Based Engineering Lab](http://sbel.wisc.edu/)
+- University of Parma (Italy): Chrono is beeing used in robotics, controls, waste management, masonry structures, etc. See [Digital Dynamics Lab](http://digitaldynamicslab.unipr.it/index.html)
 - Multibody dynamics support in [GPUSPH](http://www.gpusph.org/about/)
 - Multibody dynamics support in [DualSPHysics](https://dual.sphysics.org/)
 - Georgia Tech University (USA): robotics, bio-inspired robots (Dan Goldman) [link](http://crablab.gatech.edu/)
@@ -37,9 +37,12 @@ A list of several past and current Chrono users is provided below. Please let us
 - [Agrointelli](https://www.agrointelli.com/) (Denmark)
 - [Danfoss](https://www.danfoss.com/en/) (Denmark)
 - [GoldWind](https://www.goldwind.com/en/) (China)
+- [AnalyzerPro](https://analyzer.at/) (Austria)
+- [The Last Garage](https://thelastgarage.com/)(the Netherlands)
 
 ### Government labs: 
-- US Army Ground Vehicle Systems Center (USA)
+- NAtional Renewable Energy Lab (USA)
+- U.S. Army Ground Vehicle Systems Center (USA)
 - U.S. Army Engineer Research and Development Center (USA)
 - Argonne National Lab (USA)
 - Jet Propulsion Lab (JPL, USA)
