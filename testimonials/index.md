@@ -42,7 +42,7 @@ A list of several past and current Chrono users is provided below. Please let us
 - [QBlade](https://qblade.org/) (Germany)
 
 ### Government labs: 
-- NAtional Renewable Energy Lab (USA)
+- National Renewable Energy Lab (USA)
 - U.S. Army Ground Vehicle Systems Center (USA)
 - U.S. Army Engineer Research and Development Center (USA)
 - Argonne National Lab (USA)

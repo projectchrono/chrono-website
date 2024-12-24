@@ -35,8 +35,8 @@ Among the other components of the {% include module.html first="PROJECT" second=
 - <a href="https://sbel.wisc.edu/staff/fang-luning/">Luning Fang</a> - Assistant Scientist, University of Wisconsin-Madison, USA
 - <a href="https://sbel.wisc.edu/staff/zhou-jason/">Jason Zhou</a> - PhD Student, University of Wisconsin-Madison, USA
 - <a href="https://sbel.wisc.edu/staff/unjhawala-huzaifa-mustafa/">Huzaifa Mustafa Unjhawala</a> - PhD Student, University of Wisconsin-Madison, USA
-- <a href="https://www.linkedin.com/in/dario-mangoni/?originalSubdomain=it">Dario Mangoni - Postdoc, University of Parma, Italy
-- <a href="https://www.linkedin.com/in/dario-fusai-989268143/?originalSubdomain=it">Dario Fusai - Postdoc, University of Parma, Italy
+- <a href="https://www.linkedin.com/in/dario-mangoni/?originalSubdomain=it">Dario Mangoni</a> - Postdoc, University of Parma, Italy
+- <a href="https://www.linkedin.com/in/dario-fusai-989268143/?originalSubdomain=it">Dario Fusai</a> - Postdoc, University of Parma, Italy
 
 
 <h4>Past developers</h4>
