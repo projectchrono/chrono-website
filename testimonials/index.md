@@ -38,7 +38,8 @@ A list of several past and current Chrono users is provided below. Please let us
 - [Danfoss](https://www.danfoss.com/en/) (Denmark)
 - [GoldWind](https://www.goldwind.com/en/) (China)
 - [AnalyzerPro](https://analyzer.at/) (Austria)
-- [The Last Garage](https://thelastgarage.com/)(the Netherlands)
+- [The Last Garage](https://thelastgarage.com/) (the Netherlands)
+- [QBlade](https://qblade.org/) (Germany)
 
 ### Government labs: 
 - NAtional Renewable Energy Lab (USA)
