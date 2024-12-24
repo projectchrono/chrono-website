@@ -66,10 +66,11 @@ Chrono::SolidWorks
 ==================
 
 This optional tool can be installed as an add-in for the [SolidWorks](http://www.SolidWorks.com) CAD software.
-After installation of this add-in, a new exporter tool is availabnle in the right panel of SolidWorks: this can be used to generate .py files with PyChrono scene descriptions containing masses, constraints, etc.
 
-The installer automatically detects the SolidWorks installation (SolidWorks v.2021 is tested and known to work at the moment, but other version may also work) and adds the
-Chrono add-in.
+The provided installer automatically detects the SolidWorks application running on the computer (SolidWorks v.2023 is tested and known to work at the moment, but other versions may work as well) and registers the Chrono::SolidWorks add-in.
+After installation, the tool is available in the right panel of SolidWorks: this can be used to export CAD assemblies into Chrono-compatible formats or to simulate them directly from SolidWorks.
+
+
 
 <div class="well">
 
@@ -77,9 +78,7 @@ Chrono add-in.
 
 [Chrono::SolidWorks add-in](https://www.projectchrono.org/assets/installers/Chrono_SolidWorks_current.exe) compatible with the current development branch of Chrono.
 
-[Chrono::SolidWorks add-in](https://www.projectchrono.org/assets/installers/Chrono_SolidWorks_previous.exe) compatible with the development branch of Chrono up to and including commit [#37ef79d](https://github.com/projectchrono/chrono/tree/37ef79d3801db3d8ef16a21cd9495bacbfbd8701).
-
-Versions of the Chrono::SolidWorks add-in compatible with previous Chrono releases can be downloaded from the [GiHub Releases](https://github.com/projectchrono/chrono/releases) page.<br>
+Versions of the Chrono::SolidWorks add-in compatible with specific Chrono releases can be downloaded from the [GiHub Releases](https://github.com/projectchrono/chrono/releases) page.<br>
 </div>
 
 <br>
