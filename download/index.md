@@ -22,6 +22,15 @@ Download precompiled binaries
 
 We also provide both container images and precompiled binaries if you want to skip the build process:
 
+## Precompiled libraries
+
+Chrono binaries are offered as a portable zip file that shall be extracted in your machine. Almost all modules are available, however dependencies shall be provided separately by the user.  
+The package is offered "as-is" and might not fit all computer architectures.
+
+- [Win64](https://uwsbel.gitlab.io/chrono/chrono_install_win64.zip)
+
+## Docker containers
+
 ### Windows, Mac, and Linux users:
 The latest release of Project Chrono is available as a [Docker](https://www.docker.com/products/docker-desktop) image.
 <div class="well">
