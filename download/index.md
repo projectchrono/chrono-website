@@ -61,7 +61,7 @@ PyChrono
 We support installation of PyChrono via the **conda** installer:
 
 ```
-conda install -c projectchrono pychrono
+conda install projectchrono::pychrono -c conda-forge
 ```
 
 For more details on the installation, refer to the 
@@ -87,7 +87,7 @@ After installation, the tool is available in the right panel of SolidWorks: this
 
 [Chrono::SolidWorks add-in](https://www.projectchrono.org/assets/installers/Chrono_SolidWorks_current.exe) compatible with the current development branch of Chrono.
 
-Versions of the Chrono::SolidWorks add-in compatible with specific Chrono releases can be downloaded from the [GiHub Releases](https://github.com/projectchrono/chrono/releases) page.<br>
+Versions of the Chrono::SolidWorks add-in compatible with specific Chrono releases can be downloaded from the [GitHub Releases](https://github.com/projectchrono/chrono/releases) page.<br>
 </div>
 
 <br>
@@ -103,7 +103,7 @@ The following list contains useful third-party tools and libraries for building 
 ### C++ compiler
 
 A C++ compiler is **required** in order to build
-Chrono libraries and demos. Chrono requires a C++11 compliant compiler. The Chrono building process has been tested with Microsoft compilers (required version Visual Studio v.2013 or later), GNU compilers, and Intel compilers.
+Chrono libraries and demos. Chrono requires a C++14 compliant compiler. The Chrono building process has been tested with Microsoft compilers (required version Visual Studio v.2022 or later), GNU compilers, and Intel compilers.
 
 <div class="ce-info">
 
@@ -111,27 +111,28 @@ In case you do not have a C++ compiler already installed on your computer, you c
 
 * Windows
 
-  * [Microsoft C++, in Visual Studio](https://www.visualstudio.com)  (suggested; the Community edition is also free)
-
-  * [MingW GNU C++](http://www.mingw.org/wiki/InstallationHOWTOforMinGW)
+  * [Microsoft C++, in Visual Studio](https://visualstudio.microsoft.com/)  (suggested; the Community edition is also free)
 
 * Linux
 
-  * On most distributions, the GNU gcc compiler should be already installed by default. If not, install with:  
+  * [GCC](http://gcc.gnu.org) On most distributions, the GNU gcc compiler should be already installed by default. If not, install with:  
 	```
 	sudo apt-get install gcc build-essential
 	```  
-    (assuming you have Ubuntu)
+    (assuming you have Ubuntu) or download from [http://gcc.gnu.org](http://gcc.gnu.org)
+  
+  * [Clang](https://clang.llvm.org/) Clang is easily accessible on most distributions through package manager. (Assuming you have ubuntu), it can be installed with:
+  ```
+  sudo apt-get install clang
+  ```
 
-  * or download from [http://gcc.gnu.org](http://gcc.gnu.org)
+* macOS
+
+  * [Clang](https://clang.llvm.org/) Clang can be installed on macOS through Xcode Command Line Tools by running 
+  ```
+  xcode-select --install
+  ```
 </div>
-
-<div class="ce-danger">
-The initial release of Visual Studio 2015 gives an
-error when compiling Chrono. Using **update 2** of Visual Studio 2015 fixes this problem (download it from
-[this page](https://www.visualstudio.com/en-us/news/vs2015-update2-vs.aspx). )
-</div>
-
 
 ### GIT client
 
@@ -162,6 +163,13 @@ The new release v.1.8.2 of Irrlicht is tested to be stable and working well with
 Release v.1.8.3 does not contain the precompiled 64bit dlls.  
 Release v.1.8.0 has some issues with soft shadows.
 {:info}
+
+### VulkanSceneGraph (VSG)
+
+The [VulkanSceneGraph](https://github.com/vsg-dev/VulkanSceneGraph) library
+is **required** in order to compile the Chrono demos that use the **VSG module**
+3D visualization. It is a cross-platform 3D visualization library, based
+on Vulkan. Download it from [this site](https://github.com/vsg-dev/VulkanSceneGraph/releases/tag/v1.1.11).
 
 
 ### Matlab
