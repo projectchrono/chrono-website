@@ -7,6 +7,33 @@ permalink: /news/
 <h2> News</h2>
 
 <div class = "well">
+	<p>27 March 2026 -- Chrono 10.0.0 released</p>
+	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
+	<div class="media-body">
+	We have released version 10.0.0 of the Chrono package.
+
+	The code for the release can be obtained from GitHub under the <a href="https://github.com/projectchrono/chrono/tree/release/10.0" > release/10.0 branch</a>.
+	Development will continue in the 'main' branch.
+	<br><br>
+	For a list of the main changes in release 10.0.0, consult the <a href="https://github.com/projectchrono/chrono/blob/release/10.0/CHANGELOG.md">Change Log</a> page.  New capabilities include:<br>
+	- refactored Chrono::FSI module with support for both an SPH-based and TDPF-based fluid solvers<br>
+	- simulation of meshless material with the peridynamics approach (new Chrono::Peridynamics module)<br>
+	- new camera sensor features in the Chrono::Sensor module<br>
+	- support for checkpointing for Chrono and Chrono::Vehicle simulations<br>
+	- new Jacobian update startegies for implicit integrators<br>
+	- new features in the VSG-based run-time visualization system, including a mechanism for extensions via a plugin mechanism<br>
+	- refactored build system using modern CMake<br>
+	<br><br>
+	Documentation for the 10.0.0 release can be accessed at
+	<a href="http://api.projectchrono.org/10.0.0/"> http://api.projectchrono.org/9.0.0 </a> and for the previous 9.0.0 release at
+	<a href="http://api.projectchrono.org/9.0.0/"> http://api.projectchrono.org/8.0.0 </a>
+	Documentation for the 'main' branch (automatically generated with each push to GitHub) is at
+	<a href = "http://api.projectchrono.org/development/">http://api.projectchrono.org/development</a>.
+	<br><br>
+	</div>
+</div>
+
+<div class = "well">
 	<p>20 May 2024 -- Chrono 9.0.0 released</p>
 	<a class="media-left" href="http://projectchrono.org"> <img src="/images/news/Logo_chrono_engine_h90.png" style="width=100px"> </a>
 	<div class="media-body">
