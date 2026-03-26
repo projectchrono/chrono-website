@@ -20,16 +20,16 @@ permalink: /news/
 	- simulation of meshless material with the peridynamics approach (new Chrono::Peridynamics module)<br>
 	- new camera sensor features in the Chrono::Sensor module<br>
 	- support for checkpointing for Chrono and Chrono::Vehicle simulations<br>
-	- new Jacobian update startegies for implicit integrators<br>
+	- new Jacobian update strategies for implicit integrators<br>
 	- new features in the VSG-based run-time visualization system, including a mechanism for extensions via a plugin mechanism<br>
 	- refactored build system using modern CMake<br>
-	<br><br>
+	<br>
 	Documentation for the 10.0.0 release can be accessed at
-	<a href="http://api.projectchrono.org/10.0.0/"> http://api.projectchrono.org/9.0.0 </a> and for the previous 9.0.0 release at
-	<a href="http://api.projectchrono.org/9.0.0/"> http://api.projectchrono.org/8.0.0 </a>
+	<a href="http://api.projectchrono.org/10.0.0/"> http://api.projectchrono.org/10.0.0 </a> and for the previous 9.0.0 release at
+	<a href="http://api.projectchrono.org/9.0.0/"> http://api.projectchrono.org/9.0.0 </a>.
 	Documentation for the 'main' branch (automatically generated with each push to GitHub) is at
 	<a href = "http://api.projectchrono.org/development/">http://api.projectchrono.org/development</a>.
-	<br><br>
+	<br>
 	</div>
 </div>
 
@@ -53,10 +53,10 @@ permalink: /news/
 	<br><br>
 	Documentation for the 9.0.0 release can be accessed at
 	<a href="http://api.projectchrono.org/9.0.0/"> http://api.projectchrono.org/9.0.0 </a> and for the previous 8.0.0 release at
-	<a href="http://api.projectchrono.org/8.0.0/"> http://api.projectchrono.org/8.0.0 </a>
+	<a href="http://api.projectchrono.org/8.0.0/"> http://api.projectchrono.org/8.0.0 </a>.
 	Documentation for the 'main' branch (automatically generated with
 	each push to GitHub) is at <a href = "http://api.projectchrono.org/development/">http://api.projectchrono.org/development</a>.
-	<br><br>
+	<br>
 	</div>
 </div>
 
@@ -76,7 +76,7 @@ permalink: /news/
 	<a href="http://api.projectchrono.org/7.0.0/"> http://api.projectchrono.org/7.0.0 </a>
 	Documentation for the 'main' branch (automatically generated with
 	each push to GitHub) is at <a href = "http://api.projectchrono.org/development/">http://api.projectchrono.org/development</a>.
-	<br><br>
+	<br>
 	</div>
 </div>
 
